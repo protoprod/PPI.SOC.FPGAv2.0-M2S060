@@ -1,0 +1,23 @@
+*-5.0 8160 8160 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+@421
+m2s010_som.identify_cycle
+@28
+m2s010_som.identify_sampleclock
+@820
+m2s010_som.rtl.m2s010_som_sb_0.mac_mii_mdo_en
+m2s010_som.rtl.m2s010_som_sb_0.mac_mii_mdo
+m2s010_som.rtl.m2s010_som_sb_0.mac_mii_mdi
+m2s010_som.d_txen
+@28
+m2s010_som.d_txd[3:0]
+@820
+m2s010_som.d_mdc
+m2s010_som.d_txc
+m2s010_som.d_rxer
+m2s010_som.d_rxdv
+@28
+m2s010_som.d_rxd[3:0]
+@820
+m2s010_som.d_rxc
+m2s010_som.d_crs
+m2s010_som.d_col

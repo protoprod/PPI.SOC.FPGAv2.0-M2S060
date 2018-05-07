@@ -1,0 +1,40 @@
+INFO: Using Synplify installation C:/Microsemi/Libero_v11.6/Synopsys/fpga_J-2015.03M-3/lib for variable $LIB.
+INFO: Added instrumentation 'synthesis_1' to the project
+WARNING: CommsFPGA_top.vhd(255): Process `bit_clock_gen' contains an inner conditional statement which is sensitive to a clock edge
+WARNING: No breakpoints will be detected in this process
+WARNING: CommsFPGA_top.vhd(269): Process `clock_gen' contains an inner conditional statement which is sensitive to a clock edge
+WARNING: No breakpoints will be detected in this process
+WARNING: uP_if.vhd(215): Process `ready_delay_proc' contains an inner conditional statement which is sensitive to a clock edge
+WARNING: No breakpoints will be detected in this process
+WARNING: coreresetp.vhd(1368): Process `process_1368' is sensitive to a clock edge, but contains multiple top-level conditional statements
+WARNING: No breakpoints will be detected in this process
+INFO: Current design is m2s010_som
+INFO: Loading instrumentation 'synthesis_1'
+INFO: iice new IICE -type regular
+INFO: iice current IICE
+INFO: iice controller -iice IICE none
+INFO: iice sampler -iice IICE -depth 1024
+Setting sampledepth to 1024 for IICE named IICE
+INFO: signals add -iice IICE -silent -trigger -sample /rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER_INST/rx_packet_avail /rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER_INST/rx_packet_complt /rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER_INST/rx_packet_end /rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER_INST/v1/AFE_RX_STATE_MACHINE/behavioral/afe_rx_state /rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER_INST/v1/ReadFIFO_Write_SM_PROC/behavioral/readfifo_wr_state /rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER_INST/v1/rx_packet_end_all /rtl/CommsFPGA_top_0/behavioral/MANCHESTER_ENCODER_INST/tx_packet_complt /rtl/CommsFPGA_top_0/behavioral/PROCESSOR_INTERFACE_INST/behavioral/INTERRUPT_INST/behavioral/rx_fifo_overflow_int /rtl/CommsFPGA_top_0/behavioral/PROCESSOR_INTERFACE_INST/behavioral/INTERRUPT_INST/behavioral/rx_fifo_underrun_int /rtl/CommsFPGA_top_0/behavioral/PROCESSOR_INTERFACE_INST/behavioral/rx_packet_depth /rtl/CommsFPGA_top_0/behavioral/PROCESSOR_INTERFACE_INST/behavioral/rx_packet_depth_status /rtl/CommsFPGA_top_0/behavioral/PROCESSOR_INTERFACE_INST/rx_fifo_overflow /rtl/CommsFPGA_top_0/behavioral/PROCESSOR_INTERFACE_INST/rx_fifo_underrun /rtl/CommsFPGA_top_0/behavioral/rx_fifo_din_pipe /rtl/CommsFPGA_top_0/behavioral/rx_fifo_txcoldetdis_wr_en
+INFO: iice clock -iice IICE -edge positive /rtl/CommsFPGA_top_0/clk
+Setting clock to /rtl/CommsFPGA_top_0/clk for IICE named IICE
+INFO: iice new IICE_0 -type regular
+INFO: iice current IICE_0
+INFO: iice controller -iice IICE_0 none
+INFO: iice sampler -iice IICE_0 -depth 1024
+Setting sampledepth to 1024 for IICE named IICE_0
+INFO: signals add -iice IICE_0 -silent -trigger -sample /rtl/CommsFPGA_top_0/apb3_addr /rtl/CommsFPGA_top_0/apb3_enable /rtl/CommsFPGA_top_0/apb3_rdata /rtl/CommsFPGA_top_0/apb3_ready /rtl/CommsFPGA_top_0/apb3_sel /rtl/CommsFPGA_top_0/apb3_wdata /rtl/CommsFPGA_top_0/apb3_write /rtl/CommsFPGA_top_0/behavioral/PROCESSOR_INTERFACE_INST/behavioral/INTERRUPT_INST/behavioral/int_reg_clr /rtl/CommsFPGA_top_0/behavioral/PROCESSOR_INTERFACE_INST/behavioral/INTERRUPT_INST/behavioral/tx_fifo_underrun_int /rtl/CommsFPGA_top_0/behavioral/PROCESSOR_INTERFACE_INST/behavioral/INTERRUPT_INST/int /rtl/CommsFPGA_top_0/behavioral/PROCESSOR_INTERFACE_INST/behavioral/INTERRUPT_INST/int_reg /rtl/CommsFPGA_top_0/behavioral/bit_clk /rtl/CommsFPGA_top_0/behavioral/start_tx_fifo /rtl/CommsFPGA_top_0/behavioral/tx_enable /rtl/CommsFPGA_top_0/behavioral/tx_fifo_empty
+INFO: iice clock -iice IICE_0 -edge positive /rtl/CommsFPGA_top_0/behavioral/PROCESSOR_INTERFACE_INST/behavioral/INTERRUPT_INST/apb3_clk
+Setting clock to /rtl/CommsFPGA_top_0/behavioral/PROCESSOR_INTERFACE_INST/behavioral/INTERRUPT_INST/apb3_clk for IICE named IICE_0
+INFO: iice current IICE
+INFO: write instrumentation -save_orig_src -idc_only
+INFO: Instrumenting design `m2s010_som' in directory C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_3/synthesis/synthesis_1
+INFO: Current instrumentation information: 	IICE=IICE 
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 44
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 0, Sample and trigger 44
+	IICE=IICE_0 
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 43
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 0, Sample and trigger 43
+

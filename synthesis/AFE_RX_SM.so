@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>AFE_RX_SM</design>
+	<target_edif>C:\work\IRail\PPI.IRail.SoC.FPGA\synthesis\AFE_RX_SM.edn</target_edif>
+</SynplifyOutput>

@@ -1,0 +1,88 @@
+
+fsm_encoding {4514961491} onehot
+
+fsm_state_encoding {4514961491} idle {000000001}
+
+fsm_state_encoding {4514961491} tx_early_txen {000000010}
+
+fsm_state_encoding {4514961491} tx_preamble_st {000000100}
+
+fsm_state_encoding {4514961491} tx_data_st {000001000}
+
+fsm_state_encoding {4514961491} tx_start_st {000010000}
+
+fsm_state_encoding {4514961491} tx_data_end_st1 {000100000}
+
+fsm_state_encoding {4514961491} tx_data_end_st2 {001000000}
+
+fsm_state_encoding {4514961491} tx_postamble_st {010000000}
+
+fsm_state_encoding {4514961491} tx_end_st {100000000}
+
+fsm_registers {4514961491} {TX_STATE[0]}  {TX_STATE[1]}  {TX_STATE[2]}  {TX_STATE[3]}  {TX_STATE[4]}  {TX_STATE[5]}  {TX_STATE[6]}  {TX_STATE[7]}  {TX_STATE[8]} 
+
+fsm_encoding {914961492} onehot
+
+fsm_state_encoding {914961492} idle {00001}
+
+fsm_state_encoding {914961492} carrier_detect_st {00010}
+
+fsm_state_encoding {914961492} start_bit_st {00100}
+
+fsm_state_encoding {914961492} packet_in_st {01000}
+
+fsm_state_encoding {914961492} early_term {10000}
+
+fsm_registers {914961492} {AFE_RX_STATE[0]}  {AFE_RX_STATE[1]}  {AFE_RX_STATE[2]}  {AFE_RX_STATE[3]}  {AFE_RX_STATE[4]} 
+
+fsm_encoding {4327862783} onehot
+
+fsm_state_encoding {4327862783} idle {0000000001}
+
+fsm_state_encoding {4327862783} hdr_byte1 {0000000010}
+
+fsm_state_encoding {4327862783} hdr_byte2 {0000000100}
+
+fsm_state_encoding {4327862783} hdr_byte3 {0000001000}
+
+fsm_state_encoding {4327862783} data_bytes {0000010000}
+
+fsm_state_encoding {4327862783} early_term {0000100000}
+
+fsm_state_encoding {4327862783} store_high_crc {0001000000}
+
+fsm_state_encoding {4327862783} store_low_crc {0010000000}
+
+fsm_state_encoding {4327862783} crc_check_st {0100000000}
+
+fsm_state_encoding {4327862783} rx_end {1000000000}
+
+fsm_registers {4327862783} {ReadFIFO_WR_STATE[0]}  {ReadFIFO_WR_STATE[1]}  {ReadFIFO_WR_STATE[2]}  {ReadFIFO_WR_STATE[3]}  {ReadFIFO_WR_STATE[4]}  {ReadFIFO_WR_STATE[5]}  {ReadFIFO_WR_STATE[6]}  {ReadFIFO_WR_STATE[7]}  {ReadFIFO_WR_STATE[8]}  {ReadFIFO_WR_STATE[9]} 
+
+fsm_encoding {2851785174} sequential
+
+fsm_state_encoding {2851785174} s0 {00}
+
+fsm_state_encoding {2851785174} s1 {01}
+
+fsm_state_encoding {2851785174} s2 {10}
+
+fsm_registers {2851785174} {state[1]}  {state[0]} 
+
+fsm_encoding {6310598105910} onehot
+
+fsm_state_encoding {6310598105910} s0 {0000001}
+
+fsm_state_encoding {6310598105910} s1 {0000010}
+
+fsm_state_encoding {6310598105910} s2 {0000100}
+
+fsm_state_encoding {6310598105910} s3 {0001000}
+
+fsm_state_encoding {6310598105910} s4 {0010000}
+
+fsm_state_encoding {6310598105910} s5 {0100000}
+
+fsm_state_encoding {6310598105910} s6 {1000000}
+
+fsm_registers {6310598105910} {sm0_state[0]}  {sm0_state[1]}  {sm0_state[2]}  {sm0_state[3]}  {sm0_state[4]}  {sm0_state[5]}  {sm0_state[6]} 

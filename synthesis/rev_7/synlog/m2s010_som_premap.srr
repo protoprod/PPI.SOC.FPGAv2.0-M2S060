@@ -1,0 +1,215 @@
+# Fri Sep 01 09:04:20 2017
+
+Synopsys Generic Technology Pre-mapping, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_7\m2s010_som_scck.rpt 
+Printing clock  summary report in "C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_7\m2s010_som_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 119MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 119MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 119MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 119MB)
+
+@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.release_ext_reset because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.SDIF_READY_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.sm1_areset_n_clk_base is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF0_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF1_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF2_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF3_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF0_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF1_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF2_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF3_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1331:8:1331:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance FDDR_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF0_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF1_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF2_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF3_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Removing sequential instance EXT_RESET_OUT_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance DDR_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance FDDR_CORE_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\hdl\afe_rx_sm.vhd":149:6:149:7|Removing sequential instance rx_packet_avail (in view: work.AFE_RX_SM(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|Removing sequential instance afull_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_0(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|Removing sequential instance afull_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_1(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|Removing sequential instance afull_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_2(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|Removing sequential instance afull_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Removing sequential instance sm2_state[0:1] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance sdif0_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance sdif1_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance sdif2_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance sdif3_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|Removing sequential instance afull_r (in view: corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Removing sequential instance sm2_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|Removing sequential instance underflow_r (in view: corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|Removing sequential instance overflow_r (in view: corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Removing sequential instance sm2_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|Removing sequential instance overflow_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|Removing sequential instance overflow_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_2(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|Removing sequential instance overflow_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_1(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|Removing sequential instance overflow_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_0(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+syn_allowed_resources : blockrams=69  set on top level netlist m2s010_som
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 147MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                                                 Requested     Requested     Clock        Clock                   Clock
+Clock                                                                 Frequency     Period        Type         Group                   Load 
+--------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top|BIT_CLK_inferred_clock                                  100.0 MHz     10.000        inferred     Inferred_clkgroup_7     294  
+System                                                                100.0 MHz     10.000        system       system_clkgroup         9    
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock                100.0 MHz     10.000        inferred     Inferred_clkgroup_5     616  
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock                100.0 MHz     10.000        inferred     Inferred_clkgroup_6     4    
+m2s010_som_sb_CAM_SPI_1_CLK_IO|Y_inferred_clock[0]                    100.0 MHz     10.000        inferred     Inferred_clkgroup_8     1    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       100.0 MHz     10.000        inferred     Inferred_clkgroup_1     775  
+m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_4     31   
+m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     109  
+m2s010_som|MAC_MII_RX_CLK                                             100.0 MHz     10.000        inferred     Inferred_clkgroup_3     1    
+m2s010_som|MAC_MII_TX_CLK                                             100.0 MHz     10.000        inferred     Inferred_clkgroup_2     1    
+============================================================================================================================================
+
+@W: MT532 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\hdl\up_if.vhd":598:8:598:9|Found signal identified as System clock which controls 9 sequential elements including CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[7:0].  Using this clock, which has no specified timing constraint, can adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":517:8:517:9|Found inferred clock m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock which controls 109 sequential elements including m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY_0. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\hdl\interrupts.vhd":411:6:411:7|Found inferred clock m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 775 sequential elements including CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.INTERRUPT_INST.iINT. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\m2s010_som_sb_mss\m2s010_som_sb_mss.vhd":2268:0:2268:13|Found inferred clock m2s010_som|MAC_MII_TX_CLK which controls 1 sequential elements including m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\m2s010_som_sb_mss\m2s010_som_sb_mss.vhd":2268:0:2268:13|Found inferred clock m2s010_som|MAC_MII_RX_CLK which controls 1 sequential elements including m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Found inferred clock m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock which controls 31 sequential elements including m2s010_som_sb_0.CORERESETP_0.count_ddr[13:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\hdl\up_if.vhd":709:6:709:7|Found inferred clock m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock which controls 616 sequential elements including CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.RX_packet_depth[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\hdl\manchesencoder.vhd":156:4:156:5|Found inferred clock m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock which controls 4 sequential elements including CommsFPGA_top_0.MANCHESTER_ENCODER_INST.MANCHESTER_OUT. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\hdl\debounce.vhd":49:4:49:5|Found inferred clock CommsFPGA_top|BIT_CLK_inferred_clock which controls 294 sequential elements including CommsFPGA_top_0.TRIPLE_DEBOUNCE_INST.DEBOUNCE_0_INST.debounce_cntr_0[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\m2s010_som_sb_mss\m2s010_som_sb_mss.vhd":2268:0:2268:13|Found inferred clock m2s010_som_sb_CAM_SPI_1_CLK_IO|Y_inferred_clock[0] which controls 1 sequential elements including m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_7\m2s010_som.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 147MB)
+
+Encoding state machine Idle_Debug_SM[0:4] (in view: work.IdleLineDetector_0(behavioral))
+original code -> new code
+   0000 -> 00001
+   0001 -> 00010
+   0010 -> 00100
+   0011 -> 01000
+   0100 -> 10000
+Encoding state machine TX_STATE[0:8] (in view: work.TX_SM(behavioral))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+Encoding state machine Idle_Debug_SM[0:4] (in view: work.IdleLineDetector_1(behavioral))
+original code -> new code
+   0000 -> 00001
+   0001 -> 00010
+   0010 -> 00100
+   0011 -> 01000
+   0100 -> 10000
+Encoding state machine AFE_RX_STATE[0:4] (in view: work.AFE_RX_SM(behavioral))
+original code -> new code
+   000001 -> 00001
+   000010 -> 00010
+   000100 -> 00100
+   001000 -> 01000
+   100000 -> 10000
+Encoding state machine ReadFIFO_WR_STATE[0:9] (in view: work.ReadFIFO_Write_SM(behavioral))
+original code -> new code
+   00000000001 -> 0000000001
+   00000000010 -> 0000000010
+   00000000100 -> 0000000100
+   00000001000 -> 0000001000
+   00000100000 -> 0000010000
+   00001000000 -> 0000100000
+   00010000000 -> 0001000000
+   00100000000 -> 0010000000
+   01000000000 -> 0100000000
+   10000000000 -> 1000000000
+Encoding state machine state[0:2] (in view: work.CoreConfigP(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine sm0_state[0:6] (in view: work.CoreResetP(rtl))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance paddr[11] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[16] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[17] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[18] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[19] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[20] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[21] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[22] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[23] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[24] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[25] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[26] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[27] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[28] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[29] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[30] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[31] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 149MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 61MB peak: 149MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Sep 01 09:04:20 2017
+
+###########################################################]

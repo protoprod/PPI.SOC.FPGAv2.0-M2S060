@@ -1,0 +1,82 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. m2s010_som, 1799, 1188, 754, 0, 0, 5, 0, 18, 122
+.	. CommsFPGA_top, 1675, 1104, 740, 0, 0, 5, 0, 9, 0
+.	.	. FIFOs, 793, 381, 370, 0, 0, 5, 0, 2, 0
+.	.	.	. FIFO_2Kx8, 156, 73, 72, 0, 0, 1, 0, 0, 0
+.	.	.	.	. FIFO_2Kx8_FIFO_2Kx8_0_COREFIFO, 156, 73, 72, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	. FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async, 144, 62, 72, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_2Kx8_FIFO_2Kx8_0_corefifo_doubleSync_0, 24, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_2Kx8_FIFO_2Kx8_0_corefifo_doubleSync_1, 24, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_2Kx8_FIFO_2Kx8_0_corefifo_grayToBinConv, 0, 11, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_2Kx8_FIFO_2Kx8_0_corefifo_grayToBinConv_0, 0, 12, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	. FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	. FIFO_8Kx9, 158, 74, 71, 0, 0, 1, 0, 0, 0
+.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO, 158, 74, 71, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3, 145, 63, 71, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync, 24, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_0, 24, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3, 0, 13, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_0, 0, 11, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	. FIFO_8Kx9_0, 158, 73, 71, 0, 0, 1, 0, 0, 0
+.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_0, 158, 73, 71, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_0, 145, 63, 71, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_0_0, 24, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_1, 24, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_1, 0, 13, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_2, 0, 11, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper_0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top_0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	. FIFO_8Kx9_1, 158, 73, 71, 0, 0, 1, 0, 0, 0
+.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_1, 158, 73, 71, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_1, 145, 63, 71, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_0_1, 24, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_2, 24, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_3, 0, 13, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_4, 0, 11, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper_1, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top_1, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	. FIFO_8Kx9_2, 158, 73, 71, 0, 0, 1, 0, 0, 0
+.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_2, 158, 73, 71, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_2, 145, 63, 71, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_0_2, 24, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_3, 24, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_5, 0, 13, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_6, 0, 11, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper_2, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	.	.	.	. FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top_2, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	. ManchesDecoder, 232, 188, 99, 0, 0, 0, 0, 2, 0
+.	.	.	. AFE_RX_SM, 16, 17, 9, 0, 0, 0, 0, 0, 0
+.	.	.	. ManchesDecoder_Adapter, 77, 32, 30, 0, 0, 0, 0, 0, 0
+.	.	.	.	. IdleLineDetector_1, 49, 16, 30, 0, 0, 0, 0, 0, 0
+.	.	.	. ReadFIFO_Write_SM, 139, 139, 60, 0, 0, 0, 0, 2, 0
+.	.	.	.	. CRC16_Generator_1, 16, 13, 0, 0, 0, 0, 0, 0, 0
+.	.	. ManchesEncoder, 242, 205, 93, 0, 0, 0, 0, 2, 0
+.	.	.	. CRC16_Generator_0, 16, 13, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. TX_Collision_Detector, 79, 98, 0, 0, 0, 0, 0, 1, 0
+.	.	.	. TX_SM, 135, 70, 93, 0, 0, 0, 0, 0, 0
+.	.	.	.	. IdleLineDetector_0, 49, 15, 30, 0, 0, 0, 0, 0, 0
+.	.	. TriDebounce, 54, 45, 48, 0, 0, 0, 0, 0, 0
+.	.	.	. Debounce, 18, 15, 16, 0, 0, 0, 0, 0, 0
+.	.	.	. Debounce_0, 18, 15, 16, 0, 0, 0, 0, 0, 0
+.	.	.	. Debounce_1, 18, 15, 16, 0, 0, 0, 0, 0, 0
+.	.	. uP_if, 337, 268, 122, 0, 0, 0, 0, 0, 0
+.	.	.	. Interrupts, 45, 23, 0, 0, 0, 0, 0, 0, 0
+.	. CoreAPB3, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	. m2s010_som_CommsFPGA_CCC_0_FCCC, 0, 0, 0, 0, 0, 0, 0, 2, 0
+.	. m2s010_som_ID_RES_0_IO, 0, 0, 0, 0, 0, 0, 0, 0, 4
+.	. m2s010_som_sb, 124, 82, 14, 0, 0, 0, 0, 6, 79
+.	.	. CoreConfigP, 74, 64, 0, 0, 0, 0, 0, 0, 0
+.	.	. CoreResetP, 50, 17, 14, 0, 0, 0, 0, 2, 0
+.	.	. m2s010_som_sb_CAM_SPI_1_CLK_IO, 0, 0, 0, 0, 0, 0, 0, 0, 1
+.	.	. m2s010_som_sb_CAM_SPI_1_SS0_IO, 0, 0, 0, 0, 0, 0, 0, 0, 1
+.	.	. m2s010_som_sb_CCC_0_FCCC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. m2s010_som_sb_FABOSC_0_OSC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. m2s010_som_sb_GPIO_1_IO, 0, 0, 0, 0, 0, 0, 0, 0, 1
+.	.	. m2s010_som_sb_GPIO_6_IO, 0, 0, 0, 0, 0, 0, 0, 0, 1
+.	.	. m2s010_som_sb_GPIO_7_IO, 0, 0, 0, 0, 0, 0, 0, 0, 1
+.	.	. m2s010_som_sb_MSS, 0, 1, 0, 0, 0, 0, 0, 2, 71
+.	.	. m2s010_som_sb_OTH_SPI_1_SS0_IO, 0, 0, 0, 0, 0, 0, 0, 0, 1

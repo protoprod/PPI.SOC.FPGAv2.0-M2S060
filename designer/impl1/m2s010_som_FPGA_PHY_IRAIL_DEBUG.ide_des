@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\impl1\m2s010_som_FPGA_PHY_IRAIL_DEBUG.adb"
+LIST SOURCE_FILES
+VALUE "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\FPGA_PHY_IRAIL_DEBUG\m2s010_som.edn;edn"
+VALUE "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\constraint\io\m2s010_som.io.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\FPGA_PHY_IRAIL_DEBUG\m2s010_som_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

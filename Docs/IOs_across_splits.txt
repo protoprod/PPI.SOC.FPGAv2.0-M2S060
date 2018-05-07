@@ -1,0 +1,354 @@
+
+Okay = Okay to route over split power planes
+no = do not route over split power planes
+
+reserve -pinname AA15	- okay
+reserve -pinname AB15	- okay 
+reserve -pinname AB18	- okay
+reserve -pinname AB19	- okay
+reserve -pinname B1		- okay
+reserve -pinname B22	- no
+reserve -pinname C9		- no
+reserve -pinname D1		- okay
+reserve -pinname D2		- okay
+reserve -pinname D9		- no
+reserve -pinname E1		- okay
+reserve -pinname E2		- okay
+reserve -pinname E21	- no
+reserve -pinname E22	- no
+reserve -pinname E7		- no	
+reserve -pinname E8		- no
+reserve -pinname F18	- no
+reserve -pinname F19	- no
+reserve -pinname F20	- no
+reserve -pinname F21	- no
+reserve -pinname F3		- okay
+reserve -pinname F4		- okay
+reserve -pinname F8		- no
+reserve -pinname G1		- okay
+reserve -pinname G19	- okay
+reserve -pinname G7		- okay
+reserve -pinname H1		- okay
+reserve -pinname H4		- okay
+reserve -pinname H5		- okay
+reserve -pinname H6		- okay
+reserve -pinname H7		- okay
+reserve -pinname J18	- okay
+reserve -pinname J4		- okay
+reserve -pinname J6		- okay
+reserve -pinname K15	- okay
+reserve -pinname K16	- okay
+reserve -pinname K17	- okay
+reserve -pinname K18	- okay
+reserve -pinname K20	- okay
+reserve -pinname K21	- okay
+reserve -pinname L16	- okay
+reserve -pinname L18	- okay
+reserve -pinname L19	- okay
+reserve -pinname N16	- okay
+reserve -pinname N17	- okay
+reserve -pinname P16	- okay
+reserve -pinname P17	- okay
+reserve -pinname P18	- okay
+reserve -pinname V13	- okay
+reserve -pinname V14	- okay
+reserve -pinname V16	- okay
+reserve -pinname W14	- okay
+reserve -pinname W15	- okay
+reserve -pinname W17	- okay
+reserve -pinname W9 	- okay
+reserve -pinname Y14	- no
+reserve -pinname Y15	- okay
+reserve -pinname Y18	- okay
+reserve -pinname Y19	- no
+
+
+set_io DRVR_EN         \
+    -pinname U19       \ - no
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io DormantREQn    \
+    -pinname J1       \	- no
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io EngageREQn     \
+    -pinname J2       \	- no
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io HOST_DETn      \
+    -pinname J3       \ - okay
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io H_COL           \
+    -pinname C1        \ - no
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io H_CRS           \
+    -pinname E5        \ - no
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io H_MDC          \
+    -pinname K7       \ - no
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io H_MDIO          \
+    -pinname K6        \ - no
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io H_RXC           \
+    -pinname B2        \ - no
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io H_RXDV          \
+    -pinname A2        \ - no
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {H_RXD[0]}      \
+    -pinname D4        \ - no
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {H_RXD[1]}      \
+    -pinname D3        \ - no
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {H_RXD[2]}      \
+    -pinname F6        \ - no
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {H_RXD[3]}      \
+    -pinname F5        \ - no
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io H_RXER          \
+    -pinname E4        \ - no
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io H_TXC           \
+    -pinname G5        \ - no
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {H_TXD[0]}     \
+    -pinname B3       \ - no
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {H_TXD[1]}     \
+    -pinname C3       \ - no
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {H_TXD[2]}     \
+    -pinname D5       \ - no
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {H_TXD[3]}     \
+    -pinname C4       \ - no
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io H_TXEN         \
+    -pinname G6       \ - no
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io MAC_MII_COL    \
+    -pinname T13      \ - no
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io MAC_MII_CRS    \
+    -pinname U13      \ - no
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io MAC_MII_MDC     \
+    -pinname U14       \ - no
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io MAC_MII_MDIO   \
+    -pinname U15      \ - no
+    -fixed yes        \
+    -DIRECTION INOUT
+
+
+set_io {MAC_MII_RXD[0]}  \
+    -pinname V11         \ - no
+    -fixed yes           \
+    -DIRECTION INPUT
+
+
+set_io {MAC_MII_RXD[1]}  \
+    -pinname W11         \ - no
+    -fixed yes           \
+    -DIRECTION INPUT
+
+
+set_io {MAC_MII_RXD[2]}  \
+    -pinname Y13         \ - no
+    -fixed yes           \
+    -DIRECTION INPUT
+
+
+set_io {MAC_MII_RXD[3]}  \
+    -pinname Y9          \ - no
+    -fixed yes           \
+    -DIRECTION INPUT
+
+
+set_io MAC_MII_RX_CLK  \
+    -pinname AB13      \ - no
+    -fixed yes         \
+    -DIRECTION INPUT
+
+
+set_io MAC_MII_RX_DV  \
+    -pinname AB14     \ - no
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io MAC_MII_RX_ER  \
+    -pinname AA13     \ - no
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {MAC_MII_TXD[0]}  \
+    -pinname AA17        \ - no
+    -fixed yes           \
+    -DIRECTION OUTPUT
+
+
+set_io {MAC_MII_TXD[1]}  \
+    -pinname AA16        \ - no
+    -fixed yes           \
+    -DIRECTION OUTPUT
+
+
+set_io {MAC_MII_TXD[2]}  \
+    -pinname AA18        \ - no
+    -fixed yes           \
+    -DIRECTION OUTPUT
+
+
+set_io {MAC_MII_TXD[3]}  \
+    -pinname AB17        \ - no
+    -fixed yes           \
+    -DIRECTION OUTPUT
+
+
+set_io MAC_MII_TX_CLK  \
+    -pinname W16       \ - no
+    -fixed yes         \
+    -DIRECTION INPUT
+
+
+set_io MAC_MII_TX_EN   \
+    -pinname Y17       \ - no
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io MANCHESTER_IN  \
+    -pinname V19      \ - no
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io MANCH_OUT_N     \
+    -pinname T18       \ - no
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io MANCH_OUT_P     \
+    -pinname R18       \ - no
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io RCVR_EN         \ - no
+    -pinname R17       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io SPI_FLASH_IO2   \ - no
+    -pinname U22       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io SPI_FLASH_IO3   \ - no
+    -pinname U21       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io SPI_FLASH_RSTn  \ - no
+    -pinname V21       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io SW_RESET       \ - no
+    -pinname H20      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io uSD_DETLVR     \
+    -pinname T19      \ - no
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io uSD_DETSW      \
+    -pinname V22      \ - no
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+

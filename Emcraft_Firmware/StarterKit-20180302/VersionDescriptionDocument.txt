@@ -1,0 +1,38 @@
+StarterKit484
+This project was created as a testbed for software feature implementation using FreeRTOS 10.0.
+By Wayne Taylor
+SmartFusion2
+GCC
+
+2018-03-02
+* Release build
+
+2018-03-01a
+* Can't call UART_hex from ISR. 
+* Changed ping to 10.0.0.13.
+* Added ETH0 IP:...
+
+2018-03-01
+* Modified "\SF2\drivers_config\sys_config\sys_config_mddr_define.h" to use clock settings 
+    compatible with Bluefin Innovations FPGA ver 2.0. UARTs and System Tick are now correct.
+
+2018-02-28
+Tasks:
+  prvTimerTask, Manage timer events and callbacks.
+  prvIPTask, Receive IP commands, send and receive ICMP, TCP & UDP packets.
+  prvIdleTask, Run when nothing else is running.
+  GPIO_BlinkTask, Blink a couple LEDs on the StarterKit.
+  prvTxCbTask, Free available NetworkPacket Desciptors after they have been sent to MAC's tx buffer.
+  prvEMACHandlerTask, TBD
+  
+  Basic execution so far:
+  * Initialize GPIO pins and setup GPIO_BlinkTask() to toggle the LEDs every second.
+  * Initialize UART0 & 1, including mutexes. Send "Intelligent Rail (c)2018" to UART0.
+  * Initialize IP Stack using +TCP, this instantiates: prvIPTask(), prvTxCbTask() & prvEMACHandlerTask().
+  * prvIPTask() calls vApplicationIPNetworkEventHook() whenever the network is setup and ready,
+        I'm currently using this hook to send a ping to 192.168.1.15 (my PC). Before this can 
+        happen however, the ARP table for 192.168.1.15 must be populated with its MAC address, 
+        so the first thing to come out is actually an ARP Request.
+  
+  
+  

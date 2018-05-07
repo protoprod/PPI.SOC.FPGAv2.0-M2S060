@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.m2s010_som  -multisrs  "E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_5\synwork\m2s010_som_comp.srs"  -osyn  "E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_5\synwork\m2s010_som_mult.srs"  -log  "E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_5\synlog\m2s010_som_multi_srs_gen.srr" 
+rc:0 success:1 runtime:0
+file:E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_5\synwork\m2s010_som_comp.srs|io:i|time:1503588408|size:206346|exec:0
+file:E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_5\synwork\m2s010_som_mult.srs|io:o|time:1503588409|size:13910|exec:0
+file:E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_5\synlog\m2s010_som_multi_srs_gen.srr|io:o|time:1503588409|size:409|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1479391658|size:3128320|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1479391924|size:4208128|exec:1

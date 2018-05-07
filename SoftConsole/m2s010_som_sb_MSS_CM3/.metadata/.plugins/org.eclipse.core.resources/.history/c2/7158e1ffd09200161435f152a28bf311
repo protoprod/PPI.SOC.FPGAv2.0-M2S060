@@ -1,0 +1,7 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+USER_OBJS := C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_e/SoftConsole/m2s010_som_sb_MSS_CM3/m2s010_som_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/startup_m2sxxx.o C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_e/SoftConsole/m2s010_som_sb_MSS_CM3/m2s010_som_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+
+LIBS := -lm2s010_som_sb_MSS_CM3_hw_platform

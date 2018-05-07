@@ -1,0 +1,1171 @@
+# Tue Aug 22 10:21:49 2017
+
+Synopsys Generic Technology Mapper, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
+
+@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1 because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1 because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1 because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":850:8:850:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif2_areset_n_rcosc because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif3_areset_n_rcosc because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif1_areset_n_rcosc because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":861:8:861:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif0_areset_n_rcosc because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1495:8:1495:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.release_sdif3_core because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.release_sdif2_core. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1471:8:1471:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.release_sdif2_core because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.release_sdif1_core. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|Removing sequential instance aempty_r (in view: corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|Removing sequential instance aempty_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async(translated)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
+
+@N: MO230 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\up_if.vhd":698:6:698:7|Found up-down counter in view:work.uP_if(behavioral) instance RX_packet_depth[7:0]  
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\interrupts.vhd":390:6:390:7|Sequential instance CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.INTERRUPT_INST.col_detect_d[0] is reduced to a combinational gate by constant propagation.
+@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\interrupts.vhd":368:6:368:7|Register bit INTERRUPT_INST.col_detect_int (in view view:work.uP_if(behavioral)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\interrupts.vhd":390:6:390:7|Register bit INTERRUPT_INST.col_detect_int_d[0] (in view view:work.uP_if(behavioral)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\interrupts.vhd":390:6:390:7|Register bit INTERRUPT_INST.col_detect_int_d[1] (in view view:work.uP_if(behavioral)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\interrupts.vhd":390:6:390:7|Register bit INTERRUPT_INST.col_detect_int_d[2] (in view view:work.uP_if(behavioral)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":730:6:730:7|Found counter in view:corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated) instance rptr[11:0] 
+@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":910:6:910:7|Found counter in view:corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated) instance memraddr_r[10:0] 
+@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":888:6:888:7|Found counter in view:corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated) instance memwaddr_r[10:0] 
+@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":706:6:706:7|Found counter in view:corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated) instance wptr[11:0] 
+@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":706:6:706:7|Found counter in view:corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async(translated) instance wptr[11:0] 
+@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":910:6:910:7|Found counter in view:corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async(translated) instance memraddr_r[10:0] 
+@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":888:6:888:7|Found counter in view:corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async(translated) instance memwaddr_r[10:0] 
+@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":730:6:730:7|Found counter in view:corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async(translated) instance rptr[11:0] 
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\manchesencoder.vhd":113:4:113:5|Removing sequential instance byte_clk_en_d[1] (in view: work.ManchesEncoder(behavioral)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+Encoding state machine TX_STATE[0:8] (in view: work.TX_SM(behavioral))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\tx_sm.vhd":149:6:149:7|Found counter in view:work.TX_SM(behavioral) instance PostAmble_cntr[11:0] 
+@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\tx_sm.vhd":149:6:149:7|Found counter in view:work.TX_SM(behavioral) instance txen_early_cntr[11:0] 
+@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\tx_sm.vhd":149:6:149:7|Found counter in view:work.TX_SM(behavioral) instance tx_byte_cntr[11:0] 
+@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\tx_sm.vhd":149:6:149:7|Found counter in view:work.TX_SM(behavioral) instance PreAmble_cntr[6:0] 
+@N: MF179 :|Found 12 by 12 bit equality operator ('==') TX_SM\.un25_tx_byte_cntr (in view: work.TX_SM(behavioral))
+@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\idlelinedetector.vhd":71:4:71:5|Found counter in view:work.IdleLineDetector_0(behavioral) instance idle_line_cntr[15:0] 
+@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\idlelinedetector.vhd":71:4:71:5|Found counter in view:work.IdleLineDetector_1(behavioral) instance idle_line_cntr[15:0] 
+Encoding state machine AFE_RX_STATE[0:4] (in view: work.AFE_RX_SM(behavioral))
+original code -> new code
+   000001 -> 00001
+   000010 -> 00010
+   000100 -> 00100
+   001000 -> 01000
+   100000 -> 10000
+@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\afe_rx_sm.vhd":111:4:111:5|Found counter in view:work.AFE_RX_SM(behavioral) instance start_bit_cntr[7:0] 
+Encoding state machine ReadFIFO_WR_STATE[0:9] (in view: work.ReadFIFO_Write_SM(behavioral))
+original code -> new code
+   00000000001 -> 0000000001
+   00000000010 -> 0000000010
+   00000000100 -> 0000000100
+   00000001000 -> 0000001000
+   00000100000 -> 0000010000
+   00001000000 -> 0000100000
+   00010000000 -> 0001000000
+   00100000000 -> 0010000000
+   01000000000 -> 0100000000
+   10000000000 -> 1000000000
+@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\readfifo_write_sm.vhd":278:6:278:7|Found counter in view:work.ReadFIFO_Write_SM(behavioral) instance rx_byte_cntr[11:0] 
+@N: MF179 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\readfifo_write_sm.vhd":499:20:499:56|Found 16 by 16 bit equality operator ('==') ReadFIFO_WR_SM\.un1_sampler_clk1x_en (in view: work.ReadFIFO_Write_SM(behavioral))
+@N: MF179 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\readfifo_write_sm.vhd":363:29:363:66|Found 10 by 10 bit equality operator ('==') ReadFIFO_WR_SM\.un32_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
+@N: MF179 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\readfifo_write_sm.vhd":364:29:364:66|Found 10 by 10 bit equality operator ('==') ReadFIFO_WR_SM\.un35_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
+@N: MF179 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\readfifo_write_sm.vhd":365:29:365:66|Found 10 by 10 bit equality operator ('==') ReadFIFO_WR_SM\.un38_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
+@N: MF179 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\readfifo_write_sm.vhd":362:29:362:66|Found 10 by 10 bit equality operator ('==') ReadFIFO_WR_SM\.un29_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
+@N: MF179 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\readfifo_write_sm.vhd":419:22:419:57|Found 12 by 12 bit equality operator ('==') ReadFIFO_WR_SM\.un58_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
+Encoding state machine state[0:2] (in view: work.CoreConfigP(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[16] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[17] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[18] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[19] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[20] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[21] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[22] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[23] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[24] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[25] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[26] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[27] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[28] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[29] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[30] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[31] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance paddr[11] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[31] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[30] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[29] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[28] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[27] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[26] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[25] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[24] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[23] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[22] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[21] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[20] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[19] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Register bit paddr[16] (in view view:work.CoreConfigP(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+Encoding state machine sm0_state[0:6] (in view: work.CoreResetP(rtl))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+@N: MO231 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Found counter in view:work.CoreResetP(rtl) instance count_ddr[13:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 145MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 164MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 153MB peak: 164MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 155MB peak: 165MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 155MB peak: 165MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 156MB peak: 165MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 156MB peak: 165MB)
+
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\hdl\afe_rx_sm.vhd":149:6:149:7|Removing sequential instance CommsFPGA_top_0.MANCHESTER_DECODER_INST.AFE_RX_STATE_MACHINE.AFE_RX_STATE[0] (in view: work.m2s010_som(rtl)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 156MB peak: 165MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 192MB peak: 195MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:03s		    -4.44ns		1409 /      1134
+   2		0h:00m:04s		    -4.44ns		1349 /      1137
+
+   3		0h:00m:04s		    -4.44ns		1354 /      1137
+   4		0h:00m:04s		    -4.44ns		1354 /      1137
+   5		0h:00m:04s		    -4.44ns		1354 /      1137
+
+
+   6		0h:00m:04s		    -4.44ns		1352 /      1137
+   7		0h:00m:04s		    -4.44ns		1352 /      1137
+@N: MF322 |Retiming summary: 2 registers retimed to 42 
+
+		#####  BEGIN RETIMING REPORT  #####
+
+Retiming summary : 2 registers retimed to 42
+
+Original and Pipelined registers replaced by retiming :
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.iTX_FIFO_rd_en
+		CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.INTERRUPT_INST.col_detect_d[0]
+
+New registers created by retiming :
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[0]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[1]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[2]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[3]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[4]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[5]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[6]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[7]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[8]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[9]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[10]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_0
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_1[0]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_1[1]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_1[2]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_1[3]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_1[4]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_1[5]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_1[6]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_1[7]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_1[8]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.iTX_FIFO_rd_en_ret_0
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.iTX_FIFO_rd_en_ret_1
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[0]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[1]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[2]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[3]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[4]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[5]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[6]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[7]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[8]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[9]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[10]
+		CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.control_reg_en_ret
+		CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.control_reg_en_ret_0
+		CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.mac_1_byte_1_reg_en_ret
+		CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.mac_1_byte_2_reg_en_ret
+		CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.mac_2_byte_1_reg_en_ret_1
+		CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.mac_2_byte_1_reg_en_ret_2
+		CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.mac_2_byte_1_reg_en_ret_3
+		CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.mac_2_byte_1_reg_en_ret_4
+
+
+		#####   END RETIMING REPORT  #####
+
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance m2s010_som_sb_0.CORECONFIGP_0.paddr[14] (in view: work.m2s010_som(rtl)) because it does not drive other instances.
+@N: FP130 |Promoting Net CommsFPGA_top_0.N_1888 on CLKINT  I_277 
+@N: FP130 |Promoting Net CommsFPGA_top_0.BIT_CLK on CLKINT  I_278 
+@N: FP130 |Promoting Net CommsFPGA_top_0.long_reset on CLKINT  I_279 
+@N: FP130 |Promoting Net CommsFPGA_top_0.FIFOS_INST.irx_fifo_rst_i on CLKINT  I_280 
+@N: FP130 |Promoting Net CommsFPGA_top_0.N_1806_i_i on CLKINT  I_281 
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORECONFIGP_0_APB_S_PRESET_N on CLKINT  I_282 
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORECONFIGP_0_APB_S_PCLK on CLKINT  I_283 
+@N: FP130 |Promoting Net CommsFPGA_top_0.N_428_i_i on CLKINT  I_284 
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_285 
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc on CLKINT  I_286 
+@N: FP130 |Promoting Net CommsFPGA_top_0.MANCHESTER_ENCODER_INST.tx_crc_reset_i on CLKINT  I_287 
+@N: FP130 |Promoting Net CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_crc_reset_i on CLKINT  I_288 
+@N: FP130 |Promoting Net CommsFPGA_top_0.bd_reset_i on CLKINT  I_289 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 198MB peak: 199MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 199MB peak: 199MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+3 non-gated/non-generated clock tree(s) driving 3 clock pin(s) of sequential element(s)
+9 gated/generated clock tree(s) driving 1156 clock pin(s) of sequential element(s)
+0 instances converted, 1156 sequential instances remain driven by gated/generated clocks
+
+====================================================== Non-Gated/Non-Generated Clocks =======================================================
+Clock Tree ID     Driving Element                        Drive Element Type     Fanout     Sample Instance                                   
+---------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0010       MAC_MII_TX_CLK                         port                   1          m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST
+@K:CKID0011       m2s010_som_sb_0.CAM_SPI_1_CLK.U0_0     BIBUF                  1          m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST
+@K:CKID0012       MAC_MII_RX_CLK                         port                   1          m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST
+=============================================================================================================================================
+=============================================================================================================================== Gated/Generated Clocks ================================================================================================================================
+Clock Tree ID     Driving Element                                                               Drive Element Type     Fanout     Sample Instance                                                                           Explanation                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA_31_sqmuxa_1_i             CFG4                   8          CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[0]                                    No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0002       CommsFPGA_top_0.MANCHESTER_DECODER_INST.AFE_RX_STATE_MACHINE.RESET_i_0_a4     CFG2                   3          CommsFPGA_top_0.TRIPLE_DEBOUNCE_INST.DEBOUNCE_2_INST.DEBOUNCE_PROC.un3_debounce_in_rs     No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0003       m2s010_som_sb_0.CCC_0.CCC_INST                                                CCC                    483        m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST                                        No gated clock conversion method for cell cell:work.MSS_060
+@K:CKID0004       CommsFPGA_CCC_0.CCC_INST                                                      CCC                    300        CommsFPGA_top_0.RX_FIFO_RST                                                               No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0005       CommsFPGA_top_0.BIT_CLK                                                       SLE                    262        CommsFPGA_top_0.N_1888_set                                                                No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0006       m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST                            MSS_060                75         m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST                                        No gated clock conversion method for cell cell:work.MSS_060
+@K:CKID0007       m2s010_som_sb_0.FABOSC_0.I_RCOSC_25_50MHZ                                     RCOSC_25_50MHZ         20         m2s010_som_sb_0.CORERESETP_0.count_ddr[13]                                                No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0008       CommsFPGA_CCC_0.CCC_INST                                                      CCC                    4          CommsFPGA_top_0.BIT_CLK                                                                   No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0009       CommsFPGA_top_0.long_reset                                                    SLE                    1          CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.READY_DELAY_PROC.un5_apb3_rst_rs                 No gated clock conversion method for cell cell:ACG4.SLE    
+=======================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 163MB peak: 200MB)
+
+Writing Analyst data base C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\synthesis\rev_3\synwork\m2s010_som_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 191MB peak: 200MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\synthesis\rev_3\m2s010_som.edn
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+L-2016.09M-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 192MB peak: 200MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 191MB peak: 200MB)
+
+@W: MT246 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\work\m2s010_som_sb\fabosc_0\m2s010_som_sb_fabosc_0_osc.vhd":66:4:66:11|Blackbox XTLOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\gcallsen\documents\projects\fpga\081817-1v6-linux-debug-ident\component\work\m2s010_som_sb\ccc_0\m2s010_som_sb_ccc_0_fccc.vhd":106:4:106:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock m2s010_som|MAC_MII_RX_CLK with period 10.00ns. Please declare a user-defined clock on object "p:MAC_MII_RX_CLK"
+@W: MT420 |Found inferred clock m2s010_som|MAC_MII_TX_CLK with period 10.00ns. Please declare a user-defined clock on object "p:MAC_MII_TX_CLK"
+@W: MT420 |Found inferred clock m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:m2s010_som_sb_0.m2s010_som_sb_MSS_0.FIC_2_APB_M_PCLK"
+@W: MT420 |Found inferred clock m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:m2s010_som_sb_0.FABOSC_0.N_RCOSC_25_50MHZ_CLKOUT"
+@W: MT420 |Found inferred clock m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:m2s010_som_sb_0.CCC_0.GL0_net"
+@W: MT420 |Found inferred clock m2s010_som_sb_CAM_SPI_1_CLK_IO|Y_inferred_clock[0] with period 10.00ns. Please declare a user-defined clock on object "n:m2s010_som_sb_0.CAM_SPI_1_CLK.Y[0]"
+@W: MT420 |Found inferred clock CommsFPGA_top|BIT_CLK_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:CommsFPGA_top_0.BIT_CLK"
+@W: MT420 |Found inferred clock m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:CommsFPGA_CCC_0.GL1_net"
+@W: MT420 |Found inferred clock m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:CommsFPGA_CCC_0.GL0_net"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Aug 22 10:21:56 2017
+#
+
+
+Top view:               m2s010_som
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 0.416
+
+                                                                      Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                                        Frequency     Frequency     Period        Period        Slack     Type         Group              
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top|BIT_CLK_inferred_clock                                  100.0 MHz     145.5 MHz     10.000        6.873         3.127     inferred     Inferred_clkgroup_7
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock                100.0 MHz     142.9 MHz     10.000        7.000         3.001     inferred     Inferred_clkgroup_5
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock                100.0 MHz     457.7 MHz     10.000        2.185         7.815     inferred     Inferred_clkgroup_6
+m2s010_som_sb_CAM_SPI_1_CLK_IO|Y_inferred_clock[0]                    100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_8
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       100.0 MHz     118.5 MHz     10.000        8.435         1.565     inferred     Inferred_clkgroup_1
+m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     100.0 MHz     372.7 MHz     10.000        2.683         7.317     inferred     Inferred_clkgroup_4
+m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                     100.0 MHz     123.9 MHz     10.000        8.069         1.344     inferred     Inferred_clkgroup_0
+m2s010_som|MAC_MII_RX_CLK                                             100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_3
+m2s010_som|MAC_MII_TX_CLK                                             100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_2
+System                                                                100.0 MHz     890.5 MHz     10.000        1.123         8.877     system       system_clkgroup    
+========================================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                                |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                           Ending                                                             |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                             System                                                             |  10.000      8.877  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                             m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    |  10.000      4.791  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                             m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             |  10.000      4.860  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                             CommsFPGA_top|BIT_CLK_inferred_clock                               |  10.000      5.904  |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                  m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                  |  10.000      1.931  |  No paths    -      |  5.000       2.688  |  5.000       1.344
+m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                  m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    System                                                             |  10.000      0.416  |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    |  10.000      1.565  |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    CommsFPGA_top|BIT_CLK_inferred_clock                               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  |  10.000      7.317  |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             System                                                             |  10.000      7.024  |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             |  10.000      3.001  |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             CommsFPGA_top|BIT_CLK_inferred_clock                               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock             m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock             m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock             |  10.000      7.815  |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock             CommsFPGA_top|BIT_CLK_inferred_clock                               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+CommsFPGA_top|BIT_CLK_inferred_clock                               System                                                             |  10.000      4.952  |  No paths    -      |  No paths    -      |  No paths    -    
+CommsFPGA_top|BIT_CLK_inferred_clock                               m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+CommsFPGA_top|BIT_CLK_inferred_clock                               m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+CommsFPGA_top|BIT_CLK_inferred_clock                               m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock             |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+CommsFPGA_top|BIT_CLK_inferred_clock                               CommsFPGA_top|BIT_CLK_inferred_clock                               |  10.000      3.127  |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: CommsFPGA_top|BIT_CLK_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                                    Starting                                                                                Arrival          
+Instance                                                                                                                            Reference                                Type        Pin           Net                  Time        Slack
+                                                                                                                                    Clock                                                                                                    
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.FIFOS_INST.TRANSMIT_FIFO.FIFO_2Kx8_0.RW1\.UI_ram_wrapper_1.L1_asyncnonpipe.FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top_R0C0     CommsFPGA_top|BIT_CLK_inferred_clock     RAM1K18     A_DOUT[6]     RDATA_int[6]         2.263       3.127
+CommsFPGA_top_0.FIFOS_INST.TRANSMIT_FIFO.FIFO_2Kx8_0.RW1\.UI_ram_wrapper_1.L1_asyncnonpipe.FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top_R0C0     CommsFPGA_top|BIT_CLK_inferred_clock     RAM1K18     A_DOUT[5]     RDATA_int[5]         2.263       3.227
+CommsFPGA_top_0.FIFOS_INST.TRANSMIT_FIFO.FIFO_2Kx8_0.RW1\.UI_ram_wrapper_1.L1_asyncnonpipe.FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top_R0C0     CommsFPGA_top|BIT_CLK_inferred_clock     RAM1K18     A_DOUT[2]     RDATA_int[2]         2.263       3.241
+CommsFPGA_top_0.FIFOS_INST.TRANSMIT_FIFO.FIFO_2Kx8_0.RW1\.UI_ram_wrapper_1.L1_asyncnonpipe.FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top_R0C0     CommsFPGA_top|BIT_CLK_inferred_clock     RAM1K18     A_DOUT[1]     RDATA_int[1]         2.263       3.342
+CommsFPGA_top_0.FIFOS_INST.TRANSMIT_FIFO.FIFO_2Kx8_0.RW1\.UI_ram_wrapper_1.L1_asyncnonpipe.FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top_R0C0     CommsFPGA_top|BIT_CLK_inferred_clock     RAM1K18     A_DOUT[4]     RDATA_int[4]         2.263       3.353
+CommsFPGA_top_0.FIFOS_INST.TRANSMIT_FIFO.FIFO_2Kx8_0.RW1\.UI_ram_wrapper_1.L1_asyncnonpipe.FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top_R0C0     CommsFPGA_top|BIT_CLK_inferred_clock     RAM1K18     A_DOUT[7]     RDATA_int[7]         2.263       3.435
+CommsFPGA_top_0.FIFOS_INST.TRANSMIT_FIFO.FIFO_2Kx8_0.RW1\.UI_ram_wrapper_1.L1_asyncnonpipe.FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top_R0C0     CommsFPGA_top|BIT_CLK_inferred_clock     RAM1K18     A_DOUT[3]     RDATA_int[3]         2.263       3.453
+CommsFPGA_top_0.FIFOS_INST.TRANSMIT_FIFO.FIFO_2Kx8_0.RW1\.UI_ram_wrapper_1.L1_asyncnonpipe.FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top_R0C0     CommsFPGA_top|BIT_CLK_inferred_clock     RAM1K18     A_DOUT[0]     RDATA_int[0]         2.263       4.002
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_byte_cntr[10]                                                                CommsFPGA_top|BIT_CLK_inferred_clock     SLE         Q             tx_byte_cntr[10]     0.087       4.574
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_byte_cntr[7]                                                                 CommsFPGA_top|BIT_CLK_inferred_clock     SLE         Q             tx_byte_cntr[7]      0.087       4.617
+=============================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                   Starting                                                                                  Required          
+Instance                                                                           Reference                                Type     Pin     Net                             Time         Slack
+                                                                                   Clock                                                                                                       
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_CRC_GEN_INST.lfsr_q[0]                  CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       lfsr_c[0]                       9.745        3.127
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_CRC_GEN_INST.lfsr_q[15]                 CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       lfsr_c[15]                      9.745        3.127
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_CRC_GEN_INST.lfsr_q[1]                  CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       lfsr_c[1]                       9.745        3.450
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[10]     CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       un25_tx_byte_cntr_a_4_i[11]     9.745        3.898
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[9]      CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       un25_tx_byte_cntr_a_4_i[10]     9.745        3.947
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[8]      CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       un25_tx_byte_cntr_a_4_i[9]      9.745        3.962
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[7]      CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       un25_tx_byte_cntr_a_4_i[8]      9.745        3.976
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[6]      CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       un25_tx_byte_cntr_a_4_i[7]      9.745        3.991
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[1]      CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       un25_tx_byte_cntr_a_4_i[2]      9.745        4.002
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[5]      CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       un25_tx_byte_cntr_a_4_i[6]      9.745        4.006
+===============================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      6.618
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.127
+
+    Number of logic level(s):                4
+    Starting point:                          CommsFPGA_top_0.FIFOS_INST.TRANSMIT_FIFO.FIFO_2Kx8_0.RW1\.UI_ram_wrapper_1.L1_asyncnonpipe.FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top_R0C0 / A_DOUT[6]
+    Ending point:                            CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_CRC_GEN_INST.lfsr_q[0] / D
+    The start point is clocked by            CommsFPGA_top|BIT_CLK_inferred_clock [rising] on pin A_CLK
+    The end   point is clocked by            CommsFPGA_top|BIT_CLK_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                                                                  Pin           Pin               Arrival     No. of    
+Name                                                                                                                                Type        Name          Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.FIFOS_INST.TRANSMIT_FIFO.FIFO_2Kx8_0.RW1\.UI_ram_wrapper_1.L1_asyncnonpipe.FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top_R0C0     RAM1K18     A_DOUT[6]     Out     2.263     2.263       -         
+RDATA_int[6]                                                                                                                        Net         -             -       1.123     -           2         
+CommsFPGA_top_0.FIFOS_INST.TRANSMIT_FIFO.FIFO_2Kx8_0.Q_i_m2_i_m4[6]                                                                 CFG4        C             In      -         3.386       -         
+CommsFPGA_top_0.FIFOS_INST.TRANSMIT_FIFO.FIFO_2Kx8_0.Q_i_m2_i_m4[6]                                                                 CFG4        Y             Out     0.203     3.589       -         
+N_1367                                                                                                                              Net         -             -       0.745     -           5         
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_CRC_GEN_INST.lfsr_c_0_a2_0_x2_1_x2[7]                                                    CFG4        D             In      -         4.334       -         
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_CRC_GEN_INST.lfsr_c_0_a2_0_x2_1_x2[7]                                                    CFG4        Y             Out     0.326     4.660       -         
+N_1326_i                                                                                                                            Net         -             -       0.630     -           2         
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_CRC_GEN_INST.lfsr_c_0_a2[1]                                                              CFG4        D             In      -         5.290       -         
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_CRC_GEN_INST.lfsr_c_0_a2[1]                                                              CFG4        Y             Out     0.326     5.616       -         
+lfsr_c[1]                                                                                                                           Net         -             -       0.678     -           3         
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_CRC_GEN_INST.lfsr_c_0_a2[0]                                                              CFG3        B             In      -         6.295       -         
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_CRC_GEN_INST.lfsr_c_0_a2[0]                                                              CFG3        Y             Out     0.165     6.459       -         
+lfsr_c[0]                                                                                                                           Net         -             -       0.159     -           1         
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_CRC_GEN_INST.lfsr_q[0]                                                                   SLE         D             In      -         6.618       -         
+======================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 6.873 is 3.538(51.5%) logic and 3.335(48.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                     Starting                                                                                           Arrival          
+Instance                                                                                                             Reference                                                  Type     Pin     Net                    Time        Slack
+                                                                                                                     Clock                                                                                                               
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.isampler_clk1x_en                            m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sampler_clk1x_en       0.087       3.001
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.SM_advance_i                                          m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       SM_advance_i           0.087       3.563
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.TX_IDLE_LINE_DETECTOR.idle_line_cntr[12]                         m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       idle_line_cntr[12]     0.087       4.055
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.RX_IDLE_LINE_DETECTOR.idle_line_cntr[12]     m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       idle_line_cntr[12]     0.087       4.055
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.RX_IDLE_LINE_DETECTOR.idle_line_cntr[13]     m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       idle_line_cntr[13]     0.108       4.153
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.TX_IDLE_LINE_DETECTOR.idle_line_cntr[13]                         m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       idle_line_cntr[13]     0.108       4.153
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.TX_IDLE_LINE_DETECTOR.idle_line_cntr[14]                         m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       idle_line_cntr[14]     0.108       4.228
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.RX_IDLE_LINE_DETECTOR.idle_line_cntr[14]     m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       idle_line_cntr[14]     0.108       4.228
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.consumer_type[1]                                      m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       consumer_type[1]       0.108       4.235
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.TX_IDLE_LINE_DETECTOR.idle_line_cntr[15]                         m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       idle_line_cntr[15]     0.108       4.276
+=========================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                     Starting                                                                                               Required          
+Instance                                                                                                             Reference                                                  Type     Pin     Net                        Time         Slack
+                                                                                                                     Clock                                                                                                                    
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[9]                               m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       un56_sm_advance_i_i[2]     9.745        3.001
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.TX_IDLE_LINE_DETECTOR.idle_line_cntr[15]                         m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       idle_line_cntr_s[15]       9.745        4.055
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.RX_IDLE_LINE_DETECTOR.idle_line_cntr[15]     m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       idle_line_cntr_s[15]       9.745        4.055
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.TX_IDLE_LINE_DETECTOR.idle_line_cntr[14]                         m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       idle_line_cntr_s[14]       9.745        4.071
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.RX_IDLE_LINE_DETECTOR.idle_line_cntr[14]     m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       idle_line_cntr_s[14]       9.745        4.071
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.RX_IDLE_LINE_DETECTOR.idle_line_cntr[13]     m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       idle_line_cntr_s[13]       9.745        4.087
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.TX_IDLE_LINE_DETECTOR.idle_line_cntr[13]                         m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       idle_line_cntr_s[13]       9.745        4.087
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.TX_IDLE_LINE_DETECTOR.idle_line_cntr[12]                         m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       idle_line_cntr_s[12]       9.745        4.104
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.RX_IDLE_LINE_DETECTOR.idle_line_cntr[12]     m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       idle_line_cntr_s[12]       9.745        4.104
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.TX_IDLE_LINE_DETECTOR.idle_line_cntr[11]                         m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       idle_line_cntr_s[11]       9.745        4.120
+==============================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      6.744
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.000
+
+    Number of logic level(s):                6
+    Starting point:                          CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.isampler_clk1x_en / Q
+    Ending point:                            CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[9] / D
+    The start point is clocked by            m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                                Pin      Pin               Arrival     No. of    
+Name                                                                                                 Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.isampler_clk1x_en            SLE      Q        Out     0.087     0.087       -         
+sampler_clk1x_en                                                                                     Net      -        -       1.464     -           18        
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.SM_advance_i_RNIAH4K                  CFG2     A        In      -         1.552       -         
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.SM_advance_i_RNIAH4K                  CFG2     Y        Out     0.077     1.629       -         
+N_360_i                                                                                              Net      -        -       1.234     -           38        
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.un1_ReadFIFO_WR_STATE_12_0_i_i_o2     CFG2     A        In      -         2.863       -         
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.un1_ReadFIFO_WR_STATE_12_0_i_i_o2     CFG2     Y        Out     0.100     2.964       -         
+N_1203                                                                                               Net      -        -       0.861     -           11        
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.un56_sm_advance_i_cry_7               ARI1     D        In      -         3.825       -         
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.un56_sm_advance_i_cry_7               ARI1     FCO      Out     0.505     4.330       -         
+un56_sm_advance_i_cry_7                                                                              Net      -        -       0.000     -           1         
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.un56_sm_advance_i_cry_8               ARI1     FCI      In      -         4.330       -         
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.un56_sm_advance_i_cry_8               ARI1     FCO      Out     0.016     4.346       -         
+un56_sm_advance_i_cry_8                                                                              Net      -        -       1.007     -           2         
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.un56_sm_advance_i_s_9_275             ARI1     B        In      -         5.353       -         
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.un56_sm_advance_i_s_9_275             ARI1     FCO      Out     0.201     5.554       -         
+un56_sm_advance_i_s_9_275_FCO                                                                        Net      -        -       0.000     -           1         
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.un56_sm_advance_i_s_9                 ARI1     FCI      In      -         5.554       -         
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.un56_sm_advance_i_s_9                 ARI1     S        Out     0.073     5.627       -         
+un56_sm_advance_i_i[2]                                                                               Net      -        -       1.117     -           1         
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[9]               SLE      D        In      -         6.744       -         
+===============================================================================================================================================================
+Total path delay (propagation time + setup) of 7.000 is 1.316(18.8%) logic and 5.684(81.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                             Starting                                                                                         Arrival          
+Instance                                                     Reference                                                  Type     Pin     Net                  Time        Slack
+                                                             Clock                                                                                                             
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.BIT_CLK                                      m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       BIT_CLK_i            0.108       7.815
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_PreAmble_d[1]     m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       TX_PreAmble_d[1]     0.108       7.834
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_PreAmble_d[0]     m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       TX_PreAmble_d[0]     0.087       8.972
+===============================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                             Starting                                                                                         Required          
+Instance                                                     Reference                                                  Type     Pin     Net                  Time         Slack
+                                                             Clock                                                                                                              
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.MANCHESTER_OUT       m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock     SLE      D       MANCHESTER_OUT_5     9.745        7.815
+CommsFPGA_top_0.BIT_CLK                                      m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock     SLE      D       BIT_CLK_i_i          9.745        8.255
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_PreAmble_d[1]     m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock     SLE      D       TX_PreAmble_d[0]     9.745        8.972
+================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      1.930
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 7.815
+
+    Number of logic level(s):                2
+    Starting point:                          CommsFPGA_top_0.BIT_CLK / Q
+    Ending point:                            CommsFPGA_top_0.MANCHESTER_ENCODER_INST.MANCHESTER_OUT / D
+    The start point is clocked by            m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                               Pin      Pin               Arrival     No. of    
+Name                                                                              Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.BIT_CLK                                                           SLE        Q        Out     0.108     0.108       -         
+BIT_CLK_i                                                                         Net        -        -       1.123     -           2         
+CommsFPGA_top_0.BIT_CLK_inferred_clock_RNIT9E2                                    CLKINT     A        In      -         1.231       -         
+CommsFPGA_top_0.BIT_CLK_inferred_clock_RNIT9E2                                    CLKINT     Y        Out     0.375     1.607       -         
+BIT_CLK                                                                           Net        -        -       0.000     -           263       
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.MAN_OUT_DATA_PROC\.MANCHESTER_OUT_5_u     CFG4       B        In      -         1.607       -         
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.MAN_OUT_DATA_PROC\.MANCHESTER_OUT_5_u     CFG4       Y        Out     0.165     1.771       -         
+MANCHESTER_OUT_5                                                                  Net        -        -       0.159     -           1         
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.MANCHESTER_OUT                            SLE        D        In      -         1.930       -         
+==============================================================================================================================================
+Total path delay (propagation time + setup) of 2.185 is 0.903(41.3%) logic and 1.282(58.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                       Starting                                                                                                                          Arrival          
+Instance                                               Reference                                           Type        Pin                Net                                            Time        Slack
+                                                       Clock                                                                                                                                              
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_060     F_HM0_ADDR[5]      CoreAPB3_0_APBmslave0_PADDR[5]                 2.891       0.416
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_060     F_HM0_ADDR[3]      CoreAPB3_0_APBmslave0_PADDR[3]                 2.891       0.478
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_060     F_HM0_ADDR[2]      CoreAPB3_0_APBmslave0_PADDR[2]                 2.890       1.097
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_060     F_HM0_ADDR[6]      CoreAPB3_0_APBmslave0_PADDR[6]                 2.888       1.168
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_060     F_HM0_ADDR[4]      CoreAPB3_0_APBmslave0_PADDR[4]                 2.873       1.211
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_060     F_HM0_ADDR[0]      CoreAPB3_0_APBmslave0_PADDR[0]                 2.913       1.565
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_060     F_HM0_ADDR[7]      CoreAPB3_0_APBmslave0_PADDR[7]                 2.885       1.659
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_060     F_HM0_ADDR[1]      CoreAPB3_0_APBmslave0_PADDR[1]                 2.923       1.680
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_060     F_HM0_ADDR[14]     m2s010_som_sb_0_FIC_0_APB_MASTER_PADDR[14]     2.900       1.853
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_060     F_HM0_ADDR[15]     m2s010_som_sb_0_FIC_0_APB_MASTER_PADDR[15]     2.901       1.895
+==========================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                       Starting                                                                                 Required          
+Instance                                                               Reference                                           Type     Pin     Net                 Time         Slack
+                                                                       Clock                                                                                                      
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[7]                 m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       APB3_RDATA_1[7]     9.745        0.416
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[3]                 m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       APB3_RDATA_1[3]     9.745        1.008
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[6]                 m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       APB3_RDATA_1[6]     9.825        1.035
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[1]                 m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       APB3_RDATA_1[1]     9.745        1.097
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[4]                 m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       APB3_RDATA_1[4]     9.745        1.204
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[0]                 m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       APB3_RDATA_1[0]     9.745        1.211
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[2]                 m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       APB3_RDATA_1[2]     9.745        1.405
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[5]                 m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       APB3_RDATA_1[5]     9.745        1.405
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.control_reg_en_ret_0          m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       N_731               9.745        1.565
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.mac_2_byte_1_reg_en_ret_2     m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       N_731               9.745        1.565
+==================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         9.745
+
+    - Propagation time:                      9.329
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.416
+
+    Number of logic level(s):                7
+    Starting point:                          m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[5]
+    Ending point:                            CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[7] / D
+    The start point is clocked by            m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
+    The end   point is clocked by            System [rising] on pin CLK
+
+Instance / Net                                                                            Pin               Pin               Arrival     No. of    
+Name                                                                          Type        Name              Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST                            MSS_060     F_HM0_ADDR[5]     Out     2.891     2.891       -         
+CoreAPB3_0_APBmslave0_PADDR[5]                                                Net         -                 -       1.151     -           52        
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA_1_16_i_m4_0_0_wmux[7]     ARI1        B                 In      -         4.042       -         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA_1_16_i_m4_0_0_wmux[7]     ARI1        Y                 Out     0.165     4.206       -         
+APB3_RDATA_1_16_i_m4_0_0_y0[7]                                                Net         -                 -       0.372     -           1         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA_1_16_i_m4_0_wmux_0[7]     ARI1        A                 In      -         4.579       -         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA_1_16_i_m4_0_wmux_0[7]     ARI1        Y                 Out     0.100     4.679       -         
+N_1405                                                                        Net         -                 -       1.117     -           1         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA_1_0_a2_1[7]               CFG4        C                 In      -         5.796       -         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA_1_0_a2_1[7]               CFG4        Y                 Out     0.203     5.999       -         
+N_1751                                                                        Net         -                 -       0.556     -           1         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA_1_0_3[7]                  CFG4        D                 In      -         6.555       -         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA_1_0_3[7]                  CFG4        Y                 Out     0.271     6.826       -         
+APB3_RDATA_1_0_3[7]                                                           Net         -                 -       0.556     -           1         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA_1_0_7[7]                  CFG4        D                 In      -         7.382       -         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA_1_0_7[7]                  CFG4        Y                 Out     0.271     7.653       -         
+APB3_RDATA_1_0_7[7]                                                           Net         -                 -       0.556     -           1         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA_1_0_13[7]                 CFG4        C                 In      -         8.209       -         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA_1_0_13[7]                 CFG4        Y                 Out     0.203     8.412       -         
+APB3_RDATA_1_0_13[7]                                                          Net         -                 -       0.556     -           1         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA_1_0[7]                    CFG4        C                 In      -         8.967       -         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA_1_0[7]                    CFG4        Y                 Out     0.203     9.171       -         
+APB3_RDATA_1[7]                                                               Net         -                 -       0.159     -           1         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[7]                        SLE         D                 In      -         9.329       -         
+====================================================================================================================================================
+Total path delay (propagation time + setup) of 9.584 is 4.563(47.6%) logic and 5.021(52.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                              Starting                                                                                                Arrival          
+Instance                                      Reference                                                             Type     Pin     Net              Time        Slack
+                                              Clock                                                                                                                    
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORERESETP_0.count_ddr[0]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[0]     0.108       7.317
+m2s010_som_sb_0.CORERESETP_0.count_ddr[1]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[1]     0.108       7.392
+m2s010_som_sb_0.CORERESETP_0.count_ddr[2]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[2]     0.108       7.408
+m2s010_som_sb_0.CORERESETP_0.count_ddr[3]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[3]     0.108       7.425
+m2s010_som_sb_0.CORERESETP_0.count_ddr[4]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[4]     0.108       7.441
+m2s010_som_sb_0.CORERESETP_0.count_ddr[5]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[5]     0.108       7.457
+m2s010_som_sb_0.CORERESETP_0.count_ddr[6]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[6]     0.108       7.473
+m2s010_som_sb_0.CORERESETP_0.count_ddr[7]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[7]     0.108       7.490
+m2s010_som_sb_0.CORERESETP_0.count_ddr[8]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[8]     0.108       7.506
+m2s010_som_sb_0.CORERESETP_0.count_ddr[9]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[9]     0.108       7.522
+=======================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                               Starting                                                                                                   Required          
+Instance                                       Reference                                                             Type     Pin     Net                 Time         Slack
+                                               Clock                                                                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORERESETP_0.count_ddr[13]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[13]     9.745        7.317
+m2s010_som_sb_0.CORERESETP_0.count_ddr[12]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[12]     9.745        7.333
+m2s010_som_sb_0.CORERESETP_0.count_ddr[11]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[11]     9.745        7.350
+m2s010_som_sb_0.CORERESETP_0.count_ddr[10]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[10]     9.745        7.366
+m2s010_som_sb_0.CORERESETP_0.count_ddr[9]      m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[9]      9.745        7.382
+m2s010_som_sb_0.CORERESETP_0.count_ddr[8]      m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[8]      9.745        7.399
+m2s010_som_sb_0.CORERESETP_0.count_ddr[7]      m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[7]      9.745        7.415
+m2s010_som_sb_0.CORERESETP_0.count_ddr[6]      m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[6]      9.745        7.431
+m2s010_som_sb_0.CORERESETP_0.count_ddr[5]      m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[5]      9.745        7.447
+m2s010_som_sb_0.CORERESETP_0.count_ddr[4]      m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[4]      9.745        7.464
+============================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      2.428
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 7.317
+
+    Number of logic level(s):                14
+    Starting point:                          m2s010_som_sb_0.CORERESETP_0.count_ddr[0] / Q
+    Ending point:                            m2s010_som_sb_0.CORERESETP_0.count_ddr[13] / D
+    The start point is clocked by            m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock [rising] on pin CLK
+
+Instance / Net                                              Pin      Pin               Arrival     No. of    
+Name                                               Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORERESETP_0.count_ddr[0]          SLE      Q        Out     0.108     0.108       -         
+count_ddr[0]                                       Net      -        -       0.733     -           3         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_s_263       ARI1     B        In      -         0.841       -         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_s_263       ARI1     FCO      Out     0.201     1.042       -         
+count_ddr_s_263_FCO                                Net      -        -       0.000     -           1         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[1]      ARI1     FCI      In      -         1.042       -         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[1]      ARI1     FCO      Out     0.016     1.058       -         
+count_ddr_cry[1]                                   Net      -        -       0.000     -           1         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[2]      ARI1     FCI      In      -         1.058       -         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[2]      ARI1     FCO      Out     0.016     1.075       -         
+count_ddr_cry[2]                                   Net      -        -       0.000     -           1         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[3]      ARI1     FCI      In      -         1.075       -         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[3]      ARI1     FCO      Out     0.016     1.091       -         
+count_ddr_cry[3]                                   Net      -        -       0.000     -           1         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[4]      ARI1     FCI      In      -         1.091       -         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[4]      ARI1     FCO      Out     0.016     1.107       -         
+count_ddr_cry[4]                                   Net      -        -       0.000     -           1         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[5]      ARI1     FCI      In      -         1.107       -         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[5]      ARI1     FCO      Out     0.016     1.123       -         
+count_ddr_cry[5]                                   Net      -        -       0.000     -           1         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[6]      ARI1     FCI      In      -         1.123       -         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[6]      ARI1     FCO      Out     0.016     1.140       -         
+count_ddr_cry[6]                                   Net      -        -       0.000     -           1         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[7]      ARI1     FCI      In      -         1.140       -         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[7]      ARI1     FCO      Out     0.016     1.156       -         
+count_ddr_cry[7]                                   Net      -        -       0.000     -           1         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[8]      ARI1     FCI      In      -         1.156       -         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[8]      ARI1     FCO      Out     0.016     1.172       -         
+count_ddr_cry[8]                                   Net      -        -       0.000     -           1         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[9]      ARI1     FCI      In      -         1.172       -         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[9]      ARI1     FCO      Out     0.016     1.189       -         
+count_ddr_cry[9]                                   Net      -        -       0.000     -           1         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[10]     ARI1     FCI      In      -         1.189       -         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[10]     ARI1     FCO      Out     0.016     1.205       -         
+count_ddr_cry[10]                                  Net      -        -       0.000     -           1         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[11]     ARI1     FCI      In      -         1.205       -         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[11]     ARI1     FCO      Out     0.016     1.221       -         
+count_ddr_cry[11]                                  Net      -        -       0.000     -           1         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[12]     ARI1     FCI      In      -         1.221       -         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_cry[12]     ARI1     FCO      Out     0.016     1.238       -         
+count_ddr_cry[12]                                  Net      -        -       0.000     -           1         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_s[13]       ARI1     FCI      In      -         1.238       -         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_s[13]       ARI1     S        Out     0.073     1.311       -         
+count_ddr_s[13]                                    Net      -        -       1.117     -           1         
+m2s010_som_sb_0.CORERESETP_0.count_ddr[13]         SLE      D        In      -         2.428       -         
+=============================================================================================================
+Total path delay (propagation time + setup) of 2.683 is 0.833(31.0%) logic and 1.850(69.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                       Starting                                                                                                                                 Arrival          
+Instance                                               Reference                                             Type        Pin                        Net                                         Time        Slack
+                                                       Clock                                                                                                                                                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORECONFIGP_0.psel                     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE         Q                          psel                                        0.108       1.344
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_060     MDDR_FABRIC_PREADY         CORECONFIGP_0_MDDR_APBmslave_PREADY         5.374       1.931
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_060     MDDR_FABRIC_PRDATA[7]      CORECONFIGP_0_MDDR_APBmslave_PRDATA[7]      5.885       2.313
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_060     MDDR_FABRIC_PRDATA[3]      CORECONFIGP_0_MDDR_APBmslave_PRDATA[3]      5.850       2.348
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_060     MDDR_FABRIC_PRDATA[14]     CORECONFIGP_0_MDDR_APBmslave_PRDATA[14]     5.822       2.376
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_060     MDDR_FABRIC_PRDATA[15]     CORECONFIGP_0_MDDR_APBmslave_PRDATA[15]     5.729       2.469
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_060     MDDR_FABRIC_PRDATA[12]     CORECONFIGP_0_MDDR_APBmslave_PRDATA[12]     5.666       2.532
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_060     MDDR_FABRIC_PRDATA[5]      CORECONFIGP_0_MDDR_APBmslave_PRDATA[5]      5.695       2.571
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_060     MDDR_FABRIC_PRDATA[13]     CORECONFIGP_0_MDDR_APBmslave_PRDATA[13]     5.600       2.598
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_060     MDDR_FABRIC_PRDATA[9]      CORECONFIGP_0_MDDR_APBmslave_PRDATA[9]      5.576       2.622
+=================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                           Starting                                                                                                                      Required          
+Instance                                                   Reference                                             Type        Pin                  Net                                    Time         Slack
+                                                           Clock                                                                                                                                           
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[0]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE         D                    prdata[0]                              4.745        1.344
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[1]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE         D                    prdata[1]                              4.745        1.344
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST         m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_060     MDDR_FABRIC_PSEL     CORECONFIGP_0_MDDR_APBmslave_PSELx     4.005        1.361
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[5]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE         D                    prdata[5]                              4.745        1.708
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[11]     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE         D                    prdata[11]                             4.745        1.708
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[2]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE         D                    prdata[2]                              4.745        1.776
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[3]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE         D                    prdata[3]                              4.745        1.776
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[4]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE         D                    prdata[4]                              4.745        1.776
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[6]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE         D                    prdata[6]                              4.745        1.776
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[7]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE         D                    prdata[7]                              4.745        1.776
+===========================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.745
+
+    - Propagation time:                      3.401
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 1.344
+
+    Number of logic level(s):                3
+    Starting point:                          m2s010_som_sb_0.CORECONFIGP_0.psel / Q
+    Ending point:                            m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[0] / D
+    The start point is clocked by            m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock [falling] on pin CLK
+    The end   point is clocked by            m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORECONFIGP_0.psel                        SLE      Q        Out     0.108     0.108       -         
+psel                                                      Net      -        -       1.106     -           22        
+m2s010_som_sb_0.CORECONFIGP_0.int_prdata_4_sqmuxa_s       CFG3     C        In      -         1.214       -         
+m2s010_som_sb_0.CORECONFIGP_0.int_prdata_4_sqmuxa_s       CFG3     Y        Out     0.223     1.437       -         
+int_prdata_4_sqmuxa_out                                   Net      -        -       0.900     -           14        
+m2s010_som_sb_0.CORECONFIGP_0.prdata_0_iv_RNO[0]          CFG4     D        In      -         2.338       -         
+m2s010_som_sb_0.CORECONFIGP_0.prdata_0_iv_RNO[0]          CFG4     Y        Out     0.271     2.609       -         
+soft_reset_reg_m[0]                                       Net      -        -       0.556     -           1         
+m2s010_som_sb_0.CORECONFIGP_0.prdata_0_iv[0]              CFG4     A        In      -         3.165       -         
+m2s010_som_sb_0.CORECONFIGP_0.prdata_0_iv[0]              CFG4     Y        Out     0.077     3.242       -         
+prdata[0]                                                 Net      -        -       0.159     -           1         
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[0]     SLE      D        In      -         3.401       -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 3.656 is 0.935(25.6%) logic and 2.721(74.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                           Starting                                                            Arrival          
+Instance                                                                                   Reference     Type     Pin      Net                                 Time        Slack
+                                                                                           Clock                                                                                
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.READY_DELAY_PROC\.un5_apb3_rst_rs                 System        SLE      Q        un5_apb3_rst_rs                     0.108       4.791
+CommsFPGA_CCC_0.CCC_INST                                                                   System        CCC      LOCK     CommsFPGA_CCC_0_LOCK                0.000       4.860
+CommsFPGA_top_0.TRIPLE_DEBOUNCE_INST.DEBOUNCE_1_INST.DEBOUNCE_PROC\.un3_debounce_in_rs     System        SLE      Q        un3_debounce_in_rs_0                0.108       5.904
+CommsFPGA_top_0.TRIPLE_DEBOUNCE_INST.DEBOUNCE_0_INST.DEBOUNCE_PROC\.un3_debounce_in_rs     System        SLE      Q        un3_debounce_in_rs                  0.108       5.904
+CommsFPGA_top_0.TRIPLE_DEBOUNCE_INST.DEBOUNCE_2_INST.DEBOUNCE_PROC\.un3_debounce_in_rs     System        SLE      Q        un3_debounce_in_rs_1                0.108       5.949
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[2]                                     System        SLE      Q        CoreAPB3_0_APBmslave0_PRDATA[2]     0.108       7.363
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[3]                                     System        SLE      Q        CoreAPB3_0_APBmslave0_PRDATA[3]     0.108       7.370
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[7]                                     System        SLE      Q        CoreAPB3_0_APBmslave0_PRDATA[7]     0.108       7.381
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[1]                                     System        SLE      Q        CoreAPB3_0_APBmslave0_PRDATA[1]     0.108       7.389
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[4]                                     System        SLE      Q        CoreAPB3_0_APBmslave0_PRDATA[4]     0.108       7.392
+================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                        Starting                                                         Required          
+Instance                                                                                Reference     Type     Pin     Net                               Time         Slack
+                                                                                        Clock                                                                              
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.mac_2_byte_1_reg_en_ret_4                      System        SLE      D       un12_mac_2_byte_1_reg_en_16_3     9.745        4.791
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.tx_col_detect_en     System        SLE      D       tx_col_detect_en_0                9.745        4.860
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.control_reg_en_ret_0                           System        SLE      D       N_731                             9.745        5.356
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.mac_2_byte_1_reg_en_ret_2                      System        SLE      D       N_731                             9.745        5.356
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.mac_1_byte_2_reg_en_ret                        System        SLE      D       N_729                             9.745        5.427
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.mac_2_byte_1_reg_en_ret_3                      System        SLE      D       un12_mac_2_byte_1_reg_en_16_2     9.745        5.475
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.mac_1_byte_1_reg_en_ret                        System        SLE      D       N_730                             9.745        5.495
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.AFE_RX_STATE_MACHINE.RX_EarlyTerm_s             System        SLE      D       RX_EarlyTerm_s_0                  9.745        5.625
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.control_reg_en_ret                             System        SLE      D       N_732                             9.745        5.820
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.mac_2_byte_1_reg_en_ret_1                      System        SLE      D       N_5_0                             9.745        5.857
+===========================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      4.954
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 4.791
+
+    Number of logic level(s):                5
+    Starting point:                          CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.READY_DELAY_PROC\.un5_apb3_rst_rs / Q
+    Ending point:                            CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.mac_2_byte_1_reg_en_ret_4 / D
+    The start point is clocked by            System [rising] on pin CLK
+    The end   point is clocked by            m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                          Pin      Pin               Arrival     No. of    
+Name                                                                                           Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.READY_DELAY_PROC\.un5_apb3_rst_rs                     SLE      Q        Out     0.108     0.108       -         
+un5_apb3_rst_rs                                                                                Net      -        -       0.674     -           2         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.iAPB3_READY_RNI02ML[1]                                CFG3     B        In      -         0.783       -         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.iAPB3_READY_RNI02ML[1]                                CFG3     Y        Out     0.164     0.947       -         
+CoreAPB3_0_APBmslave0_PREADY                                                                   Net      -        -       0.715     -           4         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.WRITE_REGISTER_ENABLE_PROC\.mac_4_byte_6_reg_en_1     CFG2     B        In      -         1.662       -         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.WRITE_REGISTER_ENABLE_PROC\.mac_4_byte_6_reg_en_1     CFG2     Y        Out     0.148     1.810       -         
+mac_4_byte_6_reg_en_1                                                                          Net      -        -       1.234     -           38        
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.mac_2_byte_1_reg_en_0                                 CFG3     B        In      -         3.045       -         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.mac_2_byte_1_reg_en_0                                 CFG3     Y        Out     0.165     3.209       -         
+N_11                                                                                           Net      -        -       0.556     -           1         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.REG_WRITE_PROC\.un12_mac_2_byte_1_reg_en_16_1         CFG4     D        In      -         3.765       -         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.REG_WRITE_PROC\.un12_mac_2_byte_1_reg_en_16_1         CFG4     Y        Out     0.271     4.036       -         
+un12_mac_2_byte_1_reg_en_16_1                                                                  Net      -        -       0.556     -           1         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.REG_WRITE_PROC\.un12_mac_2_byte_1_reg_en_16_3         CFG3     C        In      -         4.592       -         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.REG_WRITE_PROC\.un12_mac_2_byte_1_reg_en_16_3         CFG3     Y        Out     0.203     4.795       -         
+un12_mac_2_byte_1_reg_en_16_3                                                                  Net      -        -       0.159     -           1         
+CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.mac_2_byte_1_reg_en_ret_4                             SLE      D        In      -         4.954       -         
+=========================================================================================================================================================
+Total path delay (propagation time + setup) of 5.209 is 1.315(25.3%) logic and 3.894(74.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 191MB peak: 200MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 191MB peak: 200MB)
+
+---------------------------------------
+Resource Usage Report for m2s010_som 
+
+Mapping to part: m2s060tfcsbga325std
+Cell usage:
+CCC             2 uses
+CLKINT          17 uses
+MSS_060         1 use
+MX2             2 uses
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SYSRESET        1 use
+XTLOSC          1 use
+CFG1           20 uses
+CFG2           185 uses
+CFG3           238 uses
+CFG4           460 uses
+
+Carry cells:
+ARI1            386 uses - used for arithmetic functions
+ARI1            44 uses - used for Wide-Mux implementation
+Total ARI1      430 uses
+
+
+Sequential Cells: 
+SLE            1150 uses
+
+DSP Blocks:    0 of 72 (0%)
+
+I/O ports: 126
+I/O primitives: 122
+BIBUF          43 uses
+INBUF          25 uses
+OUTBUF         50 uses
+OUTBUF_DIFF    1 use
+TRIBUFF        3 uses
+
+
+Global Clock Buffers: 17 of 8 (212%)
+
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K18) : 2 of 69 (2%)
+
+Total LUTs:    1333
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 72; LUTs = 72;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  1150 + 0 + 72 + 0 = 1222;
+Total number of LUTs after P&R:  1333 + 0 + 72 + 0 = 1405;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 36MB peak: 200MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
+# Tue Aug 22 10:21:56 2017
+
+###########################################################]

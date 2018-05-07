@@ -1,0 +1,9 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\designer\impl1\m2s010_som_rev_LA_For_005.adb"
+LIST SOURCE_FILES
+VALUE "C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\synthesis\rev_LA_For_005\m2s010_som.edn;edn"
+ENDLIST
+LIST OPTIONAL_FILES
+ENDLIST
+LIST VCD_FILES
+ENDLIST

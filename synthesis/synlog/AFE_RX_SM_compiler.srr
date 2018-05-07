@@ -1,0 +1,59 @@
+Synopsys HDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ns
+@N:"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":34:7:34:15|Top entity is set to AFE_RX_SM.
+
+File Dependency file is up to date.  It will not be rewritten.
+
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
+@N: CD630 :"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":34:7:34:15|Synthesizing work.afe_rx_sm.behavioral 
+@N: CD231 :"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":72:25:72:26|Using onehot encoding for type afe_rx_state_type (idle="10000")
+@N: CD364 :"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":117:8:117:21|Removed redundant assignment
+@N: CD364 :"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":120:8:120:21|Removed redundant assignment
+@N: CD364 :"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":121:8:121:21|Removed redundant assignment
+Post processing for work.afe_rx_sm.behavioral
+@W: CL169 :"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":90:4:90:5|Pruning register RX_FIFO_Empty_s_4  
+@N: CL201 :"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":147:6:147:7|Trying to extract state machine for register AFE_RX_STATE
+Extracted state machine for register AFE_RX_STATE
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@W: CL159 :"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":44:4:44:16|Input RX_FIFO_Empty is unused
+@W: CL159 :"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":48:4:48:16|Input rx_packet_end is unused
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Mar 21 14:46:16 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Mar 21 14:46:16 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Mar 21 14:46:16 2017
+
+###########################################################]

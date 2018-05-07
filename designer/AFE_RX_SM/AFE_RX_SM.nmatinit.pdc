@@ -1,0 +1,81 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.7 SP3 11.7.3.8
+
+# Design Name: AFE_RX_SM 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S060T , Package: 325 FCSBGA , Speed grade: STD 
+
+# Date generated: Tue Mar 21 14:27:46 2017 
+
+
+#
+# I/O constraints
+#
+
+set_io RX_EarlyTerm -DIRECTION INPUT -pinname V1 -fixed no
+set_io RX_FIFO_DIN\[0\] -DIRECTION INPUT -pinname L2 -fixed no
+set_io RX_FIFO_DIN\[1\] -DIRECTION INPUT -pinname W1 -fixed no
+set_io RX_FIFO_DIN\[2\] -DIRECTION INPUT -pinname L3 -fixed no
+set_io RX_FIFO_DIN\[3\] -DIRECTION INPUT -pinname T3 -fixed no
+set_io RX_FIFO_DIN\[4\] -DIRECTION INPUT -pinname M5 -fixed no
+set_io RX_FIFO_DIN\[5\] -DIRECTION INPUT -pinname Y2 -fixed no
+set_io RX_FIFO_DIN\[6\] -DIRECTION INPUT -pinname W2 -fixed no
+set_io RX_FIFO_DIN\[7\] -DIRECTION INPUT -pinname L1 -fixed no
+set_io clk -DIRECTION INPUT -pinname U11 -fixed no
+set_io clk1x_enable -DIRECTION OUTPUT -pinname R4 -fixed no
+set_io idle_line -DIRECTION INPUT -pinname U1 -fixed no
+set_io manches_in_dly\[0\] -DIRECTION INPUT -pinname P5 -fixed no
+set_io manches_in_dly\[1\] -DIRECTION INPUT -pinname P4 -fixed no
+set_io packet_avail -DIRECTION OUTPUT -pinname U2 -fixed no
+set_io reset -DIRECTION INPUT -pinname R5 -fixed no
+set_io rx_packet_avail -DIRECTION OUTPUT -pinname T5 -fixed no
+set_io rx_packet_end_all -DIRECTION OUTPUT -pinname N7 -fixed no
+set_io sample -DIRECTION INPUT -pinname N4 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location start_bit_cntrc_i -fixed no 881 45
+set_location AFE_RX_SM.clk1x_enable_6_0_o4 -fixed no 872 42
+set_location start_bit_cntr_0_i_o2_0\[3\] -fixed no 880 45
+set_location start_bit_cntr_0_i_o2\[0\] -fixed no 883 45
+set_location start_bit_cntr\[2\] -fixed no 878 46
+set_location AFE_RX_STATE\[3\] -fixed no 866 43
+set_location AFE_RX_SM.clk1x_enable_6_0_a4_0_0 -fixed no 871 42
+set_location start_bit_cntrc_2_i -fixed no 887 45
+set_location rx_packet_avail_RNO -fixed no 875 42
+set_location AFE_RX_STATE_ns\[2\] -fixed no 867 42
+set_location clk_ibuf_RNIVTI2 -fixed no 437 108
+set_location AFE_RX_SM.un1_rx_fifo_din_4 -fixed no 883 57
+set_location AFE_RX_STATE_ns_a4\[3\] -fixed no 868 42
+set_location start_bit_cntrc_1_i -fixed no 879 45
+set_location AFE_RX_SM.irx_packet_end_all_4_0_a4 -fixed no 874 42
+set_location START_BIT_COUNTER_PROC.un1_sample_i_a2 -fixed no 877 45
+set_location start_bit_cntr\[3\] -fixed no 879 46
+set_location AFE_RX_STATE_ns_a3\[3\] -fixed no 864 42
+set_location AFE_RX_STATE\[1\] -fixed no 868 43
+set_location rx_packet_avail -fixed no 875 43
+set_location AFE_RX_STATE\[4\] -fixed no 873 43
+set_location start_bit_cntr\[0\] -fixed no 887 46
+set_location RX_EarlyTerm_s -fixed no 872 43
+set_location AFE_RX_SM.clk1x_enable_6_0 -fixed no 869 42
+set_location start_bit_cntr\[1\] -fixed no 881 46
+set_location AFE_RX_STATE_RNO\[4\] -fixed no 873 42
+set_location AFE_RX_STATE\[0\] -fixed no 870 43
+set_location AFE_RX_SM.un1_rx_fifo_din -fixed no 882 45
+set_location AFE_RX_SM.un1_rx_fifo_din_5 -fixed no 879 30
+set_location start_bit_cntrc_0_i -fixed no 878 45
+set_location AFE_RX_STATE_ns\[4\] -fixed no 870 42
+set_location AFE_RX_STATE_ns_i_a4_0\[0\] -fixed no 866 42
+set_location start_bit_masksr -fixed no 876 45
+set_location irx_packet_end_all -fixed no 874 43
+set_location AFE_RX_STATE\[2\] -fixed no 867 43
+set_location clk_ibuf_RNIVTI2/U0_RGB1 -fixed no 662 45
+set_location start_bit_mask -fixed no 876 46
+set_location start_bit_cntrc_0_1 -fixed no 886 45
+set_location clk1x_enable -fixed no 869 43
+set_location clk_ibuf_RNIVTI2/U0_RGB1_RGB0 -fixed no 662 42

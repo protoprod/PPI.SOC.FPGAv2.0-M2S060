@@ -1,0 +1,41 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 1 clock pin(s) of sequential element(s)
+16 gated/generated clock tree(s) driving 890 clock pin(s) of sequential element(s)
+0 instances converted, 890 sequential instances remain driven by gated/generated clocks
+
+============================================= Non-Gated/Non-Generated Clocks =============================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                                   
+--------------------------------------------------------------------------------------------------------------------------
+@K:CKID0017       I2C_0_SCL_F2M       port                   1          m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST
+==========================================================================================================================
+=============================================================================================================================================== Gated/Generated Clocks ===============================================================================================================================================
+Clock Tree ID     Driving Element                                                                                 Drive Element Type     Fanout     Sample Instance                                                                                        Explanation                                                
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       CommsFPGA_top_0.MANCHESTER_DECODER2_INST.CLOCK_DOMAIN_BUFFER_INST.CLOCK_DOMAIN_BUFFER_0.m41     CFG3                   1          m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST                                                     No gated clock conversion method for cell cell:work.MSS_060
+@K:CKID0002       CommsFPGA_top_0.MANCHESTER_DECODER2_INST.CLOCK_DOMAIN_BUFFER_INST.CLOCK_DOMAIN_BUFFER_0.m46     CFG3                   1          m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST                                                     No gated clock conversion method for cell cell:work.MSS_060
+@K:CKID0003       m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST                                              MSS_060                302        CommsFPGA_top_0.MDIO_SLAVE_INST.slave_state[8]                                                         No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0004       CommsFPGA_CCC_0.CCC_INST                                                                        CCC                    200        CommsFPGA_top_0.IDLE_LINE_DETECTOR.prbs_gen_hold[11]                                                   No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0005       CommsFPGA_top_0.BIT_CLK                                                                         SLE                    101        CommsFPGA_top_0.long_reset                                                                             No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0006       m2s010_som_sb_0.CCC_0.CCC_INST                                                                  CCC                    101        m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST                                                     No gated clock conversion method for cell cell:work.MSS_060
+@K:CKID0007       m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST                                              MSS_060                75         m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST                                                     No gated clock conversion method for cell cell:work.MSS_060
+@K:CKID0008       CommsFPGA_top_0.ClkDivider[1]                                                                   SLE                    55         CommsFPGA_top_0.idle_line_s[0]                                                                         No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0009       CommsFPGA_CCC_0.CCC_INST                                                                        CCC                    21         CommsFPGA_top_0.BIT_CLK                                                                                No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0010       m2s010_som_sb_0.FABOSC_0.I_RCOSC_25_50MHZ                                                       RCOSC_25_50MHZ         20         m2s010_som_sb_0.CORERESETP_0.count_ddr[13]                                                             No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0011       CommsFPGA_top_0.COLLISION_DETECTOR_INST.TX_collision_detect                                     SLE                    1          CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.INTERRUPT_INST.COLLISION_DETECT_INT_SYNC.sig_edge_detect      No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0012       CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.JABBER_DETECT_inst.i_Jabber_detect                    SLE                    1          CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.INTERRUPT_INST.JABBER_DETECT_INT_SYNC.sig_edge_detect         No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0013       CommsFPGA_top_0.MANCHESTER_DECODER2_INST.RECEIVE_STATE_MACHINE_INST.SFD_timeout                 SLE                    1          CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.INTERRUPT_INST.SFD_TIMEOUT_INT_SYNC.sig_edge_detect           No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0014       CommsFPGA_top_0.MANCHESTER_DECODER2_INST.RECEIVE_STATE_MACHINE_INST.i_rx_packet_end_all         SLE                    1          CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.INTERRUPT_INST.RX_PACKET_END_ALL_NEW_SYNC.sig_edge_detect     No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0015       CommsFPGA_top_0.long_reset                                                                      SLE                    1          CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.READY_DELAY_PROC.un5_apb3_rst_rs                              No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0016       CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.REG_READ_PROC.un18_read_reg_en_0                       CFG4                   8          CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[0]                                                 No gated clock conversion method for cell cell:ACG4.SLE    
+======================================================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

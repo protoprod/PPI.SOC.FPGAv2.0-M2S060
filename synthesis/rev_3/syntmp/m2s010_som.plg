@@ -1,0 +1,57 @@
+@P:  Worst Slack : 0.416
+@P:  CommsFPGA_top|BIT_CLK_inferred_clock - Estimated Frequency : 145.5 MHz
+@P:  CommsFPGA_top|BIT_CLK_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  CommsFPGA_top|BIT_CLK_inferred_clock - Estimated Period : 6.873
+@P:  CommsFPGA_top|BIT_CLK_inferred_clock - Requested Period : 10.000
+@P:  CommsFPGA_top|BIT_CLK_inferred_clock - Slack : 3.127
+@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 142.9 MHz
+@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 7.000
+@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
+@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock - Slack : 3.001
+@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock - Estimated Frequency : 457.7 MHz
+@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock - Estimated Period : 2.185
+@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock - Requested Period : 10.000
+@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock - Slack : 7.815
+@P:  m2s010_som_sb_CAM_SPI_1_CLK_IO|Y_inferred_clock[0] - Estimated Frequency : NA
+@P:  m2s010_som_sb_CAM_SPI_1_CLK_IO|Y_inferred_clock[0] - Requested Frequency : 100.0 MHz
+@P:  m2s010_som_sb_CAM_SPI_1_CLK_IO|Y_inferred_clock[0] - Estimated Period : NA
+@P:  m2s010_som_sb_CAM_SPI_1_CLK_IO|Y_inferred_clock[0] - Requested Period : 10.000
+@P:  m2s010_som_sb_CAM_SPI_1_CLK_IO|Y_inferred_clock[0] - Slack : NA
+@P:  m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 118.5 MHz
+@P:  m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 8.435
+@P:  m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
+@P:  m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock - Slack : 1.565
+@P:  m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Estimated Frequency : 372.7 MHz
+@P:  m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Estimated Period : 2.683
+@P:  m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Requested Period : 10.000
+@P:  m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock - Slack : 7.317
+@P:  m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock - Estimated Frequency : 123.9 MHz
+@P:  m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock - Estimated Period : 8.069
+@P:  m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock - Requested Period : 10.000
+@P:  m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock - Slack : 1.344
+@P:  m2s010_som|MAC_MII_RX_CLK - Estimated Frequency : NA
+@P:  m2s010_som|MAC_MII_RX_CLK - Requested Frequency : 100.0 MHz
+@P:  m2s010_som|MAC_MII_RX_CLK - Estimated Period : NA
+@P:  m2s010_som|MAC_MII_RX_CLK - Requested Period : 10.000
+@P:  m2s010_som|MAC_MII_RX_CLK - Slack : NA
+@P:  m2s010_som|MAC_MII_TX_CLK - Estimated Frequency : NA
+@P:  m2s010_som|MAC_MII_TX_CLK - Requested Frequency : 100.0 MHz
+@P:  m2s010_som|MAC_MII_TX_CLK - Estimated Period : NA
+@P:  m2s010_som|MAC_MII_TX_CLK - Requested Period : 10.000
+@P:  m2s010_som|MAC_MII_TX_CLK - Slack : NA
+@P:  System - Estimated Frequency : 890.5 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 1.123
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 8.877
+@P: m2s010_som Part : m2s060tfcsbga325std
+@P: m2s010_som Register bits  : 1150 
+@P: m2s010_som DSP Blocks  : 0
+@P: m2s010_som I/O primitives : 122
+@P: m2s010_som RAM1K18 :  2
+@P:  CPU Time : 0h:00m:06s

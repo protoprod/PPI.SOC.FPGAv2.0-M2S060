@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "E:\FPGA Archive\PPI.SOC.FPGAv2.0-3-9-18-SF2060\designer\impl1\m2s010_som_rev_11.adb"
+LIST SOURCE_FILES
+VALUE "E:\FPGA Archive\PPI.SOC.FPGAv2.0-3-9-18-SF2060\synthesis\rev_11\m2s010_som.edn;edn"
+VALUE "E:\FPGA Archive\PPI.SOC.FPGAv2.0-3-9-18-SF2060\constraint\io\m2s010_som.io.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "E:\FPGA Archive\PPI.SOC.FPGAv2.0-3-9-18-SF2060\synthesis\rev_11\m2s010_som_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

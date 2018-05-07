@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\identify_instrumentor_shell.exe  -idb  C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\PHY_1_Debug\identify.db  -synplify_install  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro  -synplify_tool  synplify_pro  -log  C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\PHY_1_Debug\synlog\m2s010_som_identify_compile.log  -family  SmartFusion2  -prj  C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\m2s010_som_syn.prj  -curimpl  PHY_1_Debug  -dbgimpl  PHY_1_Debug  -fver  2017.03  -idc  C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\PHY_1_Debug\identify.idc  -f  C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\PHY_1_Debug\identifylaunch.tcl 
+rc:0 success:1 runtime:1
+file:C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\PHY_1_Debug\identify.db|io:i|time:1516297278|size:658927|exec:0
+file:C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\PHY_1_Debug\synlog\m2s010_som_identify_compile.log|io:o|time:1516297497|size:2873|exec:0
+file:C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\m2s010_som_syn.prj|io:i|time:1516297257|size:8866|exec:0
+file:C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\PHY_1_Debug\identify.idc|io:i|time:1516297493|size:874|exec:0
+file:C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\PHY_1_Debug\identifylaunch.tcl|io:o|time:1516297496|size:123|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\identify_instrumentor_shell.exe|io:i|time:1479355152|size:125440|exec:1

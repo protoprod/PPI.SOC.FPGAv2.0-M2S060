@@ -1,0 +1,233 @@
+Compile Report
+Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP2 (Version 11.8.2.4)
+Date: Tue Apr 24 08:38:48 2018
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S060T        |
+| Package                        | 325 FCSBGA     |
+| Speed Grade                    | STD            |
+| Temp                           | -40:25:100     |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 3.3V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+------------------------------------------------------------------------------------------------------+
+| Topcell | m2s010_som                                                                                           |
+| Format  | EDIF                                                                                                 |
+| Source  | C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\m2s010_som.edn |
+| Source  | C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\constraint\io\m2s010_som.io.pdc         |
+| Source  | C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\constraint\fp\m2s010_som.fp.pdc         |
++---------+------------------------------------------------------------------------------------------------------+
+
+Options
++---------------------------------------------------------+-------+
+| Merge User SDC file(s) with Existing Timing Constraints | true  |
+| Abort Compile if errors are found in PDC file(s)        | false |
+| Enable Single Event Transient mitigation                | false |
+| Enable Design Separation Methodology                    | false |
+| Limit the number of high fanout nets to display to      | 10    |
++---------------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 3189 | 56520 | 5.64       |
+| DFF                       | 3193 | 56520 | 5.65       |
+| I/O Register              | 0    | 591   | 0.00       |
+| User I/O                  | 127  | 197   | 64.47      |
+| -- Single-ended I/O       | 125  | 197   | 63.45      |
+| -- Differential I/O Pairs | 1    | 98    | 1.02       |
+| RAM64x18                  | 1    | 72    | 1.39       |
+| RAM1K18                   | 37   | 69    | 53.62      |
+| MACC                      | 0    | 72    | 0.00       |
+| Chip Globals              | 8    | 16    | 50.00      |
+| Row Global                | 1    | 1088  | 0.09       |
+| CCC                       | 2    | 6     | 33.33      |
+| RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 1    | 1     | 100.00     |
+| SERDESIF Blocks           | 0    | 1     | 0.00       |
+| -- SERDESIF Lanes         | 0    | 2     | 0.00       |
+| MSS                       | 1    | 1     | 100.00     |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+------+
+| Type                     | 4LUT | DFF  |
++--------------------------+------+------+
+| Fabric Logic             | 1821 | 1825 |
+| RAM64x18 Interface Logic | 36   | 36   |
+| RAM1K18 Interface Logic  | 1332 | 1332 |
+| MACC Interface Logic     | 0    | 0    |
+| Total Used               | 3189 | 3193 |
++--------------------------+------+------+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (256KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 2    | 2     |
+| I2C           | 2    | 2     |
+| UART          | 2    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 1    | 1     |
+| MDDR          | 1    | 1     |
+| HPDMA         | 1    | 1     |
+| PDMA          | 1    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 21   |
+| 5      | 16   |
+| 6      | 1    |
+| 7      | 2    |
+| 8      | 5    |
+| 9      | 1    |
+| 12     | 1    |
+| 13     | 5    |
+| 14     | 1    |
+| 16     | 2    |
+| 17     | 5    |
+| 24     | 3    |
+| Total  | 63   |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 22           | 0           | 0               |
+| Output I/O                    | 63           | 0           | 0               |
+| Bidirectional I/O             | 40           | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 1            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++-----------------+--------+------+-------+--------+---------------+
+| I/O Standard    | Vddi   | Vref | Input | Output | Bidirectional |
++-----------------+--------+------+-------+--------+---------------+
+| LVCMOS33        |  3.30v |  N/A |  21   |  36    |  20           |
+| LVCMOS18        |  1.80v |  N/A |  1    |  27    |  20           |
+| LPDDRI (Output) |  1.80v |  N/A |  0    |  2     |  0            |
++-----------------+--------+------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  100  | 78.74%     |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  27   | 21.26%     |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+---------+--------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                       |
++--------+---------+--------------------------------------------------------------------------------------------+
+| 641    | INT_NET | Net   : ident_coreinst/IICE_comm2iice[11]                                                  |
+|        |         | Driver: ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0_RGB1                      |
+|        |         | Source: NETLIST                                                                            |
+| 503    | INT_NET | Net   : CommsFPGA_CCC_0_GL0                                                                |
+|        |         | Driver: CommsFPGA_CCC_0/GL0_INST/U0_RGB1                                                   |
+|        |         | Source: NETLIST                                                                            |
+| 302    | INT_NET | Net   : m2s010_som_sb_0_MAC_MII_MDC                                                        |
+|        |         | Driver: m2s010_som_sb_0/m2s010_som_sb_MSS_0/MAC_MII_MDC_inferred_clock_RNIHLTC/U0_RGB1     |
+|        |         | Source: NETLIST                                                                            |
+| 128    | INT_NET | Net   : BIT_CLK                                                                            |
+|        |         | Driver: CommsFPGA_top_0/BIT_CLK_inferred_clock_RNIT9E2/U0_RGB1                             |
+|        |         | Source: NETLIST                                                                            |
+| 101    | INT_NET | Net   : m2s010_som_sb_0_CCC_71MHz                                                          |
+|        |         | Driver: m2s010_som_sb_0/CCC_0/GL0_INST/U0_RGB1                                             |
+|        |         | Source: NETLIST                                                                            |
+| 75     | INT_NET | Net   : m2s010_som_sb_0/CORECONFIGP_0_APB_S_PCLK                                           |
+|        |         | Driver: m2s010_som_sb_0/m2s010_som_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIPG5/U0_RGB1 |
+|        |         | Source: NETLIST                                                                            |
+| 73     | INT_NET | Net   : CommsFPGA_top_0_MAC_MII_RX_CLK                                                     |
+|        |         | Driver: CommsFPGA_top_0/ClkDivider_inferred_clock_RNIFOL7[1]/U0_RGB1                       |
+|        |         | Source: NETLIST                                                                            |
+| 21     | INT_NET | Net   : CommsFPGA_CCC_0_GL1                                                                |
+|        |         | Driver: CommsFPGA_CCC_0/GL1_INST/U0_RGB1                                                   |
+|        |         | Source: NETLIST                                                                            |
++--------+---------+--------------------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+---------+----------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                 |
++--------+---------+----------------------------------------------------------------------+
+| 301    | INT_NET | Net   : CommsFPGA_top_0/MDIO_SLAVE_INST/PMAD_rst_reg                 |
+|        |         | Driver: CommsFPGA_top_0/MDIO_SLAVE_INST/PMAD_rst_reg_RNIH1H9/U0_RGB1 |
+|        |         | Source: NETLIST                                                      |
++--------+---------+----------------------------------------------------------------------+
+
+High fanout nets
++--------+---------+------------------------------------------------------------------+
+| Fanout | Type    | Name                                                             |
++--------+---------+------------------------------------------------------------------+
+| 395    | INT_NET | Net   : CommsFPGA_top_0/RESET                                    |
+|        |         | Driver: CommsFPGA_top_0/RESET                                    |
+| 222    | INT_NET | Net   : ident_coreinst/IICE_INST/b4_PfFz/b5_PbrtL/b6_OKctIF4     |
+|        |         | Driver: ident_coreinst/IICE_INST/b4_PfFz/b5_PbrtL/b6_OKctIF4     |
+| 122    | INT_NET | Net   : ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb       |
+|        |         | Driver: ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb       |
+| 113    | INT_NET | Net   : CommsFPGA_top_0/MDIO_SLAVE_INST/reg_address[1]           |
+|        |         | Driver: CommsFPGA_top_0/MDIO_SLAVE_INST/reg_address[1]           |
+| 94     | INT_NET | Net   : ident_coreinst/IICE_comm2iice[9]                         |
+|        |         | Driver: ident_coreinst/comm_block_INST/jtagi/b10_nv_ywKMm9X_0_a2 |
+| 91     | INT_NET | Net   : CommsFPGA_top_0/MDIO_SLAVE_INST/reg_address[0]           |
+|        |         | Driver: CommsFPGA_top_0/MDIO_SLAVE_INST/reg_address[0]           |
+| 81     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM8              |
+|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM8      |
+| 77     | INT_NET | Net   : m2s010_som_sb_0/m2s010_som_sb_MSS_0/CONFIG_PRESET_N      |
+|        |         | Driver: m2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST       |
+| 76     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM[80]           |
+|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[80]   |
+| 76     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/b11_nFG0rDY_9e2          |
+|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b11_nFG0rDY_9e2  |
++--------+---------+------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+------------------------------------------------------------------+
+| Fanout | Type    | Name                                                             |
++--------+---------+------------------------------------------------------------------+
+| 395    | INT_NET | Net   : CommsFPGA_top_0/RESET                                    |
+|        |         | Driver: CommsFPGA_top_0/RESET                                    |
+| 222    | INT_NET | Net   : ident_coreinst/IICE_INST/b4_PfFz/b5_PbrtL/b6_OKctIF4     |
+|        |         | Driver: ident_coreinst/IICE_INST/b4_PfFz/b5_PbrtL/b6_OKctIF4     |
+| 122    | INT_NET | Net   : ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb       |
+|        |         | Driver: ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb       |
+| 113    | INT_NET | Net   : CommsFPGA_top_0/MDIO_SLAVE_INST/reg_address[1]           |
+|        |         | Driver: CommsFPGA_top_0/MDIO_SLAVE_INST/reg_address[1]           |
+| 94     | INT_NET | Net   : ident_coreinst/IICE_comm2iice[9]                         |
+|        |         | Driver: ident_coreinst/comm_block_INST/jtagi/b10_nv_ywKMm9X_0_a2 |
+| 91     | INT_NET | Net   : CommsFPGA_top_0/MDIO_SLAVE_INST/reg_address[0]           |
+|        |         | Driver: CommsFPGA_top_0/MDIO_SLAVE_INST/reg_address[0]           |
+| 81     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM8              |
+|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM8      |
+| 77     | INT_NET | Net   : m2s010_som_sb_0/m2s010_som_sb_MSS_0/CONFIG_PRESET_N      |
+|        |         | Driver: m2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST       |
+| 76     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM[80]           |
+|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[80]   |
+| 76     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/b11_nFG0rDY_9e2          |
+|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b11_nFG0rDY_9e2  |
++--------+---------+------------------------------------------------------------------+
+

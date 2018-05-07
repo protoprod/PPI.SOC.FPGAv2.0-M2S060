@@ -1,0 +1,51 @@
+Warning: CMPG4-007: Top level port RX_FIFO_Empty is not connected to any IO pad
+Warning: CMPG4-007: Top level port rx_packet_end is not connected to any IO pad
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       1 
+      Globals that cannot be demoted:      0 
+      Globals considered for demotion:     1 
+
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    14     0      0      'clk_ibuf_RNIVTI2' 
+
+Info: Demotion information: 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io DEBOUNCE_IN[0] -pinname R8 -fixed yes -RES_PULL Up -DIRECTION INPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io DEBOUNCE_IN[1] -pinname U10 -fixed yes -RES_PULL Up -DIRECTION INPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io DEBOUNCE_IN[2] -pinname W11 -fixed yes -RES_PULL Up -DIRECTION INPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io DEBOUNCE_OUT_1 -pinname V10 -fixed yes -DIRECTION OUTPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io DEBOUNCE_OUT_2 -pinname V11 -fixed yes -DIRECTION OUTPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io DRVR_EN -pinname W2 -fixed yes -DIRECTION OUTPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io Data_FAIL -pinname N20 -fixed yes -DIRECTION OUTPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io GPIO_11_M2F -pinname K2 -fixed yes -DIRECTION OUTPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io GPIO_1_BI[0] -pinname J1 -fixed yes -DIRECTION INOUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io GPIO_21_M2F -pinname K7 -fixed yes -DIRECTION OUTPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io GPIO_22_M2F -pinname K5 -fixed yes -DIRECTION OUTPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io GPIO_24_M2F -pinname K4 -fixed yes -DIRECTION OUTPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io GPIO_5_M2F -pinname H2 -fixed yes -DIRECTION OUTPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io GPIO_6_PAD[0] -pinname H5 -fixed yes -DIRECTION INOUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io GPIO_7_PADI[0] -pinname H4 -fixed yes -DIRECTION INOUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io GPIO_8_M2F -pinname J4 -fixed yes -DIRECTION OUTPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io ID_RES[0] -pinname N1 -fixed yes -DIRECTION INPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io ID_RES[1] -pinname T2 -fixed yes -DIRECTION INPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io ID_RES[2] -pinname V1 -fixed yes -DIRECTION INPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io ID_RES[3] -pinname M4 -fixed yes -DIRECTION INPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io MAC_MII_COL -pinname L19 -fixed yes -DIRECTION INPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io MAC_MII_CRS -pinname M20 -fixed yes -DIRECTION INPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io MAC_MII_MDC -pinname F18 -fixed yes -DIRECTION OUTPUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io MAC_MII_MDIO -pinname G17 -fixed yes -DIRECTION INOUT
+Error: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io MAC_MII_RXD[0] -pinname L18 -fixed yes -DIRECTION INPUT
+INFO: Reading User PDC file C:/work/IRail/PPI.IRail.SoC.FPGA/constraint/io/m2s010_som.io.pdc. 51 error(s) and 0 warning(s)
+Error:  The command 'compile' failed.
+Error:  Line 113
+Error running script

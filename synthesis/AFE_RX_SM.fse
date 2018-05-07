@@ -1,0 +1,14 @@
+
+fsm_encoding {914761471} onehot
+
+fsm_state_encoding {914761471} idle {00001}
+
+fsm_state_encoding {914761471} carrier_detect_st {00010}
+
+fsm_state_encoding {914761471} start_bit_st {00100}
+
+fsm_state_encoding {914761471} packet_in_st {01000}
+
+fsm_state_encoding {914761471} early_term {10000}
+
+fsm_registers {914761471} {AFE_RX_STATE[0]}  {AFE_RX_STATE[1]}  {AFE_RX_STATE[2]}  {AFE_RX_STATE[3]}  {AFE_RX_STATE[4]} 

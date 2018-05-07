@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!-- 
+  Synopsys, Inc.
+  Version L-2016.09M-2
+  Project file C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082217\synthesis\rev_4\syntmp\run_option.xml
+  Written on Tue Aug 22 15:23:40 2017
+
+
+--> 
+<project_attribute_list name="Project Settings"> 
+     <option name="project_name" display_name="Project Name">m2s010_som_syn</option>
+     <option name="impl_name" display_name="Implementation Name">rev_4</option>
+     <option name="top_module" display_name="Top Module">work.m2s010_som</option>
+     <option name="retiming" display_name="Retiming">1</option>
+     <option name="resource_sharing" display_name="Resource Sharing">0</option>
+     <option name="maxfan" display_name="Fanout Guide">10000</option>
+     <option name="disable_io_insertion" display_name="Disable I/O Insertion">0</option>
+     <option name="no_sequential_opt" display_name="Disable Sequential Optimizations">0</option>
+     <option name="symbolic_fsm_compiler" display_name="FSM Compiler">1</option>
+</project_attribute_list>
+

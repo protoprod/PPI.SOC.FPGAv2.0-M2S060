@@ -1,0 +1,255 @@
+# Synopsys Constraint Checker, version map201609actrcp1, Build 005R, built Jan 25 2017
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Fri Sep 08 15:20:08 2017
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "m2s010_som"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                                              Ending                                                                |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                                System                                                                |     10.000           |     No paths         |     No paths         |     No paths                         
+System                                                                m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       |     10.000           |     No paths         |     No paths         |     10.000                           
+System                                                                m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock                |     10.000           |     No paths         |     No paths         |     10.000                           
+System                                                                m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock                |     10.000           |     No paths         |     No paths         |     No paths                         
+System                                                                CommsFPGA_top|BIT_CLK_inferred_clock                                  |     10.000           |     No paths         |     No paths         |     No paths                         
+m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                     |     10.000           |     No paths         |     5.000            |     5.000                            
+m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                     m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       |     Diff grp         |     No paths         |     No paths         |     No paths                         
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       System                                                                |     10.000           |     No paths         |     No paths         |     No paths                         
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       |     10.000           |     No paths         |     No paths         |     No paths                         
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock                |     Diff grp         |     No paths         |     No paths         |     No paths                         
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock                |     Diff grp         |     No paths         |     No paths         |     No paths                         
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       CommsFPGA_top|BIT_CLK_inferred_clock                                  |     Diff grp         |     No paths         |     No paths         |     No paths                         
+m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       |     Diff grp         |     No paths         |     No paths         |     No paths                         
+m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     |     10.000           |     No paths         |     No paths         |     No paths                         
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock                System                                                                |     10.000           |     No paths         |     No paths         |     No paths                         
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock                m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       |     Diff grp         |     No paths         |     No paths         |     No paths                         
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock                m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock                |     10.000           |     No paths         |     No paths         |     No paths                         
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock                CommsFPGA_top|BIT_CLK_inferred_clock                                  |     Diff grp         |     No paths         |     No paths         |     No paths                         
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock                m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock                |     Diff grp         |     No paths         |     No paths         |     No paths                         
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock                m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock                |     10.000           |     No paths         |     No paths         |     No paths                         
+CommsFPGA_top|BIT_CLK_inferred_clock                                  System                                                                |     10.000           |     No paths         |     No paths         |     No paths                         
+CommsFPGA_top|BIT_CLK_inferred_clock                                  m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       |     Diff grp         |     No paths         |     No paths         |     No paths                         
+CommsFPGA_top|BIT_CLK_inferred_clock                                  m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock                |     Diff grp         |     No paths         |     No paths         |     No paths                         
+CommsFPGA_top|BIT_CLK_inferred_clock                                  m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock                |     Diff grp         |     No paths         |     No paths         |     No paths                         
+CommsFPGA_top|BIT_CLK_inferred_clock                                  CommsFPGA_top|BIT_CLK_inferred_clock                                  |     10.000           |     No paths         |     No paths         |     No paths                         
+=======================================================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:DEBOUNCE_IN[0]
+p:DEBOUNCE_IN[1]
+p:DEBOUNCE_IN[2]
+p:DEBOUNCE_OUT_1
+p:DEBOUNCE_OUT_2
+p:DEVRST_N
+p:DRVR_EN
+p:Data_FAIL
+p:GPIO_0_BI (bidir end point)
+p:GPIO_0_BI (bidir start point)
+p:GPIO_1_BIDI[0]
+p:GPIO_1_BI[0] (bidir end point)
+p:GPIO_1_BI[0] (bidir start point)
+p:GPIO_3_BI (bidir end point)
+p:GPIO_3_BI (bidir start point)
+p:GPIO_4_BI (bidir end point)
+p:GPIO_4_BI (bidir start point)
+p:GPIO_5_M2F
+p:GPIO_6_PAD[0] (bidir end point)
+p:GPIO_6_PAD[0] (bidir start point)
+p:GPIO_7_PADI[0] (bidir end point)
+p:GPIO_7_PADI[0] (bidir start point)
+p:GPIO_8_M2F
+p:GPIO_11_M2F
+p:GPIO_12_BI (bidir end point)
+p:GPIO_12_BI (bidir start point)
+p:GPIO_14_BI (bidir end point)
+p:GPIO_14_BI (bidir start point)
+p:GPIO_15_BI (bidir end point)
+p:GPIO_15_BI (bidir start point)
+p:GPIO_16_BI (bidir end point)
+p:GPIO_16_BI (bidir start point)
+p:GPIO_17_BI (bidir end point)
+p:GPIO_17_BI (bidir start point)
+p:GPIO_18_BI (bidir end point)
+p:GPIO_18_BI (bidir start point)
+p:GPIO_20_OUT
+p:GPIO_21_M2F
+p:GPIO_22_M2F
+p:GPIO_24_M2F
+p:GPIO_25_BI (bidir end point)
+p:GPIO_25_BI (bidir start point)
+p:GPIO_26_BI (bidir end point)
+p:GPIO_26_BI (bidir start point)
+p:GPIO_31_BI (bidir end point)
+p:GPIO_31_BI (bidir start point)
+p:I2C_1_SCL (bidir end point)
+p:I2C_1_SCL (bidir start point)
+p:I2C_1_SDA (bidir end point)
+p:I2C_1_SDA (bidir start point)
+p:ID_RES[0]
+p:ID_RES[1]
+p:ID_RES[2]
+p:ID_RES[3]
+p:MAC_MII_COL
+p:MAC_MII_CRS
+p:MAC_MII_MDC
+p:MAC_MII_MDIO (bidir end point)
+p:MAC_MII_MDIO (bidir start point)
+p:MAC_MII_RXD[0]
+p:MAC_MII_RXD[1]
+p:MAC_MII_RXD[2]
+p:MAC_MII_RXD[3]
+p:MAC_MII_RX_DV
+p:MAC_MII_RX_ER
+p:MAC_MII_TXD[0]
+p:MAC_MII_TXD[1]
+p:MAC_MII_TXD[2]
+p:MAC_MII_TXD[3]
+p:MAC_MII_TX_EN
+p:MANCHESTER_IN
+p:MANCH_OUT_N
+p:MANCH_OUT_P
+p:MDDR_ADDR[0]
+p:MDDR_ADDR[1]
+p:MDDR_ADDR[2]
+p:MDDR_ADDR[3]
+p:MDDR_ADDR[4]
+p:MDDR_ADDR[5]
+p:MDDR_ADDR[6]
+p:MDDR_ADDR[7]
+p:MDDR_ADDR[8]
+p:MDDR_ADDR[9]
+p:MDDR_ADDR[10]
+p:MDDR_ADDR[11]
+p:MDDR_ADDR[12]
+p:MDDR_ADDR[13]
+p:MDDR_ADDR[14]
+p:MDDR_ADDR[15]
+p:MDDR_BA[0]
+p:MDDR_BA[1]
+p:MDDR_BA[2]
+p:MDDR_CAS_N
+p:MDDR_CKE
+p:MDDR_CLK
+p:MDDR_CLK_N
+p:MDDR_CS_N
+p:MDDR_DM_RDQS[0] (bidir end point)
+p:MDDR_DM_RDQS[0] (bidir start point)
+p:MDDR_DM_RDQS[1] (bidir end point)
+p:MDDR_DM_RDQS[1] (bidir start point)
+p:MDDR_DQS[0] (bidir end point)
+p:MDDR_DQS[0] (bidir start point)
+p:MDDR_DQS[1] (bidir end point)
+p:MDDR_DQS[1] (bidir start point)
+p:MDDR_DQS_TMATCH_0_IN
+p:MDDR_DQS_TMATCH_0_OUT
+p:MDDR_DQ[0] (bidir end point)
+p:MDDR_DQ[0] (bidir start point)
+p:MDDR_DQ[1] (bidir end point)
+p:MDDR_DQ[1] (bidir start point)
+p:MDDR_DQ[2] (bidir end point)
+p:MDDR_DQ[2] (bidir start point)
+p:MDDR_DQ[3] (bidir end point)
+p:MDDR_DQ[3] (bidir start point)
+p:MDDR_DQ[4] (bidir end point)
+p:MDDR_DQ[4] (bidir start point)
+p:MDDR_DQ[5] (bidir end point)
+p:MDDR_DQ[5] (bidir start point)
+p:MDDR_DQ[6] (bidir end point)
+p:MDDR_DQ[6] (bidir start point)
+p:MDDR_DQ[7] (bidir end point)
+p:MDDR_DQ[7] (bidir start point)
+p:MDDR_DQ[8] (bidir end point)
+p:MDDR_DQ[8] (bidir start point)
+p:MDDR_DQ[9] (bidir end point)
+p:MDDR_DQ[9] (bidir start point)
+p:MDDR_DQ[10] (bidir end point)
+p:MDDR_DQ[10] (bidir start point)
+p:MDDR_DQ[11] (bidir end point)
+p:MDDR_DQ[11] (bidir start point)
+p:MDDR_DQ[12] (bidir end point)
+p:MDDR_DQ[12] (bidir start point)
+p:MDDR_DQ[13] (bidir end point)
+p:MDDR_DQ[13] (bidir start point)
+p:MDDR_DQ[14] (bidir end point)
+p:MDDR_DQ[14] (bidir start point)
+p:MDDR_DQ[15] (bidir end point)
+p:MDDR_DQ[15] (bidir start point)
+p:MDDR_ODT
+p:MDDR_RAS_N
+p:MDDR_RESET_N
+p:MDDR_WE_N
+p:MMUART_0_RXD_F2M
+p:MMUART_0_TXD_M2F
+p:MMUART_1_RXD
+p:MMUART_1_TXD
+p:PULLDOWN_R9
+p:RCVR_EN
+p:SPI_0_CLK (bidir end point)
+p:SPI_0_CLK (bidir start point)
+p:SPI_0_DI
+p:SPI_0_DO
+p:SPI_0_SS0 (bidir end point)
+p:SPI_0_SS0 (bidir start point)
+p:SPI_0_SS1
+p:SPI_1_CLK[0] (bidir end point)
+p:SPI_1_CLK[0] (bidir start point)
+p:SPI_1_DI_CAM
+p:SPI_1_DI_OTH
+p:SPI_1_DO_CAM
+p:SPI_1_DO_OTH
+p:SPI_1_SS0_CAM[0] (bidir end point)
+p:SPI_1_SS0_CAM[0] (bidir start point)
+p:SPI_1_SS0_OTH[0] (bidir end point)
+p:SPI_1_SS0_OTH[0] (bidir start point)
+p:XTL
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

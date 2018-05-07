@@ -1,0 +1,2030 @@
+KEY LIBERO "11.8"
+KEY CAPTURE "11.8.2.4"
+KEY DEFAULT_IMPORT_LOC "C:\Actelprj\a2f-lnx-evb-2A\Emcraft_IP\PSRAM_SR"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "SmartFusion2"
+KEY VendorTechnology_Die "PA4M6000"
+KEY VendorTechnology_Package "fcs325"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "IND"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS33"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4M6000"
+KEY VendorTechnology_TEMPR "IND"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "IND"
+KEY ProjectLocation "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060"
+KEY ProjectDescription "First test design"
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "m2s010_som::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST LIBRARIES
+COREFIFO_LIB
+COREAPB3_LIB
+ENDLIST
+LIST LIBRARY_COREFIFO_LIB
+ALIAS=COREFIFO_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST LIBRARY_COREAPB3_LIB
+ALIAS=COREAPB3_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573445"
+SIZE="3259"
+PARENT="<project>\component\work\m2s010_som\m2s010_som.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd,tb_hdl"
+STATE="utd"
+TIME="1524573445"
+SIZE="2013"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\mti\scripts\wave_user.do,do"
+STATE="utd"
+TIME="1500639525"
+SIZE="912"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+STATE="utd"
+TIME="1500639525"
+SIZE="4009"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+STATE="utd"
+TIME="1500639525"
+SIZE="9540"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+STATE="utd"
+TIME="1500639525"
+SIZE="2074"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+STATE="utd"
+TIME="1500639525"
+SIZE="12455"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+STATE="utd"
+TIME="1500639525"
+SIZE="82848"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+STATE="utd"
+TIME="1500639525"
+SIZE="45675"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+STATE="utd"
+TIME="1500639525"
+SIZE="12780"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+STATE="utd"
+TIME="1500639525"
+SIZE="23829"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd,hdl"
+STATE="utd"
+TIME="1500639526"
+SIZE="6172"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd,hdl"
+STATE="utd"
+TIME="1500639526"
+SIZE="78851"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd,hdl"
+STATE="utd"
+TIME="1500639526"
+SIZE="5757"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd,hdl"
+STATE="utd"
+TIME="1500639526"
+SIZE="9523"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+STATE="utd"
+TIME="1500639525"
+SIZE="28895"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreConfigP\7.0.105\CoreConfigP.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573398"
+SIZE="474"
+PARENT="<project>\component\work\m2s010_som_sb\m2s010_som_sb.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd,hdl"
+STATE="utd"
+TIME="1497640216"
+SIZE="32692"
+PARENT="<project>\component\Actel\DirectCore\CoreConfigP\7.0.105\CoreConfigP.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\2.6.108\COREFIFO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1520522930"
+SIZE="715"
+PARENT="<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\2.6.108\rtl\vhdl\core\fifo_pkg.vhd,hdl"
+STATE="utd"
+TIME="1503346040"
+SIZE="2242"
+LIBRARY="COREFIFO_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREFIFO\2.6.108\COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreResetP\7.0.104\CoreResetP.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573398"
+SIZE="582"
+PARENT="<project>\component\work\m2s010_som_sb\m2s010_som_sb.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd,hdl"
+STATE="utd"
+TIME="1497640216"
+SIZE="75039"
+PARENT="<project>\component\Actel\DirectCore\CoreResetP\7.0.104\CoreResetP.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd,hdl"
+STATE="utd"
+TIME="1497640216"
+SIZE="9297"
+PARENT="<project>\component\Actel\DirectCore\CoreResetP\7.0.104\CoreResetP.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\FCCC\2.0.200\FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573445"
+SIZE="241"
+PARENT="<project>\component\work\m2s010_som\m2s010_som.cxf"
+PARENT="<project>\component\work\m2s010_som_sb\m2s010_som_sb.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573399"
+SIZE="682"
+PARENT="<project>\component\work\m2s010_som_sb\m2s010_som_sb.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd,hdl"
+STATE="utd"
+TIME="1498678485"
+SIZE="2164"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps_pre.vhd,hdl"
+STATE="utd"
+TIME="1498678485"
+SIZE="2108"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="PRECISION_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.cxf,actgen_cxf"
+STATE="utd"
+TIME="1520456788"
+SIZE="467"
+PARENT="<project>\component\work\TB_iRail\TB_iRail.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.vhd,tb_hdl"
+STATE="utd"
+TIME="1498587153"
+SIZE="504"
+PARENT="<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.cxf,actgen_cxf"
+STATE="utd"
+TIME="1520456788"
+SIZE="471"
+PARENT="<project>\component\work\TB_iRail\TB_iRail.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.vhd,tb_hdl"
+STATE="utd"
+TIME="1498587153"
+SIZE="538"
+PARENT="<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS\1.1.400\MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573360"
+SIZE="526"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CCC\1.0.100\MSS_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573353"
+SIZE="253"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CC\1.0.100\MSS_CC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573353"
+SIZE="252"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CFGM\1.1.100\MSS_CFGM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573353"
+SIZE="254"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CM3\1.0.200\MSS_CM3.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573353"
+SIZE="253"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_DDRB\1.0.200\MSS_DDRB.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573353"
+SIZE="254"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_EDAC\1.0.101\MSS_EDAC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573353"
+SIZE="254"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_ENVM\1.0.101\MSS_ENVM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573353"
+SIZE="254"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_FIC32\1.0.100\MSS_FIC32.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573353"
+SIZE="255"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_GPIO\1.0.100\MSS_GPIO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573353"
+SIZE="254"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_I2C\1.0.100\MSS_I2C.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573353"
+SIZE="253"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_INTR\1.0.100\MSS_INTR.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573353"
+SIZE="254"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_MAC\1.0.100\MSS_MAC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573353"
+SIZE="253"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_MDDR\1.0.203\MSS_MDDR.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573353"
+SIZE="254"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_MMUART\1.0.100\MSS_MMUART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573353"
+SIZE="256"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_RESET\1.0.100\MSS_RESET.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573353"
+SIZE="255"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_RTC\1.0.201\MSS_RTC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573353"
+SIZE="253"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SECURITY\1.0.100\MSS_SECURITY.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573353"
+SIZE="258"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SPI\1.0.100\MSS_SPI.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573353"
+SIZE="253"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SWITCH\1.0.101\MSS_SWITCH.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573353"
+SIZE="256"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER.cxf,actgen_cxf"
+STATE="utd"
+TIME="1520522934"
+SIZE="5270"
+ENDFILE
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER.vhd,hdl"
+STATE="utd"
+TIME="1520522930"
+SIZE="8438"
+PARENT="<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1520522930"
+SIZE="3415"
+PARENT="<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER.cxf"
+ENDFILE
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\coreparameters.vhd,tb_hdl"
+STATE="utd"
+TIME="1520522930"
+SIZE="1602"
+PARENT="<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\mti\scripts\runall_vhdl.do,do"
+STATE="utd"
+TIME="1520522930"
+SIZE="22"
+PARENT="<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\mti\scripts\wave_vhdl.do,do"
+STATE="utd"
+TIME="1520522930"
+SIZE="1259"
+PARENT="<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_ram_wrapper.vhd,hdl"
+STATE="utd"
+TIME="1520522929"
+SIZE="3012"
+LIBRARY="COREFIFO_LIB"
+PARENT="<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_USRAM_top.vhd,hdl"
+STATE="utd"
+TIME="1520522930"
+SIZE="8232"
+LIBRARY="COREFIFO_LIB"
+PARENT="<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\COREFIFO.vhd,hdl"
+STATE="utd"
+TIME="1520522930"
+SIZE="67853"
+LIBRARY="COREFIFO_LIB"
+PARENT="<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_async.vhd,hdl"
+STATE="utd"
+TIME="1520522930"
+SIZE="61082"
+LIBRARY="COREFIFO_LIB"
+PARENT="<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_doubleSync.vhd,hdl"
+STATE="utd"
+TIME="1520522930"
+SIZE="3648"
+LIBRARY="COREFIFO_LIB"
+PARENT="<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_fwft.vhd,hdl"
+STATE="utd"
+TIME="1520522930"
+SIZE="14846"
+LIBRARY="COREFIFO_LIB"
+PARENT="<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd,hdl"
+STATE="utd"
+TIME="1520522930"
+SIZE="3124"
+LIBRARY="COREFIFO_LIB"
+PARENT="<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_sync.vhd,hdl"
+STATE="utd"
+TIME="1520522930"
+SIZE="39659"
+LIBRARY="COREFIFO_LIB"
+PARENT="<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_sync_scntr.vhd,hdl"
+STATE="utd"
+TIME="1520522930"
+SIZE="29550"
+LIBRARY="COREFIFO_LIB"
+PARENT="<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\g4_dp_ext_mem.vhd,tb_hdl"
+STATE="utd"
+TIME="1520522930"
+SIZE="7423"
+PARENT="<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\TB.vhd,tb_hdl"
+STATE="utd"
+TIME="1520522930"
+SIZE="21503"
+PARENT="<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\XHDL_misc.vhd,tb_hdl"
+STATE="utd"
+TIME="1520522930"
+SIZE="3791"
+PARENT="<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\XHDL_std_logic.vhd,tb_hdl"
+STATE="utd"
+TIME="1520522930"
+SIZE="17897"
+PARENT="<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
+STATE="utd"
+TIME="1519840877"
+SIZE="3287"
+ENDFILE
+VALUE "<project>\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573444"
+SIZE="738"
+PARENT="<project>\component\work\m2s010_som\m2s010_som.cxf"
+ENDFILE
+VALUE "<project>\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd,hdl"
+STATE="utd"
+TIME="1524573444"
+SIZE="5817"
+PARENT="<project>\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\m2s010_som\m2s010_som.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573447"
+SIZE="25237"
+ENDFILE
+VALUE "<project>\component\work\m2s010_som\m2s010_som.vhd,hdl"
+STATE="utd"
+TIME="1524573445"
+SIZE="49276"
+PARENT="<project>\component\work\m2s010_som\m2s010_som.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573397"
+SIZE="707"
+PARENT="<project>\component\work\m2s010_som_sb\m2s010_som_sb.cxf"
+ENDFILE
+VALUE "<project>\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd,hdl"
+STATE="utd"
+TIME="1524573397"
+SIZE="5548"
+PARENT="<project>\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573399"
+SIZE="474"
+PARENT="<project>\component\work\m2s010_som_sb\m2s010_som_sb.cxf"
+ENDFILE
+VALUE "<project>\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd,hdl"
+STATE="utd"
+TIME="1524573399"
+SIZE="1908"
+PARENT="<project>\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\m2s010_som_sb\m2s010_som_sb.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573400"
+SIZE="28435"
+ENDFILE
+VALUE "<project>\component\work\m2s010_som_sb\m2s010_som_sb.vhd,hdl"
+STATE="utd"
+TIME="1524573399"
+SIZE="67154"
+PARENT="<project>\component\work\m2s010_som_sb\m2s010_som_sb.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1524573362"
+SIZE="45599"
+ENDFILE
+VALUE "<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd,hdl"
+STATE="utd"
+TIME="1524573360"
+SIZE="160548"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_pre.vhd,hdl"
+STATE="utd"
+TIME="1524573357"
+SIZE="122428"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="PRECISION_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd,hdl"
+STATE="utd"
+TIME="1524573357"
+SIZE="122260"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\TB_iRail\TB_iRail.cxf,actgen_cxf"
+STATE="utd"
+TIME="1520456789"
+SIZE="2939"
+ENDFILE
+VALUE "<project>\component\work\TB_iRail\TB_iRail.vhd,tb_hdl"
+STATE="utd"
+TIME="1520456788"
+SIZE="19958"
+PARENT="<project>\component\work\TB_iRail\TB_iRail.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\constraint\fp\m2s010_som.fp.pdc,fp_pdc"
+STATE="utd"
+TIME="1524573586"
+SIZE="351"
+ENDFILE
+VALUE "<project>\constraint\io\m2s010_som.io.pdc,io_pdc"
+STATE="utd"
+TIME="1524573586"
+SIZE="4295"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som.ide_des,ide_des"
+STATE="utd"
+TIME="1521569683"
+SIZE="435"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_060_MII.ide_des,ide_des"
+STATE="utd"
+TIME="1521569683"
+SIZE="558"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_FPGA_PHY_IRAIL_DEBUG.ide_des,ide_des"
+STATE="utd"
+TIME="1521569683"
+SIZE="597"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_FPGA_PHY_IRAIL_DEBUG_2.ide_des,ide_des"
+STATE="utd"
+TIME="1521569683"
+SIZE="603"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_1.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="513"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_10.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="516"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_11.ide_des,ide_des"
+STATE="utd"
+TIME="1521149337"
+SIZE="499"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_11_debugColl.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="448"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_12.ide_des,ide_des"
+STATE="utd"
+TIME="1521569714"
+SIZE="335"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_2.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="581"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_2_NoImplement.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="637"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_3.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="581"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_4.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="513"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_5.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="433"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_6.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="433"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_7.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="549"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_8.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="581"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_9.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="497"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_Col_Debug.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="537"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_coms_debug.ide_des,ide_des"
+STATE="utd"
+TIME="1524573586"
+SIZE="685"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_debug.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="593"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_debug1.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="564"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_debug1_1.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="570"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_debug1_2.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="570"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_debug2ndxfer.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="634"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_rev_LA_For_005.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="362"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_synthesis_1.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="619"
+ENDFILE
+VALUE "<project>\designer\impl1\m2s010_som_synthesis_2.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="551"
+ENDFILE
+VALUE "<project>\designer\impl2\AFE_RX_SM.ide_des,ide_des"
+STATE="utd"
+TIME="1518115195"
+SIZE="468"
+ENDFILE
+VALUE "<project>\hdl\BitDetector.vhd,hdl"
+STATE="utd"
+TIME="1518187594"
+SIZE="3143"
+ENDFILE
+VALUE "<project>\hdl\CommsFPGA_top.vhd,hdl"
+STATE="utd"
+TIME="1523909008"
+SIZE="30747"
+ENDFILE
+VALUE "<project>\hdl\CRC16x4_Generator.vhd,hdl"
+STATE="utd"
+TIME="1518187600"
+SIZE="2573"
+ENDFILE
+VALUE "<project>\hdl\Debounce.vhd,hdl"
+STATE="utd"
+TIME="1518187600"
+SIZE="1999"
+ENDFILE
+VALUE "<project>\hdl\Edge_Detect.vhd,hdl"
+STATE="utd"
+TIME="1518187600"
+SIZE="3529"
+ENDFILE
+VALUE "<project>\hdl\IdleLineDetector.vhd,hdl"
+STATE="utd"
+TIME="1518187600"
+SIZE="5701"
+ENDFILE
+VALUE "<project>\hdl\Interrupts.vhd,hdl"
+STATE="utd"
+TIME="1518187600"
+SIZE="8387"
+ENDFILE
+VALUE "<project>\hdl\Jabber_SM.vhd,hdl"
+STATE="utd"
+TIME="1518187601"
+SIZE="6635"
+ENDFILE
+VALUE "<project>\hdl\ManchesDecoder2.vhd,hdl"
+STATE="utd"
+TIME="1522784632"
+SIZE="11218"
+ENDFILE
+VALUE "<project>\hdl\ManchesDecoder_Adapter.vhd,hdl"
+STATE="utd"
+TIME="1522955960"
+SIZE="10252"
+ENDFILE
+VALUE "<project>\hdl\ManchesEncoder2.vhd,hdl"
+STATE="utd"
+TIME="1522788896"
+SIZE="9509"
+ENDFILE
+VALUE "<project>\hdl\MDIO_Master.vhd,hdl"
+STATE="utd"
+TIME="1519400919"
+SIZE="9979"
+ENDFILE
+VALUE "<project>\hdl\mdio_slave_interface.vhd,hdl"
+STATE="utd"
+TIME="1524077000"
+SIZE="29364"
+ENDFILE
+VALUE "<project>\hdl\MII_DataCheck.vhd,hdl"
+STATE="utd"
+TIME="1519157371"
+SIZE="20311"
+ENDFILE
+VALUE "<project>\hdl\MII_DataGen.vhd,hdl"
+STATE="utd"
+TIME="1519157408"
+SIZE="15385"
+ENDFILE
+VALUE "<project>\hdl\Nib2Ser_SM.vhd,hdl"
+STATE="utd"
+TIME="1522793784"
+SIZE="11800"
+ENDFILE
+VALUE "<project>\hdl\Phy_Mux.vhd,hdl"
+STATE="utd"
+TIME="1520282465"
+SIZE="10085"
+ENDFILE
+VALUE "<project>\hdl\RX_SM.vhd,hdl"
+STATE="utd"
+TIME="1522785260"
+SIZE="16460"
+ENDFILE
+VALUE "<project>\hdl\TriDebounce.vhd,hdl"
+STATE="utd"
+TIME="1518187609"
+SIZE="2290"
+ENDFILE
+VALUE "<project>\hdl\TX_Collision_Detector2.vhd,hdl"
+STATE="utd"
+TIME="1518187609"
+SIZE="4208"
+ENDFILE
+VALUE "<project>\hdl\uP_if.vhd,hdl"
+STATE="utd"
+TIME="1522783017"
+SIZE="13742"
+ENDFILE
+VALUE "<project>\simulation\bfmtovec_compile.log,log"
+STATE="utd"
+TIME="1523907688"
+SIZE="407"
+ENDFILE
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+STATE="utd"
+TIME="1500639525"
+SIZE="1229"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
+STATE="utd"
+TIME="1524573358"
+SIZE="500"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\coreapb3_usertb_master.bfm,sim"
+STATE="utd"
+TIME="1518115195"
+SIZE="7754"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\simulation\MDDR_init.bfm,sim"
+STATE="utd"
+TIME="1524573353"
+SIZE="8047"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\peripheral_init.bfm,sim"
+STATE="utd"
+TIME="1497640211"
+SIZE="8450"
+PARENT="<project>\component\Actel\SmartFusion2MSS\MSS\1.1.400\MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1523907684"
+SIZE="6291"
+ENDFILE
+VALUE "<project>\simulation\subsystem.bfm,sim"
+STATE="utd"
+TIME="1524573445"
+SIZE="835"
+PARENT="<project>\component\work\m2s010_som\m2s010_som.cxf"
+PARENT="<project>\component\work\m2s010_som_sb\m2s010_som_sb.cxf"
+ENDFILE
+VALUE "<project>\simulation\test.bfm,sim"
+STATE="utd"
+TIME="1524573358"
+SIZE="734"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\user.bfm,sim"
+STATE="utd"
+TIME="1518115195"
+SIZE="532"
+PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\wave.do,do"
+STATE="utd"
+TIME="1519672057"
+SIZE="20728"
+ENDFILE
+VALUE "<project>\simulation\wave2.do,do"
+STATE="utd"
+TIME="1518115195"
+SIZE="12456"
+ENDFILE
+VALUE "<project>\simulation\wave3.do,do"
+STATE="utd"
+TIME="1518115195"
+SIZE="18210"
+ENDFILE
+VALUE "<project>\simulation\wave_template.do,do"
+STATE="utd"
+TIME="1518115195"
+SIZE="68588"
+ENDFILE
+VALUE "<project>\synthesis\060_MII\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1520611780"
+SIZE="4645290"
+ENDFILE
+VALUE "<project>\synthesis\060_MII\m2s010_som.so,so"
+STATE="utd"
+TIME="1520611781"
+SIZE="251"
+ENDFILE
+VALUE "<project>\synthesis\AFE_RX_SM.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="34347"
+ENDFILE
+VALUE "<project>\synthesis\AFE_RX_SM.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="214"
+ENDFILE
+VALUE "<project>\synthesis\AFE_RX_SM.vhd,syn_hdl"
+STATE="ood"
+TIME="1518115195"
+SIZE="14918"
+ENDFILE
+VALUE "<project>\synthesis\AFE_RX_SM_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1518115195"
+SIZE="842"
+ENDFILE
+VALUE "<project>\synthesis\AFE_RX_SM_syn.prj,prj"
+STATE="utd"
+TIME="1521569647"
+SIZE="1796"
+ENDFILE
+VALUE "<project>\synthesis\FPGA_PHY_IRAIL_DEBUG\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="3146130"
+ENDFILE
+VALUE "<project>\synthesis\FPGA_PHY_IRAIL_DEBUG\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="258"
+ENDFILE
+VALUE "<project>\synthesis\FPGA_PHY_IRAIL_DEBUG\synwork\layer0.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="154"
+ENDFILE
+VALUE "<project>\synthesis\FPGA_PHY_IRAIL_DEBUG_2\m2s010_som.so,so"
+STATE="utd"
+TIME="1520360767"
+SIZE="266"
+ENDFILE
+VALUE "<project>\synthesis\FPGA_PHY_IRAIL_DEBUG_2\synwork\layer0.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="154"
+ENDFILE
+VALUE "<project>\synthesis\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1520433366"
+SIZE="1779503"
+ENDFILE
+VALUE "<project>\synthesis\m2s010_som.so,so"
+STATE="utd"
+TIME="1520433366"
+SIZE="243"
+ENDFILE
+VALUE "<project>\synthesis\m2s010_som_syn.prj,prj"
+STATE="utd"
+TIME="1524573512"
+SIZE="10140"
+ENDFILE
+VALUE "<project>\synthesis\PHY_1_Debug\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="2578661"
+ENDFILE
+VALUE "<project>\synthesis\PHY_1_Debug\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="249"
+ENDFILE
+VALUE "<project>\synthesis\PHY_2_Debug\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="2401691"
+ENDFILE
+VALUE "<project>\synthesis\PHY_2_Debug\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="249"
+ENDFILE
+VALUE "<project>\synthesis\rev_10\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="3388291"
+ENDFILE
+VALUE "<project>\synthesis\rev_10\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="244"
+ENDFILE
+VALUE "<project>\synthesis\rev_11\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1521205346"
+SIZE="1733545"
+ENDFILE
+VALUE "<project>\synthesis\rev_11\m2s010_som.so,so"
+STATE="utd"
+TIME="1521205346"
+SIZE="243"
+ENDFILE
+VALUE "<project>\synthesis\rev_11_debugColl\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="254"
+ENDFILE
+VALUE "<project>\synthesis\rev_12\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1521569704"
+SIZE="1733521"
+ENDFILE
+VALUE "<project>\synthesis\rev_12\m2s010_som.so,so"
+STATE="utd"
+TIME="1521569704"
+SIZE="257"
+ENDFILE
+VALUE "<project>\synthesis\rev_12\m2s010_som_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1521569704"
+SIZE="3151"
+ENDFILE
+VALUE "<project>\synthesis\rev_1\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="3103742"
+ENDFILE
+VALUE "<project>\synthesis\rev_1\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="265"
+ENDFILE
+VALUE "<project>\synthesis\rev_1\m2s010_som.vhd,syn_hdl"
+STATE="ood"
+TIME="1518115195"
+SIZE="1621984"
+ENDFILE
+VALUE "<project>\synthesis\rev_2\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="3102077"
+ENDFILE
+VALUE "<project>\synthesis\rev_2\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="260"
+ENDFILE
+VALUE "<project>\synthesis\rev_2_NoImplement\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="6670753"
+ENDFILE
+VALUE "<project>\synthesis\rev_2_NoImplement\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="277"
+ENDFILE
+VALUE "<project>\synthesis\rev_2_NoImplement\m2s010_som.vhd,syn_hdl"
+STATE="ood"
+TIME="1518115195"
+SIZE="3313854"
+ENDFILE
+VALUE "<project>\synthesis\rev_3\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="2252972"
+ENDFILE
+VALUE "<project>\synthesis\rev_3\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="260"
+ENDFILE
+VALUE "<project>\synthesis\rev_4\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="3139266"
+ENDFILE
+VALUE "<project>\synthesis\rev_4\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="243"
+ENDFILE
+VALUE "<project>\synthesis\rev_5\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="223"
+ENDFILE
+VALUE "<project>\synthesis\rev_6\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="3112995"
+ENDFILE
+VALUE "<project>\synthesis\rev_6\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="223"
+ENDFILE
+VALUE "<project>\synthesis\rev_7\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="3333417"
+ENDFILE
+VALUE "<project>\synthesis\rev_7\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="252"
+ENDFILE
+VALUE "<project>\synthesis\rev_8\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="3292364"
+ENDFILE
+VALUE "<project>\synthesis\rev_8\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="260"
+ENDFILE
+VALUE "<project>\synthesis\rev_9\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="3304424"
+ENDFILE
+VALUE "<project>\synthesis\rev_9\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="239"
+ENDFILE
+VALUE "<project>\synthesis\rev_Col_Debug\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="7034833"
+ENDFILE
+VALUE "<project>\synthesis\rev_Col_Debug\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="251"
+ENDFILE
+VALUE "<project>\synthesis\rev_coms_debug\m2s010_som.edn,syn_edn"
+STATE="utd"
+TIME="1524573511"
+SIZE="3721046"
+ENDFILE
+VALUE "<project>\synthesis\rev_coms_debug\m2s010_som.so,so"
+STATE="utd"
+TIME="1524573512"
+SIZE="265"
+ENDFILE
+VALUE "<project>\synthesis\rev_coms_debug\m2s010_som_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1524573511"
+SIZE="4631"
+ENDFILE
+VALUE "<project>\synthesis\rev_debug1\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="5992597"
+ENDFILE
+VALUE "<project>\synthesis\rev_debug1\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="257"
+ENDFILE
+VALUE "<project>\synthesis\rev_debug1_1\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="6204462"
+ENDFILE
+VALUE "<project>\synthesis\rev_debug1_1\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="259"
+ENDFILE
+VALUE "<project>\synthesis\rev_debug1_2\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="7961479"
+ENDFILE
+VALUE "<project>\synthesis\rev_debug1_2\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="259"
+ENDFILE
+VALUE "<project>\synthesis\rev_debug2ndxfer\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="7583654"
+ENDFILE
+VALUE "<project>\synthesis\rev_debug2ndxfer\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="276"
+ENDFILE
+VALUE "<project>\synthesis\rev_debug2ndxfer\m2s010_som.vhd,syn_hdl"
+STATE="ood"
+TIME="1518115195"
+SIZE="3757816"
+ENDFILE
+VALUE "<project>\synthesis\rev_debug\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="7030553"
+ENDFILE
+VALUE "<project>\synthesis\rev_debug\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="264"
+ENDFILE
+VALUE "<project>\synthesis\synthesis_1\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="274"
+ENDFILE
+VALUE "<project>\synthesis\synthesis_2\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1518115195"
+SIZE="6243654"
+ENDFILE
+VALUE "<project>\synthesis\synthesis_2\m2s010_som.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="254"
+ENDFILE
+VALUE "<project>\synthesis\synthesis_2\m2s010_som.vhd,syn_hdl"
+STATE="ood"
+TIME="1518115195"
+SIZE="3108790"
+ENDFILE
+VALUE "<project>\synthesis\synthesis_2\synwork\layer0.so,so"
+STATE="utd"
+TIME="1518115195"
+SIZE="154"
+ENDFILE
+VALUE "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\synthesis\rev_10\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1509721231"
+SIZE="3388291"
+ENDFILE
+VALUE "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\synthesis\rev_11_debugColl\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1516633936"
+SIZE="11052410"
+ENDFILE
+VALUE "C:\Users\gcallsen\Documents\Projects\FPGA\1v6_Linux_4KLA_Lost_packets081317\synthesis\rev_1\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1503402337"
+SIZE="3214108"
+ENDFILE
+VALUE "C:\Users\gcallsen\Documents\Projects\FPGA\1v6_Linux_4KLA_Lost_packets081317\synthesis\rev_2_NoImplement\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1503346553"
+SIZE="7785724"
+ENDFILE
+VALUE "C:\Users\gcallsen\Documents\Projects\FPGA\1v6_Linux_4KLA_Lost_packets081317\synthesis\rev_debug2ndxfer\m2s010_som.edn,syn_edn"
+STATE="ood"
+TIME="1503402428"
+SIZE="7787743"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "m2s010_som::work"
+FILE "<project>\component\work\m2s010_som\m2s010_som.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.vhd,tb_hdl"
+VALUE "<project>\hdl\MDIO_Master.vhd,hdl"
+VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.vhd,tb_hdl"
+VALUE "<project>\component\work\TB_iRail\TB_iRail.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\rev_coms_debug\m2s010_som.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+VALUE "<project>\synthesis\m2s010_som.vm,syn_vm"
+VALUE "<project>\designer\impl1\m2s010_som_fp\m2s010_som.pro,pro"
+VALUE "<project>\synthesis\rev_coms_debug\m2s010_som.edn,syn_edn"
+VALUE "<project>\synthesis\rev_coms_debug\m2s010_som_sdc.sdc,syn_sdc"
+VALUE "<project>\synthesis\rev_coms_debug\m2s010_som.vhd,syn_hdl"
+VALUE "<project>\phy_synthesis\m2s010_som_rev_coms_debug_palace.edn,palace_edn"
+VALUE "<project>\phy_synthesis\m2s010_som_rev_coms_debug_palace.gcf,palace_gcf"
+VALUE "<project>\phy_synthesis\m2s010_som_rev_coms_debug_palace.pdc,palace_pdc"
+VALUE "<project>\phy_synthesis\m2s010_som_rev_coms_debug_palace.sdc,palace_sdc"
+VALUE "<project>\phy_synthesis\m2s010_som_rev_coms_debug_palace.vhd,palace_hdl"
+VALUE "<project>\designer\impl1\m2s010_som_rev_coms_debug.adb,adb"
+VALUE "<project>\designer\impl1\m2s010_som_rev_coms_debug.fdb,fdb"
+VALUE "<project>\designer\impl1\m2s010_som_rev_coms_debug.pdb,pdb"
+VALUE "<project>\designer\impl1\m2s010_som_rev_coms_debug.stp,stp"
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\m2s010_som\m2s010_som_pinrpt_name.rpt,log"
+VALUE "<project>\designer\m2s010_som\m2s010_som_pinrpt_number.rpt,log"
+VALUE "<project>\designer\m2s010_som\m2s010_som_bankrpt.rpt,log"
+VALUE "<project>\designer\m2s010_som\m2s010_som_ioff.xml,log"
+ENDLIST
+ENDLIST
+LIST "m2s010_som_sb::work"
+FILE "<project>\component\work\m2s010_som_sb\m2s010_som_sb.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+ENDLIST
+LIST "m2s010_som_sb_MSS::work"
+FILE "<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\MDDR_init.bfm,sim"
+VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+VALUE "<project>\simulation\peripheral_init.bfm,sim"
+ENDLIST
+ENDLIST
+LIST "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO::COREFIFO_LIB"
+FILE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\COREFIFO.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\XHDL_std_logic.vhd,tb_hdl"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\XHDL_misc.vhd,tb_hdl"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\g4_dp_ext_mem.vhd,tb_hdl"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\TB.vhd,tb_hdl"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\mti\scripts\wave_vhdl.do,do"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\mti\scripts\runall_vhdl.do,do"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\XHDL_std_logic.vhd,tb_hdl"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\XHDL_misc.vhd,tb_hdl"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\g4_dp_ext_mem.vhd,tb_hdl"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\TB.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "CoreAPB3::COREAPB3_LIB::components"
+FILE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+VALUE "<project>\simulation\coreapb3_usertb_master.bfm,sim"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\mti\scripts\wave_user.do,do"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST m2s010_som
+VALUE "<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.vhd,tb_hdl"
+VALUE "<project>\hdl\MDIO_Master.vhd,hdl"
+VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.vhd,tb_hdl"
+VALUE "<project>\component\work\TB_iRail\TB_iRail.vhd,tb_hdl"
+ENDLIST
+LIST CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\XHDL_std_logic.vhd,tb_hdl"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\XHDL_misc.vhd,tb_hdl"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\g4_dp_ext_mem.vhd,tb_hdl"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\TB.vhd,tb_hdl"
+ENDLIST
+LIST CoreAPB3
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+LIST m2s010_som
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+LIST CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\XHDL_std_logic.vhd,tb_hdl"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\XHDL_misc.vhd,tb_hdl"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\g4_dp_ext_mem.vhd,tb_hdl"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\TB.vhd,tb_hdl"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\mti\scripts\wave_vhdl.do,do"
+VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\mti\scripts\runall_vhdl.do,do"
+ENDLIST
+LIST m2s010_som_sb
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+LIST m2s010_som_sb_MSS
+VALUE "<project>\simulation\MDDR_init.bfm,sim"
+VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+VALUE "<project>\simulation\peripheral_init.bfm,sim"
+ENDLIST
+LIST CoreAPB3
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+VALUE "<project>\simulation\coreapb3_usertb_master.bfm,sim"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\mti\scripts\wave_user.do,do"
+ENDLIST
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=true
+Type=max
+RunTime=3ms
+Resolution=1fs
+VsimOpt=
+EntityName=TB_iRail
+TopInstanceName=<top>_0
+DoFileName=run.do
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=TRUE
+LibraryPath=C:/Microsemi/Libero_SoC_v11.8/Designer/lib/modelsim/precompiled/vlog/smartfusion2
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\ModelsimPro\win32acoem\modelsim.exe"
+PARAM=" -l TB_iRail_presynth_simulation.log "
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "m2s010_som::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\rev_coms_debug\m2s010_som.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+VALUE "<project>\synthesis\m2s010_som.vm,syn_vm"
+VALUE "<project>\designer\impl1\m2s010_som_fp\m2s010_som.pro,pro"
+VALUE "<project>\synthesis\rev_coms_debug\m2s010_som.edn,syn_edn"
+VALUE "<project>\synthesis\rev_coms_debug\m2s010_som_sdc.sdc,syn_sdc"
+VALUE "<project>\synthesis\rev_coms_debug\m2s010_som.vhd,syn_hdl"
+VALUE "<project>\phy_synthesis\m2s010_som_rev_coms_debug_palace.edn,palace_edn"
+VALUE "<project>\phy_synthesis\m2s010_som_rev_coms_debug_palace.gcf,palace_gcf"
+VALUE "<project>\phy_synthesis\m2s010_som_rev_coms_debug_palace.pdc,palace_pdc"
+VALUE "<project>\phy_synthesis\m2s010_som_rev_coms_debug_palace.sdc,palace_sdc"
+VALUE "<project>\phy_synthesis\m2s010_som_rev_coms_debug_palace.vhd,palace_hdl"
+VALUE "<project>\designer\impl1\m2s010_som_rev_coms_debug.adb,adb"
+VALUE "<project>\designer\impl1\m2s010_som_rev_coms_debug.fdb,fdb"
+VALUE "<project>\designer\impl1\m2s010_som_rev_coms_debug.pdb,pdb"
+VALUE "<project>\designer\impl1\m2s010_som_rev_coms_debug.stp,stp"
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO::COREFIFO_LIB"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "CoreAPB3::COREAPB3_LIB::components"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Run PROGRAM Action:m2s010_som_PROGRAM.log
+StartPage;StartPage;0
+SmartDesign;m2s010_som;0
+SmartDesign;m2s010_som_sb;0
+SmartDesign;m2s010_som_sb_MSS;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "BitDetector::work","hdl\BitDetector.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CLOCK_DOMAIN_BUFFER::work","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER.vhd","TRUE","FALSE"
+SUBBLOCK "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO::COREFIFO_LIB","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\COREFIFO.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CommsFPGA_top::work","hdl\CommsFPGA_top.vhd","FALSE","FALSE"
+SUBBLOCK "idlelinedetector::work","hdl\IdleLineDetector.vhd","FALSE","FALSE"
+SUBBLOCK "manchesdecoder2::work","hdl\ManchesDecoder2.vhd","FALSE","FALSE"
+SUBBLOCK "manchesencoder2::work","hdl\ManchesEncoder2.vhd","FALSE","FALSE"
+SUBBLOCK "mdio_slave_interface::work","hdl\mdio_slave_interface.vhd","FALSE","FALSE"
+SUBBLOCK "mii_datacheck::work","hdl\MII_DataCheck.vhd","FALSE","FALSE"
+SUBBLOCK "mii_datagen::work","hdl\MII_DataGen.vhd","FALSE","FALSE"
+SUBBLOCK "phy_mux::work","hdl\Phy_Mux.vhd","FALSE","FALSE"
+SUBBLOCK "tridebounce::work","hdl\TriDebounce.vhd","FALSE","FALSE"
+SUBBLOCK "tx_collision_detector2::work","hdl\TX_Collision_Detector2.vhd","FALSE","FALSE"
+SUBBLOCK "up_if::work","hdl\uP_if.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CoreConfigP::work","component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CoreResetP::work","component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd","FALSE","FALSE"
+SUBBLOCK "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd","FALSE","FALSE"
+ENDLIST
+LIST "coreresetp_pcie_hotreset::work","component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CRC16x4_Generator::work","hdl\CRC16x4_Generator.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Debounce::work","hdl\Debounce.vhd","FALSE","FALSE"
+ENDLIST
+LIST "DESIGN_FIRMWARE::work","component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf","TRUE","FALSE"
+SUBBLOCK "SmartFusion2_CMSIS::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_Ethernet_MAC_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_GPIO_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_I2C_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_MMUART_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_RTC_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_SPI_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "Edge_Detect::work","hdl\Edge_Detect.vhd","FALSE","FALSE"
+ENDLIST
+LIST "idlelinedetector::work","hdl\IdleLineDetector.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Interrupts::work","hdl\Interrupts.vhd","FALSE","FALSE"
+SUBBLOCK "Edge_Detect::work","hdl\Edge_Detect.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Jabber_SM::work","hdl\Jabber_SM.vhd","FALSE","FALSE"
+ENDLIST
+LIST "m2s010_som::work","component\work\m2s010_som\m2s010_som.vhd","TRUE","FALSE"
+SUBBLOCK "CommsFPGA_top::work","hdl\CommsFPGA_top.vhd","FALSE","FALSE"
+SUBBLOCK "m2s010_som_CommsFPGA_CCC_0_FCCC::work","component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd","FALSE","FALSE"
+SUBBLOCK "m2s010_som_sb::work","component\work\m2s010_som_sb\m2s010_som_sb.vhd","TRUE","FALSE"
+SUBBLOCK "CoreAPB3::COREAPB3_LIB::components","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd","FALSE","FALSE"
+ENDLIST
+LIST "m2s010_som_CommsFPGA_CCC_0_FCCC::work","component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "m2s010_som_sb::work","component\work\m2s010_som_sb\m2s010_som_sb.vhd","TRUE","FALSE"
+SUBBLOCK "CoreConfigP::work","component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd","FALSE","FALSE"
+SUBBLOCK "CoreResetP::work","component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd","FALSE","FALSE"
+SUBBLOCK "m2s010_som_sb_CCC_0_FCCC::work","component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd","FALSE","FALSE"
+SUBBLOCK "m2s010_som_sb_FABOSC_0_OSC::work","component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd","FALSE","FALSE"
+SUBBLOCK "m2s010_som_sb_MSS::work","component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd","TRUE","FALSE"
+ENDLIST
+LIST "m2s010_som_sb_CCC_0_FCCC::work","component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "m2s010_som_sb_FABOSC_0_OSC::work","component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd","FALSE","FALSE"
+SUBBLOCK "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+SUBBLOCK "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+SUBBLOCK "XTLOSC::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "m2s010_som_sb_MSS::work","component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd","TRUE","FALSE"
+SUBBLOCK "MSS_060::work","component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd","FALSE","FALSE"
+ENDLIST
+LIST "manchesdecoder2::work","hdl\ManchesDecoder2.vhd","FALSE","FALSE"
+SUBBLOCK "BitDetector::work","hdl\BitDetector.vhd","FALSE","FALSE"
+SUBBLOCK "CLOCK_DOMAIN_BUFFER::work","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER.vhd","TRUE","FALSE"
+SUBBLOCK "manchesdecoder_adapter::work","hdl\ManchesDecoder_Adapter.vhd","FALSE","FALSE"
+SUBBLOCK "rx_sm::work","hdl\RX_SM.vhd","FALSE","FALSE"
+ENDLIST
+LIST "manchesdecoder_adapter::work","hdl\ManchesDecoder_Adapter.vhd","FALSE","FALSE"
+SUBBLOCK "idlelinedetector::work","hdl\IdleLineDetector.vhd","FALSE","FALSE"
+ENDLIST
+LIST "manchesencoder2::work","hdl\ManchesEncoder2.vhd","FALSE","FALSE"
+SUBBLOCK "Edge_Detect::work","hdl\Edge_Detect.vhd","FALSE","FALSE"
+SUBBLOCK "Jabber_SM::work","hdl\Jabber_SM.vhd","FALSE","FALSE"
+SUBBLOCK "nib2ser_sm::work","hdl\Nib2Ser_SM.vhd","FALSE","FALSE"
+ENDLIST
+LIST "MDIO_Master::work","hdl\MDIO_Master.vhd","FALSE","FALSE"
+ENDLIST
+LIST "mdio_slave_interface::work","hdl\mdio_slave_interface.vhd","FALSE","FALSE"
+ENDLIST
+LIST "mii_datacheck::work","hdl\MII_DataCheck.vhd","FALSE","FALSE"
+SUBBLOCK "CRC16x4_Generator::work","hdl\CRC16x4_Generator.vhd","FALSE","FALSE"
+ENDLIST
+LIST "mii_datagen::work","hdl\MII_DataGen.vhd","FALSE","FALSE"
+SUBBLOCK "CRC16x4_Generator::work","hdl\CRC16x4_Generator.vhd","FALSE","FALSE"
+ENDLIST
+LIST "MSS_060::work","component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd","FALSE","FALSE"
+ENDLIST
+LIST "nib2ser_sm::work","hdl\Nib2Ser_SM.vhd","FALSE","FALSE"
+ENDLIST
+LIST "phy_mux::work","hdl\Phy_Mux.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "rx_sm::work","hdl\RX_SM.vhd","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_CMSIS::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_Ethernet_MAC_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_GPIO_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_I2C_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_MMUART_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_RTC_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_SPI_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "tridebounce::work","hdl\TriDebounce.vhd","FALSE","FALSE"
+SUBBLOCK "Debounce::work","hdl\Debounce.vhd","FALSE","FALSE"
+ENDLIST
+LIST "tx_collision_detector2::work","hdl\TX_Collision_Detector2.vhd","FALSE","FALSE"
+ENDLIST
+LIST "up_if::work","hdl\uP_if.vhd","FALSE","FALSE"
+SUBBLOCK "Interrupts::work","hdl\Interrupts.vhd","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CLK_GEN::work","component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.vhd","FALSE","TRUE"
+ENDLIST
+LIST "coreparameters::work","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\coreparameters.vhd","FALSE","TRUE"
+ENDLIST
+LIST "g4_dp_ext_mem::work","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\g4_dp_ext_mem.vhd","FALSE","TRUE"
+ENDLIST
+LIST "RESET_GEN::work","component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.vhd","FALSE","TRUE"
+ENDLIST
+LIST "TB_iRail::work","component\work\TB_iRail\TB_iRail.vhd","TRUE","TRUE"
+SUBBLOCK "CLK_GEN::work","component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.vhd","FALSE","TRUE"
+SUBBLOCK "MDIO_Master::work","hdl\MDIO_Master.vhd","FALSE","FALSE"
+SUBBLOCK "RESET_GEN::work","component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.vhd","FALSE","TRUE"
+SUBBLOCK "m2s010_som::work","component\work\m2s010_som\m2s010_som.vhd","TRUE","FALSE"
+ENDLIST
+LIST "testbench::work","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\TB.vhd","FALSE","TRUE"
+SUBBLOCK "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO::COREFIFO_LIB","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\COREFIFO.vhd","FALSE","FALSE"
+SUBBLOCK "g4_dp_ext_mem::work","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\g4_dp_ext_mem.vhd","FALSE","TRUE"
+ENDLIST
+LIST "xhdl_misc::work","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\XHDL_misc.vhd","FALSE","TRUE"
+ENDLIST
+LIST "xhdl_std_logic::work","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\test\user\XHDL_std_logic.vhd","FALSE","TRUE"
+ENDLIST
+LIST "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO::COREFIFO_LIB","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\COREFIFO.vhd","FALSE","FALSE"
+SUBBLOCK "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async::COREFIFO_LIB","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_async.vhd","FALSE","FALSE"
+SUBBLOCK "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_fwft::COREFIFO_LIB","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_fwft.vhd","FALSE","FALSE"
+SUBBLOCK "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_sync::COREFIFO_LIB","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_sync.vhd","FALSE","FALSE"
+SUBBLOCK "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_sync_scntr::COREFIFO_LIB","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_sync_scntr.vhd","FALSE","FALSE"
+SUBBLOCK "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_ram_wrapper::COREFIFO_LIB","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_ram_wrapper.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async::COREFIFO_LIB","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_async.vhd","FALSE","FALSE"
+SUBBLOCK "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_doubleSync::COREFIFO_LIB","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_doubleSync.vhd","FALSE","FALSE"
+SUBBLOCK "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_grayToBinConv::COREFIFO_LIB","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_doubleSync::COREFIFO_LIB","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_doubleSync.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_fwft::COREFIFO_LIB","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_fwft.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_grayToBinConv::COREFIFO_LIB","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_sync::COREFIFO_LIB","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_sync.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_sync_scntr::COREFIFO_LIB","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_sync_scntr.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_ram_wrapper::COREFIFO_LIB","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_ram_wrapper.vhd","FALSE","FALSE"
+SUBBLOCK "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_USRAM_top::COREFIFO_LIB","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_USRAM_top.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_USRAM_top::COREFIFO_LIB","component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_USRAM_top.vhd","FALSE","FALSE"
+ENDLIST
+LIST "fifo_pkg::COREFIFO_LIB","component\Actel\DirectCore\COREFIFO\2.6.108\rtl\vhdl\core\fifo_pkg.vhd","FALSE","FALSE"
+ENDLIST
+LIST "components::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd","FALSE","FALSE"
+SUBBLOCK "CoreAPB3::COREAPB3_LIB::components","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CoreAPB3::COREAPB3_LIB::components","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd","FALSE","FALSE"
+SUBBLOCK "COREAPB3_MUXPTOB3::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd","FALSE","FALSE"
+SUBBLOCK "coreapb3_iaddr_reg::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd","FALSE","FALSE"
+ENDLIST
+LIST "coreapb3_iaddr_reg::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREAPB3_MUXPTOB3::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd","FALSE","FALSE"
+ENDLIST
+LIST "bfM_Ahbl::COREAPB3_LIB","","FALSE","FALSE"
+ENDLIST
+LIST "bfM_ahblAPB::COREAPB3_LIB","","FALSE","FALSE"
+ENDLIST
+LIST "BFM_ahbSLAve::COREAPB3_LIB","","FALSE","FALSE"
+ENDLIST
+LIST "Bfm_aHBSlavEEXt::COREAPB3_LIB","","FALSE","FALSE"
+ENDLIST
+LIST "bfm_APb::COREAPB3_LIB::bfM_packAGE","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd","FALSE","TRUE"
+SUBBLOCK "bfm_Main::COREAPB3_LIB::bfM_packAGE","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd","FALSE","TRUE"
+SUBBLOCK "BFMA1i1lI::COREAPB3_LIB::bfM_packAGE","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd","FALSE","TRUE"
+ENDLIST
+LIST "Bfm_aPB2apb::COREAPB3_LIB","","FALSE","FALSE"
+ENDLIST
+LIST "BFM_apbSLAve::COREAPB3_LIB::bfM_packAGE","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd","FALSE","TRUE"
+SUBBLOCK "BFm_apBSLaveEXT::COREAPB3_LIB::bfM_packAGE","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFm_apBSLaveEXT::COREAPB3_LIB::bfM_packAGE","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_Main::COREAPB3_LIB::bfM_packAGE","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_misc::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\misc.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfM_packAGE::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_package.vhd","FALSE","TRUE"
+SUBBLOCK "BFMA1i1lI::COREAPB3_LIB::bfM_packAGE","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd","FALSE","TRUE"
+SUBBLOCK "BFM_ahbSLAve::COREAPB3_LIB","","FALSE","FALSE"
+SUBBLOCK "BFM_apbSLAve::COREAPB3_LIB::bfM_packAGE","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd","FALSE","TRUE"
+SUBBLOCK "BFm_apBSLaveEXT::COREAPB3_LIB::bfM_packAGE","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd","FALSE","TRUE"
+SUBBLOCK "Bfm_aHBSlavEEXt::COREAPB3_LIB","","FALSE","FALSE"
+SUBBLOCK "Bfm_aPB2apb::COREAPB3_LIB","","FALSE","FALSE"
+SUBBLOCK "bfM_Ahbl::COREAPB3_LIB","","FALSE","FALSE"
+SUBBLOCK "bfM_ahblAPB::COREAPB3_LIB","","FALSE","FALSE"
+SUBBLOCK "bfm_APb::COREAPB3_LIB::bfM_packAGE","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd","FALSE","TRUE"
+SUBBLOCK "bfm_Main::COREAPB3_LIB::bfM_packAGE","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_textio::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_textio_test::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\textio.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFMA1i1lI::COREAPB3_LIB::bfM_packAGE","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd","FALSE","TRUE"
+ENDLIST
+LIST "coreparameters::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd","FALSE","TRUE"
+ENDLIST
+LIST "testbench::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\test\user\testbench.vhd","FALSE","TRUE"
+SUBBLOCK "bfm_APb::COREAPB3_LIB::bfM_packAGE","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apb.vhd","FALSE","TRUE"
+SUBBLOCK "BFM_apbSLAve::COREAPB3_LIB::bfM_packAGE","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd","FALSE","TRUE"
+SUBBLOCK "CoreAPB3::COREAPB3_LIB::components","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+VALUE "constraint\io\m2s010_som.io.pdc"
+ENDLIST
+LIST FPTabList
+VALUE "constraint\fp\m2s010_som.fp.pdc"
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

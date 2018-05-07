@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin64\syn_nfilter.exe  -link  -top  work.m2s010_som  -multisrs  C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\synwork\m2s010_som_comp.srs  -osyn  C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\synwork\m2s010_som_mult.srs  -log  C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\synlog\m2s010_som_multi_srs_gen.srr 
+rc:0 success:1
+C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\synwork\m2s010_som_comp.srs|i|1487702705|237815
+C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\synwork\m2s010_som_mult.srs|o|1487702707|20438
+C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\synlog\m2s010_som_multi_srs_gen.srr|o|1487702707|531
+C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin\syn_nfilter.exe|i|1431625058|3001344
+C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin64\syn_nfilter.exe|i|1431625246|3968000

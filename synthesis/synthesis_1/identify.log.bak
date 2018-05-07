@@ -1,0 +1,129 @@
+Running in restricted mode: identify_job
+
+sourcing C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\message_override.tcl
+
+
+Starting:    C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin64\mbin\identify_instrumentor_shell_new.exe
+Install:     C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3
+Hostname:    SCOTT-PC
+Date:        Mon Feb 20 11:01:10 2017
+Version:     J-2015.03M-3
+
+Arguments:   -product identify_instrumentor -srs_gen_hw C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\instr_sources\syn_dics.v -prj C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\m2s010_som_syn.prj -idb C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\identify.db -curimpl synthesis_1 -write_sdc -tsl SprXPmgi -idc C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\identify.idc -log C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\identify.log
+ProductType: identify_instrumentor
+
+
+
+
+
+clock_globalthreshold is not supported in current product.
+async_globalthreshold is not supported in current product.
+globalthreshold is not supported in current product.
+opcond is not supported in current product.
+auto_infer_blackbox is not supported in current product.
+clock_globalthreshold is not supported in current product.
+async_globalthreshold is not supported in current product.
+globalthreshold is not supported in current product.
+opcond is not supported in current product.
+auto_infer_blackbox is not supported in current product.
+
+DEBUG: Expanded argument list=
+C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin64\mbin\identify_instrumentor_shell_new.exe -product identify_instrumentor -srs_gen_hw C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\instr_sources\syn_dics.v -prj C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\m2s010_som_syn.prj -idb C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\identify.db -curimpl synthesis_1 -write_sdc -tsl SprXPmgi -idc C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\identify.idc -log C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\identify.log
+
+*** Integrated Instrumentor ***
+
+Added instrumentation 'synthesis_1' to the project
+
+"design_flow" is unrecognized option for current device
+
+Warning: CommsFPGA_top.vhd(255): Process `bit_clock_gen' contains an inner conditional statement which is sensitive to a clock edge
+
+Warning: No breakpoints will be detected in this process
+
+Warning: CommsFPGA_top.vhd(269): Process `clock_gen' contains an inner conditional statement which is sensitive to a clock edge
+
+Warning: No breakpoints will be detected in this process
+
+Warning: uP_if.vhd(215): Process `ready_delay_proc' contains an inner conditional statement which is sensitive to a clock edge
+
+Warning: No breakpoints will be detected in this process
+
+Warning: coreresetp.vhd(1368): Process `process_1368' is sensitive to a clock edge, but contains multiple top-level conditional statements
+
+Warning: No breakpoints will be detected in this process
+
+Current design is m2s010_som
+
+Loading instrumentation 'synthesis_1'
+
+Source IDC file C:/PULSAR/Projects/PPI/PoweredRail/Common_Module_SOC/CommonModule_Rev1_5Common/synthesis/synthesis_1/identify.idc
+
+Setting IICE sampler (sampledepth) to 1024 for IICE named 'IICE'(previous value: 128)
+
+Setting IICE sampler (set IICE clock) to 'clk' for IICE named 'IICE' (previous value: '')
+
+Setting IICE sampler (sampledepth) to 1024 for IICE named 'IICE_0'(previous value: 128)
+
+Setting IICE sampler (set IICE clock) to 'apb3_clk' for IICE named 'IICE_0' (previous value: '')
+
+Generating SRS instrumenttion to file C:PULSARProjectsPPIPoweredRailCommon_Module_SOCCommonModule_Rev1_5Commonsynthesissynthesis_1instr_sourcessyn_dics.v
+
+Current instrumentation information:      	IICE=IICE 
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 44
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 0, Sample and trigger 44
+	IICE=IICE_0 
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 43
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 0, Sample and trigger 43
+
+ Generating IICE for the following settings:
+      Design settings:
+          Device family          SmartFusion2
+          Communication port     builtin
+          Skew-resistant logic   off
+          Export Trigger         no
+          Import Trigger         0
+          Language               verilog
+      Sample Buffer:
+          Type                   behavioral
+          Depth                  1024
+          Width                  44 bits
+          Qualified sampling     off
+          Always armed sampling  off
+          Data compression       off
+      Trigger controller:
+          Type                   Simple Triggering
+ 
+
+ Generating IICE for the following settings:
+      Design settings:
+          Device family          SmartFusion2
+          Communication port     builtin
+          Skew-resistant logic   off
+          Export Trigger         no
+          Import Trigger         0
+          Language               verilog
+      Sample Buffer:
+          Type                   behavioral
+          Depth                  1024
+          Width                  43 bits
+          Qualified sampling     off
+          Always armed sampling  off
+          Data compression       off
+      Trigger controller:
+          Type                   Simple Triggering
+ 
+
+Current instrumentation information: 	IICE=IICE 
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 44
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 0, Sample and trigger 44
+	IICE=IICE_0 
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 43
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 0, Sample and trigger 43
+
+
+exit status=0
+

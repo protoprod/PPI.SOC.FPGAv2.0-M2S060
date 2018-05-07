@@ -1,0 +1,1049 @@
+#Build: Synplify Pro J-2015.03M-3, Build 048R, May 14 2015
+#install: C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3
+#OS: Windows 8 6.2
+#Hostname: ANDREY2
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp201503p1, Build 094R, built May 14 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp201503p1, Build 094R, built May 14 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.v"
+@I::"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\hypermods.v"
+@I::"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\umr_capim.v"
+@I::"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\scemi_objects.v"
+@I::"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vlog\scemi_pipes.svh"
+@I::"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vlog\core\coreconfigp.v"
+@I::"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp_pcie_hotreset.v"
+@I::"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v"
+@I::"C:\Actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.v"
+@I::"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\SgCore\OSC\1.0.105\osc_comps.v"
+@I::"C:\Actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.v"
+@I::"C:\Actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.v"
+@I::"C:\Actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.v"
+@I::"C:\Actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb\m2s010_som_sb.v"
+@I::"C:\Actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som\m2s010_som.v"
+Verilog syntax check successful!
+Selecting top level module m2s010_som
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.v":286:7:286:11|Synthesizing module BIBUF
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.v":727:7:727:9|Synthesizing module CCC
+
+@N: CG364 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.v":5:7:5:30|Synthesizing module m2s010_som_sb_CCC_0_FCCC
+
+@N: CG364 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vlog\core\coreconfigp.v":22:7:22:17|Synthesizing module CoreConfigP
+
+	FAMILY=32'b00000000000000000000000000010011
+	MDDR_IN_USE=32'b00000000000000000000000000000001
+	FDDR_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_IN_USE=32'b00000000000000000000000000000000
+	SDIF1_IN_USE=32'b00000000000000000000000000000000
+	SDIF2_IN_USE=32'b00000000000000000000000000000000
+	SDIF3_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_PCIE=32'b00000000000000000000000000000000
+	SDIF1_PCIE=32'b00000000000000000000000000000000
+	SDIF2_PCIE=32'b00000000000000000000000000000000
+	SDIF3_PCIE=32'b00000000000000000000000000000000
+	ENABLE_SOFT_RESETS=32'b00000000000000000000000000000000
+	DEVICE_090=32'b00000000000000000000000000000000
+	VERSION_MAJOR=32'b00000000000000000000000000000111
+	VERSION_MINOR=32'b00000000000000000000000000000000
+	VERSION_MAJOR_VECTOR=16'b0000000000000111
+	VERSION_MINOR_VECTOR=16'b0000000000000000
+	S0=2'b00
+	S1=2'b01
+	S2=2'b10
+   Generated name = CoreConfigP_Z1
+
+@W: CL113 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vlog\core\coreconfigp.v":626:4:626:9|Feedback mux created for signal soft_reset_reg[16:0].
+@W: CL250 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vlog\core\coreconfigp.v":626:4:626:9|All reachable assignments to soft_reset_reg[16:0] assign 0, register removed by optimization
+@N: CG364 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":23:7:23:16|Synthesizing module CoreResetP
+
+	FAMILY=32'b00000000000000000000000000010011
+	EXT_RESET_CFG=32'b00000000000000000000000000000011
+	DEVICE_VOLTAGE=32'b00000000000000000000000000000010
+	MDDR_IN_USE=32'b00000000000000000000000000000001
+	FDDR_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_IN_USE=32'b00000000000000000000000000000000
+	SDIF1_IN_USE=32'b00000000000000000000000000000000
+	SDIF2_IN_USE=32'b00000000000000000000000000000000
+	SDIF3_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_PCIE=32'b00000000000000000000000000000000
+	SDIF1_PCIE=32'b00000000000000000000000000000000
+	SDIF2_PCIE=32'b00000000000000000000000000000000
+	SDIF3_PCIE=32'b00000000000000000000000000000000
+	SDIF0_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF1_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF2_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF3_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF0_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF1_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF2_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF3_PCIE_L2P2=32'b00000000000000000000000000000001
+	ENABLE_SOFT_RESETS=32'b00000000000000000000000000000000
+	DEVICE_090=32'b00000000000000000000000000000000
+	DDR_WAIT=32'b00000000000000000000000011001000
+	RCOSC_MEGAHERTZ=32'b00000000000000000000000000110010
+	SDIF_INTERVAL=32'b00000000000000000001100101100100
+	DDR_INTERVAL=32'b00000000000000000010011100010000
+	COUNT_WIDTH_SDIF=32'b00000000000000000000000000001101
+	COUNT_WIDTH_DDR=32'b00000000000000000000000000001110
+	S0=32'b00000000000000000000000000000000
+	S1=32'b00000000000000000000000000000001
+	S2=32'b00000000000000000000000000000010
+	S3=32'b00000000000000000000000000000011
+	S4=32'b00000000000000000000000000000100
+	S5=32'b00000000000000000000000000000101
+	S6=32'b00000000000000000000000000000110
+   Generated name = CoreResetP_Z2
+
+@W: CL169 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Pruning register count_sdif3[12:0] 
+
+@W: CL169 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Pruning register count_sdif2[12:0] 
+
+@W: CL169 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Pruning register count_sdif1[12:0] 
+
+@W: CL169 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Pruning register count_sdif0[12:0] 
+
+@W: CL169 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif0_enable_q1 
+
+@W: CL169 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif1_enable_q1 
+
+@W: CL169 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif2_enable_q1 
+
+@W: CL169 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif3_enable_q1 
+
+@W: CL169 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif0_enable_rcosc 
+
+@W: CL169 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif1_enable_rcosc 
+
+@W: CL169 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif2_enable_rcosc 
+
+@W: CL169 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif3_enable_rcosc 
+
+@W: CL169 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Pruning register count_sdif3_enable 
+
+@W: CL169 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Pruning register count_sdif2_enable 
+
+@W: CL169 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Pruning register count_sdif1_enable 
+
+@W: CL169 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Pruning register count_sdif0_enable 
+
+@N: CL177 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sharing sequential element M3_RESET_N_int.
+@N: CL177 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q1.
+@N: CL177 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q1.
+@N: CL177 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q1.
+@N: CL177 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q1.
+@N: CG364 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\SgCore\OSC\1.0.105\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB
+
+@N: CG364 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\SgCore\OSC\1.0.105\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ
+
+@N: CG364 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\SgCore\OSC\1.0.105\osc_comps.v":23:7:23:12|Synthesizing module XTLOSC
+
+@N: CG364 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.v":5:7:5:32|Synthesizing module m2s010_som_sb_FABOSC_0_OSC
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.v":274:7:274:12|Synthesizing module OUTBUF
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.v":326:7:326:17|Synthesizing module OUTBUF_DIFF
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.v":268:7:268:11|Synthesizing module INBUF
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.v":280:7:280:13|Synthesizing module TRIBUFF
+
+@N: CG364 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.v":5:7:5:13|Synthesizing module MSS_010
+
+@N: CG364 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.v":9:7:9:23|Synthesizing module m2s010_som_sb_MSS
+
+@N: CG364 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.v":718:7:718:14|Synthesizing module SYSRESET
+
+@N: CG364 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb\m2s010_som_sb.v":9:7:9:19|Synthesizing module m2s010_som_sb
+
+@N: CG364 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som\m2s010_som.v":9:7:9:16|Synthesizing module m2s010_som
+
+@W: CL157 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.v":15:7:15:24|*Output RCOSC_25_50MHZ_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits -- simulation mismatch possible.
+@N: CL177 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q2.
+@N: CL177 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q2.
+@N: CL177 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q2.
+@N: CL177 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q2.
+@N: CL201 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Trying to extract state machine for register sm2_state
+Extracted state machine for register sm2_state
+State machine has 2 reachable states with original encodings of:
+   000
+   001
+@N: CL201 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Trying to extract state machine for register sdif3_state
+Extracted state machine for register sdif3_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Trying to extract state machine for register sdif2_state
+Extracted state machine for register sdif2_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Trying to extract state machine for register sdif1_state
+Extracted state machine for register sdif1_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Trying to extract state machine for register sdif0_state
+Extracted state machine for register sdif0_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Trying to extract state machine for register sm0_state
+Extracted state machine for register sm0_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":29:20:29:28|Input CLK_LTSSM is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":56:20:56:28|Input FPLL_LOCK is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":59:20:59:34|Input SDIF0_SPLL_LOCK is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":68:20:68:34|Input SDIF1_SPLL_LOCK is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":72:20:72:34|Input SDIF2_SPLL_LOCK is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":76:20:76:34|Input SDIF3_SPLL_LOCK is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":90:20:90:29|Input SDIF0_PSEL is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":91:20:91:31|Input SDIF0_PWRITE is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":92:20:92:31|Input SDIF0_PRDATA is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":93:20:93:29|Input SDIF1_PSEL is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":94:20:94:31|Input SDIF1_PWRITE is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":95:20:95:31|Input SDIF1_PRDATA is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":96:20:96:29|Input SDIF2_PSEL is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":97:20:97:31|Input SDIF2_PWRITE is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":98:20:98:31|Input SDIF2_PRDATA is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":99:20:99:29|Input SDIF3_PSEL is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":100:20:100:31|Input SDIF3_PWRITE is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":101:20:101:31|Input SDIF3_PRDATA is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":107:20:107:37|Input SOFT_EXT_RESET_OUT is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":108:20:108:33|Input SOFT_RESET_F2M is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":109:20:109:32|Input SOFT_M3_RESET is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":110:20:110:49|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":111:20:111:39|Input SOFT_FDDR_CORE_RESET is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":112:20:112:39|Input SOFT_SDIF0_PHY_RESET is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":113:20:113:40|Input SOFT_SDIF0_CORE_RESET is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":114:20:114:39|Input SOFT_SDIF1_PHY_RESET is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":115:20:115:40|Input SOFT_SDIF1_CORE_RESET is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":116:20:116:39|Input SOFT_SDIF2_PHY_RESET is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":117:20:117:40|Input SOFT_SDIF2_CORE_RESET is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":118:20:118:39|Input SOFT_SDIF3_PHY_RESET is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":119:20:119:40|Input SOFT_SDIF3_CORE_RESET is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":123:20:123:42|Input SOFT_SDIF0_0_CORE_RESET is unused
+@W: CL159 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":124:20:124:42|Input SOFT_SDIF0_1_CORE_RESET is unused
+@N: CL201 :"C:\Actelprj\m2s010-som-fg484-1a-116\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vlog\core\coreconfigp.v":447:4:447:9|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 80MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Oct 27 14:02:22 2015
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503p1, Build 094R, built May 14 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Oct 27 14:02:22 2015
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Oct 27 14:02:22 2015
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503p1, Build 094R, built May 14 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Oct 27 14:02:24 2015
+
+###########################################################]
+Pre-mapping Report
+
+Synopsys Generic Technology Pre-mapping, Version map201503actrcp1, Build 002R, Built Jul  1 2015 06:58:23
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-3
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: C:\Actelprj\m2s010-som-fg484-1a-116\synthesis\m2s010_som_scck.rpt 
+Printing clock  summary report in "C:\Actelprj\m2s010-som-fg484-1a-116\synthesis\m2s010_som_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 107MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 107MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 107MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 109MB)
+
+@W: BN132 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.release_ext_reset,  because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.SDIF_READY_int
+@W: BN132 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int,  because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":461:4:461:9|Removing sequential instance FDDR_PENABLE of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":461:4:461:9|Removing sequential instance SDIF0_PENABLE of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":461:4:461:9|Removing sequential instance SDIF1_PENABLE of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":461:4:461:9|Removing sequential instance SDIF2_PENABLE of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":461:4:461:9|Removing sequential instance SDIF3_PENABLE of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Removing sequential instance EXT_RESET_OUT_int of view:PrimLib.dffse(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance DDR_READY_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_RELEASED_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FDDR_CORE_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_PHY_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_CORE_RESET_N_0 of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_PHY_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_CORE_RESET_N_0 of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_PHY_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_CORE_RESET_N_0 of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_PHY_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_CORE_RESET_N_0 of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Removing sequential instance sm2_state[1:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_READY_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance sdif0_state[3:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance sdif1_state[3:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance sdif2_state[3:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance sdif3_state[3:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":783:4:783:9|Removing sequential instance sm2_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":783:4:783:9|Removing sequential instance sm2_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+syn_allowed_resources : blockrams=21  set on top level netlist m2s010_som
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+
+@S |Clock Summary
+*****************
+
+Start                                                                 Requested     Requested     Clock        Clock              
+Clock                                                                 Frequency     Period        Type         Group              
+----------------------------------------------------------------------------------------------------------------------------------
+System                                                                100.0 MHz     10.000        system       system_clkgroup    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       100.0 MHz     10.000        inferred     Inferred_clkgroup_1
+m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_4
+m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                     100.0 MHz     10.000        inferred     Inferred_clkgroup_0
+m2s010_som|MAC_MII_RX_CLK                                             100.0 MHz     10.000        inferred     Inferred_clkgroup_3
+m2s010_som|MAC_MII_TX_CLK                                             100.0 MHz     10.000        inferred     Inferred_clkgroup_2
+==================================================================================================================================
+
+@W: MT530 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":447:4:447:9|Found inferred clock m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock which controls 93 sequential elements including m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Found inferred clock m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 55 sequential elements including m2s010_som_sb_0.CORERESETP_0.count_ddr_enable. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb_mss\m2s010_som_sb_mss.v":1431:0:1431:13|Found inferred clock m2s010_som|MAC_MII_TX_CLK which controls 0 sequential elements including m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb_mss\m2s010_som_sb_mss.v":1431:0:1431:13|Found inferred clock m2s010_som|MAC_MII_RX_CLK which controls 0 sequential elements including m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Found inferred clock m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock which controls 31 sequential elements including m2s010_som_sb_0.CORERESETP_0.count_ddr[13:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Actelprj\m2s010-som-fg484-1a-116\synthesis\m2s010_som.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 136MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Oct 27 14:02:25 2015
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Generic Technology Mapper, Version map201503actrcp1, Build 002R, Built Jul  1 2015 06:58:23
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-3
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 135MB)
+
+@W: MO111 :"c:\actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb\fabosc_0\m2s010_som_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F on net XTLOSC_O2F has its enable tied to GND (module m2s010_som_sb_FABOSC_0_OSC) 
+@W: MO111 :"c:\actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb\fabosc_0\m2s010_som_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F on net RCOSC_1MHZ_O2F has its enable tied to GND (module m2s010_som_sb_FABOSC_0_OSC) 
+@W: MO111 :"c:\actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb\fabosc_0\m2s010_som_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC on net RCOSC_1MHZ_CCC has its enable tied to GND (module m2s010_som_sb_FABOSC_0_OSC) 
+@W: MO111 :"c:\actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb\fabosc_0\m2s010_som_sb_fabosc_0_osc.v":15:7:15:24|Tristate driver RCOSC_25_50MHZ_CCC on net RCOSC_25_50MHZ_CCC has its enable tied to GND (module m2s010_som_sb_FABOSC_0_OSC) 
+@W: MO171 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":769:4:769:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.sm1_areset_n_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF0_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF1_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF2_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF3_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":769:4:769:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.sm1_areset_n_clk_base reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF0_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF1_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF2_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF3_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.RESET_N_F2M_int reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":583:4:583:9|Sequential instance m2s010_som_sb_0.CORECONFIGP_0.SDIF_RELEASED_q1 reduced to a combinational gate by constant propagation 
+@W: BN132 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1,  because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+@W: BN132 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1,  because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+@W: BN132 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1,  because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+@W: BN132 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1,  because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+@W: BN132 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif2_areset_n_rcosc,  because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc
+@W: BN132 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif3_areset_n_rcosc,  because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc
+@W: BN132 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif1_areset_n_rcosc,  because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc
+@W: BN132 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.sdif0_areset_n_rcosc,  because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc
+@W: BN132 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.release_sdif3_core,  because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.release_sdif2_core
+@W: BN132 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.release_sdif2_core,  because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.release_sdif1_core
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+Encoding state machine state[2:0] (view:work.CoreConfigP_Z1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":255:4:255:9|Removing sequential instance pwdata[16] of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":255:4:255:9|Removing sequential instance pwdata[17] of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":255:4:255:9|Removing sequential instance pwdata[18] of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":255:4:255:9|Removing sequential instance pwdata[19] of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":255:4:255:9|Removing sequential instance pwdata[20] of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":255:4:255:9|Removing sequential instance pwdata[21] of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":255:4:255:9|Removing sequential instance pwdata[22] of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":255:4:255:9|Removing sequential instance pwdata[23] of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":255:4:255:9|Removing sequential instance pwdata[24] of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":255:4:255:9|Removing sequential instance pwdata[25] of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":255:4:255:9|Removing sequential instance pwdata[26] of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":255:4:255:9|Removing sequential instance pwdata[27] of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":255:4:255:9|Removing sequential instance pwdata[28] of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":255:4:255:9|Removing sequential instance pwdata[29] of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":255:4:255:9|Removing sequential instance pwdata[30] of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":255:4:255:9|Removing sequential instance pwdata[31] of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":255:4:255:9|Removing sequential instance paddr[11] of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@W: MO160 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":255:4:255:9|Register bit paddr[16] is always 0, optimizing ...
+@W: MO160 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":546:4:546:9|Register bit FIC_2_APB_M_PRDATA[31] is always 0, optimizing ...
+@W: MO160 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":546:4:546:9|Register bit FIC_2_APB_M_PRDATA[30] is always 0, optimizing ...
+@W: MO160 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":546:4:546:9|Register bit FIC_2_APB_M_PRDATA[29] is always 0, optimizing ...
+@W: MO160 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":546:4:546:9|Register bit FIC_2_APB_M_PRDATA[28] is always 0, optimizing ...
+@W: MO160 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":546:4:546:9|Register bit FIC_2_APB_M_PRDATA[27] is always 0, optimizing ...
+@W: MO160 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":546:4:546:9|Register bit FIC_2_APB_M_PRDATA[26] is always 0, optimizing ...
+@W: MO160 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":546:4:546:9|Register bit FIC_2_APB_M_PRDATA[25] is always 0, optimizing ...
+@W: MO160 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":546:4:546:9|Register bit FIC_2_APB_M_PRDATA[24] is always 0, optimizing ...
+@W: MO160 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":546:4:546:9|Register bit FIC_2_APB_M_PRDATA[23] is always 0, optimizing ...
+@W: MO160 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":546:4:546:9|Register bit FIC_2_APB_M_PRDATA[22] is always 0, optimizing ...
+@W: MO160 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":546:4:546:9|Register bit FIC_2_APB_M_PRDATA[21] is always 0, optimizing ...
+@W: MO160 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":546:4:546:9|Register bit FIC_2_APB_M_PRDATA[20] is always 0, optimizing ...
+@W: MO160 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":546:4:546:9|Register bit FIC_2_APB_M_PRDATA[19] is always 0, optimizing ...
+Encoding state machine sm0_state[6:0] (view:work.CoreResetP_Z2(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+@N:"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Found counter in view:work.CoreResetP_Z2(verilog) inst count_ddr[13:0]
+@N: BN362 :"c:\actelprj\m2s010-som-fg484-1a-116\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":255:4:255:9|Removing sequential instance m2s010_som_sb_0.CORECONFIGP_0.paddr[14] in hierarchy view:work.m2s010_som(verilog) because there are no references to its outputs 
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     1.51ns		 116 /       106
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORECONFIGP_0_APB_S_PRESET_N on CLKINT  I_28 
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORECONFIGP_0_APB_S_PCLK on CLKINT  I_29 
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_30 
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc on CLKINT  I_31 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+4 non-gated/non-generated clock tree(s) driving 53 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 57 clock pin(s) of sequential element(s)
+0 instances converted, 57 sequential instances remain driven by gated/generated clocks
+
+=============================================================== Non-Gated/Non-Generated Clocks ================================================================
+Clock Tree ID     Driving Element                                          Drive Element Type     Fanout     Sample Instance                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0002       MAC_MII_TX_CLK                                           port                   1          m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST
+@K:CKID0003       MAC_MII_RX_CLK                                           port                   1          m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST
+@K:CKID0004       m2s010_som_sb_0.CCC_0.GL0_INST                           CLKINT                 31         m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST
+@K:CKID0005       m2s010_som_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB_CLKINT     CLKINT                 20         m2s010_som_sb_0.CORERESETP_0.count_ddr[13]        
+===============================================================================================================================================================
+================================================================================================== Gated/Generated Clocks ===================================================================================================
+Clock Tree ID     Driving Element                                        Drive Element Type     Fanout     Sample Instance                                        Explanation                                                
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     MSS_010                57         m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_010
+=============================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 106MB peak: 135MB)
+
+Writing Analyst data base C:\Actelprj\m2s010-som-fg484-1a-116\synthesis\synwork\m2s010_som_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 132MB peak: 135MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |Synopsys Constraint File time units using default value of 1ns 
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+J-2015.03M-3
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 136MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 134MB peak: 136MB)
+
+@W: MT246 :"c:\actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb\fabosc_0\m2s010_som_sb_fabosc_0_osc.v":28:47:28:54|Blackbox XTLOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\actelprj\m2s010-som-fg484-1a-116\component\work\m2s010_som_sb\ccc_0\m2s010_som_sb_ccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock m2s010_som|MAC_MII_RX_CLK with period 10.00ns. Please declare a user-defined clock on object "p:MAC_MII_RX_CLK"
+
+@W: MT420 |Found inferred clock m2s010_som|MAC_MII_TX_CLK with period 10.00ns. Please declare a user-defined clock on object "p:MAC_MII_TX_CLK"
+
+@W: MT420 |Found inferred clock m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:m2s010_som_sb_0.m2s010_som_sb_MSS_0.FIC_2_APB_M_PCLK"
+
+@W: MT420 |Found inferred clock m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:m2s010_som_sb_0.FABOSC_0.N_RCOSC_25_50MHZ_CLKOUT"
+
+@W: MT420 |Found inferred clock m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:m2s010_som_sb_0.CCC_0.GL0_net"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Oct 27 14:02:27 2015
+#
+
+
+Top view:               m2s010_som
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 1.517
+
+                                                                      Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                                        Frequency     Frequency     Period        Period        Slack     Type         Group              
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       100.0 MHz     407.0 MHz     10.000        2.457         7.543     inferred     Inferred_clkgroup_1
+m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     100.0 MHz     355.3 MHz     10.000        2.814         7.186     inferred     Inferred_clkgroup_4
+m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                     100.0 MHz     117.9 MHz     10.000        8.483         1.517     inferred     Inferred_clkgroup_0
+m2s010_som|MAC_MII_RX_CLK                                             100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_3
+m2s010_som|MAC_MII_TX_CLK                                             100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_2
+System                                                                100.0 MHz     895.2 MHz     10.000        1.117         8.883     system       system_clkgroup    
+========================================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                                |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                           Ending                                                             |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                             System                                                             |  10.000      8.883  |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                  m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                  |  10.000      1.517  |  No paths    -      |  5.000       2.532  |  5.000       2.256
+m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                  m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    |  10.000      7.543  |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  |  10.000      7.186  |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                               Starting                                                                                               Arrival          
+Instance                                                       Reference                                           Type     Pin     Net                               Time        Slack
+                                                               Clock                                                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORERESETP_0.sm0_state[3]                      m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sm0_state[3]                      0.087       7.543
+m2s010_som_sb_0.CORERESETP_0.sdif3_spll_lock_q2                m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sdif3_spll_lock_q2                0.087       7.630
+m2s010_som_sb_0.CORERESETP_0.release_sdif0_core_clk_base       m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       release_sdif3_core_clk_base       0.087       7.940
+m2s010_som_sb_0.CORERESETP_0.ddr_settled_clk_base              m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       ddr_settled_clk_base              0.087       7.968
+m2s010_som_sb_0.CORERESETP_0.sm0_state[4]                      m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sm0_state[4]                      0.108       8.193
+m2s010_som_sb_0.CORERESETP_0.CONFIG2_DONE_clk_base             m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       CONFIG2_DONE_clk_base             0.108       8.361
+m2s010_som_sb_0.CORERESETP_0.sm0_state[5]                      m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sm0_state[5]                      0.108       8.557
+m2s010_som_sb_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_clk_base     m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       FIC_2_APB_M_PRESET_N_clk_base     0.087       8.615
+m2s010_som_sb_0.CORERESETP_0.RESET_N_M2F_clk_base              m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       RESET_N_M2F_clk_base              0.087       8.632
+m2s010_som_sb_0.CORERESETP_0.mss_ready_state                   m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       mss_ready_state                   0.108       8.646
+=======================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                    Starting                                                                                                Required          
+Instance                                            Reference                                           Type     Pin     Net                                Time         Slack
+                                                    Clock                                                                                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORERESETP_0.sm0_state[4]           m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       sm0_state_ns[4]                    9.745        7.543
+m2s010_som_sb_0.CORERESETP_0.sm0_state[5]           m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       sm0_state_ns[5]                    9.745        7.940
+m2s010_som_sb_0.CORERESETP_0.count_ddr_enable       m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       next_count_ddr_enable_0_sqmuxa     9.745        8.130
+m2s010_som_sb_0.CORERESETP_0.count_ddr_enable       m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      un1_next_ddr_ready_0_sqmuxa        9.662        8.193
+m2s010_som_sb_0.CORERESETP_0.sm0_state[3]           m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       sm0_state_ns[3]                    9.745        8.303
+m2s010_som_sb_0.CORERESETP_0.sm0_state[6]           m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      sm0_state_ns_a3[6]                 9.662        8.557
+m2s010_som_sb_0.CORERESETP_0.MSS_HPMS_READY_int     m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       MSS_HPMS_READY_int_4               9.745        8.615
+m2s010_som_sb_0.CORERESETP_0.mss_ready_select       m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      mss_ready_select4                  9.662        8.634
+m2s010_som_sb_0.CORERESETP_0.sm0_state[2]           m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       sm0_state_ns[2]                    9.745        8.650
+m2s010_som_sb_0.CORERESETP_0.mss_ready_state        m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      RESET_N_M2F_clk_base               9.662        8.765
+==============================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      2.202
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 7.543
+
+    Number of logic level(s):                2
+    Starting point:                          m2s010_som_sb_0.CORERESETP_0.sm0_state[3] / Q
+    Ending point:                            m2s010_som_sb_0.CORERESETP_0.sm0_state[4] / D
+    The start point is clocked by            m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                Pin      Pin               Arrival     No. of    
+Name                                                                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORERESETP_0.sm0_state[3]                            SLE      Q        Out     0.087     0.087       -         
+sm0_state[3]                                                         Net      -        -       0.733     -           3         
+m2s010_som_sb_0.CORERESETP_0.next_count_ddr_enable_0_sqmuxa_0_a3     CFG2     B        In      -         0.821       -         
+m2s010_som_sb_0.CORERESETP_0.next_count_ddr_enable_0_sqmuxa_0_a3     CFG2     Y        Out     0.165     0.985       -         
+next_count_ddr_enable_0_sqmuxa                                       Net      -        -       0.630     -           2         
+m2s010_som_sb_0.CORERESETP_0.sm0_state_ns[4]                         CFG4     D        In      -         1.615       -         
+m2s010_som_sb_0.CORERESETP_0.sm0_state_ns[4]                         CFG4     Y        Out     0.428     2.043       -         
+sm0_state_ns[4]                                                      Net      -        -       0.159     -           1         
+m2s010_som_sb_0.CORERESETP_0.sm0_state[4]                            SLE      D        In      -         2.202       -         
+===============================================================================================================================
+Total path delay (propagation time + setup) of 2.457 is 0.935(38.1%) logic and 1.522(61.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                              Starting                                                                                                Arrival          
+Instance                                      Reference                                                             Type     Pin     Net              Time        Slack
+                                              Clock                                                                                                                    
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORERESETP_0.count_ddr[0]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[0]     0.087       7.186
+m2s010_som_sb_0.CORERESETP_0.count_ddr[1]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[1]     0.108       7.392
+m2s010_som_sb_0.CORERESETP_0.count_ddr[2]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[2]     0.108       7.408
+m2s010_som_sb_0.CORERESETP_0.count_ddr[3]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[3]     0.108       7.425
+m2s010_som_sb_0.CORERESETP_0.count_ddr[4]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[4]     0.108       7.441
+m2s010_som_sb_0.CORERESETP_0.count_ddr[5]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[5]     0.108       7.457
+m2s010_som_sb_0.CORERESETP_0.count_ddr[6]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[6]     0.108       7.473
+m2s010_som_sb_0.CORERESETP_0.count_ddr[7]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[7]     0.108       7.490
+m2s010_som_sb_0.CORERESETP_0.count_ddr[8]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[8]     0.108       7.506
+m2s010_som_sb_0.CORERESETP_0.count_ddr[9]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[9]     0.108       7.522
+=======================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                               Starting                                                                                                   Required          
+Instance                                       Reference                                                             Type     Pin     Net                 Time         Slack
+                                               Clock                                                                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORERESETP_0.ddr_settled       m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      EN      ddr_settled4        9.662        7.186
+m2s010_som_sb_0.CORERESETP_0.count_ddr[13]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[13]     9.745        7.317
+m2s010_som_sb_0.CORERESETP_0.count_ddr[12]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[12]     9.745        7.333
+m2s010_som_sb_0.CORERESETP_0.count_ddr[11]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[11]     9.745        7.350
+m2s010_som_sb_0.CORERESETP_0.count_ddr[10]     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[10]     9.745        7.366
+m2s010_som_sb_0.CORERESETP_0.count_ddr[9]      m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[9]      9.745        7.382
+m2s010_som_sb_0.CORERESETP_0.count_ddr[8]      m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[8]      9.745        7.399
+m2s010_som_sb_0.CORERESETP_0.count_ddr[7]      m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[7]      9.745        7.415
+m2s010_som_sb_0.CORERESETP_0.count_ddr[6]      m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[6]      9.745        7.431
+m2s010_som_sb_0.CORERESETP_0.count_ddr[5]      m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[5]      9.745        7.447
+============================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.662
+
+    - Propagation time:                      2.477
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 7.186
+
+    Number of logic level(s):                2
+    Starting point:                          m2s010_som_sb_0.CORERESETP_0.count_ddr[0] / Q
+    Ending point:                            m2s010_som_sb_0.CORERESETP_0.ddr_settled / EN
+    The start point is clocked by            m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock [rising] on pin CLK
+
+Instance / Net                                           Pin      Pin               Arrival     No. of    
+Name                                            Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORERESETP_0.count_ddr[0]       SLE      Q        Out     0.087     0.087       -         
+count_ddr[0]                                    Net      -        -       0.733     -           3         
+m2s010_som_sb_0.CORERESETP_0.ddr_settled4_9     CFG4     D        In      -         0.821       -         
+m2s010_som_sb_0.CORERESETP_0.ddr_settled4_9     CFG4     Y        Out     0.472     1.293       -         
+ddr_settled4_9                                  Net      -        -       0.556     -           1         
+m2s010_som_sb_0.CORERESETP_0.ddr_settled4       CFG4     D        In      -         1.849       -         
+m2s010_som_sb_0.CORERESETP_0.ddr_settled4       CFG4     Y        Out     0.470     2.318       -         
+ddr_settled4                                    Net      -        -       0.159     -           1         
+m2s010_som_sb_0.CORERESETP_0.ddr_settled        SLE      EN       In      -         2.477       -         
+==========================================================================================================
+Total path delay (propagation time + setup) of 2.814 is 1.367(48.6%) logic and 1.447(51.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                       Starting                                                                                                                                 Arrival          
+Instance                                               Reference                                             Type        Pin                        Net                                         Time        Slack
+                                                       Clock                                                                                                                                                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PREADY         CORECONFIGP_0_MDDR_APBmslave_PREADY         6.394       1.517
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[5]      CORECONFIGP_0_MDDR_APBmslave_PRDATA[5]      6.332       1.709
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[1]      CORECONFIGP_0_MDDR_APBmslave_PRDATA[1]      6.242       1.799
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[0]      CORECONFIGP_0_MDDR_APBmslave_PRDATA[0]      6.241       1.800
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[12]     CORECONFIGP_0_MDDR_APBmslave_PRDATA[12]     6.424       1.968
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[10]     CORECONFIGP_0_MDDR_APBmslave_PRDATA[10]     6.389       2.003
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[6]      CORECONFIGP_0_MDDR_APBmslave_PRDATA[6]      6.340       2.052
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[2]      CORECONFIGP_0_MDDR_APBmslave_PRDATA[2]      6.331       2.061
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[15]     CORECONFIGP_0_MDDR_APBmslave_PRDATA[15]     6.312       2.080
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[3]      CORECONFIGP_0_MDDR_APBmslave_PRDATA[3]      6.282       2.110
+=================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                         Starting                                                                               Required          
+Instance                                                 Reference                                             Type     Pin     Net             Time         Slack
+                                                         Clock                                                                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY         m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      EN      N_31_i_0        9.662        1.517
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[5]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[5]       9.745        1.709
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[1]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[1]       9.745        1.799
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[0]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[0]       9.745        1.800
+m2s010_som_sb_0.CORECONFIGP_0.state[1]                   m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       state_ns[1]     9.745        1.839
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[12]     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[12]      9.745        1.968
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[10]     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[10]      9.745        2.003
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[6]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[6]       9.745        2.052
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[2]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[2]       9.745        2.061
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[15]     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[15]      9.745        2.080
+==================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.662
+
+    - Propagation time:                      8.145
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     1.517
+
+    Number of logic level(s):                1
+    Starting point:                          m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST / MDDR_FABRIC_PREADY
+    Ending point:                            m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY / EN
+    The start point is clocked by            m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock [rising] on pin CLK_MDDR_APB
+    The end   point is clocked by            m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                       Pin                    Pin               Arrival     No. of    
+Name                                                     Type        Name                   Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST       MSS_010     MDDR_FABRIC_PREADY     Out     6.394     6.394       -         
+CORECONFIGP_0_MDDR_APBmslave_PREADY                      Net         -                      -       1.123     -           2         
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY_RNO     CFG4        D                      In      -         7.517       -         
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY_RNO     CFG4        Y                      Out     0.470     7.987       -         
+N_31_i_0                                                 Net         -                      -       0.159     -           1         
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY         SLE         EN                     In      -         8.145       -         
+====================================================================================================================================
+Total path delay (propagation time + setup) of 8.483 is 7.201(84.9%) logic and 1.282(15.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                      Starting                                                                   Arrival          
+Instance                              Reference     Type       Pin        Net                                    Time        Slack
+                                      Clock                                                                                       
+----------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.FABOSC_0.I_XTLOSC     System        XTLOSC     CLKOUT     FABOSC_0_XTLOSC_CCC_OUT_XTLOSC_CCC     0.000       8.883
+==================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                   Starting                                                                 Required          
+Instance                           Reference     Type     Pin        Net                                    Time         Slack
+                                   Clock                                                                                      
+------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CCC_0.CCC_INST     System        CCC      XTLOSC     FABOSC_0_XTLOSC_CCC_OUT_XTLOSC_CCC     10.000       8.883
+==============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      1.117
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 8.883
+
+    Number of logic level(s):                0
+    Starting point:                          m2s010_som_sb_0.FABOSC_0.I_XTLOSC / CLKOUT
+    Ending point:                            m2s010_som_sb_0.CCC_0.CCC_INST / XTLOSC
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                    Pin        Pin               Arrival     No. of    
+Name                                   Type       Name       Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.FABOSC_0.I_XTLOSC      XTLOSC     CLKOUT     Out     0.000     0.000       -         
+FABOSC_0_XTLOSC_CCC_OUT_XTLOSC_CCC     Net        -          -       1.117     -           1         
+m2s010_som_sb_0.CCC_0.CCC_INST         CCC        XTLOSC     In      -         1.117       -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 1.117 is 0.000(0.0%) logic and 1.117(100.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 134MB peak: 136MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 134MB peak: 136MB)
+
+---------------------------------------
+Resource Usage Report for m2s010_som 
+
+Mapping to part: m2s010fbga484std
+Cell usage:
+CCC             1 use
+CLKINT          6 uses
+MSS_010         1 use
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SYSRESET        1 use
+XTLOSC          1 use
+CFG1           2 uses
+CFG2           26 uses
+CFG3           7 uses
+CFG4           19 uses
+
+Carry primitives used for arithmetic functions:
+ARI1           14 uses
+
+
+Sequential Cells: 
+SLE            106 uses
+
+DSP Blocks:    0
+
+I/O ports: 100
+I/O primitives: 97
+BIBUF          37 uses
+INBUF          19 uses
+OUTBUF         35 uses
+OUTBUF_DIFF    1 use
+TRIBUFF        5 uses
+
+
+Global Clock Buffers: 6
+
+
+Total LUTs:    68
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  106 + 0 + 0 + 0 = 106;
+Total number of LUTs after P&R:  68 + 0 + 0 + 0 = 68;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 50MB peak: 136MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Tue Oct 27 14:02:27 2015
+
+###########################################################]

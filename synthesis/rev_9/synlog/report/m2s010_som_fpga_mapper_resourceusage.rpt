@@ -1,0 +1,51 @@
+Resource Usage Report for m2s010_som 
+
+Mapping to part: m2s060tfcsbga325std
+Cell usage:
+CCC             2 uses
+CLKINT          17 uses
+MSS_060         1 use
+MX2             2 uses
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SYSRESET        1 use
+XTLOSC          1 use
+CFG1           27 uses
+CFG2           302 uses
+CFG3           376 uses
+CFG4           584 uses
+
+Carry cells:
+ARI1            626 uses - used for arithmetic functions
+ARI1            70 uses - used for Wide-Mux implementation
+Total ARI1      696 uses
+
+
+Sequential Cells: 
+SLE            1795 uses
+
+DSP Blocks:    0 of 72 (0%)
+
+I/O ports: 126
+I/O primitives: 122
+BIBUF          43 uses
+INBUF          25 uses
+OUTBUF         50 uses
+OUTBUF_DIFF    1 use
+TRIBUFF        3 uses
+
+
+Global Clock Buffers: 17 of 8 (212%)
+
+
+Total LUTs:    1985
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 180; LUTs = 180;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  1795 + 0 + 180 + 0 = 1975;
+Total number of LUTs after P&R:  1985 + 0 + 180 + 0 = 2165;
+

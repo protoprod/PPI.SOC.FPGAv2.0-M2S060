@@ -1,0 +1,317 @@
+# Sat Sep 02 15:37:43 2017
+
+Synopsys Generic Technology Pre-mapping, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+Reading constraint file: C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_debug1_2\instr_sources\syn_dics.sdc
+@L: C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_debug1_2\m2s010_som_scck.rpt 
+Printing clock  summary report in "C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_debug1_2\m2s010_som_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 120MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 120MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 120MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 120MB)
+
+@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.release_ext_reset because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.SDIF_READY_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MF625 |Insert Identify debug core
+*** Launch instrumentor shell: "C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\identify_instrumentor_shell.exe" -srs_gen_hw "C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_debug1_2\instr_sources\syn_dics.v" -prj "C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\m2s010_som_syn.prj" -idb "C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_debug1_2\identify.db" -curimpl rev_debug1_2 -write_sdc -log C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_debug1_2\identify.log -tsl MjiQLiin -idc C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_debug1\identify.idc
+Reading constraint file: C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_debug1_2\instr_sources\syn_dics.sdc
+
+Making connections to hyper_source modules
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7458:28:7458:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_manchester_in_IICE_104, tag CommsFPGA_top_0.manchester_in
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7451:28:7451:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_manch_out_p_IICE_99, tag CommsFPGA_top_0.manch_out_p
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7444:28:7444:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_fifo_overflow_IICE_189, tag CommsFPGA_top_0.rx_fifo_overflow
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7437:28:7437:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_fifo_dout_IICE_177, tag CommsFPGA_top_0.rx_fifo_dout
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7430:28:7430:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_fifo_din_pipe_IICE_151, tag CommsFPGA_top_0.rx_fifo_din_pipe
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7423:28:7423:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_packet_complt_IICE_241, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.tx_packet_complt
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7416:28:7416:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_start_tx_fifo_IICE_213, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.start_tx_fifo
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7409:28:7409:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_packet_complt_IICE_193, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.rx_packet_complt
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7402:28:7402:68|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_packet_avail_int_IICE_192, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.rx_packet_avail_int
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7395:28:7395:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_crc_error_IICE_150, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.rx_crc_error
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7388:28:7388:51|Connected syn_hyper_connect ident_coreinst.ident_hyperc_int_IICE_68, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.int
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7381:28:7381:58|Connected syn_hyper_connect ident_coreinst.ident_hyperc_col_detect_IICE_42, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.col_detect
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7374:28:7374:60|Connected syn_hyper_connect ident_coreinst.ident_hyperc_up_eop_sync_IICE_251, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.up_eop_sync
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7367:28:7367:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_status_reg_IICE_215, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.status_reg
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7360:28:7360:71|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_packet_depth_status_IICE_202, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.rx_packet_depth_status
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7353:28:7353:64|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_packet_depth_IICE_194, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.rx_packet_depth
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7346:28:7346:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_pkt_depth_tx_err_IICE_115, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.pkt_depth_tx_err
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7339:28:7339:66|Connected syn_hyper_connect ident_coreinst.ident_hyperc_iup_eop_cntdown_en_IICE_97, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.iup_eop_cntdown_en
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7332:28:7332:55|Connected syn_hyper_connect ident_coreinst.ident_hyperc_iup_eop_IICE_96, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.iup_eop
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7325:28:7325:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_itx_fifo_wr_en_IICE_95, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.itx_fifo_wr_en
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7318:28:7318:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_irx_fifo_rd_en_IICE_89, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.irx_fifo_rd_en
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7311:28:7311:55|Connected syn_hyper_connect ident_coreinst.ident_hyperc_int_reg_IICE_77, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.int_reg
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7304:28:7304:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_control_reg_IICE_43, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.control_reg
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7297:28:7297:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_fifo_underrun_IICE_238, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.INTERRUPT_INST.tx_fifo_underrun
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7290:28:7290:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_fifo_overflow_IICE_237, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.INTERRUPT_INST.tx_fifo_overflow
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7283:28:7283:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_fifo_underrun_IICE_191, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.INTERRUPT_INST.rx_fifo_underrun
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7276:28:7276:55|Connected syn_hyper_connect ident_coreinst.ident_hyperc_int_reg_IICE_69, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.INTERRUPT_INST.int_reg
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7269:28:7269:51|Connected syn_hyper_connect ident_coreinst.ident_hyperc_int_IICE_67, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.INTERRUPT_INST.int
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7262:28:7262:68|Connected syn_hyper_connect ident_coreinst.ident_hyperc_irx_packet_avail_int_IICE_94, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.INTERRUPT_INST.irx_packet_avail_int
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7255:28:7255:66|Connected syn_hyper_connect ident_coreinst.ident_hyperc_block_int_until_rd_IICE_34, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.INTERRUPT_INST.block_int_until_rd
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7248:28:7248:58|Connected syn_hyper_connect ident_coreinst.ident_hyperc_apb3_write_IICE_33, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.apb3_write
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7241:28:7241:56|Connected syn_hyper_connect ident_coreinst.ident_hyperc_apb3_sel_IICE_32, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.apb3_sel
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7234:28:7234:58|Connected syn_hyper_connect ident_coreinst.ident_hyperc_apb3_ready_IICE_31, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.apb3_ready
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7227:28:7227:58|Connected syn_hyper_connect ident_coreinst.ident_hyperc_apb3_rdata_IICE_23, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.apb3_rdata
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7220:28:7220:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_apb3_enable_IICE_14, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.apb3_enable
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7213:28:7213:56|Connected syn_hyper_connect ident_coreinst.ident_hyperc_apb3_addr_IICE_6, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.apb3_addr
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7206:28:7206:57|Connected syn_hyper_connect ident_coreinst.ident_hyperc_p2s_data_IICE_107, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.p2s_data
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7199:28:7199:56|Connected syn_hyper_connect ident_coreinst.ident_hyperc_man_data_IICE_98, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.man_data
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7192:28:7192:68|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_collision_detect_IICE_228, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.tx_collision_detect
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7185:28:7185:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_col_detect_en_IICE_227, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.tx_col_detect_en
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7178:28:7178:76|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_fifo_dout_d5_synccompare_IICE_229, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.tx_fifo_dout_d5_synccompare
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7171:28:7171:76|Connected syn_hyper_connect ident_coreinst.ident_hyperc_sync2rxclk_tx_packet_complt_IICE_225, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.sync2rxclk_tx_packet_complt
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7164:28:7164:69|Connected syn_hyper_connect ident_coreinst.ident_hyperc_sync2rxclk_tx_enable_IICE_223, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.sync2rxclk_tx_enable
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7157:28:7157:68|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_fifo_din_pipe_d1_IICE_160, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.rx_fifo_din_pipe_d1
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7150:28:7150:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_start_tx_fifo_IICE_212, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.start_tx_fifo
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7143:28:7143:63|Connected syn_hyper_connect ident_coreinst.ident_hyperc_manches_in_dly_IICE_101, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.manches_in_dly
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7136:28:7136:60|Connected syn_hyper_connect ident_coreinst.ident_hyperc_clk_bit_5mhz_IICE_36, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.clk_bit_5mhz
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7129:28:7129:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_byte_clk_en_IICE_35, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.byte_clk_en
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7122:28:7122:57|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_state_IICE_242, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_state
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7115:28:7115:63|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_idle_line_s_IICE_240, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_idle_line_s
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7108:28:7108:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_idle_line_IICE_239, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_idle_line
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7101:28:7101:64|Connected syn_hyper_connect ident_coreinst.ident_hyperc_start_tx_fifo_s_IICE_214, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.start_tx_fifo_s
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7094:28:7094:57|Connected syn_hyper_connect ident_coreinst.ident_hyperc_idle_line_IICE_60, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.TX_IDLE_LINE_DETECTOR.idle_line
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7087:28:7087:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_prbs_gen_reg0_IICE_117, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.TX_IDLE_LINE_DETECTOR.prbs_gen_reg0
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7080:28:7080:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_idle_line_temp_IICE_62, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.TX_IDLE_LINE_DETECTOR.idle_line_temp
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7073:28:7073:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_idle_debug_sm_IICE_55, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.TX_IDLE_LINE_DETECTOR.idle_debug_sm
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7066:28:7066:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_sampler_clk1x_en_IICE_211, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.sampler_clk1x_en
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7059:28:7059:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_crc_error_IICE_149, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_crc_error
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7052:28:7052:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_crc_data_calc_IICE_133, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_crc_data_calc
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7045:28:7045:66|Connected syn_hyper_connect ident_coreinst.ident_hyperc_readfifo_wr_state_IICE_120, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.readfifo_wr_state
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7038:28:7038:57|Connected syn_hyper_connect ident_coreinst.ident_hyperc_s2p_data_IICE_203, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.s2p_data
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7031:28:7031:64|Connected syn_hyper_connect ident_coreinst.ident_hyperc_manchester_in_d_IICE_105, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.manchester_in_d
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7024:28:7024:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_manches_in_s_IICE_103, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.manches_in_s
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7017:28:7017:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_manches_in_IICE_100, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.manches_in
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7010:28:7010:57|Connected syn_hyper_connect ident_coreinst.ident_hyperc_inrz_data_IICE_66, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.inrz_data
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":7003:28:7003:63|Connected syn_hyper_connect ident_coreinst.ident_hyperc_imanches_in_dly_IICE_64, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.imanches_in_dly
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6996:28:6996:60|Connected syn_hyper_connect ident_coreinst.ident_hyperc_clock_adjust_IICE_41, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.clock_adjust
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6989:28:6989:54|Connected syn_hyper_connect ident_coreinst.ident_hyperc_clkdiv_IICE_37, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.clkdiv
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6982:28:6982:57|Connected syn_hyper_connect ident_coreinst.ident_hyperc_idle_line_IICE_59, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.RX_IDLE_LINE_DETECTOR.idle_line
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6975:28:6975:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_prbs_gen_reg0_IICE_116, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.RX_IDLE_LINE_DETECTOR.prbs_gen_reg0
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6968:28:6968:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_idle_line_temp_IICE_61, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.RX_IDLE_LINE_DETECTOR.idle_line_temp
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6961:28:6961:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_idle_debug_sm_IICE_51, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.RX_IDLE_LINE_DETECTOR.idle_debug_sm
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6954:28:6954:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_afe_rx_state_IICE_0, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.AFE_RX_STATE_MACHINE.afe_rx_state
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6947:28:6947:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_fifo_underrun_IICE_190, tag CommsFPGA_top_0.FIFOS_INST.rx_fifo_underrun
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6940:28:6940:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_fifo_overflow_IICE_188, tag CommsFPGA_top_0.FIFOS_INST.rx_fifo_overflow
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6933:28:6933:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_fifo_full_IICE_187, tag CommsFPGA_top_0.FIFOS_INST.rx_fifo_full
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6926:28:6926:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_fifo_empty_IICE_186, tag CommsFPGA_top_0.FIFOS_INST.rx_fifo_empty
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6919:28:6919:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_fifo_dout_IICE_168, tag CommsFPGA_top_0.FIFOS_INST.rx_fifo_dout
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6912:28:6912:67|Connected syn_hyper_connect ident_coreinst.ident_hyperc_readfifo_write_ptr_IICE_131, tag CommsFPGA_top_0.FIFOS_INST.readfifo_write_ptr
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6905:28:6905:66|Connected syn_hyper_connect ident_coreinst.ident_hyperc_readfifo_read_ptr_IICE_118, tag CommsFPGA_top_0.FIFOS_INST.readfifo_read_ptr
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6898:28:6898:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_irx_fifo_wr_en_IICE_90, tag CommsFPGA_top_0.FIFOS_INST.irx_fifo_wr_en
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6891:28:6891:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_irx_fifo_rd_en_IICE_85, tag CommsFPGA_top_0.FIFOS_INST.irx_fifo_rd_en
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6884:28:6884:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_ififo_ptr_err_IICE_63, tag CommsFPGA_top_0.FIFOS_INST.ififo_ptr_err
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6877:28:6877:58|Connected syn_hyper_connect ident_coreinst.ident_hyperc_apb3_rdata_IICE_15, tag CommsFPGA_top_0.apb3_rdata
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6870:28:6870:46|Connected syn_hyper_connect ident_coreinst.ident_hyperc_clk16x, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.clk16x
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.sm1_areset_n_clk_base is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF0_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF1_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF2_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF3_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF0_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF1_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF2_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF3_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1331:8:1331:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance FDDR_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF0_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF1_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF2_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF3_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Removing sequential instance EXT_RESET_OUT_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance DDR_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance FDDR_CORE_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6196:6:6196:11|Removing sequential instance genblk4\.b9_ibScJX_E2 (in view: VhdlGenLib.b8_nR_ymqrG_12s_5s_0_0s_0s_1_2046_x(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":5904:2:5904:7|Removing sequential instance b13_xYTFKCkrt_FH9 (in view: VhdlGenLib.b7_OCByLXC_Z1_x(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6220:2:6220:7|Removing sequential instance b11_ibScJX_E2_P (in view: VhdlGenLib.b8_nR_ymqrG_12s_5s_0_0s_0s_1_2046_x(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Removing sequential instance sm2_state[0:1] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance sdif0_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance sdif1_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance sdif2_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance sdif3_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|Removing sequential instance afull_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_0(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|Removing sequential instance afull_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_1(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|Removing sequential instance afull_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_2(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|Removing sequential instance afull_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Removing sequential instance sm2_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Removing sequential instance sm2_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MT480 :"c:/users/gcallsen/documents/projects/fpga/v1_6-082417-debugcol/synthesis/rev_debug1_2/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 
+syn_allowed_resources : blockrams=69  set on top level netlist m2s010_som
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 161MB peak: 164MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                                                 Requested     Requested     Clock        Clock                    Clock
+Clock                                                                 Frequency     Period        Type         Group                    Load 
+---------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top|BIT_CLK_inferred_clock                                  100.0 MHz     10.000        inferred     Inferred_clkgroup_2      549  
+System                                                                100.0 MHz     10.000        system       system_clkgroup          9    
+ident_coreinst.comm_block_INST.dr2_tck                                1.0 MHz       1000.000      declared     identify_jtag_group1     8    
+jtag_interface_x|b9_nv_oQwfYF                                         100.0 MHz     10.000        inferred     Inferred_clkgroup_10     18   
+jtag_interface_x|b10_8Kz_rKlrtX                                       100.0 MHz     10.000        inferred     Inferred_clkgroup_9      8    
+jtag_interface_x|identify_clk_int_inferred_clock                      100.0 MHz     10.000        inferred     Inferred_clkgroup_8      1758 
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock                100.0 MHz     10.000        inferred     Inferred_clkgroup_0      1717 
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock                100.0 MHz     10.000        inferred     Inferred_clkgroup_1      4    
+m2s010_som_sb_CAM_SPI_1_CLK_IO|Y_inferred_clock[0]                    100.0 MHz     10.000        inferred     Inferred_clkgroup_11     1    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       100.0 MHz     10.000        inferred     Inferred_clkgroup_3      771  
+m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_7      31   
+m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                     100.0 MHz     10.000        inferred     Inferred_clkgroup_4      109  
+m2s010_som|MAC_MII_RX_CLK                                             100.0 MHz     10.000        inferred     Inferred_clkgroup_6      1    
+m2s010_som|MAC_MII_TX_CLK                                             100.0 MHz     10.000        inferred     Inferred_clkgroup_5      1    
+=============================================================================================================================================
+
+@W: MT532 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\hdl\up_if.vhd":597:8:597:9|Found signal identified as System clock which controls 9 sequential elements including CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[7:0].  Using this clock, which has no specified timing constraint, can adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\hdl\up_if.vhd":708:6:708:7|Found inferred clock m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock which controls 1717 sequential elements including CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.RX_packet_depth[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\hdl\manchesencoder.vhd":156:4:156:5|Found inferred clock m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock which controls 4 sequential elements including CommsFPGA_top_0.MANCHESTER_ENCODER_INST.MANCHESTER_OUT. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\hdl\debounce.vhd":49:4:49:5|Found inferred clock CommsFPGA_top|BIT_CLK_inferred_clock which controls 549 sequential elements including CommsFPGA_top_0.TRIPLE_DEBOUNCE_INST.DEBOUNCE_0_INST.debounce_cntr_0[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Found inferred clock m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 771 sequential elements including m2s010_som_sb_0.CORERESETP_0.sm0_state[0:6]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":517:8:517:9|Found inferred clock m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock which controls 109 sequential elements including m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY_0. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\m2s010_som_sb_mss\m2s010_som_sb_mss.vhd":2268:0:2268:13|Found inferred clock m2s010_som|MAC_MII_TX_CLK which controls 1 sequential elements including m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\m2s010_som_sb_mss\m2s010_som_sb_mss.vhd":2268:0:2268:13|Found inferred clock m2s010_som|MAC_MII_RX_CLK which controls 1 sequential elements including m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Found inferred clock m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock which controls 31 sequential elements including m2s010_som_sb_0.CORERESETP_0.count_ddr[13:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":5759:3:5759:8|Found inferred clock jtag_interface_x|identify_clk_int_inferred_clock which controls 1758 sequential elements including ident_coreinst.IICE_INST.b5_nUTGT.iclksync.dout[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":344:6:344:11|Found inferred clock jtag_interface_x|b10_8Kz_rKlrtX which controls 8 sequential elements including ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\synthesis\rev_debug1_2\instr_sources\syn_dics.v":6167:6:6167:11|Found inferred clock jtag_interface_x|b9_nv_oQwfYF which controls 18 sequential elements including ident_coreinst.IICE_INST.b5_nUTGT.b11_nUTGT_khWqH.genblk3\.b8_vABZ3qsY. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\work\m2s010_som_sb_mss\m2s010_som_sb_mss.vhd":2268:0:2268:13|Found inferred clock m2s010_som_sb_CAM_SPI_1_CLK_IO|Y_inferred_clock[0] which controls 1 sequential elements including m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: MT480 :"c:/users/gcallsen/documents/projects/fpga/v1_6-082417-debugcol/synthesis/rev_debug1_2/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 
+@N: BN225 |Writing default property annotation file C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_debug1_2\m2s010_som.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 159MB peak: 164MB)
+
+Encoding state machine state[0:2] (in view: work.CoreConfigP(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine sm0_state[0:6] (in view: work.CoreResetP(rtl))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine Idle_Debug_SM[0:4] (in view: work.IdleLineDetector_0(behavioral))
+original code -> new code
+   0000 -> 00001
+   0001 -> 00010
+   0010 -> 00100
+   0011 -> 01000
+   0100 -> 10000
+Encoding state machine TX_STATE[0:8] (in view: work.TX_SM(behavioral))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+Encoding state machine ReadFIFO_WR_STATE[0:9] (in view: work.ReadFIFO_Write_SM(behavioral))
+original code -> new code
+   00000000001 -> 0000000001
+   00000000010 -> 0000000010
+   00000000100 -> 0000000100
+   00000001000 -> 0000001000
+   00000100000 -> 0000010000
+   00001000000 -> 0000100000
+   00010000000 -> 0001000000
+   00100000000 -> 0010000000
+   01000000000 -> 0100000000
+   10000000000 -> 1000000000
+Encoding state machine Idle_Debug_SM[0:4] (in view: work.IdleLineDetector_1(behavioral))
+original code -> new code
+   0000 -> 00001
+   0001 -> 00010
+   0010 -> 00100
+   0011 -> 01000
+   0100 -> 10000
+Encoding state machine AFE_RX_STATE[0:4] (in view: work.AFE_RX_SM(behavioral))
+original code -> new code
+   000001 -> 00001
+   000010 -> 00010
+   000100 -> 00100
+   001000 -> 01000
+   100000 -> 10000
+Encoding state machine b13_nAzGfFM_sLsv3[5:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x(verilog))
+original code -> new code
+   0000 -> 000001
+   0001 -> 000010
+   0010 -> 000100
+   0011 -> 001000
+   0100 -> 010000
+   1101 -> 100000
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance paddr[11] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[16] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[17] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[18] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[19] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[20] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[21] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[22] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[23] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[24] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[25] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[26] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[27] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[28] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[29] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[30] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\v1_6-082417-debugcol\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[31] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 163MB peak: 166MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 76MB peak: 166MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:02s cputime
+# Sat Sep 02 15:37:48 2017
+
+###########################################################]

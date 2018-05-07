@@ -1,0 +1,11 @@
+#--  Synopsys, Inc.
+#--  Version J-2015.03M-3
+#--  Project file C:\PULSAR\Projects\PPI\PoweredRail\Eval_Board_SOC\m2s010-som-fg484-1a-116-Rev1a_c\synthesis\m2s010_som_syn.prd
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

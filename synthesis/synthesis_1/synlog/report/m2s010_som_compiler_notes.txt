@@ -1,0 +1,151 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ns
+@N:"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Top entity is set to m2s010_som.
+@N: CD231 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Synthesizing work.m2s010_som.rtl 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\m2s010_som_sb.vhd":17:7:17:19|Synthesizing work.m2s010_som_sb.rtl 
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":434:10:434:14|Synthesizing smartfusion2.bibuf.syn_black_box 
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":413:10:413:15|Synthesizing smartfusion2.outbuf.syn_black_box 
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":786:10:786:17|Synthesizing smartfusion2.sysreset.syn_black_box 
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":276:10:276:12|Synthesizing smartfusion2.mx2.syn_black_box 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\OTH_SPI_1_SS0\m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd":8:7:8:36|Synthesizing work.m2s010_som_sb_oth_spi_1_ss0_io.def_arch 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd":17:7:17:23|Synthesizing work.m2s010_som_sb_mss.rtl 
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":503:10:503:20|Synthesizing smartfusion2.outbuf_diff.syn_black_box 
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":403:10:403:14|Synthesizing smartfusion2.inbuf.syn_black_box 
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":423:10:423:16|Synthesizing smartfusion2.tribuff.syn_black_box 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_060.def_arch 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\GPIO_6\m2s010_som_sb_GPIO_6_IO.vhd":8:7:8:29|Synthesizing work.m2s010_som_sb_gpio_6_io.def_arch 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\GPIO_1\m2s010_som_sb_GPIO_1_IO.vhd":8:7:8:29|Synthesizing work.m2s010_som_sb_gpio_1_io.def_arch 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd":8:7:8:32|Synthesizing work.m2s010_som_sb_fabosc_0_osc.def_arch 
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\SgCore\OSC\1.0.105\osc_comps.vhd":39:7:39:12|Synthesizing work.xtlosc.def_arch 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\SgCore\OSC\1.0.105\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\SgCore\OSC\1.0.105\osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":27:7:27:16|Synthesizing work.coreresetp.rtl 
+@N: CL177 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1331:8:1331:9|Sharing sequential element M3_RESET_N_int.
+@N: CL177 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q1.
+@N: CL177 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q1.
+@N: CL177 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q1.
+@N: CL177 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q1.
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd":26:7:26:17|Synthesizing work.coreconfigp.rtl 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd":8:7:8:30|Synthesizing work.m2s010_som_sb_ccc_0_fccc.def_arch 
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":794:10:794:12|Synthesizing smartfusion2.ccc.syn_black_box 
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box 
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\CAM_SPI_1_SS0\m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd":8:7:8:36|Synthesizing work.m2s010_som_sb_cam_spi_1_ss0_io.def_arch 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\CAM_SPI_1_CLK\m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd":8:7:8:36|Synthesizing work.m2s010_som_sb_cam_spi_1_clk_io.def_arch 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som\ID_RES_0\m2s010_som_ID_RES_0_IO.vhd":8:7:8:28|Synthesizing work.m2s010_som_id_res_0_io.def_arch 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\CommsFPGA_top.vhd":73:7:73:19|Synthesizing work.commsfpga_top.behavioral 
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\CommsFPGA_top.vhd":222:10:222:24|Removed redundant assignment
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ManchesDecoder.vhd":41:7:41:20|Synthesizing work.manchesdecoder.v1 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":49:7:49:23|Synthesizing work.readfifo_write_sm.behavioral 
+@N: CD231 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":110:30:110:31|Using onehot encoding for type readfifo_wr_state_type (idle="10000000000")
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":145:6:145:19|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":232:8:232:24|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":285:14:285:25|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":323:14:323:25|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":352:14:352:25|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":353:14:353:26|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":376:14:376:26|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":413:14:413:26|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":415:14:415:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":432:14:432:26|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":434:14:434:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":491:14:491:25|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":509:14:509:25|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":528:14:528:25|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":542:14:542:25|Removed redundant assignment
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\CRC16_Generator.vhd":43:7:43:21|Synthesizing work.crc16_generator.imp_crc 
+@N: CD231 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":110:30:110:31|Using onehot encoding for type readfifo_wr_state_type (idle="10000000000")
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\AFE_RX_SM.vhd":34:7:34:15|Synthesizing work.afe_rx_sm.behavioral 
+@N: CD231 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\AFE_RX_SM.vhd":72:25:72:26|Using onehot encoding for type afe_rx_state_type (idle="10000")
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\AFE_RX_SM.vhd":117:8:117:21|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\AFE_RX_SM.vhd":120:8:120:21|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\AFE_RX_SM.vhd":121:8:121:21|Removed redundant assignment
+@N: CD231 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\AFE_RX_SM.vhd":72:25:72:26|Using onehot encoding for type afe_rx_state_type (idle="10000")
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ManchesDecoder_Adapter.vhd":42:7:42:28|Synthesizing work.manchesdecoder_adapter.v1 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\IdleLineDetector.vhd":39:7:39:22|Synthesizing work.idlelinedetector.behavioral 
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\IdleLineDetector.vhd":77:10:77:23|Removed redundant assignment
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ManchesEncoder.vhd":40:7:40:20|Synthesizing work.manchesencoder.behavioral 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_SM.vhd":48:7:48:11|Synthesizing work.tx_sm.behavioral 
+@N: CD231 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_SM.vhd":101:21:101:22|Using onehot encoding for type tx_state_type (idle="100000000")
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_SM.vhd":284:14:284:26|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_SM.vhd":313:14:313:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_SM.vhd":369:14:369:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_SM.vhd":386:14:386:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_SM.vhd":406:14:406:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_SM.vhd":425:14:425:29|Removed redundant assignment
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\IdleLineDetector.vhd":39:7:39:22|Synthesizing work.idlelinedetector.behavioral 
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\IdleLineDetector.vhd":77:10:77:23|Removed redundant assignment
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_Collision_Detector.vhd":41:7:41:27|Synthesizing work.tx_collision_detector.behavioral 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\FIFOs.vhd":48:7:48:11|Synthesizing work.fifos.behavioral 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9.vhd":19:7:19:15|Synthesizing work.fifo_8kx9.rtl 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":34:7:34:36|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo.translated 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd":8:7:8:39|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_ram_wrapper.generated 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top.vhd":8:7:8:37|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_lsram_top.def_arch 
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":588:10:588:16|Synthesizing smartfusion2.ram1k18.syn_black_box 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":33:7:33:42|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo_async.translated 
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":821:14:821:20|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":866:12:866:18|Removed redundant assignment
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":32:7:32:50|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo_graytobinconv.translated 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_doubleSync.vhd":31:7:31:47|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo_doublesync.translated 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8.vhd":19:7:19:15|Synthesizing work.fifo_2kx8.rtl 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":34:7:34:36|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo.translated 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd":8:7:8:39|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_ram_wrapper.generated 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd":8:7:8:37|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_lsram_top.def_arch 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":33:7:33:42|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo_async.translated 
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":821:14:821:20|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":866:12:866:18|Removed redundant assignment
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":32:7:32:50|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo_graytobinconv.translated 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_doubleSync.vhd":31:7:31:47|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo_doublesync.translated 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":56:7:56:11|Synthesizing work.up_if.behavioral 
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":238:8:238:19|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":295:10:295:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":296:10:296:23|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":297:10:297:23|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":298:10:298:24|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":300:10:300:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":301:10:301:28|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":302:10:302:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":303:10:303:28|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":304:10:304:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":305:10:305:28|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":306:10:306:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":307:10:307:28|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":356:12:356:26|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":360:14:360:24|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":382:8:382:18|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":397:10:397:23|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":491:10:491:24|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":497:10:497:24|Removed redundant assignment
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Interrupts.vhd":50:7:50:16|Synthesizing work.interrupts.behavioral 
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Interrupts.vhd":158:8:158:27|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Interrupts.vhd":180:8:180:26|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Interrupts.vhd":199:8:199:27|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Interrupts.vhd":218:8:218:27|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Interrupts.vhd":237:8:237:27|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Interrupts.vhd":256:8:256:27|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Interrupts.vhd":275:8:275:23|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Interrupts.vhd":294:8:294:21|Removed redundant assignment
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TriDebounce.vhd":22:7:22:17|Synthesizing work.tridebounce.behavioral 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Debounce.vhd":22:7:22:14|Synthesizing work.debounce.behavioral 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd":8:7:8:37|Synthesizing work.m2s010_som_commsfpga_ccc_0_fccc.def_arch 
+@N: CL201 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_SM.vhd":147:6:147:7|Trying to extract state machine for register TX_STATE
+@N: CL201 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\AFE_RX_SM.vhd":147:6:147:7|Trying to extract state machine for register AFE_RX_STATE
+@N: CL201 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":258:6:258:7|Trying to extract state machine for register ReadFIFO_WR_STATE
+@N: CL201 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd":517:8:517:9|Trying to extract state machine for register state
+@N: CL177 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q2.
+@N: CL177 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q2.
+@N: CL177 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q2.
+@N: CL177 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q2.
+@N: CL201 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Trying to extract state machine for register sm2_state
+@N: CL201 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Trying to extract state machine for register sdif3_state
+@N: CL201 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Trying to extract state machine for register sdif2_state
+@N: CL201 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Trying to extract state machine for register sdif1_state
+@N: CL201 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Trying to extract state machine for register sdif0_state
+@N: CL201 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Trying to extract state machine for register sm0_state
+@N|Running in 64-bit mode
+

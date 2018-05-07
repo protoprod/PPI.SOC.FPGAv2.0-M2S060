@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.m2s010_som  -multisrs  C:\Users\gcallsen\Documents\GitHub\IRAIL-1.6-FPGA\synthesis\rev_9\synwork\m2s010_som_comp.srs  -osyn  C:\Users\gcallsen\Documents\GitHub\IRAIL-1.6-FPGA\synthesis\rev_9\synwork\m2s010_som_mult.srs  -log  C:\Users\gcallsen\Documents\GitHub\IRAIL-1.6-FPGA\synthesis\rev_9\synlog\m2s010_som_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:C:\Users\gcallsen\Documents\GitHub\IRAIL-1.6-FPGA\synthesis\rev_9\synwork\m2s010_som_comp.srs|io:i|time:1504898406|size:210313|exec:0
+file:C:\Users\gcallsen\Documents\GitHub\IRAIL-1.6-FPGA\synthesis\rev_9\synwork\m2s010_som_mult.srs|io:o|time:1504898407|size:14017|exec:0
+file:C:\Users\gcallsen\Documents\GitHub\IRAIL-1.6-FPGA\synthesis\rev_9\synlog\m2s010_som_multi_srs_gen.srr|io:o|time:1504898407|size:531|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1479391658|size:3128320|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1479391924|size:4208128|exec:1

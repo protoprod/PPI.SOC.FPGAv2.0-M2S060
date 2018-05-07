@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "E:\FPGA Archive\v1_6-082317-Linux\designer\impl1\m2s010_som_rev_5.adb"
+LIST SOURCE_FILES
+VALUE "E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_5\m2s010_som.edn;edn"
+VALUE "E:\FPGA Archive\v1_6-082317-Linux\constraint\io\m2s010_som.io.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_5\m2s010_som_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

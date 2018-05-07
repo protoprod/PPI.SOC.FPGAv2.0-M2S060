@@ -1,0 +1,38 @@
+# Synopsys Constraint Checker(syntax only), version map201609actrcp1, Build 005R, built Jan 25 2017
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Tue Aug 22 15:23:44 2017
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "m2s010_som"
+Constraint File(s):      "C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082217\synthesis\clk_synplify_gwc.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+Start                                                                 Requested     Requested     Clock        Clock                   Clock
+Clock                                                                 Frequency     Period        Type         Group                   Load 
+--------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top|BIT_CLK_inferred_clock                                  1.0 MHz       1000.000      inferred     Inferred_clkgroup_8     268  
+System                                                                1.0 MHz       1000.000      system       system_clkgroup         9    
+clk                                                                   163.3 MHz     6.123         declared     Inferred_clkgroup_0     0    
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock                1.0 MHz       1000.000      inferred     Inferred_clkgroup_6     536  
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock                1.0 MHz       1000.000      inferred     Inferred_clkgroup_7     4    
+m2s010_som_sb_CAM_SPI_1_CLK_IO|Y_inferred_clock[0]                    1.0 MHz       1000.000      inferred     Inferred_clkgroup_9     1    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       1.0 MHz       1000.000      inferred     Inferred_clkgroup_2     752  
+m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     1.0 MHz       1000.000      inferred     Inferred_clkgroup_5     31   
+m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                     1.0 MHz       1000.000      inferred     Inferred_clkgroup_1     109  
+m2s010_som|MAC_MII_RX_CLK                                             1.0 MHz       1000.000      inferred     Inferred_clkgroup_4     1    
+m2s010_som|MAC_MII_TX_CLK                                             1.0 MHz       1000.000      inferred     Inferred_clkgroup_3     1    
+============================================================================================================================================

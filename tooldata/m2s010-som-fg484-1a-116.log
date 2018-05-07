@@ -1,0 +1,16 @@
+Project Name: m2s010-som-fg484-1a-116
+Location: C:\Actelprj\m2s010-som-fg484-1a-116
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S010-FG484
+Family         : SmartFusion2
+Die            : M2S010
+Package        : 484 FBGA
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>m2s010_som_sb</header>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin m2s010_som_sb:DEBOUNCE_OUT1</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som_sb/pins/m2s010_som_sb:DEBOUNCE_OUT1</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin m2s010_som_sb:DEBOUNCE_OUT2</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som_sb/pins/m2s010_som_sb:DEBOUNCE_OUT2</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin m2s010_som_sb:GPIO_12_F2M_BUTn3</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som_sb/pins/m2s010_som_sb:GPIO_12_F2M_BUTn3</crossprobe>
+  </drc>
+</drcreport>

@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\identify_instrumentor_shell.exe  -idb  C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_debug1_2\identify.db  -synplify_install  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro  -synplify_tool  synplify_pro  -log  C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_debug1_2\synlog\m2s010_som_identify_compile.log  -family  SmartFusion2  -prj  C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\m2s010_som_syn.prj  -curimpl  rev_debug1_2  -dbgimpl  rev_debug1  -dbgimpl  rev_debug1_1  -dbgimpl  rev_debug1_2  -fver  2017.03  -idc  C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_debug1\identify.idc  -f  C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_debug1_2\identifylaunch.tcl 
+rc:0 success:1 runtime:2
+file:C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_debug1_2\identify.db|io:i|time:1504381057|size:1251575|exec:0
+file:C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_debug1_2\synlog\m2s010_som_identify_compile.log|io:o|time:1504381058|size:2689|exec:0
+file:C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\m2s010_som_syn.prj|io:i|time:1504381056|size:14580|exec:0
+file:C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_debug1\identify.idc|io:i|time:1504376077|size:8147|exec:0
+file:C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_debug1_2\identifylaunch.tcl|io:o|time:1504381057|size:123|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\identify_instrumentor_shell.exe|io:i|time:1479355152|size:125440|exec:1

@@ -1,0 +1,17 @@
+CKID0001:@|S:CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA_31_sqmuxa_1_0_i@|E:CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.RESET_i_0_a2_i@|E:CommsFPGA_top_0.TRIPLE_DEBOUNCE_INST.DEBOUNCE_2_INST.DEBOUNCE_PROC.un3_debounce_in_rs@|F:@syn_sample_clock_path1==CKID0002@|M:ClockId0002 
+CKID0003:@|S:CommsFPGA_CCC_0.CCC_INST@|E:CommsFPGA_top_0.RX_FIFO_RST@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 
+CKID0004:@|S:m2s010_som_sb_0.CCC_0.CCC_INST@|E:long_reset_set@|F:@syn_sample_clock_path==CKID0004@|M:ClockId0004 
+CKID0005:@|S:CommsFPGA_top_0.BIT_CLK@|E:CommsFPGA_top_0.RESET_i_0_i_set@|F:@syn_sample_clock_path==CKID0005@|M:ClockId0005 
+CKID0006:@|S:m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST@|E:m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST@|F:@syn_sample_clock_path==CKID0006@|M:ClockId0006 
+CKID0007:@|S:m2s010_som_sb_0.FABOSC_0.I_RCOSC_25_50MHZ@|E:m2s010_som_sb_0.CORERESETP_0.count_ddr[13]@|F:@syn_sample_clock_path==CKID0007@|M:ClockId0007 
+CKID0008:@|S:CommsFPGA_CCC_0.CCC_INST@|E:CommsFPGA_top_0.BIT_CLK@|F:@syn_sample_clock_path1==CKID0008@|M:ClockId0008 
+CKID0009:@|S:CommsFPGA_top_0.long_reset@|E:CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.READY_DELAY_PROC.un5_apb3_rst_rs@|F:@syn_sample_clock_path2==CKID0009@|M:ClockId0009 
+CKID0010:@|S:ident_coreinst.comm_block_INST.jtagi.b9_nv_oQwfYF_3_0_a2@|E:ident_coreinst.IICE_INST.b5_nUTGT.b11_nUTGT_khWqH.genblk3.b8_vABZ3qsY@|F:@syn_sample_clock_path==CKID0010@|M:ClockId0010 
+CKID0011:@|S:ident_coreinst.comm_block_INST.jtagi.b10_8Kz_rKlrtX_RNO@|E:ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1.b10_dZst39_EF3[4]@|F:@syn_sample_clock_path==CKID0011@|M:ClockId0011 
+CKID0012:@|S:CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.HOLD_COL_PROC.un1_tx_collision_detect@|E:CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.hold_collision@|F:@syn_sample_clock_path==CKID0012@|M:ClockId0012 
+CKID0013:@|S:ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw@|E:ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[1]@|F:@syn_sample_clock_path==CKID0013@|M:ClockId0013 
+CKID0014:@|S:MAC_MII_TX_CLK@|E:m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST@|F:@syn_sample_clock_path1==CKID0014@|M:ClockId0014 
+CKID0015:@|S:m2s010_som_sb_0.CAM_SPI_1_CLK.U0_0@|E:m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST@|F:@syn_sample_clock_path2==CKID0015@|M:ClockId0015 
+CKID0016:@|S:MAC_MII_RX_CLK@|E:m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST@|F:@syn_sample_clock_path3==CKID0016@|M:ClockId0016 
+CKID0017:@|S:ident_coreinst.comm_block_INST.dr2_tck_keep@|E:ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[7]@|F:@syn_sample_clock_path==CKID0017@|M:ClockId0017 

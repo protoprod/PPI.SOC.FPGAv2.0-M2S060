@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>m2s010_som</design>
+	<target_edif>C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\m2s010_som.edn</target_edif>
+</SynplifyOutput>

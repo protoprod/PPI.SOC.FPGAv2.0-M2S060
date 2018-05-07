@@ -1,0 +1,165 @@
+@N::"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\synthesis\rev_11_debugColl\synlog\m2s010_som_identify_compile.log"|
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Top entity is set to m2s010_som.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Synthesizing work.m2s010_som.rtl.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\m2s010_som_sb\m2s010_som_sb.vhd":17:7:17:19|Synthesizing work.m2s010_som_sb.rtl.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":434:10:434:14|Synthesizing smartfusion2.bibuf.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":413:10:413:15|Synthesizing smartfusion2.outbuf.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":786:10:786:17|Synthesizing smartfusion2.sysreset.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":276:10:276:12|Synthesizing smartfusion2.mx2.syn_black_box.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\m2s010_som_sb\OTH_SPI_1_SS0\m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd":8:7:8:36|Synthesizing work.m2s010_som_sb_oth_spi_1_ss0_io.def_arch.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd":17:7:17:23|Synthesizing work.m2s010_som_sb_mss.rtl.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":503:10:503:20|Synthesizing smartfusion2.outbuf_diff.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":403:10:403:14|Synthesizing smartfusion2.inbuf.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":423:10:423:16|Synthesizing smartfusion2.tribuff.syn_black_box.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_060.def_arch.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\m2s010_som_sb\GPIO_7\m2s010_som_sb_GPIO_7_IO.vhd":8:7:8:29|Synthesizing work.m2s010_som_sb_gpio_7_io.def_arch.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\m2s010_som_sb\GPIO_6\m2s010_som_sb_GPIO_6_IO.vhd":8:7:8:29|Synthesizing work.m2s010_som_sb_gpio_6_io.def_arch.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\m2s010_som_sb\GPIO_1\m2s010_som_sb_GPIO_1_IO.vhd":8:7:8:29|Synthesizing work.m2s010_som_sb_gpio_1_io.def_arch.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd":8:7:8:32|Synthesizing work.m2s010_som_sb_fabosc_0_osc.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":39:7:39:12|Synthesizing work.xtlosc.def_arch.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":27:7:27:16|Synthesizing work.coreresetp.rtl.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd":26:7:26:17|Synthesizing work.coreconfigp.rtl.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd":8:7:8:30|Synthesizing work.m2s010_som_sb_ccc_0_fccc.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":794:10:794:12|Synthesizing smartfusion2.ccc.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\m2s010_som_sb\CAM_SPI_1_SS0\m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd":8:7:8:36|Synthesizing work.m2s010_som_sb_cam_spi_1_ss0_io.def_arch.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\m2s010_som_sb\CAM_SPI_1_CLK\m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd":8:7:8:36|Synthesizing work.m2s010_som_sb_cam_spi_1_clk_io.def_arch.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\m2s010_som\ID_RES_0\m2s010_som_ID_RES_0_IO.vhd":8:7:8:28|Synthesizing work.m2s010_som_id_res_0_io.def_arch.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch.
+@N: CD604 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":665:16:665:29|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\CommsFPGA_top.vhd":75:7:75:19|Synthesizing work.commsfpga_top.behavioral.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\CommsFPGA_top.vhd":236:10:236:24|Removing redundant assignment.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ManchesDecoder.vhd":41:7:41:20|Synthesizing work.manchesdecoder.v1.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ReadFIFO_Write_SM.vhd":49:7:49:23|Synthesizing work.readfifo_write_sm.behavioral.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ReadFIFO_Write_SM.vhd":154:6:154:19|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ReadFIFO_Write_SM.vhd":183:3:183:16|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ReadFIFO_Write_SM.vhd":260:8:260:24|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ReadFIFO_Write_SM.vhd":313:14:313:25|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ReadFIFO_Write_SM.vhd":351:14:351:25|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ReadFIFO_Write_SM.vhd":382:14:382:25|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ReadFIFO_Write_SM.vhd":383:14:383:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ReadFIFO_Write_SM.vhd":406:14:406:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ReadFIFO_Write_SM.vhd":443:14:443:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ReadFIFO_Write_SM.vhd":445:14:445:29|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ReadFIFO_Write_SM.vhd":462:14:462:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ReadFIFO_Write_SM.vhd":464:14:464:29|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ReadFIFO_Write_SM.vhd":525:14:525:25|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ReadFIFO_Write_SM.vhd":539:14:539:25|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ReadFIFO_Write_SM.vhd":548:14:548:25|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ReadFIFO_Write_SM.vhd":558:14:558:25|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ReadFIFO_Write_SM.vhd":572:14:572:25|Removing redundant assignment.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\CRC16_Generator.vhd":43:7:43:21|Synthesizing work.crc16_generator.imp_crc.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\CRC16_Generator.vhd":85:4:85:9|Removing redundant assignment.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\AFE_RX_SM.vhd":34:7:34:15|Synthesizing work.afe_rx_sm.behavioral.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\AFE_RX_SM.vhd":121:8:121:21|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\AFE_RX_SM.vhd":124:8:124:21|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\AFE_RX_SM.vhd":125:8:125:21|Removing redundant assignment.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ManchesDecoder_Adapter.vhd":42:7:42:28|Synthesizing work.manchesdecoder_adapter.v1.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\IdleLineDetector.vhd":39:7:39:22|Synthesizing work.idlelinedetector.behavioral.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\IdleLineDetector.vhd":84:10:84:23|Removing redundant assignment.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\ManchesEncoder.vhd":40:7:40:20|Synthesizing work.manchesencoder.behavioral.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\TX_SM.vhd":48:7:48:11|Synthesizing work.tx_sm.behavioral.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\TX_SM.vhd":315:14:315:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\TX_SM.vhd":344:14:344:29|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\TX_SM.vhd":400:14:400:29|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\TX_SM.vhd":417:14:417:29|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\TX_SM.vhd":437:14:437:29|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\TX_SM.vhd":457:14:457:29|Removing redundant assignment.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\TX_Collision_Detector.vhd":41:7:41:27|Synthesizing work.tx_collision_detector.behavioral.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\TX_Collision_Detector.vhd":137:8:137:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\TX_Collision_Detector.vhd":138:8:138:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\TX_Collision_Detector.vhd":139:8:139:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\TX_Collision_Detector.vhd":140:8:140:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\TX_Collision_Detector.vhd":141:8:141:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\TX_Collision_Detector.vhd":205:8:205:26|Removing redundant assignment.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\FIFOs.vhd":48:7:48:11|Synthesizing work.fifos.behavioral.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\FIFOs.vhd":238:5:238:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\FIFOs.vhd":258:5:258:21|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\FIFOs.vhd":284:3:284:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\FIFOs.vhd":296:3:296:28|Removing redundant assignment.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\FIFO_8Kx9\FIFO_8Kx9.vhd":19:7:19:15|Synthesizing work.fifo_8kx9.rtl.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":34:7:34:36|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo.translated.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd":8:7:8:39|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_ram_wrapper.generated.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top.vhd":8:7:8:37|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_lsram_top.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":588:10:588:16|Synthesizing smartfusion2.ram1k18.syn_black_box.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":33:7:33:42|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo_async.translated.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":821:14:821:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":866:12:866:18|Removing redundant assignment.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":32:7:32:50|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo_graytobinconv.translated.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_doubleSync.vhd":31:7:31:47|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo_doublesync.translated.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\FIFO_2Kx8\FIFO_2Kx8.vhd":19:7:19:15|Synthesizing work.fifo_2kx8.rtl.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":34:7:34:36|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo.translated.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd":8:7:8:39|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_ram_wrapper.generated.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd":8:7:8:37|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_lsram_top.def_arch.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":33:7:33:42|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo_async.translated.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":821:14:821:20|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":866:12:866:18|Removing redundant assignment.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":32:7:32:50|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo_graytobinconv.translated.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_doubleSync.vhd":31:7:31:47|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo_doublesync.translated.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":56:7:56:11|Synthesizing work.up_if.behavioral.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":341:8:341:19|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":443:10:443:29|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":444:10:444:23|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":445:10:445:23|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":446:10:446:24|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":447:10:447:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":448:10:448:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":449:10:449:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":450:10:450:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":451:10:451:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":452:10:452:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":453:10:453:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":454:10:454:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":455:10:455:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":456:10:456:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":457:10:457:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":458:10:458:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":459:10:459:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":460:10:460:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":461:10:461:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":462:10:462:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":463:10:463:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":464:10:464:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":465:10:465:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":466:10:466:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":467:10:467:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":468:10:468:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":469:10:469:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":470:10:470:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":564:12:564:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":568:14:568:24|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":590:8:590:18|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":605:10:605:23|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":749:10:749:24|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":771:4:771:23|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\uP_if.vhd":869:4:869:18|Removing redundant assignment.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Interrupts.vhd":50:7:50:16|Synthesizing work.interrupts.behavioral.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Interrupts.vhd":193:10:193:29|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Interrupts.vhd":196:8:196:27|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Interrupts.vhd":238:4:238:23|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Interrupts.vhd":239:4:239:24|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Interrupts.vhd":243:2:243:21|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Interrupts.vhd":244:2:244:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Interrupts.vhd":275:4:275:23|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Interrupts.vhd":278:8:278:27|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Interrupts.vhd":296:10:296:29|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Interrupts.vhd":299:8:299:27|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Interrupts.vhd":317:4:317:23|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Interrupts.vhd":320:8:320:27|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Interrupts.vhd":338:10:338:29|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Interrupts.vhd":341:8:341:27|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Interrupts.vhd":359:4:359:19|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Interrupts.vhd":362:8:362:23|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Interrupts.vhd":380:4:380:17|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Interrupts.vhd":383:8:383:21|Removing redundant assignment.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\TriDebounce.vhd":22:7:22:17|Synthesizing work.tridebounce.behavioral.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\hdl\Debounce.vhd":22:7:22:14|Synthesizing work.debounce.behavioral.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd":8:7:8:37|Synthesizing work.m2s010_som_commsfpga_ccc_0_fccc.def_arch.
+

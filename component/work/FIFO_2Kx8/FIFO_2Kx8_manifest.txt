@@ -1,0 +1,28 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.6 SP1 (Version 11.6.1.6)
+
+Date      :  Mon Sep 26 12:55:08 2016
+Project   :  C:\PULSAR\Projects\PPI\PoweredRail\Eval_Board_SOC\m2s010-som-fg484-1a-116-Rev1a_e
+Component :  FIFO_2Kx8
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_e/component/Actel/DirectCore/COREFIFO/2.5.106/rtl/vhdl/core/fifo_pkg.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_e/component/work/FIFO_2Kx8/FIFO_2Kx8.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_e/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/COREFIFO.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_e/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_e/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_e/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_async.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_e/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_doubleSync.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_e/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_fwft.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_e/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_grayToBinConv.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_e/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_sync.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_e/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_sync_scntr.vhd
+
+Stimulus files for all Simulation tools:
+    C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_e/component/work/FIFO_2Kx8/FIFO_2Kx8_0/coreparameters.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_e/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/test/user/TB.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_e/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/test/user/XHDL_misc.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_e/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/test/user/XHDL_std_logic.vhd
+    C:/PULSAR/Projects/PPI/PoweredRail/Eval_Board_SOC/m2s010-som-fg484-1a-116-Rev1a_e/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/test/user/g4_dp_ext_mem.vhd
+

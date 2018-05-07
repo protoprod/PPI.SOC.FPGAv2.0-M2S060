@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\synlog\m2s010_som_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>CommsFPGA_top|BIT_CLK_inferred_clock</data>
+<data>167.0 MHz</data>
+<data>138.0 MHz</data>
+<data>-1.259</data>
+</row>
+<row>
+<data>ident_coreinst.comm_block_INST.dr2_tck</data>
+<data>1.0 MHz</data>
+<data>883.6 MHz</data>
+<data>998.868</data>
+</row>
+<row>
+<data>ident_coreinst.comm_block_INST.tck</data>
+<data>1.0 MHz</data>
+<data>157.9 MHz</data>
+<data>993.667</data>
+</row>
+<row>
+<data>m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock</data>
+<data>167.0 MHz</data>
+<data>166.5 MHz</data>
+<data>-0.017</data>
+</row>
+<row>
+<data>m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock</data>
+<data>167.0 MHz</data>
+<data>309.8 MHz</data>
+<data>2.760</data>
+</row>
+<row>
+<data>m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock</data>
+<data>167.0 MHz</data>
+<data>119.9 MHz</data>
+<data>-2.349</data>
+</row>
+<row>
+<data>m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock</data>
+<data>167.0 MHz</data>
+<data>362.9 MHz</data>
+<data>3.232</data>
+</row>
+<row>
+<data>m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock</data>
+<data>167.0 MHz</data>
+<data>121.2 MHz</data>
+<data>-2.261</data>
+</row>
+<row>
+<data>m2s010_som|MAC_MII_RX_CLK</data>
+<data>167.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>m2s010_som|MAC_MII_TX_CLK</data>
+<data>167.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>System</data>
+<data>167.0 MHz</data>
+<data>155.9 MHz</data>
+<data>-0.425</data>
+</row>
+</report_table>

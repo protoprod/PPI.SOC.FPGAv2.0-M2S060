@@ -1,0 +1,88 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|Removing sequential instance aempty_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async(translated)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\synthesis\rev_11_debugcoll\instr_sources\syn_dics.v":8202:2:8202:7|Removing sequential instance b13_PSyil9s_99H_L (in view: VhdlGenLib.IICE_x(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: MT480 :"c:/users/gcallsen/documents/githubbf/ppi.soc.fpgav1.6/synthesis/rev_11_debugcoll/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[16] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[17] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[18] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[19] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[20] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[21] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[22] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[23] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[24] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[25] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[26] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[27] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[28] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[29] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[30] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[31] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance paddr[11] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Found counter in view:work.CoreResetP(rtl) instance count_ddr[13:0] 
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\hdl\tx_sm.vhd":171:6:171:7|Found counter in view:work.TX_SM(behavioral) instance txen_early_cntr[11:0] 
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\hdl\tx_sm.vhd":171:6:171:7|Found counter in view:work.TX_SM(behavioral) instance tx_byte_cntr[11:0] 
+@N: MF179 :|Found 12 by 12 bit equality operator ('==') TX_SM\.un26_tx_byte_cntr (in view: work.TX_SM(behavioral))
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\hdl\idlelinedetector.vhd":77:4:77:5|Found counter in view:work.IdleLineDetector_0(behavioral) instance idle_line_cntr[15:0] 
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\hdl\idlelinedetector.vhd":118:6:118:7|Found counter in view:work.IdleLineDetector_0(behavioral) instance prbs_gen_hold[11:0] 
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\hdl\readfifo_write_sm.vhd":286:6:286:7|Found counter in view:work.ReadFIFO_Write_SM(behavioral) instance rx_byte_cntr[11:0] 
+@N: MF179 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\hdl\readfifo_write_sm.vhd":508:20:508:56|Found 16 by 16 bit equality operator ('==') ReadFIFO_WR_SM\.un3_sampler_clk1x_en (in view: work.ReadFIFO_Write_SM(behavioral))
+@N: MF179 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\hdl\readfifo_write_sm.vhd":428:22:428:57|Found 12 by 12 bit equality operator ('==') ReadFIFO_WR_SM\.un61_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
+@N: MF179 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\hdl\readfifo_write_sm.vhd":372:29:372:66|Found 10 by 10 bit equality operator ('==') ReadFIFO_WR_SM\.un31_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
+@N: MF179 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\hdl\readfifo_write_sm.vhd":373:29:373:66|Found 10 by 10 bit equality operator ('==') ReadFIFO_WR_SM\.un34_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
+@N: MF179 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\hdl\readfifo_write_sm.vhd":374:29:374:66|Found 10 by 10 bit equality operator ('==') ReadFIFO_WR_SM\.un37_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
+@N: MF179 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\hdl\readfifo_write_sm.vhd":375:29:375:66|Found 10 by 10 bit equality operator ('==') ReadFIFO_WR_SM\.un40_sm_advance_i (in view: work.ReadFIFO_Write_SM(behavioral))
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\hdl\idlelinedetector.vhd":77:4:77:5|Found counter in view:work.IdleLineDetector_1(behavioral) instance idle_line_cntr[15:0] 
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\hdl\idlelinedetector.vhd":118:6:118:7|Found counter in view:work.IdleLineDetector_1(behavioral) instance prbs_gen_hold[11:0] 
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\hdl\afe_rx_sm.vhd":113:4:113:5|Found counter in view:work.AFE_RX_SM(behavioral) instance start_bit_cntr[7:0] 
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":730:6:730:7|Found counter in view:corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated) instance rptr[11:0] 
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":910:6:910:7|Found counter in view:corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated) instance memraddr_r[10:0] 
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":888:6:888:7|Found counter in view:corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated) instance memwaddr_r[10:0] 
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":706:6:706:7|Found counter in view:corefifo_lib.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async(translated) instance wptr[11:0] 
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":706:6:706:7|Found counter in view:corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async(translated) instance wptr[11:0] 
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":910:6:910:7|Found counter in view:corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async(translated) instance memraddr_r[10:0] 
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":888:6:888:7|Found counter in view:corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async(translated) instance memwaddr_r[10:0] 
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":730:6:730:7|Found counter in view:corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async(translated) instance rptr[11:0] 
+@N: MO230 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\hdl\up_if.vhd":741:6:741:7|Found up-down counter in view:work.uP_if(behavioral) instance RX_packet_depth[7:0]  
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\synthesis\rev_11_debugcoll\instr_sources\syn_dics.v":7202:2:7202:7|Found counter in view:VhdlGenLib.b7_OCByLXC_Z1_x(verilog) instance b7_nYhI39s[10:0] 
+@N: FX403 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\synthesis\rev_11_debugcoll\instr_sources\syn_dics.v":2649:3:2649:8|Property "block_ram" or "no_rw_check" found for RAM b3_SoW.b3_SoW[450:0] with specified coding style. Inferring block RAM.
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\synthesis\rev_11_debugcoll\instr_sources\syn_dics.v":2497:10:2497:15|Found counter in view:VhdlGenLib.b11_OFWNT9s_8tZ_Z3_x(verilog) instance genblk9\.b9_v_mzCDYXs[10:0] 
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\synthesis\rev_11_debugcoll\instr_sources\syn_dics.v":2446:2:2446:7|Found counter in view:VhdlGenLib.b11_OFWNT9s_8tZ_Z3_x(verilog) instance b12_2_St6KCa_jHv[10:0] 
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|Removing sequential instance FIFOS_INST.TRANSMIT_FIFO.FIFO_2Kx8_0.L31\.U_corefifo_async.afull_r (in view: work.CommsFPGA_top(behavioral)) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\hdl\afe_rx_sm.vhd":151:6:151:7|Removing sequential instance MANCHESTER_DECODER_INST.AFE_RX_STATE_MACHINE.rx_packet_avail (in view: work.CommsFPGA_top(behavioral)) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\work\fifo_2kx8\fifo_2kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|Removing sequential instance CommsFPGA_top_0.FIFOS_INST.TRANSMIT_FIFO.FIFO_2Kx8_0.L31\.U_corefifo_async.aempty_r (in view: work.m2s010_som(rtl)) because it does not drive other instances.
+@N: MF322 |Retiming summary: 1 registers retimed to 21 
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav1.6\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance m2s010_som_sb_0.CORECONFIGP_0.paddr[14] (in view: work.m2s010_som(rtl)) because it does not drive other instances.
+@N: FP130 |Promoting Net N_114 on CLKINT  I_5 
+@N: FP130 |Promoting Net BW_Debug[2] on CLKINT  I_1475 
+@N: FP130 |Promoting Net ident_coreinst.IICE_INST.b5_voSc3 on CLKINT  I_1476 
+@N: FP130 |Promoting Net CommsFPGA_top_0.N_106_i on CLKINT  I_1477 
+@N: FP130 |Promoting Net BIT_CLK on CLKINT  I_1478 
+@N: FP130 |Promoting Net CommsFPGA_top_0.long_reset on CLKINT  I_1479 
+@N: FP130 |Promoting Net RX_FIFO_Reset_v[2] on CLKINT  I_1480 
+@N: FP130 |Promoting Net RX_FIFO_Reset_v[3] on CLKINT  I_1481 
+@N: FP130 |Promoting Net RX_FIFO_Reset_v[1] on CLKINT  I_1482 
+@N: FP130 |Promoting Net RX_FIFO_Reset_v[0] on CLKINT  I_1483 
+@N: FP130 |Promoting Net itx_fifo_rst on CLKINT  I_1484 
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORECONFIGP_0_APB_S_PRESET_N on CLKINT  I_1485 
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORECONFIGP_0_APB_S_PCLK on CLKINT  I_1486 
+@N: FP130 |Promoting Net CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.WRITE_REGISTER_GEN_PROC\.un3_apb3_reset_i on CLKINT  I_1487 
+@N: FP130 |Promoting Net ident_coreinst.IICE_INST.b5_nUTGT.b6_nfs_IF[1] on CLKINT  I_1488 
+@N: FP130 |Promoting Net CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.TRANISTION_DETECT_SHIFTREG_PROC\.un2_rst_i on CLKINT  I_1489 
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_1490 
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc on CLKINT  I_1491 
+@N: FP130 |Promoting Net CommsFPGA_top_0.N_312_i_i on CLKINT  I_1492 
+@N: FP130 |Promoting Net CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_crc_reset_i on CLKINT  I_1493 
+@N: FP130 |Promoting Net CommsFPGA_top_0.bd_reset_i on CLKINT  I_1494 
+@N: FP130 |Promoting Net hcr_update on CLKINT  I_20 
+@N: MT480 :"c:/users/gcallsen/documents/githubbf/ppi.soc.fpgav1.6/synthesis/rev_11_debugcoll/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 
+@N: MT480 :"c:/users/gcallsen/documents/githubbf/ppi.soc.fpgav1.6/synthesis/rev_11_debugcoll/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 
+@N: FX1056 |Writing EDF file: C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\synthesis\rev_11_debugColl\m2s010_som.edn
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT480 :"c:/users/gcallsen/documents/githubbf/ppi.soc.fpgav1.6/synthesis/rev_11_debugcoll/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 
+@N: MT615 |Found clock ident_coreinst.comm_block_INST.dr2_tck with period 1000.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack

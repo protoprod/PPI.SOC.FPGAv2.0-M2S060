@@ -1,0 +1,133 @@
+#--  Synopsys, Inc.
+#--  Version L-2016.09M-2
+#--  Project file C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\synthesis_2\scratchproject.prs
+
+#project files
+add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_doubleSync.vhd"
+add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_grayToBinConv.vhd"
+add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/Actel/DirectCore/COREFIFO/2.5.106/rtl/vhdl/core/fifo_pkg.vhd"
+add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_async.vhd"
+add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_fwft.vhd"
+add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_sync.vhd"
+add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/corefifo_sync_scntr.vhd"
+add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd"
+add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd"
+add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_2Kx8/FIFO_2Kx8_0/rtl/vhdl/core/COREFIFO.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_2Kx8/FIFO_2Kx8.vhd"
+add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_doubleSync.vhd"
+add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_grayToBinConv.vhd"
+add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_async.vhd"
+add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_fwft.vhd"
+add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_sync.vhd"
+add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/corefifo_sync_scntr.vhd"
+add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top.vhd"
+add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd"
+add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_8Kx9/FIFO_8Kx9_0/rtl/vhdl/core/COREFIFO.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/FIFO_8Kx9/FIFO_8Kx9.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/hdl/FIFOs.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/hdl/AFE_RX_SM.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/hdl/IdleLineDetector.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/hdl/ManchesDecoder_Adapter.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/hdl/CRC16_Generator.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/hdl/ReadFIFO_Write_SM.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/hdl/ManchesDecoder.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/hdl/TX_Collision_Detector.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/hdl/TX_SM.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/hdl/ManchesEncoder.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/hdl/Debounce.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/hdl/TriDebounce.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/hdl/Interrupts.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/hdl/uP_if.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/hdl/CommsFPGA_top.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/m2s010_som/CommsFPGA_CCC_0/m2s010_som_CommsFPGA_CCC_0_FCCC.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/m2s010_som/ID_RES_0/m2s010_som_ID_RES_0_IO.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/m2s010_som_sb/CAM_SPI_1_CLK/m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/m2s010_som_sb/CAM_SPI_1_SS0/m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/m2s010_som_sb/CCC_0/m2s010_som_sb_CCC_0_FCCC.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/Actel/SgCore/OSC/1.0.105/osc_comps.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/m2s010_som_sb/FABOSC_0/m2s010_som_sb_FABOSC_0_OSC.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/m2s010_som_sb/GPIO_1/m2s010_som_sb_GPIO_1_IO.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/m2s010_som_sb/GPIO_6/m2s010_som_sb_GPIO_6_IO.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/m2s010_som_sb/GPIO_7/m2s010_som_sb_GPIO_7_IO.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/m2s010_som_sb_MSS/m2s010_som_sb_MSS_syn.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/m2s010_som_sb_MSS/m2s010_som_sb_MSS.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/m2s010_som_sb/OTH_SPI_1_SS0/m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/m2s010_som_sb/m2s010_som_sb.vhd"
+add_file -vhdl -lib COREAPB3_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_muxptob3.vhd"
+add_file -vhdl -lib COREAPB3_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd"
+add_file -vhdl -lib COREAPB3_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3.vhd"
+add_file -vhdl -lib COREAPB3_LIB "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/components.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/component/work/m2s010_som/m2s010_som.vhd"
+add_file -ident_constraint "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/synthesis/synthesis_2/identify.idc"
+
+
+
+#implementation: "synthesis_2"
+impl -add C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\synthesis_2 -type fpga
+
+#device options
+set_option -technology SmartFusion2
+set_option -part M2S060T
+set_option -package FCSBGA325
+set_option -speed_grade STD
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "work.m2s010_som"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+
+# mapper_without_write_options
+set_option -frequency 100.000
+set_option -identify_debug_mode 1
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# actel_options
+set_option -rw_check_on_ram 0
+
+# Microsemi G4
+set_option -run_prop_extract 1
+set_option -maxfan 10000
+set_option -clock_globalthreshold 2
+set_option -async_globalthreshold 12
+set_option -globalthreshold 5000
+set_option -low_power_ram_decomp 0
+set_option -seqshift_to_uram 0
+set_option -disable_io_insertion 0
+set_option -opcond COMTC
+set_option -retiming 1
+set_option -report_path 4000
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+# Compiler Options
+set_option -vhdl2008 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "C:/Users/gcallsen/Documents/Projects/FPGA/ModelSimRecovery/synthesis/synthesis_2/m2s010_som.edn"
+impl -active "synthesis_2"

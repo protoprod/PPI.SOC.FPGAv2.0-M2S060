@@ -1,0 +1,40 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+5 non-gated/non-generated clock tree(s) driving 1349 clock pin(s) of sequential element(s)
+11 gated/generated clock tree(s) driving 2246 clock pin(s) of sequential element(s)
+0 instances converted, 2246 sequential instances remain driven by gated/generated clocks
+
+====================================================================== Non-Gated/Non-Generated Clocks ======================================================================
+Clock Tree ID     Driving Element                                       Drive Element Type              Fanout     Sample Instance                                          
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0012       ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     UJTAG                           1338       ident_coreinst.comm_block_INST.b9_ORb_xNywD.b3_ORb[1]    
+@K:CKID0013       MAC_MII_TX_CLK                                        port                            1          m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST       
+@K:CKID0014       m2s010_som_sb_0.CAM_SPI_1_CLK.U0_0                    BIBUF                           1          m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST       
+@K:CKID0015       MAC_MII_RX_CLK                                        port                            1          m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST       
+@K:CKID0016       ident_coreinst.comm_block_INST.dr2_tck_keep           clock definition on keepbuf     8          ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[7]
+============================================================================================================================================================================
+======================================================================================================================================== Gated/Generated Clocks =========================================================================================================================================
+Clock Tree ID     Driving Element                                                                                 Drive Element Type     Fanout     Sample Instance                                                                           Explanation                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA_31_sqmuxa_1_i                               CFG4                   8          CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[0]                                    No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0002       CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.RX_CRC_GEN_INST.RESET_i_0_a2     CFG2                   3          CommsFPGA_top_0.TRIPLE_DEBOUNCE_INST.DEBOUNCE_2_INST.DEBOUNCE_PROC.un3_debounce_in_rs     No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0003       CommsFPGA_CCC_0.CCC_INST                                                                        CCC                    1107       CommsFPGA_top_0.RX_FIFO_RST                                                               No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0004       m2s010_som_sb_0.CCC_0.CCC_INST                                                                  CCC                    737        m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST                                        No gated clock conversion method for cell cell:work.MSS_060
+@K:CKID0005       CommsFPGA_top_0.BIT_CLK                                                                         SLE                    262        CommsFPGA_top_0.byte_clk_en                                                               No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0006       m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST                                              MSS_060                78         m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST                                        No gated clock conversion method for cell cell:work.MSS_060
+@K:CKID0007       m2s010_som_sb_0.FABOSC_0.I_RCOSC_25_50MHZ                                                       RCOSC_25_50MHZ         20         m2s010_som_sb_0.CORERESETP_0.count_ddr[13]                                                No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0008       CommsFPGA_CCC_0.CCC_INST                                                                        CCC                    4          CommsFPGA_top_0.BIT_CLK                                                                   No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0009       CommsFPGA_top_0.long_reset                                                                      SLE                    1          CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.READY_DELAY_PROC.un5_apb3_rst_rs                 No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0010       ident_coreinst.comm_block_INST.jtagi.b9_nv_oQwfYF_3_0_a2                                        CFG3                   18         ident_coreinst.IICE_INST.b5_nUTGT.b11_nUTGT_khWqH.genblk3.b8_vABZ3qsY                     No gated clock conversion method for cell cell:ACG4.SLE    
+@K:CKID0011       ident_coreinst.comm_block_INST.jtagi.b10_8Kz_rKlrtX_RNO                                         CFG2                   8          ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1.b10_dZst39_EF3[4]                       No gated clock conversion method for cell cell:ACG4.SLE    
+=========================================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

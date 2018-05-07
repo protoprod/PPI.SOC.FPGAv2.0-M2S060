@@ -1,0 +1,43 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2S060TFCSBGA325STD (Microsemi)
+
+-------------------------------------------------------------------------
+########   Utilization report for  Top level view:   AFE_RX_SM   ########
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      14                 100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block AFE_RX_SM:	14 (23.33 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           24                 100 %                
+BLACK BOX     1                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block AFE_RX_SM:	25 (41.67 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block AFE_RX_SM:	1 (1.67 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       19                 100 %                
+=================================================
+Total IO PADS in the block AFE_RX_SM:	19 (31.67 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\identify_instrumentor_shell.exe  -idb  C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\FPGA_PHY_IRAIL_DEBUG\identify.db  -synplify_install  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro  -synplify_tool  synplify_pro  -log  C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\FPGA_PHY_IRAIL_DEBUG\synlog\m2s010_som_identify_compile.log  -family  SmartFusion2  -prj  C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\m2s010_som_syn.prj  -curimpl  FPGA_PHY_IRAIL_DEBUG  -dbgimpl  FPGA_PHY_IRAIL_DEBUG  -fver  2017.03  -idc  C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\FPGA_PHY_IRAIL_DEBUG\identify.idc  -f  C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\FPGA_PHY_IRAIL_DEBUG\identifylaunch.tcl 
+rc:0 success:1 runtime:1
+file:C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\FPGA_PHY_IRAIL_DEBUG\identify.db|io:i|time:1516816263|size:658520|exec:0
+file:C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\FPGA_PHY_IRAIL_DEBUG\synlog\m2s010_som_identify_compile.log|io:o|time:1516816264|size:2958|exec:0
+file:C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\m2s010_som_syn.prj|io:i|time:1516816262|size:8913|exec:0
+file:C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\FPGA_PHY_IRAIL_DEBUG\identify.idc|io:i|time:1516811305|size:1559|exec:0
+file:C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\synthesis\FPGA_PHY_IRAIL_DEBUG\identifylaunch.tcl|io:o|time:1516816263|size:123|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\identify_instrumentor_shell.exe|io:i|time:1479355152|size:125440|exec:1

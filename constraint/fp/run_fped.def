@@ -1,0 +1,27 @@
+data HELP_TYPE_DES 1
+data DESIGN m2s010_som
+data HPATH 'C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0/designer/m2s010_som'
+data CPATH 'C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0/constraint/fp'
+data CDIR 'C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0/constraint'
+data ETYPE CP
+data FAM SmartFusion2
+data DIE PA4M1000_N
+data PACKAGE fg484
+data HYDRA_EXPORT_DATA 1
+data HYDRA_PRESERVE_DATA_FILES 1
+data REGION_DEFCOLOR_EMPTY 2143322112
+data REGION_DEFCOLOR_INCLUSIVE 2147442270
+data REGION_DEFCOLOR_EXCLUSIVE 2143338688
+data REGION_DEFCOLOR_CLOCK 16735838
+data VCCI_1.2_VOLTR COM
+data VCCI_1.5_VOLTR COM
+data VCCI_1.8_VOLTR COM
+data VCCI_2.5_VOLTR COM
+data VCCI_3.3_VOLTR COM
+data FLOW_TYPE OLD
+data AFL 'C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0/designer/m2s010_som/m2s010_som.afl'
+data ADL 'C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0/designer/m2s010_som/m2s010_som.adl'
+data LOC 'C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0/designer/m2s010_som/m2s010_som.loc'
+data SEG 'C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0/designer/m2s010_som/m2s010_som.seg'
+data GDEV_SKIP_UNASSIGN_CMP_CHECK    1 
+

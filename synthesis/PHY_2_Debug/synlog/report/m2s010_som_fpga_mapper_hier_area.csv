@@ -1,0 +1,82 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. m2s010_som, 1334, 955, 389, 0, 0, 5, 1, 19, 120
+.	. CommsFPGA_top, 737, 548, 337, 0, 0, 0, 1, 6, 0
+.	.	. IdleLineDetector_1, 33, 15, 30, 0, 0, 0, 0, 0, 0
+.	.	. ManchesDecoder2, 200, 118, 100, 0, 0, 0, 1, 0, 0
+.	.	.	. BitDetector, 17, 5, 17, 0, 0, 0, 0, 0, 0
+.	.	.	. CLOCK_DOMAIN_BUFFER, 93, 42, 44, 0, 0, 0, 1, 0, 0
+.	.	.	.	. CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO, 93, 42, 44, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	. CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async, 86, 35, 44, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_doubleSync_0_6, 14, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_doubleSync_0_7, 14, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_grayToBinConv_6, 0, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_grayToBinConv_7, 0, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_ram_wrapper, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	. CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_USRAM_top, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	.	.	. ManchesDecoder_Adapter, 60, 35, 30, 0, 0, 0, 0, 0, 0
+.	.	.	.	. IdleLineDetector_0, 33, 15, 30, 0, 0, 0, 0, 0, 0
+.	.	.	. RX_SM, 30, 36, 9, 0, 0, 0, 0, 0, 0
+.	.	. ManchesEncoder2, 89, 131, 60, 0, 0, 0, 0, 0, 0
+.	.	.	. Edge_Detect_3, 7, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. Jabber_SM, 52, 79, 48, 0, 0, 0, 0, 0, 0
+.	.	.	. Nib2Ser_SM, 24, 43, 12, 0, 0, 0, 0, 0, 0
+.	.	. TX_Collision_Detector2, 19, 13, 16, 0, 0, 0, 0, 0, 0
+.	.	. TriDebounce, 36, 30, 32, 0, 0, 0, 0, 0, 0
+.	.	.	. Debounce_0, 18, 15, 16, 0, 0, 0, 0, 0, 0
+.	.	.	. Debounce_1, 18, 15, 16, 0, 0, 0, 0, 0, 0
+.	.	. mdio_slave_interface, 271, 166, 91, 0, 0, 0, 0, 1, 0
+.	.	. uP_if, 75, 59, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. Interrupts, 26, 12, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. Edge_Detect, 7, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. Edge_Detect_0, 7, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. Edge_Detect_1, 7, 1, 0, 0, 0, 0, 0, 0, 0
+.	. CoreAPB3, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	. m2s010_som_CommsFPGA_CCC_0_FCCC, 0, 0, 0, 0, 0, 0, 0, 2, 0
+.	. m2s010_som_sb, 124, 88, 14, 0, 0, 0, 0, 6, 65
+.	.	. CoreConfigP, 74, 61, 0, 0, 0, 0, 0, 0, 0
+.	.	. CoreResetP, 50, 17, 14, 0, 0, 0, 0, 2, 0
+.	.	. m2s010_som_sb_CCC_0_FCCC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. m2s010_som_sb_FABOSC_0_OSC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. m2s010_som_sb_MSS, 0, 10, 0, 0, 0, 0, 0, 2, 65
+.	. syn_identify_core0_0, 473, 317, 38, 0, 0, 5, 0, 4, 0
+.	.	. IICE_x, 425, 299, 38, 0, 0, 5, 0, 2, 0
+.	.	.	. b11_OFWNT9s_8tZ_Z3_x_0, 177, 96, 24, 0, 0, 5, 0, 0, 0
+.	.	.	.	. b11_SoWyP0zEFKY_Z2_x_0, 20, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. b13_vFW_xNywD_EdR_25s_12s_4096s_0s_x_0, 0, 0, 0, 0, 0, 5, 0, 0, 0
+.	.	.	.	. b19_nczQ_DYg_YFaRM_oUoP_28s_1s_x_0, 28, 29, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. b19_nczQ_DYg_YFaRM_oUoP_32s_1s_x_0, 32, 33, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. b3_uKr_x, 0, 20, 2, 0, 0, 0, 0, 0, 0
+.	.	.	. b7_OCByLXC_Z1_x_0, 169, 80, 12, 0, 0, 0, 0, 2, 0
+.	.	.	.	. b8_nR_ymqrG_12s_5s_0_0s_0s_1_2046_x_0, 36, 4, 0, 0, 0, 0, 0, 1, 0
+.	.	.	.	. clock2_en_reg_en_5s_x_0, 13, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. b8_PfFzrNYI_x_0, 59, 103, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. b13_PSyil9s1fkJ_L_x_0, 2, 102, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b15_CRGcTCua_eH4_uv_x_0, 2, 7, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. b9_O2yyf_fG2_x_0_0, 0, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. b9_O2yyf_fG2_x_2_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. b9_O2yyf_fG2_x_3_0, 0, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b8_1LbcQDr1_x_0_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b8_1LbcQDr1_x_10_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b8_1LbcQDr1_x_11_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b8_1LbcQDr1_x_12_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b8_1LbcQDr1_x_13_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b8_1LbcQDr1_x_14_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b8_1LbcQDr1_x_15_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b8_1LbcQDr1_x_16_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b8_1LbcQDr1_x_17_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b8_1LbcQDr1_x_18_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b8_1LbcQDr1_x_1_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b8_1LbcQDr1_x_2_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b8_1LbcQDr1_x_3_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b8_1LbcQDr1_x_4_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b8_1LbcQDr1_x_5_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b8_1LbcQDr1_x_6_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b8_1LbcQDr1_x_7_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b8_1LbcQDr1_x_8_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. b8_1LbcQDr1_x_9_0, 0, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. b5_nvmFL_57s_x_0, 57, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	. comm_block_x, 48, 18, 0, 0, 0, 0, 0, 2, 0
+.	.	.	. b16_Rcmi_qlx9_yHpm7y_6s_1s_0s_0s_8s_0s_0s_1s_6s_7s_x_0, 16, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. b9_ORbIwXaEF_32s_2489717256_0s_x_0, 32, 5, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. jtag_interface_x_0, 0, 10, 0, 0, 0, 0, 0, 2, 0

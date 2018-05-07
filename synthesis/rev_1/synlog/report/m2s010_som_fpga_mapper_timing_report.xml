@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\gcallsen\Documents\Projects\FPGA\1v6_Linux_4KLA_Lost_packets081317\synthesis\rev_1\synlog\m2s010_som_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>CommsFPGA_top|BIT_CLK_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>145.5 MHz</data>
+<data>3.127</data>
+</row>
+<row>
+<data>m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>164.8 MHz</data>
+<data>3.933</data>
+</row>
+<row>
+<data>m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>350.1 MHz</data>
+<data>7.143</data>
+</row>
+<row>
+<data>m2s010_som_sb_CAM_SPI_1_CLK_IO|Y_inferred_clock[0]</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>117.3 MHz</data>
+<data>1.478</data>
+</row>
+<row>
+<data>m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>372.7 MHz</data>
+<data>7.317</data>
+</row>
+<row>
+<data>m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>123.9 MHz</data>
+<data>1.305</data>
+</row>
+<row>
+<data>m2s010_som|MAC_MII_RX_CLK</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>m2s010_som|MAC_MII_TX_CLK</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>207.6 MHz</data>
+<data>5.184</data>
+</row>
+</report_table>

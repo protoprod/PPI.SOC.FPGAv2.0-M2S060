@@ -1,0 +1,2144 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2S010FBGA484STD (Microsemi)
+
+--------------------------------------------------------------------------
+########   Utilization report for  Top level view:   m2s010_som   ########
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1628               100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block m2s010_som:	1628 (43.99 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           1260               100 %                
+ARI1          396                100 %                
+BLACK BOX     138                100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som:	1794 (48.47 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM1K18      15                 100 %                
+RAM64X18     1                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block m2s010_som:	16 (0.43 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     20                 100 %                
+===================================================
+Total GLOBAL BUFFERS in the block m2s010_som:	20 (0.54 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       107                100 %                
+=================================================
+Total IO PADS in the block m2s010_som:	107 (2.89 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   CommsFPGA_top   ########
+Instance path:   m2s010_som.CommsFPGA_top                          
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      752                46.2 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block m2s010_som.CommsFPGA_top:	752 (20.32 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           603                47.9 %               
+ARI1          344                86.9 %               
+BLACK BOX     25                 18.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som.CommsFPGA_top:	972 (26.26 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block m2s010_som.CommsFPGA_top:	1 (0.03 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     7                  35 %                 
+===================================================
+Total GLOBAL BUFFERS in the block m2s010_som.CommsFPGA_top:	7 (0.19 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   IdleLineDetector_1   ########
+Instance path:   CommsFPGA_top.IdleLineDetector_1                       
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      33                 2.03 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CommsFPGA_top.IdleLineDetector_1:	33 (0.89 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           14                 1.11 %               
+ARI1          30                 7.58 %               
+BLACK BOX     3                  2.17 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block CommsFPGA_top.IdleLineDetector_1:	47 (1.27 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   ManchesDecoder2   ########
+Instance path:   CommsFPGA_top.ManchesDecoder2                       
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      200                12.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CommsFPGA_top.ManchesDecoder2:	200 (5.40 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           153                12.1 %               
+ARI1          100                25.3 %               
+BLACK BOX     15                 10.9 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block CommsFPGA_top.ManchesDecoder2:	268 (7.24 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block CommsFPGA_top.ManchesDecoder2:	1 (0.03 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   BitDetector   ########
+Instance path:   ManchesDecoder2.BitDetector                     
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      17                 1.04 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block ManchesDecoder2.BitDetector:	17 (0.46 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      6                  0.4760 %             
+ARI1     17                 4.29 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block ManchesDecoder2.BitDetector:	23 (0.62 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   CLOCK_DOMAIN_BUFFER   ########
+Instance path:   ManchesDecoder2.CLOCK_DOMAIN_BUFFER                     
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      93                 5.71 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block ManchesDecoder2.CLOCK_DOMAIN_BUFFER:	93 (2.51 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           77                 6.11 %               
+ARI1          44                 11.1 %               
+BLACK BOX     11                 7.97 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ManchesDecoder2.CLOCK_DOMAIN_BUFFER:	132 (3.57 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block ManchesDecoder2.CLOCK_DOMAIN_BUFFER:	1 (0.03 % Utilization)
+
+--------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO   ########
+Instance path:   CLOCK_DOMAIN_BUFFER.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO                 
+========================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      93                 5.71 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CLOCK_DOMAIN_BUFFER.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO:	93 (2.51 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           77                 6.11 %               
+ARI1          44                 11.1 %               
+BLACK BOX     11                 7.97 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block CLOCK_DOMAIN_BUFFER.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO:	132 (3.57 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block CLOCK_DOMAIN_BUFFER.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO:	1 (0.03 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async   ########              
+Instance path:   CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async
+============================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      86                 5.28 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async:	86 (2.32 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           36                 2.86 %               
+ARI1          44                 11.1 %               
+BLACK BOX     7                  5.07 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async:	87 (2.35 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_doubleSync_0_6   ########                    
+Instance path:   CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_doubleSync_0_6
+===========================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      14                 0.860 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_doubleSync_0_6:	14 (0.38 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_doubleSync_0_7   ########                    
+Instance path:   CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_doubleSync_0_7
+===========================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      14                 0.860 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_doubleSync_0_7:	14 (0.38 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  1.45 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_doubleSync_0_7:	2 (0.05 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_grayToBinConv_6   ########                    
+Instance path:   CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_grayToBinConv_6
+============================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      6                  0.4760 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_grayToBinConv_6:	6 (0.16 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_grayToBinConv_7   ########                    
+Instance path:   CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_grayToBinConv_7
+============================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      6                  0.4760 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_grayToBinConv_7:	6 (0.16 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_ram_wrapper   ########              
+Instance path:   CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_ram_wrapper
+=========================================================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     4                  2.9 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_ram_wrapper:	4 (0.11 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_ram_wrapper:	1 (0.03 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_USRAM_top   ########                 
+Instance path:   CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_ram_wrapper.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_USRAM_top
+==========================================================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     4                  2.9 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_ram_wrapper.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_USRAM_top:	4 (0.11 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_ram_wrapper.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_USRAM_top:	1 (0.03 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   ManchesDecoder_Adapter   ########
+Instance path:   ManchesDecoder2.ManchesDecoder_Adapter                     
+============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      60                 3.69 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block ManchesDecoder2.ManchesDecoder_Adapter:	60 (1.62 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           35                 2.78 %               
+ARI1          30                 7.58 %               
+BLACK BOX     3                  2.17 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ManchesDecoder2.ManchesDecoder_Adapter:	68 (1.84 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   IdleLineDetector_0   ########
+Instance path:   ManchesDecoder_Adapter.IdleLineDetector_0              
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      33                 2.03 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block ManchesDecoder_Adapter.IdleLineDetector_0:	33 (0.89 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           15                 1.19 %               
+ARI1          30                 7.58 %               
+BLACK BOX     3                  2.17 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ManchesDecoder_Adapter.IdleLineDetector_0:	48 (1.30 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   RX_SM   ########
+Instance path:   ManchesDecoder2.RX_SM                     
+===========================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      30                 1.84 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block ManchesDecoder2.RX_SM:	30 (0.81 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           35                 2.78 %               
+ARI1          9                  2.27 %               
+BLACK BOX     1                  0.7250 %             
+======================================================
+Total COMBINATIONAL LOGIC in the block ManchesDecoder2.RX_SM:	45 (1.22 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   ManchesEncoder2   ########
+Instance path:   CommsFPGA_top.ManchesEncoder2                       
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      89                 5.47 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CommsFPGA_top.ManchesEncoder2:	89 (2.40 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           131                10.4 %               
+ARI1          60                 15.2 %               
+BLACK BOX     2                  1.45 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block CommsFPGA_top.ManchesEncoder2:	193 (5.21 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   Edge_Detect_3   ########
+Instance path:   ManchesEncoder2.Edge_Detect_3                     
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      7                  0.430 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block ManchesEncoder2.Edge_Detect_3:	7 (0.19 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.07940 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block ManchesEncoder2.Edge_Detect_3:	1 (0.03 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   Jabber_SM   ########
+Instance path:   ManchesEncoder2.Jabber_SM                     
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      52                 3.19 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block ManchesEncoder2.Jabber_SM:	52 (1.41 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           79                 6.27 %               
+ARI1          48                 12.1 %               
+BLACK BOX     1                  0.7250 %             
+======================================================
+Total COMBINATIONAL LOGIC in the block ManchesEncoder2.Jabber_SM:	128 (3.46 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   Nib2Ser_SM   ########
+Instance path:   ManchesEncoder2.Nib2Ser_SM                     
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      24                 1.47 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block ManchesEncoder2.Nib2Ser_SM:	24 (0.65 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           43                 3.41 %               
+ARI1          12                 3.03 %               
+BLACK BOX     1                  0.7250 %             
+======================================================
+Total COMBINATIONAL LOGIC in the block ManchesEncoder2.Nib2Ser_SM:	56 (1.51 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   Phy_Mux   ########
+Instance path:   CommsFPGA_top.Phy_Mux                       
+=============================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           17                 1.35 %               
+BLACK BOX     1                  0.7250 %             
+======================================================
+Total COMBINATIONAL LOGIC in the block CommsFPGA_top.Phy_Mux:	18 (0.49 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  5 %                  
+===================================================
+Total GLOBAL BUFFERS in the block CommsFPGA_top.Phy_Mux:	1 (0.03 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   TX_Collision_Detector2   ########
+Instance path:   CommsFPGA_top.TX_Collision_Detector2                       
+============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      19                 1.17 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CommsFPGA_top.TX_Collision_Detector2:	19 (0.51 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      12                 0.9520 %             
+ARI1     16                 4.04 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CommsFPGA_top.TX_Collision_Detector2:	28 (0.76 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   TriDebounce   ########
+Instance path:   CommsFPGA_top.TriDebounce                       
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      54                 3.32 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CommsFPGA_top.TriDebounce:	54 (1.46 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      45                 3.57 %               
+ARI1     48                 12.1 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CommsFPGA_top.TriDebounce:	93 (2.51 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   Debounce   ########
+Instance path:   TriDebounce.Debounce                         
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      18                 1.11 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block TriDebounce.Debounce:	18 (0.49 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 1.19 %               
+ARI1     16                 4.04 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block TriDebounce.Debounce:	31 (0.84 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   Debounce_0   ########
+Instance path:   TriDebounce.Debounce_0                         
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      18                 1.11 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block TriDebounce.Debounce_0:	18 (0.49 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 1.19 %               
+ARI1     16                 4.04 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block TriDebounce.Debounce_0:	31 (0.84 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   Debounce_1   ########
+Instance path:   TriDebounce.Debounce_1                         
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      18                 1.11 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block TriDebounce.Debounce_1:	18 (0.49 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 1.19 %               
+ARI1     16                 4.04 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block TriDebounce.Debounce_1:	31 (0.84 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   mdio_slave_interface   ########
+Instance path:   CommsFPGA_top.mdio_slave_interface                       
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      269                16.5 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CommsFPGA_top.mdio_slave_interface:	269 (7.27 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           163                12.9 %               
+ARI1          81                 20.5 %               
+BLACK BOX     2                  1.45 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block CommsFPGA_top.mdio_slave_interface:	246 (6.65 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  5 %                  
+===================================================
+Total GLOBAL BUFFERS in the block CommsFPGA_top.mdio_slave_interface:	1 (0.03 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   uP_if   ########
+Instance path:   CommsFPGA_top.uP_if                       
+===========================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      74                 4.55 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CommsFPGA_top.uP_if:	74 (2.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      58                 4.6 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block CommsFPGA_top.uP_if:	58 (1.57 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   Interrupts   ########
+Instance path:   uP_if.Interrupts                               
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      25                 1.54 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block uP_if.Interrupts:	25 (0.68 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 0.8730 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block uP_if.Interrupts:	11 (0.30 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   Edge_Detect   ########
+Instance path:   Interrupts.Edge_Detect                          
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      7                  0.430 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Interrupts.Edge_Detect:	7 (0.19 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.07940 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block Interrupts.Edge_Detect:	1 (0.03 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   Edge_Detect_0   ########
+Instance path:   Interrupts.Edge_Detect_0                          
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      7                  0.430 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Interrupts.Edge_Detect_0:	7 (0.19 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.07940 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block Interrupts.Edge_Detect_0:	1 (0.03 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   Edge_Detect_1   ########
+Instance path:   Interrupts.Edge_Detect_1                          
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      7                  0.430 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Interrupts.Edge_Detect_1:	7 (0.19 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.07940 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block Interrupts.Edge_Detect_1:	1 (0.03 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   CoreAPB3   ########
+Instance path:   m2s010_som.CoreAPB3                          
+==============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2                  0.1590 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som.CoreAPB3:	2 (0.05 % Utilization)
+
+-------------------------------------------------------------------------------------
+########   Utilization report for  cell:   m2s010_som_CommsFPGA_CCC_0_FCCC   ########
+Instance path:   m2s010_som.m2s010_som_CommsFPGA_CCC_0_FCCC                          
+=====================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     4                  2.9 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som.m2s010_som_CommsFPGA_CCC_0_FCCC:	4 (0.11 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     3                  15 %                 
+===================================================
+Total GLOBAL BUFFERS in the block m2s010_som.m2s010_som_CommsFPGA_CCC_0_FCCC:	3 (0.08 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   m2s010_som_sb   ########
+Instance path:   m2s010_som.m2s010_som_sb                          
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      126                7.74 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block m2s010_som.m2s010_som_sb:	126 (3.40 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           92                 7.3 %                
+ARI1          14                 3.54 %               
+BLACK BOX     90                 65.2 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som.m2s010_som_sb:	196 (5.30 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     6                  30 %                 
+===================================================
+Total GLOBAL BUFFERS in the block m2s010_som.m2s010_som_sb:	6 (0.16 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       65                 60.7 %               
+=================================================
+Total IO PADS in the block m2s010_som.m2s010_som_sb:	65 (1.76 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   CoreConfigP   ########
+Instance path:   m2s010_som_sb.CoreConfigP                       
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      74                 4.55 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block m2s010_som_sb.CoreConfigP:	74 (2.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           65                 5.16 %               
+BLACK BOX     24                 17.4 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som_sb.CoreConfigP:	89 (2.40 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   CoreResetP   ########
+Instance path:   m2s010_som_sb.CoreResetP                       
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      50                 3.07 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block m2s010_som_sb.CoreResetP:	50 (1.35 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           17                 1.35 %               
+ARI1          14                 3.54 %               
+BLACK BOX     57                 41.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som_sb.CoreResetP:	88 (2.38 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  10 %                 
+===================================================
+Total GLOBAL BUFFERS in the block m2s010_som_sb.CoreResetP:	2 (0.05 % Utilization)
+
+------------------------------------------------------------------------------
+########   Utilization report for  cell:   m2s010_som_sb_CCC_0_FCCC   ########
+Instance path:   m2s010_som_sb.m2s010_som_sb_CCC_0_FCCC                       
+==============================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  1.45 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som_sb.m2s010_som_sb_CCC_0_FCCC:	2 (0.05 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  5 %                  
+===================================================
+Total GLOBAL BUFFERS in the block m2s010_som_sb.m2s010_som_sb_CCC_0_FCCC:	1 (0.03 % Utilization)
+
+--------------------------------------------------------------------------------
+########   Utilization report for  cell:   m2s010_som_sb_FABOSC_0_OSC   ########
+Instance path:   m2s010_som_sb.m2s010_som_sb_FABOSC_0_OSC                       
+================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     4                  2.9 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som_sb.m2s010_som_sb_FABOSC_0_OSC:	4 (0.11 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  5 %                  
+===================================================
+Total GLOBAL BUFFERS in the block m2s010_som_sb.m2s010_som_sb_FABOSC_0_OSC:	1 (0.03 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   m2s010_som_sb_MSS   ########
+Instance path:   m2s010_som_sb.m2s010_som_sb_MSS                       
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.1230 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block m2s010_som_sb.m2s010_som_sb_MSS:	2 (0.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           10                 0.7940 %             
+BLACK BOX     2                  1.45 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som_sb.m2s010_som_sb_MSS:	12 (0.32 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  10 %                 
+===================================================
+Total GLOBAL BUFFERS in the block m2s010_som_sb.m2s010_som_sb_MSS:	2 (0.05 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       65                 60.7 %               
+=================================================
+Total IO PADS in the block m2s010_som_sb.m2s010_som_sb_MSS:	65 (1.76 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   syn_identify_core0_0   ########
+Instance path:   m2s010_som.syn_identify_core0_0                          
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      748                45.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block m2s010_som.syn_identify_core0_0:	748 (20.21 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           563                44.7 %               
+ARI1          38                 9.6 %                
+BLACK BOX     19                 13.8 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som.syn_identify_core0_0:	620 (16.75 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     15                 100 %                
+====================================================
+Total MEMORY ELEMENTS in the block m2s010_som.syn_identify_core0_0:	15 (0.41 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     4                  20 %                 
+===================================================
+Total GLOBAL BUFFERS in the block m2s010_som.syn_identify_core0_0:	4 (0.11 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   IICE_x   ########
+Instance path:   syn_identify_core0_0.IICE_x                
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      700                43 %                 
+=================================================
+Total SEQUENTIAL ELEMENTS in the block syn_identify_core0_0.IICE_x:	700 (18.91 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           546                43.3 %               
+ARI1          38                 9.6 %                
+BLACK BOX     11                 7.97 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block syn_identify_core0_0.IICE_x:	595 (16.08 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     15                 100 %                
+====================================================
+Total MEMORY ELEMENTS in the block syn_identify_core0_0.IICE_x:	15 (0.41 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  10 %                 
+===================================================
+Total GLOBAL BUFFERS in the block syn_identify_core0_0.IICE_x:	2 (0.05 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   b11_OFWNT9s_8tZ_Z3_x   ########
+Instance path:   IICE_x.b11_OFWNT9s_8tZ_Z3_x                              
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      294                18.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block IICE_x.b11_OFWNT9s_8tZ_Z3_x:	294 (7.94 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           135                10.7 %               
+ARI1          24                 6.06 %               
+BLACK BOX     6                  4.35 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block IICE_x.b11_OFWNT9s_8tZ_Z3_x:	165 (4.46 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     15                 100 %                
+====================================================
+Total MEMORY ELEMENTS in the block IICE_x.b11_OFWNT9s_8tZ_Z3_x:	15 (0.41 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   b11_SoWyP0zEFKY_Z2_x_0   ########
+Instance path:   b11_OFWNT9s_8tZ_Z3_x.b11_SoWyP0zEFKY_Z2_x_0                
+============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      59                 3.62 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block b11_OFWNT9s_8tZ_Z3_x.b11_SoWyP0zEFKY_Z2_x_0:	59 (1.59 % Utilization)
+
+--------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   b13_vFW_xNywD_EdR_64s_12s_4096s_0s_x_0   ########
+Instance path:   b11_OFWNT9s_8tZ_Z3_x.b13_vFW_xNywD_EdR_64s_12s_4096s_0s_x_0                
+============================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     6                  4.35 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block b11_OFWNT9s_8tZ_Z3_x.b13_vFW_xNywD_EdR_64s_12s_4096s_0s_x_0:	6 (0.16 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     15                 100 %                
+====================================================
+Total MEMORY ELEMENTS in the block b11_OFWNT9s_8tZ_Z3_x.b13_vFW_xNywD_EdR_64s_12s_4096s_0s_x_0:	15 (0.41 % Utilization)
+
+----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   b19_nczQ_DYg_YFaRM_oUoP_28s_1s_x_0   ########
+Instance path:   b11_OFWNT9s_8tZ_Z3_x.b19_nczQ_DYg_YFaRM_oUoP_28s_1s_x_0                
+========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      28                 1.72 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block b11_OFWNT9s_8tZ_Z3_x.b19_nczQ_DYg_YFaRM_oUoP_28s_1s_x_0:	28 (0.76 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      29                 2.3 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block b11_OFWNT9s_8tZ_Z3_x.b19_nczQ_DYg_YFaRM_oUoP_28s_1s_x_0:	29 (0.78 % Utilization)
+
+----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   b19_nczQ_DYg_YFaRM_oUoP_32s_1s_x_0   ########
+Instance path:   b11_OFWNT9s_8tZ_Z3_x.b19_nczQ_DYg_YFaRM_oUoP_32s_1s_x_0                
+========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      32                 1.97 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block b11_OFWNT9s_8tZ_Z3_x.b19_nczQ_DYg_YFaRM_oUoP_32s_1s_x_0:	32 (0.86 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      33                 2.62 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block b11_OFWNT9s_8tZ_Z3_x.b19_nczQ_DYg_YFaRM_oUoP_32s_1s_x_0:	33 (0.89 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   b3_uKr_x   ########
+Instance path:   IICE_x.b3_uKr_x                              
+==============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      21                 1.67 %               
+ARI1     2                  0.5050 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block IICE_x.b3_uKr_x:	23 (0.62 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   b7_OCByLXC_Z1_x_0   ########
+Instance path:   IICE_x.b7_OCByLXC_Z1_x_0                              
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      169                10.4 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block IICE_x.b7_OCByLXC_Z1_x_0:	169 (4.57 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           80                 6.35 %               
+ARI1          12                 3.03 %               
+BLACK BOX     4                  2.9 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block IICE_x.b7_OCByLXC_Z1_x_0:	96 (2.59 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  10 %                 
+===================================================
+Total GLOBAL BUFFERS in the block IICE_x.b7_OCByLXC_Z1_x_0:	2 (0.05 % Utilization)
+
+-------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_nR_ymqrG_12s_5s_0_0s_0s_1_2046_x_0   ########
+Instance path:   b7_OCByLXC_Z1_x_0.b8_nR_ymqrG_12s_5s_0_0s_0s_1_2046_x_0                   
+===========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      36                 2.21 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block b7_OCByLXC_Z1_x_0.b8_nR_ymqrG_12s_5s_0_0s_0s_1_2046_x_0:	36 (0.97 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           4                  0.3170 %             
+BLACK BOX     2                  1.45 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block b7_OCByLXC_Z1_x_0.b8_nR_ymqrG_12s_5s_0_0s_0s_1_2046_x_0:	6 (0.16 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  5 %                  
+===================================================
+Total GLOBAL BUFFERS in the block b7_OCByLXC_Z1_x_0.b8_nR_ymqrG_12s_5s_0_0s_0s_1_2046_x_0:	1 (0.03 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   clock2_en_reg_en_5s_x_0   ########
+Instance path:   b7_OCByLXC_Z1_x_0.clock2_en_reg_en_5s_x_0                   
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      13                 0.7990 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block b7_OCByLXC_Z1_x_0.clock2_en_reg_en_5s_x_0:	13 (0.35 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b7_OCByLXC_Z1_x_0.clock2_en_reg_en_5s_x_0:	5 (0.14 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   b8_PfFzrNYI_x_0   ########
+Instance path:   IICE_x.b8_PfFzrNYI_x_0                              
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      178                10.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block IICE_x.b8_PfFzrNYI_x_0:	178 (4.81 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      310                24.6 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block IICE_x.b8_PfFzrNYI_x_0:	310 (8.38 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   b13_PSyil9s1fkJ_L_x_0   ########
+Instance path:   b8_PfFzrNYI_x_0.b13_PSyil9s1fkJ_L_x_0                     
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      4                  0.2460 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block b8_PfFzrNYI_x_0.b13_PSyil9s1fkJ_L_x_0:	4 (0.11 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      309                24.5 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block b8_PfFzrNYI_x_0.b13_PSyil9s1fkJ_L_x_0:	309 (8.35 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   b15_CRGcTCua_eH4_wX_x_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b15_CRGcTCua_eH4_wX_x_0               
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      4                  0.2460 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block b13_PSyil9s1fkJ_L_x_0.b15_CRGcTCua_eH4_wX_x_0:	4 (0.11 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      19                 1.51 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b15_CRGcTCua_eH4_wX_x_0:	19 (0.51 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b9_O2yyf_fG2_x_0_0   ########
+Instance path:   b15_CRGcTCua_eH4_wX_x_0.b9_O2yyf_fG2_x_0_0             
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.07940 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block b15_CRGcTCua_eH4_wX_x_0.b9_O2yyf_fG2_x_0_0:	1 (0.03 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b9_O2yyf_fG2_x_1_0   ########
+Instance path:   b15_CRGcTCua_eH4_wX_x_0.b9_O2yyf_fG2_x_1_0             
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      3                  0.2380 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b15_CRGcTCua_eH4_wX_x_0.b9_O2yyf_fG2_x_1_0:	3 (0.08 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b9_O2yyf_fG2_x_2_0   ########
+Instance path:   b15_CRGcTCua_eH4_wX_x_0.b9_O2yyf_fG2_x_2_0             
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b15_CRGcTCua_eH4_wX_x_0.b9_O2yyf_fG2_x_2_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b9_O2yyf_fG2_x_3_0   ########
+Instance path:   b15_CRGcTCua_eH4_wX_x_0.b9_O2yyf_fG2_x_3_0             
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b15_CRGcTCua_eH4_wX_x_0.b9_O2yyf_fG2_x_3_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b9_O2yyf_fG2_x_4_0   ########
+Instance path:   b15_CRGcTCua_eH4_wX_x_0.b9_O2yyf_fG2_x_4_0             
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b15_CRGcTCua_eH4_wX_x_0.b9_O2yyf_fG2_x_4_0:	5 (0.14 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_0_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_0_0               
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_0_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_10_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_10_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_10_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_11_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_11_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_11_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_12_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_12_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_12_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_13_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_13_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_13_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_14_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_14_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_14_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_15_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_15_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_15_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_16_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_16_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_16_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_17_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_17_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_17_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_18_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_18_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_18_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_19_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_19_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_19_0:	5 (0.14 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_1_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_1_0               
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_1_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_20_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_20_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_20_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_21_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_21_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_21_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_22_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_22_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_22_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_23_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_23_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_23_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_24_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_24_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_24_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_25_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_25_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_25_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_26_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_26_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_26_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_27_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_27_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_27_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_28_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_28_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_28_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_29_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_29_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_29_0:	5 (0.14 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_2_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_2_0               
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_2_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_30_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_30_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_30_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_31_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_31_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_31_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_32_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_32_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_32_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_33_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_33_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_33_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_34_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_34_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_34_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_35_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_35_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_35_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_36_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_36_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_36_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_37_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_37_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_37_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_38_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_38_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_38_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_39_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_39_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_39_0:	5 (0.14 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_3_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_3_0               
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_3_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_40_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_40_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_40_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_41_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_41_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_41_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_42_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_42_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_42_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_43_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_43_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_43_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_44_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_44_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_44_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_45_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_45_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_45_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_46_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_46_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_46_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_47_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_47_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_47_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_48_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_48_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_48_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_49_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_49_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_49_0:	5 (0.14 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_4_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_4_0               
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_4_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_50_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_50_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_50_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_51_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_51_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_51_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_52_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_52_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_52_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_53_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_53_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_53_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_54_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_54_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_54_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_55_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_55_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_55_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_56_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_56_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_56_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_57_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_57_0               
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_57_0:	5 (0.14 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_5_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_5_0               
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_5_0:	5 (0.14 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_6_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_6_0               
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_6_0:	5 (0.14 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_7_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_7_0               
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_7_0:	5 (0.14 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_8_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_8_0               
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_8_0:	5 (0.14 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   b8_1LbcQDr1_x_9_0   ########
+Instance path:   b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_9_0               
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block b13_PSyil9s1fkJ_L_x_0.b8_1LbcQDr1_x_9_0:	5 (0.14 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   b5_nvmFL_174s_x_0   ########
+Instance path:   b8_PfFzrNYI_x_0.b5_nvmFL_174s_x_0                     
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      174                10.7 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block b8_PfFzrNYI_x_0.b5_nvmFL_174s_x_0:	174 (4.70 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.07940 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block b8_PfFzrNYI_x_0.b5_nvmFL_174s_x_0:	1 (0.03 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   comm_block_x   ########
+Instance path:   syn_identify_core0_0.comm_block_x                
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      48                 2.95 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block syn_identify_core0_0.comm_block_x:	48 (1.30 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           17                 1.35 %               
+BLACK BOX     8                  5.8 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block syn_identify_core0_0.comm_block_x:	25 (0.68 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  10 %                 
+===================================================
+Total GLOBAL BUFFERS in the block syn_identify_core0_0.comm_block_x:	2 (0.05 % Utilization)
+
+------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   b16_Rcmi_qlx9_yHpm7y_6s_1s_0s_0s_8s_0s_0s_1s_6s_7s_x_0   ########
+Instance path:   comm_block_x.b16_Rcmi_qlx9_yHpm7y_6s_1s_0s_0s_8s_0s_0s_1s_6s_7s_x_0                        
+============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      16                 0.9830 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block comm_block_x.b16_Rcmi_qlx9_yHpm7y_6s_1s_0s_0s_8s_0s_0s_1s_6s_7s_x_0:	16 (0.43 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2                  0.1590 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block comm_block_x.b16_Rcmi_qlx9_yHpm7y_6s_1s_0s_0s_8s_0s_0s_1s_6s_7s_x_0:	2 (0.05 % Utilization)
+
+----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   b9_ORbIwXaEF_32s_2494175675_0s_x_0   ########
+Instance path:   comm_block_x.b9_ORbIwXaEF_32s_2494175675_0s_x_0                        
+========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      32                 1.97 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block comm_block_x.b9_ORbIwXaEF_32s_2494175675_0s_x_0:	32 (0.86 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.3970 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block comm_block_x.b9_ORbIwXaEF_32s_2494175675_0s_x_0:	5 (0.14 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   jtag_interface_x_0   ########
+Instance path:   comm_block_x.jtag_interface_x_0                        
+========================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           9                  0.7140 %             
+BLACK BOX     5                  3.62 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block comm_block_x.jtag_interface_x_0:	14 (0.38 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  10 %                 
+===================================================
+Total GLOBAL BUFFERS in the block comm_block_x.jtag_interface_x_0:	2 (0.05 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,16 @@
+Project Name: IRAIL-2.0-FPGA
+Location: C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0
+Description: First test design
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S060T-FCS325I
+Family         : SmartFusion2
+Die            : M2S060T
+Package        : 325 FCSBGA
+Speed          : STD
+Core Voltage   : 1.2
+Range          : IND

@@ -1,0 +1,165 @@
+Compile Report
+Microsemi Corporation - Microsemi Libero Software Release v11.7 SP3 (Version 11.7.3.8)
+Date: Tue Mar 21 14:27:32 2017
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S060T        |
+| Package                        | 325 FCSBGA     |
+| Speed Grade                    | STD            |
+| Temp                           | -40:25:100     |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 3.3V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+----------------------------------------------------------+
+| Topcell | AFE_RX_SM                                                |
+| Format  | EDIF                                                     |
+| Source  | C:\work\IRail\PPI.IRail.SoC.FPGA\synthesis\AFE_RX_SM.edn |
++---------+----------------------------------------------------------+
+
+Options
++---------------------------------------------------------+-------+
+| Merge User SDC file(s) with Existing Timing Constraints | true  |
+| Abort Compile if errors are found in PDC file(s)        | true  |
+| Enable Single Event Transient mitigation                | false |
+| Enable Design Separation Methodology                    | false |
+| Limit the number of high fanout nets to display to      | 10    |
++---------------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 23   | 56520 | 0.04       |
+| DFF                       | 14   | 56520 | 0.02       |
+| I/O Register              | 0    | 594   | 0.00       |
+| User I/O                  | 19   | 198   | 9.60       |
+| -- Single-ended I/O       | 19   | 198   | 9.60       |
+| -- Differential I/O Pairs | 0    | 99    | 0.00       |
+| RAM64x18                  | 0    | 72    | 0.00       |
+| RAM1K18                   | 0    | 69    | 0.00       |
+| MACC                      | 0    | 72    | 0.00       |
+| Chip Globals              | 1    | 16    | 6.25       |
+| CCC                       | 0    | 6     | 0.00       |
+| RCOSC_25_50MHZ            | 0    | 1     | 0.00       |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| SERDESIF Blocks           | 0    | 1     | 0.00       |
+| -- SERDESIF Lanes         | 0    | 2     | 0.00       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 23   | 14  |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 23   | 14  |
++--------------------------+------+-----+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 15           | 0           | 0               |
+| Output I/O                    | 4            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS33     |  3.30v |  N/A |  15   |  4     |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  0    | 0.00%      |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  19   | 100.00%    |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+---------+----------------------------------+
+| Fanout | Type    | Name                             |
++--------+---------+----------------------------------+
+| 14     | INT_NET | Net   : clk_c                    |
+|        |         | Driver: clk_ibuf_RNIVTI2/U0_RGB1 |
+|        |         | Source: NETLIST                  |
++--------+---------+----------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+-----------------------------+
+| Fanout | Type    | Name                        |
++--------+---------+-----------------------------+
+| 14     | INT_NET | Net   : reset_c             |
+|        |         | Driver: reset_ibuf          |
+| 7      | INT_NET | Net   : idle_line_c         |
+|        |         | Driver: idle_line_ibuf      |
+| 6      | INT_NET | Net   : rx_packet_end_all_c |
+|        |         | Driver: irx_packet_end_all  |
+| 5      | INT_NET | Net   : start_bit_cntr[2]   |
+|        |         | Driver: start_bit_cntr[2]   |
+| 5      | INT_NET | Net   : start_bit_cntr[3]   |
+|        |         | Driver: start_bit_cntr[3]   |
+| 5      | INT_NET | Net   : packet_avail_c      |
+|        |         | Driver: AFE_RX_STATE[1]     |
+| 4      | INT_NET | Net   : AFE_RX_STATE[2]     |
+|        |         | Driver: AFE_RX_STATE[2]     |
+| 4      | INT_NET | Net   : start_bit_cntr[0]   |
+|        |         | Driver: start_bit_cntr[0]   |
+| 4      | INT_NET | Net   : start_bit_cntr[1]   |
+|        |         | Driver: start_bit_cntr[1]   |
+| 4      | INT_NET | Net   : sample_c            |
+|        |         | Driver: sample_ibuf         |
++--------+---------+-----------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+-----------------------------+
+| Fanout | Type    | Name                        |
++--------+---------+-----------------------------+
+| 14     | INT_NET | Net   : reset_c             |
+|        |         | Driver: reset_ibuf          |
+| 7      | INT_NET | Net   : idle_line_c         |
+|        |         | Driver: idle_line_ibuf      |
+| 6      | INT_NET | Net   : rx_packet_end_all_c |
+|        |         | Driver: irx_packet_end_all  |
+| 5      | INT_NET | Net   : start_bit_cntr[2]   |
+|        |         | Driver: start_bit_cntr[2]   |
+| 5      | INT_NET | Net   : start_bit_cntr[3]   |
+|        |         | Driver: start_bit_cntr[3]   |
+| 5      | INT_NET | Net   : packet_avail_c      |
+|        |         | Driver: AFE_RX_STATE[1]     |
+| 4      | INT_NET | Net   : AFE_RX_STATE[2]     |
+|        |         | Driver: AFE_RX_STATE[2]     |
+| 4      | INT_NET | Net   : start_bit_cntr[0]   |
+|        |         | Driver: start_bit_cntr[0]   |
+| 4      | INT_NET | Net   : start_bit_cntr[1]   |
+|        |         | Driver: start_bit_cntr[1]   |
+| 4      | INT_NET | Net   : sample_c            |
+|        |         | Driver: sample_ibuf         |
++--------+---------+-----------------------------+
+

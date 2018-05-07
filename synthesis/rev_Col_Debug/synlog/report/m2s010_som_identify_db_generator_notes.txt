@@ -1,0 +1,5 @@
+@N::"C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082217\synthesis\rev_Col_Debug\synlog\m2s010_som_identify_compile.log"|
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082217\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Top entity is set to m2s010_som.
+

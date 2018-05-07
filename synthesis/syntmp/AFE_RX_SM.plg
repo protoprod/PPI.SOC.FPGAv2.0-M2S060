@@ -1,0 +1,17 @@
+@P:  Worst Slack : 7.402
+@P:  AFE_RX_SM|clk - Estimated Frequency : 384.9 MHz
+@P:  AFE_RX_SM|clk - Requested Frequency : 100.0 MHz
+@P:  AFE_RX_SM|clk - Estimated Period : 2.598
+@P:  AFE_RX_SM|clk - Requested Period : 10.000
+@P:  AFE_RX_SM|clk - Slack : 7.402
+@P:  Worst Slack(min analysis) : 0.520
+@P:  AFE_RX_SM|clk - Estimated Frequency(min analysis) : 384.9 MHz
+@P:  AFE_RX_SM|clk - Requested Frequency(min analysis) : 100.0 MHz
+@P:  AFE_RX_SM|clk - Estimated Period(min analysis) : 2.598
+@P:  AFE_RX_SM|clk - Requested Period(min analysis) : 10.000
+@P:  AFE_RX_SM|clk - Slack(min analysis) : 7.402
+@P: AFE_RX_SM Part : m2s060tfcsbga325std
+@P: AFE_RX_SM Register bits  : 14 
+@P: AFE_RX_SM DSP Blocks  : 0
+@P: AFE_RX_SM I/O primitives : 19
+@P:  CPU Time : 0h:00m:00s

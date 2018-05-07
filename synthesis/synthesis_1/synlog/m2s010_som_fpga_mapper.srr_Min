@@ -1,0 +1,771 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Feb 21 13:45:36 2017
+#
+
+
+Top view:               m2s010_som
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\instr_sources\syn_dics.sdc
+                       
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.319
+
+                                                                      Requested     Estimated     Requested     Estimated                 Clock        Clock               
+Starting Clock                                                        Frequency     Frequency     Period        Period        Slack       Type         Group               
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top|BIT_CLK_inferred_clock                                  167.0 MHz     138.0 MHz     5.988         7.247         -1.259      inferred     Inferred_clkgroup_3 
+ident_coreinst.comm_block_INST.dr2_tck                                1.0 MHz       883.6 MHz     1000.000      1.132         998.868     declared     identify_jtag_group1
+ident_coreinst.comm_block_INST.tck                                    1.0 MHz       157.9 MHz     1000.000      6.333         993.667     declared     identify_jtag_group1
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock                167.0 MHz     166.5 MHz     5.988         6.005         -0.017      inferred     Inferred_clkgroup_1 
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock                167.0 MHz     309.8 MHz     5.988         3.228         2.760       inferred     Inferred_clkgroup_2 
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       167.0 MHz     119.9 MHz     5.988         8.338         -2.349      inferred     Inferred_clkgroup_0 
+m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     167.0 MHz     362.9 MHz     5.988         2.756         3.232       inferred     Inferred_clkgroup_7 
+m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                     167.0 MHz     121.2 MHz     5.988         8.249         -2.261      inferred     Inferred_clkgroup_4 
+m2s010_som|MAC_MII_RX_CLK                                             167.0 MHz     NA            5.988         NA            NA          inferred     Inferred_clkgroup_6 
+m2s010_som|MAC_MII_TX_CLK                                             167.0 MHz     NA            5.988         NA            NA          inferred     Inferred_clkgroup_5 
+System                                                                167.0 MHz     155.9 MHz     5.988         6.413         -0.425      system       system_clkgroup     
+===========================================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                                |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                           Ending                                                             |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                             System                                                             |  0.000       0.786  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                             m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    |  0.000       0.362  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                             m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             |  0.000       0.362  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                             CommsFPGA_top|BIT_CLK_inferred_clock                               |  0.000       2.021  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                             ident_coreinst.comm_block_INST.tck                                 |  0.000       0.435  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                             ident_coreinst.comm_block_INST.dr2_tck                             |  0.000       0.618  |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    System                                                             |  0.000       0.961  |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    |  0.000       0.319  |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    CommsFPGA_top|BIT_CLK_inferred_clock                               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    ident_coreinst.comm_block_INST.tck                                 |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             System                                                             |  0.000       1.096  |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             |  0.000       0.362  |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             CommsFPGA_top|BIT_CLK_inferred_clock                               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             ident_coreinst.comm_block_INST.tck                                 |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock             m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock             m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock             m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock             |  0.000       0.866  |  No paths    -      |  No paths    -      |  No paths    -    
+CommsFPGA_top|BIT_CLK_inferred_clock                               System                                                             |  0.000       2.079  |  No paths    -      |  No paths    -      |  No paths    -    
+CommsFPGA_top|BIT_CLK_inferred_clock                               m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+CommsFPGA_top|BIT_CLK_inferred_clock                               m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+CommsFPGA_top|BIT_CLK_inferred_clock                               m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock             |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+CommsFPGA_top|BIT_CLK_inferred_clock                               CommsFPGA_top|BIT_CLK_inferred_clock                               |  0.000       0.362  |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                  m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                  m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                  |  0.000       0.362  |  No paths    -      |  2.994       3.546  |  2.994       3.769
+m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  |  0.000       0.362  |  No paths    -      |  No paths    -      |  No paths    -    
+ident_coreinst.comm_block_INST.tck                                 System                                                             |  0.000       0.435  |  No paths    -      |  No paths    -      |  No paths    -    
+ident_coreinst.comm_block_INST.tck                                 m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                    |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+ident_coreinst.comm_block_INST.tck                                 m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock             |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+ident_coreinst.comm_block_INST.tck                                 ident_coreinst.comm_block_INST.tck                                 |  0.000       0.362  |  No paths    -      |  No paths    -      |  No paths    -    
+ident_coreinst.comm_block_INST.dr2_tck                             System                                                             |  0.000       0.435  |  No paths    -      |  No paths    -      |  No paths    -    
+ident_coreinst.comm_block_INST.dr2_tck                             ident_coreinst.comm_block_INST.dr2_tck                             |  0.000       0.435  |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: CommsFPGA_top|BIT_CLK_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                  Starting                                                                         Arrival          
+Instance                                                                                                          Reference                                Type     Pin     Net                    Time        Slack
+                                                                                                                  Clock                                                                                             
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d1[0]                             CommsFPGA_top|BIT_CLK_inferred_clock     SLE      Q       TX_FIFO_DOUT_d1[0]     0.061       0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d1[1]                             CommsFPGA_top|BIT_CLK_inferred_clock     SLE      Q       TX_FIFO_DOUT_d1[1]     0.061       0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d1[2]                             CommsFPGA_top|BIT_CLK_inferred_clock     SLE      Q       TX_FIFO_DOUT_d1[2]     0.061       0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d1[3]                             CommsFPGA_top|BIT_CLK_inferred_clock     SLE      Q       TX_FIFO_DOUT_d1[3]     0.061       0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d1[4]                             CommsFPGA_top|BIT_CLK_inferred_clock     SLE      Q       TX_FIFO_DOUT_d1[4]     0.061       0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d1[5]                             CommsFPGA_top|BIT_CLK_inferred_clock     SLE      Q       TX_FIFO_DOUT_d1[5]     0.061       0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d1[6]                             CommsFPGA_top|BIT_CLK_inferred_clock     SLE      Q       TX_FIFO_DOUT_d1[6]     0.061       0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d1[7]                             CommsFPGA_top|BIT_CLK_inferred_clock     SLE      Q       TX_FIFO_DOUT_d1[7]     0.061       0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.iTX_PostAmble                                                 CommsFPGA_top|BIT_CLK_inferred_clock     SLE      Q       TX_PostAmble           0.061       0.362
+CommsFPGA_top_0.FIFOS_INST.TRANSMIT_FIFO.FIFO_2Kx8_0.L31\.U_corefifo_async.Wr_corefifo_doubleSync.sync_int[0]     CommsFPGA_top|BIT_CLK_inferred_clock     SLE      Q       sync_int[0]            0.061       0.362
+====================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                        Starting                                                                         Required          
+Instance                                                                                                                Reference                                Type     Pin     Net                    Time         Slack
+                                                                                                                        Clock                                                                                              
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d2[0]                                   CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       TX_FIFO_DOUT_d1[0]     0.179        0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d2[1]                                   CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       TX_FIFO_DOUT_d1[1]     0.179        0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d2[2]                                   CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       TX_FIFO_DOUT_d1[2]     0.179        0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d2[3]                                   CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       TX_FIFO_DOUT_d1[3]     0.179        0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d2[4]                                   CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       TX_FIFO_DOUT_d1[4]     0.179        0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d2[5]                                   CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       TX_FIFO_DOUT_d1[5]     0.179        0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d2[6]                                   CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       TX_FIFO_DOUT_d1[6]     0.179        0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d2[7]                                   CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       TX_FIFO_DOUT_d1[7]     0.179        0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_PostAmble_d1                                                                 CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       TX_PostAmble           0.179        0.362
+CommsFPGA_top_0.FIFOS_INST.TRANSMIT_FIFO.FIFO_2Kx8_0.L31\.U_corefifo_async.Wr_corefifo_doubleSync.sync_out_xhdl1[0]     CommsFPGA_top|BIT_CLK_inferred_clock     SLE      D       sync_int[0]            0.179        0.362
+===========================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.541
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.179
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.362
+
+    Number of logic level(s):                0
+    Starting point:                          CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d1[0] / Q
+    Ending point:                            CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d2[0] / D
+    The start point is clocked by            CommsFPGA_top|BIT_CLK_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            CommsFPGA_top|BIT_CLK_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d1[0]     SLE      Q        Out     0.061     0.061       -         
+TX_FIFO_DOUT_d1[0]                                                                        Net      -        -       0.480     -           1         
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d2[0]     SLE      D        In      -         0.541       -         
+====================================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: ident_coreinst.comm_block_INST.dr2_tck
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                              Starting                                                                        Arrival          
+Instance                                                      Reference                                  Type     Pin     Net                 Time        Slack
+                                                              Clock                                                                                            
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[0]     0.061       0.435
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[1]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[1]     0.061       0.435
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[2]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[2]     0.061       0.435
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[3]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[3]     0.061       0.435
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[4]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[4]     0.061       0.435
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[5]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[5]     0.061       0.435
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[6]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[6]     0.061       0.435
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[7]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[7]     0.061       0.435
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[8]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[8]     0.061       0.435
+===============================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                         Starting                                                                        Required          
+Instance                                                                 Reference                                  Type     Pin     Net                 Time         Slack
+                                                                         Clock                                                                                             
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0]                ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[1]     0.179        0.435
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[1]                ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[2]     0.179        0.435
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[2]                ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[3]     0.179        0.435
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[3]                ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[4]     0.179        0.435
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[4]                ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[5]     0.179        0.435
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[5]                ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[6]     0.179        0.435
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[6]                ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[7]     0.179        0.435
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[7]                ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[8]     0.179        0.435
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[0]     ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[0]     0.179        0.435
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[1]     ident_coreinst.comm_block_INST.dr2_tck     SLE      D       b9_OvyH3_saL[1]     0.179        0.435
+===========================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.614
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.179
+    - Clock delay at ending point:           0.000 (ideal)
+0.000
+    = Slack (non-critical) :                 0.435
+
+    Number of logic level(s):                0
+    Starting point:                          ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0] / Q
+    Ending point:                            ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[0] / D
+    The start point is clocked by            ident_coreinst.comm_block_INST.dr2_tck [rising] on pin CLK
+    The end   point is clocked by            System [rising] on pin CLK
+
+Instance / Net                                                                    Pin      Pin               Arrival     No. of    
+Name                                                                     Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0]                SLE      Q        Out     0.061     0.061       -         
+b9_OvyH3_saL[0]                                                          Net      -        -       0.552     -           2         
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[0]     SLE      D        In      -         0.614       -         
+===================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: ident_coreinst.comm_block_INST.tck
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                           Starting                                                                           Arrival          
+Instance                                                                   Reference                              Type     Pin     Net                        Time        Slack
+                                                                           Clock                                                                                               
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[0]       ident_coreinst.comm_block_INST.tck     SLE      Q       b15_uRrc2XfY_rbN_gr[0]     0.061       0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[0]     ident_coreinst.comm_block_INST.tck     SLE      Q       b15_uRrc2XfY_rbN_gr[0]     0.061       0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[1]     ident_coreinst.comm_block_INST.tck     SLE      Q       b15_uRrc2XfY_rbN_gr[1]     0.061       0.362
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[1]       ident_coreinst.comm_block_INST.tck     SLE      Q       b15_uRrc2XfY_rbN_gr[1]     0.061       0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[2]     ident_coreinst.comm_block_INST.tck     SLE      Q       b15_uRrc2XfY_rbN_gr[2]     0.061       0.362
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[2]       ident_coreinst.comm_block_INST.tck     SLE      Q       b15_uRrc2XfY_rbN_gr[2]     0.061       0.362
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[3]       ident_coreinst.comm_block_INST.tck     SLE      Q       b15_uRrc2XfY_rbN_gr[3]     0.061       0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[3]     ident_coreinst.comm_block_INST.tck     SLE      Q       b15_uRrc2XfY_rbN_gr[3]     0.061       0.362
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[5]       ident_coreinst.comm_block_INST.tck     SLE      Q       b15_uRrc2XfY_rbN_gr[5]     0.061       0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[5]     ident_coreinst.comm_block_INST.tck     SLE      Q       b15_uRrc2XfY_rbN_gr[5]     0.061       0.362
+===============================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                           Starting                                                                           Required          
+Instance                                                                   Reference                              Type     Pin     Net                        Time         Slack
+                                                                           Clock                                                                                                
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[0]       ident_coreinst.comm_block_INST.tck     SLE      D       status_b2sclk[0]           0.179        0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[0]     ident_coreinst.comm_block_INST.tck     SLE      D       status_b2sclk[0]           0.179        0.362
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[1]       ident_coreinst.comm_block_INST.tck     SLE      D       status_b2sclk[1]           0.179        0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[1]     ident_coreinst.comm_block_INST.tck     SLE      D       status_b2sclk[1]           0.179        0.362
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[2]       ident_coreinst.comm_block_INST.tck     SLE      D       status_b2sclk[2]           0.179        0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[2]     ident_coreinst.comm_block_INST.tck     SLE      D       status_b2sclk[2]           0.179        0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[3]     ident_coreinst.comm_block_INST.tck     SLE      D       status_b2sclk[3]           0.179        0.362
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[3]       ident_coreinst.comm_block_INST.tck     SLE      D       status_b2sclk[3]           0.179        0.362
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gs[0]       ident_coreinst.comm_block_INST.tck     SLE      D       b15_uRrc2XfY_rbN_gr[0]     0.179        0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gs[0]     ident_coreinst.comm_block_INST.tck     SLE      D       b15_uRrc2XfY_rbN_gr[0]     0.179        0.362
+================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.541
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.179
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.362
+
+    Number of logic level(s):                0
+    Starting point:                          ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[0] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gs[0] / D
+    The start point is clocked by            ident_coreinst.comm_block_INST.tck [rising] on pin CLK
+    The end   point is clocked by            ident_coreinst.comm_block_INST.tck [rising] on pin CLK
+
+Instance / Net                                                                    Pin      Pin               Arrival     No. of    
+Name                                                                     Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gr[0]     SLE      Q        Out     0.061     0.061       -         
+b15_uRrc2XfY_rbN_gr[0]                                                   Net      -        -       0.480     -           1         
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b15_uRrc2XfY_rbN_gs[0]     SLE      D        In      -         0.541       -         
+===================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                  Starting                                                                                                   Arrival          
+Instance                                                                                          Reference                                                  Type     Pin     Net                            Time        Slack
+                                                                                                  Clock                                                                                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.RX_FIFO_wr_en_d[0]             m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       RX_FIFO_wr_en_d[0]             0.061       0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.RX_FIFO_wr_en_d[1]             m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       RX_FIFO_wr_en_d[1]             0.061       0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.RX_FIFO_wr_en_d[2]             m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       RX_FIFO_wr_en_d[2]             0.061       0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.RX_FIFO_wr_en_d[3]             m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       RX_FIFO_wr_en_d[3]             0.061       0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.RX_FIFO_wr_en_d[4]             m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       RX_FIFO_wr_en_d[4]             0.061       0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.RX_FIFO_wr_en_d[6]             m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       RX_FIFO_wr_en_d[6]             0.061       0.362
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.RX_InProcess                       m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       RX_InProcess                   0.061       0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d2_sync2RX[0]     m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       TX_FIFO_DOUT_d2_sync2RX[0]     0.061       0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d2_sync2RX[1]     m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       TX_FIFO_DOUT_d2_sync2RX[1]     0.061       0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d2_sync2RX[2]     m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       TX_FIFO_DOUT_d2_sync2RX[2]     0.061       0.362
+==============================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                      Starting                                                                                                   Required          
+Instance                                                                                              Reference                                                  Type     Pin     Net                            Time         Slack
+                                                                                                      Clock                                                                                                                        
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.RX_FIFO_wr_en_d[1]                 m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       RX_FIFO_wr_en_d[0]             0.179        0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.RX_FIFO_wr_en_d[2]                 m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       RX_FIFO_wr_en_d[1]             0.179        0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.RX_FIFO_wr_en_d[3]                 m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       RX_FIFO_wr_en_d[2]             0.179        0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.RX_FIFO_wr_en_d[4]                 m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       RX_FIFO_wr_en_d[3]             0.179        0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.RX_FIFO_wr_en_d[5]                 m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       RX_FIFO_wr_en_d[4]             0.179        0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.RX_FIFO_wr_en_d[7]                 m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       RX_FIFO_wr_en_d[6]             0.179        0.362
+CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.RX_InProcess_d1                        m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       RX_InProcess                   0.179        0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d2_syncCompare[0]     m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       TX_FIFO_DOUT_d2_sync2RX[0]     0.179        0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d2_syncCompare[1]     m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       TX_FIFO_DOUT_d2_sync2RX[1]     0.179        0.362
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.TX_FIFO_DOUT_d2_syncCompare[2]     m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       TX_FIFO_DOUT_d2_sync2RX[2]     0.179        0.362
+===================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.541
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.179
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.362
+
+    Number of logic level(s):                0
+    Starting point:                          CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.RX_FIFO_wr_en_d[0] / Q
+    Ending point:                            CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.RX_FIFO_wr_en_d[1] / D
+    The start point is clocked by            m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.RX_FIFO_wr_en_d[0]     SLE      Q        Out     0.061     0.061       -         
+RX_FIFO_wr_en_d[0]                                                                        Net      -        -       0.480     -           1         
+CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TX_COLLISION_DETECTOR_INST.RX_FIFO_wr_en_d[1]     SLE      D        In      -         0.541       -         
+====================================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                            Starting                                                                                  Arrival          
+Instance                    Reference                                                  Type     Pin     Net           Time        Slack
+                            Clock                                                                                                      
+---------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.BIT_CLK     m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock     SLE      Q       BIT_CLK_i     0.076       0.866
+=======================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                            Starting                                                                                      Required          
+Instance                    Reference                                                  Type     Pin     Net               Time         Slack
+                            Clock                                                                                                           
+--------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top_0.BIT_CLK     m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock     SLE      D       BIT_CLK_i_i_0     0.179        0.866
+============================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        1.045
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.179
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.866
+
+    Number of logic level(s):                1
+    Starting point:                          CommsFPGA_top_0.BIT_CLK / Q
+    Ending point:                            CommsFPGA_top_0.BIT_CLK / D
+    The start point is clocked by            m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                            Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+CommsFPGA_top_0.BIT_CLK         SLE      Q        Out     0.076     0.076       -         
+BIT_CLK_i                       Net      -        -       0.786     -           2         
+CommsFPGA_top_0.BIT_CLK_RNO     CFG1     A        In      -         0.862       -         
+CommsFPGA_top_0.BIT_CLK_RNO     CFG1     Y        Out     0.072     0.934       -         
+BIT_CLK_i_i_0                   Net      -        -       0.111     -           1         
+CommsFPGA_top_0.BIT_CLK         SLE      D        In      -         1.045       -         
+==========================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                         Starting                                                                                         Arrival          
+Instance                                                 Reference                                           Type     Pin     Net                         Time        Slack
+                                                         Clock                                                                                                             
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORERESETP_0.sm0_state[0]                m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sm0_state[0]                0.076       0.319
+m2s010_som_sb_0.CORERESETP_0.CONFIG1_DONE_q1             m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       CONFIG1_DONE_q1             0.061       0.362
+m2s010_som_sb_0.CORERESETP_0.CONFIG2_DONE_q1             m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       CONFIG2_DONE_q1             0.061       0.362
+m2s010_som_sb_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_q1     m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       FIC_2_APB_M_PRESET_N_q1     0.061       0.362
+m2s010_som_sb_0.CORERESETP_0.POWER_ON_RESET_N_q1         m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       POWER_ON_RESET_N_q1         0.061       0.362
+m2s010_som_sb_0.CORERESETP_0.RESET_N_M2F_q1              m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       RESET_N_M2F_q1              0.061       0.362
+m2s010_som_sb_0.CORERESETP_0.ddr_settled_q1              m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       ddr_settled_q1              0.061       0.362
+m2s010_som_sb_0.CORERESETP_0.release_sdif0_core_q1       m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       release_sdif3_core_q1       0.061       0.362
+m2s010_som_sb_0.CORERESETP_0.sdif3_spll_lock_q1          m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sdif3_spll_lock_q1          0.061       0.362
+m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_q1             m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sm0_areset_n_q1             0.061       0.362
+===========================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                               Starting                                                                                         Required          
+Instance                                                       Reference                                           Type     Pin     Net                         Time         Slack
+                                                               Clock                                                                                                              
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORERESETP_0.INIT_DONE_int                     m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      sm0_state[0]                0.236        0.319
+m2s010_som_sb_0.CORERESETP_0.CONFIG1_DONE_clk_base             m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       CONFIG1_DONE_q1             0.179        0.362
+m2s010_som_sb_0.CORERESETP_0.CONFIG2_DONE_clk_base             m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       CONFIG2_DONE_q1             0.179        0.362
+m2s010_som_sb_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_clk_base     m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       FIC_2_APB_M_PRESET_N_q1     0.179        0.362
+m2s010_som_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base         m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       POWER_ON_RESET_N_q1         0.179        0.362
+m2s010_som_sb_0.CORERESETP_0.RESET_N_M2F_clk_base              m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       RESET_N_M2F_q1              0.179        0.362
+m2s010_som_sb_0.CORERESETP_0.ddr_settled_clk_base              m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       ddr_settled_q1              0.179        0.362
+m2s010_som_sb_0.CORERESETP_0.release_sdif0_core_clk_base       m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       release_sdif3_core_q1       0.179        0.362
+m2s010_som_sb_0.CORERESETP_0.sdif3_spll_lock_q2                m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       sdif3_spll_lock_q1          0.179        0.362
+m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_clk_base             m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       sm0_areset_n_q1             0.179        0.362
+==================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.555
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.236
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.319
+
+    Number of logic level(s):                0
+    Starting point:                          m2s010_som_sb_0.CORERESETP_0.sm0_state[0] / Q
+    Ending point:                            m2s010_som_sb_0.CORERESETP_0.INIT_DONE_int / EN
+    The start point is clocked by            m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                          Pin      Pin               Arrival     No. of    
+Name                                           Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORERESETP_0.sm0_state[0]      SLE      Q        Out     0.076     0.076       -         
+sm0_state[0]                                   Net      -        -       0.480     -           1         
+m2s010_som_sb_0.CORERESETP_0.INIT_DONE_int     SLE      EN       In      -         0.555       -         
+=========================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                         Starting                                                                                                          Arrival          
+Instance                                                 Reference                                                             Type     Pin     Net                        Time        Slack
+                                                         Clock                                                                                                                              
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORERESETP_0.count_ddr_enable_q1         m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr_enable_q1        0.061       0.362
+m2s010_som_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       sm0_areset_n_rcosc_q1      0.061       0.362
+m2s010_som_sb_0.CORERESETP_0.count_ddr[0]                m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[0]               0.076       0.593
+m2s010_som_sb_0.CORERESETP_0.count_ddr_enable_rcosc      m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr_enable_rcosc     0.076       0.824
+m2s010_som_sb_0.CORERESETP_0.count_ddr[7]                m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[7]               0.061       0.928
+m2s010_som_sb_0.CORERESETP_0.count_ddr[6]                m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[6]               0.061       0.958
+m2s010_som_sb_0.CORERESETP_0.count_ddr[10]               m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[10]              0.076       0.987
+m2s010_som_sb_0.CORERESETP_0.count_ddr[5]                m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[5]               0.061       1.016
+m2s010_som_sb_0.CORERESETP_0.count_ddr[9]                m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[9]               0.076       1.041
+m2s010_som_sb_0.CORERESETP_0.count_ddr[8]                m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       count_ddr[8]               0.076       1.073
+============================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                        Starting                                                                                                          Required          
+Instance                                                Reference                                                             Type     Pin     Net                        Time         Slack
+                                                        Clock                                                                                                                               
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORERESETP_0.count_ddr_enable_rcosc     m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_enable_q1        0.179        0.362
+m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc         m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       sm0_areset_n_rcosc_q1      0.179        0.362
+m2s010_som_sb_0.CORERESETP_0.count_ddr[0]               m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      D       count_ddr_s[0]             0.179        0.593
+m2s010_som_sb_0.CORERESETP_0.count_ddr[0]               m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      EN      count_ddr_enable_rcosc     0.236        0.824
+m2s010_som_sb_0.CORERESETP_0.count_ddr[1]               m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      EN      count_ddr_enable_rcosc     0.236        0.824
+m2s010_som_sb_0.CORERESETP_0.count_ddr[2]               m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      EN      count_ddr_enable_rcosc     0.236        0.824
+m2s010_som_sb_0.CORERESETP_0.count_ddr[3]               m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      EN      count_ddr_enable_rcosc     0.236        0.824
+m2s010_som_sb_0.CORERESETP_0.count_ddr[4]               m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      EN      count_ddr_enable_rcosc     0.236        0.824
+m2s010_som_sb_0.CORERESETP_0.count_ddr[5]               m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      EN      count_ddr_enable_rcosc     0.236        0.824
+m2s010_som_sb_0.CORERESETP_0.count_ddr[6]               m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      EN      count_ddr_enable_rcosc     0.236        0.824
+============================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.541
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.179
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.362
+
+    Number of logic level(s):                0
+    Starting point:                          m2s010_som_sb_0.CORERESETP_0.count_ddr_enable_q1 / Q
+    Ending point:                            m2s010_som_sb_0.CORERESETP_0.count_ddr_enable_rcosc / D
+    The start point is clocked by            m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                   Pin      Pin               Arrival     No. of    
+Name                                                    Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORERESETP_0.count_ddr_enable_q1        SLE      Q        Out     0.061     0.061       -         
+count_ddr_enable_q1                                     Net      -        -       0.480     -           1         
+m2s010_som_sb_0.CORERESETP_0.count_ddr_enable_rcosc     SLE      D        In      -         0.541       -         
+==================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                     Starting                                                                                      Arrival          
+Instance                                             Reference                                             Type     Pin     Net                    Time        Slack
+                                                     Clock                                                                                                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORECONFIGP_0.INIT_DONE_q1           m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       INIT_DONE_q1           0.061       0.362
+m2s010_som_sb_0.CORECONFIGP_0.soft_reset_reg[1]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       soft_reset_reg[1]      0.061       0.457
+m2s010_som_sb_0.CORECONFIGP_0.soft_reset_reg[2]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       soft_reset_reg[2]      0.061       0.457
+m2s010_som_sb_0.CORECONFIGP_0.soft_reset_reg[3]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       soft_reset_reg[3]      0.061       0.457
+m2s010_som_sb_0.CORECONFIGP_0.soft_reset_reg[4]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       soft_reset_reg[4]      0.061       0.457
+m2s010_som_sb_0.CORECONFIGP_0.soft_reset_reg[6]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       soft_reset_reg[6]      0.061       0.457
+m2s010_som_sb_0.CORECONFIGP_0.soft_reset_reg[7]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       soft_reset_reg[7]      0.061       0.457
+m2s010_som_sb_0.CORECONFIGP_0.soft_reset_reg[8]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       soft_reset_reg[8]      0.061       0.457
+m2s010_som_sb_0.CORECONFIGP_0.soft_reset_reg[9]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       soft_reset_reg[9]      0.061       0.457
+m2s010_som_sb_0.CORECONFIGP_0.soft_reset_reg[10]     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       soft_reset_reg[10]     0.061       0.457
+====================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                           Starting                                                                                Required          
+Instance                                                   Reference                                             Type     Pin     Net              Time         Slack
+                                                           Clock                                                                                                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORECONFIGP_0.INIT_DONE_q2                 m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       INIT_DONE_q1     0.179        0.362
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[1]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[1]        0.179        0.457
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[2]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[2]        0.179        0.457
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[3]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[3]        0.179        0.457
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[4]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[4]        0.179        0.457
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[6]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[6]        0.179        0.457
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[7]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[7]        0.179        0.457
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[8]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[8]        0.179        0.457
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[9]      m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[9]        0.179        0.457
+m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[10]     m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[10]       0.179        0.457
+=====================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.541
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.179
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.362
+
+    Number of logic level(s):                0
+    Starting point:                          m2s010_som_sb_0.CORECONFIGP_0.INIT_DONE_q1 / Q
+    Ending point:                            m2s010_som_sb_0.CORECONFIGP_0.INIT_DONE_q2 / D
+    The start point is clocked by            m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock [rising] on pin CLK
+
+Instance / Net                                          Pin      Pin               Arrival     No. of    
+Name                                           Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+m2s010_som_sb_0.CORECONFIGP_0.INIT_DONE_q1     SLE      Q        Out     0.061     0.061       -         
+INIT_DONE_q1                                   Net      -        -       0.480     -           1         
+m2s010_som_sb_0.CORECONFIGP_0.INIT_DONE_q2     SLE      D        In      -         0.541       -         
+=========================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                       Starting                                        Arrival          
+Instance                                                                               Reference     Type     Pin     Net              Time        Slack
+                                                                                       Clock                                                            
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[0]       System        SLE      Q       b6_nUT_IF[0]     0.061       0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[0]     System        SLE      Q       b6_nUT_IF[0]     0.061       0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[1]     System        SLE      Q       b6_nUT_IF[1]     0.061       0.362
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[1]       System        SLE      Q       b6_nUT_IF[1]     0.061       0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[2]     System        SLE      Q       b6_nUT_IF[2]     0.061       0.362
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[2]       System        SLE      Q       b6_nUT_IF[2]     0.061       0.362
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[3]       System        SLE      Q       b6_nUT_IF[3]     0.061       0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[3]     System        SLE      Q       b6_nUT_IF[3]     0.061       0.362
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[4]       System        SLE      Q       b6_nUT_IF[4]     0.061       0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[4]     System        SLE      Q       b6_nUT_IF[4]     0.061       0.362
+========================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                              Starting                                        Required          
+Instance                                                      Reference     Type     Pin     Net              Time         Slack
+                                                              Clock                                                             
+--------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[0]       System        SLE      D       b6_nUT_IF[0]     0.179        0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[0]     System        SLE      D       b6_nUT_IF[0]     0.179        0.362
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[1]       System        SLE      D       b6_nUT_IF[1]     0.179        0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[1]     System        SLE      D       b6_nUT_IF[1]     0.179        0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[2]     System        SLE      D       b6_nUT_IF[2]     0.179        0.362
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[2]       System        SLE      D       b6_nUT_IF[2]     0.179        0.362
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[3]       System        SLE      D       b6_nUT_IF[3]     0.179        0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[3]     System        SLE      D       b6_nUT_IF[3]     0.179        0.362
+ident_coreinst.IICE_0_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[4]     System        SLE      D       b6_nUT_IF[4]     0.179        0.362
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[4]       System        SLE      D       b6_nUT_IF[4]     0.179        0.362
+================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.541
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.179
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.362
+
+    Number of logic level(s):                0
+    Starting point:                          ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[0] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[0] / D
+    The start point is clocked by            System [rising] on pin CLK
+    The end   point is clocked by            m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                Pin      Pin               Arrival     No. of    
+Name                                                                                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b11_nUTGT_khWqH.genblk2\.b3_nUT[0]     SLE      Q        Out     0.061     0.061       -         
+b6_nUT_IF[0]                                                                         Net      -        -       0.480     -           1         
+ident_coreinst.IICE_INST.b8_12m_IFLY.b5_nUTGT.b3_nUT[0]                              SLE      D        In      -         0.541       -         
+===============================================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

@@ -1,0 +1,5 @@
+
+: 0 work.XTLOSC_FAB "C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-090217-DebugCol-1x-Gold\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd" 95 7 
+: 0 work.RCOSC_1MHZ_FAB "C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-090217-DebugCol-1x-Gold\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd" 63 7 
+: 0 work.RCOSC_1MHZ "C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-090217-DebugCol-1x-Gold\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd" 4 7 
+: 0 work.m2s010_som "C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-090217-DebugCol-1x-Gold\component\work\m2s010_som\m2s010_som.vhd" 20 7 work.m2s010_som_sb work.m2s010_som_ID_RES_0_IO work.CoreAPB3 work.CommsFPGA_top work.m2s010_som_CommsFPGA_CCC_0_FCCC 

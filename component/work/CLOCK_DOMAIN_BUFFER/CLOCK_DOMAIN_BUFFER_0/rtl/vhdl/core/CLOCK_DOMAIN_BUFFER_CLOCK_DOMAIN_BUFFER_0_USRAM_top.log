@@ -1,0 +1,93 @@
+
+****************
+Macro Parameters
+****************
+
+Name                            : CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_USRAM_top
+Family                          : SmartFusion2
+Output Format                   : VHDL
+Type                            : URAM
+A_BLK                           : Active High
+B_BLK                           : Active High
+C_BLK                           : Active High
+Reset Polarity                  : None
+A Clock                         : Rising
+AddrA Clock                     : Rising
+DoutA Clock                     : Rising
+AddrA SReset                    : Active High
+DoutA SReset                    : None
+AddrA AReset                    : Active High
+DoutA AReset                    : None
+AddrA Enable                    : Active High
+DoutA Enable                    : None
+B Clock                         : Rising
+AddrB Clock                     : Rising
+DoutB Clock                     : Rising
+AddrB SReset                    : Active High
+DoutB SReset                    : None
+AddrB AReset                    : Active High
+DoutB AReset                    : None
+AddrB Enable                    : Active High
+DoutB Enable                    : None
+Write Clock                     : Rising
+Write Enable                    : Active High
+Write Depth                     : 64
+Write Width                     : 8
+Read Depth A                    : 128
+Read Width A                    : 4
+Read Depth B                    : 128
+Read Width B                    : 4
+A_ADDR_LAT                      : Register
+A_DOUT_LAT                      : Latch
+B_ADDR_LAT                      : Register
+B_DOUT_LAT                      : Latch
+Portname A_DOUT                 : A_DOUT
+Portname B_DOUT                 : B_DOUT
+Portname A_CLK                  : A_CLK
+Portname A_ADDR_CLK             : 
+Portname A_DOUT_CLK             : 
+Portname A_ADDR_SRST            : A_ADDR_SRST_N
+Portname A_DOUT_SRST            : 
+Portname A_ADDR_ARST            : A_ADDR_ARST_N
+Portname A_DOUT_ARST            : 
+Portname A_ADDR_EN              : A_ADDR_EN
+Portname A_DOUT_EN              : 
+Portname A_BLK                  : A_BLK
+Portname A_ADDR                 : A_ADDR
+Portname B_CLK                  : B_CLK
+Portname B_ADDR_CLK             : 
+Portname B_DOUT_CLK             : 
+Portname B_ADDR_SRST_N          : B_ADDR_SRST_N
+Portname B_DOUT_SRST_N          : 
+Portname B_ADDR_ARST_N          : B_ADDR_ARST_N
+Portname B_DOUT_ARST_N          : 
+Portname B_ADDR_EN              : B_ADDR_EN
+Portname B_DOUT_EN              : 
+Portname B_BLK                  : B_BLK
+Portname B_ADDR                 : B_ADDR
+Portname Write Clock            : C_CLK
+Portname Write Address          : C_ADDR
+Portname Write Data             : C_DIN
+Portname Write Enable           : C_WEN
+Portname Write BLK              : C_BLK
+Portname Clock                  : 
+Portname Reset                  : RESET
+LPM_HINT                        : 
+Device                          : 5000
+RAM Type                        : Three Port
+Optimized for                   : Speed
+Clocks                          : One Clock per port
+Initialize RAM                  : False
+ECC Type                        : Disabled
+SET Mitigation                  : Off
+SII Lock                        : Off
+Busy Flag                       : Disabled
+
+Cascade Configuration: 
+     Port A configuration       : 256x4
+     Port B configuration       : 256x4
+     Port C configuration       : 128x9
+     Number of blocks depth wise: 1
+     Number of blocks width wise: 1
+
+Wrote VHDL netlist to C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0/component/work/CLOCK_DOMAIN_BUFFER/CLOCK_DOMAIN_BUFFER_0/rtl\vhdl\core\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_USRAM_top.vhd.

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="305" key="DIALOG_WIDTH"/>
+		<item value="170" key="DIALOG_Y_ORIGIN"/>
+		<item value="837" key="DIALOG_X_ORIGIN"/>
+		<item value="442" key="DIALOG_HEIGHT"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="wrap"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="volatile" key="selection"/>
+		<list key="findhistory">
+			<item value="volatile"/>
+			<item value="b2b_single_rx_message_check"/>
+			<item value="b2b_multiple_rx_message_check"/>
+			<item value="b2b_single_tx_message_send"/>
+			<item value="LoopType"/>
+			<item value="COMMSFPGA_TOP_0"/>
+			<item value="m2s010-som-fg484-1a-116-Rev1a_c"/>
+			<item value="error"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+</section>

@@ -1,0 +1,1 @@
+@E: MF830 |Identify core generation failed. See 'E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug\identify.log' for more information.

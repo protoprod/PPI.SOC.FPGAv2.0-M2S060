@@ -1,0 +1,14 @@
+<!-- File generated from C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5_Unified\SoftConsole\m2s010_som_sb_MSS_CM3\m2s010_som_sb_MSS_CM3_hw_platform\CMSIS\startup_gcc\production-smartfusion2-execute-in-place.ld -->
+<board>
+ <properties>
+  <property name="system-v6-m"/>
+ </properties>
+ <memory-map>
+    <memory-device address="0x00000000" size="256k" type="flash" device="microsemi-smartfusion2-envm">
+      <description>Flash</description>
+    </memory-device>
+    <memory-device address="0x20000000" size="64k" type="ram">
+      <description>SRAM</description>
+    </memory-device>
+  </memory-map>
+</board>

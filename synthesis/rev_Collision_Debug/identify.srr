@@ -1,0 +1,78 @@
+Synopsys VHDL Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Top entity is set to m2s010_som.
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_doubleSync.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\COREFIFO\2.5.106\rtl\vhdl\core\fifo_pkg.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_fwft.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_doubleSync.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_fwft.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\AFE_RX_SM.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\IdleLineDetector.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\CRC16_Generator.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_Collision_Detector.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\Debounce.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som\ID_RES_0\m2s010_som_ID_RES_0_IO.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\CAM_SPI_1_CLK\m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\CAM_SPI_1_SS0\m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\GPIO_1\m2s010_som_sb_GPIO_1_IO.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\GPIO_6\m2s010_som_sb_GPIO_6_IO.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\GPIO_7\m2s010_som_sb_GPIO_7_IO.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\OTH_SPI_1_SS0\m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_sync.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_sync_scntr.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_sync.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_sync_scntr.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\FIFOs.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesEncoder.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\TriDebounce.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\CommsFPGA_top.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\m2s010_som_sb.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som\m2s010_som.vhd
+VHDL syntax check successful!
+
+Identify db is up to date. No re-compile necessary
+
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 89MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Aug 24 13:02:20 2017
+
+###########################################################]

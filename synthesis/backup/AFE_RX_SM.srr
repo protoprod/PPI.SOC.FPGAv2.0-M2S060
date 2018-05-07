@@ -1,0 +1,430 @@
+#Build: Synplify Pro J-2015.03M-SP1-2, Build 266R, Dec 14 2015
+#install: C:\Microsemi\Libero_SoC_v11.7\Synplify
+#OS: Windows 8 6.2
+#Hostname: CAD0019
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ns
+@N:"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":34:7:34:15|Top entity is set to AFE_RX_SM.
+VHDL syntax check successful!
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
+@N: CD630 :"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":34:7:34:15|Synthesizing work.afe_rx_sm.behavioral 
+@N: CD231 :"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":72:25:72:26|Using onehot encoding for type afe_rx_state_type (idle="10000")
+@N: CD364 :"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":117:8:117:21|Removed redundant assignment
+@N: CD364 :"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":120:8:120:21|Removed redundant assignment
+@N: CD364 :"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":121:8:121:21|Removed redundant assignment
+Post processing for work.afe_rx_sm.behavioral
+@W: CL169 :"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":90:4:90:5|Pruning register RX_FIFO_Empty_s_4  
+@N: CL201 :"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":147:6:147:7|Trying to extract state machine for register AFE_RX_STATE
+Extracted state machine for register AFE_RX_STATE
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@W: CL159 :"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":44:4:44:16|Input RX_FIFO_Empty is unused
+@W: CL159 :"C:\work\IRail\PPI.IRail.SoC.FPGA\hdl\AFE_RX_SM.vhd":48:4:48:16|Input rx_packet_end is unused
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Mar 21 14:22:45 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Mar 21 14:22:45 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Mar 21 14:22:45 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Mar 21 14:22:47 2017
+
+###########################################################]
+Pre-mapping Report
+
+Synopsys Generic Technology Pre-mapping, Version mapact, Build 1659R, Built Dec 10 2015 09:44:42
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-SP1-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: C:\work\IRail\PPI.IRail.SoC.FPGA\synthesis\AFE_RX_SM_scck.rpt 
+Printing clock  summary report in "C:\work\IRail\PPI.IRail.SoC.FPGA\synthesis\AFE_RX_SM_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+syn_allowed_resources : blockrams=69  set on top level netlist AFE_RX_SM
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+
+
+@S |Clock Summary
+*****************
+
+Start             Requested     Requested     Clock        Clock              
+Clock             Frequency     Period        Type         Group              
+------------------------------------------------------------------------------
+AFE_RX_SM|clk     100.0 MHz     10.000        inferred     Inferred_clkgroup_0
+==============================================================================
+
+@W: MT530 :"c:\work\irail\ppi.irail.soc.fpga\hdl\afe_rx_sm.vhd":147:6:147:7|Found inferred clock AFE_RX_SM|clk which controls 15 sequential elements including packet_avail. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\work\IRail\PPI.IRail.SoC.FPGA\synthesis\AFE_RX_SM.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Mar 21 14:22:47 2017
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Generic Technology Mapper, Version mapact, Build 1659R, Built Dec 10 2015 09:44:42
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-SP1-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+Encoding state machine AFE_RX_STATE[0:4] (view:work.AFE_RX_SM(behavioral))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+@W: BN132 :"c:\work\irail\ppi.irail.soc.fpga\hdl\afe_rx_sm.vhd":147:6:147:7|Removing sequential instance packet_avail,  because it is equivalent to instance AFE_RX_STATE[1]
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     6.57ns		  23 /        14
+@N: FP130 |Promoting Net clk_c on CLKINT  I_60 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 14 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk                 port                   14         start_bit_mask 
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 132MB)
+
+Writing Analyst data base C:\work\IRail\PPI.IRail.SoC.FPGA\synthesis\synwork\AFE_RX_SM_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |Synopsys Constraint File time units using default value of 1ns 
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+J-2015.03M-SP1-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+@W: MT420 |Found inferred clock AFE_RX_SM|clk with period 10.00ns. Please declare a user-defined clock on object "p:clk"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Mar 21 14:22:48 2017
+#
+
+
+Top view:               AFE_RX_SM
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 7.402
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------
+AFE_RX_SM|clk      100.0 MHz     384.9 MHz     10.000        2.598         7.402     inferred     Inferred_clkgroup_0
+=====================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                        |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------
+Starting       Ending         |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------
+AFE_RX_SM|clk  AFE_RX_SM|clk  |  10.000      7.402  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: AFE_RX_SM|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                   Arrival          
+Instance               Reference         Type     Pin     Net                     Time        Slack
+                       Clock                                                                       
+---------------------------------------------------------------------------------------------------
+AFE_RX_STATE[1]        AFE_RX_SM|clk     SLE      Q       packet_avail_c          0.108       7.402
+irx_packet_end_all     AFE_RX_SM|clk     SLE      Q       rx_packet_end_all_c     0.108       7.432
+start_bit_cntr[1]      AFE_RX_SM|clk     SLE      Q       start_bit_cntr[1]       0.108       7.472
+start_bit_cntr[0]      AFE_RX_SM|clk     SLE      Q       start_bit_cntr[0]       0.108       7.595
+start_bit_mask         AFE_RX_SM|clk     SLE      Q       start_bit_mask          0.087       7.651
+start_bit_cntr[3]      AFE_RX_SM|clk     SLE      Q       start_bit_cntr[3]       0.108       7.675
+start_bit_cntr[2]      AFE_RX_SM|clk     SLE      Q       start_bit_cntr[2]       0.108       7.798
+AFE_RX_STATE[3]        AFE_RX_SM|clk     SLE      Q       AFE_RX_STATE[3]         0.108       7.813
+AFE_RX_STATE[2]        AFE_RX_SM|clk     SLE      Q       AFE_RX_STATE[2]         0.108       7.832
+RX_EarlyTerm_s         AFE_RX_SM|clk     SLE      Q       RX_EarlyTerm_s          0.108       7.896
+===================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                                         Required          
+Instance              Reference         Type     Pin     Net                           Time         Slack
+                      Clock                                                                              
+---------------------------------------------------------------------------------------------------------
+clk1x_enable          AFE_RX_SM|clk     SLE      D       AFE_RX_SM\.clk1x_enable_6     9.745        7.402
+start_bit_cntr[1]     AFE_RX_SM|clk     SLE      D       start_bit_cntrc_i_0           9.745        7.432
+start_bit_cntr[2]     AFE_RX_SM|clk     SLE      D       start_bit_cntrc_0_i_0         9.745        7.472
+start_bit_cntr[3]     AFE_RX_SM|clk     SLE      D       start_bit_cntrc_1_i_0         9.745        7.472
+AFE_RX_STATE[1]       AFE_RX_SM|clk     SLE      D       AFE_RX_STATE_ns[3]            9.745        7.532
+start_bit_mask        AFE_RX_SM|clk     SLE      D       start_bit_masks               9.745        7.634
+AFE_RX_STATE[2]       AFE_RX_SM|clk     SLE      D       AFE_RX_STATE_ns[2]            9.745        7.651
+start_bit_cntr[0]     AFE_RX_SM|clk     SLE      D       start_bit_cntrc_2_i_0         9.745        7.675
+AFE_RX_STATE[0]       AFE_RX_SM|clk     SLE      D       AFE_RX_STATE_ns[4]            9.745        8.203
+rx_packet_avail       AFE_RX_SM|clk     SLE      D       N_84_i_0                      9.745        8.203
+=========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      2.343
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     7.402
+
+    Number of logic level(s):                2
+    Starting point:                          AFE_RX_STATE[1] / Q
+    Ending point:                            clk1x_enable / D
+    The start point is clocked by            AFE_RX_SM|clk [rising] on pin CLK
+    The end   point is clocked by            AFE_RX_SM|clk [rising] on pin CLK
+
+Instance / Net                              Pin      Pin               Arrival     No. of    
+Name                               Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------
+AFE_RX_STATE[1]                    SLE      Q        Out     0.108     0.108       -         
+packet_avail_c                     Net      -        -       1.131     -           5         
+AFE_RX_SM\.clk1x_enable_6_0_o4     CFG3     B        In      -         1.239       -         
+AFE_RX_SM\.clk1x_enable_6_0_o4     CFG3     Y        Out     0.164     1.403       -         
+N_89                               Net      -        -       0.556     -           1         
+AFE_RX_SM\.clk1x_enable_6_0        CFG4     C        In      -         1.959       -         
+AFE_RX_SM\.clk1x_enable_6_0        CFG4     Y        Out     0.226     2.184       -         
+AFE_RX_SM\.clk1x_enable_6          Net      -        -       0.159     -           1         
+clk1x_enable                       SLE      D        In      -         2.343       -         
+=============================================================================================
+Total path delay (propagation time + setup) of 2.598 is 0.754(29.0%) logic and 1.845(71.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+---------------------------------------
+Resource Usage Report for AFE_RX_SM 
+
+Mapping to part: m2s060tfcsbga325std
+Cell usage:
+CLKINT          1 use
+CFG1           1 use
+CFG2           3 uses
+CFG3           6 uses
+CFG4           14 uses
+
+
+Sequential Cells: 
+SLE            14 uses
+
+DSP Blocks:    0
+
+I/O ports: 21
+I/O primitives: 19
+INBUF          15 uses
+OUTBUF         4 uses
+
+
+Global Clock Buffers: 1
+
+
+Total LUTs:    24
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  14 + 0 + 0 + 0 = 14;
+Total number of LUTs after P&R:  24 + 0 + 0 + 0 = 24;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 49MB peak: 132MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Mar 21 14:22:48 2017
+
+###########################################################]

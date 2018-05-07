@@ -1,0 +1,17 @@
+
+		#####  BEGIN RETIMING REPORT  #####
+
+Retiming summary : 1 registers retimed to 4
+
+Original and Pipelined registers replaced by retiming :
+		CommsFPGA_top_0.MDIO_SLAVE_INST.mdio_reg
+
+New registers created by retiming :
+		m2s010_som_sb_0.m2s010_som_sb_MSS_0.mdio_reg_ret
+		m2s010_som_sb_0.m2s010_som_sb_MSS_0.mdio_reg_ret_1
+		mdio_reg_ret
+		mdio_reg_ret_1
+
+
+		#####   END RETIMING REPORT  #####
+

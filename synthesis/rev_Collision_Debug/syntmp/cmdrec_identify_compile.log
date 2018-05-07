@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\identify_instrumentor_shell.exe  -idb  "E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug\identify.db"  -synplify_install  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro  -synplify_tool  synplify_pro  -log  "E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug\synlog\m2s010_som_identify_compile.log"  -family  SmartFusion2  -prj  "E:\FPGA Archive\v1_6-082317-Linux\synthesis\m2s010_som_syn.prj"  -curimpl  rev_Collision_Debug  -dbgimpl  rev_Collision_Debug  -fver  2017.03  -idc  "E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug\identify.idc"  -f  "E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug\identifylaunch.tcl" 
+rc:0 success:1 runtime:2
+file:E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug\identify.db|io:i|time:1503593888|size:1226812|exec:0
+file:E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug\synlog\m2s010_som_identify_compile.log|io:o|time:1503594141|size:2441|exec:0
+file:E:\FPGA Archive\v1_6-082317-Linux\synthesis\m2s010_som_syn.prj|io:i|time:1503594139|size:9906|exec:0
+file:E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug\identify.idc|io:i|time:1503593677|size:5106|exec:0
+file:E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug\identifylaunch.tcl|io:o|time:1503594140|size:123|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\identify_instrumentor_shell.exe|io:i|time:1479355152|size:125440|exec:1

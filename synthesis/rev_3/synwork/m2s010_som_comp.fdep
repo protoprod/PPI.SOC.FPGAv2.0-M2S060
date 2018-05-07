@@ -1,0 +1,371 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\synthesis\\rev_3\\synwork\\m2s010_som_comp.srs|-top|work.m2s010_som|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|work|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\bin64\\c_vhdl.exe":1479996692
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\location.map":1478822388
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\std.vhd":1487959786
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1487959654
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1487959786
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1487959786
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1487959786
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1487959654
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1487959786
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1487959786
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1487959654
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\hdl\\AFE_RX_SM.vhd":1501080536
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\hdl\\IdleLineDetector.vhd":1501076682
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\hdl\\CRC16_Generator.vhd":1490122720
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\hdl\\TX_Collision_Detector.vhd":1502130733
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\hdl\\Debounce.vhd":1490122720
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\hdl\\Interrupts.vhd":1503323437
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\misc.vhd":1487959786
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\corefifo_doubleSync.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\corefifo_grayToBinConv.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\Actel\\DirectCore\\COREFIFO\\2.5.106\\rtl\\vhdl\\core\\fifo_pkg.vhd":1502996492
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\corefifo_fwft.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd":1491486885
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\generic\\smartfusion2.vhd":1487959628
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\corefifo_doubleSync.vhd":1503057102
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\corefifo_grayToBinConv.vhd":1503057102
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\corefifo_fwft.vhd":1503057102
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top.vhd":1503057102
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\m2s010_som\\CommsFPGA_CCC_0\\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd":1502995175
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\m2s010_som\\ID_RES_0\\m2s010_som_ID_RES_0_IO.vhd":1502995176
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\Actel\\DirectCore\\CoreConfigP\\7.0.105\\rtl\\vhdl\\core\\coreconfigp.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\Actel\\DirectCore\\CoreResetP\\7.0.104\\rtl\\vhdl\\core\\coreresetp_pcie_hotreset.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\m2s010_som_sb\\CAM_SPI_1_CLK\\m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\m2s010_som_sb\\CAM_SPI_1_SS0\\m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\m2s010_som_sb\\CCC_0\\m2s010_som_sb_CCC_0_FCCC.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\Actel\\SgCore\\OSC\\1.0.105\\osc_comps.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\m2s010_som_sb\\GPIO_1\\m2s010_som_sb_GPIO_1_IO.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\m2s010_som_sb\\GPIO_6\\m2s010_som_sb_GPIO_6_IO.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\m2s010_som_sb\\GPIO_7\\m2s010_som_sb_GPIO_7_IO.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\m2s010_som_sb_MSS\\m2s010_som_sb_MSS_syn.vhd":1502887723
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\m2s010_som_sb\\OTH_SPI_1_SS0\\m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_muxptob3.vhd":1500639526
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_iaddr_reg.vhd":1500639526
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\components.vhd":1500639526
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\hdl\\ManchesDecoder_Adapter.vhd":1501695402
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\hdl\\ReadFIFO_Write_SM.vhd":1502202270
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\hdl\\ManchesDecoder.vhd":1501077420
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\hdl\\TX_SM.vhd":1502210865
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\hdl\\ManchesEncoder.vhd":1502816532
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\hdl\\TriDebounce.vhd":1490122720
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\hdl\\uP_if.vhd":1501858103
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\corefifo_async.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\corefifo_sync.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\corefifo_sync_scntr.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8_0\\rtl\\vhdl\\core\\COREFIFO.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_2Kx8\\FIFO_2Kx8.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\corefifo_async.vhd":1503057102
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\corefifo_sync.vhd":1503057102
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\corefifo_sync_scntr.vhd":1503057102
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd":1503057101
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9_0\\rtl\\vhdl\\core\\COREFIFO.vhd":1503057102
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\FIFO_8Kx9\\FIFO_8Kx9.vhd":1503057103
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\hdl\\FIFOs.vhd":1503411658
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\hdl\\CommsFPGA_top.vhd":1502128752
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\Actel\\DirectCore\\CoreResetP\\7.0.104\\rtl\\vhdl\\core\\coreresetp.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\m2s010_som_sb\\FABOSC_0\\m2s010_som_sb_FABOSC_0_OSC.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\m2s010_som_sb_MSS\\m2s010_som_sb_MSS.vhd":1502887725
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\m2s010_som_sb\\m2s010_som_sb.vhd":1491486885
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3.vhd":1500639526
+#CUR:"C:\\Users\\gcallsen\\Documents\\Projects\\FPGA\\081817-1v6-Linux-Debug-Ident\\component\\work\\m2s010_som\\m2s010_som.vhd":1502995176
+0			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\hdl\AFE_RX_SM.vhd" vhdl
+1			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\hdl\IdleLineDetector.vhd" vhdl
+2			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\hdl\ManchesDecoder_Adapter.vhd" vhdl
+3			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\hdl\CRC16_Generator.vhd" vhdl
+4			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\hdl\ReadFIFO_Write_SM.vhd" vhdl
+5			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\hdl\ManchesDecoder.vhd" vhdl
+6			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\hdl\TX_Collision_Detector.vhd" vhdl
+7			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\hdl\TX_SM.vhd" vhdl
+8			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\hdl\ManchesEncoder.vhd" vhdl
+9			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\hdl\Debounce.vhd" vhdl
+10			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\hdl\TriDebounce.vhd" vhdl
+11			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\hdl\Interrupts.vhd" vhdl
+12			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\hdl\uP_if.vhd" vhdl
+13			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_doubleSync.vhd" vhdl
+14			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd" vhdl
+15			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\Actel\DirectCore\COREFIFO\2.5.106\rtl\vhdl\core\fifo_pkg.vhd" vhdl
+16			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd" vhdl
+17			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_fwft.vhd" vhdl
+18			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_sync.vhd" vhdl
+19			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_sync_scntr.vhd" vhdl
+20			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd" vhdl
+21			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd" vhdl
+22			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd" vhdl
+23			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_2Kx8\FIFO_2Kx8.vhd" vhdl
+24			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_doubleSync.vhd" vhdl
+25			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd" vhdl
+26			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd" vhdl
+27			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_fwft.vhd" vhdl
+28			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_sync.vhd" vhdl
+29			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_sync_scntr.vhd" vhdl
+30			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top.vhd" vhdl
+31			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd" vhdl
+32			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd" vhdl
+33			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\FIFO_8Kx9\FIFO_8Kx9.vhd" vhdl
+34			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\hdl\FIFOs.vhd" vhdl
+35			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\hdl\CommsFPGA_top.vhd" vhdl
+36			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd" vhdl
+37			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\m2s010_som\ID_RES_0\m2s010_som_ID_RES_0_IO.vhd" vhdl
+38			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd" vhdl
+39			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd" vhdl
+40			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd" vhdl
+41			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\m2s010_som_sb\CAM_SPI_1_CLK\m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd" vhdl
+42			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\m2s010_som_sb\CAM_SPI_1_SS0\m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd" vhdl
+43			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd" vhdl
+44			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\Actel\SgCore\OSC\1.0.105\osc_comps.vhd" vhdl
+45			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd" vhdl
+46			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\m2s010_som_sb\GPIO_1\m2s010_som_sb_GPIO_1_IO.vhd" vhdl
+47			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\m2s010_som_sb\GPIO_6\m2s010_som_sb_GPIO_6_IO.vhd" vhdl
+48			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\m2s010_som_sb\GPIO_7\m2s010_som_sb_GPIO_7_IO.vhd" vhdl
+49			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd" vhdl
+50			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd" vhdl
+51			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\m2s010_som_sb\OTH_SPI_1_SS0\m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd" vhdl
+52			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\m2s010_som_sb\m2s010_som_sb.vhd" vhdl
+53			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd" vhdl
+54			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd" vhdl
+55			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd" vhdl
+56			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd" vhdl
+57			"C:\Users\gcallsen\Documents\Projects\FPGA\081817-1v6-Linux-Debug-Ident\component\work\m2s010_som\m2s010_som.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1
+3 -1
+4 3
+5 4 0 2
+6 -1
+7 1
+8 3 7 6
+9 -1
+10 9
+11 -1
+12 11
+13 -1
+14 -1
+15 -1
+16 15 14 13
+17 -1
+18 15
+19 15
+20 -1
+21 20
+22 15 17 18 19 21 16
+23 22
+24 -1
+25 -1
+26 15 25 24
+27 -1
+28 15
+29 15
+30 -1
+31 30
+32 15 27 28 29 31 26
+33 32
+34 33 23
+35 5 8 34 12 10
+36 -1
+37 -1
+38 -1
+39 -1
+40 39
+41 -1
+42 -1
+43 -1
+44 -1
+45 44
+46 -1
+47 -1
+48 -1
+49 -1
+50 49
+51 -1
+52 51 50 48 47 46 45 40 38 43 42 41
+53 -1
+54 -1
+55 54 53
+56 -1
+57 56 52 37 55 35 36
+#Dependency Lists(Users Of)
+0 5
+1 7 2
+2 5
+3 8 4
+4 5
+5 35
+6 8
+7 8
+8 35
+9 10
+10 35
+11 12
+12 35
+13 16
+14 16
+15 16 18 19 22 26 28 29 32
+16 22
+17 22
+18 22
+19 22
+20 21
+21 22
+22 23
+23 34
+24 26
+25 26
+26 32
+27 32
+28 32
+29 32
+30 31
+31 32
+32 33
+33 34
+34 35
+35 57
+36 57
+37 57
+38 52
+39 40
+40 52
+41 52
+42 52
+43 52
+44 45
+45 52
+46 52
+47 52
+48 52
+49 50
+50 52
+51 52
+52 57
+53 55
+54 55
+55 57
+56 57
+57 -1
+#Design Unit to File Association
+module work m2s010_som 57
+arch work m2s010_som rtl 57
+module coreapb3_lib coreapb3 55
+arch coreapb3_lib coreapb3 coreapb3_arch 55
+module coreapb3_lib coreapb3_iaddr_reg 54
+arch coreapb3_lib coreapb3_iaddr_reg rtl 54
+module coreapb3_lib coreapb3_muxptob3 53
+arch coreapb3_lib coreapb3_muxptob3 coreapb3_muxptob3_arch 53
+module work m2s010_som_sb 52
+arch work m2s010_som_sb rtl 52
+module work m2s010_som_sb_oth_spi_1_ss0_io 51
+arch work m2s010_som_sb_oth_spi_1_ss0_io def_arch 51
+module work m2s010_som_sb_mss 50
+arch work m2s010_som_sb_mss rtl 50
+module work mss_060 49
+arch work mss_060 def_arch 49
+module work m2s010_som_sb_gpio_7_io 48
+arch work m2s010_som_sb_gpio_7_io def_arch 48
+module work m2s010_som_sb_gpio_6_io 47
+arch work m2s010_som_sb_gpio_6_io def_arch 47
+module work m2s010_som_sb_gpio_1_io 46
+arch work m2s010_som_sb_gpio_1_io def_arch 46
+module work m2s010_som_sb_fabosc_0_osc 45
+arch work m2s010_som_sb_fabosc_0_osc def_arch 45
+module work rcosc_1mhz 44
+arch work rcosc_1mhz def_arch 44
+module work rcosc_25_50mhz 44
+arch work rcosc_25_50mhz def_arch 44
+module work xtlosc 44
+arch work xtlosc def_arch 44
+module work rcosc_1mhz_fab 44
+arch work rcosc_1mhz_fab def_arch 44
+module work rcosc_25_50mhz_fab 44
+arch work rcosc_25_50mhz_fab def_arch 44
+module work xtlosc_fab 44
+arch work xtlosc_fab def_arch 44
+module work m2s010_som_sb_ccc_0_fccc 43
+arch work m2s010_som_sb_ccc_0_fccc def_arch 43
+module work m2s010_som_sb_cam_spi_1_ss0_io 42
+arch work m2s010_som_sb_cam_spi_1_ss0_io def_arch 42
+module work m2s010_som_sb_cam_spi_1_clk_io 41
+arch work m2s010_som_sb_cam_spi_1_clk_io def_arch 41
+module work coreresetp 40
+arch work coreresetp rtl 40
+module work coreresetp_pcie_hotreset 39
+arch work coreresetp_pcie_hotreset rtl 39
+module work coreconfigp 38
+arch work coreconfigp rtl 38
+module work m2s010_som_id_res_0_io 37
+arch work m2s010_som_id_res_0_io def_arch 37
+module work m2s010_som_commsfpga_ccc_0_fccc 36
+arch work m2s010_som_commsfpga_ccc_0_fccc def_arch 36
+module work commsfpga_top 35
+arch work commsfpga_top behavioral 35
+module work fifos 34
+arch work fifos behavioral 34
+module work fifo_8kx9 33
+arch work fifo_8kx9 rtl 33
+module corefifo_lib fifo_8kx9_fifo_8kx9_0_corefifo 32
+arch corefifo_lib fifo_8kx9_fifo_8kx9_0_corefifo translated 32
+module corefifo_lib fifo_8kx9_fifo_8kx9_0_ram_wrapper 31
+arch corefifo_lib fifo_8kx9_fifo_8kx9_0_ram_wrapper generated 31
+module corefifo_lib fifo_8kx9_fifo_8kx9_0_lsram_top 30
+arch corefifo_lib fifo_8kx9_fifo_8kx9_0_lsram_top def_arch 30
+module corefifo_lib fifo_8kx9_fifo_8kx9_0_corefifo_sync_scntr 29
+arch corefifo_lib fifo_8kx9_fifo_8kx9_0_corefifo_sync_scntr translated 29
+module corefifo_lib fifo_8kx9_fifo_8kx9_0_corefifo_sync 28
+arch corefifo_lib fifo_8kx9_fifo_8kx9_0_corefifo_sync translated 28
+module corefifo_lib fifo_8kx9_fifo_8kx9_0_corefifo_fwft 27
+arch corefifo_lib fifo_8kx9_fifo_8kx9_0_corefifo_fwft translated 27
+module corefifo_lib fifo_8kx9_fifo_8kx9_0_corefifo_async 26
+arch corefifo_lib fifo_8kx9_fifo_8kx9_0_corefifo_async translated 26
+module corefifo_lib fifo_8kx9_fifo_8kx9_0_corefifo_graytobinconv 25
+arch corefifo_lib fifo_8kx9_fifo_8kx9_0_corefifo_graytobinconv translated 25
+module corefifo_lib fifo_8kx9_fifo_8kx9_0_corefifo_doublesync 24
+arch corefifo_lib fifo_8kx9_fifo_8kx9_0_corefifo_doublesync translated 24
+module work fifo_2kx8 23
+arch work fifo_2kx8 rtl 23
+module corefifo_lib fifo_2kx8_fifo_2kx8_0_corefifo 22
+arch corefifo_lib fifo_2kx8_fifo_2kx8_0_corefifo translated 22
+module corefifo_lib fifo_2kx8_fifo_2kx8_0_ram_wrapper 21
+arch corefifo_lib fifo_2kx8_fifo_2kx8_0_ram_wrapper generated 21
+module corefifo_lib fifo_2kx8_fifo_2kx8_0_lsram_top 20
+arch corefifo_lib fifo_2kx8_fifo_2kx8_0_lsram_top def_arch 20
+module corefifo_lib fifo_2kx8_fifo_2kx8_0_corefifo_sync_scntr 19
+arch corefifo_lib fifo_2kx8_fifo_2kx8_0_corefifo_sync_scntr translated 19
+module corefifo_lib fifo_2kx8_fifo_2kx8_0_corefifo_sync 18
+arch corefifo_lib fifo_2kx8_fifo_2kx8_0_corefifo_sync translated 18
+module corefifo_lib fifo_2kx8_fifo_2kx8_0_corefifo_fwft 17
+arch corefifo_lib fifo_2kx8_fifo_2kx8_0_corefifo_fwft translated 17
+module corefifo_lib fifo_2kx8_fifo_2kx8_0_corefifo_async 16
+arch corefifo_lib fifo_2kx8_fifo_2kx8_0_corefifo_async translated 16
+module corefifo_lib fifo_2kx8_fifo_2kx8_0_corefifo_graytobinconv 14
+arch corefifo_lib fifo_2kx8_fifo_2kx8_0_corefifo_graytobinconv translated 14
+module corefifo_lib fifo_2kx8_fifo_2kx8_0_corefifo_doublesync 13
+arch corefifo_lib fifo_2kx8_fifo_2kx8_0_corefifo_doublesync translated 13
+module work up_if 12
+arch work up_if behavioral 12
+module work interrupts 11
+arch work interrupts behavioral 11
+module work tridebounce 10
+arch work tridebounce behavioral 10
+module work debounce 9
+arch work debounce behavioral 9
+module work manchesencoder 8
+arch work manchesencoder behavioral 8
+module work tx_sm 7
+arch work tx_sm behavioral 7
+module work tx_collision_detector 6
+arch work tx_collision_detector behavioral 6
+module work manchesdecoder 5
+arch work manchesdecoder v1 5
+module work readfifo_write_sm 4
+arch work readfifo_write_sm behavioral 4
+module work crc16_generator 3
+arch work crc16_generator imp_crc 3
+module work manchesdecoder_adapter 2
+arch work manchesdecoder_adapter v1 2
+module work idlelinedetector 1
+arch work idlelinedetector behavioral 1
+module work afe_rx_sm 0
+arch work afe_rx_sm behavioral 0

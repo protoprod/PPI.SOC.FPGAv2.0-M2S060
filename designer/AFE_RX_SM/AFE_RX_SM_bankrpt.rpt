@@ -1,0 +1,55 @@
+********************************************************************
+I/O Bank Report - Date: Tue Mar 21 14:28:21 2017
+Product: Designer
+Release: v11.7 SP3
+Version: 11.7.3.8
+Design Name: AFE_RX_SM
+Family: SmartFusion2
+Die: M2S060T
+Package: 325 FCSBGA
+********************************************************************
+
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 15            | 0            | 0
+    Output I/O                            | 4             | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os              
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vddi  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVCMOS33                        | 3.30v | N/A   | 15    | 4      | 0            
+
+I/O Bank Resource Usage:
+
+          |   Voltages    | Single I/Os  | Diff I/O Pairs |        Vref I/Os        |  Type   
+          |-------|-------|------|-------|-------|--------|------|-------|----------|---------
+          | Vddi  | Vref  | Used | Total | Used  | Total  | Used | Total | Vref Pins|         
+    ------|-------|-------|------|-------|-------|--------|------|-------|----------|---------
+    Bank0 | N/A   | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | MSIO    
+    Bank1 | N/A   | N/A   | 0    | 64    | 0     | 32     | N/A  | N/A   | N/A      | DDRIO   
+    Bank2 | N/A   | N/A   | 0    | 10    | 0     | 5      | N/A  | N/A   | N/A      | MSIO    
+    Bank3 | N/A   | N/A   | 0    | 12    | 0     | 6      | N/A  | N/A   | N/A      | MSIO    
+    Bank4 | 3.30v | N/A   | 18   | 32    | 0     | 16     | N/A  | N/A   | N/A      | MSIO    
+    Bank5 | N/A   | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | JTAG    
+    Bank6 | 3.30v | N/A   | 1    | 24    | 0     | 12     | N/A  | N/A   | N/A      | MSIO    
+    Bank7 | N/A   | N/A   | 0    | 4     | 0     | 2      | N/A  | N/A   | N/A      | MSIOD   
+    Bank8 | N/A   | N/A   | 0    | 18    | 0     | 9      | N/A  | N/A   | N/A      | MSIOD   
+    Bank9 | N/A   | N/A   | 0    | 36    | 0     | 18     | N/A  | N/A   | N/A      | MSIO    
+
+I/O Voltage Usage:
+
+       Voltages    |     I/Os     
+    -------|-------|------|-------
+     Vddi  | Vref  | Used | Total 
+    -------|-------|------|-------
+     3.30v | N/A   | 19   | 56    
+

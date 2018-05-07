@@ -1,0 +1,2 @@
+@W: BN132 :"c:\work\irail\ppi.irail.soc.fpga\hdl\afe_rx_sm.vhd":147:6:147:7|Removing sequential instance packet_avail,  because it is equivalent to instance AFE_RX_STATE[1]
+@W: MT420 |Found inferred clock AFE_RX_SM|clk with period 10.00ns. Please declare a user-defined clock on object "p:clk"

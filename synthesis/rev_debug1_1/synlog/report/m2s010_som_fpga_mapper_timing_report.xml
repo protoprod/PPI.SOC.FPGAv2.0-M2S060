@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol\synthesis\rev_debug1_1\synlog\m2s010_som_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>CommsFPGA_top|BIT_CLK_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>131.3 MHz</data>
+<data>2.386</data>
+</row>
+<row>
+<data>ident_coreinst.comm_block_INST.dr2_tck</data>
+<data>1.0 MHz</data>
+<data>883.6 MHz</data>
+<data>998.868</data>
+</row>
+<row>
+<data>jtag_interface_x|b9_nv_oQwfYF</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>jtag_interface_x|b10_8Kz_rKlrtX</data>
+<data>100.0 MHz</data>
+<data>737.2 MHz</data>
+<data>8.643</data>
+</row>
+<row>
+<data>jtag_interface_x|identify_clk_int_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>250.2 MHz</data>
+<data>6.003</data>
+</row>
+<row>
+<data>m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>169.3 MHz</data>
+<data>4.093</data>
+</row>
+<row>
+<data>m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>457.7 MHz</data>
+<data>7.815</data>
+</row>
+<row>
+<data>m2s010_som_sb_CAM_SPI_1_CLK_IO|Y_inferred_clock[0]</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>116.9 MHz</data>
+<data>1.449</data>
+</row>
+<row>
+<data>m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>372.7 MHz</data>
+<data>7.317</data>
+</row>
+<row>
+<data>m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>123.9 MHz</data>
+<data>1.351</data>
+</row>
+<row>
+<data>m2s010_som|MAC_MII_RX_CLK</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>m2s010_som|MAC_MII_TX_CLK</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>170.7 MHz</data>
+<data>4.143</data>
+</row>
+</report_table>

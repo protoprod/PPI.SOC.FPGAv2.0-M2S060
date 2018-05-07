@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082217\designer\impl1\m2s010_som_rev_Col_Debug.adb"
+LIST SOURCE_FILES
+VALUE "C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082217\synthesis\rev_Col_Debug\m2s010_som.edn;edn"
+VALUE "C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082217\constraint\io\m2s010_som.io.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082217\synthesis\rev_Col_Debug\m2s010_som_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

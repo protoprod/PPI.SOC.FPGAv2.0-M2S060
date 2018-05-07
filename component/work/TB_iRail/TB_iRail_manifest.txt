@@ -1,0 +1,13 @@
+Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP2 (Version 11.8.2.4)
+
+Date      :  Wed Mar 07 16:06:29 2018
+Project   :  C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0
+Component :  TB_iRail
+Family    :  SmartFusion2
+
+
+Stimulus files for all Simulation tools:
+    C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.vhd
+    C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.vhd
+    C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0/component/work/TB_iRail/TB_iRail.vhd
+

@@ -1,0 +1,1010 @@
+#Build: Synplify Pro L-2016.09M-2, Build 065R, Nov 16 2016
+#install: C:\Microsemi\Libero_SoC_v11.8\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: GCALLSEN
+
+# Thu Aug 24 12:52:23 2017
+
+#Implementation: rev_Collision_Debug
+
+$ Running Identify Instrumentor. See log file:
+@N::"E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug\synlog\m2s010_som_identify_compile.log"|
+#Thu Aug 24 12:52:23 2017
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Top entity is set to m2s010_som.
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_doubleSync.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\COREFIFO\2.5.106\rtl\vhdl\core\fifo_pkg.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_fwft.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_doubleSync.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_fwft.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\AFE_RX_SM.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\IdleLineDetector.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\CRC16_Generator.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_Collision_Detector.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\Debounce.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som\ID_RES_0\m2s010_som_ID_RES_0_IO.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\CAM_SPI_1_CLK\m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\CAM_SPI_1_SS0\m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\GPIO_1\m2s010_som_sb_GPIO_1_IO.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\GPIO_6\m2s010_som_sb_GPIO_6_IO.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\GPIO_7\m2s010_som_sb_GPIO_7_IO.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\OTH_SPI_1_SS0\m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_sync.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_sync_scntr.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_sync.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_sync_scntr.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\FIFOs.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesEncoder.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\TriDebounce.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\hdl\CommsFPGA_top.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\m2s010_som_sb.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd
+Parsing E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som\m2s010_som.vhd
+VHDL syntax check successful!
+
+Identify db is up to date. No re-compile necessary
+
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 89MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Aug 24 12:52:23 2017
+
+###########################################################]
+Running in restricted mode: identify_job
+
+Starting:    C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\mbin\identify_instrumentor_shell.exe
+Install:     C:\Microsemi\Libero_SoC_v11.8\SynplifyPro
+Hostname:    GCALLSEN
+Date:        Thu Aug 24 12:52:23 2017
+Version:     L-2016.09M-2
+
+Arguments:   -product identify_instrumentor -tsl SomLJshi -af _CMD_.CML
+ProductType: identify_instrumentor
+
+
+
+
+*** Integrated Instrumentor ***
+Added instrumentation 'rev_6' to the project
+"design_flow" is unrecognized option for current device
+Added instrumentation 'rev_Collision_Debug' to the project
+"design_flow" is unrecognized option for current device
+Warning: CommsFPGA_top.vhd(265): Process `bit_clock_gen' contains an inner conditional statement which is sensitive to a clock edge
+Warning: No breakpoints will be detected in this process
+Warning: CommsFPGA_top.vhd(279): Process `clock_gen' contains an inner conditional statement which is sensitive to a clock edge
+Warning: No breakpoints will be detected in this process
+Warning: uP_if.vhd(289): Process `ready_delay_proc' contains an inner conditional statement which is sensitive to a clock edge
+Warning: No breakpoints will be detected in this process
+Warning: coreresetp.vhd(1368): Process `process_1368' is sensitive to a clock edge, but contains multiple top-level conditional statements
+Warning: No breakpoints will be detected in this process
+Current design is m2s010_som
+Loading instrumentation 'rev_Collision_Debug'
+Source IDC file E:/FPGA Archive/v1_6-082317-Linux/synthesis/rev_Collision_Debug/identify.idc
+Setting IICE sampler (set IICE clock) to '/rtl/CommsFPGA_top_0/clk' for IICE named 'IICE' (previous value: '')
+Instrumenting design `m2s010_som' in directory E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug
+The target device family is 'SmartFusion2' (and considered a ProAsic3-based family; hence we do care about UJTAG / UJTAG_WRAPPER instances).
+The design does not contain a UJTAG_WRAPPER instance.
+OK, the design does not contain a UJTAG instance.
+Current instrumentation information: 	IICE=IICE 
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 172
+		Group wise instrumentation in bits: 
+					Groupdefault:Sample Only 0, Sample and trigger 172
+
+exit status=0
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N::Reading compiler constraint file E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug\instr_sources\syn_dics.cdc
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Top entity is set to m2s010_som.
+VHDL syntax check successful!
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Synthesizing work.m2s010_som.rtl.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\m2s010_som_sb.vhd":17:7:17:19|Synthesizing work.m2s010_som_sb.rtl.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":434:10:434:14|Synthesizing smartfusion2.bibuf.syn_black_box.
+Post processing for smartfusion2.bibuf.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":413:10:413:15|Synthesizing smartfusion2.outbuf.syn_black_box.
+Post processing for smartfusion2.outbuf.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":786:10:786:17|Synthesizing smartfusion2.sysreset.syn_black_box.
+Post processing for smartfusion2.sysreset.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":276:10:276:12|Synthesizing smartfusion2.mx2.syn_black_box.
+Post processing for smartfusion2.mx2.syn_black_box
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\OTH_SPI_1_SS0\m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd":8:7:8:36|Synthesizing work.m2s010_som_sb_oth_spi_1_ss0_io.def_arch.
+Post processing for work.m2s010_som_sb_oth_spi_1_ss0_io.def_arch
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd":17:7:17:23|Synthesizing work.m2s010_som_sb_mss.rtl.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":503:10:503:20|Synthesizing smartfusion2.outbuf_diff.syn_black_box.
+Post processing for smartfusion2.outbuf_diff.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":403:10:403:14|Synthesizing smartfusion2.inbuf.syn_black_box.
+Post processing for smartfusion2.inbuf.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":423:10:423:16|Synthesizing smartfusion2.tribuff.syn_black_box.
+Post processing for smartfusion2.tribuff.syn_black_box
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_060.def_arch.
+Post processing for work.mss_060.def_arch
+Post processing for work.m2s010_som_sb_mss.rtl
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\GPIO_7\m2s010_som_sb_GPIO_7_IO.vhd":8:7:8:29|Synthesizing work.m2s010_som_sb_gpio_7_io.def_arch.
+Post processing for work.m2s010_som_sb_gpio_7_io.def_arch
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\GPIO_6\m2s010_som_sb_GPIO_6_IO.vhd":8:7:8:29|Synthesizing work.m2s010_som_sb_gpio_6_io.def_arch.
+Post processing for work.m2s010_som_sb_gpio_6_io.def_arch
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\GPIO_1\m2s010_som_sb_GPIO_1_IO.vhd":8:7:8:29|Synthesizing work.m2s010_som_sb_gpio_1_io.def_arch.
+Post processing for work.m2s010_som_sb_gpio_1_io.def_arch
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd":8:7:8:32|Synthesizing work.m2s010_som_sb_fabosc_0_osc.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
+Post processing for smartfusion2.clkint.syn_black_box
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":39:7:39:12|Synthesizing work.xtlosc.def_arch.
+Post processing for work.xtlosc.def_arch
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
+Post processing for work.rcosc_25_50mhz.def_arch
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch.
+Post processing for work.rcosc_25_50mhz_fab.def_arch
+Post processing for work.m2s010_som_sb_fabosc_0_osc.def_arch
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd":16:10:16:19|Signal XTLOSC_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd":14:10:14:23|Signal RCOSC_1MHZ_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd":13:10:13:23|Signal RCOSC_1MHZ_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd":11:10:11:27|Signal RCOSC_25_50MHZ_CCC is floating; a simulation mismatch is possible.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":27:7:27:16|Synthesizing work.coreresetp.rtl.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":477:8:477:25|Signal soft_ext_reset_out in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":478:8:478:21|Signal soft_reset_f2m in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":479:8:479:20|Signal soft_m3_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":480:8:480:37|Signal soft_mddr_ddr_axi_s_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":481:8:481:27|Signal soft_fddr_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":482:8:482:27|Signal soft_sdif0_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":483:8:483:28|Signal soft_sdif0_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":484:8:484:27|Signal soft_sdif1_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":485:8:485:28|Signal soft_sdif1_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":486:8:486:27|Signal soft_sdif2_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":487:8:487:28|Signal soft_sdif2_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":488:8:488:27|Signal soft_sdif3_phy_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":489:8:489:28|Signal soft_sdif3_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":490:8:490:30|Signal soft_sdif0_0_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":491:8:491:30|Signal soft_sdif0_1_core_reset in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+Post processing for work.coreresetp.rtl
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1495:8:1495:9|Pruning unused register count_sdif3_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1471:8:1471:9|Pruning unused register count_sdif2_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1447:8:1447:9|Pruning unused register count_sdif1_1(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1423:8:1423:9|Pruning unused register count_sdif0_2(12 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif3_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif2_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif1_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif0_enable_rcosc_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif3_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif2_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif1_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1395:8:1395:9|Pruning unused register count_sdif0_enable_q1_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Pruning unused register count_sdif3_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Pruning unused register count_sdif2_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Pruning unused register count_sdif1_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Pruning unused register count_sdif0_enable_3. Make sure that there are no unused intermediate registers.
+@W: CL177 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1331:8:1331:9|Sharing sequential element M3_RESET_N_int. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd":26:7:26:17|Synthesizing work.coreconfigp.rtl.
+Post processing for work.coreconfigp.rtl
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd":8:7:8:30|Synthesizing work.m2s010_som_sb_ccc_0_fccc.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":794:10:794:12|Synthesizing smartfusion2.ccc.syn_black_box.
+Post processing for smartfusion2.ccc.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box.
+Post processing for smartfusion2.gnd.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box.
+Post processing for smartfusion2.vcc.syn_black_box
+Post processing for work.m2s010_som_sb_ccc_0_fccc.def_arch
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\CAM_SPI_1_SS0\m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd":8:7:8:36|Synthesizing work.m2s010_som_sb_cam_spi_1_ss0_io.def_arch.
+Post processing for work.m2s010_som_sb_cam_spi_1_ss0_io.def_arch
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som_sb\CAM_SPI_1_CLK\m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd":8:7:8:36|Synthesizing work.m2s010_som_sb_cam_spi_1_clk_io.def_arch.
+Post processing for work.m2s010_som_sb_cam_spi_1_clk_io.def_arch
+Post processing for work.m2s010_som_sb.rtl
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som\ID_RES_0\m2s010_som_ID_RES_0_IO.vhd":8:7:8:28|Synthesizing work.m2s010_som_id_res_0_io.def_arch.
+Post processing for work.m2s010_som_id_res_0_io.def_arch
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch.
+@N: CD604 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":665:16:665:29|OTHERS clause is not synthesized.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":1453:41:1453:46|Signal infill in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":616:7:616:15|Signal ia_prdata is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
+Post processing for coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch
+Post processing for coreapb3_lib.coreapb3.coreapb3_arch
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\CommsFPGA_top.vhd":75:7:75:19|Synthesizing work.commsfpga_top.behavioral.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\CommsFPGA_top.vhd":226:10:226:24|Removing redundant assignment.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\CommsFPGA_top.vhd":177:9:177:18|Signal idata_fail is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder.vhd":41:7:41:20|Synthesizing work.manchesdecoder.v1.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":49:7:49:23|Synthesizing work.readfifo_write_sm.behavioral.
+@N: CD231 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":113:30:113:31|Using onehot encoding for type readfifo_wr_state_type. For example, enumeration idle is mapped to "10000000000".
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":148:6:148:19|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":175:3:175:16|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":252:8:252:24|Removing redundant assignment.
+@W: CG296 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":260:27:260:33|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":266:35:266:44|Referenced variable sm_advance is not in sensitivity list.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":305:14:305:25|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":343:14:343:25|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":373:14:373:25|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":374:14:374:26|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":397:14:397:26|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":434:14:434:26|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":436:14:436:29|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":453:14:453:26|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":455:14:455:29|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":513:14:513:25|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":531:14:531:25|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":550:14:550:25|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":564:14:564:25|Removing redundant assignment.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\CRC16_Generator.vhd":43:7:43:21|Synthesizing work.crc16_generator.imp_crc.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\CRC16_Generator.vhd":85:4:85:9|Removing redundant assignment.
+Post processing for work.crc16_generator.imp_crc
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\CRC16_Generator.vhd":79:6:79:7|Feedback mux created for signal lfsr_q[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@N: CD231 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":113:30:113:31|Using onehot encoding for type readfifo_wr_state_type. For example, enumeration idle is mapped to "10000000000".
+Post processing for work.readfifo_write_sm.behavioral
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":170:4:170:5|Pruning unused register First_time_reg_1. Make sure that there are no unused intermediate registers.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":207:4:207:5|Feedback mux created for signal bit_cntr[2:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":207:4:207:5|Feedback mux created for signal iRX_FIFO_wr_en. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL117 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":143:4:143:5|Latch generated from process for signal hold_collision; possible missing assignment in an if or case statement.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":262:4:262:5|Feedback mux created for signal rx_fifo_din_d3[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":262:4:262:5|Feedback mux created for signal rx_fifo_din_d2[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":262:4:262:5|Feedback mux created for signal rx_fifo_din_d1[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":186:4:186:5|Feedback mux created for signal SM_advancebit_cntr[2:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":186:4:186:5|Feedback mux created for signal SM_advance_i. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":242:4:242:5|Feedback mux created for signal rx_crc_data_store[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL190 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":278:6:278:7|Optimizing register bit rx_packet_length(11) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":278:6:278:7|Pruning register bit 11 of rx_packet_length(11 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\AFE_RX_SM.vhd":34:7:34:15|Synthesizing work.afe_rx_sm.behavioral.
+@N: CD231 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\AFE_RX_SM.vhd":73:25:73:26|Using onehot encoding for type afe_rx_state_type. For example, enumeration idle is mapped to "100000".
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\AFE_RX_SM.vhd":119:8:119:21|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\AFE_RX_SM.vhd":122:8:122:21|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\AFE_RX_SM.vhd":123:8:123:21|Removing redundant assignment.
+@N: CD231 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\AFE_RX_SM.vhd":73:25:73:26|Using onehot encoding for type afe_rx_state_type. For example, enumeration idle is mapped to "100000".
+Post processing for work.afe_rx_sm.behavioral
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\AFE_RX_SM.vhd":91:4:91:5|Pruning unused register RX_FIFO_Empty_s_4. Make sure that there are no unused intermediate registers.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":42:7:42:28|Synthesizing work.manchesdecoder_adapter.v1.
+@W: CG296 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":206:2:206:8|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":210:36:210:47|Referenced variable clock_adjust is not in sensitivity list.
+@W: CG296 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":223:25:223:31|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":227:38:227:49|Referenced variable clock_adjust is not in sensitivity list.
+@W: CG296 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":235:26:235:32|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":239:38:239:49|Referenced variable clock_adjust is not in sensitivity list.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":75:9:75:22|Signal idle_line_cntr is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\IdleLineDetector.vhd":39:7:39:22|Synthesizing work.idlelinedetector.behavioral.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\IdleLineDetector.vhd":78:10:78:23|Removing redundant assignment.
+Post processing for work.idlelinedetector.behavioral
+Post processing for work.manchesdecoder_adapter.v1
+@W: CL252 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":75:9:75:22|Bit 0 of signal idle_line_cntr is floating -- simulation mismatch possible.
+@W: CL252 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":75:9:75:22|Bit 1 of signal idle_line_cntr is floating -- simulation mismatch possible.
+@W: CL252 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":75:9:75:22|Bit 2 of signal idle_line_cntr is floating -- simulation mismatch possible.
+@W: CL252 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":75:9:75:22|Bit 3 of signal idle_line_cntr is floating -- simulation mismatch possible.
+@W: CL252 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":75:9:75:22|Bit 4 of signal idle_line_cntr is floating -- simulation mismatch possible.
+@W: CL252 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":75:9:75:22|Bit 5 of signal idle_line_cntr is floating -- simulation mismatch possible.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":98:4:98:5|Pruning unused register manches_Transition_d_3(3 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL265 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":98:4:98:5|Removing unused bit 3 of decoder_Transition_d_4(3 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CL271 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":98:4:98:5|Pruning unused bits 7 to 1 of decoder_ShiftReg_3(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":98:4:98:5|Pruning unused bits 7 to 1 of manches_ShiftReg_4(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":264:4:264:5|Feedback mux created for signal s2p_data[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":237:4:237:5|Feedback mux created for signal irx_center_sample. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":225:4:225:5|Feedback mux created for signal isampler_clk1x_en. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesDecoder_Adapter.vhd":208:4:208:5|Feedback mux created for signal clkdiv[3:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+Post processing for work.manchesdecoder.v1
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesEncoder.vhd":40:7:40:20|Synthesizing work.manchesencoder.behavioral.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ManchesEncoder.vhd":78:7:78:14|Signal man_data is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":48:7:48:11|Synthesizing work.tx_sm.behavioral.
+@N: CD231 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":101:21:101:22|Using onehot encoding for type tx_state_type. For example, enumeration idle is mapped to "100000000".
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":287:14:287:26|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":316:14:316:29|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":372:14:372:29|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":389:14:389:29|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":409:14:409:29|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":429:14:429:29|Removing redundant assignment.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":95:9:95:25|Signal tx_idle_line_cntr is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD231 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":101:21:101:22|Using onehot encoding for type tx_state_type. For example, enumeration idle is mapped to "100000000".
+Post processing for work.tx_sm.behavioral
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":149:6:149:7|Feedback mux created for signal txen_early_cntr[11:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":149:6:149:7|Feedback mux created for signal tx_packet_length[11:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":149:6:149:7|Feedback mux created for signal tx_byte_cntr[11:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":149:6:149:7|Feedback mux created for signal PostAmble_cntr[11:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":149:6:149:7|Feedback mux created for signal PreAmble_cntr[6:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":149:6:149:7|Feedback mux created for signal tx_preamble_pat_en. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":149:6:149:7|Feedback mux created for signal tx_packet_complt. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":149:6:149:7|Feedback mux created for signal tx_crc_gen. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":149:6:149:7|Feedback mux created for signal tx_crc_byte2_en. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":149:6:149:7|Feedback mux created for signal tx_crc_byte1_en. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":149:6:149:7|All reachable assignments to iTX_PostAmble are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":149:6:149:7|Feedback mux created for signal iTX_FIFO_rd_en. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":149:6:149:7|Feedback mux created for signal iTX_Enable. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":149:6:149:7|Feedback mux created for signal TX_STATE[0:8]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":149:6:149:7|Feedback mux created for signal TX_PreAmble. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":149:6:149:7|Feedback mux created for signal TX_DataEn. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":120:4:120:5|Feedback mux created for signal tx_idle_line_s. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":120:4:120:5|Feedback mux created for signal start_tx_FIFO_s. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL190 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":149:6:149:7|Optimizing register bit tx_packet_length(11) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":149:6:149:7|Pruning register bit 11 of tx_packet_length(11 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_Collision_Detector.vhd":41:7:41:27|Synthesizing work.tx_collision_detector.behavioral.
+@W: CG296 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_Collision_Detector.vhd":177:26:177:32|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_Collision_Detector.vhd":184:16:184:29|Referenced variable rx_crc_byte_en is not in sensitivity list.
+Post processing for work.tx_collision_detector.behavioral
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_Collision_Detector.vhd":180:4:180:5|All reachable assignments to TX_collision_detect are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_Collision_Detector.vhd":165:4:165:5|Feedback mux created for signal TX_FIFO_DOUT_d2_syncCompare[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_Collision_Detector.vhd":150:4:150:5|Feedback mux created for signal RX_FIFO_DIN_d1[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_Collision_Detector.vhd":97:4:97:5|Feedback mux created for signal TX_FIFO_DOUT_d2[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_Collision_Detector.vhd":97:4:97:5|Feedback mux created for signal TX_FIFO_DOUT_d1[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+Post processing for work.manchesencoder.behavioral
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\FIFOs.vhd":48:7:48:11|Synthesizing work.fifos.behavioral.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\FIFOs.vhd":229:5:229:22|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\FIFOs.vhd":234:5:234:21|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\FIFOs.vhd":259:3:259:28|Removing redundant assignment.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\FIFOs.vhd":91:9:91:18|Signal rx_fifo_af is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\FIFOs.vhd":92:9:92:18|Signal rx_fifo_ae is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9.vhd":19:7:19:15|Synthesizing work.fifo_8kx9.rtl.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":34:7:34:36|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo.translated.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":400:10:400:18|Signal reg_valid is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":401:10:401:15|Signal reg_rd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":404:10:404:22|Signal fwft_memraddr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":405:10:405:16|Signal pf_dvld is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":406:10:406:20|Signal pf_memraddr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":410:10:410:13|Signal pf_q is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":413:10:413:15|Signal fwft_q is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":430:10:430:17|Signal xhdl_122 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":434:10:434:15|Signal empty2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":435:10:435:16|Signal aempty2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":444:10:444:26|Signal dvld_xhdl10_scntr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":445:10:445:25|Signal dvld_xhdl10_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":447:10:447:18|Signal fwft_dvld is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":456:10:456:23|Signal int_memrd_sig1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":457:10:457:23|Signal int_memrd_sig2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":470:10:470:23|Signal ext_memrd_sig2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":504:10:504:19|Signal fifo_rd_en is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":505:10:505:23|Signal fwft_reg_valid is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":524:10:524:26|Signal temp_a_sb_correct is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":525:10:525:26|Signal temp_b_sb_correct is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":526:10:526:25|Signal temp_a_db_detect is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":527:10:527:25|Signal temp_b_db_detect is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":530:10:530:25|Signal sb_correct_xhdl1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":531:10:531:25|Signal sb_correct_xhdl2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":532:10:532:24|Signal db_detect_xhdl1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":533:10:533:24|Signal db_detect_xhdl2 is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd":8:7:8:39|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_ram_wrapper.generated.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top.vhd":8:7:8:37|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_lsram_top.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":588:10:588:16|Synthesizing smartfusion2.ram1k18.syn_black_box.
+Post processing for smartfusion2.ram1k18.syn_black_box
+Post processing for corefifo_lib.fifo_8kx9_fifo_8kx9_0_lsram_top.def_arch
+Post processing for corefifo_lib.fifo_8kx9_fifo_8kx9_0_ram_wrapper.generated
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd":29:0:29:10|Signal B_DB_DETECT is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd":28:0:28:10|Signal A_DB_DETECT is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd":27:0:27:11|Signal B_SB_CORRECT is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd":26:0:26:11|Signal A_SB_CORRECT is floating; a simulation mismatch is possible.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":33:7:33:42|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo_async.translated.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":629:33:629:46|Signal wptr_bin_sync2 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":821:14:821:20|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":866:12:866:18|Removing redundant assignment.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":174:10:174:26|Signal almostemptyi_fwft is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":177:10:177:20|Signal temp_xhdl15 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":185:10:185:24|Signal temp_xhdl22_top is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":186:10:186:17|Signal re_top_p is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":32:7:32:50|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo_graytobinconv.translated.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":73:36:73:36|Signal i in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":59:10:59:10|Signal i is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo_graytobinconv.translated
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_doubleSync.vhd":31:7:31:47|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo_doublesync.translated.
+Post processing for corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo_doublesync.translated
+Post processing for corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo_async.translated
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":186:10:186:17|Signal re_top_p is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":174:10:174:26|Signal almostemptyi_fwft is floating; a simulation mismatch is possible.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|Pruning unused register aempty_r_fwft_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|Pruning unused register empty_r_fwft_5. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":751:6:751:7|Pruning unused register rptr_gray_fwft_3(11 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":751:6:751:7|Pruning unused register rptr_fwft_3(11 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":673:6:673:7|Pruning unused register we_p_r_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":673:6:673:7|Pruning unused register full_reg_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":658:6:658:7|Pruning unused register empty_reg_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":658:6:658:7|Pruning unused register dvld_r2_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":645:6:645:7|Pruning unused register re_p_d1_4. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":595:6:595:7|Pruning unused register rptr_bin_sync2_fwft_3(11 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL168 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":582:3:582:23|Removing instance Rd_grayToBinConv_fwft because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":568:3:568:20|Removing instance Rd_doubleSync_fwft because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(0) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(4) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(5) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(6) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(7) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(8) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(9) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(10) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(11) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wack_r are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(0) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(4) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(5) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(6) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(7) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(8) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(9) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(10) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(11) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to dvld_r are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+Post processing for corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo.translated
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":532:10:532:24|Signal DB_DETECT_xhdl1 is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":530:10:530:25|Signal SB_CORRECT_xhdl1 is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":527:10:527:25|Signal temp_B_DB_DETECT is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":526:10:526:25|Signal temp_A_DB_DETECT is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":525:10:525:26|Signal temp_B_SB_CORRECT is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":524:10:524:26|Signal temp_A_SB_CORRECT is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":445:10:445:25|Signal DVLD_xhdl10_sync is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":444:10:444:26|Signal DVLD_xhdl10_scntr is floating; a simulation mismatch is possible.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":1240:6:1240:7|Pruning unused register RDATA_ext_r1_2(8 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":1226:6:1226:7|Pruning unused register RDATA_ext_r_2(8 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":1142:6:1142:7|Pruning unused register re_pulse_d3_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":1142:6:1142:7|Pruning unused register re_pulse_d2_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":1142:6:1142:7|Pruning unused register RE_d3_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":1142:6:1142:7|Pruning unused register RE_d2_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":1142:6:1142:7|Pruning unused register REN_d3_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":1142:6:1142:7|Pruning unused register REN_d2_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":1129:6:1129:7|Pruning unused register fwft_Q_r_2(8 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":1114:6:1114:7|Pruning unused register RDATA_r2_2(8 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":1100:6:1100:7|Pruning unused register RDATA_r1_2(8 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":1087:6:1087:7|Pruning unused register RDATA_r_pre_3(8 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":1042:6:1042:7|Pruning unused register AEMPTY1_r1_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":1042:6:1042:7|Pruning unused register AEMPTY1_r_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":642:6:642:7|Pruning unused register DVLD_scntr_ecc_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":642:6:642:7|Pruning unused register DVLD_sync_ecc_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":642:6:642:7|Pruning unused register DVLD_async_ecc_4. Make sure that there are no unused intermediate registers.
+Post processing for work.fifo_8kx9.rtl
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8.vhd":19:7:19:15|Synthesizing work.fifo_2kx8.rtl.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":34:7:34:36|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo.translated.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":400:10:400:18|Signal reg_valid is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":401:10:401:15|Signal reg_rd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":404:10:404:22|Signal fwft_memraddr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":405:10:405:16|Signal pf_dvld is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":406:10:406:20|Signal pf_memraddr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":410:10:410:13|Signal pf_q is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":413:10:413:15|Signal fwft_q is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":430:10:430:17|Signal xhdl_122 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":434:10:434:15|Signal empty2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":435:10:435:16|Signal aempty2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":444:10:444:26|Signal dvld_xhdl10_scntr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":445:10:445:25|Signal dvld_xhdl10_sync is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":447:10:447:18|Signal fwft_dvld is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":456:10:456:23|Signal int_memrd_sig1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":457:10:457:23|Signal int_memrd_sig2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":470:10:470:23|Signal ext_memrd_sig2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":504:10:504:19|Signal fifo_rd_en is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":505:10:505:23|Signal fwft_reg_valid is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":524:10:524:26|Signal temp_a_sb_correct is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":525:10:525:26|Signal temp_b_sb_correct is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":526:10:526:25|Signal temp_a_db_detect is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":527:10:527:25|Signal temp_b_db_detect is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":530:10:530:25|Signal sb_correct_xhdl1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":531:10:531:25|Signal sb_correct_xhdl2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":532:10:532:24|Signal db_detect_xhdl1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":533:10:533:24|Signal db_detect_xhdl2 is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd":8:7:8:39|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_ram_wrapper.generated.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd":8:7:8:37|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_lsram_top.def_arch.
+Post processing for corefifo_lib.fifo_2kx8_fifo_2kx8_0_lsram_top.def_arch
+Post processing for corefifo_lib.fifo_2kx8_fifo_2kx8_0_ram_wrapper.generated
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd":29:0:29:10|Signal B_DB_DETECT is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd":28:0:28:10|Signal A_DB_DETECT is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd":27:0:27:11|Signal B_SB_CORRECT is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd":26:0:26:11|Signal A_SB_CORRECT is floating; a simulation mismatch is possible.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":33:7:33:42|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo_async.translated.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":629:33:629:46|Signal wptr_bin_sync2 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":821:14:821:20|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":866:12:866:18|Removing redundant assignment.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":174:10:174:26|Signal almostemptyi_fwft is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":177:10:177:20|Signal temp_xhdl15 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":185:10:185:24|Signal temp_xhdl22_top is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":186:10:186:17|Signal re_top_p is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":32:7:32:50|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo_graytobinconv.translated.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":73:36:73:36|Signal i in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":59:10:59:10|Signal i is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo_graytobinconv.translated
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_doubleSync.vhd":31:7:31:47|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo_doublesync.translated.
+Post processing for corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo_doublesync.translated
+Post processing for corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo_async.translated
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":186:10:186:17|Signal re_top_p is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":174:10:174:26|Signal almostemptyi_fwft is floating; a simulation mismatch is possible.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|Pruning unused register aempty_r_fwft_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|Pruning unused register empty_r_fwft_5. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":751:6:751:7|Pruning unused register rptr_gray_fwft_3(11 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":751:6:751:7|Pruning unused register rptr_fwft_3(11 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":673:6:673:7|Pruning unused register we_p_r_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":673:6:673:7|Pruning unused register full_reg_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":658:6:658:7|Pruning unused register empty_reg_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":658:6:658:7|Pruning unused register dvld_r2_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":645:6:645:7|Pruning unused register re_p_d1_4. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":595:6:595:7|Pruning unused register rptr_bin_sync2_fwft_3(11 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL168 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":582:3:582:23|Removing instance Rd_grayToBinConv_fwft because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":568:3:568:20|Removing instance Rd_doubleSync_fwft because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(0) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(4) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(5) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(6) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(7) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(8) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(9) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(10) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wrcnt_r(11) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|All reachable assignments to wack_r are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(0) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(4) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(5) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(6) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(7) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(8) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(9) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(10) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to rdcnt_r(11) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":775:6:775:7|All reachable assignments to dvld_r are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+Post processing for corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo.translated
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":532:10:532:24|Signal DB_DETECT_xhdl1 is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":530:10:530:25|Signal SB_CORRECT_xhdl1 is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":527:10:527:25|Signal temp_B_DB_DETECT is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":526:10:526:25|Signal temp_A_DB_DETECT is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":525:10:525:26|Signal temp_B_SB_CORRECT is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":524:10:524:26|Signal temp_A_SB_CORRECT is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":445:10:445:25|Signal DVLD_xhdl10_sync is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":444:10:444:26|Signal DVLD_xhdl10_scntr is floating; a simulation mismatch is possible.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":1240:6:1240:7|Pruning unused register RDATA_ext_r1_2(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":1226:6:1226:7|Pruning unused register RDATA_ext_r_2(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":1142:6:1142:7|Pruning unused register re_pulse_d3_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":1142:6:1142:7|Pruning unused register re_pulse_d2_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":1142:6:1142:7|Pruning unused register RE_d3_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":1142:6:1142:7|Pruning unused register RE_d2_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":1142:6:1142:7|Pruning unused register REN_d3_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":1142:6:1142:7|Pruning unused register REN_d2_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":1129:6:1129:7|Pruning unused register fwft_Q_r_2(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":1114:6:1114:7|Pruning unused register RDATA_r2_2(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":1100:6:1100:7|Pruning unused register RDATA_r1_2(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":1087:6:1087:7|Pruning unused register RDATA_r_pre_3(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":1042:6:1042:7|Pruning unused register AEMPTY1_r1_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":1042:6:1042:7|Pruning unused register AEMPTY1_r_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":642:6:642:7|Pruning unused register DVLD_scntr_ecc_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":642:6:642:7|Pruning unused register DVLD_sync_ecc_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":642:6:642:7|Pruning unused register DVLD_async_ecc_4. Make sure that there are no unused intermediate registers.
+Post processing for work.fifo_2kx8.rtl
+Post processing for work.fifos.behavioral
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\FIFOs.vhd":254:4:254:5|Pruning unused register packet_available_clear_reg_3(2 downto 0). Make sure that there are no unused intermediate registers.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":56:7:56:11|Synthesizing work.up_if.behavioral.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":312:8:312:19|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":414:10:414:29|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":415:10:415:23|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":416:10:416:23|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":417:10:417:24|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":418:10:418:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":419:10:419:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":420:10:420:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":421:10:421:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":422:10:422:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":423:10:423:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":424:10:424:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":425:10:425:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":426:10:426:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":427:10:427:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":428:10:428:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":429:10:429:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":430:10:430:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":431:10:431:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":432:10:432:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":433:10:433:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":434:10:434:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":435:10:435:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":436:10:436:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":437:10:437:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":438:10:438:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":439:10:439:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":440:10:440:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":441:10:441:28|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":535:12:535:26|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":539:14:539:24|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":561:8:561:18|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":576:10:576:23|Removing redundant assignment.
+@W: CG296 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":584:19:584:25|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":599:28:599:38|Referenced variable control_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":627:28:627:43|Referenced variable mac_2_byte_5_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":625:28:625:43|Referenced variable mac_2_byte_4_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":623:28:623:43|Referenced variable mac_2_byte_3_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":653:28:653:43|Referenced variable mac_4_byte_6_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":621:28:621:43|Referenced variable mac_2_byte_2_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":651:28:651:43|Referenced variable mac_4_byte_5_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":619:28:619:43|Referenced variable mac_2_byte_1_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":649:28:649:43|Referenced variable mac_4_byte_4_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":617:28:617:43|Referenced variable mac_1_byte_6_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":647:28:647:43|Referenced variable mac_4_byte_3_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":615:28:615:43|Referenced variable mac_1_byte_5_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":645:28:645:43|Referenced variable mac_4_byte_2_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":613:28:613:43|Referenced variable mac_1_byte_4_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":643:28:643:43|Referenced variable mac_4_byte_1_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":611:28:611:43|Referenced variable mac_1_byte_3_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":641:28:641:43|Referenced variable mac_3_byte_6_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":609:28:609:43|Referenced variable mac_1_byte_2_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":639:28:639:43|Referenced variable mac_3_byte_5_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":607:28:607:43|Referenced variable mac_1_byte_1_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":637:28:637:43|Referenced variable mac_3_byte_4_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":601:28:601:34|Referenced variable int_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":603:28:603:41|Referenced variable i_int_mask_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":635:28:635:43|Referenced variable mac_3_byte_3_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":633:28:633:43|Referenced variable mac_3_byte_2_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":631:28:631:43|Referenced variable mac_3_byte_1_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":605:28:605:37|Referenced variable status_reg is not in sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":629:28:629:43|Referenced variable mac_2_byte_6_reg is not in sensitivity list.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":702:10:702:24|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":708:10:708:24|Removing redundant assignment.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":50:7:50:16|Synthesizing work.interrupts.behavioral.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":202:10:202:29|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":205:8:205:27|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":235:4:235:23|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":236:4:236:21|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":239:2:239:21|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":240:2:240:19|Removing redundant assignment.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":215:62:215:77|Signal rx_crc_error_int in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":216:38:216:57|Signal rx_fifo_overflow_int in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":216:60:216:79|Signal rx_fifo_underrun_int in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":271:4:271:23|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":274:8:274:27|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":292:10:292:29|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":295:8:295:27|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":313:4:313:23|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":316:8:316:27|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":334:10:334:29|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":337:8:337:27|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":355:4:355:19|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":358:8:358:23|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":376:4:376:17|Removing redundant assignment.
+@N: CD364 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":379:8:379:21|Removing redundant assignment.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":103:9:103:26|Signal rx_fifo_overflow_c is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":105:9:105:26|Signal tx_fifo_underrun_c is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":107:9:107:26|Signal tx_fifo_overflow_c is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.interrupts.behavioral
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":107:9:107:26|Signal TX_FIFO_OVERFLOW_c is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":105:9:105:26|Signal TX_FIFO_UNDERRUN_c is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":103:9:103:26|Signal RX_FIFO_OVERFLOW_c is floating; a simulation mismatch is possible.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":390:6:390:7|Pruning unused register TX_FIFO_OVERFLOW_d_2(2 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":390:6:390:7|Pruning unused register TX_FIFO_UNDERRUN_d_2(2 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":390:6:390:7|Pruning unused register RX_FIFO_OVERFLOW_d_2(2 downto 0). Make sure that there are no unused intermediate registers.
+@A: CL282 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":390:6:390:7|Feedback mux created for signal tx_FIFO_UNDERRUN_int_d[2:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":390:6:390:7|Feedback mux created for signal col_detect_int_d[2:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL190 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":263:6:263:7|Optimizing register bit tx_FIFO_UNDERRUN_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":284:6:284:7|Optimizing register bit tx_FIFO_OVERFLOW_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":326:6:326:7|Optimizing register bit rx_FIFO_OVERFLOW_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":390:6:390:7|Optimizing register bit rx_FIFO_OVERFLOW_int_d(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":263:6:263:7|Pruning unused register tx_FIFO_UNDERRUN_int. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":284:6:284:7|Pruning unused register tx_FIFO_OVERFLOW_int. Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":326:6:326:7|Pruning unused register rx_FIFO_OVERFLOW_int. Make sure that there are no unused intermediate registers.
+@W: CL260 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":390:6:390:7|Pruning register bit 0 of rx_FIFO_OVERFLOW_int_d(2 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Post processing for work.up_if.behavioral
+@W: CL117 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\uP_if.vhd":587:8:587:9|Latch generated from process for signal APB3_RDATA(7 downto 0); possible missing assignment in an if or case statement.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TriDebounce.vhd":22:7:22:17|Synthesizing work.tridebounce.behavioral.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Debounce.vhd":22:7:22:14|Synthesizing work.debounce.behavioral.
+@W: CG296 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Debounce.vhd":47:17:47:23|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Debounce.vhd":52:11:52:21|Referenced variable debounce_in is not in sensitivity list.
+Post processing for work.debounce.behavioral
+Post processing for work.tridebounce.behavioral
+Post processing for work.commsfpga_top.behavioral
+@W: CL240 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\CommsFPGA_top.vhd":177:9:177:18|Signal iData_FAIL is floating; a simulation mismatch is possible.
+@N: CD630 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd":8:7:8:37|Synthesizing work.m2s010_som_commsfpga_ccc_0_fccc.def_arch.
+Post processing for work.m2s010_som_commsfpga_ccc_0_fccc.def_arch
+Post processing for work.m2s010_som.rtl
+@N: CL189 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":390:6:390:7|Register bit tx_FIFO_UNDERRUN_int_d(0) is always 0.
+@W: CL260 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":390:6:390:7|Pruning register bit 0 of tx_FIFO_UNDERRUN_int_d(2 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":390:6:390:7|Pruning unused register rx_FIFO_OVERFLOW_int_d(2 downto 1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":390:6:390:7|Pruning unused register tx_FIFO_UNDERRUN_int_d(2 downto 1). Make sure that there are no unused intermediate registers.
+@W: CL246 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":57:4:57:13|Input port bits 5 to 4 of apb3_wdata(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":57:4:57:13|Input port bit 2 of apb3_wdata(7 downto 0) is unused 
+@W: CL246 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":67:4:67:15|Input port bits 5 to 4 of int_mask_reg(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":67:4:67:15|Input port bit 2 of int_mask_reg(7 downto 0) is unused 
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":53:4:53:9|Input clk16x is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":61:4:61:19|Input TX_FIFO_UNDERRUN is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":62:4:62:19|Input TX_FIFO_OVERFLOW is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\Interrupts.vhd":64:4:64:19|Input RX_FIFO_OVERFLOW is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":81:6:81:11|Input re_top is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd":23:4:23:10|Input RESET_N is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd":24:4:24:8|Input CLOCK is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":109:6:109:10|Input MEMRD is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":81:6:81:11|Input re_top is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd":23:4:23:10|Input RESET_N is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd":24:4:24:8|Input CLOCK is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":109:6:109:10|Input MEMRD is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\FIFOs.vhd":77:1:77:19|Input rx_packet_avail_int is unused.
+@N: CL201 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\TX_SM.vhd":149:6:149:7|Trying to extract state machine for register TX_STATE.
+Extracted state machine for register TX_STATE
+State machine has 9 reachable states with original encodings of:
+   000000001
+   000000010
+   000000100
+   000001000
+   000010000
+   000100000
+   001000000
+   010000000
+   100000000
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\IdleLineDetector.vhd":48:1:48:9|Input TX_Enable is unused.
+@N: CL201 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\AFE_RX_SM.vhd":149:6:149:7|Trying to extract state machine for register AFE_RX_STATE.
+Extracted state machine for register AFE_RX_STATE
+State machine has 5 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   100000
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\AFE_RX_SM.vhd":44:4:44:16|Input RX_FIFO_Empty is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\AFE_RX_SM.vhd":48:4:48:16|Input rx_packet_end is unused.
+@N: CL135 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":262:4:262:5|Found sequential shift rx_fifo_din_d3 with address depth of 3 words and data bit width of 8.
+@N: CL201 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\ReadFIFO_Write_SM.vhd":278:6:278:7|Trying to extract state machine for register ReadFIFO_WR_STATE.
+Extracted state machine for register ReadFIFO_WR_STATE
+State machine has 10 reachable states with original encodings of:
+   00000000001
+   00000000010
+   00000000100
+   00000001000
+   00000100000
+   00001000000
+   00010000000
+   00100000000
+   01000000000
+   10000000000
+@W: CL247 :"E:\FPGA Archive\v1_6-082317-Linux\hdl\CommsFPGA_top.vhd":94:6:94:11|Input port bit 0 of id_res(3 downto 0) is unused 
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":75:0:75:4|Input IADDR is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":76:0:76:6|Input PRESETN is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":77:0:77:3|Input PCLK is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":108:0:108:7|Input PRDATAS1 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":109:0:109:7|Input PRDATAS2 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":110:0:110:7|Input PRDATAS3 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":111:0:111:7|Input PRDATAS4 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":112:0:112:7|Input PRDATAS5 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":113:0:113:7|Input PRDATAS6 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":114:0:114:7|Input PRDATAS7 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":115:0:115:7|Input PRDATAS8 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":116:0:116:7|Input PRDATAS9 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":117:0:117:8|Input PRDATAS10 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":118:0:118:8|Input PRDATAS11 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":119:0:119:8|Input PRDATAS12 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":120:0:120:8|Input PRDATAS13 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":121:0:121:8|Input PRDATAS14 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":122:0:122:8|Input PRDATAS15 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":125:0:125:7|Input PREADYS1 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":126:0:126:7|Input PREADYS2 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":127:0:127:7|Input PREADYS3 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":128:0:128:7|Input PREADYS4 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":129:0:129:7|Input PREADYS5 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":130:0:130:7|Input PREADYS6 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":131:0:131:7|Input PREADYS7 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":132:0:132:7|Input PREADYS8 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":133:0:133:7|Input PREADYS9 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":134:0:134:8|Input PREADYS10 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":135:0:135:8|Input PREADYS11 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":136:0:136:8|Input PREADYS12 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":137:0:137:8|Input PREADYS13 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":138:0:138:8|Input PREADYS14 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":139:0:139:8|Input PREADYS15 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":142:0:142:8|Input PSLVERRS1 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":143:0:143:8|Input PSLVERRS2 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":144:0:144:8|Input PSLVERRS3 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":145:0:145:8|Input PSLVERRS4 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":146:0:146:8|Input PSLVERRS5 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":147:0:147:8|Input PSLVERRS6 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":148:0:148:8|Input PSLVERRS7 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":149:0:149:8|Input PSLVERRS8 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":150:0:150:8|Input PSLVERRS9 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":151:0:151:9|Input PSLVERRS10 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":152:0:152:9|Input PSLVERRS11 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":153:0:153:9|Input PSLVERRS12 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":154:0:154:9|Input PSLVERRS13 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":155:0:155:9|Input PSLVERRS14 is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":156:0:156:9|Input PSLVERRS15 is unused.
+@N: CL201 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd":517:8:517:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@W: CL177 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif0_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element fpll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif1_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":936:8:936:9|Sharing sequential element sdif2_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL201 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Trying to extract state machine for register sm2_state.
+Extracted state machine for register sm2_state
+State machine has 2 reachable states with original encodings of:
+   000
+   001
+@N: CL201 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Trying to extract state machine for register sdif3_state.
+Extracted state machine for register sdif3_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Trying to extract state machine for register sdif2_state.
+Extracted state machine for register sdif2_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Trying to extract state machine for register sdif1_state.
+Extracted state machine for register sdif1_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Trying to extract state machine for register sdif0_state.
+Extracted state machine for register sdif0_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Trying to extract state machine for register sm0_state.
+Extracted state machine for register sm0_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":96:4:96:12|Input CLK_LTSSM is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":123:4:123:12|Input FPLL_LOCK is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":126:4:126:18|Input SDIF0_SPLL_LOCK is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":135:4:135:18|Input SDIF1_SPLL_LOCK is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":139:4:139:18|Input SDIF2_SPLL_LOCK is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":143:4:143:18|Input SDIF3_SPLL_LOCK is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":157:4:157:13|Input SDIF0_PSEL is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":158:4:158:15|Input SDIF0_PWRITE is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":159:4:159:15|Input SDIF0_PRDATA is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":160:4:160:13|Input SDIF1_PSEL is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":161:4:161:15|Input SDIF1_PWRITE is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":162:4:162:15|Input SDIF1_PRDATA is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":163:4:163:13|Input SDIF2_PSEL is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":164:4:164:15|Input SDIF2_PWRITE is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":165:4:165:15|Input SDIF2_PRDATA is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":166:4:166:13|Input SDIF3_PSEL is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":167:4:167:15|Input SDIF3_PWRITE is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":168:4:168:15|Input SDIF3_PRDATA is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":174:4:174:21|Input SOFT_EXT_RESET_OUT is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":175:4:175:17|Input SOFT_RESET_F2M is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":176:4:176:16|Input SOFT_M3_RESET is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":177:4:177:33|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":178:4:178:23|Input SOFT_FDDR_CORE_RESET is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":179:4:179:23|Input SOFT_SDIF0_PHY_RESET is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":180:4:180:24|Input SOFT_SDIF0_CORE_RESET is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":181:4:181:23|Input SOFT_SDIF1_PHY_RESET is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":182:4:182:24|Input SOFT_SDIF1_CORE_RESET is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":183:4:183:23|Input SOFT_SDIF2_PHY_RESET is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":184:4:184:24|Input SOFT_SDIF2_CORE_RESET is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":185:4:185:23|Input SOFT_SDIF3_PHY_RESET is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":186:4:186:24|Input SOFT_SDIF3_CORE_RESET is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":190:4:190:26|Input SOFT_SDIF0_0_CORE_RESET is unused.
+@N: CL159 :"E:\FPGA Archive\v1_6-082317-Linux\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":191:4:191:26|Input SOFT_SDIF0_1_CORE_RESET is unused.
+@W: CL158 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som\m2s010_som.vhd":88:8:88:18|Inout GPIO_1_BIDI is unused
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 117MB peak: 118MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Aug 24 12:52:27 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+@N: NF107 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Selected library: work cell: m2s010_som view rtl as top level
+@N: NF107 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Selected library: work cell: m2s010_som view rtl as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 76MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Aug 24 12:52:27 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Aug 24 12:52:27 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+@N: NF107 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Selected library: work cell: m2s010_som view rtl as top level
+@N: NF107 :"E:\FPGA Archive\v1_6-082317-Linux\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Selected library: work cell: m2s010_som view rtl as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 78MB peak: 79MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Aug 24 12:52:29 2017
+
+###########################################################]
+Pre-mapping Report
+
+# Thu Aug 24 12:52:29 2017
+
+Synopsys Generic Technology Pre-mapping, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+Reading constraint file: E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug\instr_sources\syn_dics.sdc
+@L: E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug\m2s010_som_scck.rpt 
+Printing clock  summary report in "E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug\m2s010_som_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 119MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 119MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 119MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 119MB)
+
+@W: BN132 :"e:\fpga archive\v1_6-082317-linux\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.release_ext_reset because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.SDIF_READY_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"e:\fpga archive\v1_6-082317-linux\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MF625 |Insert Identify debug core
+*** Launch instrumentor shell: "C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\identify_instrumentor_shell.exe" -srs_gen_hw "E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug\instr_sources\syn_dics.v" -prj "E:\FPGA Archive\v1_6-082317-Linux\synthesis\m2s010_som_syn.prj" -idb "E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug\identify.db" -curimpl rev_Collision_Debug -write_sdc -log E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug\identify.log -tsl SomLJshi -idc E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug\identify.idc
+@E: MF830 |Identify core generation failed. See 'E:\FPGA Archive\v1_6-082317-Linux\synthesis\rev_Collision_Debug\identify.log' for more information.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Aug 24 12:52:30 2017
+
+###########################################################]

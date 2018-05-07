@@ -1,0 +1,259 @@
+# Fri Aug 11 14:34:18 2017
+
+Synopsys Generic Technology Pre-mapping, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+Reading constraint file: C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\synthesis_2\instr_sources\syn_dics.sdc
+@L: C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\synthesis_2\m2s010_som_scck.rpt 
+Printing clock  summary report in "C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\synthesis_2\m2s010_som_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 119MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 119MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 119MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 119MB)
+
+@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.release_ext_reset because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.SDIF_READY_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MF625 |Insert Identify debug core
+*** Launch instrumentor shell: "C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\identify_instrumentor_shell.exe" -srs_gen_hw "C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\synthesis_2\instr_sources\syn_dics.v" -prj "C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\m2s010_som_syn.prj" -idb "C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\synthesis_2\identify.db" -curimpl synthesis_2 -write_sdc -log C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\synthesis_2\identify.log -tsl GpsNHkfc -idc C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\synthesis_2\identify.idc
+Reading constraint file: C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\synthesis_2\instr_sources\syn_dics.sdc
+
+Making connections to hyper_source modules
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6168:28:6168:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_manchester_in_IICE_53, tag CommsFPGA_top_0.manchester_in
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6161:28:6161:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_manch_out_p_IICE_52, tag CommsFPGA_top_0.manch_out_p
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6154:28:6154:55|Connected syn_hyper_connect ident_coreinst.ident_hyperc_drvr_en_IICE_40, tag CommsFPGA_top_0.drvr_en
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6147:28:6147:66|Connected syn_hyper_connect ident_coreinst.ident_hyperc_up_eop_cntdown_en_IICE_141, tag CommsFPGA_top_0.up_eop_cntdown_en
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6140:28:6140:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_fifo_wr_en_IICE_131, tag CommsFPGA_top_0.tx_fifo_wr_en
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6133:28:6133:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_fifo_underrun_IICE_130, tag CommsFPGA_top_0.tx_fifo_underrun
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6126:28:6126:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_fifo_rd_en_IICE_129, tag CommsFPGA_top_0.tx_fifo_rd_en
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6119:28:6119:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_fifo_overflow_IICE_128, tag CommsFPGA_top_0.tx_fifo_overflow
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6112:28:6112:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_fifo_full_IICE_127, tag CommsFPGA_top_0.tx_fifo_full
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6105:28:6105:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_fifo_empty_IICE_126, tag CommsFPGA_top_0.tx_fifo_empty
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6098:28:6098:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_fifo_dout_IICE_118, tag CommsFPGA_top_0.tx_fifo_dout
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6091:28:6091:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_packet_complt_IICE_101, tag CommsFPGA_top_0.rx_packet_complt
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6084:28:6084:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_fifo_underrun_IICE_100, tag CommsFPGA_top_0.rx_fifo_underrun
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6077:28:6077:73|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_fifo_txcoldetdis_wr_en_IICE_99, tag CommsFPGA_top_0.rx_fifo_txcoldetdis_wr_en
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6070:28:6070:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_fifo_rd_en_IICE_98, tag CommsFPGA_top_0.rx_fifo_rd_en
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6063:28:6063:64|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_fifo_overflow_IICE_97, tag CommsFPGA_top_0.rx_fifo_overflow
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6056:28:6056:60|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_fifo_full_IICE_96, tag CommsFPGA_top_0.rx_fifo_full
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6049:28:6049:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_fifo_empty_IICE_95, tag CommsFPGA_top_0.rx_fifo_empty
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6042:28:6042:60|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_fifo_dout_IICE_86, tag CommsFPGA_top_0.rx_fifo_dout
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6035:28:6035:64|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_fifo_din_pipe_IICE_77, tag CommsFPGA_top_0.rx_fifo_din_pipe
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6028:28:6028:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_status_reg_IICE_110, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.status_reg
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6021:28:6021:55|Connected syn_hyper_connect ident_coreinst.ident_hyperc_iup_eop_IICE_51, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.iup_eop
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6014:28:6014:55|Connected syn_hyper_connect ident_coreinst.ident_hyperc_int_reg_IICE_43, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.int_reg
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6007:28:6007:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_control_reg_IICE_32, tag CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.control_reg
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":6000:28:6000:56|Connected syn_hyper_connect ident_coreinst.ident_hyperc_p2s_data_IICE_54, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.p2s_data
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":5993:28:5993:57|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_state_IICE_132, tag CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_state
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":5986:28:5986:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_readfifo_wr_state_IICE_64, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.readfifo_wr_state
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":5979:28:5979:57|Connected syn_hyper_connect ident_coreinst.ident_hyperc_s2p_data_IICE_102, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.s2p_data
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":5972:28:5972:57|Connected syn_hyper_connect ident_coreinst.ident_hyperc_inrz_data_IICE_42, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.inrz_data
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":5965:28:5965:58|Connected syn_hyper_connect ident_coreinst.ident_hyperc_iidle_line_IICE_41, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.iidle_line
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":5958:28:5958:60|Connected syn_hyper_connect ident_coreinst.ident_hyperc_clock_adjust_IICE_31, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.MANCHESTER_DECODER_ADAPTER_INST.clock_adjust
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":5951:28:5951:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_afe_rx_state_IICE_0, tag CommsFPGA_top_0.MANCHESTER_DECODER_INST.AFE_RX_STATE_MACHINE.afe_rx_state
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":5944:28:5944:66|Connected syn_hyper_connect ident_coreinst.ident_hyperc_readfifo_write_ptr_IICE_75, tag CommsFPGA_top_0.FIFOS_INST.readfifo_write_ptr
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":5937:28:5937:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_readfifo_read_ptr_IICE_62, tag CommsFPGA_top_0.FIFOS_INST.readfifo_read_ptr
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":5930:28:5930:58|Connected syn_hyper_connect ident_coreinst.ident_hyperc_apb3_wdata_IICE_23, tag CommsFPGA_top_0.apb3_wdata
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":5923:28:5923:58|Connected syn_hyper_connect ident_coreinst.ident_hyperc_apb3_ready_IICE_22, tag CommsFPGA_top_0.apb3_ready
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":5916:28:5916:58|Connected syn_hyper_connect ident_coreinst.ident_hyperc_apb3_rdata_IICE_14, tag CommsFPGA_top_0.apb3_rdata
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":5909:28:5909:56|Connected syn_hyper_connect ident_coreinst.ident_hyperc_apb3_addr_IICE_6, tag CommsFPGA_top_0.apb3_addr
+@N: BN397 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":5902:28:5902:43|Connected syn_hyper_connect ident_coreinst.ident_hyperc_clk, tag CommsFPGA_top_0.clk
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.sm1_areset_n_clk_base is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF0_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF1_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF2_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF3_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\hdl\readfifo_write_sm.vhd":143:4:143:5|Sequential instance CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.hold_collision is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF0_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF1_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF2_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF3_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1331:8:1331:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance FDDR_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF0_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF1_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF2_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF3_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Removing sequential instance EXT_RESET_OUT_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance DDR_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance FDDR_CORE_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":5458:6:5458:11|Removing sequential instance genblk4\.b9_ibScJX_E2 (in view: VhdlGenLib.b8_nR_ymqrG_12s_5s_0_0s_0s_1_2046_x(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":5166:2:5166:7|Removing sequential instance b13_xYTFKCkrt_FH9 (in view: VhdlGenLib.b7_OCByLXC_Z1_x(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":5482:2:5482:7|Removing sequential instance b11_ibScJX_E2_P (in view: VhdlGenLib.b8_nR_ymqrG_12s_5s_0_0s_0s_1_2046_x(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Removing sequential instance sm2_state[0:1] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance sdif0_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance sdif1_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance sdif2_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance sdif3_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|Removing sequential instance afull_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_0(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|Removing sequential instance afull_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_1(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|Removing sequential instance afull_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_2(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\work\fifo_8kx9\fifo_8kx9_0\rtl\vhdl\core\corefifo_async.vhd":844:6:844:7|Removing sequential instance afull_r (in view: corefifo_lib.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Removing sequential instance sm2_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Removing sequential instance sm2_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MT480 :"c:/users/gcallsen/documents/projects/fpga/modelsimrecovery/synthesis/synthesis_2/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 
+syn_allowed_resources : blockrams=69  set on top level netlist m2s010_som
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 155MB peak: 157MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                                                 Requested     Requested     Clock        Clock                    Clock
+Clock                                                                 Frequency     Period        Type         Group                    Load 
+---------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top|BIT_CLK_inferred_clock                                  100.0 MHz     10.000        inferred     Inferred_clkgroup_2      253  
+System                                                                100.0 MHz     10.000        system       system_clkgroup          8    
+ident_coreinst.comm_block_INST.dr2_tck                                1.0 MHz       1000.000      declared     identify_jtag_group1     8    
+jtag_interface_x|b9_nv_oQwfYF                                         100.0 MHz     10.000        inferred     Inferred_clkgroup_10     18   
+jtag_interface_x|b10_8Kz_rKlrtX                                       100.0 MHz     10.000        inferred     Inferred_clkgroup_9      8    
+jtag_interface_x|identify_clk_int_inferred_clock                      100.0 MHz     10.000        inferred     Inferred_clkgroup_8      1086 
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock                100.0 MHz     10.000        inferred     Inferred_clkgroup_0      1244 
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock                100.0 MHz     10.000        inferred     Inferred_clkgroup_1      4    
+m2s010_som_sb_CAM_SPI_1_CLK_IO|Y_inferred_clock[0]                    100.0 MHz     10.000        inferred     Inferred_clkgroup_11     1    
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       100.0 MHz     10.000        inferred     Inferred_clkgroup_3      794  
+m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_7      31   
+m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                     100.0 MHz     10.000        inferred     Inferred_clkgroup_4      109  
+m2s010_som|MAC_MII_RX_CLK                                             100.0 MHz     10.000        inferred     Inferred_clkgroup_6      1    
+m2s010_som|MAC_MII_TX_CLK                                             100.0 MHz     10.000        inferred     Inferred_clkgroup_5      1    
+=============================================================================================================================================
+
+@W: MT532 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\hdl\up_if.vhd":587:8:587:9|Found signal identified as System clock which controls 8 sequential elements including CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.APB3_RDATA[7:0].  Using this clock, which has no specified timing constraint, can adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\hdl\interrupts.vhd":122:4:122:5|Found inferred clock m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock which controls 1244 sequential elements including CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.INTERRUPT_INST.tx_packet_complt_d[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\hdl\manchesencoder.vhd":157:4:157:5|Found inferred clock m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock which controls 4 sequential elements including CommsFPGA_top_0.MANCHESTER_ENCODER_INST.MANCHESTER_OUT. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\hdl\debounce.vhd":49:4:49:5|Found inferred clock CommsFPGA_top|BIT_CLK_inferred_clock which controls 253 sequential elements including CommsFPGA_top_0.TRIPLE_DEBOUNCE_INST.DEBOUNCE_0_INST.debounce_cntr_0[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Found inferred clock m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 794 sequential elements including m2s010_som_sb_0.CORERESETP_0.sm0_state[0:6]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":517:8:517:9|Found inferred clock m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock which controls 109 sequential elements including m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY_0. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\work\m2s010_som_sb_mss\m2s010_som_sb_mss.vhd":2268:0:2268:13|Found inferred clock m2s010_som|MAC_MII_TX_CLK which controls 1 sequential elements including m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\work\m2s010_som_sb_mss\m2s010_som_sb_mss.vhd":2268:0:2268:13|Found inferred clock m2s010_som|MAC_MII_RX_CLK which controls 1 sequential elements including m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Found inferred clock m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock which controls 31 sequential elements including m2s010_som_sb_0.CORERESETP_0.count_ddr[13:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":5021:3:5021:8|Found inferred clock jtag_interface_x|identify_clk_int_inferred_clock which controls 1086 sequential elements including ident_coreinst.IICE_INST.b5_nUTGT.iclksync.dout[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":344:6:344:11|Found inferred clock jtag_interface_x|b10_8Kz_rKlrtX which controls 8 sequential elements including ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\synthesis\synthesis_2\instr_sources\syn_dics.v":5429:6:5429:11|Found inferred clock jtag_interface_x|b9_nv_oQwfYF which controls 18 sequential elements including ident_coreinst.IICE_INST.b5_nUTGT.b11_nUTGT_khWqH.genblk3\.b8_vABZ3qsY. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\work\m2s010_som_sb_mss\m2s010_som_sb_mss.vhd":2268:0:2268:13|Found inferred clock m2s010_som_sb_CAM_SPI_1_CLK_IO|Y_inferred_clock[0] which controls 1 sequential elements including m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: MT480 :"c:/users/gcallsen/documents/projects/fpga/modelsimrecovery/synthesis/synthesis_2/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 
+@N: BN225 |Writing default property annotation file C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\synthesis_2\m2s010_som.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 153MB peak: 157MB)
+
+Encoding state machine state[0:2] (in view: work.CoreConfigP(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine sm0_state[0:6] (in view: work.CoreResetP(rtl))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine TX_STATE[0:8] (in view: work.TX_SM(behavioral))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+Encoding state machine ReadFIFO_WR_STATE[0:9] (in view: work.ReadFIFO_Write_SM(behavioral))
+original code -> new code
+   00000000001 -> 0000000001
+   00000000010 -> 0000000010
+   00000000100 -> 0000000100
+   00000001000 -> 0000001000
+   00000100000 -> 0000010000
+   00001000000 -> 0000100000
+   00010000000 -> 0001000000
+   00100000000 -> 0010000000
+   01000000000 -> 0100000000
+   10000000000 -> 1000000000
+Encoding state machine AFE_RX_STATE[0:4] (in view: work.AFE_RX_SM(behavioral))
+original code -> new code
+   000001 -> 00001
+   000010 -> 00010
+   000100 -> 00100
+   001000 -> 01000
+   100000 -> 10000
+Encoding state machine b13_nAzGfFM_sLsv3[5:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x(verilog))
+original code -> new code
+   0000 -> 000001
+   0001 -> 000010
+   0010 -> 000100
+   0011 -> 001000
+   0100 -> 010000
+   1101 -> 100000
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\hdl\manchesencoder.vhd":113:4:113:5|Removing sequential instance byte_clk_en_d[1] (in view: work.ManchesEncoder(behavioral)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance paddr[11] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[16] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[17] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[18] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[19] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[20] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[21] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[22] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[23] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[24] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[25] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[26] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[27] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[28] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[29] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[30] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\projects\fpga\modelsimrecovery\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[31] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 156MB peak: 158MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 69MB peak: 158MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:01s cputime
+# Fri Aug 11 14:34:22 2017
+
+###########################################################]

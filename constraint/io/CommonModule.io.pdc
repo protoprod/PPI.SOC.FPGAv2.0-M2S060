@@ -1,0 +1,244 @@
+# Microsemi I/O Physical Design Constraints file
+# Auto Generated User I/O Constraints file
+
+# Version: v11.6 SP1 11.6.1.6
+# Family: SmartFusion2 , Die: M2S060 , Package: 325 FCSBGA
+# Date generated: Tue Aug 30 17:20:49 2016 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+set_iobank Bank9  \
+    -vcci 3.30    \
+    -fixed yes
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io DRVR_EN         \
+    -pinname W2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_11_M2F     \
+    -pinname K2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_13_M2F     \
+    -pinname L7        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_1_M2F      \
+    -pinname J1        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_21_M2F     \
+    -pinname K7        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_22_M2F     \
+    -pinname K5        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_24_M2F     \
+    -pinname K4        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_5_M2F      \
+    -pinname H2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_6_M2F      \
+    -pinname H5        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_7_M2F      \
+    -pinname H4        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_8_M2F      \
+    -pinname J4        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io MAC_MII_COL    \
+    -pinname L19      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io MAC_MII_CRS    \
+    -pinname M20      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io MAC_MII_MDC     \
+    -pinname F18       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io MAC_MII_MDIO   \
+    -pinname G17      \
+    -fixed yes        \
+    -DIRECTION INOUT
+
+
+set_io {MAC_MII_RXD[0]}  \
+    -pinname L18         \
+    -fixed yes           \
+    -DIRECTION INPUT
+
+
+set_io {MAC_MII_RXD[1]}  \
+    -pinname L17         \
+    -fixed yes           \
+    -DIRECTION INPUT
+
+
+set_io {MAC_MII_RXD[2]}  \
+    -pinname K18         \
+    -fixed yes           \
+    -DIRECTION INPUT
+
+
+set_io {MAC_MII_RXD[3]}  \
+    -pinname K17         \
+    -fixed yes           \
+    -DIRECTION INPUT
+
+
+set_io MAC_MII_RX_CLK  \
+    -pinname M18       \
+    -fixed yes         \
+    -DIRECTION INPUT
+
+
+set_io MAC_MII_RX_DV  \
+    -pinname L20      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io MAC_MII_RX_ER  \
+    -pinname E17      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {MAC_MII_TXD[0]}  \
+    -pinname G18         \
+    -fixed yes           \
+    -DIRECTION OUTPUT
+
+
+set_io {MAC_MII_TXD[1]}  \
+    -pinname H17         \
+    -fixed yes           \
+    -DIRECTION OUTPUT
+
+
+set_io {MAC_MII_TXD[2]}  \
+    -pinname G20         \
+    -fixed yes           \
+    -DIRECTION OUTPUT
+
+
+set_io {MAC_MII_TXD[3]}  \
+    -pinname G21         \
+    -fixed yes           \
+    -DIRECTION OUTPUT
+
+
+set_io MAC_MII_TX_CLK  \
+    -pinname J18       \
+    -fixed yes         \
+    -DIRECTION INPUT
+
+
+set_io MAC_MII_TX_EN   \
+    -pinname F20       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io MANCHESTER_IN  \
+    -pinname Y2       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io MANCH_OUT_N     \
+    -pinname Y1        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io MANCH_OUT_P     \
+    -pinname AA2       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io MMUART_0_RXD_F2M  \
+    -pinname D1          \
+    -fixed yes           \
+    -DIRECTION INPUT
+
+
+set_io MMUART_0_TXD_M2F  \
+    -pinname F1          \
+    -fixed yes           \
+    -DIRECTION OUTPUT
+
+
+set_io RCVR_EN         \
+    -pinname W1        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+

@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\identify_instrumentor_shell.exe  -idb  C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\synthesis_2\identify.db  -synplify_install  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro  -synplify_tool  synplify_pro  -log  C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\synthesis_2\synlog\m2s010_som_identify_compile.log  -family  SmartFusion2  -prj  C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\m2s010_som_syn.prj  -curimpl  synthesis_2  -dbgimpl  synthesis_2  -fver  2017.03  -idc  C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\synthesis_2\identify.idc  -f  C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\synthesis_2\identifylaunch.tcl 
+rc:0 success:1 runtime:3
+file:C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\synthesis_2\identify.db|io:i|time:1502470209|size:1325359|exec:0
+file:C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\synthesis_2\synlog\m2s010_som_identify_compile.log|io:o|time:1502476454|size:2426|exec:0
+file:C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\m2s010_som_syn.prj|io:i|time:1502474856|size:12000|exec:0
+file:C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\synthesis_2\identify.idc|io:i|time:1502476443|size:2704|exec:0
+file:C:\Users\gcallsen\Documents\Projects\FPGA\ModelSimRecovery\synthesis\synthesis_2\identifylaunch.tcl|io:o|time:1502476452|size:123|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\identify_instrumentor_shell.exe|io:i|time:1479355152|size:125440|exec:1

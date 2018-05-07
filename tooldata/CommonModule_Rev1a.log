@@ -1,0 +1,16 @@
+Project Name: CommonModule_Rev1a
+Location: C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1a
+Description: 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S060T-FCS325I
+Family         : SmartFusion2
+Die            : M2S060T
+Package        : 325 FCSBGA
+Speed          : STD
+Core Voltage   : 1.2
+Range          : IND

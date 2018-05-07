@@ -1,0 +1,50 @@
+
+		#####  BEGIN RETIMING REPORT  #####
+
+Retiming summary : 2 registers retimed to 36
+
+Original and Pipelined registers replaced by retiming :
+		CommsFPGA_top_0.FIFOS_INST.TRANSMIT_FIFO.FIFO_2Kx8_0.L31\.U_corefifo_async.aempty_r
+		m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[0]
+
+New registers created by retiming :
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[0]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[1]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[2]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[3]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[4]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[5]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[6]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[7]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[8]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[9]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret[10]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_0
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_1[0]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_1[1]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_1[2]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_1[3]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_1[4]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_1[5]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_1[6]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_1[7]
+		CommsFPGA_top_0.MANCHESTER_DECODER_INST.ReadFIFO_Write_SM_PROC.rx_packet_length_ret_1[8]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[0]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[1]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[2]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[3]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[4]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[5]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[6]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[7]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[8]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[9]
+		CommsFPGA_top_0.MANCHESTER_ENCODER_INST.TRANSMIT_SM.tx_packet_length_ret_0[10]
+		m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0_ret
+		m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0_ret_1
+		m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0_ret_2
+		m2s010_som_sb_0.m2s010_som_sb_MSS_0.FIC_2_APB_M_PRDATA_0_ret
+
+
+		#####   END RETIMING REPORT  #####
+

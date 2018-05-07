@@ -1,0 +1,300 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\synthesis\\FPGA_PHY_IRAIL_DEBUG\\synwork\\m2s010_som_comp.srs|-top|work.m2s010_som|-instrdir|C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\synthesis\\FPGA_PHY_IRAIL_DEBUG\\instr_sources|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-srs_instrumentation|-ignore_undefined_lib|-lib|work|-lib|work|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|COREFIFO_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\bin64\\c_vhdl.exe":1479996692
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\synthesis\\FPGA_PHY_IRAIL_DEBUG\\instr_sources\\syn_dics.cdc":1516816264
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\synthesis\\FPGA_PHY_IRAIL_DEBUG\\instr_sources\\syn_dics.cdc":1516816264
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\location.map":1478822388
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\std.vhd":1487959786
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1487959654
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1487959786
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1487959786
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1487959786
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1487959654
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1487959786
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1487959786
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1487959654
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\hdl\\IdleLineDetector.vhd":1516305784
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\hdl\\BitDetector.vhd":1516305784
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\work\\CLOCK_DOMAIN_BUFFER\\CLOCK_DOMAIN_BUFFER_0\\rtl\\vhdl\\core\\corefifo_doubleSync.vhd":1516305783
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\misc.vhd":1487959786
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\work\\CLOCK_DOMAIN_BUFFER\\CLOCK_DOMAIN_BUFFER_0\\rtl\\vhdl\\core\\corefifo_grayToBinConv.vhd":1516305783
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\Actel\\DirectCore\\COREFIFO\\2.6.108\\rtl\\vhdl\\core\\fifo_pkg.vhd":1516305783
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\work\\CLOCK_DOMAIN_BUFFER\\CLOCK_DOMAIN_BUFFER_0\\rtl\\vhdl\\core\\corefifo_fwft.vhd":1516305783
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\work\\CLOCK_DOMAIN_BUFFER\\CLOCK_DOMAIN_BUFFER_0\\rtl\\vhdl\\core\\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_USRAM_top.vhd":1516305783
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\generic\\smartfusion2.vhd":1487959628
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\hdl\\RX_SM.vhd":1516305784
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\hdl\\Edge_Detect.vhd":1516305784
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\hdl\\Jabber_SM.vhd":1516305784
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\hdl\\Nib2Ser_SM.vhd":1516305784
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\hdl\\mdio_slave_interface.vhd":1516736102
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\hdl\\Phy_Mux.vhd":1516811082
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\hdl\\Debounce.vhd":1516305784
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\hdl\\TX_Collision_Detector2.vhd":1516305784
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\work\\m2s010_som\\CommsFPGA_CCC_0\\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd":1516813620
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\Actel\\DirectCore\\CoreConfigP\\7.0.105\\rtl\\vhdl\\core\\coreconfigp.vhd":1497640216
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\Actel\\DirectCore\\CoreResetP\\7.0.104\\rtl\\vhdl\\core\\coreresetp_pcie_hotreset.vhd":1497640216
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\work\\m2s010_som_sb\\CCC_0\\m2s010_som_sb_CCC_0_FCCC.vhd":1516732540
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.vhd":1498678485
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\work\\m2s010_som_sb_MSS\\m2s010_som_sb_MSS_syn.vhd":1516806151
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_muxptob3.vhd":1500639526
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_iaddr_reg.vhd":1500639526
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\components.vhd":1500639526
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\work\\CLOCK_DOMAIN_BUFFER\\CLOCK_DOMAIN_BUFFER_0\\rtl\\vhdl\\core\\corefifo_async.vhd":1516305783
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\work\\CLOCK_DOMAIN_BUFFER\\CLOCK_DOMAIN_BUFFER_0\\rtl\\vhdl\\core\\corefifo_sync.vhd":1516305783
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\work\\CLOCK_DOMAIN_BUFFER\\CLOCK_DOMAIN_BUFFER_0\\rtl\\vhdl\\core\\corefifo_sync_scntr.vhd":1516305783
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\work\\CLOCK_DOMAIN_BUFFER\\CLOCK_DOMAIN_BUFFER_0\\rtl\\vhdl\\core\\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_ram_wrapper.vhd":1516305783
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\work\\CLOCK_DOMAIN_BUFFER\\CLOCK_DOMAIN_BUFFER_0\\rtl\\vhdl\\core\\COREFIFO.vhd":1516305783
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\work\\CLOCK_DOMAIN_BUFFER\\CLOCK_DOMAIN_BUFFER.vhd":1516305783
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\hdl\\ManchesDecoder_Adapter.vhd":1516305784
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\hdl\\ManchesDecoder2.vhd":1516305784
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\hdl\\ManchesEncoder2.vhd":1516305784
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\hdl\\TriDebounce.vhd":1516305784
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\hdl\\Interrupts.vhd":1516398366
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\hdl\\uP_if.vhd":1516305784
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\hdl\\CommsFPGA_top.vhd":1516811200
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\Actel\\DirectCore\\CoreResetP\\7.0.104\\rtl\\vhdl\\core\\coreresetp.vhd":1497640216
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\work\\m2s010_som_sb\\FABOSC_0\\m2s010_som_sb_FABOSC_0_OSC.vhd":1516732542
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\work\\m2s010_som_sb_MSS\\m2s010_som_sb_MSS.vhd":1516806153
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\work\\m2s010_som_sb\\m2s010_som_sb.vhd":1516732542
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3.vhd":1500639526
+#CUR:"C:\\Users\\gcallsen\\Documents\\GitHubBF\\PPI.SOC.FPGAv2.0\\component\\work\\m2s010_som\\m2s010_som.vhd":1516813621
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1487959654
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1487959654
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1487959654
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1487959654
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1487959654
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1487959654
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1487959654
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1487959654
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1487959654
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1487959654
+0 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\IdleLineDetector.vhd" vhdl
+1 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\BitDetector.vhd" vhdl
+2 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_doubleSync.vhd" vhdl
+3 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd" vhdl
+4 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\Actel\DirectCore\COREFIFO\2.6.108\rtl\vhdl\core\fifo_pkg.vhd" vhdl
+5 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_async.vhd" vhdl
+6 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_fwft.vhd" vhdl
+7 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_sync.vhd" vhdl
+8 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_sync_scntr.vhd" vhdl
+9 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_USRAM_top.vhd" vhdl
+10 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_ram_wrapper.vhd" vhdl
+11 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\COREFIFO.vhd" vhdl
+12 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER.vhd" vhdl
+13 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\RX_SM.vhd" vhdl
+14 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\ManchesDecoder_Adapter.vhd" vhdl
+15 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\ManchesDecoder2.vhd" vhdl
+16 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\Edge_Detect.vhd" vhdl
+17 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\Jabber_SM.vhd" vhdl
+18 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\Nib2Ser_SM.vhd" vhdl
+19 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\ManchesEncoder2.vhd" vhdl
+20 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\mdio_slave_interface.vhd" vhdl
+21 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\Phy_Mux.vhd" vhdl
+22 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\Debounce.vhd" vhdl
+23 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\TriDebounce.vhd" vhdl
+24 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\TX_Collision_Detector2.vhd" vhdl
+25 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\Interrupts.vhd" vhdl
+26 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\uP_if.vhd" vhdl
+27 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\CommsFPGA_top.vhd" vhdl
+28 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd" vhdl
+29 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd" vhdl
+30 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd" vhdl
+31 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd" vhdl
+32 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd" vhdl
+33 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd" vhdl
+34 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd" vhdl
+35 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd" vhdl
+36 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd" vhdl
+37 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\work\m2s010_som_sb\m2s010_som_sb.vhd" vhdl
+38 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd" vhdl
+39 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd" vhdl
+40 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd" vhdl
+41 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd" vhdl
+42 "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\component\work\m2s010_som\m2s010_som.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 2 3 4 
+6 -1
+7 4 
+8 4 
+9 -1
+10 9 
+11 5 10 8 7 6 4 
+12 11 
+13 -1
+14 0 
+15 14 1 13 12 
+16 -1
+17 -1
+18 -1
+19 16 18 17 
+20 -1
+21 -1
+22 -1
+23 22 
+24 -1
+25 16 
+26 25 
+27 23 26 0 19 15 24 21 20 
+28 -1
+29 -1
+30 -1
+31 30 
+32 -1
+33 -1
+34 33 
+35 -1
+36 35 
+37 32 29 31 34 36 
+38 -1
+39 -1
+40 38 39 
+41 -1
+42 28 27 40 37 41 
+
+# Dependency Lists (Users Of)
+0 27 14 
+1 15 
+2 5 
+3 5 
+4 11 8 7 5 
+5 11 
+6 11 
+7 11 
+8 11 
+9 10 
+10 11 
+11 12 
+12 15 
+13 15 
+14 15 
+15 27 
+16 19 25 
+17 19 
+18 19 
+19 27 
+20 27 
+21 27 
+22 23 
+23 27 
+24 27 
+25 26 
+26 27 
+27 42 
+28 42 
+29 37 
+30 31 
+31 37 
+32 37 
+33 34 
+34 37 
+35 36 
+36 37 
+37 42 
+38 40 
+39 40 
+40 42 
+41 42 
+42 -1
+
+# Design Unit to File Association
+arch work idlelinedetector behavioral 0
+module work idlelinedetector 0
+arch work bitdetector behavioral 1
+module work bitdetector 1
+arch corefifo_lib clock_domain_buffer_clock_domain_buffer_0_corefifo_doublesync translated 2
+module corefifo_lib clock_domain_buffer_clock_domain_buffer_0_corefifo_doublesync 2
+arch corefifo_lib clock_domain_buffer_clock_domain_buffer_0_corefifo_graytobinconv translated 3
+module corefifo_lib clock_domain_buffer_clock_domain_buffer_0_corefifo_graytobinconv 3
+arch corefifo_lib clock_domain_buffer_clock_domain_buffer_0_corefifo_async translated 5
+module corefifo_lib clock_domain_buffer_clock_domain_buffer_0_corefifo_async 5
+arch corefifo_lib clock_domain_buffer_clock_domain_buffer_0_corefifo_fwft translated 6
+module corefifo_lib clock_domain_buffer_clock_domain_buffer_0_corefifo_fwft 6
+arch corefifo_lib clock_domain_buffer_clock_domain_buffer_0_corefifo_sync translated 7
+module corefifo_lib clock_domain_buffer_clock_domain_buffer_0_corefifo_sync 7
+arch corefifo_lib clock_domain_buffer_clock_domain_buffer_0_corefifo_sync_scntr translated 8
+module corefifo_lib clock_domain_buffer_clock_domain_buffer_0_corefifo_sync_scntr 8
+arch corefifo_lib clock_domain_buffer_clock_domain_buffer_0_usram_top def_arch 9
+module corefifo_lib clock_domain_buffer_clock_domain_buffer_0_usram_top 9
+arch corefifo_lib clock_domain_buffer_clock_domain_buffer_0_ram_wrapper generated 10
+module corefifo_lib clock_domain_buffer_clock_domain_buffer_0_ram_wrapper 10
+arch corefifo_lib clock_domain_buffer_clock_domain_buffer_0_corefifo translated 11
+module corefifo_lib clock_domain_buffer_clock_domain_buffer_0_corefifo 11
+arch work clock_domain_buffer rtl 12
+module work clock_domain_buffer 12
+arch work rx_sm behavioral 13
+module work rx_sm 13
+arch work manchesdecoder_adapter v1 14
+module work manchesdecoder_adapter 14
+arch work manchesdecoder2 v1 15
+module work manchesdecoder2 15
+arch work edge_detect behavioral 16
+module work edge_detect 16
+arch work jabber_sm behavioral 17
+module work jabber_sm 17
+arch work nib2ser_sm behavioral 18
+module work nib2ser_sm 18
+arch work manchesencoder2 behavioral 19
+module work manchesencoder2 19
+arch work mdio_slave_interface translated 20
+module work mdio_slave_interface 20
+arch work phy_mux translated 21
+module work phy_mux 21
+arch work debounce behavioral 22
+module work debounce 22
+arch work tridebounce behavioral 23
+module work tridebounce 23
+arch work tx_collision_detector2 behavioral 24
+module work tx_collision_detector2 24
+arch work interrupts behavioral 25
+module work interrupts 25
+arch work up_if behavioral 26
+module work up_if 26
+arch work commsfpga_top behavioral 27
+module work commsfpga_top 27
+arch work m2s010_som_commsfpga_ccc_0_fccc def_arch 28
+module work m2s010_som_commsfpga_ccc_0_fccc 28
+arch work coreconfigp rtl 29
+module work coreconfigp 29
+arch work coreresetp_pcie_hotreset rtl 30
+module work coreresetp_pcie_hotreset 30
+arch work coreresetp rtl 31
+module work coreresetp 31
+arch work m2s010_som_sb_ccc_0_fccc def_arch 32
+module work m2s010_som_sb_ccc_0_fccc 32
+arch work xtlosc_fab def_arch 33
+module work xtlosc_fab 33
+arch work rcosc_25_50mhz_fab def_arch 33
+module work rcosc_25_50mhz_fab 33
+arch work rcosc_1mhz_fab def_arch 33
+module work rcosc_1mhz_fab 33
+arch work xtlosc def_arch 33
+module work xtlosc 33
+arch work rcosc_25_50mhz def_arch 33
+module work rcosc_25_50mhz 33
+arch work rcosc_1mhz def_arch 33
+module work rcosc_1mhz 33
+arch work m2s010_som_sb_fabosc_0_osc def_arch 34
+module work m2s010_som_sb_fabosc_0_osc 34
+arch work mss_010 def_arch 35
+module work mss_010 35
+arch work m2s010_som_sb_mss rtl 36
+module work m2s010_som_sb_mss 36
+arch work m2s010_som_sb rtl 37
+module work m2s010_som_sb 37
+arch coreapb3_lib coreapb3_muxptob3 coreapb3_muxptob3_arch 38
+module coreapb3_lib coreapb3_muxptob3 38
+arch coreapb3_lib coreapb3_iaddr_reg rtl 39
+module coreapb3_lib coreapb3_iaddr_reg 39
+arch coreapb3_lib coreapb3 coreapb3_arch 40
+module coreapb3_lib coreapb3 40
+arch work m2s010_som rtl 42
+module work m2s010_som 42
+
+
+# Configuration files used

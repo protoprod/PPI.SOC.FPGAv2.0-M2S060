@@ -1,0 +1,740 @@
+Synopsys VHDL Compiler, version comp201503p1, Build 094R, built May 14 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ns
+@N:"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Top entity is set to m2s010_som.
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_doubleSync.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\COREFIFO\2.5.106\rtl\vhdl\core\fifo_pkg.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_fwft.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_doubleSync.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_fwft.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\AFE_RX_SM.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\IdleLineDetector.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\CRC16_Generator.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_Collision_Detector.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Debounce.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Interrupts.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som\ID_RES_0\m2s010_som_ID_RES_0_IO.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\CAM_SPI_1_CLK\m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\CAM_SPI_1_SS0\m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\SgCore\OSC\1.0.105\osc_comps.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\GPIO_1\m2s010_som_sb_GPIO_1_IO.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\GPIO_6\m2s010_som_sb_GPIO_6_IO.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\OTH_SPI_1_SS0\m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_sync.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_sync_scntr.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_sync.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_sync_scntr.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\FIFOs.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ManchesDecoder_Adapter.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ManchesDecoder.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_SM.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ManchesEncoder.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TriDebounce.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\CommsFPGA_top.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\m2s010_som_sb.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd
+Parsing C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som\m2s010_som.vhd
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Synthesizing work.m2s010_som.rtl 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\m2s010_som_sb.vhd":17:7:17:19|Synthesizing work.m2s010_som_sb.rtl 
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":434:10:434:14|Synthesizing smartfusion2.bibuf.syn_black_box 
+Post processing for smartfusion2.bibuf.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":413:10:413:15|Synthesizing smartfusion2.outbuf.syn_black_box 
+Post processing for smartfusion2.outbuf.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":786:10:786:17|Synthesizing smartfusion2.sysreset.syn_black_box 
+Post processing for smartfusion2.sysreset.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":276:10:276:12|Synthesizing smartfusion2.mx2.syn_black_box 
+Post processing for smartfusion2.mx2.syn_black_box
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\OTH_SPI_1_SS0\m2s010_som_sb_OTH_SPI_1_SS0_IO.vhd":8:7:8:36|Synthesizing work.m2s010_som_sb_oth_spi_1_ss0_io.def_arch 
+Post processing for work.m2s010_som_sb_oth_spi_1_ss0_io.def_arch
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd":17:7:17:23|Synthesizing work.m2s010_som_sb_mss.rtl 
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":503:10:503:20|Synthesizing smartfusion2.outbuf_diff.syn_black_box 
+Post processing for smartfusion2.outbuf_diff.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":403:10:403:14|Synthesizing smartfusion2.inbuf.syn_black_box 
+Post processing for smartfusion2.inbuf.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":423:10:423:16|Synthesizing smartfusion2.tribuff.syn_black_box 
+Post processing for smartfusion2.tribuff.syn_black_box
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_060.def_arch 
+Post processing for work.mss_060.def_arch
+Post processing for work.m2s010_som_sb_mss.rtl
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\GPIO_6\m2s010_som_sb_GPIO_6_IO.vhd":8:7:8:29|Synthesizing work.m2s010_som_sb_gpio_6_io.def_arch 
+Post processing for work.m2s010_som_sb_gpio_6_io.def_arch
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\GPIO_1\m2s010_som_sb_GPIO_1_IO.vhd":8:7:8:29|Synthesizing work.m2s010_som_sb_gpio_1_io.def_arch 
+Post processing for work.m2s010_som_sb_gpio_1_io.def_arch
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd":8:7:8:32|Synthesizing work.m2s010_som_sb_fabosc_0_osc.def_arch 
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box 
+Post processing for smartfusion2.clkint.syn_black_box
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\SgCore\OSC\1.0.105\osc_comps.vhd":39:7:39:12|Synthesizing work.xtlosc.def_arch 
+Post processing for work.xtlosc.def_arch
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\SgCore\OSC\1.0.105\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch 
+Post processing for work.rcosc_25_50mhz.def_arch
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\SgCore\OSC\1.0.105\osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch 
+Post processing for work.rcosc_25_50mhz_fab.def_arch
+Post processing for work.m2s010_som_sb_fabosc_0_osc.def_arch
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd":16:10:16:19|XTLOSC_O2F is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd":14:10:14:23|RCOSC_1MHZ_O2F is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd":13:10:13:23|RCOSC_1MHZ_CCC is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd":11:10:11:27|RCOSC_25_50MHZ_CCC is not assigned a value (floating) -- simulation mismatch possible. 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":27:7:27:16|Synthesizing work.coreresetp.rtl 
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":477:8:477:25|Signal soft_ext_reset_out in the sensitivity list is not used in the process
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":478:8:478:21|Signal soft_reset_f2m in the sensitivity list is not used in the process
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":479:8:479:20|Signal soft_m3_reset in the sensitivity list is not used in the process
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":480:8:480:37|Signal soft_mddr_ddr_axi_s_core_reset in the sensitivity list is not used in the process
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":481:8:481:27|Signal soft_fddr_core_reset in the sensitivity list is not used in the process
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":482:8:482:27|Signal soft_sdif0_phy_reset in the sensitivity list is not used in the process
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":483:8:483:28|Signal soft_sdif0_core_reset in the sensitivity list is not used in the process
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":484:8:484:27|Signal soft_sdif1_phy_reset in the sensitivity list is not used in the process
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":485:8:485:28|Signal soft_sdif1_core_reset in the sensitivity list is not used in the process
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":486:8:486:27|Signal soft_sdif2_phy_reset in the sensitivity list is not used in the process
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":487:8:487:28|Signal soft_sdif2_core_reset in the sensitivity list is not used in the process
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":488:8:488:27|Signal soft_sdif3_phy_reset in the sensitivity list is not used in the process
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":489:8:489:28|Signal soft_sdif3_core_reset in the sensitivity list is not used in the process
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":490:8:490:30|Signal soft_sdif0_0_core_reset in the sensitivity list is not used in the process
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":491:8:491:30|Signal soft_sdif0_1_core_reset in the sensitivity list is not used in the process
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":307:11:307:27|Signal sdif0_perst_n_int is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":308:11:308:27|Signal sdif1_perst_n_int is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":309:11:309:27|Signal sdif2_perst_n_int is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":310:11:310:27|Signal sdif3_perst_n_int is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":391:11:391:23|Signal fpll_lock_int is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":392:11:392:29|Signal sdif0_spll_lock_int is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":393:11:393:29|Signal sdif1_spll_lock_int is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":394:11:394:29|Signal sdif2_spll_lock_int is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":395:11:395:29|Signal sdif3_spll_lock_int is undriven 
+Post processing for work.coreresetp.rtl
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":395:11:395:29|SDIF3_SPLL_LOCK_int is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":394:11:394:29|SDIF2_SPLL_LOCK_int is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":393:11:393:29|SDIF1_SPLL_LOCK_int is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":392:11:392:29|SDIF0_SPLL_LOCK_int is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":391:11:391:23|FPLL_LOCK_int is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":310:11:310:27|SDIF3_PERST_N_int is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":309:11:309:27|SDIF2_PERST_N_int is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":308:11:308:27|SDIF1_PERST_N_int is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":307:11:307:27|SDIF0_PERST_N_int is not assigned a value (floating) -- simulation mismatch possible. 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd":26:7:26:17|Synthesizing work.coreconfigp.rtl 
+Post processing for work.coreconfigp.rtl
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd":8:7:8:30|Synthesizing work.m2s010_som_sb_ccc_0_fccc.def_arch 
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":794:10:794:12|Synthesizing smartfusion2.ccc.syn_black_box 
+Post processing for smartfusion2.ccc.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box 
+Post processing for smartfusion2.gnd.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box 
+Post processing for smartfusion2.vcc.syn_black_box
+Post processing for work.m2s010_som_sb_ccc_0_fccc.def_arch
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\CAM_SPI_1_SS0\m2s010_som_sb_CAM_SPI_1_SS0_IO.vhd":8:7:8:36|Synthesizing work.m2s010_som_sb_cam_spi_1_ss0_io.def_arch 
+Post processing for work.m2s010_som_sb_cam_spi_1_ss0_io.def_arch
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som_sb\CAM_SPI_1_CLK\m2s010_som_sb_CAM_SPI_1_CLK_IO.vhd":8:7:8:36|Synthesizing work.m2s010_som_sb_cam_spi_1_clk_io.def_arch 
+Post processing for work.m2s010_som_sb_cam_spi_1_clk_io.def_arch
+Post processing for work.m2s010_som_sb.rtl
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som\ID_RES_0\m2s010_som_ID_RES_0_IO.vhd":8:7:8:28|Synthesizing work.m2s010_som_id_res_0_io.def_arch 
+Post processing for work.m2s010_som_id_res_0_io.def_arch
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch 
+@W: CD604 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":665:16:665:29|OTHERS clause is not synthesized 
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":1453:41:1453:46|Signal infill in the sensitivity list is not used in the process
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":616:7:616:15|Signal ia_prdata is undriven 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch 
+Post processing for coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch
+Post processing for coreapb3_lib.coreapb3.coreapb3_arch
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\CommsFPGA_top.vhd":73:7:73:19|Synthesizing work.commsfpga_top.behavioral 
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\CommsFPGA_top.vhd":222:10:222:24|Removed redundant assignment
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\CommsFPGA_top.vhd":173:9:173:18|Signal idata_fail is undriven 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ManchesDecoder.vhd":41:7:41:20|Synthesizing work.manchesdecoder.v1 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":49:7:49:23|Synthesizing work.readfifo_write_sm.behavioral 
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":145:6:145:19|Removed redundant assignment
+@W: CG296 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":138:17:138:23|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":142:42:142:57|Referenced variable tx_col_detect_en is not in sensitivity list
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":232:8:232:24|Removed redundant assignment
+@W: CG296 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":240:27:240:33|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":246:35:246:44|Referenced variable sm_advance is not in sensitivity list
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":285:14:285:25|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":323:14:323:25|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":352:14:352:25|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":353:14:353:26|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":376:14:376:26|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":413:14:413:26|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":415:14:415:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":432:14:432:26|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":434:14:434:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":491:14:491:25|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":509:14:509:25|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":528:14:528:25|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ReadFIFO_Write_SM.vhd":542:14:542:25|Removed redundant assignment
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\CRC16_Generator.vhd":43:7:43:21|Synthesizing work.crc16_generator.imp_crc 
+Post processing for work.crc16_generator.imp_crc
+Post processing for work.readfifo_write_sm.behavioral
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\AFE_RX_SM.vhd":34:7:34:15|Synthesizing work.afe_rx_sm.behavioral 
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\AFE_RX_SM.vhd":117:8:117:21|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\AFE_RX_SM.vhd":120:8:120:21|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\AFE_RX_SM.vhd":121:8:121:21|Removed redundant assignment
+Post processing for work.afe_rx_sm.behavioral
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ManchesDecoder_Adapter.vhd":42:7:42:28|Synthesizing work.manchesdecoder_adapter.v1 
+@W: CG296 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ManchesDecoder_Adapter.vhd":205:2:205:8|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ManchesDecoder_Adapter.vhd":209:36:209:47|Referenced variable clock_adjust is not in sensitivity list
+@W: CG296 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ManchesDecoder_Adapter.vhd":219:25:219:31|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ManchesDecoder_Adapter.vhd":223:38:223:49|Referenced variable clock_adjust is not in sensitivity list
+@W: CG296 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ManchesDecoder_Adapter.vhd":231:26:231:32|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ManchesDecoder_Adapter.vhd":235:38:235:49|Referenced variable clock_adjust is not in sensitivity list
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ManchesDecoder_Adapter.vhd":75:9:75:22|Signal idle_line_cntr is undriven 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\IdleLineDetector.vhd":39:7:39:22|Synthesizing work.idlelinedetector.behavioral 
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\IdleLineDetector.vhd":77:10:77:23|Removed redundant assignment
+Post processing for work.idlelinedetector.behavioral
+Post processing for work.manchesdecoder_adapter.v1
+Post processing for work.manchesdecoder.v1
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ManchesEncoder.vhd":40:7:40:20|Synthesizing work.manchesencoder.behavioral 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\ManchesEncoder.vhd":77:7:77:14|Signal man_data is undriven 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_SM.vhd":48:7:48:11|Synthesizing work.tx_sm.behavioral 
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_SM.vhd":284:14:284:26|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_SM.vhd":313:14:313:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_SM.vhd":369:14:369:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_SM.vhd":386:14:386:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_SM.vhd":406:14:406:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_SM.vhd":425:14:425:29|Removed redundant assignment
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_SM.vhd":95:9:95:25|Signal tx_idle_line_cntr is undriven 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\IdleLineDetector.vhd":39:7:39:22|Synthesizing work.idlelinedetector.behavioral 
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\IdleLineDetector.vhd":77:10:77:23|Removed redundant assignment
+Post processing for work.idlelinedetector.behavioral
+Post processing for work.tx_sm.behavioral
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_Collision_Detector.vhd":41:7:41:27|Synthesizing work.tx_collision_detector.behavioral 
+@W: CG296 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_Collision_Detector.vhd":177:26:177:32|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TX_Collision_Detector.vhd":184:16:184:29|Referenced variable rx_crc_byte_en is not in sensitivity list
+Post processing for work.tx_collision_detector.behavioral
+Post processing for work.manchesencoder.behavioral
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\FIFOs.vhd":48:7:48:11|Synthesizing work.fifos.behavioral 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9.vhd":19:7:19:15|Synthesizing work.fifo_8kx9.rtl 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":34:7:34:36|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo.translated 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":400:10:400:18|Signal reg_valid is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":401:10:401:15|Signal reg_rd is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":404:10:404:22|Signal fwft_memraddr is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":405:10:405:16|Signal pf_dvld is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":406:10:406:20|Signal pf_memraddr is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":410:10:410:13|Signal pf_q is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":413:10:413:15|Signal fwft_q is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Signal temp_xhdl19 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":421:10:421:20|Signal temp_xhdl20 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":422:10:422:20|Signal temp_xhdl21 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Signal temp_xhdl22 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":425:10:425:21|Signal temp_xhdl222 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Signal temp_xhdl23 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":428:10:428:20|Signal temp_xhdl25 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":429:10:429:21|Signal temp_xhdl116 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":430:10:430:17|Signal xhdl_122 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":434:10:434:15|Signal empty2 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":435:10:435:16|Signal aempty2 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":443:10:443:20|Signal dvld_xhdl10 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":444:10:444:26|Signal dvld_xhdl10_scntr is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":445:10:445:25|Signal dvld_xhdl10_sync is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":447:10:447:18|Signal fwft_dvld is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":456:10:456:23|Signal int_memrd_sig1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":457:10:457:23|Signal int_memrd_sig2 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":458:10:458:23|Signal int_memrd_sig3 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":459:10:459:23|Signal int_memrd_sig4 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":460:10:460:23|Signal int_memrd_sig5 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":461:10:461:23|Signal int_memrd_sig6 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":462:10:462:23|Signal int_memrd_sig7 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":463:10:463:23|Signal int_memrd_sig8 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":464:10:464:22|Signal int_memrd_pre is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":465:10:465:23|Signal int_memrd_fwft is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":466:10:466:24|Signal int_memrd_pipe0 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":467:10:467:24|Signal int_memrd_pipe1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":468:10:468:24|Signal int_memrd_pipe2 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":470:10:470:23|Signal ext_memrd_sig2 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":471:10:471:23|Signal ext_memrd_sig3 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":472:10:472:23|Signal ext_memrd_sig4 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":473:10:473:23|Signal ext_memrd_sig5 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":474:10:474:23|Signal ext_memrd_sig6 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":475:10:475:23|Signal ext_memrd_sig7 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":476:10:476:23|Signal ext_memrd_sig8 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":477:10:477:22|Signal ext_memrd_pre is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":478:10:478:23|Signal ext_memrd_fwft is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":479:10:479:24|Signal ext_memrd_pipe0 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":480:10:480:24|Signal ext_memrd_pipe1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":481:10:481:24|Signal ext_memrd_pipe2 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":497:10:497:15|Signal re_pol is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":498:10:498:17|Signal pos_rclk is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":499:10:499:17|Signal pos_wclk is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":500:10:500:18|Signal neg_reset is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":501:10:501:16|Signal aresetn is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":502:10:502:16|Signal sresetn is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":503:10:503:19|Signal fifo_re_in is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":504:10:504:19|Signal fifo_rd_en is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":505:10:505:23|Signal fwft_reg_valid is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":506:10:506:18|Signal empty_int is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":512:10:512:29|Signal int_memrd_pipe1_ecc1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":513:10:513:29|Signal int_memrd_pipe2_ecc1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":517:10:517:28|Signal int_memrd_sig4_ecc1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":518:10:518:28|Signal int_memrd_sig5_ecc1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":524:10:524:26|Signal temp_a_sb_correct is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":525:10:525:26|Signal temp_b_sb_correct is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":526:10:526:25|Signal temp_a_db_detect is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":527:10:527:25|Signal temp_b_db_detect is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":530:10:530:25|Signal sb_correct_xhdl1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":531:10:531:25|Signal sb_correct_xhdl2 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":532:10:532:24|Signal db_detect_xhdl1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":533:10:533:24|Signal db_detect_xhdl2 is undriven 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd":8:7:8:39|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_ram_wrapper.generated 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top.vhd":8:7:8:37|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_lsram_top.def_arch 
+@N: CD630 :"C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\generic\smartfusion2.vhd":588:10:588:16|Synthesizing smartfusion2.ram1k18.syn_black_box 
+Post processing for smartfusion2.ram1k18.syn_black_box
+Post processing for corefifo_lib.fifo_8kx9_fifo_8kx9_0_lsram_top.def_arch
+Post processing for corefifo_lib.fifo_8kx9_fifo_8kx9_0_ram_wrapper.generated
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd":29:0:29:10|B_DB_DETECT is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd":28:0:28:10|A_DB_DETECT is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd":27:0:27:11|B_SB_CORRECT is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.vhd":26:0:26:11|A_SB_CORRECT is not assigned a value (floating) -- simulation mismatch possible. 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":33:7:33:42|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo_async.translated 
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":629:33:629:46|Signal wptr_bin_sync2 in the sensitivity list is not used in the process
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":821:14:821:20|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":866:12:866:18|Removed redundant assignment
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":167:10:167:14|Signal fulli is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":168:10:168:18|Signal fulli_int is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":170:10:170:21|Signal almostemptyi is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":172:10:172:32|Signal almostemptyi_assert_sig is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":174:10:174:26|Signal almostemptyi_fwft is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":176:10:176:23|Signal temp_empty_int is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":177:10:177:20|Signal temp_xhdl15 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":178:10:178:20|Signal temp_xhdl16 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":179:10:179:20|Signal temp_xhdl17 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":180:10:180:20|Signal temp_xhdl18 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":181:10:181:20|Signal temp_xhdl19 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":182:10:182:20|Signal temp_xhdl20 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":183:10:183:20|Signal temp_xhdl21 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":184:10:184:20|Signal temp_xhdl22 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":185:10:185:24|Signal temp_xhdl22_top is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":186:10:186:17|Signal re_top_p is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":197:10:197:19|Signal dvld_xhdl9 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":198:10:198:23|Signal dvld_xhdl9_int is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":213:10:213:20|Signal fulli_fstop is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":214:10:214:27|Signal fulli_fstop_assert is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":215:10:215:29|Signal fulli_fstop_deassert is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":216:10:216:24|Signal fulli_fstop_sig is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":219:10:219:16|Signal aresetn is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":220:10:220:16|Signal sresetn is undriven 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":32:7:32:50|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo_graytobinconv.translated 
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":73:36:73:36|Signal i in the sensitivity list is not used in the process
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":59:10:59:10|Signal i is undriven 
+Post processing for corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo_graytobinconv.translated
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_doubleSync.vhd":31:7:31:47|Synthesizing corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo_doublesync.translated 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_doubleSync.vhd":66:10:66:19|Signal temp_xhdl1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_doubleSync.vhd":67:10:67:19|Signal temp_xhdl2 is undriven 
+Post processing for corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo_doublesync.translated
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_doubleSync.vhd":67:10:67:19|temp_xhdl2 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_doubleSync.vhd":66:10:66:19|temp_xhdl1 is not assigned a value (floating) -- simulation mismatch possible. 
+Post processing for corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo_async.translated
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":220:10:220:16|sresetn is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":219:10:219:16|aresetn is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":197:10:197:19|dvld_xhdl9 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":186:10:186:17|re_top_p is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":184:10:184:20|temp_xhdl22 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":183:10:183:20|temp_xhdl21 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":182:10:182:20|temp_xhdl20 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":181:10:181:20|temp_xhdl19 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":180:10:180:20|temp_xhdl18 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":176:10:176:23|temp_empty_int is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":174:10:174:26|almostemptyi_fwft is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":170:10:170:21|almostemptyi is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":168:10:168:18|fulli_int is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL168 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":582:3:582:23|Pruning instance Rd_grayToBinConv_fwft -- not in use ... 
+@W: CL168 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\corefifo_async.vhd":568:3:568:20|Pruning instance Rd_doubleSync_fwft -- not in use ... 
+Post processing for corefifo_lib.fifo_8kx9_fifo_8kx9_0_corefifo.translated
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":532:10:532:24|DB_DETECT_xhdl1 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":530:10:530:25|SB_CORRECT_xhdl1 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":527:10:527:25|temp_B_DB_DETECT is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":526:10:526:25|temp_A_DB_DETECT is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":525:10:525:26|temp_B_SB_CORRECT is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":524:10:524:26|temp_A_SB_CORRECT is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":503:10:503:19|fifo_re_in is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":502:10:502:16|sresetn is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":501:10:501:16|aresetn is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":498:10:498:17|pos_rclk is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":497:10:497:15|RE_pol is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":476:10:476:23|Bit 0 of signal ext_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":476:10:476:23|Bit 1 of signal ext_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":476:10:476:23|Bit 2 of signal ext_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":476:10:476:23|Bit 3 of signal ext_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":476:10:476:23|Bit 4 of signal ext_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":476:10:476:23|Bit 5 of signal ext_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":476:10:476:23|Bit 6 of signal ext_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":476:10:476:23|Bit 7 of signal ext_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":476:10:476:23|Bit 8 of signal ext_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":463:10:463:23|Bit 0 of signal int_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":463:10:463:23|Bit 1 of signal int_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":463:10:463:23|Bit 2 of signal int_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":463:10:463:23|Bit 3 of signal int_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":463:10:463:23|Bit 4 of signal int_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":463:10:463:23|Bit 5 of signal int_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":463:10:463:23|Bit 6 of signal int_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":463:10:463:23|Bit 7 of signal int_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":463:10:463:23|Bit 8 of signal int_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":445:10:445:25|DVLD_xhdl10_sync is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":444:10:444:26|DVLD_xhdl10_scntr is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":443:10:443:20|DVLD_xhdl10 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":429:10:429:21|Bit 0 of signal temp_xhdl116 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":429:10:429:21|Bit 1 of signal temp_xhdl116 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":429:10:429:21|Bit 2 of signal temp_xhdl116 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":429:10:429:21|Bit 3 of signal temp_xhdl116 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":429:10:429:21|Bit 4 of signal temp_xhdl116 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":429:10:429:21|Bit 5 of signal temp_xhdl116 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":429:10:429:21|Bit 6 of signal temp_xhdl116 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":429:10:429:21|Bit 7 of signal temp_xhdl116 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":429:10:429:21|Bit 8 of signal temp_xhdl116 is floating -- simulation mismatch possible.
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":428:10:428:20|temp_xhdl25 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 0 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 1 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 2 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 3 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 4 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 5 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 6 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 7 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 8 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 9 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 10 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 11 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 12 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 0 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 1 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 2 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 3 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 4 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 5 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 6 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 7 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 8 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 9 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 10 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 11 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 12 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":422:10:422:20|Bit 0 of signal temp_xhdl21 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":422:10:422:20|Bit 1 of signal temp_xhdl21 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":422:10:422:20|Bit 2 of signal temp_xhdl21 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":422:10:422:20|Bit 3 of signal temp_xhdl21 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":422:10:422:20|Bit 4 of signal temp_xhdl21 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":422:10:422:20|Bit 5 of signal temp_xhdl21 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":422:10:422:20|Bit 6 of signal temp_xhdl21 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":422:10:422:20|Bit 7 of signal temp_xhdl21 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":422:10:422:20|Bit 8 of signal temp_xhdl21 is floating -- simulation mismatch possible.
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":421:10:421:20|temp_xhdl20 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 0 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 1 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 2 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 3 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 4 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 5 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 6 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 7 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 8 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 9 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 10 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 11 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 12 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":93:6:93:10|EMPTY is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL168 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_8Kx9\FIFO_8Kx9_0\rtl\vhdl\core\COREFIFO.vhd":1258:4:1258:19|Pruning instance RW1.UI_ram_wrapper_1 -- not in use ... 
+Post processing for work.fifo_8kx9.rtl
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8.vhd":19:7:19:15|Synthesizing work.fifo_2kx8.rtl 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":34:7:34:36|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo.translated 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":400:10:400:18|Signal reg_valid is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":401:10:401:15|Signal reg_rd is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":404:10:404:22|Signal fwft_memraddr is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":405:10:405:16|Signal pf_dvld is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":406:10:406:20|Signal pf_memraddr is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":410:10:410:13|Signal pf_q is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":413:10:413:15|Signal fwft_q is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Signal temp_xhdl19 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":421:10:421:20|Signal temp_xhdl20 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":422:10:422:20|Signal temp_xhdl21 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Signal temp_xhdl22 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":425:10:425:21|Signal temp_xhdl222 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Signal temp_xhdl23 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":428:10:428:20|Signal temp_xhdl25 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":429:10:429:21|Signal temp_xhdl116 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":430:10:430:17|Signal xhdl_122 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":434:10:434:15|Signal empty2 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":435:10:435:16|Signal aempty2 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":443:10:443:20|Signal dvld_xhdl10 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":444:10:444:26|Signal dvld_xhdl10_scntr is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":445:10:445:25|Signal dvld_xhdl10_sync is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":447:10:447:18|Signal fwft_dvld is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":456:10:456:23|Signal int_memrd_sig1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":457:10:457:23|Signal int_memrd_sig2 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":458:10:458:23|Signal int_memrd_sig3 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":459:10:459:23|Signal int_memrd_sig4 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":460:10:460:23|Signal int_memrd_sig5 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":461:10:461:23|Signal int_memrd_sig6 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":462:10:462:23|Signal int_memrd_sig7 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":463:10:463:23|Signal int_memrd_sig8 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":464:10:464:22|Signal int_memrd_pre is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":465:10:465:23|Signal int_memrd_fwft is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":466:10:466:24|Signal int_memrd_pipe0 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":467:10:467:24|Signal int_memrd_pipe1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":468:10:468:24|Signal int_memrd_pipe2 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":470:10:470:23|Signal ext_memrd_sig2 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":471:10:471:23|Signal ext_memrd_sig3 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":472:10:472:23|Signal ext_memrd_sig4 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":473:10:473:23|Signal ext_memrd_sig5 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":474:10:474:23|Signal ext_memrd_sig6 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":475:10:475:23|Signal ext_memrd_sig7 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":476:10:476:23|Signal ext_memrd_sig8 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":477:10:477:22|Signal ext_memrd_pre is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":478:10:478:23|Signal ext_memrd_fwft is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":479:10:479:24|Signal ext_memrd_pipe0 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":480:10:480:24|Signal ext_memrd_pipe1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":481:10:481:24|Signal ext_memrd_pipe2 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":497:10:497:15|Signal re_pol is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":498:10:498:17|Signal pos_rclk is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":499:10:499:17|Signal pos_wclk is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":500:10:500:18|Signal neg_reset is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":501:10:501:16|Signal aresetn is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":502:10:502:16|Signal sresetn is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":503:10:503:19|Signal fifo_re_in is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":504:10:504:19|Signal fifo_rd_en is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":505:10:505:23|Signal fwft_reg_valid is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":506:10:506:18|Signal empty_int is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":512:10:512:29|Signal int_memrd_pipe1_ecc1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":513:10:513:29|Signal int_memrd_pipe2_ecc1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":517:10:517:28|Signal int_memrd_sig4_ecc1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":518:10:518:28|Signal int_memrd_sig5_ecc1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":524:10:524:26|Signal temp_a_sb_correct is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":525:10:525:26|Signal temp_b_sb_correct is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":526:10:526:25|Signal temp_a_db_detect is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":527:10:527:25|Signal temp_b_db_detect is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":530:10:530:25|Signal sb_correct_xhdl1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":531:10:531:25|Signal sb_correct_xhdl2 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":532:10:532:24|Signal db_detect_xhdl1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":533:10:533:24|Signal db_detect_xhdl2 is undriven 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd":8:7:8:39|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_ram_wrapper.generated 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top.vhd":8:7:8:37|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_lsram_top.def_arch 
+Post processing for corefifo_lib.fifo_2kx8_fifo_2kx8_0_lsram_top.def_arch
+Post processing for corefifo_lib.fifo_2kx8_fifo_2kx8_0_ram_wrapper.generated
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd":29:0:29:10|B_DB_DETECT is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd":28:0:28:10|A_DB_DETECT is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd":27:0:27:11|B_SB_CORRECT is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.vhd":26:0:26:11|A_SB_CORRECT is not assigned a value (floating) -- simulation mismatch possible. 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":33:7:33:42|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo_async.translated 
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":629:33:629:46|Signal wptr_bin_sync2 in the sensitivity list is not used in the process
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":821:14:821:20|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":866:12:866:18|Removed redundant assignment
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":167:10:167:14|Signal fulli is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":168:10:168:18|Signal fulli_int is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":170:10:170:21|Signal almostemptyi is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":172:10:172:32|Signal almostemptyi_assert_sig is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":174:10:174:26|Signal almostemptyi_fwft is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":176:10:176:23|Signal temp_empty_int is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":177:10:177:20|Signal temp_xhdl15 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":178:10:178:20|Signal temp_xhdl16 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":179:10:179:20|Signal temp_xhdl17 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":180:10:180:20|Signal temp_xhdl18 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":181:10:181:20|Signal temp_xhdl19 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":182:10:182:20|Signal temp_xhdl20 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":183:10:183:20|Signal temp_xhdl21 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":184:10:184:20|Signal temp_xhdl22 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":185:10:185:24|Signal temp_xhdl22_top is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":186:10:186:17|Signal re_top_p is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":197:10:197:19|Signal dvld_xhdl9 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":198:10:198:23|Signal dvld_xhdl9_int is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":213:10:213:20|Signal fulli_fstop is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":214:10:214:27|Signal fulli_fstop_assert is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":215:10:215:29|Signal fulli_fstop_deassert is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":216:10:216:24|Signal fulli_fstop_sig is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":219:10:219:16|Signal aresetn is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":220:10:220:16|Signal sresetn is undriven 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":32:7:32:50|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo_graytobinconv.translated 
+@W: CD434 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":73:36:73:36|Signal i in the sensitivity list is not used in the process
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd":59:10:59:10|Signal i is undriven 
+Post processing for corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo_graytobinconv.translated
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_doubleSync.vhd":31:7:31:47|Synthesizing corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo_doublesync.translated 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_doubleSync.vhd":66:10:66:19|Signal temp_xhdl1 is undriven 
+@W: CD638 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_doubleSync.vhd":67:10:67:19|Signal temp_xhdl2 is undriven 
+Post processing for corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo_doublesync.translated
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_doubleSync.vhd":67:10:67:19|temp_xhdl2 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_doubleSync.vhd":66:10:66:19|temp_xhdl1 is not assigned a value (floating) -- simulation mismatch possible. 
+Post processing for corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo_async.translated
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":220:10:220:16|sresetn is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":219:10:219:16|aresetn is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":197:10:197:19|dvld_xhdl9 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":186:10:186:17|re_top_p is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":184:10:184:20|temp_xhdl22 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":183:10:183:20|temp_xhdl21 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":182:10:182:20|temp_xhdl20 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":181:10:181:20|temp_xhdl19 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":180:10:180:20|temp_xhdl18 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":176:10:176:23|temp_empty_int is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":174:10:174:26|almostemptyi_fwft is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":170:10:170:21|almostemptyi is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":168:10:168:18|fulli_int is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL168 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":582:3:582:23|Pruning instance Rd_grayToBinConv_fwft -- not in use ... 
+@W: CL168 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\corefifo_async.vhd":568:3:568:20|Pruning instance Rd_doubleSync_fwft -- not in use ... 
+Post processing for corefifo_lib.fifo_2kx8_fifo_2kx8_0_corefifo.translated
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":532:10:532:24|DB_DETECT_xhdl1 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":530:10:530:25|SB_CORRECT_xhdl1 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":527:10:527:25|temp_B_DB_DETECT is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":526:10:526:25|temp_A_DB_DETECT is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":525:10:525:26|temp_B_SB_CORRECT is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":524:10:524:26|temp_A_SB_CORRECT is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":503:10:503:19|fifo_re_in is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":502:10:502:16|sresetn is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":501:10:501:16|aresetn is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":498:10:498:17|pos_rclk is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":497:10:497:15|RE_pol is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":476:10:476:23|Bit 0 of signal ext_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":476:10:476:23|Bit 1 of signal ext_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":476:10:476:23|Bit 2 of signal ext_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":476:10:476:23|Bit 3 of signal ext_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":476:10:476:23|Bit 4 of signal ext_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":476:10:476:23|Bit 5 of signal ext_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":476:10:476:23|Bit 6 of signal ext_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":476:10:476:23|Bit 7 of signal ext_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":463:10:463:23|Bit 0 of signal int_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":463:10:463:23|Bit 1 of signal int_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":463:10:463:23|Bit 2 of signal int_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":463:10:463:23|Bit 3 of signal int_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":463:10:463:23|Bit 4 of signal int_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":463:10:463:23|Bit 5 of signal int_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":463:10:463:23|Bit 6 of signal int_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":463:10:463:23|Bit 7 of signal int_MEMRD_sig8 is floating -- simulation mismatch possible.
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":445:10:445:25|DVLD_xhdl10_sync is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":444:10:444:26|DVLD_xhdl10_scntr is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":443:10:443:20|DVLD_xhdl10 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":429:10:429:21|Bit 0 of signal temp_xhdl116 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":429:10:429:21|Bit 1 of signal temp_xhdl116 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":429:10:429:21|Bit 2 of signal temp_xhdl116 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":429:10:429:21|Bit 3 of signal temp_xhdl116 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":429:10:429:21|Bit 4 of signal temp_xhdl116 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":429:10:429:21|Bit 5 of signal temp_xhdl116 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":429:10:429:21|Bit 6 of signal temp_xhdl116 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":429:10:429:21|Bit 7 of signal temp_xhdl116 is floating -- simulation mismatch possible.
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":428:10:428:20|temp_xhdl25 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 0 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 1 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 2 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 3 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 4 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 5 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 6 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 7 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 8 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 9 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":426:10:426:20|Bit 10 of signal temp_xhdl23 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 0 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 1 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 2 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 3 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 4 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 5 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 6 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 7 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 8 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 9 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":423:10:423:20|Bit 10 of signal temp_xhdl22 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":422:10:422:20|Bit 0 of signal temp_xhdl21 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":422:10:422:20|Bit 1 of signal temp_xhdl21 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":422:10:422:20|Bit 2 of signal temp_xhdl21 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":422:10:422:20|Bit 3 of signal temp_xhdl21 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":422:10:422:20|Bit 4 of signal temp_xhdl21 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":422:10:422:20|Bit 5 of signal temp_xhdl21 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":422:10:422:20|Bit 6 of signal temp_xhdl21 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":422:10:422:20|Bit 7 of signal temp_xhdl21 is floating -- simulation mismatch possible.
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":421:10:421:20|temp_xhdl20 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 0 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 1 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 2 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 3 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 4 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 5 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 6 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 7 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 8 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 9 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":420:10:420:20|Bit 10 of signal temp_xhdl19 is floating -- simulation mismatch possible.
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":93:6:93:10|EMPTY is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL168 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\FIFO_2Kx8\FIFO_2Kx8_0\rtl\vhdl\core\COREFIFO.vhd":1258:4:1258:19|Pruning instance RW1.UI_ram_wrapper_1 -- not in use ... 
+Post processing for work.fifo_2kx8.rtl
+Post processing for work.fifos.behavioral
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":56:7:56:11|Synthesizing work.up_if.behavioral 
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":238:8:238:19|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":295:10:295:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":296:10:296:23|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":297:10:297:23|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":298:10:298:24|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":300:10:300:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":301:10:301:28|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":302:10:302:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":303:10:303:28|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":304:10:304:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":305:10:305:28|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":306:10:306:29|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":307:10:307:28|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":356:12:356:26|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":360:14:360:24|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":382:8:382:18|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":397:10:397:23|Removed redundant assignment
+@W: CG296 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":405:19:405:25|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":442:28:442:43|Referenced variable address_low4_reg is not in sensitivity list
+@W: CG290 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":440:28:440:44|Referenced variable address_high4_reg is not in sensitivity list
+@W: CG290 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":438:28:438:43|Referenced variable address_low3_reg is not in sensitivity list
+@W: CG290 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":436:28:436:44|Referenced variable address_high3_reg is not in sensitivity list
+@W: CG290 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":434:28:434:43|Referenced variable address_low2_reg is not in sensitivity list
+@W: CG290 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":432:28:432:44|Referenced variable address_high2_reg is not in sensitivity list
+@W: CG290 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":430:28:430:43|Referenced variable address_low1_reg is not in sensitivity list
+@W: CG290 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":428:28:428:44|Referenced variable address_high1_reg is not in sensitivity list
+@W: CG290 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":422:28:422:34|Referenced variable int_reg is not in sensitivity list
+@W: CG290 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":424:28:424:41|Referenced variable i_int_mask_reg is not in sensitivity list
+@W: CG290 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":426:28:426:37|Referenced variable status_reg is not in sensitivity list
+@W: CG290 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":420:28:420:38|Referenced variable control_reg is not in sensitivity list
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":491:10:491:24|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\uP_if.vhd":497:10:497:24|Removed redundant assignment
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Interrupts.vhd":50:7:50:16|Synthesizing work.interrupts.behavioral 
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Interrupts.vhd":158:8:158:27|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Interrupts.vhd":180:8:180:26|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Interrupts.vhd":199:8:199:27|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Interrupts.vhd":218:8:218:27|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Interrupts.vhd":237:8:237:27|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Interrupts.vhd":256:8:256:27|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Interrupts.vhd":275:8:275:23|Removed redundant assignment
+@N: CD364 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Interrupts.vhd":294:8:294:21|Removed redundant assignment
+Post processing for work.interrupts.behavioral
+Post processing for work.up_if.behavioral
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\TriDebounce.vhd":22:7:22:17|Synthesizing work.tridebounce.behavioral 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Debounce.vhd":22:7:22:14|Synthesizing work.debounce.behavioral 
+@W: CG296 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Debounce.vhd":47:17:47:23|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\Debounce.vhd":52:11:52:21|Referenced variable debounce_in is not in sensitivity list
+Post processing for work.debounce.behavioral
+Post processing for work.tridebounce.behavioral
+Post processing for work.commsfpga_top.behavioral
+@W: CL240 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\hdl\CommsFPGA_top.vhd":173:9:173:18|iData_FAIL is not assigned a value (floating) -- simulation mismatch possible. 
+@N: CD630 :"C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd":8:7:8:37|Synthesizing work.m2s010_som_commsfpga_ccc_0_fccc.def_arch 
+Post processing for work.m2s010_som_commsfpga_ccc_0_fccc.def_arch
+Post processing for work.m2s010_som.rtl
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 117MB peak: 118MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Tue Feb 21 13:44:52 2017
+
+###########################################################]

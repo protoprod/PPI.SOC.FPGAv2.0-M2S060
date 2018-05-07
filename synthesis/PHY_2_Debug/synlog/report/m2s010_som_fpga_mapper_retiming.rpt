@@ -1,0 +1,14 @@
+
+		#####  BEGIN RETIMING REPORT  #####
+
+Retiming summary : 0 registers retimed to 1
+
+Original and Pipelined registers replaced by retiming :
+		None
+
+New registers created by retiming :
+		CommsFPGA_top_0.MDIO_SLAVE_INST.mdio_output_enable_ret_1
+
+
+		#####   END RETIMING REPORT  #####
+

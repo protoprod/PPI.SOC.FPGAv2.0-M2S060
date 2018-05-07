@@ -1,0 +1,37 @@
+Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP2 (Version 11.8.2.4)
+
+Date      :  Tue Apr 24 08:36:01 2018
+Project   :  C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060
+Component :  m2s010_som_sb_MSS
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb_MSS/m2s010_som_sb_MSS.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb_MSS/m2s010_som_sb_MSS_syn.vhd
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb_MSS/m2s010_som_sb_MSS_pre.vhd
+
+Stimulus files for all Simulation tools:
+    C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/Actel/SmartFusion2MSS/MSS/1.1.400/peripheral_init.bfm
+    C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb_MSS/CM3_compile_bfm.tcl
+    C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb_MSS/test.bfm
+    C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb_MSS/user.bfm
+
+Firmware files for all Software IDE tools:
+    C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb_MSS/sys_config_mddr_define.h
+    C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb_MSS/sys_config_mss_clocks.h
+
+Configuration files to be used for Programming:
+    C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb_MSS/ENVM.cfg
+
+Configuration files to be used for all Simulation tools:
+    C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb_MSS/ENVM.cfg
+    C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb_MSS/MDDR_init.bfm
+
+Configuration files to be used for Power Analysis:
+    C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb_MSS/MDDR_init.reg
+

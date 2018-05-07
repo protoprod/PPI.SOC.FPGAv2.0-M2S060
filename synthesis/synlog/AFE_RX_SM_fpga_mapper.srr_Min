@@ -1,0 +1,133 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Mar 21 14:46:18 2017
+#
+
+
+Top view:               AFE_RX_SM
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.520
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------
+AFE_RX_SM|clk      100.0 MHz     384.9 MHz     10.000        2.598         7.402     inferred     Inferred_clkgroup_0
+=====================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                        |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------
+Starting       Ending         |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------
+AFE_RX_SM|clk  AFE_RX_SM|clk  |  0.000       0.520  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: AFE_RX_SM|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                      Starting                                                 Arrival          
+Instance              Reference         Type     Pin     Net                   Time        Slack
+                      Clock                                                                     
+------------------------------------------------------------------------------------------------
+AFE_RX_STATE[0]       AFE_RX_SM|clk     SLE      Q       AFE_RX_STATE[0]       0.061       0.520
+start_bit_mask        AFE_RX_SM|clk     SLE      Q       start_bit_mask        0.061       0.520
+AFE_RX_STATE[3]       AFE_RX_SM|clk     SLE      Q       AFE_RX_STATE[3]       0.061       0.581
+AFE_RX_STATE[4]       AFE_RX_SM|clk     SLE      Q       AFE_RX_STATE[4]       0.076       0.591
+AFE_RX_STATE[2]       AFE_RX_SM|clk     SLE      Q       AFE_RX_STATE[2]       0.061       0.592
+start_bit_cntr[0]     AFE_RX_SM|clk     SLE      Q       start_bit_cntr[0]     0.061       0.608
+start_bit_cntr[3]     AFE_RX_SM|clk     SLE      Q       start_bit_cntr[3]     0.061       0.618
+RX_EarlyTerm_s        AFE_RX_SM|clk     SLE      Q       RX_EarlyTerm_s        0.061       0.656
+start_bit_cntr[2]     AFE_RX_SM|clk     SLE      Q       start_bit_cntr[2]     0.061       0.679
+AFE_RX_STATE[1]       AFE_RX_SM|clk     SLE      Q       packet_avail_c        0.061       0.900
+================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                                               Required          
+Instance               Reference         Type     Pin     Net                                 Time         Slack
+                       Clock                                                                                    
+----------------------------------------------------------------------------------------------------------------
+AFE_RX_STATE[0]        AFE_RX_SM|clk     SLE      D       AFE_RX_STATE_ns[4]                  0.179        0.520
+start_bit_mask         AFE_RX_SM|clk     SLE      D       start_bit_masks                     0.179        0.520
+AFE_RX_STATE[2]        AFE_RX_SM|clk     SLE      D       AFE_RX_STATE_ns[2]                  0.179        0.581
+irx_packet_end_all     AFE_RX_SM|clk     SLE      D       AFE_RX_SM\.irx_packet_end_all_4     0.179        0.591
+AFE_RX_STATE[1]        AFE_RX_SM|clk     SLE      D       AFE_RX_STATE_ns[3]                  0.179        0.592
+rx_packet_avail        AFE_RX_SM|clk     SLE      D       N_84_i_0                            0.179        0.592
+start_bit_cntr[0]      AFE_RX_SM|clk     SLE      D       start_bit_cntrc_2_i_0               0.179        0.608
+start_bit_cntr[2]      AFE_RX_SM|clk     SLE      D       start_bit_cntrc_0_i_0               0.179        0.618
+start_bit_cntr[3]      AFE_RX_SM|clk     SLE      D       start_bit_cntrc_1_i_0               0.179        0.634
+AFE_RX_STATE[3]        AFE_RX_SM|clk     SLE      D       AFE_RX_STATE_ns[1]                  0.179        0.649
+================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.699
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.179
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.520
+
+    Number of logic level(s):                1
+    Starting point:                          AFE_RX_STATE[0] / Q
+    Ending point:                            AFE_RX_STATE[0] / D
+    The start point is clocked by            AFE_RX_SM|clk [rising] on pin CLK
+    The end   point is clocked by            AFE_RX_SM|clk [rising] on pin CLK
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name                   Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+AFE_RX_STATE[0]        SLE      Q        Out     0.061     0.061       -         
+AFE_RX_STATE[0]        Net      -        -       0.472     -           2         
+AFE_RX_STATE_ns[4]     CFG4     A        In      -         0.533       -         
+AFE_RX_STATE_ns[4]     CFG4     Y        Out     0.054     0.588       -         
+AFE_RX_STATE_ns[4]     Net      -        -       0.111     -           1         
+AFE_RX_STATE[0]        SLE      D        In      -         0.699       -         
+=================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

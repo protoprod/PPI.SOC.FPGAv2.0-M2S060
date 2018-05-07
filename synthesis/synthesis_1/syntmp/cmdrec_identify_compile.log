@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin\identify_instrumentor_shell_new.exe  -idb  C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\identify.db  -synplify_install  C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3  -synplify_tool  synplify_pro  -log  C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\synlog\m2s010_som_identify_compile.log  -family  SmartFusion2  -prj  C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\m2s010_som_syn.prj  -curimpl  synthesis_1  -dbgimpl  synthesis_1  -fver  2016.09  -f  C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\identifylaunch.tcl 
+rc:0 success:1
+C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\identify.db|i|1487702692|873686
+C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\synlog\m2s010_som_identify_compile.log|o|1487702701|4079
+C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\m2s010_som_syn.prj|i|1487702687|12015
+C:\PULSAR\Projects\PPI\PoweredRail\Common_Module_SOC\CommonModule_Rev1_5Common\synthesis\synthesis_1\identifylaunch.tcl|o|1487702692|123
+C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin\identify_instrumentor_shell_new.exe|i|1431623840|96256

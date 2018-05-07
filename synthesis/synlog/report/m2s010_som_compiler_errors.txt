@@ -1,0 +1,4 @@
+@E: CS187 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\CommsFPGA_top.vhd":433:22:433:22|Expecting ,
+@E: CD415 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\CommsFPGA_top.vhd":504:29:504:29|Expecting keyword is
+@E: Parse errors encountered - exiting
+

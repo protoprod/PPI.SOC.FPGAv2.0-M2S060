@@ -1,0 +1,4 @@
+@E: CD255 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\Phy_Mux.vhd":138:16:138:16|No identifier "phy_mux_proc" in scope
+@E: CD415 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0\hdl\Phy_Mux.vhd":242:27:242:27|Expecting keyword of
+@E: Parse errors encountered - exiting
+
