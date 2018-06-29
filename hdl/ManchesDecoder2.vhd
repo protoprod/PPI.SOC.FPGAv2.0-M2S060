@@ -58,7 +58,10 @@ entity ManchesDecoder2 is
     SFD_timeout               : out std_logic;
     internal_loopback         : in  std_logic;
 	TX_State_IDLE 		      : in  std_logic;
-	reset_all_pkt_cntrs		  : in  std_logic
+	reset_all_pkt_cntrs		  : in  std_logic;
+	RX_byte_valid        	  : out std_logic;
+	RX_byte					  : out std_logic_vector(7 downto 0);
+	wait_for_first_state	  : out std_logic
   );
 end ManchesDecoder2;
 
@@ -77,8 +80,6 @@ architecture v1 of ManchesDecoder2 is
   signal idle_line              : std_logic;
 
   signal NoClock_Detected       : std_logic;
-  signal RX_byte_valid          : std_logic;
-  signal RX_byte                : std_logic_vector(7 downto 0);
   signal RX_byte_Nibble_Swap    : std_logic_vector(7 downto 0);
   signal ClkDomain_Buf_UnderFlow: std_logic;
   signal ClkDomain_Buf_OverRun  : std_logic;
@@ -96,6 +97,7 @@ architecture v1 of ManchesDecoder2 is
   signal PacketLength_bytes     : std_logic_vector(9 downto 0);
   signal MII_RX_D_fail          : std_logic;
   signal RX_s2p                 : std_logic_vector(7 downto 0);
+  signal RD_FIFO_WE	            : std_logic;
 
 begin
 
@@ -236,7 +238,8 @@ begin
       SFD_timeout         => SFD_timeout,              -- out
       start_bit_mask      => start_bit_mask,           -- out
 	  TX_State_IDLE 	  => TX_State_IDLE,		       -- in
-	  reset_all_pkt_cntrs => reset_all_pkt_cntrs   	   -- in	   
+	  reset_all_pkt_cntrs => reset_all_pkt_cntrs,  	   -- in
+	  wait_for_first_state=> wait_for_first_state	   -- out	   
     );
 
   ----------------------------------------------------------------------
@@ -251,7 +254,7 @@ begin
       RE          => ClkDomain_Buf_rden,	  -- in
       RESET       => rst,                     -- in
       WCLOCK      => clk16x,                  -- in
-      WE          => RX_byte_valid,           -- in
+      WE          => RD_FIFO_WE,         	  -- in
       DVLD        => i_MII_RX_EN,             -- out
       EMPTY       => ClkDomain_Buf_Empty,     -- out
       FULL        => ClkDomain_Buf_Full,      -- out
@@ -260,6 +263,7 @@ begin
       UNDERFLOW   => ClkDomain_Buf_UnderFlow, -- out
 	  AEMPTY	  => AEMPTY		    		  -- out
    );
-
+   
+   RD_FIFO_WE <= (RX_byte_valid and TX_State_IDLE);		-- don't write to FIFO on xmit   
 end;
 

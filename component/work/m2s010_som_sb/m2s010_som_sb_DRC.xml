@@ -3,24 +3,10 @@
 <drcreport>
   <header>m2s010_som_sb</header>
   <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Floating Driver</message>
-    <detail>Floating output pin m2s010_som_sb:DEBOUNCE_OUT1</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som_sb/pins/m2s010_som_sb:DEBOUNCE_OUT1</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Floating Driver</message>
-    <detail>Floating output pin m2s010_som_sb:DEBOUNCE_OUT2</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som_sb/pins/m2s010_som_sb:DEBOUNCE_OUT2</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Floating Driver</message>
-    <detail>Floating output pin m2s010_som_sb:GPIO_12_F2M_BUTn3</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som_sb/pins/m2s010_som_sb:GPIO_12_F2M_BUTn3</crossprobe>
+    <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port m2s010_som_sb:GPIO_8_M2F_BLUE</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som_sb/pins/m2s010_som_sb:GPIO_8_M2F_BLUE</crossprobe>
   </drc>
 </drcreport>

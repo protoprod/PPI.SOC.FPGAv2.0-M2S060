@@ -37,6 +37,11 @@
 --
 --
 -- Revisions:
+--	0x1 	Initial FPGA 2.0 without host MII interface
+--	0x2		FPGA 2.0 + host interface
+--	0x3		ASK AFE design
+--	0x4		simple node baseline merged with ASK AFE 6/22/18
+--	0x5		simple node baseline after merge with M2S060 logic  6/25/18
 ----------------------------------------------------------------------------------
 
 library IEEE;
@@ -93,9 +98,9 @@ entity CommsFPGA_top is
       H_RXER                    : out std_logic;
       H_CRS                     : out std_logic;
       H_COL                     : out std_logic;
---    DormantREQn               : in  std_logic;
---    EngageREQn                : in  std_logic;
---    HOST_DETn                 : in  std_logic;
+      DormantREQn               : in  std_logic;
+      EngageREQn                : in  std_logic;
+      HOST_DETn                 : in  std_logic;
       SPI_FLASH_RSTn            : out std_logic;
       uSD_DETLVR                : in  std_logic;
       uSD_DETSW                 : in  std_logic;
@@ -128,7 +133,11 @@ entity CommsFPGA_top is
       D_RXER                    : in  std_logic;
       D_CRS                     : in  std_logic;
       D_COL                     : in  std_logic;
-	  MII_RX_D_fail_reg			: out std_logic
+	  MII_RX_D_fail_reg			: out std_logic;
+	  LED_GREEN					: out std_logic;
+	  LED_BLUE					: out std_logic;
+	  LED_RED					: out std_logic;
+	  THOs_AFE					: in std_logic
     );
 end CommsFPGA_top;
 
@@ -221,6 +230,21 @@ architecture Behavioral of CommsFPGA_top is
   signal T_RXC                 : std_logic; 
   signal T_TXC                 : std_logic; 
   
+  signal Tx_Data_d1            : std_logic_vector(7 downto 0);
+  signal Tx_Data_d2            : std_logic_vector(7 downto 0);
+  signal RX_byte               : std_logic_vector(7 downto 0);
+  signal RX_byte_valid		   : std_logic;
+  signal Collision_det		   : std_logic_vector(23 downto 0);
+  signal Collision_det_s	   : std_logic;
+  signal wait_for_first_state  : std_logic;
+  signal MANCHESTER_INc		   : std_logic;
+  signal THOs_AFEn			   : std_logic;
+  signal THO_compare_s		   : std_logic;
+  signal THO_compare_reg	   : std_logic_vector(23 downto 0);
+  signal THOs_AFE_reg		   : std_logic_vector(2 downto 0);
+  signal AFE_Compare_reg	   : std_logic;
+  signal THOs_AFE_reg_2		   : std_logic;
+  signal THO_compare_reg_14	   : std_logic;
   signal TX_State_IDLE 		   : std_logic; 
   
   signal reset_all_pkt_cntrs   : std_logic; 	
@@ -252,26 +276,12 @@ begin
   RESET_OUTn      <= not RESET;
   bd_reset        <= not BD_RESETn or SW_RESET;
 
-  DRVR_EN         <= TX_Enable;
---  DRVR_EN         <= TX_Enable when (MII_DBG_PHYn = '0') else '0';		-- receiver if 0
---  DRVR_EN         <= '0';  
-  
+  DRVR_EN         <= TX_Enable;  
   RCVR_EN         <= '1';
   
---  MANCH_OUT_N     <= not random_data_bit; --iMANCH_OUT_P;
---  MANCH_OUT_P     <= random_data_bit; --iMANCH_OUT_P;
-  
---  MANCH_OUT_N     <= not iMANCH_OUT_P when (MII_DBG_PHYn = '0') else '0';	
---  MANCH_OUT_P     <= iMANCH_OUT_P when (MII_DBG_PHYn = '0') else '1';
-
-    
---  MANCH_OUT_N     <= not iMANCH_OUT_P;
---  MANCH_OUT_P     <= iMANCH_OUT_P;
-
-		-- simple node inverter change
+		-- simple node inverter change for 060 support
   MANCH_OUT_N     <= iMANCH_OUT_P;
   MANCH_OUT_P     <= not iMANCH_OUT_P;
-
 
   -- Clocks from FPGA to MAC or Host
   F_TXC           <= MII_CLK;
@@ -353,6 +363,67 @@ begin
     end if;
   end process;
 
+
+-------------------------------------------------------------
+-- Capture Tx Nibble to compare on Rx side for Collision/loopback signal
+-------------------------------------------------------------
+  TX_Nibble : process(MII_CLK, bd_reset)
+  begin
+    if (rising_edge(MII_CLK)) then
+	  if (bd_reset = '1') then
+        Tx_Data_d1 <= (others => '0');
+        Tx_Data_d2 <= (others => '0');
+	  elsif (F_TXEN = '1') then
+        Tx_Data_d1 <= Tx_Data_d1(3 downto 0) & F_TXD;
+        Tx_Data_d2 <= Tx_Data_d1;
+	  end if;
+    end if;
+  end process;
+  
+  Collision_cmpr : process(clk16x, bd_reset)
+  begin
+    if (rising_edge(clk16x)) then
+	  if (bd_reset = '1') then
+        Collision_det <= (others => '0');
+	  -- timing is different in first state so compare to d1 value
+	  elsif ((wait_for_first_state = '1') and (F_TXEN = '1') and (RX_byte_valid = '1') and 
+			(Tx_Data_d2 /= RX_byte) and (Tx_Data_d1 /= RX_byte)) then
+		Collision_det <= Collision_det(22 downto 0) & '1';
+	  elsif ((wait_for_first_state = '0') and (F_TXEN = '1') and (RX_byte_valid = '1') and 
+			(Tx_Data_d2 /= RX_byte)) 	then
+        Collision_det <= Collision_det(22 downto 0) & '1';
+	  else
+	    Collision_det <= Collision_det(22 downto 0) & '0';
+	  end if;
+    end if;
+  end process;
+
+  Collision_det_s <= '1' when (Collision_det /= x"000000") else '0';
+
+  
+------------------------------------------------------------------------------
+-- Compare baseline AFE Manchester in Signal to new ASK AFE input
+-------1---------2---------3---------4---------5---------6---------7---------8
+  
+  AFE_COMPARE : process(clk16x, bd_reset)
+  begin
+    if (rising_edge(clk16x)) then
+	  if (bd_reset = '1') then
+        THO_compare_reg <= (others => '0');
+		THOs_AFE_reg	<= (others => '0');
+		AFE_Compare_reg	<= '0';
+	  else
+	    THO_compare_reg <= THO_compare_reg(22 downto 0) & MANCHESTER_IN;
+		THOs_AFE_reg	<= THOs_AFE_reg (1 downto 0) & THOs_AFEn;
+		AFE_Compare_reg	<= THO_compare_reg(16) xor THOs_AFE_reg(2);
+	  end if;
+    end if;
+  end process;
+  
+  THO_compare_s 	<= '1' when (THO_compare_reg(16) /= THOs_AFEn) else '0';
+  THOs_AFE_reg_2	<= THOs_AFE_reg(2);
+  THO_compare_reg_14<= THO_compare_reg(16);
+  
   ------------------------------------------------------------------------------
   -- Tri-Debounce
   -------1---------2---------3---------4---------5---------6---------7---------8
@@ -363,18 +434,15 @@ begin
       debounce_in     => DEBOUNCE_IN,
       debounce_out    => DEBOUNCE_OUT
     );
-/*
+
   DEBOUNCE_OUT0             <= DEBOUNCE_OUT(0);
   DEBOUNCE_OUT1             <= DEBOUNCE_OUT(1);
   DEBOUNCE_OUT2             <= DEBOUNCE_OUT(2);
-*/
 
-  -- MII_DBG_PHYn = '0' node is a transmitter
-  DEBOUNCE_OUT0             <= '0' when (MAC_MII_TX_EN = '1') else '1';		--  Blue  '0' to turn on transmitter
-  DEBOUNCE_OUT1             <= '0' when ((q(23 downto 16) = x"FF") and (MAC_MII_TX_EN = '0') and
+  LED_BLUE      <= '0' when (MAC_MII_TX_EN = '1') else '1';		--  Blue  '0' to turn on transmitter
+  LED_RED             <= '0' when ((q(23 downto 16) = x"FF") and (MAC_MII_TX_EN = '0') and
 									(MAC_MII_RX_DV = '0'))  else '1';	--  Red LED for heart beat when no traffic
-  DEBOUNCE_OUT2             <= '0' when (MAC_MII_RX_DV = '1') else '1';		--  Green
-  
+  LED_GREEN     <= '0' when (MAC_MII_RX_DV = '1') else '1';		--  Green
   
   iMANCH_OUT_N              <= not iMANCH_OUT_P;
   SIMOnly_rx_packet_end_all <= rx_packet_end_all;
@@ -559,7 +627,10 @@ begin
       SFD_timeout            => SFD_timeout,           -- out
       internal_loopback      => internal_loopback,     -- in
 	  TX_State_IDLE 	     => TX_State_IDLE, 		   -- in
-	  reset_all_pkt_cntrs	 => reset_all_pkt_cntrs    -- in
+	  reset_all_pkt_cntrs	 => reset_all_pkt_cntrs,   -- in
+	  RX_byte_valid          => RX_byte_valid, 		   -- out
+	  RX_byte		         => RX_byte,	 		   -- out
+	  wait_for_first_state	 => wait_for_first_state   -- out
     );
 
   -----------------------------------------------------------------------------
@@ -609,8 +680,8 @@ begin
       F_RXD               => F_RXD,                -- in 
       F_RXER              => F_RXER,               -- in 
       F_RXDV              => F_RXDV,               -- in 
-      F_CRS               => not idle_line_s(1),   -- in 
-      F_COL               => collision_detect,     -- in 
+      F_CRS               => not idle_line_s(1),   -- in
+      F_COL               => Collision_det_s,	   -- in  
       F_RXC               => F_RXC,                -- in 
       F_TXC               => F_TXC,                -- in 
       -- Outputs to FPGA I-RAIL PHY
@@ -620,7 +691,8 @@ begin
       H_TXD               => H_TXD,                -- in 
       H_TXEN              => H_TXEN,               -- in 
       H_MDC               => H_MDC,                -- in 
-      H_MDI               => H_MDI,                -- in 
+      H_MDI               => H_MDI,                -- in  
+	  HOST_DETn			  => HOST_DETn,			   -- in 0 = capable node
       -- Outputs to Host Phy
       H_RXD               => H_RXD,                -- out 
       H_RXER              => H_RXER,               -- out 

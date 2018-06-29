@@ -213,6 +213,18 @@
         <spirit:direction>out</spirit:direction>
       </spirit:signal>
       <spirit:signal>
+        <spirit:name>DormantREQn</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>EngageREQn</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>HOST_DETn</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
         <spirit:name>SPI_FLASH_RSTn</spirit:name>
         <spirit:direction>out</spirit:direction>
       </spirit:signal>
@@ -351,6 +363,22 @@
       <spirit:signal>
         <spirit:name>MII_RX_D_fail_reg</spirit:name>
         <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>LED_GREEN</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>LED_BLUE</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>LED_RED</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>THOs_AFE</spirit:name>
+        <spirit:direction>in</spirit:direction>
       </spirit:signal>
     </spirit:signals>
     <spirit:hwParameters>

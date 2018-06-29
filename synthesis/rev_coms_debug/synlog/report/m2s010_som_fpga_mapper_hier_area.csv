@@ -1,13 +1,13 @@
 
 . Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
-. m2s010_som, 1825, 1364, 471, 0, 0, 37, 1, 19, 126
-.	. CommsFPGA_top, 827, 601, 416, 0, 0, 0, 1, 5, 0
-.	.	. IdleLineDetector_1, 33, 15, 30, 0, 0, 0, 0, 0, 0
-.	.	. ManchesDecoder2, 256, 168, 142, 0, 0, 0, 1, 0, 0
+. m2s010_som, 1854, 1408, 434, 0, 0, 37, 1, 19, 126
+.	. CommsFPGA_top, 856, 643, 379, 0, 0, 0, 1, 5, 0
+.	.	. IdleLineDetector_1, 0, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	. ManchesDecoder2, 256, 164, 141, 0, 0, 0, 1, 0, 0
 .	.	.	. BitDetector, 17, 5, 17, 0, 0, 0, 0, 0, 0
-.	.	.	. CLOCK_DOMAIN_BUFFER, 95, 48, 45, 0, 0, 0, 1, 0, 0
-.	.	.	.	. CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO, 95, 48, 45, 0, 0, 0, 1, 0, 0
-.	.	.	.	.	. CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async, 87, 40, 45, 0, 0, 0, 0, 0, 0
+.	.	.	. CLOCK_DOMAIN_BUFFER, 95, 44, 44, 0, 0, 0, 1, 0, 0
+.	.	.	.	. CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO, 95, 44, 44, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	. CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async, 87, 41, 44, 0, 0, 0, 0, 0, 0
 .	.	.	.	.	.	. CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_doubleSync_0_6, 14, 0, 0, 0, 0, 0, 0, 0, 0
 .	.	.	.	.	.	. CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_doubleSync_0_7, 14, 0, 0, 0, 0, 0, 0, 0, 0
 .	.	.	.	.	.	. CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_grayToBinConv_6, 0, 6, 0, 0, 0, 0, 0, 0, 0
@@ -16,27 +16,29 @@
 .	.	.	.	.	.	. CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_USRAM_top, 0, 0, 0, 0, 0, 0, 1, 0, 0
 .	.	.	. ManchesDecoder_Adapter, 56, 32, 30, 0, 0, 0, 0, 0, 0
 .	.	.	.	. IdleLineDetector_0, 33, 14, 30, 0, 0, 0, 0, 0, 0
-.	.	.	. RX_SM, 74, 63, 50, 0, 0, 0, 0, 0, 0
-.	.	. ManchesEncoder2, 95, 144, 69, 0, 0, 0, 0, 0, 0
+.	.	.	. RX_SM, 74, 62, 50, 0, 0, 0, 0, 0, 0
+.	.	. ManchesEncoder2, 113, 149, 69, 0, 0, 0, 0, 0, 0
+.	.	.	. Edge_Detect, 7, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. Edge_Detect_2, 7, 1, 0, 0, 0, 0, 0, 0, 0
 .	.	.	. Jabber_SM, 52, 79, 48, 0, 0, 0, 0, 0, 0
-.	.	.	. Nib2Ser_SM, 37, 57, 21, 0, 0, 0, 0, 0, 0
-.	.	. Phy_Mux, 0, 1, 0, 0, 0, 0, 0, 0, 0
-.	.	. TX_Collision_Detector2, 19, 12, 16, 0, 0, 0, 0, 0, 0
-.	.	. mdio_slave_interface, 302, 168, 127, 0, 0, 0, 0, 1, 0
-.	.	. uP_if, 83, 68, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. Interrupts, 33, 14, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. Nib2Ser_SM, 37, 58, 21, 0, 0, 0, 0, 0, 0
+.	.	. Phy_Mux, 1, 52, 0, 0, 0, 0, 0, 0, 0
+.	.	. TX_Collision_Detector2, 28, 11, 16, 0, 0, 0, 0, 0, 0
+.	.	. mdio_slave_interface, 302, 152, 121, 0, 0, 0, 0, 1, 0
+.	.	. uP_if, 83, 71, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. Interrupts, 33, 15, 0, 0, 0, 0, 0, 0, 0
 .	.	.	.	. Edge_Detect_0, 7, 1, 0, 0, 0, 0, 0, 0, 0
 .	.	.	.	. Edge_Detect_0_0, 7, 1, 0, 0, 0, 0, 0, 0, 0
 .	.	.	.	. Edge_Detect_0_1, 7, 1, 0, 0, 0, 0, 0, 0, 0
 .	.	.	.	. Edge_Detect_0_2, 7, 1, 0, 0, 0, 0, 0, 0, 0
 .	. CoreAPB3, 0, 2, 0, 0, 0, 0, 0, 0, 0
 .	. m2s010_som_CommsFPGA_CCC_0_FCCC, 0, 0, 0, 0, 0, 0, 0, 2, 0
-.	. m2s010_som_sb, 124, 87, 14, 0, 0, 0, 0, 8, 73
+.	. m2s010_som_sb, 124, 89, 14, 0, 0, 0, 0, 8, 73
 .	.	. CoreConfigP, 74, 62, 0, 0, 0, 0, 0, 0, 0
 .	.	. CoreResetP, 50, 17, 14, 0, 0, 0, 0, 2, 0
 .	.	. m2s010_som_sb_CCC_0_FCCC, 0, 0, 0, 0, 0, 0, 0, 1, 0
 .	.	. m2s010_som_sb_FABOSC_0_OSC, 0, 0, 0, 0, 0, 0, 0, 1, 0
-.	.	. m2s010_som_sb_MSS, 0, 8, 0, 0, 0, 0, 0, 3, 68
+.	.	. m2s010_som_sb_MSS, 0, 10, 0, 0, 0, 0, 0, 3, 68
 .	. syn_identify_core0_0, 874, 674, 41, 0, 0, 37, 0, 4, 0
 .	.	. IICE_x, 826, 655, 41, 0, 0, 37, 0, 2, 0
 .	.	.	. b11_OFWNT9s_8tZ_Z3_x_0, 348, 154, 26, 0, 0, 37, 0, 0, 0

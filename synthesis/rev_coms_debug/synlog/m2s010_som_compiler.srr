@@ -9,102 +9,9 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @N::Reading compiler constraint file C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.cdc
 @N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
 @N:"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Top entity is set to m2s010_som.
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.cdc changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.cdc changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\misc.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\COREFIFO\2.6.108\rtl\vhdl\core\fifo_pkg.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_USRAM_top.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Edge_Detect.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Jabber_SM.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Nib2Ser_SM.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CRC16x4_Generator.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Debounce.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\TX_Collision_Detector2.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_async.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_sync.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_sync_scntr.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_ram_wrapper.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\COREFIFO.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\ManchesDecoder_Adapter.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\ManchesDecoder2.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\ManchesEncoder2.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\MII_DataCheck.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\MII_DataGen.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\TriDebounce.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Interrupts.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\m2s010_som_sb.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+Options changed - recompiling
 VHDL syntax check successful!
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.cdc changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.cdc changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\m2s010_som_sb.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
-File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+Options changed - recompiling
 @N: CD231 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Synthesizing work.m2s010_som.rtl.
 @N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":434:10:434:14|Synthesizing smartfusion2.bibuf.syn_black_box.
@@ -194,24 +101,26 @@ Post processing for work.m2s010_som_sb.rtl
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
 Post processing for coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch
 Post processing for coreapb3_lib.coreapb3.coreapb3_arch
-@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":51:7:51:19|Synthesizing work.commsfpga_top.behavioral.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":294:10:294:24|Removing redundant assignment.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":151:9:151:14|Signal rx_s2p is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":157:9:157:18|Signal mii_tx_clk is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":159:9:159:21|Signal control_reg_6 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":186:9:186:13|Signal f_crs is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":192:9:192:15|Signal i_f_txd is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":193:9:193:16|Signal i_f_txen is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":194:9:194:15|Signal t_f_txd is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":195:9:195:16|Signal t_f_txen is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":199:9:199:17|Signal mii_tx_en is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":200:9:200:16|Signal mii_tx_d is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":201:9:201:17|Signal mii_error is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":205:9:205:18|Signal mii_rx_clk is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":206:9:206:17|Signal mii_rx_en is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":207:9:207:16|Signal mii_rx_d is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":234:9:234:16|Signal maninvec is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":238:9:238:19|Signal force_error is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":56:7:56:19|Synthesizing work.commsfpga_top.behavioral.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":304:10:304:24|Removing redundant assignment.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":160:9:160:14|Signal rx_s2p is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":166:9:166:18|Signal mii_tx_clk is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":168:9:168:21|Signal control_reg_6 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":195:9:195:13|Signal f_crs is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":201:9:201:15|Signal i_f_txd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":202:9:202:16|Signal i_f_txen is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":203:9:203:15|Signal t_f_txd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":204:9:204:16|Signal t_f_txen is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":208:9:208:17|Signal mii_tx_en is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":209:9:209:16|Signal mii_tx_d is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":210:9:210:17|Signal mii_error is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":214:9:214:18|Signal mii_rx_clk is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":215:9:215:17|Signal mii_rx_en is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":216:9:216:16|Signal mii_rx_d is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":240:9:240:22|Signal manchester_inc is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":241:9:241:17|Signal thos_afen is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":258:9:258:16|Signal maninvec is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":262:9:262:19|Signal force_error is undriven. Either assign the signal a value or remove the signal declaration.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":22:7:22:26|Synthesizing work.mdio_slave_interface.translated.
 @N: CD231 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":99:29:99:30|Using onehot encoding for type mdio_slave_state_type. For example, enumeration sm_st_0 is mapped to "100000000".
 @W: CG296 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":166:1:166:7|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
@@ -248,72 +157,69 @@ Post processing for work.mdio_slave_interface.translated
 @W: CL260 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":568:4:568:5|Pruning register bit 8 of Register0(15 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
 @W: CL279 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":568:4:568:5|Pruning register bits 6 to 0 of Register0(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":22:7:22:13|Synthesizing work.phy_mux.translated.
-@W: CD434 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":140:28:140:36|Signal clk_25mhz in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":151:28:151:36|Signal clk_25mhz in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":157:5:157:12|Signal host_det in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":157:15:157:25|Signal mii_dbg_phy in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
 Post processing for work.phy_mux.translated
-@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":65:4:65:9|Signal H_RXER is floating; a simulation mismatch is possible.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal H_RXD(3 downto 0); possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal H_TXC; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal H_RXDV; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal H_RXC; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal H_CRS; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal H_COL; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal MAC_MII_RXD(3 downto 0); possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal D_TXD(3 downto 0); possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal MAC_MII_TX_CLK; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal MAC_MII_RX_DV; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal MAC_MII_RX_CLK; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal MAC_MII_MDI; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal MAC_MII_CRS; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal H_MDO_EN; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal H_MDO; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal F_MDC; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal D_TXEN; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal D_MDO_EN; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal D_MDO; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal D_MDC; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal F_TXD(3 downto 0); possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal MAC_MII_RX_ER; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal MAC_MII_COL; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal F_TXEN; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal F_MDI; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal T_RXD(3 downto 0); possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal T_TXC; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal T_RXER; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal T_RXDV; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal T_RXC; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal T_CRS; possible missing assignment in an if or case statement.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch generated from process for signal T_COL; possible missing assignment in an if or case statement.
-@W: CL238 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch T_COL enable evaluates to constant 0, optimized
-@W: CL238 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch T_CRS enable evaluates to constant 0, optimized
-@W: CL238 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch T_RXC enable evaluates to constant 0, optimized
-@W: CL238 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch T_RXDV enable evaluates to constant 0, optimized
-@W: CL238 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch T_RXER enable evaluates to constant 0, optimized
-@W: CL238 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch T_TXC enable evaluates to constant 0, optimized
-@W: CL238 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch T_RXD(3 downto 0) enable evaluates to constant 0, optimized
-@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch F_MDI enable evaluates to constant 1, optimized
-@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch F_TXEN enable evaluates to constant 1, optimized
-@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch F_TXD(3 downto 0) enable evaluates to constant 1, optimized
-@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch D_MDC enable evaluates to constant 1, optimized
-@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch D_TXEN enable evaluates to constant 1, optimized
-@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch F_MDC enable evaluates to constant 1, optimized
-@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch MAC_MII_CRS enable evaluates to constant 1, optimized
-@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch MAC_MII_MDI enable evaluates to constant 1, optimized
-@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch MAC_MII_RX_CLK enable evaluates to constant 1, optimized
-@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch MAC_MII_RX_DV enable evaluates to constant 1, optimized
-@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch MAC_MII_TX_CLK enable evaluates to constant 1, optimized
-@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch D_TXD(3 downto 0) enable evaluates to constant 1, optimized
-@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch MAC_MII_RXD(3 downto 0) enable evaluates to constant 1, optimized
-@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch H_COL enable evaluates to constant 1, optimized
-@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch H_CRS enable evaluates to constant 1, optimized
-@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch H_RXC enable evaluates to constant 1, optimized
-@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch H_RXDV enable evaluates to constant 1, optimized
-@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch H_TXC enable evaluates to constant 1, optimized
-@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":148:10:148:13|Latch H_RXD(3 downto 0) enable evaluates to constant 1, optimized
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal F_TXD(3 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal MAC_MII_RX_ER; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal MAC_MII_COL; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal F_TXEN; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal F_MDI; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal MAC_MII_RXD(3 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal D_TXD(3 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal MAC_MII_TX_CLK; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal MAC_MII_RX_DV; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal MAC_MII_RX_CLK; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal MAC_MII_MDI; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal MAC_MII_CRS; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal H_MDO_EN; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal H_MDO; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal F_MDC; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal D_TXEN; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal D_MDO_EN; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal D_MDO; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal D_MDC; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal H_RXD(3 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal H_TXC; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal H_RXDV; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal H_RXC; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal H_CRS; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal H_COL; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal T_RXD(3 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal T_TXC; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal T_RXER; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal T_RXDV; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal T_RXC; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal T_CRS; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal T_COL; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch generated from process for signal H_RXER; possible missing assignment in an if or case statement.
+@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch D_MDC enable evaluates to constant 1, optimized
+@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch D_MDO enable evaluates to constant 1, optimized
+@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch D_MDO_EN enable evaluates to constant 1, optimized
+@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch D_TXEN enable evaluates to constant 1, optimized
+@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch F_MDC enable evaluates to constant 1, optimized
+@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch H_MDO enable evaluates to constant 1, optimized
+@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch H_MDO_EN enable evaluates to constant 1, optimized
+@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch MAC_MII_CRS enable evaluates to constant 1, optimized
+@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch MAC_MII_MDI enable evaluates to constant 1, optimized
+@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch MAC_MII_RX_CLK enable evaluates to constant 1, optimized
+@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch MAC_MII_RX_DV enable evaluates to constant 1, optimized
+@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch MAC_MII_TX_CLK enable evaluates to constant 1, optimized
+@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch D_TXD(3 downto 0) enable evaluates to constant 1, optimized
+@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch MAC_MII_RXD(3 downto 0) enable evaluates to constant 1, optimized
+@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch F_MDI enable evaluates to constant 1, optimized
+@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch F_TXEN enable evaluates to constant 1, optimized
+@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch MAC_MII_COL enable evaluates to constant 1, optimized
+@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch MAC_MII_RX_ER enable evaluates to constant 1, optimized
+@W: CL239 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":160:10:160:13|Latch F_TXD(3 downto 0) enable evaluates to constant 1, optimized
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\TX_Collision_Detector2.vhd":42:7:42:28|Synthesizing work.tx_collision_detector2.behavioral.
 Post processing for work.tx_collision_detector2.behavioral
+@W: CL271 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\TX_Collision_Detector2.vhd":76:4:76:5|Pruning unused bits 7 to 4 of MANCHESTER_IN_d_3(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\TX_Collision_Detector2.vhd":76:4:76:5|Pruning unused bits 7 to 5 of MANCHESTER_OUT_d_4(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\ManchesDecoder2.vhd":43:7:43:21|Synthesizing work.manchesdecoder2.v1.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\ManchesDecoder2.vhd":96:9:96:26|Signal packetlength_bytes is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\ManchesDecoder2.vhd":97:9:97:21|Signal mii_rx_d_fail is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\ManchesDecoder2.vhd":97:9:97:26|Signal packetlength_bytes is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\ManchesDecoder2.vhd":98:9:98:21|Signal mii_rx_d_fail is undriven. Either assign the signal a value or remove the signal declaration.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER.vhd":19:7:19:25|Synthesizing work.clock_domain_buffer.rtl.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\COREFIFO.vhd":34:7:34:56|Synthesizing corefifo_lib.clock_domain_buffer_clock_domain_buffer_0_corefifo.translated.
 @W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\COREFIFO.vhd":400:10:400:18|Signal reg_valid is undriven. Either assign the signal a value or remove the signal declaration.
@@ -434,19 +340,19 @@ Post processing for corefifo_lib.clock_domain_buffer_clock_domain_buffer_0_coref
 @W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\COREFIFO.vhd":643:6:643:7|Pruning unused register DVLD_async_ecc_4. Make sure that there are no unused intermediate registers.
 Post processing for work.clock_domain_buffer.rtl
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":34:7:34:11|Synthesizing work.rx_sm.behavioral.
-@N: CD231 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":81:23:81:24|Using onehot encoding for type rx_state_type. For example, enumeration idle is mapped to "100000".
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":144:8:144:21|Removing redundant assignment.
-@W: CD434 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":134:50:134:68|Signal i_rx_packet_end_all in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":271:16:271:28|Removing redundant assignment.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":298:16:298:23|Removing redundant assignment.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":299:16:299:28|Removing redundant assignment.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":344:16:344:23|Removing redundant assignment.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":345:16:345:28|Removing redundant assignment.
-@N: CD231 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":81:23:81:24|Using onehot encoding for type rx_state_type. For example, enumeration idle is mapped to "100000".
+@N: CD231 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":82:23:82:24|Using onehot encoding for type rx_state_type. For example, enumeration idle is mapped to "100000".
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":147:8:147:21|Removing redundant assignment.
+@W: CD434 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":137:50:137:68|Signal i_rx_packet_end_all in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":254:16:254:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":281:16:281:23|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":282:16:282:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":327:16:327:23|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":328:16:328:28|Removing redundant assignment.
+@N: CD231 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":82:23:82:24|Using onehot encoding for type rx_state_type. For example, enumeration idle is mapped to "100000".
 Post processing for work.rx_sm.behavioral
-@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":175:6:175:7|Pruning unused register cnt_pkt_to_wait_7(15 downto 0). Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":175:6:175:7|Pruning unused register cnt_pkt_to_idle_7(15 downto 0). Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":175:6:175:7|Pruning unused register cnt_non_idle_rail_6(15 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":158:6:158:7|Pruning unused register cnt_pkt_to_wait_7(15 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":158:6:158:7|Pruning unused register cnt_pkt_to_idle_7(15 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":158:6:158:7|Pruning unused register cnt_non_idle_rail_6(15 downto 0). Make sure that there are no unused intermediate registers.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\BitDetector.vhd":40:7:40:17|Synthesizing work.bitdetector.behavioral.
 @N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\BitDetector.vhd":78:10:78:25|Removing redundant assignment.
 Post processing for work.bitdetector.behavioral
@@ -493,21 +399,21 @@ Post processing for work.manchesencoder2.behavioral
 @W: CL271 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\ManchesEncoder2.vhd":232:6:232:7|Pruning unused bits 7 to 2 of Jabber_detect_2MII_clr_d_2(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @W: CL271 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\ManchesEncoder2.vhd":198:6:198:7|Pruning unused bits 7 to 2 of col_detect_2MII_clr_d_3(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":48:7:48:11|Synthesizing work.up_if.behavioral.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":185:8:185:19|Removing redundant assignment.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":215:10:215:29|Removing redundant assignment.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":216:10:216:23|Removing redundant assignment.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":217:10:217:24|Removing redundant assignment.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":218:10:218:28|Removing redundant assignment.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":243:12:243:26|Removing redundant assignment.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":244:12:244:22|Removing redundant assignment.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":245:12:245:25|Removing redundant assignment.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":246:12:246:32|Removing redundant assignment.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":267:8:267:18|Removing redundant assignment.
-@W: CG296 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":274:19:274:25|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":298:28:298:48|Referenced variable i_mii_mux_control_reg is not in sensitivity list.
-@W: CG290 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":291:28:291:41|Referenced variable i_int_mask_reg is not in sensitivity list.
-@W: CG290 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":293:28:293:37|Referenced variable status_reg is not in sensitivity list.
-@W: CG290 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":287:28:287:38|Referenced variable control_reg is not in sensitivity list.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":184:8:184:19|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":214:10:214:29|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":215:10:215:23|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":216:10:216:24|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":217:10:217:28|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":242:12:242:26|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":243:12:243:22|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":244:12:244:25|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":245:12:245:32|Removing redundant assignment.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":266:8:266:18|Removing redundant assignment.
+@W: CG296 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":273:19:273:25|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":297:28:297:48|Referenced variable i_mii_mux_control_reg is not in sensitivity list.
+@W: CG290 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":290:28:290:41|Referenced variable i_int_mask_reg is not in sensitivity list.
+@W: CG290 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":292:28:292:37|Referenced variable status_reg is not in sensitivity list.
+@W: CG290 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":286:28:286:38|Referenced variable control_reg is not in sensitivity list.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Interrupts.vhd":40:7:40:16|Synthesizing work.interrupts.behavioral.
 Post processing for work.interrupts.behavioral
 @W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Interrupts.vhd":191:6:191:7|Pruning unused register iINT_2. Make sure that there are no unused intermediate registers.
@@ -515,9 +421,9 @@ Post processing for work.interrupts.behavioral
 @W: CL111 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Interrupts.vhd":191:6:191:7|All reachable assignments to iint_reg(5) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
 @W: CL111 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Interrupts.vhd":191:6:191:7|All reachable assignments to iint_reg(7) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
 Post processing for work.up_if.behavioral
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":277:8:277:9|Latch generated from process for signal APB3_RDATA(7 downto 0); possible missing assignment in an if or case statement.
-@A: CL109 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":277:8:277:9|Too many clocks (> 8) for set/reset analysis of reset_all_pkt_cntrs, try moving enabling expressions outside process
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":277:8:277:9|Latch generated from process for signal reset_all_pkt_cntrs; possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":276:8:276:9|Latch generated from process for signal APB3_RDATA(7 downto 0); possible missing assignment in an if or case statement.
+@A: CL109 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":276:8:276:9|Too many clocks (> 8) for set/reset analysis of reset_all_pkt_cntrs, try moving enabling expressions outside process
+@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":276:8:276:9|Latch generated from process for signal reset_all_pkt_cntrs; possible missing assignment in an if or case statement.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\MII_DataCheck.vhd":17:7:17:19|Synthesizing work.mii_datacheck.behavioral.
 @N: CD231 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\MII_DataCheck.vhd":55:34:55:35|Using onehot encoding for type mii_datacheck_state_type. For example, enumeration idle is mapped to "10000000".
 @N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\MII_DataCheck.vhd":90:8:90:25|Removing redundant assignment.
@@ -601,10 +507,13 @@ Post processing for work.mii_datagen.behavioral
 Post processing for work.debounce.behavioral
 Post processing for work.tridebounce.behavioral
 Post processing for work.commsfpga_top.behavioral
-@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":56:6:56:25|Signal SIMonly_force_jabber is floating; a simulation mismatch is possible.
-@W: CL168 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":359:32:359:47|Removing instance TRIPLE_DEBOUNCE_INST because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":309:4:309:5|Pruning unused register random_data_bit_2. Make sure that there are no unused intermediate registers.
-@W: CL265 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":347:4:347:5|Removing unused bit 2 of ClkDivider(2 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":241:9:241:17|Signal THOs_AFEn is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":61:6:61:25|Signal SIMonly_force_jabber is floating; a simulation mismatch is possible.
+@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":410:4:410:5|Pruning unused register AFE_Compare_reg_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":410:4:410:5|Pruning unused register THOs_AFE_reg_4(2 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":410:4:410:5|Pruning unused register THO_compare_reg_3(23 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":319:4:319:5|Pruning unused register random_data_bit_2. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":357:4:357:5|Removing unused bit 2 of ClkDivider(2 downto 0). Either assign all bits or reduce the width of the signal.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd":8:7:8:37|Synthesizing work.m2s010_som_commsfpga_ccc_0_fccc.def_arch.
 Post processing for work.m2s010_som_commsfpga_ccc_0_fccc.def_arch
 Post processing for work.m2s010_som.rtl
@@ -672,7 +581,7 @@ State machine has 5 reachable states with original encodings of:
 @W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\IdleLineDetector.vhd":118:6:118:7|Optimizing register bit prbs_gen_hold(12) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL260 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\IdleLineDetector.vhd":118:6:118:7|Pruning register bit 12 of prbs_gen_hold(12 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\IdleLineDetector.vhd":49:4:49:12|Input TX_Enable is unused.
-@N: CL201 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":175:6:175:7|Trying to extract state machine for register RX_STATE.
+@N: CL201 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd":158:6:158:7|Trying to extract state machine for register RX_STATE.
 Extracted state machine for register RX_STATE
 State machine has 6 reachable states with original encodings of:
    000001
@@ -684,7 +593,7 @@ State machine has 6 reachable states with original encodings of:
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_async.vhd":81:6:81:11|Input re_top is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_ram_wrapper.vhd":24:4:24:8|Input CLOCK is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\COREFIFO.vhd":109:6:109:10|Input MEMRD is unused.
-@N: CL201 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\ManchesDecoder2.vhd":114:4:114:5|Trying to extract state machine for register FIFO_Read_SM.
+@N: CL201 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\ManchesDecoder2.vhd":116:4:116:5|Trying to extract state machine for register FIFO_Read_SM.
 Extracted state machine for register FIFO_Read_SM
 State machine has 5 reachable states with original encodings of:
    0000
@@ -694,11 +603,6 @@ State machine has 5 reachable states with original encodings of:
    0100
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":24:4:24:12|Input Clk_25MHz is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":26:4:26:22|Input MII_MUX_control_reg is unused.
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":47:4:47:9|Input F_RXER is unused.
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":62:4:62:8|Input H_MDI is unused.
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":81:4:81:8|Input D_MDI is unused.
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":89:4:89:8|Input T_TXD is unused.
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":90:4:90:9|Input T_TXEN is unused.
 @N: CL201 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":296:6:296:7|Trying to extract state machine for register slave_state.
 Extracted state machine for register slave_state
 State machine has 9 reachable states with original encodings of:
@@ -714,22 +618,24 @@ State machine has 9 reachable states with original encodings of:
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":26:3:26:18|Input PMAD_link_status is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":27:3:27:19|Input PMAD_fault_status is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":28:3:28:17|Input PMAD_jabber_det is unused.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":388:4:388:5|Optimizing register bit gen_data_delay(10) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":388:4:388:5|Optimizing register bit gen_data_delay(11) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":388:4:388:5|Optimizing register bit gen_data_delay(12) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":388:4:388:5|Optimizing register bit gen_data_delay(13) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":388:4:388:5|Optimizing register bit gen_data_delay(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":388:4:388:5|Optimizing register bit gen_data_delay(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":388:4:388:5|Optimizing register bit gen_data_delay(16) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":388:4:388:5|Optimizing register bit gen_data_delay(17) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":388:4:388:5|Optimizing register bit gen_data_delay(18) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":388:4:388:5|Optimizing register bit gen_data_delay(19) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":388:4:388:5|Optimizing register bit gen_data_delay(20) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":388:4:388:5|Optimizing register bit gen_data_delay(21) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":388:4:388:5|Optimizing register bit gen_data_delay(22) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":388:4:388:5|Optimizing register bit gen_data_delay(23) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL279 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":388:4:388:5|Pruning register bits 23 to 10 of gen_data_delay(23 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":72:6:72:16|Input DEBOUNCE_IN is unused.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":456:4:456:5|Optimizing register bit gen_data_delay(10) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":456:4:456:5|Optimizing register bit gen_data_delay(11) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":456:4:456:5|Optimizing register bit gen_data_delay(12) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":456:4:456:5|Optimizing register bit gen_data_delay(13) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":456:4:456:5|Optimizing register bit gen_data_delay(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":456:4:456:5|Optimizing register bit gen_data_delay(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":456:4:456:5|Optimizing register bit gen_data_delay(16) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":456:4:456:5|Optimizing register bit gen_data_delay(17) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":456:4:456:5|Optimizing register bit gen_data_delay(18) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":456:4:456:5|Optimizing register bit gen_data_delay(19) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":456:4:456:5|Optimizing register bit gen_data_delay(20) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":456:4:456:5|Optimizing register bit gen_data_delay(21) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":456:4:456:5|Optimizing register bit gen_data_delay(22) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":456:4:456:5|Optimizing register bit gen_data_delay(23) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":456:4:456:5|Pruning register bits 23 to 10 of gen_data_delay(23 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":101:6:101:16|Input DormantREQn is unused.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":102:6:102:15|Input EngageREQn is unused.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":140:3:140:10|Input THOs_AFE is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":75:0:75:4|Input IADDR is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":76:0:76:6|Input PRESETN is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":77:0:77:3|Input PCLK is unused.
@@ -864,28 +770,25 @@ State machine has 7 reachable states with original encodings of:
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":186:4:186:24|Input SOFT_SDIF3_CORE_RESET is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":190:4:190:26|Input SOFT_SDIF0_0_CORE_RESET is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":191:4:191:26|Input SOFT_SDIF0_1_CORE_RESET is unused.
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\m2s010_som_sb.vhd":21:8:21:20|Input DEBOUNCE_OUT1 is unused.
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\m2s010_som_sb.vhd":22:8:22:20|Input DEBOUNCE_OUT2 is unused.
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\m2s010_som_sb.vhd":28:8:28:24|Input GPIO_12_F2M_BUTn3 is unused.
-@W: CL158 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd":105:8:105:18|Inout GPIO_1_BIDI is unused
+@W: CL158 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd":99:8:99:18|Inout GPIO_1_BIDI is unused
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 110MB peak: 113MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 114MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Apr 24 08:38:19 2018
+# Mon Jun 25 15:08:00 2018
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
 @N|Running in 64-bit mode
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 75MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 75MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Apr 24 08:38:20 2018
+# Mon Jun 25 15:08:01 2018
 
 ###########################################################]
 @END
@@ -895,6 +798,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Apr 24 08:38:20 2018
+# Mon Jun 25 15:08:01 2018
 
 ###########################################################]

@@ -1,6 +1,6 @@
 Compile Report
 Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP2 (Version 11.8.2.4)
-Date: Tue Apr 24 08:38:48 2018
+Date: Mon Jun 25 15:08:35 2018
 
 Device Selection
 +--------------------------------+----------------+
@@ -25,7 +25,6 @@ Source Files
 | Format  | EDIF                                                                                                 |
 | Source  | C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\m2s010_som.edn |
 | Source  | C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\constraint\io\m2s010_som.io.pdc         |
-| Source  | C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\constraint\fp\m2s010_som.fp.pdc         |
 +---------+------------------------------------------------------------------------------------------------------+
 
 Options
@@ -41,8 +40,8 @@ Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 3189 | 56520 | 5.64       |
-| DFF                       | 3193 | 56520 | 5.65       |
+| 4LUT                      | 3195 | 56520 | 5.65       |
+| DFF                       | 3222 | 56520 | 5.70       |
 | I/O Register              | 0    | 591   | 0.00       |
 | User I/O                  | 127  | 197   | 64.47      |
 | -- Single-ended I/O       | 125  | 197   | 63.45      |
@@ -65,11 +64,11 @@ Detailed Logic Resource Usage
 +--------------------------+------+------+
 | Type                     | 4LUT | DFF  |
 +--------------------------+------+------+
-| Fabric Logic             | 1821 | 1825 |
+| Fabric Logic             | 1827 | 1854 |
 | RAM64x18 Interface Logic | 36   | 36   |
 | RAM1K18 Interface Logic  | 1332 | 1332 |
 | MACC Interface Logic     | 0    | 0    |
-| Total Used               | 3189 | 3193 |
+| Total Used               | 3195 | 3222 |
 +--------------------------+------+------+
 
 MSS Resource Usage
@@ -96,19 +95,19 @@ MSS Resource Usage
 Detailed Carry Chains Resource Usage
 +--------+------+
 | Length | Used |
-| 2      | 21   |
+| 2      | 18   |
 | 5      | 16   |
 | 6      | 1    |
-| 7      | 2    |
-| 8      | 5    |
+| 7      | 3    |
+| 8      | 4    |
 | 9      | 1    |
 | 12     | 1    |
-| 13     | 5    |
+| 13     | 4    |
 | 14     | 1    |
 | 16     | 2    |
-| 17     | 5    |
+| 17     | 4    |
 | 24     | 3    |
-| Total  | 63   |
+| Total  | 58   |
 +--------+------+
 
 I/O Function
@@ -135,9 +134,9 @@ I/O Placement
 +----------+-------+------------+
 | Type     | Count | Percentage |
 +----------+-------+------------+
-| Locked   |  100  | 78.74%     |
+| Locked   |  95   | 74.80%     |
 | Placed   |  0    | 0.00%      |
-| UnPlaced |  27   | 21.26%     |
+| UnPlaced |  32   | 25.20%     |
 +----------+-------+------------+
 
 Nets assigned to chip global resources
@@ -147,7 +146,7 @@ Nets assigned to chip global resources
 | 641    | INT_NET | Net   : ident_coreinst/IICE_comm2iice[11]                                                  |
 |        |         | Driver: ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0_RGB1                      |
 |        |         | Source: NETLIST                                                                            |
-| 503    | INT_NET | Net   : CommsFPGA_CCC_0_GL0                                                                |
+| 494    | INT_NET | Net   : CommsFPGA_CCC_0_GL0                                                                |
 |        |         | Driver: CommsFPGA_CCC_0/GL0_INST/U0_RGB1                                                   |
 |        |         | Source: NETLIST                                                                            |
 | 302    | INT_NET | Net   : m2s010_som_sb_0_MAC_MII_MDC                                                        |
@@ -159,13 +158,13 @@ Nets assigned to chip global resources
 | 101    | INT_NET | Net   : m2s010_som_sb_0_CCC_71MHz                                                          |
 |        |         | Driver: m2s010_som_sb_0/CCC_0/GL0_INST/U0_RGB1                                             |
 |        |         | Source: NETLIST                                                                            |
+| 97     | INT_NET | Net   : CommsFPGA_top_0/ClkDivider[1]                                                      |
+|        |         | Driver: CommsFPGA_top_0/ClkDivider_inferred_clock_RNIFOL7[1]/U0_RGB1                       |
+|        |         | Source: NETLIST                                                                            |
 | 75     | INT_NET | Net   : m2s010_som_sb_0/CORECONFIGP_0_APB_S_PCLK                                           |
 |        |         | Driver: m2s010_som_sb_0/m2s010_som_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIPG5/U0_RGB1 |
 |        |         | Source: NETLIST                                                                            |
-| 73     | INT_NET | Net   : CommsFPGA_top_0_MAC_MII_RX_CLK                                                     |
-|        |         | Driver: CommsFPGA_top_0/ClkDivider_inferred_clock_RNIFOL7[1]/U0_RGB1                       |
-|        |         | Source: NETLIST                                                                            |
-| 21     | INT_NET | Net   : CommsFPGA_CCC_0_GL1                                                                |
+| 30     | INT_NET | Net   : CommsFPGA_CCC_0_GL1                                                                |
 |        |         | Driver: CommsFPGA_CCC_0/GL1_INST/U0_RGB1                                                   |
 |        |         | Source: NETLIST                                                                            |
 +--------+---------+--------------------------------------------------------------------------------------------+
@@ -183,7 +182,7 @@ High fanout nets
 +--------+---------+------------------------------------------------------------------+
 | Fanout | Type    | Name                                                             |
 +--------+---------+------------------------------------------------------------------+
-| 395    | INT_NET | Net   : CommsFPGA_top_0/RESET                                    |
+| 388    | INT_NET | Net   : CommsFPGA_top_0/RESET                                    |
 |        |         | Driver: CommsFPGA_top_0/RESET                                    |
 | 222    | INT_NET | Net   : ident_coreinst/IICE_INST/b4_PfFz/b5_PbrtL/b6_OKctIF4     |
 |        |         | Driver: ident_coreinst/IICE_INST/b4_PfFz/b5_PbrtL/b6_OKctIF4     |
@@ -209,7 +208,7 @@ High fanout nets (through buffer trees)
 +--------+---------+------------------------------------------------------------------+
 | Fanout | Type    | Name                                                             |
 +--------+---------+------------------------------------------------------------------+
-| 395    | INT_NET | Net   : CommsFPGA_top_0/RESET                                    |
+| 388    | INT_NET | Net   : CommsFPGA_top_0/RESET                                    |
 |        |         | Driver: CommsFPGA_top_0/RESET                                    |
 | 222    | INT_NET | Net   : ident_coreinst/IICE_INST/b4_PfFz/b5_PbrtL/b6_OKctIF4     |
 |        |         | Driver: ident_coreinst/IICE_INST/b4_PfFz/b5_PbrtL/b6_OKctIF4     |

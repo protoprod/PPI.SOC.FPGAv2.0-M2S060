@@ -50,7 +50,8 @@ entity RX_SM is
     SFD_timeout         : out std_logic;
     start_bit_mask      : out std_logic;
 	TX_State_IDLE		: in  std_logic;
-	reset_all_pkt_cntrs	: in std_logic
+	reset_all_pkt_cntrs	: in std_logic;
+	wait_for_first_state: out std_logic									
   );
 end RX_SM;
 
@@ -96,6 +97,8 @@ begin
   -- capture the falling edge of FPGA version read to generate reset pulse to counters
   reset_all_pkt_cntrs_c <= reset_all_pkt_cntrs_d(2) and (not reset_all_pkt_cntrs_d(1));
   
+  -- used in collision logic because rx_byte_valid has different timing in this state
+  wait_for_first_state <= '1' when (RX_STATE = WAIT_FOR_FIRST_BYTE) else '0';
   -----------------------------------------------------------------------------
   -- Delay / Synchronizer
   -------1---------2---------3---------4---------5---------6---------7---------8
@@ -146,27 +149,7 @@ begin
       end if;
     end if;
   end process;
-/*
-START_BIT_COUNTER_PROC: PROCESS (clk16x, reset, i_rx_packet_end_all)
-  begin
-    if (rising_edge( clk16x ) ) then    
-      if ( reset = '1' or (RX_STATE = IDLE)) then	--i_rx_packet_end_all= '1' ) then
-        start_bit_cntr <= (others => '0');
-        i_start_bit_mask <= '0';
-      elsif ( rx_center_sample = '1' and start_bit_cntr /= START_BIT_MASK_NUM) then
-        start_bit_cntr <= start_bit_cntr + '1';
-        i_start_bit_mask <= '1';
-      elsif ( rx_center_sample = '1' and start_bit_cntr = START_BIT_MASK_NUM) then
-        start_bit_cntr <= start_bit_cntr;
-        i_start_bit_mask <= '0';
-      else
-        start_bit_cntr <= start_bit_cntr;
-        i_start_bit_mask <= i_start_bit_mask;
-      end if;
-    end if;
-  end process;
 
-*/  
   ------------------------------------------------------------------------------
   -- Main State Machine
   -------1---------2---------3---------4---------5---------6---------7---------8
@@ -190,7 +173,7 @@ START_BIT_COUNTER_PROC: PROCESS (clk16x, reset, i_rx_packet_end_all)
           
           ------------------------ IDLE ----------------------------------------
             when IDLE =>
-              if ((manches_in_dly(0) = '1' and manches_in_dly(1) = '0') and (TX_State_IDLE = '1')) then
+              if ((manches_in_dly(0) = '1' and manches_in_dly(1) = '0')) then -- and (TX_State_IDLE = '1')) then
                 RX_STATE            <= CARRIER_DETECT_ST;
                 clk1x_enable        <= '1';
                 i_rx_packet_end_all <= '0';

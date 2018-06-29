@@ -60,6 +60,7 @@ entity Phy_Mux is
     H_TXEN             : in std_logic;
     H_MDC              : in std_logic;
     H_MDI              : in std_logic;
+	HOST_DETn          : in std_logic;
     -- Outputs to Host Phy
     H_RXD              : out std_logic_vector(3 downto 0);
     H_RXER             : out std_logic;
@@ -107,6 +108,8 @@ architecture translated of Phy_Mux is
   constant CONNECT_DEBUGPHY_SOCMAC_C : std_logic_vector(2 downto 0) := "000";
   -- Connects MAC_MII bus to Debug Bus AND FPGA PHY to Host
   constant CONNECT_FPGAPHY_SOCMAC_C  : std_logic_vector(2 downto 0) := "001";
+  -- Connects MAC_MII bus to Debug Bus AND FPGA PHY to Host
+  constant CONNECT_FPGAPHY_HOSTMAC_C  : std_logic_vector(2 downto 0) := "011";
   -- Connects MAC_MII bus to Debug Bus AND FPGA PHY to Test Logic
   constant CONNECT_FPGAPHY_TESTER_C  : std_logic_vector(2 downto 0) := "010";
 
@@ -114,7 +117,8 @@ architecture translated of Phy_Mux is
   signal F_mdo_qual_i                : std_logic;
   signal MAC_MII_mdo_qual_i          : std_logic;
   signal MII_MUX_control             : std_logic_vector(2 downto 0);
-
+  signal HOST_DET          			 : std_logic;
+  signal MII_DBG_PHY				 : std_logic;
   
 begin
 
@@ -122,12 +126,19 @@ begin
   -- Enable below for processor control.
   --!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!  
   --MII_MUX_control     <= MII_MUX_control_reg(2 downto 0);
+ 
+  HOST_DET		<= not HOST_DETn;
+  MII_DBG_PHY	<= not MII_DBG_PHYn;
+  MII_MUX_control <= '0' & HOST_DET & MII_DBG_PHYn;
   
-  --!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!
-  -- Enable External (to FPGA IC) control
-  --!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!  
-  MII_MUX_control     <= "00" & MII_DBG_PHYn;
---  MII_MUX_control     <= "010";
+-- 000	CONNECT_DEBUGPHY_SOCMAC_C
+-- 001	CONNECT_FPGAPHY_SOCMAC_C
+-- 010  CONNECT_DEBUGPHY_SOCMAC_C and CONNECT_FPGAPHY_HOSTMAC_C
+-- 011	CONNECT_DEBUGPHY_SOCMAC_C and CONNECT_FPGAPHY_HOSTMAC_C
+-- 100	CONNECT_FPGAPHY_TESTER_C
+-- 101	CONNECT_FPGAPHY_TESTER_C
+-- 110	CONNECT_FPGAPHY_TESTER_C
+-- 111	CONNECT_FPGAPHY_TESTER_C
   
   F_mdo_qual_i        <= F_MDO_EN and F_MDO;
   MAC_MII_mdo_qual_i  <= MAC_MII_MDO_EN and MAC_MII_MDO;
@@ -142,7 +153,8 @@ begin
            H_TXD,       H_TXEN,        H_MDC,       H_MDO_EN,       H_MDI, H_MDC,
            T_TXD,       T_TXEN, 
            D_TXC, D_RXC, D_RXD, D_RXDV, D_RXER, D_CRS, D_COL, D_MDI,
-           F_TXC, F_RXC, F_RXD, F_RXDV, F_RXER, F_CRS, F_COL, F_MDO_EN, F_MDO
+           F_TXC, F_RXC, F_RXD, F_RXDV, F_RXER, F_CRS, F_COL, F_MDO_EN, F_MDO,
+		   HOST_DET, MII_DBG_PHY
          )
     begin
           CASE MII_MUX_control IS
@@ -181,7 +193,7 @@ begin
                 MAC_MII_RXD     <= F_RXD;
                 MAC_MII_RX_ER   <= '0';--F_RXER;
                 MAC_MII_RX_DV   <= F_RXDV;
-                MAC_MII_CRS     <= F_CRS;
+                MAC_MII_CRS     <= '0';--F_CRS;
                 MAC_MII_COL     <= '0';--F_COL;
                 MAC_MII_RX_CLK  <= F_RXC;
                 MAC_MII_TX_CLK  <= F_TXC;
@@ -203,15 +215,45 @@ begin
                 H_MDO           <= '0';
                 MAC_MII_MDI     <= F_mdo_qual_i;
                 F_MDI           <= MAC_MII_mdo_qual_i;
-
+				
+            when CONNECT_FPGAPHY_HOSTMAC_C =>
+                D_TXD           <= MAC_MII_TXD;
+                D_TXEN          <= MAC_MII_TX_EN;
+                MAC_MII_RXD     <= D_RXD;
+                MAC_MII_RX_ER   <= '0';--D_RXER;
+                MAC_MII_RX_DV   <= D_RXDV;
+                MAC_MII_CRS     <= D_CRS;
+                MAC_MII_COL     <= '0';--D_COL;
+                MAC_MII_TX_CLK  <= D_TXC;
+                MAC_MII_RX_CLK  <= D_RXC;
+                --
+                F_TXD           <= H_TXD;
+                F_TXEN          <= H_TXEN;
+                H_TXC           <= F_TXC;
+                H_RXC           <= F_RXC;
+                H_RXD           <= F_RXD;
+                H_RXDV          <= F_RXDV;
+                H_CRS           <= F_CRS;
+                H_COL           <= F_COL;
+				H_RXER		    <= F_RXER;
+                -- MDIO and Clock Logic           
+                D_MDC           <= MAC_MII_MDC;    
+                F_MDC           <= MAC_MII_MDC; -- H_MDC;
+                D_MDO_EN        <= MAC_MII_MDO_EN;
+                D_MDO           <= MAC_MII_MDO;
+                H_MDO_EN        <= F_MDO_EN;
+                H_MDO           <= F_MDO;
+                MAC_MII_MDI     <= F_mdo_qual_i; -- D_MDI;
+                F_MDI           <= MAC_MII_MDO_EN and MAC_MII_MDO;
+				
             when CONNECT_FPGAPHY_TESTER_C =>
                 D_TXD           <= MAC_MII_TXD;
                 D_TXEN          <= MAC_MII_TX_EN;
                 MAC_MII_RXD     <= D_RXD;
-                MAC_MII_RX_ER   <= '0';        -- D_RXER;
+                MAC_MII_RX_ER   <= D_RXER;
                 MAC_MII_RX_DV   <= D_RXDV;
                 MAC_MII_CRS     <= D_CRS;
-                MAC_MII_COL     <= '0';        -- D_COL;
+                MAC_MII_COL     <= D_COL;
                 MAC_MII_TX_CLK  <= D_TXC;
                 MAC_MII_RX_CLK  <= D_RXC;              
                 --

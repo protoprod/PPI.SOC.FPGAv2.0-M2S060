@@ -12,7 +12,7 @@ The file contains the optimization information from mapper to be displayed as pa
 </report_link>
 </parameter>
 <parameter tooltip="Non-gated/non-generated clock trees / Gated/generated clock trees" name="Combined Clock Conversion">
-<data>4 / 18</data>
+<data>5 / 20</data>
 <report_link name="more">
 <data>C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\synlog\report\m2s010_som_fpga_mapper_combined_clk.rpt</data>
 <title>START OF CLOCK OPTIMIZATION REPORT</title>

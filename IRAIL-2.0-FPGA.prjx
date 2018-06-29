@@ -58,13 +58,13 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573445"
+TIME="1529953519"
 SIZE="3259"
 PARENT="<project>\component\work\m2s010_som\m2s010_som.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\coreparameters.vhd,tb_hdl"
 STATE="utd"
-TIME="1524573445"
+TIME="1529953519"
 SIZE="2013"
 LIBRARY="COREAPB3_LIB"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
@@ -185,7 +185,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreConfigP\7.0.105\CoreConfigP.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573398"
+TIME="1529953481"
 SIZE="474"
 PARENT="<project>\component\work\m2s010_som_sb\m2s010_som_sb.cxf"
 ENDFILE
@@ -212,7 +212,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreResetP\7.0.104\CoreResetP.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573398"
+TIME="1529953481"
 SIZE="582"
 PARENT="<project>\component\work\m2s010_som_sb\m2s010_som_sb.cxf"
 ENDFILE
@@ -232,14 +232,14 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\SgCore\FCCC\2.0.200\FCCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573445"
+TIME="1529953519"
 SIZE="241"
 PARENT="<project>\component\work\m2s010_som\m2s010_som.cxf"
 PARENT="<project>\component\work\m2s010_som_sb\m2s010_som_sb.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573399"
+TIME="1529953482"
 SIZE="682"
 PARENT="<project>\component\work\m2s010_som_sb\m2s010_som_sb.cxf"
 ENDFILE
@@ -269,7 +269,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.cxf,actgen_cxf"
 STATE="utd"
-TIME="1520456788"
+TIME="1529953663"
 SIZE="467"
 PARENT="<project>\component\work\TB_iRail\TB_iRail.cxf"
 ENDFILE
@@ -282,7 +282,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.cxf,actgen_cxf"
 STATE="utd"
-TIME="1520456788"
+TIME="1529953663"
 SIZE="471"
 PARENT="<project>\component\work\TB_iRail\TB_iRail.cxf"
 ENDFILE
@@ -295,121 +295,121 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS\1.1.400\MSS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573360"
+TIME="1529949916"
 SIZE="526"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CCC\1.0.100\MSS_CCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949909"
 SIZE="253"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CC\1.0.100\MSS_CC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949909"
 SIZE="252"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CFGM\1.1.100\MSS_CFGM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949909"
 SIZE="254"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CM3\1.0.200\MSS_CM3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949909"
 SIZE="253"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_DDRB\1.0.200\MSS_DDRB.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949909"
 SIZE="254"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_EDAC\1.0.101\MSS_EDAC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949909"
 SIZE="254"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_ENVM\1.0.101\MSS_ENVM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949909"
 SIZE="254"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_FIC32\1.0.100\MSS_FIC32.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949910"
 SIZE="255"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_GPIO\1.0.100\MSS_GPIO.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949910"
 SIZE="254"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_I2C\1.0.100\MSS_I2C.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949910"
 SIZE="253"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_INTR\1.0.100\MSS_INTR.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949910"
 SIZE="254"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_MAC\1.0.100\MSS_MAC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949910"
 SIZE="253"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_MDDR\1.0.203\MSS_MDDR.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949910"
 SIZE="254"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_MMUART\1.0.100\MSS_MMUART.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949910"
 SIZE="256"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_RESET\1.0.100\MSS_RESET.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949910"
 SIZE="255"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_RTC\1.0.201\MSS_RTC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949910"
 SIZE="253"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SECURITY\1.0.100\MSS_SECURITY.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949910"
 SIZE="258"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SPI\1.0.100\MSS_SPI.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949910"
 SIZE="253"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SWITCH\1.0.101\MSS_SWITCH.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949910"
 SIZE="256"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
@@ -559,82 +559,82 @@ SIZE="3287"
 ENDFILE
 VALUE "<project>\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573444"
+TIME="1529953518"
 SIZE="738"
 PARENT="<project>\component\work\m2s010_som\m2s010_som.cxf"
 ENDFILE
 VALUE "<project>\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd,hdl"
 STATE="utd"
-TIME="1524573444"
+TIME="1529953518"
 SIZE="5817"
 PARENT="<project>\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\m2s010_som\m2s010_som.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573447"
-SIZE="25237"
+TIME="1529953521"
+SIZE="24151"
 ENDFILE
 VALUE "<project>\component\work\m2s010_som\m2s010_som.vhd,hdl"
 STATE="utd"
-TIME="1524573445"
-SIZE="49276"
+TIME="1529953519"
+SIZE="48780"
 PARENT="<project>\component\work\m2s010_som\m2s010_som.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573397"
+TIME="1529953480"
 SIZE="707"
 PARENT="<project>\component\work\m2s010_som_sb\m2s010_som_sb.cxf"
 ENDFILE
 VALUE "<project>\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd,hdl"
 STATE="utd"
-TIME="1524573397"
+TIME="1529953480"
 SIZE="5548"
 PARENT="<project>\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573399"
+TIME="1529953482"
 SIZE="474"
 PARENT="<project>\component\work\m2s010_som_sb\m2s010_som_sb.cxf"
 ENDFILE
 VALUE "<project>\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd,hdl"
 STATE="utd"
-TIME="1524573399"
+TIME="1529953482"
 SIZE="1908"
 PARENT="<project>\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\m2s010_som_sb\m2s010_som_sb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573400"
-SIZE="28435"
+TIME="1529953483"
+SIZE="27695"
 ENDFILE
 VALUE "<project>\component\work\m2s010_som_sb\m2s010_som_sb.vhd,hdl"
 STATE="utd"
-TIME="1524573399"
-SIZE="67154"
+TIME="1529953482"
+SIZE="66653"
 PARENT="<project>\component\work\m2s010_som_sb\m2s010_som_sb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1524573362"
+TIME="1529949919"
 SIZE="45599"
 ENDFILE
 VALUE "<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd,hdl"
 STATE="utd"
-TIME="1524573360"
+TIME="1529949917"
 SIZE="160548"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_pre.vhd,hdl"
 STATE="utd"
-TIME="1524573357"
+TIME="1529949914"
 SIZE="122428"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 BEGIN_USE_CONSTRAINT
@@ -646,7 +646,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd,hdl"
 STATE="utd"
-TIME="1524573357"
+TIME="1529949914"
 SIZE="122260"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 BEGIN_USE_CONSTRAINT
@@ -658,20 +658,15 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\TB_iRail\TB_iRail.cxf,actgen_cxf"
 STATE="utd"
-TIME="1520456789"
-SIZE="2939"
+TIME="1529953664"
+SIZE="3812"
 ENDFILE
 VALUE "<project>\component\work\TB_iRail\TB_iRail.vhd,tb_hdl"
 STATE="utd"
-TIME="1520456788"
-SIZE="19958"
+TIME="1529953663"
+SIZE="23088"
 PARENT="<project>\component\work\TB_iRail\TB_iRail.cxf"
 IS_READONLY="TRUE"
-ENDFILE
-VALUE "<project>\constraint\fp\m2s010_som.fp.pdc,fp_pdc"
-STATE="utd"
-TIME="1524573586"
-SIZE="351"
 ENDFILE
 VALUE "<project>\constraint\io\m2s010_som.io.pdc,io_pdc"
 STATE="utd"
@@ -775,8 +770,8 @@ SIZE="537"
 ENDFILE
 VALUE "<project>\designer\impl1\m2s010_som_rev_coms_debug.ide_des,ide_des"
 STATE="utd"
-TIME="1524573586"
-SIZE="685"
+TIME="1529952201"
+SIZE="579"
 ENDFILE
 VALUE "<project>\designer\impl1\m2s010_som_rev_debug.ide_des,ide_des"
 STATE="utd"
@@ -830,8 +825,8 @@ SIZE="3143"
 ENDFILE
 VALUE "<project>\hdl\CommsFPGA_top.vhd,hdl"
 STATE="utd"
-TIME="1523909008"
-SIZE="30747"
+TIME="1529942301"
+SIZE="33767"
 ENDFILE
 VALUE "<project>\hdl\CRC16x4_Generator.vhd,hdl"
 STATE="utd"
@@ -865,8 +860,8 @@ SIZE="6635"
 ENDFILE
 VALUE "<project>\hdl\ManchesDecoder2.vhd,hdl"
 STATE="utd"
-TIME="1522784632"
-SIZE="11218"
+TIME="1529949690"
+SIZE="11437"
 ENDFILE
 VALUE "<project>\hdl\ManchesDecoder_Adapter.vhd,hdl"
 STATE="utd"
@@ -885,7 +880,7 @@ SIZE="9979"
 ENDFILE
 VALUE "<project>\hdl\mdio_slave_interface.vhd,hdl"
 STATE="utd"
-TIME="1524077000"
+TIME="1526662652"
 SIZE="29364"
 ENDFILE
 VALUE "<project>\hdl\MII_DataCheck.vhd,hdl"
@@ -905,13 +900,13 @@ SIZE="11800"
 ENDFILE
 VALUE "<project>\hdl\Phy_Mux.vhd,hdl"
 STATE="utd"
-TIME="1520282465"
-SIZE="10085"
+TIME="1529937014"
+SIZE="11904"
 ENDFILE
 VALUE "<project>\hdl\RX_SM.vhd,hdl"
 STATE="utd"
-TIME="1522785260"
-SIZE="16460"
+TIME="1529937459"
+SIZE="15914"
 ENDFILE
 VALUE "<project>\hdl\TriDebounce.vhd,hdl"
 STATE="utd"
@@ -920,17 +915,17 @@ SIZE="2290"
 ENDFILE
 VALUE "<project>\hdl\TX_Collision_Detector2.vhd,hdl"
 STATE="utd"
-TIME="1518187609"
-SIZE="4208"
+TIME="1529937765"
+SIZE="4568"
 ENDFILE
 VALUE "<project>\hdl\uP_if.vhd,hdl"
 STATE="utd"
-TIME="1522783017"
-SIZE="13742"
+TIME="1529942353"
+SIZE="13805"
 ENDFILE
 VALUE "<project>\simulation\bfmtovec_compile.log,log"
 STATE="utd"
-TIME="1523907688"
+TIME="1529953542"
 SIZE="407"
 ENDFILE
 VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
@@ -941,7 +936,7 @@ PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
 ENDFILE
 VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
 STATE="utd"
-TIME="1524573358"
+TIME="1529949914"
 SIZE="500"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
@@ -953,31 +948,36 @@ PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.1.100\CoreAPB3.cxf"
 ENDFILE
 VALUE "<project>\simulation\MDDR_init.bfm,sim"
 STATE="utd"
-TIME="1524573353"
+TIME="1529949910"
 SIZE="8047"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>\simulation\peripheral_init.bfm,sim"
 STATE="utd"
-TIME="1497640211"
-SIZE="8450"
+TIME="1529953537"
+SIZE="8744"
 PARENT="<project>\component\Actel\SmartFusion2MSS\MSS\1.1.400\MSS.cxf"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1523907684"
-SIZE="6291"
+TIME="1529953537"
+SIZE="5979"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1524573445"
-SIZE="835"
+TIME="1529953537"
+SIZE="1090"
 PARENT="<project>\component\work\m2s010_som\m2s010_som.cxf"
 PARENT="<project>\component\work\m2s010_som_sb\m2s010_som_sb.cxf"
 ENDFILE
+VALUE "<project>\simulation\TB_iRail_presynth_simulation.log,log"
+STATE="utd"
+TIME="1529954441"
+SIZE="55475"
+ENDFILE
 VALUE "<project>\simulation\test.bfm,sim"
 STATE="utd"
-TIME="1524573358"
+TIME="1529949914"
 SIZE="734"
 PARENT="<project>\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.cxf"
 ENDFILE
@@ -1006,11 +1006,6 @@ VALUE "<project>\simulation\wave_template.do,do"
 STATE="utd"
 TIME="1518115195"
 SIZE="68588"
-ENDFILE
-VALUE "<project>\synthesis\060_MII\m2s010_som.edn,syn_edn"
-STATE="ood"
-TIME="1520611780"
-SIZE="4645290"
 ENDFILE
 VALUE "<project>\synthesis\060_MII\m2s010_som.so,so"
 STATE="utd"
@@ -1079,7 +1074,7 @@ SIZE="243"
 ENDFILE
 VALUE "<project>\synthesis\m2s010_som_syn.prj,prj"
 STATE="utd"
-TIME="1524573512"
+TIME="1529953694"
 SIZE="10140"
 ENDFILE
 VALUE "<project>\synthesis\PHY_1_Debug\m2s010_som.edn,syn_edn"
@@ -1136,11 +1131,6 @@ VALUE "<project>\synthesis\rev_12\m2s010_som.so,so"
 STATE="utd"
 TIME="1521569704"
 SIZE="257"
-ENDFILE
-VALUE "<project>\synthesis\rev_12\m2s010_som_sdc.sdc,syn_sdc"
-STATE="ood"
-TIME="1521569704"
-SIZE="3151"
 ENDFILE
 VALUE "<project>\synthesis\rev_1\m2s010_som.edn,syn_edn"
 STATE="ood"
@@ -1259,18 +1249,18 @@ SIZE="251"
 ENDFILE
 VALUE "<project>\synthesis\rev_coms_debug\m2s010_som.edn,syn_edn"
 STATE="utd"
-TIME="1524573511"
-SIZE="3721046"
+TIME="1529953693"
+SIZE="3763550"
 ENDFILE
 VALUE "<project>\synthesis\rev_coms_debug\m2s010_som.so,so"
 STATE="utd"
-TIME="1524573512"
+TIME="1529953693"
 SIZE="265"
 ENDFILE
 VALUE "<project>\synthesis\rev_coms_debug\m2s010_som_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1524573511"
-SIZE="4631"
+TIME="1529953693"
+SIZE="4853"
 ENDFILE
 VALUE "<project>\synthesis\rev_debug1\m2s010_som.edn,syn_edn"
 STATE="ood"
@@ -1354,13 +1344,13 @@ SIZE="154"
 ENDFILE
 VALUE "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\synthesis\rev_10\m2s010_som.edn,syn_edn"
 STATE="ood"
-TIME="1509721231"
+TIME="1509454475"
 SIZE="3388291"
 ENDFILE
 VALUE "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv1.6\synthesis\rev_11_debugColl\m2s010_som.edn,syn_edn"
 STATE="ood"
-TIME="1516633936"
-SIZE="11052410"
+TIME="1509454475"
+SIZE="10840310"
 ENDFILE
 VALUE "C:\Users\gcallsen\Documents\Projects\FPGA\1v6_Linux_4KLA_Lost_packets081317\synthesis\rev_1\m2s010_som.edn,syn_edn"
 STATE="ood"
@@ -1387,10 +1377,7 @@ LIST Other_Association
 VALUE "<project>\simulation\subsystem.bfm,sim"
 ENDLIST
 LIST AssociatedStimulus
-VALUE "<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.vhd,tb_hdl"
 VALUE "<project>\hdl\MDIO_Master.vhd,hdl"
-VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.vhd,tb_hdl"
-VALUE "<project>\component\work\TB_iRail\TB_iRail.vhd,tb_hdl"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
@@ -1519,10 +1506,7 @@ ENDLIST
 ENDLIST
 LIST AssociatedStimulus
 LIST m2s010_som
-VALUE "<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.vhd,tb_hdl"
 VALUE "<project>\hdl\MDIO_Master.vhd,hdl"
-VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.vhd,tb_hdl"
-VALUE "<project>\component\work\TB_iRail\TB_iRail.vhd,tb_hdl"
 ENDLIST
 LIST CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO
 VALUE "<project>\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\coreparameters.vhd,tb_hdl"
@@ -1750,10 +1734,11 @@ LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
 ReportsCurrentItem;Run PROGRAM Action:m2s010_som_PROGRAM.log
-StartPage;StartPage;0
 SmartDesign;m2s010_som;0
 SmartDesign;m2s010_som_sb;0
 SmartDesign;m2s010_som_sb_MSS;0
+SmartDesign;TB_iRail;0
+StartPage;StartPage;0
 ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
@@ -2022,7 +2007,6 @@ LIST IOTabList
 VALUE "constraint\io\m2s010_som.io.pdc"
 ENDLIST
 LIST FPTabList
-VALUE "constraint\fp\m2s010_som.fp.pdc"
 ENDLIST
 LIST TimingTabList
 ENDLIST

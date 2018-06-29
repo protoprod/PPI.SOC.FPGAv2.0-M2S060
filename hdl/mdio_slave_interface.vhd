@@ -139,7 +139,7 @@ begin
 				& "1"			-- 1.11 10Mb/s half duplex capable active high
 				& "0000"		-- 1.10:7 Reserved
 				& "0"			-- 1.6  MF Preamble Suppression capable active high
-				& "0"			-- 1.5  Auto-Negotiation Complete active high (not capable)
+				& "1"			-- 1.5  Auto-Negotiation Complete active high (not capable)
 				& "0"  			--PMAD_fault_status_d	-- 1.4  Remote fault active high
 				& "0"			-- 1.3  Auto-Negotiation ability active high
 				& "1"			--PMAD_link_status_d	-- 1.2  Auto-Negotiation ability active high

@@ -2,13 +2,13 @@
 
 # Version: v11.8 SP2 11.8.2.4
 
-# Design Name: m2s010_som 
+# Design Name:  
 
 # Input Netlist Format: EDIF 
 
 # Family: SmartFusion2 , Die: M2S060T , Package: 325 FCSBGA , Speed grade: STD 
 
-# Date generated: Tue Apr 24 08:39:46 2018 
+# Date generated: Mon Jun 25 15:08:36 2018 
 
 
 #
@@ -55,27 +55,20 @@ set_io D_TXD\[3\] -DIRECTION OUTPUT -pinname G21 -fixed yes
 set_io D_TXEN -DIRECTION OUTPUT -pinname F20 -fixed yes
 set_io GPIO_0_BI -DIRECTION INOUT -pinname J2 -fixed yes
 set_io GPIO_1 -DIRECTION INOUT -pinname J1 -fixed yes
-set_io GPIO_10_F2M -DIRECTION INPUT -pinname M4 -fixed yes
 set_io GPIO_12_BI -DIRECTION INOUT -pinname G5 -fixed yes
-set_io GPIO_14B_GREEN_G1 -DIRECTION OUTPUT -pinname G1 -fixed yes
-set_io GPIO_15B_RED_F2 -DIRECTION OUTPUT -pinname F2 -fixed yes
-set_io GPIO_16B_BLUE_F3 -DIRECTION OUTPUT -pinname F3 -fixed yes
 set_io GPIO_17_BI -DIRECTION INOUT -pinname P2 -fixed yes
 set_io GPIO_18_BI -DIRECTION INOUT -pinname R2 -fixed yes
-set_io GPIO_19_F2M -DIRECTION INPUT -pinname T2 -fixed yes
 set_io GPIO_20_OUT -DIRECTION OUTPUT -pinname T1 -fixed yes
 set_io GPIO_21_M2F -DIRECTION OUTPUT -pinname K7 -fixed yes
 set_io GPIO_24_M2F -DIRECTION OUTPUT -pinname K4 -fixed yes
 set_io GPIO_25_BI -DIRECTION INOUT -pinname P1 -fixed yes
 set_io GPIO_26_BI -DIRECTION INOUT -pinname N2 -fixed yes
-set_io GPIO_2_F2M -DIRECTION INPUT -pinname V1 -fixed yes
 set_io GPIO_31_BI -DIRECTION INOUT -pinname K1 -fixed yes
 set_io GPIO_3_BI -DIRECTION INOUT -pinname T5 -fixed yes
 set_io GPIO_4_BI -DIRECTION INOUT -pinname U5 -fixed yes
 set_io GPIO_5_M2F -DIRECTION OUTPUT -pinname H2 -fixed yes
 set_io GPIO_6 -DIRECTION INOUT -pinname H5 -fixed yes
 set_io GPIO_7 -DIRECTION INOUT -pinname H4 -fixed yes
-set_io GPIO_9_F2M -DIRECTION INPUT -pinname N1 -fixed yes
 set_io I2C_1_SCL -DIRECTION INOUT -pinname R5 -fixed yes
 set_io I2C_1_SDA -DIRECTION INOUT -pinname R4 -fixed yes
 set_io MANCHESTER_IN -DIRECTION INPUT -pinname Y2 -fixed yes
@@ -142,7 +135,6 @@ set_io SPI_0_DO -DIRECTION OUTPUT -pinname P4 -fixed yes
 set_io SPI_0_SS0 -DIRECTION INOUT -pinname P5 -fixed yes
 set_io SPI_0_SS1 -DIRECTION OUTPUT -pinname M1 -fixed yes
 set_io SPI_1_CLK -DIRECTION INOUT -pinname N4 -fixed yes
-set_io SPI_1_DI_F2M -DIRECTION INPUT -pinname D21 -fixed yes
 set_io SPI_1_DO_M2F -DIRECTION OUTPUT -pinname AA7 -fixed yes
 set_io SPI_1_SS0 -DIRECTION INOUT -pinname V7 -fixed yes
 set_io XTL -DIRECTION INPUT -pinname AA4

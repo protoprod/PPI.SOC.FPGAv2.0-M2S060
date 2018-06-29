@@ -61,6 +61,8 @@ architecture Behavioral of TX_Collision_Detector2 is
   signal MANCHESTER_IN_n   : std_logic;
   signal clk_count         : std_logic_vector(15 downto 0);
   signal force_collision_d : std_logic_vector(1 downto 0);
+  signal MANCHESTER_OUT_d  : std_logic_vector(7 downto 0);
+  signal MANCHESTER_IN_d	   : std_logic_vector(7 downto 0);
 
 begin
 
@@ -74,8 +76,12 @@ begin
     if ( rising_edge(bit_clk2x) ) then
       if(reset = '1' ) then
          force_collision_d   <= (others => '0');
+		 MANCHESTER_OUT_d	 <= (others => '0');
+		 MANCHESTER_IN_d	 <= (others => '0');			
       else
          force_collision_d   <= force_collision_d(0) & force_collision;
+		 MANCHESTER_OUT_d	 <= MANCHESTER_OUT_d(6 downto 0) & MANCHESTER_OUT;
+		 MANCHESTER_IN_d	 <= MANCHESTER_IN_d(6 downto 0) & MANCHESTER_IN_n;
       end if;
     end if;
   end process;  
@@ -91,9 +97,9 @@ begin
       elsif ( TX_Enable = '1' ) then
         if (     (force_collision_d(1) = '1')
              and (clk_count       = CLK_CNT_FORCE_COLLISION_NUM)
-             and (MANCHESTER_OUT /= not MANCHESTER_IN_n) ) then -- NOTE inverted version
+             and (MANCHESTER_OUT_d(1) /= not MANCHESTER_IN_n) ) then -- NOTE inverted version
            TX_collision_detect   <= '1';      
-        elsif ( MANCHESTER_OUT   /= MANCHESTER_IN_n ) then
+        elsif ( MANCHESTER_OUT_d(4) /= MANCHESTER_IN_d(3)) then
            TX_collision_detect   <= '1';
         else
            TX_collision_detect   <= '0';

@@ -17,14 +17,14 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>CommsFPGA_top|BIT_CLK_inferred_clock</data>
 <data>100.0 MHz</data>
-<data>134.8 MHz</data>
-<data>2.580</data>
+<data>134.4 MHz</data>
+<data>2.562</data>
 </row>
 <row>
 <data>CommsFPGA_top|ClkDivider_inferred_clock[1]</data>
 <data>100.0 MHz</data>
-<data>211.8 MHz</data>
-<data>5.278</data>
+<data>155.7 MHz</data>
+<data>3.578</data>
 </row>
 <row>
 <data>ident_coreinst.comm_block_INST.dr2_tck</data>
@@ -53,14 +53,14 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock</data>
 <data>100.0 MHz</data>
-<data>168.2 MHz</data>
-<data>4.055</data>
+<data>163.3 MHz</data>
+<data>3.876</data>
 </row>
 <row>
 <data>m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock</data>
 <data>100.0 MHz</data>
-<data>225.8 MHz</data>
-<data>5.571</data>
+<data>207.4 MHz</data>
+<data>5.178</data>
 </row>
 <row>
 <data>m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock</data>
@@ -88,6 +88,12 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 </row>
 <row>
 <data>m2s010_som_sb|BIBUF_1_Y_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>m2s010_som|HOST_DETn</data>
 <data>100.0 MHz</data>
 <data>NA</data>
 <data>NA</data>

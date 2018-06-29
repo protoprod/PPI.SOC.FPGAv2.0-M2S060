@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Wed Mar 07 16:06:28 2018
+-- Created by SmartDesign Mon Jun 25 15:07:43 2018
 -- Version: v11.8 SP2 11.8.2.4
 ----------------------------------------------------------------------
 
@@ -18,12 +18,18 @@ entity TB_iRail is
     -- Port list
     port(
         -- Inputs
-        DEBOUNCE_IN : in  std_logic_vector(2 downto 0);
-        DormantREQn : in  std_logic;
-        EngageREQn  : in  std_logic;
+        DEBOUNCE_IN    : in  std_logic_vector(2 downto 0);
+        DormantREQn    : in  std_logic;
+        EngageREQn     : in  std_logic;
         -- Outputs
-        DRVR_EN     : out std_logic;
-        RCVR_EN     : out std_logic
+        DRVR_EN        : out std_logic;
+        LED_BLUE_F3    : out std_logic;
+        LED_BLUE_F3_0  : out std_logic;
+        LED_GREEN_G1   : out std_logic;
+        LED_GREEN_G1_0 : out std_logic;
+        LED_RED_F2     : out std_logic;
+        LED_RED_F2_0   : out std_logic;
+        RCVR_EN        : out std_logic
         );
 end TB_iRail;
 ----------------------------------------------------------------------
@@ -71,7 +77,6 @@ component m2s010_som
         D_TXC                      : in    std_logic;
         DormantREQn                : in    std_logic;
         EngageREQn                 : in    std_logic;
-        GPIO_12_F2M_BUTn3          : in    std_logic;
         HOST_DETn                  : in    std_logic;
         H_MDC                      : in    std_logic;
         H_TXD                      : in    std_logic_vector(3 downto 0);
@@ -79,22 +84,22 @@ component m2s010_som
         I2C_0_SDA_F2M              : in    std_logic;
         MANCHESTER_IN              : in    std_logic;
         MDDR_DQS_TMATCH_0_IN       : in    std_logic;
-        MII_DBG_PHYn               : in    std_logic;
         MMUART_0_RXD_F2M           : in    std_logic;
         MMUART_1_RXD               : in    std_logic;
         SPI_0_DI                   : in    std_logic;
-        SPI_1_DI                   : in    std_logic;
         XTL                        : in    std_logic;
         -- Outputs
         DRVR_EN                    : out   std_logic;
         D_MDC                      : out   std_logic;
         D_TXD                      : out   std_logic_vector(3 downto 0);
         D_TXEN                     : out   std_logic;
-        GPIO_10_M2F_GREEN          : out   std_logic;
         GPIO_11_M2F_SPI_FLASH_RSTn : out   std_logic;
+        GPIO_20_OUT                : out   std_logic;
+        GPIO_21_M2F                : out   std_logic;
+        GPIO_24_M2F                : out   std_logic;
+        GPIO_28_M2F                : out   std_logic;
+        GPIO_5_M2F                 : out   std_logic;
         GPIO_88                    : out   std_logic;
-        GPIO_8_M2F_BLUE            : out   std_logic;
-        GPIO_9_M2F_RED             : out   std_logic;
         H_COL                      : out   std_logic;
         H_RXC                      : out   std_logic;
         H_RXER                     : out   std_logic;
@@ -103,6 +108,9 @@ component m2s010_som
         I2C_0_SCL_M2F_OE           : out   std_logic;
         I2C_0_SDA_M2F              : out   std_logic;
         I2C_0_SDA_M2F_OE           : out   std_logic;
+        LED_BLUE_F3                : out   std_logic;
+        LED_GREEN_G1               : out   std_logic;
+        LED_RED_F2                 : out   std_logic;
         MANCH_OUT_N                : out   std_logic;
         MANCH_OUT_P                : out   std_logic;
         MDDR_ADDR                  : out   std_logic_vector(15 downto 0);
@@ -122,13 +130,25 @@ component m2s010_som
         RCVR_EN                    : out   std_logic;
         SPI_0_DO                   : out   std_logic;
         SPI_0_SS1                  : out   std_logic;
-        SPI_1_DO                   : out   std_logic;
+        SPI_1_DO_M2F               : out   std_logic;
         SPI_FLASH_IO2              : out   std_logic;
         SPI_FLASH_IO3              : out   std_logic;
         nRESET_OUT                 : out   std_logic;
         -- Inouts
         D_MDIO                     : inout std_logic;
+        GPIO_0_BI                  : inout std_logic;
+        GPIO_1                     : inout std_logic;
+        GPIO_12_BI                 : inout std_logic;
+        GPIO_17_BI                 : inout std_logic;
+        GPIO_18_BI                 : inout std_logic;
         GPIO_1_BIDI                : inout std_logic_vector(0 to 0);
+        GPIO_25_BI                 : inout std_logic;
+        GPIO_26_BI                 : inout std_logic;
+        GPIO_31_BI                 : inout std_logic;
+        GPIO_3_BI                  : inout std_logic;
+        GPIO_4_BI                  : inout std_logic;
+        GPIO_6                     : inout std_logic;
+        GPIO_7                     : inout std_logic;
         H_MDIO                     : inout std_logic;
         I2C_1_SCL                  : inout std_logic;
         I2C_1_SDA                  : inout std_logic;
@@ -137,7 +157,7 @@ component m2s010_som
         MDDR_DQS                   : inout std_logic_vector(1 downto 0);
         SPI_0_CLK                  : inout std_logic;
         SPI_0_SS0                  : inout std_logic;
-        SPI_1_CLK_0                : inout std_logic;
+        SPI_1_CLK                  : inout std_logic;
         SPI_1_SS0                  : inout std_logic
         );
 end component;
@@ -193,40 +213,50 @@ end component;
 ----------------------------------------------------------------------
 -- Signal declarations
 ----------------------------------------------------------------------
-signal CLK_GEN_0_CLK                : std_logic;
-signal DRVR_EN_net_0                : std_logic;
-signal INV_0_Y                      : std_logic;
-signal INV_1_Y                      : std_logic;
-signal m2s010_som_0_H_COL           : std_logic;
-signal m2s010_som_0_H_RXC           : std_logic;
-signal m2s010_som_0_H_RXER          : std_logic;
-signal m2s010_som_0_MANCH_OUT_P     : std_logic;
-signal m2s010_som_0_MMUART_1_TXD    : std_logic;
-signal MDIO_Master_0_Add_Error      : std_logic;
-signal MDIO_Master_0_H_MDC          : std_logic;
-signal MDIO_Master_0_MII_DBG_PHYn_0 : std_logic;
-signal net_0                        : std_logic;
-signal RCVR_EN_net_0                : std_logic;
-signal RESET_GEN_0_RESET            : std_logic;
-signal TRIBUFF_0_PAD                : std_logic;
-signal XOR2_0_Y                     : std_logic;
-signal RCVR_EN_net_1                : std_logic;
-signal DRVR_EN_net_1                : std_logic;
+signal CLK_GEN_0_CLK             : std_logic;
+signal DRVR_EN_net_0             : std_logic;
+signal INV_1_Y                   : std_logic;
+signal LED_BLUE_F3_net_0         : std_logic;
+signal LED_BLUE_F3_0_net_0       : std_logic;
+signal LED_GREEN_G1_net_0        : std_logic;
+signal LED_GREEN_G1_0_net_0      : std_logic;
+signal LED_RED_F2_net_0          : std_logic;
+signal LED_RED_F2_0_net_0        : std_logic;
+signal m2s010_som_0_H_COL        : std_logic;
+signal m2s010_som_0_H_RXC        : std_logic;
+signal m2s010_som_0_H_RXER       : std_logic;
+signal m2s010_som_0_MANCH_OUT_P  : std_logic;
+signal m2s010_som_0_MMUART_1_TXD : std_logic;
+signal MDIO_Master_0_Add_Error   : std_logic;
+signal MDIO_Master_0_H_MDC       : std_logic;
+signal net_0                     : std_logic;
+signal RCVR_EN_net_0             : std_logic;
+signal RESET_GEN_0_RESET         : std_logic;
+signal TRIBUFF_0_PAD             : std_logic;
+signal XOR2_0_Y                  : std_logic;
+signal RCVR_EN_net_1             : std_logic;
+signal DRVR_EN_net_1             : std_logic;
+signal LED_GREEN_G1_net_1        : std_logic;
+signal LED_BLUE_F3_net_1         : std_logic;
+signal LED_RED_F2_net_1          : std_logic;
+signal LED_GREEN_G1_0_net_1      : std_logic;
+signal LED_BLUE_F3_0_net_1       : std_logic;
+signal LED_RED_F2_0_net_1        : std_logic;
 ----------------------------------------------------------------------
 -- TiedOff Signals
 ----------------------------------------------------------------------
-signal GND_net                      : std_logic;
-signal MDDR_DM_RDQS_const_net_0     : std_logic_vector(1 downto 0);
-signal MDDR_DQ_const_net_0          : std_logic_vector(15 downto 0);
-signal MDDR_DQS_const_net_0         : std_logic_vector(1 downto 0);
-signal H_TXD_const_net_0            : std_logic_vector(3 downto 0);
-signal D_RXD_const_net_0            : std_logic_vector(3 downto 0);
-signal MDDR_DM_RDQS_const_net_1     : std_logic_vector(1 downto 0);
-signal MDDR_DQ_const_net_1          : std_logic_vector(15 downto 0);
-signal MDDR_DQS_const_net_1         : std_logic_vector(1 downto 0);
-signal H_TXD_const_net_1            : std_logic_vector(3 downto 0);
-signal D_RXD_const_net_1            : std_logic_vector(3 downto 0);
-signal DEBOUNCE_IN_const_net_0      : std_logic_vector(2 downto 0);
+signal GND_net                   : std_logic;
+signal MDDR_DM_RDQS_const_net_0  : std_logic_vector(1 downto 0);
+signal MDDR_DQ_const_net_0       : std_logic_vector(15 downto 0);
+signal MDDR_DQS_const_net_0      : std_logic_vector(1 downto 0);
+signal H_TXD_const_net_0         : std_logic_vector(3 downto 0);
+signal D_RXD_const_net_0         : std_logic_vector(3 downto 0);
+signal MDDR_DM_RDQS_const_net_1  : std_logic_vector(1 downto 0);
+signal MDDR_DQ_const_net_1       : std_logic_vector(15 downto 0);
+signal MDDR_DQS_const_net_1      : std_logic_vector(1 downto 0);
+signal H_TXD_const_net_1         : std_logic_vector(3 downto 0);
+signal D_RXD_const_net_1         : std_logic_vector(3 downto 0);
+signal DEBOUNCE_IN_const_net_0   : std_logic_vector(2 downto 0);
 
 begin
 ----------------------------------------------------------------------
@@ -247,10 +277,22 @@ begin
 ----------------------------------------------------------------------
 -- Top level output port assignments
 ----------------------------------------------------------------------
- RCVR_EN_net_1 <= RCVR_EN_net_0;
- RCVR_EN       <= RCVR_EN_net_1;
- DRVR_EN_net_1 <= DRVR_EN_net_0;
- DRVR_EN       <= DRVR_EN_net_1;
+ RCVR_EN_net_1        <= RCVR_EN_net_0;
+ RCVR_EN              <= RCVR_EN_net_1;
+ DRVR_EN_net_1        <= DRVR_EN_net_0;
+ DRVR_EN              <= DRVR_EN_net_1;
+ LED_GREEN_G1_net_1   <= LED_GREEN_G1_net_0;
+ LED_GREEN_G1         <= LED_GREEN_G1_net_1;
+ LED_BLUE_F3_net_1    <= LED_BLUE_F3_net_0;
+ LED_BLUE_F3          <= LED_BLUE_F3_net_1;
+ LED_RED_F2_net_1     <= LED_RED_F2_net_0;
+ LED_RED_F2           <= LED_RED_F2_net_1;
+ LED_GREEN_G1_0_net_1 <= LED_GREEN_G1_0_net_0;
+ LED_GREEN_G1_0       <= LED_GREEN_G1_0_net_1;
+ LED_BLUE_F3_0_net_1  <= LED_BLUE_F3_0_net_0;
+ LED_BLUE_F3_0        <= LED_BLUE_F3_0_net_1;
+ LED_RED_F2_0_net_1   <= LED_RED_F2_0_net_0;
+ LED_RED_F2_0         <= LED_RED_F2_0_net_1;
 ----------------------------------------------------------------------
 -- Component instances
 ----------------------------------------------------------------------
@@ -263,14 +305,6 @@ CLK_GEN_0 : CLK_GEN
     port map( 
         -- Outputs
         CLK => CLK_GEN_0_CLK 
-        );
--- INV_0
-INV_0 : INV
-    port map( 
-        -- Inputs
-        A => MDIO_Master_0_MII_DBG_PHYn_0,
-        -- Outputs
-        Y => INV_0_Y 
         );
 -- INV_1
 INV_1 : INV
@@ -289,11 +323,7 @@ m2s010_som_0 : m2s010_som
         MDDR_DQS_TMATCH_0_IN       => GND_net,
         XTL                        => CLK_GEN_0_CLK,
         DEVRST_N                   => RESET_GEN_0_RESET,
-        SPI_1_DI                   => GND_net,
         H_MDC                      => MDIO_Master_0_H_MDC,
-        DormantREQn                => DormantREQn,
-        EngageREQn                 => EngageREQn,
-        HOST_DETn                  => GND_net,
         D_TXC                      => m2s010_som_0_H_RXC,
         D_RXC                      => m2s010_som_0_H_RXC,
         D_RXDV                     => GND_net,
@@ -301,14 +331,15 @@ m2s010_som_0 : m2s010_som
         D_CRS                      => GND_net,
         D_COL                      => m2s010_som_0_H_COL,
         MANCHESTER_IN              => XOR2_0_Y,
-        MII_DBG_PHYn               => MDIO_Master_0_MII_DBG_PHYn_0,
-        GPIO_12_F2M_BUTn3          => GND_net,
-        H_TXD                      => H_TXD_const_net_0,
-        D_RXD                      => D_RXD_const_net_0,
-        DEBOUNCE_IN                => DEBOUNCE_IN,
         MMUART_0_RXD_F2M           => GND_net,
         I2C_0_SDA_F2M              => GND_net,
         I2C_0_SCL_F2M              => GND_net,
+        DormantREQn                => DormantREQn,
+        EngageREQn                 => EngageREQn,
+        HOST_DETn                  => GND_net,
+        H_TXD                      => H_TXD_const_net_0,
+        D_RXD                      => D_RXD_const_net_0,
+        DEBOUNCE_IN                => DEBOUNCE_IN,
         -- Outputs
         SPI_0_DO                   => OPEN,
         MMUART_1_TXD               => m2s010_som_0_MMUART_1_TXD,
@@ -326,7 +357,6 @@ m2s010_som_0 : m2s010_som
         RCVR_EN                    => RCVR_EN_net_0,
         MANCH_OUT_P                => m2s010_som_0_MANCH_OUT_P,
         MANCH_OUT_N                => OPEN,
-        SPI_1_DO                   => OPEN,
         H_TXC                      => OPEN,
         H_RXC                      => m2s010_som_0_H_RXC,
         H_RXER                     => m2s010_som_0_H_RXER,
@@ -337,28 +367,46 @@ m2s010_som_0 : m2s010_som
         D_TXEN                     => OPEN,
         nRESET_OUT                 => OPEN,
         GPIO_88                    => OPEN,
-        GPIO_8_M2F_BLUE            => OPEN,
-        GPIO_9_M2F_RED             => OPEN,
-        GPIO_10_M2F_GREEN          => OPEN,
         GPIO_11_M2F_SPI_FLASH_RSTn => OPEN,
-        MDDR_ADDR                  => OPEN,
-        MDDR_BA                    => OPEN,
-        D_TXD                      => OPEN,
         MMUART_0_TXD_M2F           => OPEN,
         I2C_0_SDA_M2F              => OPEN,
         I2C_0_SDA_M2F_OE           => OPEN,
         I2C_0_SCL_M2F              => OPEN,
         I2C_0_SCL_M2F_OE           => OPEN,
         SPI_0_SS1                  => OPEN,
+        SPI_1_DO_M2F               => OPEN,
+        GPIO_20_OUT                => OPEN,
+        GPIO_5_M2F                 => OPEN,
+        GPIO_21_M2F                => OPEN,
+        GPIO_24_M2F                => OPEN,
+        GPIO_28_M2F                => OPEN,
+        LED_GREEN_G1               => LED_GREEN_G1_net_0,
+        LED_BLUE_F3                => LED_BLUE_F3_net_0,
+        LED_RED_F2                 => LED_RED_F2_net_0,
+        MDDR_ADDR                  => OPEN,
+        MDDR_BA                    => OPEN,
+        D_TXD                      => OPEN,
         -- Inouts
         I2C_1_SDA                  => OPEN,
         I2C_1_SCL                  => OPEN,
         SPI_0_CLK                  => GND_net,
         SPI_0_SS0                  => GND_net,
-        SPI_1_CLK_0                => GND_net,
-        SPI_1_SS0                  => GND_net,
         D_MDIO                     => GND_net,
         H_MDIO                     => net_0,
+        GPIO_12_BI                 => OPEN,
+        GPIO_17_BI                 => OPEN,
+        GPIO_18_BI                 => OPEN,
+        GPIO_25_BI                 => OPEN,
+        GPIO_26_BI                 => OPEN,
+        SPI_1_SS0                  => GND_net,
+        SPI_1_CLK                  => GND_net,
+        GPIO_1                     => GND_net,
+        GPIO_7                     => GND_net,
+        GPIO_6                     => GND_net,
+        GPIO_0_BI                  => OPEN,
+        GPIO_3_BI                  => OPEN,
+        GPIO_4_BI                  => OPEN,
+        GPIO_31_BI                 => OPEN,
         MDDR_DM_RDQS               => MDDR_DM_RDQS_const_net_0,
         MDDR_DQ                    => MDDR_DQ_const_net_0,
         MDDR_DQS                   => MDDR_DQS_const_net_0,
@@ -373,11 +421,7 @@ m2s010_som_1 : m2s010_som
         MDDR_DQS_TMATCH_0_IN       => GND_net,
         XTL                        => CLK_GEN_0_CLK,
         DEVRST_N                   => RESET_GEN_0_RESET,
-        SPI_1_DI                   => GND_net,
         H_MDC                      => GND_net,
-        DormantREQn                => GND_net,
-        EngageREQn                 => GND_net,
-        HOST_DETn                  => GND_net,
         D_TXC                      => GND_net,
         D_RXC                      => GND_net,
         D_RXDV                     => GND_net,
@@ -385,14 +429,15 @@ m2s010_som_1 : m2s010_som
         D_CRS                      => GND_net,
         D_COL                      => GND_net,
         MANCHESTER_IN              => XOR2_0_Y,
-        MII_DBG_PHYn               => INV_0_Y,
-        GPIO_12_F2M_BUTn3          => GND_net,
-        H_TXD                      => H_TXD_const_net_1,
-        D_RXD                      => D_RXD_const_net_1,
-        DEBOUNCE_IN                => DEBOUNCE_IN_const_net_0,
         MMUART_0_RXD_F2M           => GND_net,
         I2C_0_SDA_F2M              => GND_net,
         I2C_0_SCL_F2M              => GND_net,
+        DormantREQn                => GND_net,
+        EngageREQn                 => GND_net,
+        HOST_DETn                  => GND_net,
+        H_TXD                      => H_TXD_const_net_1,
+        D_RXD                      => D_RXD_const_net_1,
+        DEBOUNCE_IN                => DEBOUNCE_IN_const_net_0,
         -- Outputs
         SPI_0_DO                   => OPEN,
         MMUART_1_TXD               => OPEN,
@@ -410,7 +455,6 @@ m2s010_som_1 : m2s010_som
         RCVR_EN                    => OPEN,
         MANCH_OUT_P                => OPEN,
         MANCH_OUT_N                => OPEN,
-        SPI_1_DO                   => OPEN,
         H_TXC                      => OPEN,
         H_RXC                      => OPEN,
         H_RXER                     => OPEN,
@@ -421,28 +465,46 @@ m2s010_som_1 : m2s010_som
         D_TXEN                     => OPEN,
         nRESET_OUT                 => OPEN,
         GPIO_88                    => OPEN,
-        GPIO_8_M2F_BLUE            => OPEN,
-        GPIO_9_M2F_RED             => OPEN,
-        GPIO_10_M2F_GREEN          => OPEN,
         GPIO_11_M2F_SPI_FLASH_RSTn => OPEN,
-        MDDR_ADDR                  => OPEN,
-        MDDR_BA                    => OPEN,
-        D_TXD                      => OPEN,
         MMUART_0_TXD_M2F           => OPEN,
         I2C_0_SDA_M2F              => OPEN,
         I2C_0_SDA_M2F_OE           => OPEN,
         I2C_0_SCL_M2F              => OPEN,
         I2C_0_SCL_M2F_OE           => OPEN,
         SPI_0_SS1                  => OPEN,
+        SPI_1_DO_M2F               => OPEN,
+        GPIO_20_OUT                => OPEN,
+        GPIO_5_M2F                 => OPEN,
+        GPIO_21_M2F                => OPEN,
+        GPIO_24_M2F                => OPEN,
+        GPIO_28_M2F                => OPEN,
+        LED_GREEN_G1               => LED_GREEN_G1_0_net_0,
+        LED_BLUE_F3                => LED_BLUE_F3_0_net_0,
+        LED_RED_F2                 => LED_RED_F2_0_net_0,
+        MDDR_ADDR                  => OPEN,
+        MDDR_BA                    => OPEN,
+        D_TXD                      => OPEN,
         -- Inouts
         I2C_1_SDA                  => GND_net,
         I2C_1_SCL                  => OPEN,
         SPI_0_CLK                  => OPEN,
         SPI_0_SS0                  => OPEN,
-        SPI_1_CLK_0                => GND_net,
-        SPI_1_SS0                  => GND_net,
         D_MDIO                     => GND_net,
         H_MDIO                     => GND_net,
+        GPIO_12_BI                 => OPEN,
+        GPIO_17_BI                 => OPEN,
+        GPIO_18_BI                 => OPEN,
+        GPIO_25_BI                 => OPEN,
+        GPIO_26_BI                 => OPEN,
+        SPI_1_SS0                  => GND_net,
+        SPI_1_CLK                  => GND_net,
+        GPIO_1                     => GND_net,
+        GPIO_7                     => GND_net,
+        GPIO_6                     => GND_net,
+        GPIO_0_BI                  => OPEN,
+        GPIO_3_BI                  => OPEN,
+        GPIO_4_BI                  => OPEN,
+        GPIO_31_BI                 => OPEN,
         MDDR_DM_RDQS               => MDDR_DM_RDQS_const_net_1,
         MDDR_DQ                    => MDDR_DQ_const_net_1,
         MDDR_DQS                   => MDDR_DQS_const_net_1,
@@ -453,7 +515,7 @@ MDIO_Master_0 : MDIO_Master
     port map( 
         -- Outputs
         H_MDC        => MDIO_Master_0_H_MDC,
-        MII_DBG_PHYn => MDIO_Master_0_MII_DBG_PHYn_0,
+        MII_DBG_PHYn => OPEN,
         Add_Error    => MDIO_Master_0_Add_Error,
         -- Inouts
         H_MDIO       => net_0 

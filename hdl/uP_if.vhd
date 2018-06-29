@@ -37,7 +37,7 @@
 --                -- IdleLineDetector.vhd
 --           -- BitDector.vhd
 --
--- Revision:  0.1
+-- Revision: see CommsFPGA_Top.vhd for Revision description
 --
 ----------------------------------------------------------------------------------
 library ieee;
@@ -78,8 +78,7 @@ END uP_if;
 
 ARCHITECTURE Behavioral OF uP_if IS
 
--- Constants
-  constant MAJOR_REVISION_NUM    : std_logic_vector(7 downto 0) := "00100000";
+  constant MAJOR_REVISION_NUM    : std_logic_vector(7 downto 0) := "00000101";	-- after ASK AFE merge with M2S060
   constant MINOR_REVISION_NUM    : std_logic_vector(7 downto 0) := "00000000";
 
   constant MAJOR_VERSION_REG_C   : std_logic_vector(7 downto 0) := "00000000";
