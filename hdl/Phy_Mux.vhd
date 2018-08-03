@@ -129,7 +129,8 @@ begin
  
   HOST_DET		<= not HOST_DETn;
   MII_DBG_PHY	<= not MII_DBG_PHYn;
-  MII_MUX_control <= '0' & HOST_DET & MII_DBG_PHYn;
+--  MII_MUX_control <= '0' & HOST_DET & MII_DBG_PHYn;
+  MII_MUX_control <= '0' & '0' & MII_DBG_PHYn;
   
 -- 000	CONNECT_DEBUGPHY_SOCMAC_C
 -- 001	CONNECT_FPGAPHY_SOCMAC_C
@@ -193,7 +194,7 @@ begin
                 MAC_MII_RXD     <= F_RXD;
                 MAC_MII_RX_ER   <= '0';--F_RXER;
                 MAC_MII_RX_DV   <= F_RXDV;
-                MAC_MII_CRS     <= '0';--F_CRS;
+                MAC_MII_CRS     <= F_CRS;
                 MAC_MII_COL     <= '0';--F_COL;
                 MAC_MII_RX_CLK  <= F_RXC;
                 MAC_MII_TX_CLK  <= F_TXC;
@@ -250,10 +251,10 @@ begin
                 D_TXD           <= MAC_MII_TXD;
                 D_TXEN          <= MAC_MII_TX_EN;
                 MAC_MII_RXD     <= D_RXD;
-                MAC_MII_RX_ER   <= D_RXER;
+                MAC_MII_RX_ER   <= '0'; -- D_RXER;
                 MAC_MII_RX_DV   <= D_RXDV;
                 MAC_MII_CRS     <= D_CRS;
-                MAC_MII_COL     <= D_COL;
+                MAC_MII_COL     <= '0'; -- D_COL;
                 MAC_MII_TX_CLK  <= D_TXC;
                 MAC_MII_RX_CLK  <= D_RXC;              
                 --

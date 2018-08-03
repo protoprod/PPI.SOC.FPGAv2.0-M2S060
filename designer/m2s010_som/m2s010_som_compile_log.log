@@ -6,7 +6,14 @@ Warning: CMPG4-201: Net ident_coreinst/IICE_INST/b7_yYh0_9u drives no load.
 Warning: CMPG4-007: Top level port DEBOUNCE_IN<2> is not connected to any IO pad
 Warning: CMPG4-007: Top level port DEBOUNCE_IN<1> is not connected to any IO pad
 Warning: CMPG4-007: Top level port DEBOUNCE_IN<0> is not connected to any IO pad
+Warning: CMPG4-007: Top level port D_RXD<3> is not connected to any IO pad
+Warning: CMPG4-007: Top level port D_RXD<2> is not connected to any IO pad
+Warning: CMPG4-007: Top level port D_RXD<1> is not connected to any IO pad
+Warning: CMPG4-007: Top level port D_RXD<0> is not connected to any IO pad
 Warning: CMPG4-007: Top level port GPIO_1_BIDI<0> is not connected to any IO pad
+Warning: CMPG4-007: Top level port D_CRS is not connected to any IO pad
+Warning: CMPG4-007: Top level port D_RXC is not connected to any IO pad
+Warning: CMPG4-007: Top level port D_RXDV is not connected to any IO pad
 Warning: CMPG4-007: Top level port D_RXER is not connected to any IO pad
 Warning: CMPG4-007: Top level port DormantREQn is not connected to any IO pad
 Warning: CMPG4-007: Top level port EngageREQn is not connected to any IO pad
@@ -22,26 +29,26 @@ Info: Global design data:
 Info: List of globals that cannot be demoted: 
     CLK    ASYN   DATA   Instance Name 
     ---    ----   ----   ------------- 
-    494    0      0      'CommsFPGA_CCC_0/GL0_INST' 
+    522    0      0      'CommsFPGA_CCC_0/GL0_INST' 
     101    0      0      'm2s010_som_sb_0/CCC_0/GL0_INST' 
     30     0      0      'CommsFPGA_CCC_0/GL1_INST' 
 
 Info: List of globals considered for demotion: 
     CLK    ASYN   DATA   Instance Name 
     ---    ----   ----   ------------- 
-    641    0      0      'ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim' 
+    680    0      0      'ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim' 
     302    0      1      'm2s010_som_sb_0/m2s010_som_sb_MSS_0/MAC_MII_MDC_inferred_clock_RNIHLTC' 
     128    0      2      'CommsFPGA_top_0/BIT_CLK_inferred_clock_RNIT9E2' 
-    97     0      3      'CommsFPGA_top_0/ClkDivider_inferred_clock_RNIFOL7[1]' 
     75     0      0      'm2s010_som_sb_0/m2s010_som_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIPG5' 
+    73     0      2      'CommsFPGA_top_0/ClkDivider_inferred_clock_RNIFOL7[1]' 
     20     0      0      'm2s010_som_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT' 
     8      0      0      'ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNI2P6B' 
     1      62     13     'CommsFPGA_top_0/long_reset_RNIUA27' 
     0      301    0      'CommsFPGA_top_0/MDIO_SLAVE_INST/PMAD_rst_reg_RNIH1H9' 
-    0      182    206    'CommsFPGA_top_0/RESET_RNIFEG6' 
-    0      121    1      'ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb_RNI0GM6' 
+    0      199    206    'CommsFPGA_top_0/RESET_RNIFEG6' 
+    0      128    1      'ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb_RNI0GM6' 
     0      77     0      'm2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST_RNI1CJ7' 
-    0      38     38     'm2s010_som_sb_0/SYSRESET_POR_RNIK2D3' 
+    0      38     1      'm2s010_som_sb_0/SYSRESET_POR_RNIK2D3' 
     0      33     2      'ident_coreinst/IICE_INST/b5_nUTGT/b11_nUTGT_khWqH/genblk1.b3_nfs_RNIU185[1]' 
     0      19     0      'm2s010_som_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIEFM9' 
     0      18     0      'm2s010_som_sb_0/CORERESETP_0/sm0_areset_n_rcosc_RNIKFSA' 
@@ -49,11 +56,11 @@ Info: List of globals considered for demotion:
 Info: Demotion information: 
       Disconnected 1 data pins from global 'm2s010_som_sb_0/m2s010_som_sb_MSS_0/MAC_MII_MDC_inferred_clock_RNIHLTC'. 
       Disconnected 2 data pins from global 'CommsFPGA_top_0/BIT_CLK_inferred_clock_RNIT9E2'. 
-      Disconnected 3 data pins from global 'CommsFPGA_top_0/ClkDivider_inferred_clock_RNIFOL7[1]'. 
+      Disconnected 2 data pins from global 'CommsFPGA_top_0/ClkDivider_inferred_clock_RNIFOL7[1]'. 
       Disconnected 13 data pins from global 'CommsFPGA_top_0/long_reset_RNIUA27'. 
       Disconnected 206 data pins from global 'CommsFPGA_top_0/RESET_RNIFEG6'. 
       Disconnected 1 data pins from global 'ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb_RNI0GM6'. 
-      Disconnected 38 data pins from global 'm2s010_som_sb_0/SYSRESET_POR_RNIK2D3'. 
+      Disconnected 1 data pins from global 'm2s010_som_sb_0/SYSRESET_POR_RNIK2D3'. 
       Disconnected 2 data pins from global 'ident_coreinst/IICE_INST/b5_nUTGT/b11_nUTGT_khWqH/genblk1.b3_nfs_RNIU185[1]'. 
       Deleted global instance 'm2s010_som_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT'.
       Deleted global instance 'ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNI2P6B'.
@@ -71,12 +78,12 @@ Info: CMPG4-303: Deleted 11 global instances.
 
 ===============================================================================.
 
-Warning: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io GPIO_10_F2M -pinname M4 -fixed yes -DIRECTION INPUT
-Warning: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io GPIO_14B_GREEN_G1 -pinname G1 -fixed yes -DIRECTION OUTPUT
-Warning: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io GPIO_15B_RED_F2 -pinname F2 -fixed yes -DIRECTION OUTPUT
-Warning: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io GPIO_16B_BLUE_F3 -pinname F3 -fixed yes -DIRECTION OUTPUT
-Warning: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io GPIO_19_F2M -pinname T2 -fixed yes -DIRECTION INPUT
-Warning: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io GPIO_2_F2M -pinname V1 -fixed yes -DIRECTION INPUT
-Warning: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io GPIO_9_F2M -pinname N1 -fixed yes -DIRECTION INPUT
-Warning: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io SPI_1_DI_F2M -pinname D21 -fixed yes -DIRECTION INPUT
-INFO: Reading User PDC file C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/constraint/io/m2s010_som.io.pdc. 0 error(s) and 8 warning(s)
+Warning: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io D_CRS -pinname M20 -fixed yes -DIRECTION INPUT
+Warning: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io D_RXC -pinname M18 -fixed yes -DIRECTION INPUT
+Warning: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io D_RXDV -pinname L20 -fixed yes -DIRECTION INPUT
+Warning: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io D_RXD[0] -pinname L18 -fixed yes -DIRECTION INPUT
+Warning: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io D_RXD[1] -pinname L17 -fixed yes -DIRECTION INPUT
+Warning: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io D_RXD[2] -pinname K18 -fixed yes -DIRECTION INPUT
+Warning: PDC-01: port name doesn't exist in the netlist or is not connected to an IoCell macro at PDC Line : set_io D_RXD[3] -pinname K17 -fixed yes -DIRECTION INPUT
+INFO: Reading User PDC file C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/constraint/io/m2s010_som.io.pdc. 0 error(s) and 7 warning(s)
+INFO: Reading User PDC file C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/constraint/fp/m2s010_som.fp.pdc. 0 error(s) and 0 warning(s)

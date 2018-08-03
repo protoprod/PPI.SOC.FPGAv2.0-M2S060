@@ -8,7 +8,7 @@
 
 # Family: SmartFusion2 , Die: M2S060T , Package: 325 FCSBGA , Speed grade: STD 
 
-# Date generated: Mon Jun 25 15:08:36 2018 
+# Date generated: Fri Aug 03 14:58:02 2018 
 
 
 #
@@ -63,7 +63,6 @@ set_io GPIO_21_M2F -DIRECTION OUTPUT -pinname K7 -fixed yes
 set_io GPIO_24_M2F -DIRECTION OUTPUT -pinname K4 -fixed yes
 set_io GPIO_25_BI -DIRECTION INOUT -pinname P1 -fixed yes
 set_io GPIO_26_BI -DIRECTION INOUT -pinname N2 -fixed yes
-set_io GPIO_31_BI -DIRECTION INOUT -pinname K1 -fixed yes
 set_io GPIO_3_BI -DIRECTION INOUT -pinname T5 -fixed yes
 set_io GPIO_4_BI -DIRECTION INOUT -pinname U5 -fixed yes
 set_io GPIO_5_M2F -DIRECTION OUTPUT -pinname H2 -fixed yes
@@ -71,6 +70,9 @@ set_io GPIO_6 -DIRECTION INOUT -pinname H5 -fixed yes
 set_io GPIO_7 -DIRECTION INOUT -pinname H4 -fixed yes
 set_io I2C_1_SCL -DIRECTION INOUT -pinname R5 -fixed yes
 set_io I2C_1_SDA -DIRECTION INOUT -pinname R4 -fixed yes
+set_io LED_BLUE_F3 -DIRECTION OUTPUT -pinname F3 -fixed yes
+set_io LED_GREEN_G1 -DIRECTION OUTPUT -pinname G1 -fixed yes
+set_io LED_RED_F2 -DIRECTION OUTPUT -pinname F2 -fixed yes
 set_io MANCHESTER_IN -DIRECTION INPUT -pinname Y2 -fixed yes
 set_io MANCH_OUT_N -DIRECTION OUTPUT -pinname T3 -fixed yes
 set_io MANCH_OUT_P -DIRECTION OUTPUT -pinname AA2 -fixed yes

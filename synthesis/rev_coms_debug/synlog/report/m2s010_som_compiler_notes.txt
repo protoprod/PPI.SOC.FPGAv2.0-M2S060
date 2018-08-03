@@ -28,8 +28,8 @@
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch.
 @N: CD604 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":665:16:665:29|OTHERS clause is not synthesized.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
-@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":56:7:56:19|Synthesizing work.commsfpga_top.behavioral.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":304:10:304:24|Removing redundant assignment.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":59:7:59:19|Synthesizing work.commsfpga_top.behavioral.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":312:10:312:24|Removing redundant assignment.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":22:7:22:26|Synthesizing work.mdio_slave_interface.translated.
 @N: CD231 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":99:29:99:30|Using onehot encoding for type mdio_slave_state_type. For example, enumeration sm_st_0 is mapped to "100000000".
 @N: CD604 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":442:10:442:24|OTHERS clause is not synthesized.
@@ -149,13 +149,19 @@
 @N: CL201 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\ManchesDecoder2.vhd":116:4:116:5|Trying to extract state machine for register FIFO_Read_SM.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":24:4:24:12|Input Clk_25MHz is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":26:4:26:22|Input MII_MUX_control_reg is unused.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":47:4:47:9|Input F_RXER is unused.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":62:4:62:8|Input H_MDI is unused.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":63:1:63:9|Input HOST_DETn is unused.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":82:4:82:8|Input D_MDI is unused.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":90:4:90:8|Input T_TXD is unused.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":91:4:91:9|Input T_TXEN is unused.
 @N: CL201 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":296:6:296:7|Trying to extract state machine for register slave_state.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":26:3:26:18|Input PMAD_link_status is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":27:3:27:19|Input PMAD_fault_status is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":28:3:28:17|Input PMAD_jabber_det is unused.
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":101:6:101:16|Input DormantREQn is unused.
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":102:6:102:15|Input EngageREQn is unused.
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":140:3:140:10|Input THOs_AFE is unused.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":104:6:104:16|Input DormantREQn is unused.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":105:6:105:15|Input EngageREQn is unused.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":143:3:143:10|Input THOs_AFE is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":75:0:75:4|Input IADDR is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":76:0:76:6|Input PRESETN is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":77:0:77:3|Input PCLK is unused.

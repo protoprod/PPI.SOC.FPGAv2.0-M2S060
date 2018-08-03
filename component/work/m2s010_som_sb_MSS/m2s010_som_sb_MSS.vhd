@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Mon Jun 25 14:05:16 2018
+-- Created by SmartDesign Mon Jul 30 14:33:05 2018
 -- Version: v11.8 SP2 11.8.2.4
 ----------------------------------------------------------------------
 
@@ -28,14 +28,10 @@ entity m2s010_som_sb_MSS is
         GPIO_19_F2M            : in    std_logic;
         GPIO_1_F2M             : in    std_logic;
         GPIO_27_F2M            : in    std_logic;
-        GPIO_29_F2M            : in    std_logic;
         GPIO_2_F2M             : in    std_logic;
-        GPIO_30_F2M            : in    std_logic;
         GPIO_6_F2M             : in    std_logic;
         GPIO_7_F2M             : in    std_logic;
         GPIO_9_F2M             : in    std_logic;
-        I2C_0_SCL_F2M          : in    std_logic;
-        I2C_0_SDA_F2M          : in    std_logic;
         M3_RESET_N             : in    std_logic;
         MAC_MII_COL            : in    std_logic;
         MAC_MII_CRS            : in    std_logic;
@@ -83,16 +79,15 @@ entity m2s010_som_sb_MSS is
         GPIO_21_M2F            : out   std_logic;
         GPIO_24_M2F            : out   std_logic;
         GPIO_28_M2F            : out   std_logic;
+        GPIO_29_M2F            : out   std_logic;
+        GPIO_30_M2F            : out   std_logic;
+        GPIO_31_M2F            : out   std_logic;
         GPIO_5_M2F             : out   std_logic;
         GPIO_6_M2F             : out   std_logic;
         GPIO_6_M2F_OE          : out   std_logic;
         GPIO_7_M2F             : out   std_logic;
         GPIO_7_M2F_OE          : out   std_logic;
         GPIO_8_M2F             : out   std_logic;
-        I2C_0_SCL_M2F          : out   std_logic;
-        I2C_0_SCL_M2F_OE       : out   std_logic;
-        I2C_0_SDA_M2F          : out   std_logic;
-        I2C_0_SDA_M2F_OE       : out   std_logic;
         MAC_MII_MDC            : out   std_logic;
         MAC_MII_MDO            : out   std_logic;
         MAC_MII_MDO_EN         : out   std_logic;
@@ -117,6 +112,7 @@ entity m2s010_som_sb_MSS is
         MMUART_0_TXD_M2F       : out   std_logic;
         MMUART_1_TXD           : out   std_logic;
         MSS_RESET_N_M2F        : out   std_logic;
+        RTC_MATCH              : out   std_logic;
         SPI_0_DO               : out   std_logic;
         SPI_0_SS1              : out   std_logic;
         SPI_1_CLK_M2F          : out   std_logic;
@@ -130,7 +126,6 @@ entity m2s010_som_sb_MSS is
         GPIO_18_BI             : inout std_logic;
         GPIO_25_BI             : inout std_logic;
         GPIO_26_BI             : inout std_logic;
-        GPIO_31_BI             : inout std_logic;
         GPIO_3_BI              : inout std_logic;
         GPIO_4_BI              : inout std_logic;
         I2C_1_SCL              : inout std_logic;
@@ -872,6 +867,9 @@ signal GPIO_20_OUT_0                                      : std_logic;
 signal GPIO_21_M2F_0                                      : std_logic;
 signal GPIO_24_M2F_0                                      : std_logic;
 signal GPIO_28_M2F_0                                      : std_logic;
+signal GPIO_29_M2F_net_0                                  : std_logic;
+signal GPIO_30_M2F_net_0                                  : std_logic;
+signal GPIO_31_M2F_net_0                                  : std_logic;
 signal GPIO_GPIO_0_BI_PAD_Y                               : std_logic;
 signal GPIO_GPIO_3_BI_PAD_Y                               : std_logic;
 signal GPIO_GPIO_4_BI_PAD_Y                               : std_logic;
@@ -880,11 +878,6 @@ signal GPIO_GPIO_17_BI_PAD_Y                              : std_logic;
 signal GPIO_GPIO_18_BI_PAD_Y                              : std_logic;
 signal GPIO_GPIO_25_BI_PAD_Y                              : std_logic;
 signal GPIO_GPIO_26_BI_PAD_Y                              : std_logic;
-signal GPIO_GPIO_31_BI_PAD_Y                              : std_logic;
-signal I2C_0_SCL_M2F_0                                    : std_logic;
-signal I2C_0_SCL_M2F_OE_0                                 : std_logic;
-signal I2C_0_SDA_M2F_0                                    : std_logic;
-signal I2C_0_SDA_M2F_OE_0                                 : std_logic;
 signal I2C_1_SCL_PAD_Y                                    : std_logic;
 signal I2C_1_SDA_PAD_Y                                    : std_logic;
 signal MAC_MII_MDC_net_0                                  : std_logic;
@@ -1038,8 +1031,6 @@ signal MSS_ADLIB_INST_MGPIO25A_OE                         : std_logic;
 signal MSS_ADLIB_INST_MGPIO25A_OUT                        : std_logic;
 signal MSS_ADLIB_INST_MGPIO26A_OE                         : std_logic;
 signal MSS_ADLIB_INST_MGPIO26A_OUT                        : std_logic;
-signal MSS_ADLIB_INST_MGPIO31A_OE                         : std_logic;
-signal MSS_ADLIB_INST_MGPIO31A_OUT                        : std_logic;
 signal MSS_ADLIB_INST_MMUART1_DTR_MGPIO12B_OE             : std_logic;
 signal MSS_ADLIB_INST_MMUART1_DTR_MGPIO12B_OUT            : std_logic;
 signal MSS_ADLIB_INST_MMUART1_TXD_USBC_DATA2_MGPIO24B_OE  : std_logic;
@@ -1058,6 +1049,7 @@ signal MSS_ADLIB_INST_SPI1_SS4_MGPIO17A_OUT               : std_logic;
 signal MSS_ADLIB_INST_SPI1_SS5_MGPIO18A_OE                : std_logic;
 signal MSS_ADLIB_INST_SPI1_SS5_MGPIO18A_OUT               : std_logic;
 signal MSS_RESET_N_M2F_net_0                              : std_logic;
+signal RTC_MATCH_net_0                                    : std_logic;
 signal SPI_0_CLK_PAD_Y                                    : std_logic;
 signal SPI_0_DI_PAD_Y                                     : std_logic;
 signal SPI_0_DO_net_0                                     : std_logic;
@@ -1098,10 +1090,6 @@ signal FIC_0_APB_MASTER_PENABLE_net_0                     : std_logic;
 signal GPIO_8_M2F_0_net_0                                 : std_logic;
 signal GPIO_11_M2F_0_net_0                                : std_logic;
 signal MMUART_0_TXD_M2F_0_net_0                           : std_logic;
-signal I2C_0_SDA_M2F_0_net_0                              : std_logic;
-signal I2C_0_SDA_M2F_OE_0_net_0                           : std_logic;
-signal I2C_0_SCL_M2F_0_net_0                              : std_logic;
-signal I2C_0_SCL_M2F_OE_0_net_0                           : std_logic;
 signal SPI_0_SS1_0_net_0                                  : std_logic;
 signal SPI_1_DO_M2F_0_net_0                               : std_logic;
 signal SPI_1_CLK_M2F_0_net_0                              : std_logic;
@@ -1118,6 +1106,10 @@ signal GPIO_7_M2F_OE_0_net_0                              : std_logic;
 signal GPIO_21_M2F_0_net_0                                : std_logic;
 signal GPIO_24_M2F_0_net_0                                : std_logic;
 signal GPIO_28_M2F_0_net_0                                : std_logic;
+signal RTC_MATCH_net_1                                    : std_logic;
+signal GPIO_29_M2F_net_1                                  : std_logic;
+signal GPIO_30_M2F_net_1                                  : std_logic;
+signal GPIO_31_M2F_net_1                                  : std_logic;
 signal MAC_MII_TXD_2_net_0                                : std_logic_vector(0 to 0);
 signal MAC_MII_TXD_1_net_0                                : std_logic_vector(1 to 1);
 signal MAC_MII_TXD_0_net_0                                : std_logic_vector(2 to 2);
@@ -1299,14 +1291,6 @@ begin
  GPIO_11_M2F                      <= GPIO_11_M2F_0_net_0;
  MMUART_0_TXD_M2F_0_net_0         <= MMUART_0_TXD_M2F_0;
  MMUART_0_TXD_M2F                 <= MMUART_0_TXD_M2F_0_net_0;
- I2C_0_SDA_M2F_0_net_0            <= I2C_0_SDA_M2F_0;
- I2C_0_SDA_M2F                    <= I2C_0_SDA_M2F_0_net_0;
- I2C_0_SDA_M2F_OE_0_net_0         <= I2C_0_SDA_M2F_OE_0;
- I2C_0_SDA_M2F_OE                 <= I2C_0_SDA_M2F_OE_0_net_0;
- I2C_0_SCL_M2F_0_net_0            <= I2C_0_SCL_M2F_0;
- I2C_0_SCL_M2F                    <= I2C_0_SCL_M2F_0_net_0;
- I2C_0_SCL_M2F_OE_0_net_0         <= I2C_0_SCL_M2F_OE_0;
- I2C_0_SCL_M2F_OE                 <= I2C_0_SCL_M2F_OE_0_net_0;
  SPI_0_SS1_0_net_0                <= SPI_0_SS1_0;
  SPI_0_SS1                        <= SPI_0_SS1_0_net_0;
  SPI_1_DO_M2F_0_net_0             <= SPI_1_DO_M2F_0;
@@ -1339,6 +1323,14 @@ begin
  GPIO_24_M2F                      <= GPIO_24_M2F_0_net_0;
  GPIO_28_M2F_0_net_0              <= GPIO_28_M2F_0;
  GPIO_28_M2F                      <= GPIO_28_M2F_0_net_0;
+ RTC_MATCH_net_1                  <= RTC_MATCH_net_0;
+ RTC_MATCH                        <= RTC_MATCH_net_1;
+ GPIO_29_M2F_net_1                <= GPIO_29_M2F_net_0;
+ GPIO_29_M2F                      <= GPIO_29_M2F_net_1;
+ GPIO_30_M2F_net_1                <= GPIO_30_M2F_net_0;
+ GPIO_30_M2F                      <= GPIO_30_M2F_net_1;
+ GPIO_31_M2F_net_1                <= GPIO_31_M2F_net_0;
+ GPIO_31_M2F                      <= GPIO_31_M2F_net_1;
  MAC_MII_TXD_2_net_0(0)           <= MAC_MII_TXD_2(0);
  MAC_MII_TXD(0)                   <= MAC_MII_TXD_2_net_0(0);
  MAC_MII_TXD_1_net_0(1)           <= MAC_MII_TXD_1(1);
@@ -1585,17 +1577,6 @@ GPIO_GPIO_26_BI_PAD : BIBUF
         Y   => GPIO_GPIO_26_BI_PAD_Y,
         -- Inouts
         PAD => GPIO_26_BI 
-        );
--- GPIO_GPIO_31_BI_PAD
-GPIO_GPIO_31_BI_PAD : BIBUF
-    port map( 
-        -- Inputs
-        D   => MSS_ADLIB_INST_MGPIO31A_OUT,
-        E   => MSS_ADLIB_INST_MGPIO31A_OE,
-        -- Outputs
-        Y   => GPIO_GPIO_31_BI_PAD_Y,
-        -- Inouts
-        PAD => GPIO_31_BI 
         );
 -- I2C_1_SCL_PAD
 I2C_1_SCL_PAD : BIBUF
@@ -2241,7 +2222,7 @@ MSS_ADLIB_INST : MSS_060
     generic map( 
         ACT_UBITS         => ( x"FFFFFFFFFFFFFF" ),
         DDR_CLK_FREQ      => ( 142.0 ),
-        INIT              => ( "00" & x"000300C0000003000000000000000361000800000000000908000000090A42000000000C03000000009000000000200012036190A4200001004000000000000000000000000000000000000F000000000000000000000000000000007FFFFFFFB000001007C35C804248006090801041A3FFFFE4000000000008468081001F0F41C000000025800010842108421000001FE34001FF8000000400000000020CD1007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF" ),
+        INIT              => ( "00" & x"00000000000003000000000000000361000800000000000908000000090A42000000000C03000000009000000000200012036190A4200001004000000000000000000000000000000000000F000000000000000000000000000000007FFFFFFFB000001007C33C804248006090801041A7FFFFE4000000000008408081001F0F41C000000025A00010842108421000001FE34001FF8000000400000000020CD1007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF" ),
         MEMORYFILE        => ( "ENVM_init.mem" ),
         RTC_MAIN_XTL_FREQ => ( 0.0 ),
         RTC_MAIN_XTL_MODE => ( "" )
@@ -2286,8 +2267,8 @@ MSS_ADLIB_INST : MSS_060
         FAB_XDATAIN                             => FAB_XDATAIN_const_net_0, -- tied to X"1" from definition
         GTX_CLKPF                               => VCC_net, -- tied to '1' from definition
         I2C0_BCLK                               => VCC_net, -- tied to '1' from definition
-        I2C0_SCL_F2H_SCP                        => I2C_0_SCL_F2M,
-        I2C0_SDA_F2H_SCP                        => I2C_0_SDA_F2M,
+        I2C0_SCL_F2H_SCP                        => VCC_net, -- tied to '1' from definition
+        I2C0_SDA_F2H_SCP                        => VCC_net, -- tied to '1' from definition
         I2C1_BCLK                               => VCC_net, -- tied to '1' from definition
         I2C1_SCL_F2H_SCP                        => VCC_net, -- tied to '1' from definition
         I2C1_SDA_F2H_SCP                        => VCC_net, -- tied to '1' from definition
@@ -2313,9 +2294,9 @@ MSS_ADLIB_INST : MSS_060
         MGPIO26B_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
         MGPIO27B_F2H_GPIN                       => GPIO_27_F2M,
         MGPIO28B_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
-        MGPIO29B_F2H_GPIN                       => GPIO_29_F2M,
+        MGPIO29B_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
         MGPIO2A_F2H_GPIN                        => GPIO_2_F2M,
-        MGPIO30B_F2H_GPIN                       => GPIO_30_F2M,
+        MGPIO30B_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
         MGPIO31B_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
         MGPIO3A_F2H_GPIN                        => VCC_net, -- tied to '1' from definition
         MGPIO4A_F2H_GPIN                        => VCC_net, -- tied to '1' from definition
@@ -2425,7 +2406,7 @@ MSS_ADLIB_INST : MSS_060
         MGPIO29A_IN                             => GND_net,
         MGPIO2B_IN                              => GND_net,
         MGPIO30A_IN                             => GND_net,
-        MGPIO31A_IN                             => GPIO_GPIO_31_BI_PAD_Y,
+        MGPIO31A_IN                             => GND_net,
         MGPIO3B_IN                              => GND_net,
         MGPIO4B_IN                              => GND_net,
         MGPIO5B_IN                              => GND_net,
@@ -2544,10 +2525,10 @@ MSS_ADLIB_INST : MSS_060
         H2F_INTERRUPT                           => OPEN,
         H2F_NMI                                 => OPEN,
         H2FCALIB                                => OPEN,
-        I2C0_SCL_MGPIO31B_H2F_A                 => I2C_0_SCL_M2F_0,
-        I2C0_SCL_MGPIO31B_H2F_B                 => I2C_0_SCL_M2F_OE_0,
-        I2C0_SDA_MGPIO30B_H2F_A                 => I2C_0_SDA_M2F_0,
-        I2C0_SDA_MGPIO30B_H2F_B                 => I2C_0_SDA_M2F_OE_0,
+        I2C0_SCL_MGPIO31B_H2F_A                 => OPEN,
+        I2C0_SCL_MGPIO31B_H2F_B                 => GPIO_31_M2F_net_0,
+        I2C0_SDA_MGPIO30B_H2F_A                 => OPEN,
+        I2C0_SDA_MGPIO30B_H2F_B                 => GPIO_30_M2F_net_0,
         I2C1_SCL_MGPIO1A_H2F_A                  => GPIO_1_M2F_OE_0,
         I2C1_SCL_MGPIO1A_H2F_B                  => GPIO_1_M2F_0,
         I2C1_SDA_MGPIO0A_H2F_A                  => OPEN,
@@ -2570,7 +2551,7 @@ MSS_ADLIB_INST : MSS_060
         MMUART0_RXD_MGPIO28B_H2F_A              => OPEN,
         MMUART0_RXD_MGPIO28B_H2F_B              => GPIO_28_M2F_0,
         MMUART0_SCK_MGPIO29B_H2F_A              => OPEN,
-        MMUART0_SCK_MGPIO29B_H2F_B              => OPEN,
+        MMUART0_SCK_MGPIO29B_H2F_B              => GPIO_29_M2F_net_0,
         MMUART0_TXD_MGPIO27B_H2F_A              => MMUART_0_TXD_M2F_0,
         MMUART0_TXD_MGPIO27B_H2F_B              => OPEN,
         MMUART1_DTR_MGPIO12B_H2F_A              => OPEN,
@@ -2588,7 +2569,7 @@ MSS_ADLIB_INST : MSS_060
         PER2_FABRIC_PSEL                        => FIC_2_APB_MASTER_0_PSELx,
         PER2_FABRIC_PWDATA                      => FIC_2_APB_MASTER_0_PWDATA,
         PER2_FABRIC_PWRITE                      => FIC_2_APB_MASTER_0_PWRITE,
-        RTC_MATCH                               => OPEN,
+        RTC_MATCH                               => RTC_MATCH_net_0,
         SLEEPDEEP                               => OPEN,
         SLEEPHOLDACK                            => OPEN,
         SLEEPING                                => OPEN,
@@ -2686,7 +2667,7 @@ MSS_ADLIB_INST : MSS_060
         MGPIO29A_OUT                            => OPEN,
         MGPIO2B_OUT                             => OPEN,
         MGPIO30A_OUT                            => OPEN,
-        MGPIO31A_OUT                            => MSS_ADLIB_INST_MGPIO31A_OUT,
+        MGPIO31A_OUT                            => OPEN,
         MGPIO3B_OUT                             => OPEN,
         MGPIO4B_OUT                             => OPEN,
         MGPIO5B_OUT                             => OPEN,
@@ -2782,7 +2763,7 @@ MSS_ADLIB_INST : MSS_060
         MGPIO29A_OE                             => OPEN,
         MGPIO2B_OE                              => OPEN,
         MGPIO30A_OE                             => OPEN,
-        MGPIO31A_OE                             => MSS_ADLIB_INST_MGPIO31A_OE,
+        MGPIO31A_OE                             => OPEN,
         MGPIO3B_OE                              => OPEN,
         MGPIO4B_OE                              => OPEN,
         MGPIO5B_OE                              => OPEN,

@@ -3,10 +3,10 @@
 <drcreport>
   <header>m2s010_som</header>
   <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Out-of-date Instance</message>
-    <detail>Component definition is not consistent for instance m2s010_som_sb_0</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som/instances/m2s010_som_sb_0</crossprobe>
+    <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin m2s010_som:HOST_DETn</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som/pins/m2s010_som:HOST_DETn</crossprobe>
   </drc>
 </drcreport>

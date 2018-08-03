@@ -1,5 +1,5 @@
 // available hyper connections - for debug and ip models
-// timestamp: 1529953685
+// timestamp: 1533322653
 
 
 `ifndef SYN_HYPER_CONNECT
@@ -16,6 +16,24 @@ endmodule
 module m2s010_som_hyper_debug(dummy);
 input dummy; /* avoid compiler error for no ports */
 
+wire manch_out_n_0;
+syn_hyper_connect manch_out_n_connect_0(manch_out_n_0);
+defparam manch_out_n_connect_0.tag = "manch_out_n";
+
+wire manch_out_n_1;
+syn_hyper_connect manch_out_n_connect_1(manch_out_n_1);
+defparam manch_out_n_connect_1.tag = "CommsFPGA_top_0.manch_out_n";
+
+
+wire manch_out_p_0;
+syn_hyper_connect manch_out_p_connect_0(manch_out_p_0);
+defparam manch_out_p_connect_0.tag = "manch_out_p";
+
+wire manch_out_p_1;
+syn_hyper_connect manch_out_p_connect_1(manch_out_p_1);
+defparam manch_out_p_connect_1.tag = "CommsFPGA_top_0.manch_out_p";
+
+
 wire mac_mii_col_0;
 syn_hyper_connect mac_mii_col_connect_0(mac_mii_col_0);
 defparam mac_mii_col_connect_0.tag = "m2s010_som_sb_0.mac_mii_col";
@@ -26,10 +44,20 @@ syn_hyper_connect mac_mii_crs_connect_0(mac_mii_crs_0);
 defparam mac_mii_crs_connect_0.tag = "m2s010_som_sb_0.mac_mii_crs";
 
 
+wire mac_mii_mdc_0;
+syn_hyper_connect mac_mii_mdc_connect_0(mac_mii_mdc_0);
+defparam mac_mii_mdc_connect_0.tag = "m2s010_som_sb_0.mac_mii_mdc";
+
+
 wire [3:0] mac_mii_rxd_0;
 syn_hyper_connect mac_mii_rxd_connect_0(mac_mii_rxd_0);
 defparam mac_mii_rxd_connect_0.w = 4;
 defparam mac_mii_rxd_connect_0.tag = "m2s010_som_sb_0.mac_mii_rxd";
+
+
+wire mac_mii_rx_clk_0;
+syn_hyper_connect mac_mii_rx_clk_connect_0(mac_mii_rx_clk_0);
+defparam mac_mii_rx_clk_connect_0.tag = "m2s010_som_sb_0.mac_mii_rx_clk";
 
 
 wire mac_mii_rx_dv_0;
@@ -37,10 +65,20 @@ syn_hyper_connect mac_mii_rx_dv_connect_0(mac_mii_rx_dv_0);
 defparam mac_mii_rx_dv_connect_0.tag = "m2s010_som_sb_0.mac_mii_rx_dv";
 
 
+wire mac_mii_rx_er_0;
+syn_hyper_connect mac_mii_rx_er_connect_0(mac_mii_rx_er_0);
+defparam mac_mii_rx_er_connect_0.tag = "m2s010_som_sb_0.mac_mii_rx_er";
+
+
 wire [3:0] mac_mii_txd_0;
 syn_hyper_connect mac_mii_txd_connect_0(mac_mii_txd_0);
 defparam mac_mii_txd_connect_0.w = 4;
 defparam mac_mii_txd_connect_0.tag = "m2s010_som_sb_0.mac_mii_txd";
+
+
+wire mac_mii_tx_clk_0;
+syn_hyper_connect mac_mii_tx_clk_connect_0(mac_mii_tx_clk_0);
+defparam mac_mii_tx_clk_connect_0.tag = "m2s010_som_sb_0.mac_mii_tx_clk";
 
 
 wire mac_mii_tx_en_0;
@@ -51,11 +89,6 @@ defparam mac_mii_tx_en_connect_0.tag = "m2s010_som_sb_0.mac_mii_tx_en";
 wire manchester_in_0;
 syn_hyper_connect manchester_in_connect_0(manchester_in_0);
 defparam manchester_in_connect_0.tag = "CommsFPGA_top_0.manchester_in";
-
-
-wire manch_out_p_0;
-syn_hyper_connect manch_out_p_connect_0(manch_out_p_0);
-defparam manch_out_p_connect_0.tag = "CommsFPGA_top_0.manch_out_p";
 
 
 wire clk16x_0;

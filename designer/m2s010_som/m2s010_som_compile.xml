@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP2 (Version 11.8.2.4)</text>
-<text>Date: Mon Jun 25 15:08:35 2018
+<text>Date: Fri Aug 03 14:58:01 2018
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -82,6 +82,10 @@
  <cell>Source</cell>
  <cell>C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\constraint\io\m2s010_som.io.pdc</cell>
 </row>
+<row>
+ <cell>Source</cell>
+ <cell>C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\constraint\fp\m2s010_som.fp.pdc</cell>
+</row>
 </table>
 <section><name>Options</name></section>
 <table>
@@ -118,15 +122,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>3195</cell>
+ <cell>3372</cell>
  <cell>56520</cell>
- <cell>5.65</cell>
+ <cell>5.97</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>3222</cell>
+ <cell>3396</cell>
  <cell>56520</cell>
- <cell>5.70</cell>
+ <cell>6.01</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -136,15 +140,15 @@
 </row>
 <row>
  <cell>User I/O</cell>
- <cell>127</cell>
+ <cell>113</cell>
  <cell>197</cell>
- <cell>64.47</cell>
+ <cell>57.36</cell>
 </row>
 <row>
  <cell>-- Single-ended I/O</cell>
- <cell>125</cell>
+ <cell>111</cell>
  <cell>197</cell>
- <cell>63.45</cell>
+ <cell>56.35</cell>
 </row>
 <row>
  <cell>-- Differential I/O Pairs</cell>
@@ -160,9 +164,9 @@
 </row>
 <row>
  <cell>RAM1K18</cell>
- <cell>37</cell>
+ <cell>41</cell>
  <cell>69</cell>
- <cell>53.62</cell>
+ <cell>59.42</cell>
 </row>
 <row>
  <cell>MACC</cell>
@@ -234,8 +238,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>1827</cell>
- <cell>1854</cell>
+ <cell>1860</cell>
+ <cell>1884</cell>
 </row>
 <row>
  <cell>RAM64x18 Interface Logic</cell>
@@ -244,8 +248,8 @@
 </row>
 <row>
  <cell>RAM1K18 Interface Logic</cell>
- <cell>1332</cell>
- <cell>1332</cell>
+ <cell>1476</cell>
+ <cell>1476</cell>
 </row>
 <row>
  <cell>MACC Interface Logic</cell>
@@ -254,8 +258,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>3195</cell>
- <cell>3222</cell>
+ <cell>3372</cell>
+ <cell>3396</cell>
 </row>
 </table>
 <section><name>MSS Resource Usage</name></section>
@@ -297,7 +301,7 @@
 </row>
 <row>
  <cell>I2C</cell>
- <cell>2</cell>
+ <cell>1</cell>
  <cell>2</cell>
 </row>
 <row>
@@ -343,7 +347,7 @@
 </row>
 <row>
  <cell>2</cell>
- <cell>18</cell>
+ <cell>21</cell>
 </row>
 <row>
  <cell>5</cell>
@@ -355,11 +359,11 @@
 </row>
 <row>
  <cell>7</cell>
- <cell>3</cell>
+ <cell>2</cell>
 </row>
 <row>
  <cell>8</cell>
- <cell>4</cell>
+ <cell>5</cell>
 </row>
 <row>
  <cell>9</cell>
@@ -371,7 +375,7 @@
 </row>
 <row>
  <cell>13</cell>
- <cell>4</cell>
+ <cell>5</cell>
 </row>
 <row>
  <cell>14</cell>
@@ -383,7 +387,7 @@
 </row>
 <row>
  <cell>17</cell>
- <cell>4</cell>
+ <cell>5</cell>
 </row>
 <row>
  <cell>24</cell>
@@ -391,7 +395,7 @@
 </row>
 <row>
  <cell>Total</cell>
- <cell>58</cell>
+ <cell>63</cell>
 </row>
 </table>
 <section><name>I/O Function</name></section>
@@ -404,19 +408,19 @@
 </header>
 <row>
  <cell>Input I/O</cell>
- <cell>22</cell>
+ <cell>12</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
 <row>
  <cell>Output I/O</cell>
- <cell>63</cell>
+ <cell>60</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
 <row>
  <cell>Bidirectional I/O</cell>
- <cell>40</cell>
+ <cell>39</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
@@ -447,9 +451,9 @@
  <cell>LVCMOS33</cell>
  <cell> 3.30v</cell>
  <cell> N/A</cell>
- <cell> 21</cell>
- <cell> 36</cell>
- <cell> 20</cell>
+ <cell> 11</cell>
+ <cell> 33</cell>
+ <cell> 19</cell>
 </row>
 <row>
  <cell>LVCMOS18</cell>
@@ -477,8 +481,8 @@
 </header>
 <row>
  <cell>Locked</cell>
- <cell> 95</cell>
- <cell>74.80%</cell>
+ <cell> 97</cell>
+ <cell>85.84%</cell>
 </row>
 <row>
  <cell>Placed</cell>
@@ -487,8 +491,8 @@
 </row>
 <row>
  <cell>UnPlaced</cell>
- <cell> 32</cell>
- <cell>25.20%</cell>
+ <cell> 16</cell>
+ <cell>14.16%</cell>
 </row>
 </table>
 <section><name>Nets assigned to chip global resources</name></section>
@@ -499,7 +503,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>641</cell>
+ <cell>680</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/IICE_comm2iice[11]</cell>
 </row>
@@ -514,7 +518,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>494</cell>
+ <cell>522</cell>
  <cell>INT_NET</cell>
  <cell>Net   : CommsFPGA_CCC_0_GL0</cell>
 </row>
@@ -574,21 +578,6 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>97</cell>
- <cell>INT_NET</cell>
- <cell>Net   : CommsFPGA_top_0/ClkDivider[1]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: CommsFPGA_top_0/ClkDivider_inferred_clock_RNIFOL7[1]/U0_RGB1</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Source: NETLIST</cell>
-</row>
-<row>
  <cell>75</cell>
  <cell>INT_NET</cell>
  <cell>Net   : m2s010_som_sb_0/CORECONFIGP_0_APB_S_PCLK</cell>
@@ -597,6 +586,21 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: m2s010_som_sb_0/m2s010_som_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIPG5/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>73</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CommsFPGA_top_0_MAC_MII_RX_CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CommsFPGA_top_0/ClkDivider_inferred_clock_RNIFOL7[1]/U0_RGB1</cell>
 </row>
 <row>
  <cell></cell>
@@ -650,7 +654,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>388</cell>
+ <cell>405</cell>
  <cell>INT_NET</cell>
  <cell>Net   : CommsFPGA_top_0/RESET</cell>
 </row>
@@ -660,7 +664,7 @@
  <cell>Driver: CommsFPGA_top_0/RESET</cell>
 </row>
 <row>
- <cell>222</cell>
+ <cell>243</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/IICE_INST/b4_PfFz/b5_PbrtL/b6_OKctIF4</cell>
 </row>
@@ -670,7 +674,7 @@
  <cell>Driver: ident_coreinst/IICE_INST/b4_PfFz/b5_PbrtL/b6_OKctIF4</cell>
 </row>
 <row>
- <cell>122</cell>
+ <cell>129</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb</cell>
 </row>
@@ -690,7 +694,7 @@
  <cell>Driver: CommsFPGA_top_0/MDIO_SLAVE_INST/reg_address[1]</cell>
 </row>
 <row>
- <cell>94</cell>
+ <cell>95</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/IICE_comm2iice[9]</cell>
 </row>
@@ -710,37 +714,27 @@
  <cell>Driver: CommsFPGA_top_0/MDIO_SLAVE_INST/reg_address[0]</cell>
 </row>
 <row>
- <cell>81</cell>
+ <cell>88</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM8</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/N_16_i</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM8</cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/N_16_i</cell>
 </row>
 <row>
- <cell>77</cell>
+ <cell>83</cell>
  <cell>INT_NET</cell>
- <cell>Net   : m2s010_som_sb_0/m2s010_som_sb_MSS_0/CONFIG_PRESET_N</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM[87]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: m2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST</cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[87]</cell>
 </row>
 <row>
- <cell>76</cell>
- <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM[80]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[80]</cell>
-</row>
-<row>
- <cell>76</cell>
+ <cell>83</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b11_nFG0rDY_9e2</cell>
 </row>
@@ -748,6 +742,16 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b11_nFG0rDY_9e2</cell>
+</row>
+<row>
+ <cell>82</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/un1_b7_nYJ_BFM8</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.un1_b7_nYJ_BFM8</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -758,7 +762,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>388</cell>
+ <cell>405</cell>
  <cell>INT_NET</cell>
  <cell>Net   : CommsFPGA_top_0/RESET</cell>
 </row>
@@ -768,7 +772,7 @@
  <cell>Driver: CommsFPGA_top_0/RESET</cell>
 </row>
 <row>
- <cell>222</cell>
+ <cell>243</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/IICE_INST/b4_PfFz/b5_PbrtL/b6_OKctIF4</cell>
 </row>
@@ -778,7 +782,7 @@
  <cell>Driver: ident_coreinst/IICE_INST/b4_PfFz/b5_PbrtL/b6_OKctIF4</cell>
 </row>
 <row>
- <cell>122</cell>
+ <cell>129</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb</cell>
 </row>
@@ -798,7 +802,7 @@
  <cell>Driver: CommsFPGA_top_0/MDIO_SLAVE_INST/reg_address[1]</cell>
 </row>
 <row>
- <cell>94</cell>
+ <cell>95</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/IICE_comm2iice[9]</cell>
 </row>
@@ -818,37 +822,27 @@
  <cell>Driver: CommsFPGA_top_0/MDIO_SLAVE_INST/reg_address[0]</cell>
 </row>
 <row>
- <cell>81</cell>
+ <cell>88</cell>
  <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM8</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/N_16_i</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM8</cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/N_16_i</cell>
 </row>
 <row>
- <cell>77</cell>
+ <cell>83</cell>
  <cell>INT_NET</cell>
- <cell>Net   : m2s010_som_sb_0/m2s010_som_sb_MSS_0/CONFIG_PRESET_N</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM[87]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: m2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST</cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[87]</cell>
 </row>
 <row>
- <cell>76</cell>
- <cell>INT_NET</cell>
- <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b7_nYJ_BFM[80]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b7_nYJ_BFM[80]</cell>
-</row>
-<row>
- <cell>76</cell>
+ <cell>83</cell>
  <cell>INT_NET</cell>
  <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/b11_nFG0rDY_9e2</cell>
 </row>
@@ -856,6 +850,16 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.b11_nFG0rDY_9e2</cell>
+</row>
+<row>
+ <cell>82</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : ident_coreinst/IICE_INST/b3_SoW/un1_b7_nYJ_BFM8</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: ident_coreinst/IICE_INST/b3_SoW/genblk9.un1_b7_nYJ_BFM8</cell>
 </row>
 </table>
 </doc>

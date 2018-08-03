@@ -380,6 +380,22 @@
         <spirit:name>THOs_AFE</spirit:name>
         <spirit:direction>in</spirit:direction>
       </spirit:signal>
+      <spirit:signal>
+        <spirit:name>GPIO8_M2F</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>GPIO29_GREEN</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>GPIO30_RED</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>GPIO31_BLUE</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
     </spirit:signals>
     <spirit:hwParameters>
     </spirit:hwParameters>

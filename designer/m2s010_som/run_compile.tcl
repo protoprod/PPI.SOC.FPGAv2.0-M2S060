@@ -87,6 +87,10 @@ set_compile_info \
     -name {"Source"} \
     -value {"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\constraint\io\m2s010_som.io.pdc"}
 set_compile_info \
+    -category {"Source Files"} \
+    -name {"Source"} \
+    -value {"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\constraint\fp\m2s010_som.fp.pdc"}
+set_compile_info \
     -category {"Options"} \
     -name {"Merge User SDC file(s) with Existing Timing Constraints"} \
     -value {"true"}
@@ -113,4 +117,5 @@ compile \
     -die PA4M6000 \
     -pkg fcs325 \
     -pdc_file {C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\constraint\io\m2s010_som.io.pdc} \
+    -pdc_file {C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\constraint\fp\m2s010_som.fp.pdc} \
     -merge_pdc 0

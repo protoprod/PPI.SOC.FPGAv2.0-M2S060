@@ -3,7 +3,7 @@
 
 # Version: v11.8 SP2 11.8.2.4
 # Family: SmartFusion2 , Die: M2S060T , Package: 325 FCSBGA
-# Date generated: Tue Apr 24 08:39:46 2018 
+# Date generated: Mon Jul 30 15:31:32 2018 
 
 
 # 
@@ -40,6 +40,12 @@ set_io D_COL          \
     -DIRECTION INPUT
 
 
+set_io D_CRS          \
+    -pinname M20      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
 set_io D_MDC           \
     -pinname F18       \
     -fixed yes         \
@@ -50,6 +56,42 @@ set_io D_MDIO         \
     -pinname G17      \
     -fixed yes        \
     -DIRECTION INOUT
+
+
+set_io D_RXC          \
+    -pinname M18      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io D_RXDV         \
+    -pinname L20      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {D_RXD[0]}     \
+    -pinname L18      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {D_RXD[1]}     \
+    -pinname L17      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {D_RXD[2]}     \
+    -pinname K18      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {D_RXD[3]}     \
+    -pinname K17      \
+    -fixed yes        \
+    -DIRECTION INPUT
 
 
 set_io D_TXC          \
@@ -94,36 +136,6 @@ set_io GPIO_1         \
     -DIRECTION INOUT
 
 
-set_io GPIO_10_F2M    \
-    -pinname M4       \
-    -fixed yes        \
-    -DIRECTION INPUT
-
-
-set_io GPIO_14B_GREEN_G1  \
-    -pinname G1           \
-    -fixed yes            \
-    -DIRECTION OUTPUT
-
-
-set_io GPIO_15B_RED_F2  \
-    -pinname F2         \
-    -fixed yes          \
-    -DIRECTION OUTPUT
-
-
-set_io GPIO_16B_BLUE_F3  \
-    -pinname F3          \
-    -fixed yes           \
-    -DIRECTION OUTPUT
-
-
-set_io GPIO_19_F2M    \
-    -pinname T2       \
-    -fixed yes        \
-    -DIRECTION INPUT
-
-
 set_io GPIO_21_M2F     \
     -pinname K7        \
     -fixed yes         \
@@ -134,12 +146,6 @@ set_io GPIO_24_M2F     \
     -pinname K4        \
     -fixed yes         \
     -DIRECTION OUTPUT
-
-
-set_io GPIO_2_F2M     \
-    -pinname V1       \
-    -fixed yes        \
-    -DIRECTION INPUT
 
 
 set_io GPIO_5_M2F      \
@@ -160,10 +166,22 @@ set_io GPIO_7         \
     -DIRECTION INOUT
 
 
-set_io GPIO_9_F2M     \
-    -pinname N1       \
-    -fixed yes        \
-    -DIRECTION INPUT
+set_io LED_BLUE_F3     \
+    -pinname F3        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io LED_GREEN_G1    \
+    -pinname G1        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io LED_RED_F2      \
+    -pinname F2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
 
 
 set_io MANCHESTER_IN  \
@@ -206,12 +224,6 @@ set_io SPI_1_CLK      \
     -pinname N4       \
     -fixed yes        \
     -DIRECTION INOUT
-
-
-set_io SPI_1_DI_F2M   \
-    -pinname D21      \
-    -fixed yes        \
-    -DIRECTION INPUT
 
 
 set_io SPI_1_DO_M2F    \

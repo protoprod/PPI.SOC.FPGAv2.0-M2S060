@@ -17,7 +17,6 @@ define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_18_BI_PAD} {sy
 define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_20_OUT_PAD} {syn_noprune} 1
 define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_25_BI_PAD} {syn_noprune} 1
 define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_26_BI_PAD} {syn_noprune} 1
-define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_31_BI_PAD} {syn_noprune} 1
 define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.I2C_1_SCL_PAD} {syn_noprune} 1
 define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.I2C_1_SDA_PAD} {syn_noprune} 1
 define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.MDDR_ADDR_0_PAD} {syn_noprune} 1

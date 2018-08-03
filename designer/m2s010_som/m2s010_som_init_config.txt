@@ -1,6 +1,6 @@
 Configuration Report for MSS, SERDES(s), Fabric DDR and Fabric CCC(s)
 Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP2 (Version 11.8.2.4)
-Date: Mon Jun 25 15:11:33 2018
+Date: Fri Aug 03 15:02:29 2018
 
 m2s010_som_sb_0/CCC_0/CCC_INST/INST_CCC_IP
 +-------------------+--------------------+---------------+-------+
@@ -23,9 +23,9 @@ m2s010_som_sb_0/CCC_0/CCC_INST/INST_CCC_IP
 | FCCC_NGMUX0_CR1   | SELGL[9:5]         | INIT[91:87]   | 5'h18 |
 | FCCC_NGMUX1_CR0   | SELGL[14:10]       | INIT[96:92]   | 5'h18 |
 | FCCC_NGMUX1_CR1   | SELGL[19:15]       | INIT[101:97]  | 5'h18 |
-| FCCC_NGMUX2_CR0   | SELGL[24:20]       | INIT[106:102] | 5'h18 |
+| FCCC_NGMUX2_CR0   | SELGL[24:20]       | INIT[106:102] | 5'h7  |
 | FCCC_NGMUX2_CR1   | SELGL[29:25]       | INIT[111:107] | 5'h18 |
-| FCCC_NGMUX3_CR0   | SELGL[34:30]       | INIT[116:112] | 5'h7  |
+| FCCC_NGMUX3_CR0   | SELGL[34:30]       | INIT[116:112] | 5'h18 |
 | FCCC_NGMUX3_CR1   | SELGL[39:35]       | INIT[121:117] | 5'h18 |
 | FCCC_GPD0_SYNC_CR | RESET_GENEN[0]     | INIT[122:122] | 1'h0  |
 | FCCC_GPD1_SYNC_CR | RESET_GENEN[1]     | INIT[123:123] | 1'h0  |
@@ -92,11 +92,11 @@ CommsFPGA_CCC_0/CCC_INST/INST_CCC_IP
 | FCCC_GPMUX3_CR    | SEL_GPMUX3[4:0]    | INIT[81:77]   | 5'h18 |
 | FCCC_NGMUX0_CR0   | SELGL[4:0]         | INIT[86:82]   | 5'h9  |
 | FCCC_NGMUX0_CR1   | SELGL[9:5]         | INIT[91:87]   | 5'h18 |
-| FCCC_NGMUX1_CR0   | SELGL[14:10]       | INIT[96:92]   | 5'h18 |
+| FCCC_NGMUX1_CR0   | SELGL[14:10]       | INIT[96:92]   | 5'h8  |
 | FCCC_NGMUX1_CR1   | SELGL[19:15]       | INIT[101:97]  | 5'h18 |
 | FCCC_NGMUX2_CR0   | SELGL[24:20]       | INIT[106:102] | 5'ha  |
 | FCCC_NGMUX2_CR1   | SELGL[29:25]       | INIT[111:107] | 5'h18 |
-| FCCC_NGMUX3_CR0   | SELGL[34:30]       | INIT[116:112] | 5'h8  |
+| FCCC_NGMUX3_CR0   | SELGL[34:30]       | INIT[116:112] | 5'h18 |
 | FCCC_NGMUX3_CR1   | SELGL[39:35]       | INIT[121:117] | 5'h18 |
 | FCCC_GPD0_SYNC_CR | RESET_GENEN[0]     | INIT[122:122] | 1'h1  |
 | FCCC_GPD1_SYNC_CR | RESET_GENEN[1]     | INIT[123:123] | 1'h1  |
@@ -210,7 +210,7 @@ m2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_060_IP
 | SOFTRESET               | MMUART1_SOFTRESET           | INIT[358:358]   | 1'h0         | INIT[26]  | 1             |
 | SOFTRESET               | G4SPI0_SOFTRESET            | INIT[359:359]   | 1'h0         | INIT[27]  | 1             |
 | SOFTRESET               | G4SPI1_SOFTRESET            | INIT[360:360]   | 1'h0         | INIT[28]  | 1             |
-| SOFTRESET               | I2C0_SOFTRESET              | INIT[361:361]   | 1'h0         | INIT[29]  | 1             |
+| SOFTRESET               | I2C0_SOFTRESET              | INIT[361:361]   | 1'h1         | INIT[29]  | 1             |
 | SOFTRESET               | I2C1_SOFTRESET              | INIT[362:362]   | 1'h0         | INIT[30]  | 1             |
 | SOFTRESET               | CAN_SOFTRESET               | INIT[363:363]   | 1'h1         | INIT[31]  | 1             |
 | SOFTRESET               | USB_SOFTRESET               | INIT[364:364]   | 1'h1         | INIT[32]  | 1             |
@@ -242,7 +242,7 @@ m2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_060_IP
 | GPIO_SYSRESET_SEL       | MSS_GPIO_15_8_SYSRESET_SEL  | INIT[421:421]   | 1'h1         | INIT[48]  | 1             |
 | GPIO_SYSRESET_SEL       | MSS_GPIO_23_16_SYSRESET_SEL | INIT[422:422]   | 1'h1         | INIT[48]  | 1             |
 | GPIO_SYSRESET_SEL       | MSS_GPIO_31_24_SYSRESET_SEL | INIT[423:423]   | 1'h1         | INIT[48]  | 1             |
-| GPIN_SRC_SEL            | MSS_GPINSOURCE              | INIT[455:424]   | 32'h68081001 | INIT[49]  | 1             |
+| GPIN_SRC_SEL            | MSS_GPINSOURCE              | INIT[455:424]   | 32'h08081001 | INIT[49]  | 1             |
 | MDDR_CONFIG             | MDDR_CONFIG_LOCAL           | INIT[456:456]   | 1'h0         | INIT[50]  | 1             |
 | MDDR_CONFIG             | SDR_MODE                    | INIT[457:457]   | 1'h0         | INIT[50]  | 1             |
 | MDDR_CONFIG             | F_AXI_AHB_MODE              | INIT[458:458]   | 1'h1         | INIT[50]  | 1             |
@@ -278,7 +278,7 @@ m2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_060_IP
 | MSS_INTERRUPT_ENABLE    | SW_INTERRUPT_EN             | INIT[520:514]   | 7'h7F        | INIT[59]  | 1             |
 | MSS_INTERRUPT_ENABLE    | CC_INTERRUPT_EN             | INIT[523:521]   | 3'h7         | INIT[59]  | 1             |
 | MSS_INTERRUPT_ENABLE    | DDRB_INTERRUPT_EN           | INIT[533:524]   | 10'h3FF      | INIT[59]  | 1             |
-| RTC_WAKEUP_CONFIG       | RTC_WAKEUP_M3_EN            | INIT[534:534]   | 1'h0         | INIT[60]  | 1             |
+| RTC_WAKEUP_CONFIG       | RTC_WAKEUP_M3_EN            | INIT[534:534]   | 1'h1         | INIT[60]  | 1             |
 | RTC_WAKEUP_CONFIG       | RTC_WAKEUP_FAB_EN           | INIT[535:535]   | 1'h0         | INIT[60]  | 1             |
 | RTC_WAKEUP_CONFIG       | RTC_WAKEUP_G4C_EN           | INIT[536:536]   | 1'h0         | INIT[60]  | 1             |
 | MAC_CONFIG              | ETH_LINE_SPEED              | INIT[538:537]   | 2'h1         | INIT[61]  | 1             |
@@ -311,7 +311,7 @@ m2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_060_IP
 | MSSDDR_FACC_CONFIG_1    | PERSIST_CC                  | INIT[614:614]   | 1'h1         | INIT[74]  | 1             |
 | MSSDDR_FACC_CONFIG_1    | CONTROLLER_PLL_INIT         | INIT[615:615]   | 1'h1         | INIT[75]  | 1             |
 | MSSDDR_FACC_CONFIG_1    | FACC_FAB_REF_SEL            | INIT[616:616]   | 1'h1         | INIT[76]  | 1             |
-| MSSDDR_FACC_CONFIG_2    | RTC_CLK_SEL                 | INIT[618:617]   | 2'h2         | INIT[77]  | 1             |
+| MSSDDR_FACC_CONFIG_2    | RTC_CLK_SEL                 | INIT[618:617]   | 2'h1         | INIT[77]  | 1             |
 | MSSDDR_FACC_CONFIG_2    | FACC_SRC_SEL                | INIT[621:619]   | 3'h6         | INIT[78]  | 1             |
 | MSSDDR_FACC_CONFIG_2    | FACC_PRE_SRC_SEL            | INIT[622:622]   | 1'h0         | INIT[79]  | 1             |
 | MSSDDR_FACC_CONFIG_2    | FACC_STANDBY_SEL            | INIT[625:623]   | 3'h4         | INIT[80]  | 1             |
@@ -882,8 +882,8 @@ m2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_060_IP
 | IOMUXCELL_53_CONFIG     | MSS_IOMUXSEL5LOWER          | INIT[1407:1407] | 1'h0         | INIT[143] | 1             |
 | IOMUXCELL_54_CONFIG     | MSS_IOMUXSEL0               | INIT[1408:1408] | 1'h0         | INIT[144] | 1             |
 | IOMUXCELL_54_CONFIG     | MSS_IOMUXSEL1               | INIT[1409:1409] | 1'h0         | INIT[144] | 1             |
-| IOMUXCELL_54_CONFIG     | MSS_IOMUXSEL2               | INIT[1410:1410] | 1'h1         | INIT[144] | 1             |
-| IOMUXCELL_54_CONFIG     | MSS_IOMUXSEL3               | INIT[1411:1411] | 1'h1         | INIT[144] | 1             |
+| IOMUXCELL_54_CONFIG     | MSS_IOMUXSEL2               | INIT[1410:1410] | 1'h0         | INIT[144] | 1             |
+| IOMUXCELL_54_CONFIG     | MSS_IOMUXSEL3               | INIT[1411:1411] | 1'h0         | INIT[144] | 1             |
 | IOMUXCELL_54_CONFIG     | MSS_IOMUXSEL4UPPER          | INIT[1412:1412] | 1'h0         | INIT[144] | 1             |
 | IOMUXCELL_54_CONFIG     | MSS_IOMUXSEL4MID            | INIT[1413:1413] | 1'h0         | INIT[144] | 1             |
 | IOMUXCELL_54_CONFIG     | MSS_IOMUXSEL4LOWER          | INIT[1414:1414] | 1'h0         | INIT[144] | 1             |
@@ -892,8 +892,8 @@ m2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_060_IP
 | IOMUXCELL_54_CONFIG     | MSS_IOMUXSEL5LOWER          | INIT[1417:1417] | 1'h0         | INIT[144] | 1             |
 | IOMUXCELL_55_CONFIG     | MSS_IOMUXSEL0               | INIT[1418:1418] | 1'h0         | INIT[145] | 1             |
 | IOMUXCELL_55_CONFIG     | MSS_IOMUXSEL1               | INIT[1419:1419] | 1'h0         | INIT[145] | 1             |
-| IOMUXCELL_55_CONFIG     | MSS_IOMUXSEL2               | INIT[1420:1420] | 1'h1         | INIT[145] | 1             |
-| IOMUXCELL_55_CONFIG     | MSS_IOMUXSEL3               | INIT[1421:1421] | 1'h1         | INIT[145] | 1             |
+| IOMUXCELL_55_CONFIG     | MSS_IOMUXSEL2               | INIT[1420:1420] | 1'h0         | INIT[145] | 1             |
+| IOMUXCELL_55_CONFIG     | MSS_IOMUXSEL3               | INIT[1421:1421] | 1'h0         | INIT[145] | 1             |
 | IOMUXCELL_55_CONFIG     | MSS_IOMUXSEL4UPPER          | INIT[1422:1422] | 1'h0         | INIT[145] | 1             |
 | IOMUXCELL_55_CONFIG     | MSS_IOMUXSEL4MID            | INIT[1423:1423] | 1'h0         | INIT[145] | 1             |
 | IOMUXCELL_55_CONFIG     | MSS_IOMUXSEL4LOWER          | INIT[1424:1424] | 1'h0         | INIT[145] | 1             |

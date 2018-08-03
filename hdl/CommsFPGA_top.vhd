@@ -30,7 +30,6 @@
 --      -- ManchesDecoder2.vhd
 --           -- RX_SM.vhd
 --           -- CLOCK_DOMAIN_BUFFER.vhd
-
 --           -- ManchesDecoder_Adapter.vhd
 --                -- IdleLineDetector.vhd
 --           -- BitDector.vhd
@@ -42,6 +41,10 @@
 --	0x3		ASK AFE design
 --	0x4		simple node baseline merged with ASK AFE 6/22/18
 --	0x5		simple node baseline after merge with M2S060 logic  6/25/18
+--	0x6		simple node LEDs and buttons to SoC IOs; TB simulation working   7/11/18
+--	0x7		RTC 32KHz input clock Implementation  7/18/18 updated 7/25/18 for LED uP control w/ GPIO8
+--	0x8		RTC 1MHz input clock Implementation  7/18/18 updated 7/25/18 for LED uP control w/ GPIO8
+--	0x9		RTC 25/50MHz input clock Implementation  7/18/18
 ----------------------------------------------------------------------------------
 
 library IEEE;
@@ -137,7 +140,11 @@ entity CommsFPGA_top is
 	  LED_GREEN					: out std_logic;
 	  LED_BLUE					: out std_logic;
 	  LED_RED					: out std_logic;
-	  THOs_AFE					: in std_logic
+	  THOs_AFE					: in std_logic;
+	  GPIO8_M2F					: in std_logic;		-- use for uP control of LEDs = '1'
+	  GPIO29_GREEN				: in std_logic;
+	  GPIO30_RED				: in std_logic;
+	  GPIO31_BLUE				: in std_logic
     );
 end CommsFPGA_top;
 
@@ -245,6 +252,7 @@ architecture Behavioral of CommsFPGA_top is
   signal AFE_Compare_reg	   : std_logic;
   signal THOs_AFE_reg_2		   : std_logic;
   signal THO_compare_reg_14	   : std_logic;
+
   signal TX_State_IDLE 		   : std_logic; 
   
   signal reset_all_pkt_cntrs   : std_logic; 	
@@ -424,9 +432,9 @@ begin
   THOs_AFE_reg_2	<= THOs_AFE_reg(2);
   THO_compare_reg_14<= THO_compare_reg(16);
   
-  ------------------------------------------------------------------------------
-  -- Tri-Debounce
-  -------1---------2---------3---------4---------5---------6---------7---------8
+------------------------------------------------------------------------------
+-- Tri-Debounce
+-------1---------2---------3---------4---------5---------6---------7---------8
   TRIPLE_DEBOUNCE_INST : entity work.TriDebounce
     Port Map(
       reset           => RESET,
@@ -439,11 +447,21 @@ begin
   DEBOUNCE_OUT1             <= DEBOUNCE_OUT(1);
   DEBOUNCE_OUT2             <= DEBOUNCE_OUT(2);
 
-  LED_BLUE      <= '0' when (MAC_MII_TX_EN = '1') else '1';		--  Blue  '0' to turn on transmitter
-  LED_RED             <= '0' when ((q(23 downto 16) = x"FF") and (MAC_MII_TX_EN = '0') and
-									(MAC_MII_RX_DV = '0'))  else '1';	--  Red LED for heart beat when no traffic
-  LED_GREEN     <= '0' when (MAC_MII_RX_DV = '1') else '1';		--  Green
-  
+------------------------------------------------------------------------------
+-- LEDs are the 'OR' of the MII Tx/Rx signals and the GPIOs
+-- 
+--									SoC Pins
+--							Simple Node	Sep Nodes
+--	BLUE  LED	 MSS_GPIO_31	   Y15	R8
+--	Red   LED	 MSS_GPIO_30	   W15	P8
+--	Green LED	 MSS_GPIO_29	   V16	P9
+-------1---------2---------3---------4---------5---------6---------7---------8
+  LED_BLUE      <= '0' when ((MAC_MII_TX_EN = '1' and GPIO8_M2F = '0') or 
+							(GPIO31_BLUE = '1' and GPIO8_M2F = '1')) else '1';	--  Pull output to '0' to turn on LEDs
+  LED_RED      	<= '0' when ((GPIO30_RED = '1'  and GPIO8_M2F = '1') or 
+							((q(23 downto 16) = x"FF") and (MAC_MII_TX_EN = '0') and (GPIO8_M2F = '0') and 
+									(MAC_MII_RX_DV = '0')))  else '1';	--  Red LED for heart beat when no traffic
+  LED_GREEN     <= '0' when ((MAC_MII_RX_DV = '1' and GPIO8_M2F = '0') or (GPIO29_GREEN ='1' and GPIO8_M2F = '1')) else '1';	
   iMANCH_OUT_N              <= not iMANCH_OUT_P;
   SIMOnly_rx_packet_end_all <= rx_packet_end_all;
 

@@ -1,0 +1,27 @@
+data HELP_TYPE_DES 1
+data DESIGN m2s010_som
+data HPATH 'C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/designer/m2s010_som'
+data CPATH 'C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/constraint/io'
+data CDIR 'C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/constraint'
+data ETYPE IO
+data FAM SmartFusion2
+data DIE PA4M6000
+data PACKAGE fcs325
+data IO_DEFT_STD LVCMOS33
+data RESTRICTPROBEPINS 1
+data HYDRA_EXPORT_DATA 1
+data HYDRA_PRESERVE_DATA_FILES 1
+data ENABLE_AUTO_VERCHK 2
+data ALICUTIL_BD 42
+data RECORD_QUALIFIED_PATHS 0
+data VCCI_1.2_VOLTR COM
+data VCCI_1.5_VOLTR COM
+data VCCI_1.8_VOLTR COM
+data VCCI_2.5_VOLTR COM
+data VCCI_3.3_VOLTR COM
+data FLOW_TYPE OLD
+data AFL 'C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/designer/m2s010_som/m2s010_som.afl'
+data ADL 'C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/designer/m2s010_som/m2s010_som.adl'
+data LOC 'C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/designer/m2s010_som/m2s010_som.loc'
+data SEG 'C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/designer/m2s010_som/m2s010_som.seg'
+

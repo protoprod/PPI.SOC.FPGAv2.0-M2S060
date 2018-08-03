@@ -3,20 +3,18 @@ iice new {IICE} -type regular
 iice controller -iice {IICE} none
 iice sampler -iice {IICE} -depth 8192
 
-signals add -iice {IICE} -silent -trigger -sample  {/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER2_INST/reset_all_pkt_cntrs}\
+signals add -iice {IICE} -silent -trigger -sample  {/manch_out_n}\
+{/manch_out_p}\
+{/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER2_INST/reset_all_pkt_cntrs}\
 {/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER2_INST/sfd_timeout}\
 {/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER2_INST/v1/MANCHESTER_DECODER_ADAPTER_INST/clk1x_enable}\
 {/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER2_INST/v1/MANCHESTER_DECODER_ADAPTER_INST/rx_packet_end_all}\
 {/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER2_INST/v1/MANCHESTER_DECODER_ADAPTER_INST/v1/clkdiv}\
 {/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER2_INST/v1/MANCHESTER_DECODER_ADAPTER_INST/v1/clock_adjust}\
-{/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER2_INST/v1/MANCHESTER_DECODER_ADAPTER_INST/v1/decoder_shiftreg}\
-{/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER2_INST/v1/MANCHESTER_DECODER_ADAPTER_INST/v1/decoder_transition}\
-{/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER2_INST/v1/MANCHESTER_DECODER_ADAPTER_INST/v1/decoder_transition_d}\
 {/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER2_INST/v1/MANCHESTER_DECODER_ADAPTER_INST/v1/imanches_in_dly}\
 {/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER2_INST/v1/MANCHESTER_DECODER_ADAPTER_INST/v1/inrz_data}\
 {/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER2_INST/v1/MANCHESTER_DECODER_ADAPTER_INST/v1/manches_shiftreg}\
 {/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER2_INST/v1/MANCHESTER_DECODER_ADAPTER_INST/v1/manches_transition}\
-{/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER2_INST/v1/MANCHESTER_DECODER_ADAPTER_INST/v1/manches_transition_d}\
 {/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER2_INST/v1/RECEIVE_STATE_MACHINE_INST/behavioral/cnt_sfd}\
 {/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER2_INST/v1/RECEIVE_STATE_MACHINE_INST/behavioral/i_rx_packet_end_all}\
 {/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_DECODER2_INST/v1/RECEIVE_STATE_MACHINE_INST/behavioral/i_start_bit_mask}\
@@ -37,12 +35,17 @@ signals add -iice {IICE} -silent -trigger -sample  {/rtl/CommsFPGA_top_0/behavio
 {/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_ENCODER_2_INST/behavioral/jabber_tx_disable}\
 {/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_ENCODER_2_INST/behavioral/p2s_data}\
 {/rtl/CommsFPGA_top_0/behavioral/MANCHESTER_ENCODER_2_INST/manchester_out}\
+{/rtl/CommsFPGA_top_0/manch_out_n}\
 {/rtl/CommsFPGA_top_0/manch_out_p}\
 {/rtl/CommsFPGA_top_0/manchester_in}\
 {/rtl/m2s010_som_sb_0/mac_mii_col}\
 {/rtl/m2s010_som_sb_0/mac_mii_crs}\
+{/rtl/m2s010_som_sb_0/mac_mii_mdc}\
+{/rtl/m2s010_som_sb_0/mac_mii_rx_clk}\
 {/rtl/m2s010_som_sb_0/mac_mii_rx_dv}\
+{/rtl/m2s010_som_sb_0/mac_mii_rx_er}\
 {/rtl/m2s010_som_sb_0/mac_mii_rxd}\
+{/rtl/m2s010_som_sb_0/mac_mii_tx_clk}\
 {/rtl/m2s010_som_sb_0/mac_mii_tx_en}\
 {/rtl/m2s010_som_sb_0/mac_mii_txd}
 iice clock -iice {IICE} -edge positive {/rtl/CommsFPGA_top_0/clk16x}

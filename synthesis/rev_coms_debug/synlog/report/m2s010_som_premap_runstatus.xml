@@ -13,13 +13,13 @@ The file contains the job information from mapper to be displayed as part of the
 </job_status>
 <job_info>
 <info name="Notes">
-<data>109</data>
+<data>125</data>
 <report_link name="more">
 <data>C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\synlog\report\m2s010_som_premap_notes.txt</data>
 </report_link>
 </info>
 <info name="Warnings">
-<data>40</data>
+<data>32</data>
 <report_link name="more">
 <data>C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\synlog\report\m2s010_som_premap_warnings.txt</data>
 </report_link>
@@ -40,7 +40,7 @@ The file contains the job information from mapper to be displayed as part of the
 <data>153MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1529953685</data>
+<data type="timestamp">1533322653</data>
 </info>
 </job_info>
 </job_run_status>
