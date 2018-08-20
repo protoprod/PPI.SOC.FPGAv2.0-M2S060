@@ -3,10 +3,10 @@ Running in restricted mode: identify_job
 Starting:    C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\mbin\identify_instrumentor_shell.exe
 Install:     C:\Microsemi\Libero_SoC_v11.8\SynplifyPro
 Hostname:    GCALLSEN
-Date:        Fri Aug 03 14:19:50 2018
+Date:        Fri Aug 03 14:57:31 2018
 Version:     L-2016.09M-2
 
-Arguments:   -product identify_instrumentor -srs_gen_hw C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v -prj C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\m2s010_som_syn.prj -idb C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\identify.db -curimpl rev_coms_debug -write_sdc -log C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\identify.log -tsl KmgTLuhm -idc C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\identify.idc
+Arguments:   -product identify_instrumentor -srs_gen_hw C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v -prj C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\m2s010_som_syn.prj -idb C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\identify.db -curimpl rev_coms_debug -write_sdc -log C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\identify.log -tsl PfjUEnlg -idc C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\identify.idc
 ProductType: identify_instrumentor
 
 

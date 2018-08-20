@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP2 (Version 11.8.2.4)</text>
-<text>Date: Fri Aug 03 14:58:01 2018
+<text>Date: Mon Aug 20 13:17:50 2018
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -122,9 +122,9 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>3372</cell>
+ <cell>3380</cell>
  <cell>56520</cell>
- <cell>5.97</cell>
+ <cell>5.98</cell>
 </row>
 <row>
  <cell>DFF</cell>
@@ -238,7 +238,7 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>1860</cell>
+ <cell>1868</cell>
  <cell>1884</cell>
 </row>
 <row>
@@ -258,7 +258,7 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>3372</cell>
+ <cell>3380</cell>
  <cell>3396</cell>
 </row>
 </table>
@@ -654,14 +654,14 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>405</cell>
+ <cell>379</cell>
  <cell>INT_NET</cell>
- <cell>Net   : CommsFPGA_top_0/RESET</cell>
+ <cell>Net   : CommsFPGA_top_0/RESET_i_a2_i</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: CommsFPGA_top_0/RESET</cell>
+ <cell>Driver: CommsFPGA_top_0/RESET_i_a2_i</cell>
 </row>
 <row>
  <cell>243</cell>
@@ -762,14 +762,14 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>405</cell>
+ <cell>379</cell>
  <cell>INT_NET</cell>
- <cell>Net   : CommsFPGA_top_0/RESET</cell>
+ <cell>Net   : CommsFPGA_top_0/RESET_i_a2_i</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: CommsFPGA_top_0/RESET</cell>
+ <cell>Driver: CommsFPGA_top_0/RESET_i_a2_i</cell>
 </row>
 <row>
  <cell>243</cell>

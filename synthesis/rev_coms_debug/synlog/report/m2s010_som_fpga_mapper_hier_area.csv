@@ -1,9 +1,9 @@
 
 . Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
-. m2s010_som, 1884, 1403, 471, 0, 0, 41, 1, 19, 112
-.	. CommsFPGA_top, 836, 603, 416, 0, 0, 0, 1, 5, 0
+. m2s010_som, 1884, 1411, 471, 0, 0, 41, 1, 19, 112
+.	. CommsFPGA_top, 836, 611, 416, 0, 0, 0, 1, 5, 0
 .	.	. IdleLineDetector_1, 33, 15, 30, 0, 0, 0, 0, 0, 0
-.	.	. ManchesDecoder2, 256, 172, 142, 0, 0, 0, 1, 0, 0
+.	.	. ManchesDecoder2, 256, 173, 142, 0, 0, 0, 1, 0, 0
 .	.	.	. BitDetector, 17, 5, 17, 0, 0, 0, 0, 0, 0
 .	.	.	. CLOCK_DOMAIN_BUFFER, 95, 53, 45, 0, 0, 0, 1, 0, 0
 .	.	.	.	. CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_COREFIFO, 95, 53, 45, 0, 0, 0, 1, 0, 0
@@ -16,15 +16,15 @@
 .	.	.	.	.	.	. CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_USRAM_top, 0, 0, 0, 0, 0, 0, 1, 0, 0
 .	.	.	. ManchesDecoder_Adapter, 56, 32, 30, 0, 0, 0, 0, 0, 0
 .	.	.	.	. IdleLineDetector_0, 33, 14, 30, 0, 0, 0, 0, 0, 0
-.	.	.	. RX_SM, 74, 61, 50, 0, 0, 0, 0, 0, 0
-.	.	. ManchesEncoder2, 95, 144, 69, 0, 0, 0, 0, 0, 0
+.	.	.	. RX_SM, 74, 62, 50, 0, 0, 0, 0, 0, 0
+.	.	. ManchesEncoder2, 95, 145, 69, 0, 0, 0, 0, 0, 0
 .	.	.	. Jabber_SM, 52, 79, 48, 0, 0, 0, 0, 0, 0
-.	.	.	. Nib2Ser_SM, 37, 57, 21, 0, 0, 0, 0, 0, 0
+.	.	.	. Nib2Ser_SM, 37, 58, 21, 0, 0, 0, 0, 0, 0
 .	.	. Phy_Mux, 0, 1, 0, 0, 0, 0, 0, 0, 0
 .	.	. TX_Collision_Detector2, 28, 11, 16, 0, 0, 0, 0, 0, 0
 .	.	. mdio_slave_interface, 302, 164, 127, 0, 0, 0, 0, 1, 0
-.	.	. uP_if, 83, 75, 0, 0, 0, 0, 0, 0, 0
-.	.	.	. Interrupts, 33, 14, 0, 0, 0, 0, 0, 0, 0
+.	.	. uP_if, 83, 81, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. Interrupts, 33, 15, 0, 0, 0, 0, 0, 0, 0
 .	.	.	.	. Edge_Detect_0, 7, 1, 0, 0, 0, 0, 0, 0, 0
 .	.	.	.	. Edge_Detect_0_0, 7, 1, 0, 0, 0, 0, 0, 0, 0
 .	.	.	.	. Edge_Detect_0_1, 7, 1, 0, 0, 0, 0, 0, 0, 0

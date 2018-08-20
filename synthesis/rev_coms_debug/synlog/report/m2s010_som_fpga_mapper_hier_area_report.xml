@@ -19,7 +19,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>m2s010_som</data>
 <data>1884</data>
-<data>1403</data>
+<data>1411</data>
 <data>471</data>
 <data>0</data>
 <data>0</data>
@@ -30,7 +30,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>CommsFPGA_top</data>
 <data>836</data>
-<data>603</data>
+<data>611</data>
 <data>416</data>
 <data>0</data>
 <data>0</data>
@@ -53,7 +53,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>ManchesDecoder2</data>
 <data>256</data>
-<data>172</data>
+<data>173</data>
 <data>142</data>
 <data>0</data>
 <data>0</data>
@@ -208,7 +208,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>RX_SM</data>
 <data>74</data>
-<data>61</data>
+<data>62</data>
 <data>50</data>
 <data>0</data>
 <data>0</data>
@@ -221,7 +221,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>ManchesEncoder2</data>
 <data>95</data>
-<data>144</data>
+<data>145</data>
 <data>69</data>
 <data>0</data>
 <data>0</data>
@@ -244,7 +244,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>Nib2Ser_SM</data>
 <data>37</data>
-<data>57</data>
+<data>58</data>
 <data>21</data>
 <data>0</data>
 <data>0</data>
@@ -293,7 +293,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>uP_if</data>
 <data>83</data>
-<data>75</data>
+<data>81</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -304,7 +304,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>Interrupts</data>
 <data>33</data>
-<data>14</data>
+<data>15</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>

@@ -78,7 +78,7 @@ END uP_if;
 
 ARCHITECTURE Behavioral OF uP_if IS
 
-  constant MAJOR_REVISION_NUM    : std_logic_vector(7 downto 0) := "00001000";
+  constant MAJOR_REVISION_NUM    : std_logic_vector(7 downto 0) := "00000111";
   constant MINOR_REVISION_NUM    : std_logic_vector(7 downto 0) := "00000000";
 
   constant MAJOR_VERSION_REG_C   : std_logic_vector(7 downto 0) := "00000000";

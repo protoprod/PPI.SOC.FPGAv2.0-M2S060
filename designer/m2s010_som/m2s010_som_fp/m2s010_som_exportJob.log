@@ -1,0 +1,15 @@
+Software Version: 11.8.2.4
+Opened 'C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\m2s010_som_fp\m2s010_som.pro'
+The 'open_project' command succeeded.
+PDB file 'C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\b1c5c946-f703-43f5-b703-73f5f70373f5.pdb' has been loaded successfully.
+DESIGN : m2s010_som;  CHECKSUM : 10C0;  PDB_VERSION : 1.9
+The 'load_programming_data' command succeeded.
+Successfully exported STAPL file: 'C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\export\m2s010_som-m2s060-v0x7_M2S060T.stp'; file programs Fabric.
+Fabric component digest: 69e6591bc3cd70f5c2ce7a90f519e85b905719f3975ac4b6f600db008d8804e4
+Finished: Mon Aug 20 14:06:31 2018 (Elapsed time 00:00:28)
+
+The 'export_single_stapl' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

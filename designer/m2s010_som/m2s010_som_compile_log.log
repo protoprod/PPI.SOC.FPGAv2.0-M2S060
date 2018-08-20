@@ -45,7 +45,7 @@ Info: List of globals considered for demotion:
     8      0      0      'ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNI2P6B' 
     1      62     13     'CommsFPGA_top_0/long_reset_RNIUA27' 
     0      301    0      'CommsFPGA_top_0/MDIO_SLAVE_INST/PMAD_rst_reg_RNIH1H9' 
-    0      199    206    'CommsFPGA_top_0/RESET_RNIFEG6' 
+    0      199    180    'CommsFPGA_top_0/RESET_i_a2_i_RNIHK85' 
     0      128    1      'ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb_RNI0GM6' 
     0      77     0      'm2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST_RNI1CJ7' 
     0      38     1      'm2s010_som_sb_0/SYSRESET_POR_RNIK2D3' 
@@ -58,7 +58,7 @@ Info: Demotion information:
       Disconnected 2 data pins from global 'CommsFPGA_top_0/BIT_CLK_inferred_clock_RNIT9E2'. 
       Disconnected 2 data pins from global 'CommsFPGA_top_0/ClkDivider_inferred_clock_RNIFOL7[1]'. 
       Disconnected 13 data pins from global 'CommsFPGA_top_0/long_reset_RNIUA27'. 
-      Disconnected 206 data pins from global 'CommsFPGA_top_0/RESET_RNIFEG6'. 
+      Disconnected 180 data pins from global 'CommsFPGA_top_0/RESET_i_a2_i_RNIHK85'. 
       Disconnected 1 data pins from global 'ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb_RNI0GM6'. 
       Disconnected 1 data pins from global 'm2s010_som_sb_0/SYSRESET_POR_RNIK2D3'. 
       Disconnected 2 data pins from global 'ident_coreinst/IICE_INST/b5_nUTGT/b11_nUTGT_khWqH/genblk1.b3_nfs_RNIU185[1]'. 
@@ -66,7 +66,7 @@ Info: Demotion information:
       Deleted global instance 'ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNI2P6B'.
       Deleted global instance 'CommsFPGA_top_0/long_reset_RNIUA27'.
       Deleted global instance 'CommsFPGA_top_0/MDIO_SLAVE_INST/PMAD_rst_reg_RNIH1H9' and replace it with a row global instance.
-      Deleted global instance 'CommsFPGA_top_0/RESET_RNIFEG6'.
+      Deleted global instance 'CommsFPGA_top_0/RESET_i_a2_i_RNIHK85'.
       Deleted global instance 'ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb_RNI0GM6'.
       Deleted global instance 'm2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST_RNI1CJ7'.
       Deleted global instance 'm2s010_som_sb_0/SYSRESET_POR_RNIK2D3'.

@@ -1,2 +1,2 @@
-While analyzing gated clock network, ambiguities have been found on gates CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/REG_READ_PROC.un18_read_reg_en_i_o2_RNI2COS:Y, CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/read_reg_en_RNIFH0F1:Y.
+While analyzing gated clock network, ambiguities have been found on gates CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/REG_READ_PROC.un18_read_reg_en:Y, CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/un1_apb3_reset_0:Y.
 The timing models of these gates have been simplified for Static Timing Analysis.

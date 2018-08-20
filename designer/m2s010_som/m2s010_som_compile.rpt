@@ -1,6 +1,6 @@
 Compile Report
 Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP2 (Version 11.8.2.4)
-Date: Fri Aug 03 14:58:01 2018
+Date: Mon Aug 20 13:17:50 2018
 
 Device Selection
 +--------------------------------+----------------+
@@ -41,7 +41,7 @@ Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 3372 | 56520 | 5.97       |
+| 4LUT                      | 3380 | 56520 | 5.98       |
 | DFF                       | 3396 | 56520 | 6.01       |
 | I/O Register              | 0    | 591   | 0.00       |
 | User I/O                  | 113  | 197   | 57.36      |
@@ -65,11 +65,11 @@ Detailed Logic Resource Usage
 +--------------------------+------+------+
 | Type                     | 4LUT | DFF  |
 +--------------------------+------+------+
-| Fabric Logic             | 1860 | 1884 |
+| Fabric Logic             | 1868 | 1884 |
 | RAM64x18 Interface Logic | 36   | 36   |
 | RAM1K18 Interface Logic  | 1476 | 1476 |
 | MACC Interface Logic     | 0    | 0    |
-| Total Used               | 3372 | 3396 |
+| Total Used               | 3380 | 3396 |
 +--------------------------+------+------+
 
 MSS Resource Usage
@@ -183,8 +183,8 @@ High fanout nets
 +--------+---------+------------------------------------------------------------------+
 | Fanout | Type    | Name                                                             |
 +--------+---------+------------------------------------------------------------------+
-| 405    | INT_NET | Net   : CommsFPGA_top_0/RESET                                    |
-|        |         | Driver: CommsFPGA_top_0/RESET                                    |
+| 379    | INT_NET | Net   : CommsFPGA_top_0/RESET_i_a2_i                             |
+|        |         | Driver: CommsFPGA_top_0/RESET_i_a2_i                             |
 | 243    | INT_NET | Net   : ident_coreinst/IICE_INST/b4_PfFz/b5_PbrtL/b6_OKctIF4     |
 |        |         | Driver: ident_coreinst/IICE_INST/b4_PfFz/b5_PbrtL/b6_OKctIF4     |
 | 129    | INT_NET | Net   : ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb       |
@@ -209,8 +209,8 @@ High fanout nets (through buffer trees)
 +--------+---------+------------------------------------------------------------------+
 | Fanout | Type    | Name                                                             |
 +--------+---------+------------------------------------------------------------------+
-| 405    | INT_NET | Net   : CommsFPGA_top_0/RESET                                    |
-|        |         | Driver: CommsFPGA_top_0/RESET                                    |
+| 379    | INT_NET | Net   : CommsFPGA_top_0/RESET_i_a2_i                             |
+|        |         | Driver: CommsFPGA_top_0/RESET_i_a2_i                             |
 | 243    | INT_NET | Net   : ident_coreinst/IICE_INST/b4_PfFz/b5_PbrtL/b6_OKctIF4     |
 |        |         | Driver: ident_coreinst/IICE_INST/b4_PfFz/b5_PbrtL/b6_OKctIF4     |
 | 129    | INT_NET | Net   : ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb       |

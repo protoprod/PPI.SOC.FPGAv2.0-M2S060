@@ -124,19 +124,19 @@
 @N: MF322 |Retiming summary: 0 registers retimed to 0 
 @N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance m2s010_som_sb_0.CORECONFIGP_0.paddr[14] (in view: work.m2s010_som(rtl)) because it does not drive other instances.
 @N: FP130 |Promoting Net N_114 on CLKINT  I_5 
-@N: FP130 |Promoting Net CommsFPGA_top_0.MDIO_SLAVE_INST.PMAD_rst_reg on CLKINT  I_435 
-@N: FP130 |Promoting Net m2s010_som_sb_0_MAC_MII_MDC on CLKINT  I_436 
-@N: FP130 |Promoting Net CommsFPGA_top_0.RESET on CLKINT  I_437 
-@N: FP130 |Promoting Net ident_coreinst.IICE_INST.b5_voSc3 on CLKINT  I_438 
-@N: FP130 |Promoting Net BIT_CLK on CLKINT  I_439 
-@N: FP130 |Promoting Net m2s010_som_sb_0.CORECONFIGP_0_APB_S_PRESET_N on CLKINT  I_440 
-@N: FP130 |Promoting Net m2s010_som_sb_0.CORECONFIGP_0_APB_S_PCLK on CLKINT  I_441 
-@N: FP130 |Promoting Net CommsFPGA_top_0_MAC_MII_RX_CLK on CLKINT  I_442 
-@N: FP130 |Promoting Net CommsFPGA_top_0.long_reset on CLKINT  I_443 
-@N: FP130 |Promoting Net m2s010_som_sb_0_POWER_ON_RESET_N on CLKINT  I_444 
-@N: FP130 |Promoting Net ident_coreinst.IICE_INST.b5_nUTGT.b6_nfs_IF[1] on CLKINT  I_445 
-@N: FP130 |Promoting Net m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_446 
-@N: FP130 |Promoting Net m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc on CLKINT  I_447 
+@N: FP130 |Promoting Net CommsFPGA_top_0.MDIO_SLAVE_INST.PMAD_rst_reg on CLKINT  I_449 
+@N: FP130 |Promoting Net m2s010_som_sb_0_MAC_MII_MDC on CLKINT  I_450 
+@N: FP130 |Promoting Net nRESET_OUT_c_i on CLKINT  I_451 
+@N: FP130 |Promoting Net ident_coreinst.IICE_INST.b5_voSc3 on CLKINT  I_452 
+@N: FP130 |Promoting Net BIT_CLK on CLKINT  I_453 
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORECONFIGP_0_APB_S_PRESET_N on CLKINT  I_454 
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORECONFIGP_0_APB_S_PCLK on CLKINT  I_455 
+@N: FP130 |Promoting Net CommsFPGA_top_0_MAC_MII_RX_CLK on CLKINT  I_456 
+@N: FP130 |Promoting Net CommsFPGA_top_0.long_reset on CLKINT  I_457 
+@N: FP130 |Promoting Net m2s010_som_sb_0_POWER_ON_RESET_N on CLKINT  I_458 
+@N: FP130 |Promoting Net ident_coreinst.IICE_INST.b5_nUTGT.b6_nfs_IF[1] on CLKINT  I_459 
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_460 
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc on CLKINT  I_461 
 @N: FP130 |Promoting Net hcr_update on CLKINT  I_20 
 @N: MT480 :"c:/users/gcallsen/documents/githubbf/ppi.soc.fpgav2.0-m2s060/synthesis/rev_coms_debug/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 
 @N: MT480 :"c:/users/gcallsen/documents/githubbf/ppi.soc.fpgav2.0-m2s060/synthesis/rev_coms_debug/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 

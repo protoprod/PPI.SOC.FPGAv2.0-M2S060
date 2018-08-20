@@ -1,6 +1,6 @@
 Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP2 (Version 11.8.2.4)
 
-Date      :  Mon Jul 30 14:33:09 2018
+Date      :  Mon Aug 20 13:16:36 2018
 Project   :  C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060
 Component :  m2s010_som_sb_MSS
 Family    :  SmartFusion2

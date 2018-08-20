@@ -1,9 +1,9 @@
 @P:  Worst Slack : 1.342
-@P:  CommsFPGA_top|BIT_CLK_inferred_clock - Estimated Frequency : 134.4 MHz
+@P:  CommsFPGA_top|BIT_CLK_inferred_clock - Estimated Frequency : 134.6 MHz
 @P:  CommsFPGA_top|BIT_CLK_inferred_clock - Requested Frequency : 100.0 MHz
-@P:  CommsFPGA_top|BIT_CLK_inferred_clock - Estimated Period : 7.438
+@P:  CommsFPGA_top|BIT_CLK_inferred_clock - Estimated Period : 7.430
 @P:  CommsFPGA_top|BIT_CLK_inferred_clock - Requested Period : 10.000
-@P:  CommsFPGA_top|BIT_CLK_inferred_clock - Slack : 2.562
+@P:  CommsFPGA_top|BIT_CLK_inferred_clock - Slack : 2.570
 @P:  CommsFPGA_top|ClkDivider_inferred_clock[1] - Estimated Frequency : 211.8 MHz
 @P:  CommsFPGA_top|ClkDivider_inferred_clock[1] - Requested Frequency : 100.0 MHz
 @P:  CommsFPGA_top|ClkDivider_inferred_clock[1] - Estimated Period : 4.722
@@ -29,16 +29,16 @@
 @P:  jtag_interface_x|identify_clk_int_inferred_clock - Estimated Period : 3.997
 @P:  jtag_interface_x|identify_clk_int_inferred_clock - Requested Period : 10.000
 @P:  jtag_interface_x|identify_clk_int_inferred_clock - Slack : 6.003
-@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 165.0 MHz
+@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 162.8 MHz
 @P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
-@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 6.061
+@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 6.142
 @P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
-@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock - Slack : 3.939
-@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock - Estimated Frequency : 207.4 MHz
+@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock - Slack : 3.858
+@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock - Estimated Frequency : 210.4 MHz
 @P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock - Requested Frequency : 100.0 MHz
-@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock - Estimated Period : 4.822
+@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock - Estimated Period : 4.754
 @P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock - Requested Period : 10.000
-@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock - Slack : 5.178
+@P:  m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock - Slack : 5.246
 @P:  m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 122.9 MHz
 @P:  m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
 @P:  m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 8.133

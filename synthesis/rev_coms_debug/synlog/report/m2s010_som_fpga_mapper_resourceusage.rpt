@@ -12,9 +12,9 @@ SYSRESET        1 use
 UJTAG           1 use
 XTLOSC          1 use
 CFG1           30 uses
-CFG2           206 uses
-CFG3           388 uses
-CFG4           779 uses
+CFG2           211 uses
+CFG3           380 uses
+CFG4           790 uses
 
 Carry cells:
 ARI1            349 uses - used for arithmetic functions
@@ -39,7 +39,7 @@ TRIBUFF        3 uses
 Global Clock Buffers: 19 of 8 (237%)
 
 
-Total LUTs:    1874
+Total LUTs:    1882
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -48,5 +48,5 @@ RAM1K18  Interface Logic : SLEs = 1476; LUTs = 1476;
 MACC     Interface Logic : SLEs = 0; LUTs = 0;
 
 Total number of SLEs after P&R:  1884 + 36 + 1476 + 0 = 3396;
-Total number of LUTs after P&R:  1874 + 36 + 1476 + 0 = 3386;
+Total number of LUTs after P&R:  1882 + 36 + 1476 + 0 = 3394;
 

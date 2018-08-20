@@ -78,7 +78,12 @@ File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - r
 VHDL syntax check successful!
 File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.cdc changed - recompiling
 File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.cdc changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Debounce.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\TX_Collision_Detector2.vhd changed - recompiling
 File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd changed - recompiling
 File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
 File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
 File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
@@ -884,7 +889,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memor
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Aug 03 14:57:28 2018
+# Mon Aug 20 13:17:16 2018
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
@@ -895,16 +900,16 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Aug 03 14:57:28 2018
+# Mon Aug 20 13:17:16 2018
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
 
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Aug 03 14:57:28 2018
+# Mon Aug 20 13:17:16 2018
 
 ###########################################################]
