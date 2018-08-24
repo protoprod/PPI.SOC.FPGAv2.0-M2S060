@@ -1041,7 +1041,7 @@ SIZE="243"
 ENDFILE
 VALUE "<project>\synthesis\m2s010_som_syn.prj,prj"
 STATE="utd"
-TIME="1533322661"
+TIME="1534785450"
 SIZE="10140"
 ENDFILE
 VALUE "<project>\synthesis\PHY_1_Debug\m2s010_som.edn,syn_edn"
@@ -1216,17 +1216,17 @@ SIZE="251"
 ENDFILE
 VALUE "<project>\synthesis\rev_coms_debug\m2s010_som.edn,syn_edn"
 STATE="utd"
-TIME="1533322660"
-SIZE="3859283"
+TIME="1534785449"
+SIZE="3865957"
 ENDFILE
 VALUE "<project>\synthesis\rev_coms_debug\m2s010_som.so,so"
 STATE="utd"
-TIME="1533322660"
+TIME="1534785449"
 SIZE="265"
 ENDFILE
 VALUE "<project>\synthesis\rev_coms_debug\m2s010_som_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1533322660"
+TIME="1534785449"
 SIZE="4397"
 ENDFILE
 VALUE "<project>\synthesis\rev_debug1\m2s010_som.edn,syn_edn"
@@ -1600,8 +1600,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -1700,7 +1700,7 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Export FlashPro Express Job:m2s010_som_exportJob.log
+ReportsCurrentItem;Run PROGRAM Action:m2s010_som_PROGRAM.log
 StartPage;StartPage;0
 SmartDesign;m2s010_som;0
 SmartDesign;m2s010_som_sb;0

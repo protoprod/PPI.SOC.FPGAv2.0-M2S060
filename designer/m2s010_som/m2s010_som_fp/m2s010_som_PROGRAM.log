@@ -16,17 +16,17 @@ programmer '93272' : Scan and Check Chain PASSED.
 programmer '93272' : device 'M2S060T' : Executing action PROGRAM
 programmer '93272' : device 'M2S060T' : Family: SmartFusion2
 programmer '93272' : device 'M2S060T' : Product:      M2S150
-programmer '93272' : device 'M2S060T' : EXPORT ISC_ENABLE_RESULT[32] = 00806a44
+programmer '93272' : device 'M2S060T' : EXPORT ISC_ENABLE_RESULT[32] = 00725e44
 programmer '93272' : device 'M2S060T' : EXPORT CRCERR[1] = 0
 programmer '93272' : device 'M2S060T' : EXPORT EDCERR[1] = 0
 programmer '93272' : device 'M2S060T' : Programming FPGA Array and eNVM...
 programmer '93272' : device 'M2S060T' : ===================================================================================
-programmer '93272' : device 'M2S060T' : EXPORT DSN[128] = 8fbe51a5dcf20701e6e8a3d323f6d440
+programmer '93272' : device 'M2S060T' : EXPORT DSN[128] = 0cc69bcdc557b488b97433ca2c007536
 programmer '93272' : device 'M2S060T' : ===================================================================================
-programmer '93272' : device 'M2S060T' : Finished: Mon Aug 20 13:24:20 2018 (Elapsed time 00:01:19)
+programmer '93272' : device 'M2S060T' : Finished: Wed Aug 22 14:08:28 2018 (Elapsed time 00:01:18)
 programmer '93272' : device 'M2S060T' : Executing action PROGRAM PASSED.
 programmer '93272' : Chain programming PASSED.
-Chain Programming Finished: Mon Aug 20 13:24:20 2018 (Elapsed time 00:01:19)
+Chain Programming Finished: Wed Aug 22 14:08:28 2018 (Elapsed time 00:01:18)
 
                         o - o - o - o - o - o
 
