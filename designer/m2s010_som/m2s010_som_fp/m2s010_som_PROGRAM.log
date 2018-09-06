@@ -4,7 +4,7 @@ programmer '93272' : FlashPro4
 Opened 'C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\m2s010_som_fp\m2s010_som.pro'
 The 'open_project' command succeeded.
 IPD file 'C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/designer/m2s010_som/m2s010_som.ipd' has been loaded successfully.
-DESIGN : m2s010_som;  CHECKSUM : 10C0;  PDB_VERSION : 1.9
+DESIGN : m2s010_som;  CHECKSUM : F557;  PDB_VERSION : 1.9
 The 'set_programming_file' command succeeded.
 Warning: Programming is already enabled for device 'M2S060T'.
 The 'enable_device' command succeeded.
@@ -16,17 +16,17 @@ programmer '93272' : Scan and Check Chain PASSED.
 programmer '93272' : device 'M2S060T' : Executing action PROGRAM
 programmer '93272' : device 'M2S060T' : Family: SmartFusion2
 programmer '93272' : device 'M2S060T' : Product:      M2S150
-programmer '93272' : device 'M2S060T' : EXPORT ISC_ENABLE_RESULT[32] = 00725e44
+programmer '93272' : device 'M2S060T' : EXPORT ISC_ENABLE_RESULT[32] = 007d6a44
 programmer '93272' : device 'M2S060T' : EXPORT CRCERR[1] = 0
 programmer '93272' : device 'M2S060T' : EXPORT EDCERR[1] = 0
 programmer '93272' : device 'M2S060T' : Programming FPGA Array and eNVM...
 programmer '93272' : device 'M2S060T' : ===================================================================================
-programmer '93272' : device 'M2S060T' : EXPORT DSN[128] = 0cc69bcdc557b488b97433ca2c007536
+programmer '93272' : device 'M2S060T' : EXPORT DSN[128] = 8bf8c7827aaf27d1f2ae98326e4ed895
 programmer '93272' : device 'M2S060T' : ===================================================================================
-programmer '93272' : device 'M2S060T' : Finished: Wed Aug 22 14:08:28 2018 (Elapsed time 00:01:18)
+programmer '93272' : device 'M2S060T' : Finished: Thu Sep 06 15:12:41 2018 (Elapsed time 00:01:18)
 programmer '93272' : device 'M2S060T' : Executing action PROGRAM PASSED.
 programmer '93272' : Chain programming PASSED.
-Chain Programming Finished: Wed Aug 22 14:08:28 2018 (Elapsed time 00:01:18)
+Chain Programming Finished: Thu Sep 06 15:12:41 2018 (Elapsed time 00:01:18)
 
                         o - o - o - o - o - o
 

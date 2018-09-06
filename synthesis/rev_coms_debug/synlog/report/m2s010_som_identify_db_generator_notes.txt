@@ -26,8 +26,8 @@
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch.
 @N: CD604 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":665:16:665:29|OTHERS clause is not synthesized.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
-@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":59:7:59:19|Synthesizing work.commsfpga_top.behavioral.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":312:10:312:24|Removing redundant assignment.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":60:7:60:19|Synthesizing work.commsfpga_top.behavioral.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":313:10:313:24|Removing redundant assignment.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":22:7:22:26|Synthesizing work.mdio_slave_interface.translated.
 @N: CD604 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":442:10:442:24|OTHERS clause is not synthesized.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd":22:7:22:13|Synthesizing work.phy_mux.translated.

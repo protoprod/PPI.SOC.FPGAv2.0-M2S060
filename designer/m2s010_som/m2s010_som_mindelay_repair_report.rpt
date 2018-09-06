@@ -11,6 +11,110 @@
  Min-delay Repair Report 
 -------------------------
  Iteration 1  
+ Total paths eligible for improvement: 5       
+ Total paths improved: 5       
+-------------------------
+
+Path 1
+------------------------
+From: m2s010_som_sb_0/CORERESETP_0/count_ddr_enable_rcosc:CLK
+  To: m2s010_som_sb_0/CORERESETP_0/count_ddr[10]:EN
+------------------------
+Path min-delay slack:      -160 ps
+------------------------
+  On sink pin: m2s010_som_sb_0/CORERESETP_0/count_ddr[10]:EN
+-------------------------------------
+  Pin max-delay slack:    19534 ps
+  Min-delay inserted:       545 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_m2s010_som_sb_0/CORERESETP_0/count_ddr[10]_CFG1A_TEST
+      mdr_m2s010_som_sb_0/CORERESETP_0/count_ddr[10]_CFG1D_TEST
+
+
+Path 2
+------------------------
+From: m2s010_som_sb_0/CORERESETP_0/count_ddr_enable_rcosc:CLK
+  To: m2s010_som_sb_0/CORERESETP_0/count_ddr[12]:EN
+------------------------
+Path min-delay slack:      -160 ps
+------------------------
+  On sink pin: m2s010_som_sb_0/CORERESETP_0/count_ddr[12]:EN
+-------------------------------------
+  Pin max-delay slack:    19534 ps
+  Min-delay inserted:       545 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_m2s010_som_sb_0/CORERESETP_0/count_ddr[10]_CFG1A_TEST
+      mdr_m2s010_som_sb_0/CORERESETP_0/count_ddr[10]_CFG1D_TEST
+
+
+Path 3
+------------------------
+From: m2s010_som_sb_0/CORERESETP_0/count_ddr_enable_rcosc:CLK
+  To: m2s010_som_sb_0/CORERESETP_0/count_ddr[11]:EN
+------------------------
+Path min-delay slack:      -154 ps
+------------------------
+  On sink pin: m2s010_som_sb_0/CORERESETP_0/count_ddr[11]:EN
+-------------------------------------
+  Pin max-delay slack:    19523 ps
+  Min-delay inserted:       545 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_m2s010_som_sb_0/CORERESETP_0/count_ddr[10]_CFG1A_TEST
+      mdr_m2s010_som_sb_0/CORERESETP_0/count_ddr[10]_CFG1D_TEST
+
+
+Path 4
+------------------------
+From: m2s010_som_sb_0/CORERESETP_0/count_ddr_enable_rcosc:CLK
+  To: m2s010_som_sb_0/CORERESETP_0/count_ddr[9]:EN
+------------------------
+Path min-delay slack:      -154 ps
+------------------------
+  On sink pin: m2s010_som_sb_0/CORERESETP_0/count_ddr[9]:EN
+-------------------------------------
+  Pin max-delay slack:    19523 ps
+  Min-delay inserted:       545 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_m2s010_som_sb_0/CORERESETP_0/count_ddr[10]_CFG1A_TEST
+      mdr_m2s010_som_sb_0/CORERESETP_0/count_ddr[10]_CFG1D_TEST
+
+
+Path 5
+------------------------
+From: m2s010_som_sb_0/CORERESETP_0/count_ddr_enable_rcosc:CLK
+  To: m2s010_som_sb_0/CORERESETP_0/count_ddr[13]:EN
+------------------------
+Path min-delay slack:      -153 ps
+------------------------
+  On sink pin: m2s010_som_sb_0/CORERESETP_0/count_ddr[13]:EN
+-------------------------------------
+  Pin max-delay slack:    19523 ps
+  Min-delay inserted:       545 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_m2s010_som_sb_0/CORERESETP_0/count_ddr[10]_CFG1A_TEST
+      mdr_m2s010_som_sb_0/CORERESETP_0/count_ddr[10]_CFG1D_TEST
+
+
+
+
+-------------------------------------
+ External Hold Repair Report 
+-------------------------------------
+ Iteration 2  
+ Total I/O input ports improved: 0       
+-------------------------------------
+
+
+
+-------------------------
+ Min-delay Repair Report 
+-------------------------
+ Iteration 2  
  Total paths eligible for improvement: 0       
  Total paths improved: 0       
 -------------------------

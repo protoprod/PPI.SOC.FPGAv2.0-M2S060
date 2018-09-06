@@ -8,10 +8,6 @@ define_clock [get_nets {ident_coreinst.comm_block_INST.dr2_tck}] -period {1000.0
 # line 3 in c:/users/gcallsen/documents/githubbf/ppi.soc.fpgav2.0-m2s060/synthesis/rev_coms_debug/instr_sources/syn_dics.sdc
 
 define_attribute {v:*haps_ddr3_controller*} {syn_hier} {fixed}
-define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_0_BI_PAD} {syn_noprune} 1
-define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_3_BI_PAD} {syn_noprune} 1
-define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_4_BI_PAD} {syn_noprune} 1
-define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_12_BI_PAD} {syn_noprune} 1
 define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_17_BI_PAD} {syn_noprune} 1
 define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_18_BI_PAD} {syn_noprune} 1
 define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_20_OUT_PAD} {syn_noprune} 1
@@ -77,8 +73,6 @@ define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.SPI_0_SS1_PAD} {syn_nopr
 define_attribute {i:m2s010_som_sb_0.BIBUF_0} {syn_noprune} 1
 define_attribute {i:m2s010_som_sb_0.BIBUF_1} {syn_noprune} 1
 define_attribute {i:m2s010_som_sb_0.BIBUF_2} {syn_noprune} 1
-define_attribute {i:m2s010_som_sb_0.BIBUF_3} {syn_noprune} 1
-define_attribute {i:m2s010_som_sb_0.BIBUF_4} {syn_noprune} 1
 define_attribute {i:CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.NIBBLE_TO_SERIAL_SM_INST} {syn_noprune} 1
 define_attribute {i:CommsFPGA_top_0.MANCHESTER_DECODER2_INST.MANCHESTER_DECODER_ADAPTER_INST} {syn_noprune} 1
 define_attribute {i:CommsFPGA_top_0.MANCHESTER_DECODER2_INST.RECEIVE_STATE_MACHINE_INST} {syn_noprune} 1

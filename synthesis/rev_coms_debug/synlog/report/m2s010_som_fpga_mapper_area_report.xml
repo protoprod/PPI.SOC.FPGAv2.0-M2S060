@@ -13,16 +13,16 @@ The file contains the area information from mapper to be displayed as part of th
 <title>Hierarchical Area Report</title>
 </report_link>
 <parameter tooltip="Total Carry Cells used" name="Carry Cells">
-<data>471</data>
+<data>519</data>
 </parameter>
 <parameter tooltip="Total Sequential Cells used" name="Sequential Cells">
-<data>1884</data>
+<data>1939</data>
 </parameter>
 <parameter tcl_name="dsp_used" tooltip="Total DSP Blocks (MACC) used" name="DSP Blocks (MACC)">
 <data>0</data>
 </parameter>
 <parameter tooltip="Total I/O Cells used" name="I/O Cells">
-<data>112</data>
+<data>111</data>
 </parameter>
 <parameter tooltip="Total Global Clock Buffers used" name="Global Clock Buffers">
 <data>19</data>
@@ -34,6 +34,6 @@ The file contains the area information from mapper to be displayed as part of th
 <data>1</data>
 </parameter>
 <parameter tcl_name="total_luts" tooltip="Total LUTs used" name="LUTs">
-<data>1882</data>
+<data>1969</data>
 </parameter>
 </report_table>

@@ -6,7 +6,7 @@
     <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
     <message>Floating Driver</message>
-    <detail>Floating output pin m2s010_som:HOST_DETn</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som/pins/m2s010_som:HOST_DETn</crossprobe>
+    <detail>Floating output pin m2s010_som:GPIO_4_F2M</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som/pins/m2s010_som:GPIO_4_F2M</crossprobe>
   </drc>
 </drcreport>

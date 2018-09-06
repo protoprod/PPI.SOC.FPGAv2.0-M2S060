@@ -1,5 +1,5 @@
 *****************************************************************
-Pin Report - Date: Mon Aug 20 13:20:45 2018 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Wed Sep 05 16:43:28 2018 Pinchecksum: NOT-AVAILABLE
 Product: Designer
 Release: Libero SoC v11.8 SP2
 Version: 11.8.2.4
@@ -39,9 +39,9 @@ AA4     XTL                         XTLOSC_MAIN_XTAL                            
 AA5                                 XTLOSC_AUX_EXTAL                                        Reserved    
 AA6                                 MSIO168PB6                                              Unassigned  
 AA7     SPI_1_DO_M2F                MSIO168NB6                                              Fixed       LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
-AA8     H_RXER                      MSIO175NB6                                              Assigned    LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
+AA8                                 MSIO175NB6                                              Unassigned  
 AA9                                 VDDI6                                                   Reserved    
-AA10                                MSIO162NB6/CCC_SW0_CLKI2                                Special     
+AA10    H_MDIO                      MSIO162NB6/CCC_SW0_CLKI2                                Special     LVCMOS33  Inout      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           4                  5                 
 AA11                                User Reserved                                           Unassigned  
 AA12                                VSS                                                     Reserved    
 AA13                                SERDES_0_TXD2_N                                         Reserved    
@@ -117,7 +117,7 @@ E15                                 DDRIO77PB1/MDDR_DQ_ECC1                     
 E16                                 DDRIO77NB1/MDDR_DQ_ECC0                                 Unassigned  
 E17                                 MSIO128NB9                                              Unassigned  
 E18                                 MSIO128PB9                                              Unassigned  
-E20     H_TXD[0]                    MSIO130NB9                                              Assigned    LVCMOS33  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+E20     H_TXD[1]                    MSIO130NB9                                              Assigned    LVCMOS33  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 E21                                 MSIO130PB9                                              Unassigned  
 F1      MMUART_0_TXD_M2F            MSIO42PB2/GB10/VCCC_SE0_CLKI                            Special     LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 F2      LED_RED_F2                  MSIO41PB2/MMUART_1_RI/GPIO_15_B/CCC_NE1_CLKI1           Special     LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
@@ -126,13 +126,13 @@ F4                                  VSS                                         
 F5      MDDR_ADDR[8]                DDRIO53PB1/MDDR_ADDR8                                   Fixed       LVCMOS18  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           16                 5                 
 F17                                 VDDI9                                                   Reserved    
 F18     D_MDC                       MSIO118PB9                                              Fixed       LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
-F19     H_TXD[1]                    MSIO131NB9                                              Assigned    LVCMOS33  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+F19     H_TXD[0]                    MSIO131NB9                                              Assigned    LVCMOS33  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 F20     D_TXEN                      MSIO131PB9                                              Fixed       LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 F21                                 VSS                                                     Reserved    
 G1      LED_GREEN_G1                MSIO40NB2/MMUART_1_DSR/GPIO_14_B                        Fixed       LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
-G2      RTC_MATCH                   MSIO40PB2/MMUART_1_CTS/GPIO_13_B/CCC_NE0_CLKI1          Special     LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
-G4      GPIO_28_M2F                 MSIO39PB2/MMUART_1_RTS/GPIO_11_B                        Assigned    LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
-G5      GPIO_12_BI                  MSIO39NB2/MMUART_1_DTR/GPIO_12_B                        Fixed       LVCMOS33  Inout      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           4                  5                 
+G2      GPIO_28_M2F                 MSIO40PB2/MMUART_1_CTS/GPIO_13_B/CCC_NE0_CLKI1          Special     LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
+G4      GPIO_11_M2F_SPI_FLASH_RSTn  MSIO39PB2/MMUART_1_RTS/GPIO_11_B                        Assigned    LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
+G5      GPIO_7_M2F                  MSIO39NB2/MMUART_1_DTR/GPIO_12_B                        Fixed       LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 G7                                  CCC_NE0_NE1_MSS_MDDR_PLL_VSSA                           Reserved    
 G8                                  VREF                                                    Reserved    
 G9      MDDR_CKE                    DDRIO62PB1/MDDR_CKE                                     Fixed       LVCMOS18  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           16                 5                 
@@ -148,8 +148,8 @@ G20     D_TXD[2]                    MSIO134NB9                                  
 G21     D_TXD[3]                    MSIO134PB9                                              Fixed       LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 H1                                  VSS                                                     Reserved    
 H2      GPIO_5_M2F                  MSIO38NB3/GPIO_10_B                                     Fixed       LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
-H4      GPIO_7                      MSIO35NB3/GPIO_4_B                                      Fixed       LVCMOS33  Inout      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           4                  5                 
-H5      GPIO_6                      MSIO35PB3/GPIO_3_B                                      Fixed       LVCMOS33  Inout      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           4                  5                 
+H4      RTC_MATCH                   MSIO35NB3/GPIO_4_B                                      Assigned    LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
+H5      GPIO_6_M2F                  MSIO35PB3/GPIO_3_B                                      Fixed       LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 H7                                  CCC_NE0_NE1_MSS_MDDR_PLL_VDDA                           Reserved    
 H15                                 CCC_NW0_NW1_PLL_VSSA                                    Reserved    
 H17     D_TXD[1]                    MSIO132PB9                                              Fixed       LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
@@ -157,7 +157,7 @@ H18                                 VSS                                         
 H20     H_MDC                       MSIO119PB9                                              Assigned    LVCMOS33  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 H21     SPI_FLASH_IO3               MSIO119NB9                                              Assigned    LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 J1      GPIO_1                      MSIO38PB3/GPIO_9_B                                      Fixed       LVCMOS33  Inout      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           4                  5                 
-J2      GPIO_0_BI                   MSIO33NB3/GPIO_0_B                                      Fixed       LVCMOS33  Inout      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           4                  5                 
+J2                                  MSIO33NB3/GPIO_0_B                                      Unassigned  
 J4                                  MSIO30PB3                                               Unassigned  
 J5                                  VDDI3                                                   Reserved    
 J7                                  VSS                                                     Reserved    
@@ -167,11 +167,11 @@ J11                                 VSS                                         
 J12                                 VDDI1                                                   Reserved    
 J13                                 VDDI1                                                   Reserved    
 J15                                 VDDI9                                                   Reserved    
-J17     H_TXD[2]                    MSIO135PB9                                              Assigned    LVCMOS33  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+J17     H_TXC                       MSIO135PB9                                              Assigned    LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 J18     D_TXC                       MSIO135NB9                                              Fixed       LVCMOS33  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
-J20     H_TXC                       MSIO136NB9                                              Assigned    LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
+J20     H_TXD[2]                    MSIO136NB9                                              Assigned    LVCMOS33  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 J21     H_TXD[3]                    MSIO136PB9                                              Assigned    LVCMOS33  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
-K1      GPIO_11_M2F_SPI_FLASH_RSTn  MSIO33PB3/GPIO_31_A                                     Assigned    LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
+K1                                  MSIO33PB3/GPIO_31_A                                     Unassigned  
 K2                                  MSIO30NB3                                               Unassigned  
 K4      GPIO_24_M2F                 MSIO26NB3                                               Fixed       LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 K5                                  MSIO26PB3                                               Unassigned  
@@ -188,10 +188,10 @@ K20                                 VDDI9                                       
 K21                                 MSIO139PB9                                              Unassigned  
 L1                                  MSIO24PB4/SPI_1_SS2/GPIO_15_A                           Unassigned  
 L2                                  MSIO24NB4/SPI_1_SS3/GPIO_16_A                           Unassigned  
-L3      SPI_FLASH_IO2               MSIO23NB4/SPI_1_SS1/GPIO_14_A                           Assigned    LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
+L3                                  MSIO23NB4/SPI_1_SS1/GPIO_14_A                           Unassigned  
 L4                                  VSS                                                     Reserved    
-L5      H_MDIO                      MSIO17NB4/SPI_1_SS0/GPIO_13_A                           Assigned    LVCMOS33  Inout      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           4                  5                 
-L7      H_RXC                       MSIO27PB3                                               Assigned    LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
+L5                                  MSIO17NB4/SPI_1_SS0/GPIO_13_A                           Unassigned  
+L7                                  MSIO27PB3                                               Unassigned  
 L9      atck                        JTAG_TCK/M3_TCK                                         Dedicated   
 L10                                 VDD                                                     Reserved    
 L11                                 VDD                                                     Reserved    
@@ -201,7 +201,7 @@ L15                                 MSIO138NB9                                  
 L17                                 MSIO125PB9/CCC_NW1_CLKI0                                Special     
 L18                                 MSIO125NB9                                              Unassigned  
 L19     D_COL                       MSIO123PB9/GB6/CCC_NW1_CLKI1                            Special     LVCMOS33  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
-L20                                 MSIO124PB9/GB2/CCC_NW0_CLKI1                            Special     
+L20     H_COL                       MSIO124PB9/GB2/CCC_NW0_CLKI1                            Special     LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 L21                                 MSIO139NB9                                              Unassigned  
 M1      SPI_0_SS1                   MSIO22PB4/SPI_0_SS1/GPIO_8_A/USB_DATA5_A                Fixed       LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 M2                                  VDDI4                                                   Reserved    
@@ -216,13 +216,13 @@ M13                                 VDD                                         
 M15                                 MSIOD145NB8                                             Unassigned  
 M17                                 VSS                                                     Reserved    
 M18                                 MSIO123NB9                                              Unassigned  
-M20     H_COL                       MSIO124NB9                                              Assigned    LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
+M20                                 MSIO124NB9                                              Unassigned  
 M21                                 VSS                                                     Reserved    
 N1                                  MSIO22NB4/SPI_0_SS2/GPIO_9_A/USB_DATA6_A                Unassigned  
 N2      GPIO_26_BI                  MSIO20NB4/GPIO_26_A/GB13/VCCC_SE1_CLKI                  Special     LVCMOS33  Inout      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           4                  5                 
 N4      SPI_1_CLK                   MSIO16PB4/SPI_1_CLK                                     Fixed       LVCMOS33  Inout      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           4                  5                 
 N5                                  VDDI4                                                   Reserved    
-N7                                  MSIO16NB4/SPI_1_SDI/GPIO_11_A                           Unassigned  
+N7      SPI_FLASH_IO2               MSIO16NB4/SPI_1_SDI/GPIO_11_A                           Assigned    LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 N9      atdi                        JTAG_TDI/M3_TDI                                         Dedicated   
 N10                                 VSS                                                     Reserved    
 N11                                 VSS                                                     Reserved    
@@ -231,7 +231,7 @@ N13                                 VDD                                         
 N15                                 VDDI8                                                   Reserved    
 N17                                 MSIOD145PB8/CCC_SW0_CLKI0                               Special     
 N18                                 MSIOD144PB8/CCC_SW1_CLKI0                               Special     
-N20                                 MSIO140PB9                                              Unassigned  
+N20     H_RXER                      MSIO140PB9                                              Assigned    LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 N21                                 MSIO140NB9                                              Unassigned  
 P1      GPIO_25_BI                  MSIO20PB4/GPIO_25_A/GB9/VCCC_SE0_CLKI                   Special     LVCMOS33  Inout      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           4                  5                 
 P2      GPIO_17_BI                  MSIO18PB4/SPI_1_SS4/GPIO_17_A                           Fixed       LVCMOS33  Inout      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           4                  5                 
@@ -248,8 +248,8 @@ R2      GPIO_18_BI                  MSIO18NB4/SPI_1_SS5/GPIO_18_A               
 R4      I2C_1_SDA                   MSIO11PB4/I2C_1_SDA/GPIO_0_A/USB_DATA3_A/CCC_NE0_CLKI0  Special     LVCMOS33  Inout      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           4                  5                 
 R5      I2C_1_SCL                   MSIO11NB4/I2C_1_SCL/GPIO_1_A/USB_DATA4_A/CCC_NE1_CLKI0  Special     LVCMOS33  Inout      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           4                  5                 
 R7      atdo                        JTAG_TDO/M3_TDO/M3_SWO                                  Dedicated   
-R8                                  MSIO179PB6/VCCC_SE1_CLKI                                Special     
-R9                                  MSIO179NB6                                              Unassigned  
+R8      DEBOUNCE_IN[0]              MSIO179PB6/VCCC_SE1_CLKI                                Special     LVCMOS33  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
+R9      H_RXC                       MSIO179NB6                                              Assigned    LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 R10                                 VDDI6                                                   Reserved    
 R11                                 NC                                                      Reserved    
 R12                                 VDD                                                     Reserved    
@@ -264,7 +264,7 @@ T1      GPIO_20_OUT                 MSIO14NB4/SPI_0_SS5/GPIO_20_A               
 T2                                  MSIO14PB4/SPI_0_SS4/GPIO_19_A                           Unassigned  
 T3      MANCH_OUT_N                 MSIO4NB4                                                Fixed       LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 T4                                  VSS                                                     Reserved    
-T5      GPIO_3_BI                   MSIO8PB4/CAN_RX/GPIO_3_A/USB_DATA1_A                    Fixed       LVCMOS33  Inout      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           4                  5                 
+T5                                  MSIO8PB4/CAN_RX/GPIO_3_A/USB_DATA1_A                    Unassigned  
 T17                                 MSIOD153PB8                                             Unassigned  
 T18                                 MSIOD153NB8                                             Unassigned  
 T19                                 MSIOD152PB8                                             Unassigned  
@@ -273,12 +273,12 @@ T21                                 VSS                                         
 U1      SPI_0_DI                    MSIO12NB4/SPI_0_SDI/GPIO_5_A/USB_DIR_A                  Fixed       LVCMOS33  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 U2      SPI_0_CLK                   MSIO12PB4/SPI_0_CLK/USB_XCLK_A                          Fixed       LVCMOS33  Inout      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           4                  5                 
 U4      GPIO_88                     MSIO4PB4                                                Assigned    LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
-U5      GPIO_4_BI                   MSIO8NB4/CAN_TX_EN_N/GPIO_4_A/USB_DATA2_A               Fixed       LVCMOS33  Inout      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           4                  5                 
+U5                                  MSIO8NB4/CAN_TX_EN_N/GPIO_4_A/USB_DATA2_A               Unassigned  
 U6                                  VSS                                                     Reserved    
 U7                                  VSS                                                     Reserved    
 U8                                  MSIO169PB6                                              Unassigned  
 U9                                  MSIO169NB6                                              Unassigned  
-U10                                 MSIO176PB6/GB11/VCCC_SE0_CLKI                           Special     
+U10     DEBOUNCE_IN[1]              MSIO176PB6/GB11/VCCC_SE0_CLKI                           Special     LVCMOS33  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 U11                                 MSIO167PB6/GB3/CCC_SW0_CLKI3                            Special     
 U12                                 MSIO167NB6/GB7/CCC_SW1_CLKI2                            Special     
 U13                                 VSS                                                     Reserved    
@@ -311,7 +311,7 @@ V21                                 MSIOD161NB7/SERDES_0_REFCLK1_N              
 W1      RCVR_EN                     MSIO7PB4                                                Fixed       LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 W2      DRVR_EN                     MSIO5PB4                                                Fixed       LVCMOS33  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          ---   ---           4                  5                 
 W6                                  MSIO172PB6                                              Unassigned  
-W11                                 MSIO174PB6/CCC_SW1_CLKI3                                Special     
+W11     DEBOUNCE_IN[2]              MSIO174PB6/CCC_SW1_CLKI3                                Special     LVCMOS33  Input      TRISTATE                        None           No                                  Off              ---         ---            Off             Off          ---   ---           ---                ---               
 W16                                 SERDES_0_L01_VDDAPLL                                    Reserved    
 W20                                 VDDI7                                                   Reserved    
 W21                                 MSIOD161PB7/SERDES_0_REFCLK1_P                          Unassigned  

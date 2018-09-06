@@ -6,28 +6,21 @@
     <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
     <message>Floating Driver</message>
-    <detail>Floating output pin m2s010_som_sb:I2C_0_SDA_F2M</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som_sb/pins/m2s010_som_sb:I2C_0_SDA_F2M</crossprobe>
+    <detail>Floating output pin m2s010_som_sb:GPIO_9_F2M</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som_sb/pins/m2s010_som_sb:GPIO_9_F2M</crossprobe>
   </drc>
   <drc>
     <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
     <message>Floating Driver</message>
-    <detail>Floating output pin m2s010_som_sb:I2C_0_SCL_F2M</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som_sb/pins/m2s010_som_sb:I2C_0_SCL_F2M</crossprobe>
+    <detail>Floating output pin m2s010_som_sb:GPIO_2_F2M</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som_sb/pins/m2s010_som_sb:GPIO_2_F2M</crossprobe>
   </drc>
   <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Floating Driver</message>
-    <detail>Floating output pin m2s010_som_sb:GPIO_29_F2M</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som_sb/pins/m2s010_som_sb:GPIO_29_F2M</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Floating Driver</message>
-    <detail>Floating output pin m2s010_som_sb:GPIO_30_F2M</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som_sb/pins/m2s010_som_sb:GPIO_30_F2M</crossprobe>
+    <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port m2s010_som_sb:GPIO_2_M2F</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som_sb/pins/m2s010_som_sb:GPIO_2_M2F</crossprobe>
   </drc>
 </drcreport>

@@ -45,6 +45,7 @@
 --	0x7		RTC 32KHz input clock Implementation  7/18/18 updated 7/25/18 for LED uP control w/ GPIO8
 --	0x8		RTC 1MHz input clock Implementation  7/18/18 updated 7/25/18 for LED uP control w/ GPIO8
 --	0x9		RTC 25/50MHz input clock Implementation  7/18/18
+--  0xA		RTC 32KHz input clock Implementation; worked GPIOs for SEP	9/5/18
 ----------------------------------------------------------------------------------
 
 library IEEE;
