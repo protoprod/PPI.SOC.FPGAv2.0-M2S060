@@ -11,17 +11,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      1939               100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block m2s010_som:	1939 (44.05 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block m2s010_som:	1939 (44.03 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           1450               100 %                
+CFG           1451               100 %                
 ARI1          519                100 %                
 BLACK BOX     191                100 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block m2s010_som:	2160 (49.07 % Utilization)
+Total COMBINATIONAL LOGIC in the block m2s010_som:	2161 (49.07 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -44,9 +44,9 @@ Total GLOBAL BUFFERS in the block m2s010_som:	19 (0.43 % Utilization)
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-IO       111                100 %                
+IO       112                100 %                
 =================================================
-Total IO PADS in the block m2s010_som:	111 (2.52 % Utilization)
+Total IO PADS in the block m2s010_som:	112 (2.54 % Utilization)
 
 -------------------------------------------------------------------
 ########   Utilization report for  cell:   CommsFPGA_top   ########
@@ -58,7 +58,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      891                46 %                 
 =================================================
-Total SEQUENTIAL ELEMENTS in the block m2s010_som.CommsFPGA_top:	891 (20.24 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block m2s010_som.CommsFPGA_top:	891 (20.23 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -68,7 +68,7 @@ CFG           644                44.4 %
 ARI1          464                89.4 %               
 BLACK BOX     77                 40.3 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block m2s010_som.CommsFPGA_top:	1185 (26.92 % Utilization)
+Total COMBINATIONAL LOGIC in the block m2s010_som.CommsFPGA_top:	1185 (26.91 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -118,7 +118,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      256                13.2 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block CommsFPGA_top.ManchesDecoder2:	256 (5.82 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block CommsFPGA_top.ManchesDecoder2:	256 (5.81 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -128,7 +128,7 @@ CFG           173                11.9 %
 ARI1          142                27.4 %               
 BLACK BOX     15                 7.85 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block CommsFPGA_top.ManchesDecoder2:	330 (7.50 % Utilization)
+Total COMBINATIONAL LOGIC in the block CommsFPGA_top.ManchesDecoder2:	330 (7.49 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -175,7 +175,7 @@ Total SEQUENTIAL ELEMENTS in the block ManchesDecoder2.CLOCK_DOMAIN_BUFFER:	95 (
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           53                 3.66 %               
+CFG           53                 3.65 %               
 ARI1          45                 8.67 %               
 BLACK BOX     10                 5.24 %               
 ======================================================
@@ -205,7 +205,7 @@ Total SEQUENTIAL ELEMENTS in the block CLOCK_DOMAIN_BUFFER.CLOCK_DOMAIN_BUFFER_C
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           53                 3.66 %               
+CFG           53                 3.65 %               
 ARI1          45                 8.67 %               
 BLACK BOX     10                 5.24 %               
 ======================================================
@@ -375,7 +375,7 @@ Total SEQUENTIAL ELEMENTS in the block ManchesDecoder_Adapter.IdleLineDetector_0
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           14                 0.9660 %             
+CFG           14                 0.9650 %             
 ARI1          30                 5.78 %               
 BLACK BOX     3                  1.57 %               
 ======================================================
@@ -397,7 +397,7 @@ Total SEQUENTIAL ELEMENTS in the block ManchesDecoder2.RX_SM:	74 (1.68 % Utiliza
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           62                 4.28 %               
+CFG           62                 4.27 %               
 ARI1          50                 9.63 %               
 BLACK BOX     1                  0.5240 %             
 ======================================================
@@ -477,7 +477,7 @@ Instance path:   CommsFPGA_top.Phy_Mux
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.0690 %             
+CFG      1                  0.06890 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block CommsFPGA_top.Phy_Mux:	1 (0.02 % Utilization)
 
@@ -497,7 +497,7 @@ Total SEQUENTIAL ELEMENTS in the block CommsFPGA_top.TX_Collision_Detector2:	28 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      11                 0.7590 %             
+CFG      11                 0.7580 %             
 ARI1     16                 3.08 %               
 =================================================
 Total COMBINATIONAL LOGIC in the block CommsFPGA_top.TX_Collision_Detector2:	27 (0.61 % Utilization)
@@ -606,7 +606,7 @@ CFG           165                11.4 %
 ARI1          127                24.5 %               
 BLACK BOX     1                  0.5240 %             
 ======================================================
-Total COMBINATIONAL LOGIC in the block CommsFPGA_top.mdio_slave_interface:	293 (6.66 % Utilization)
+Total COMBINATIONAL LOGIC in the block CommsFPGA_top.mdio_slave_interface:	293 (6.65 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -626,13 +626,13 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      83                 4.28 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block CommsFPGA_top.uP_if:	83 (1.89 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block CommsFPGA_top.uP_if:	83 (1.88 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      71                 4.9 %                
+CFG      71                 4.89 %               
 =================================================
 Total COMBINATIONAL LOGIC in the block CommsFPGA_top.uP_if:	71 (1.61 % Utilization)
 
@@ -652,7 +652,7 @@ Total SEQUENTIAL ELEMENTS in the block uP_if.Interrupts:	33 (0.75 % Utilization)
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      14                 0.9660 %             
+CFG      14                 0.9650 %             
 =================================================
 Total COMBINATIONAL LOGIC in the block uP_if.Interrupts:	14 (0.32 % Utilization)
 
@@ -672,7 +672,7 @@ Total SEQUENTIAL ELEMENTS in the block Interrupts.Edge_Detect_0:	7 (0.16 % Utili
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.0690 %             
+CFG      1                  0.06890 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block Interrupts.Edge_Detect_0:	1 (0.02 % Utilization)
 
@@ -692,7 +692,7 @@ Total SEQUENTIAL ELEMENTS in the block Interrupts.Edge_Detect_0_0:	7 (0.16 % Uti
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.0690 %             
+CFG      1                  0.06890 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block Interrupts.Edge_Detect_0_0:	1 (0.02 % Utilization)
 
@@ -712,7 +712,7 @@ Total SEQUENTIAL ELEMENTS in the block Interrupts.Edge_Detect_0_1:	7 (0.16 % Uti
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.0690 %             
+CFG      1                  0.06890 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block Interrupts.Edge_Detect_0_1:	1 (0.02 % Utilization)
 
@@ -732,7 +732,7 @@ Total SEQUENTIAL ELEMENTS in the block Interrupts.Edge_Detect_0_2:	7 (0.16 % Uti
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.0690 %             
+CFG      1                  0.06890 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block Interrupts.Edge_Detect_0_2:	1 (0.02 % Utilization)
 
@@ -784,11 +784,11 @@ Total SEQUENTIAL ELEMENTS in the block m2s010_som.m2s010_som_sb:	124 (2.82 % Uti
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           89                 6.14 %               
+CFG           90                 6.2 %                
 ARI1          14                 2.7 %                
 BLACK BOX     92                 48.2 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block m2s010_som.m2s010_som_sb:	195 (4.43 % Utilization)
+Total COMBINATIONAL LOGIC in the block m2s010_som.m2s010_som_sb:	196 (4.45 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -802,9 +802,9 @@ Total GLOBAL BUFFERS in the block m2s010_som.m2s010_som_sb:	8 (0.18 % Utilizatio
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-IO       66                 59.5 %               
+IO       64                 57.1 %               
 =================================================
-Total IO PADS in the block m2s010_som.m2s010_som_sb:	66 (1.50 % Utilization)
+Total IO PADS in the block m2s010_som.m2s010_som_sb:	64 (1.45 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   CoreConfigP   ########
@@ -822,10 +822,10 @@ Total SEQUENTIAL ELEMENTS in the block m2s010_som_sb.CoreConfigP:	74 (1.68 % Uti
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           65                 4.48 %               
+CFG           66                 4.55 %               
 BLACK BOX     24                 12.6 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block m2s010_som_sb.CoreConfigP:	89 (2.02 % Utilization)
+Total COMBINATIONAL LOGIC in the block m2s010_som_sb.CoreConfigP:	90 (2.04 % Utilization)
 
 ----------------------------------------------------------------
 ########   Utilization report for  cell:   CoreResetP   ########
@@ -905,7 +905,7 @@ Instance path:   m2s010_som_sb.m2s010_som_sb_MSS
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           7                  0.4830 %             
+CFG           7                  0.4820 %             
 BLACK BOX     3                  1.57 %               
 ======================================================
 Total COMBINATIONAL LOGIC in the block m2s010_som_sb.m2s010_som_sb_MSS:	10 (0.23 % Utilization)
@@ -922,9 +922,9 @@ Total GLOBAL BUFFERS in the block m2s010_som_sb.m2s010_som_sb_MSS:	3 (0.07 % Uti
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-IO       63                 56.8 %               
+IO       62                 55.4 %               
 =================================================
-Total IO PADS in the block m2s010_som_sb.m2s010_som_sb_MSS:	63 (1.43 % Utilization)
+Total IO PADS in the block m2s010_som_sb.m2s010_som_sb_MSS:	62 (1.41 % Utilization)
 
 --------------------------------------------------------------------------
 ########   Utilization report for  cell:   syn_identify_core0_0   ########
@@ -936,7 +936,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      924                47.7 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block m2s010_som.syn_identify_core0_0:	924 (20.99 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block m2s010_som.syn_identify_core0_0:	924 (20.98 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -946,7 +946,7 @@ CFG           715                49.3 %
 ARI1          41                 7.9 %                
 BLACK BOX     19                 9.95 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block m2s010_som.syn_identify_core0_0:	775 (17.61 % Utilization)
+Total COMBINATIONAL LOGIC in the block m2s010_som.syn_identify_core0_0:	775 (17.60 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -974,7 +974,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      876                45.2 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block syn_identify_core0_0.IICE_x:	876 (19.90 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block syn_identify_core0_0.IICE_x:	876 (19.89 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -984,7 +984,7 @@ CFG           698                48.1 %
 ARI1          41                 7.9 %                
 BLACK BOX     11                 5.76 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block syn_identify_core0_0.IICE_x:	750 (17.04 % Utilization)
+Total COMBINATIONAL LOGIC in the block syn_identify_core0_0.IICE_x:	750 (17.03 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -1100,7 +1100,7 @@ Total SEQUENTIAL ELEMENTS in the block b11_OFWNT9s_8tZ_Z3_x_0.b19_nczQ_DYg_YFaRM
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      33                 2.28 %               
+CFG      33                 2.27 %               
 =================================================
 Total COMBINATIONAL LOGIC in the block b11_OFWNT9s_8tZ_Z3_x_0.b19_nczQ_DYg_YFaRM_oUoP_32s_1s_x_0:	33 (0.75 % Utilization)
 
@@ -1206,15 +1206,15 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      249                12.8 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block IICE_x.b8_PfFzrNYI_x:	249 (5.66 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block IICE_x.b8_PfFzrNYI_x:	249 (5.65 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      433                29.9 %               
+CFG      433                29.8 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block IICE_x.b8_PfFzrNYI_x:	433 (9.84 % Utilization)
+Total COMBINATIONAL LOGIC in the block IICE_x.b8_PfFzrNYI_x:	433 (9.83 % Utilization)
 
 ---------------------------------------------------------------------------
 ########   Utilization report for  cell:   b13_PSyil9s1fkJ_L_x_0   ########
@@ -2316,7 +2316,7 @@ Total SEQUENTIAL ELEMENTS in the block b8_PfFzrNYI_x.b5_nvmFL_243s_x_0:	243 (5.5
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1                  0.0690 %             
+CFG      1                  0.06890 %            
 =================================================
 Total COMBINATIONAL LOGIC in the block b8_PfFzrNYI_x.b5_nvmFL_243s_x_0:	1 (0.02 % Utilization)
 
@@ -2397,7 +2397,7 @@ Instance path:   comm_block_x.jtag_interface_x_0
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           7                  0.4830 %             
+CFG           7                  0.4820 %             
 BLACK BOX     5                  2.62 %               
 ======================================================
 Total COMBINATIONAL LOGIC in the block comm_block_x.jtag_interface_x_0:	12 (0.27 % Utilization)

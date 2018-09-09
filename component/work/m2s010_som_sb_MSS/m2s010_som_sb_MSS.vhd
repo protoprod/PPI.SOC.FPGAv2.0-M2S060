@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Wed Sep 05 15:41:57 2018
+-- Created by SmartDesign Sat Sep 08 15:21:49 2018
 -- Version: v11.8 SP2 11.8.2.4
 ----------------------------------------------------------------------
 
@@ -24,10 +24,10 @@ entity m2s010_som_sb_MSS is
         FIC_2_APB_M_PRDATA     : in    std_logic_vector(31 downto 0);
         FIC_2_APB_M_PREADY     : in    std_logic;
         FIC_2_APB_M_PSLVERR    : in    std_logic;
+        GPIO_0_F2M             : in    std_logic;
         GPIO_10_F2M            : in    std_logic;
         GPIO_12_F2M            : in    std_logic;
         GPIO_19_F2M            : in    std_logic;
-        GPIO_1_F2M             : in    std_logic;
         GPIO_27_F2M            : in    std_logic;
         GPIO_2_F2M             : in    std_logic;
         GPIO_3_F2M             : in    std_logic;
@@ -74,8 +74,7 @@ entity m2s010_som_sb_MSS is
         FIC_2_APB_M_PWRITE     : out   std_logic;
         GPIO_11_M2F            : out   std_logic;
         GPIO_1_M2F             : out   std_logic;
-        GPIO_1_M2F_OE          : out   std_logic;
-        GPIO_20_OUT            : out   std_logic;
+        GPIO_20_M2F            : out   std_logic;
         GPIO_21_M2F            : out   std_logic;
         GPIO_24_M2F            : out   std_logic;
         GPIO_28_M2F            : out   std_logic;
@@ -849,13 +848,12 @@ signal FIC_2_APB_MASTER_0_PSELx                           : std_logic;
 signal FIC_2_APB_MASTER_0_PWDATA                          : std_logic_vector(31 downto 0);
 signal FIC_2_APB_MASTER_0_PWRITE                          : std_logic;
 signal GPIO_1_M2F_0                                       : std_logic;
-signal GPIO_1_M2F_OE_0                                    : std_logic;
 signal GPIO_5_M2F_0                                       : std_logic;
 signal GPIO_6_M2F_0                                       : std_logic;
 signal GPIO_7_M2F_0                                       : std_logic;
 signal GPIO_8_M2F_0                                       : std_logic;
 signal GPIO_11_M2F_0                                      : std_logic;
-signal GPIO_20_OUT_0                                      : std_logic;
+signal GPIO_20_M2F_net_0                                  : std_logic;
 signal GPIO_21_M2F_0                                      : std_logic;
 signal GPIO_24_M2F_0                                      : std_logic;
 signal GPIO_28_M2F_0                                      : std_logic;
@@ -1023,7 +1021,6 @@ signal MSS_ADLIB_INST_SPI0_SS0_USBA_NXT_MGPIO7A_OE        : std_logic;
 signal MSS_ADLIB_INST_SPI0_SS0_USBA_NXT_MGPIO7A_OUT       : std_logic;
 signal MSS_ADLIB_INST_SPI0_SS1_USBA_DATA5_MGPIO8A_OE      : std_logic;
 signal MSS_ADLIB_INST_SPI0_SS1_USBA_DATA5_MGPIO8A_OUT     : std_logic;
-signal MSS_ADLIB_INST_SPI0_SS5_MGPIO20A_OUT               : std_logic;
 signal MSS_ADLIB_INST_SPI1_SS4_MGPIO17A_OE                : std_logic;
 signal MSS_ADLIB_INST_SPI1_SS4_MGPIO17A_OUT               : std_logic;
 signal MSS_ADLIB_INST_SPI1_SS5_MGPIO18A_OE                : std_logic;
@@ -1075,9 +1072,7 @@ signal SPI_1_DO_M2F_0_net_0                               : std_logic;
 signal SPI_1_CLK_M2F_0_net_0                              : std_logic;
 signal SPI_1_SS0_M2F_0_net_0                              : std_logic;
 signal SPI_1_SS0_M2F_OE_0_net_0                           : std_logic;
-signal GPIO_20_OUT_0_net_0                                : std_logic;
 signal GPIO_1_M2F_0_net_0                                 : std_logic;
-signal GPIO_1_M2F_OE_0_net_0                              : std_logic;
 signal GPIO_5_M2F_0_net_0                                 : std_logic;
 signal GPIO_6_M2F_0_net_0                                 : std_logic;
 signal GPIO_7_M2F_0_net_0                                 : std_logic;
@@ -1088,6 +1083,7 @@ signal RTC_MATCH_net_1                                    : std_logic;
 signal GPIO_29_M2F_net_1                                  : std_logic;
 signal GPIO_30_M2F_net_1                                  : std_logic;
 signal GPIO_31_M2F_net_1                                  : std_logic;
+signal GPIO_20_M2F_net_1                                  : std_logic;
 signal MAC_MII_TXD_2_net_0                                : std_logic_vector(0 to 0);
 signal MAC_MII_TXD_1_net_0                                : std_logic_vector(1 to 1);
 signal MAC_MII_TXD_0_net_0                                : std_logic_vector(2 to 2);
@@ -1279,12 +1275,8 @@ begin
  SPI_1_SS0_M2F                    <= SPI_1_SS0_M2F_0_net_0;
  SPI_1_SS0_M2F_OE_0_net_0         <= SPI_1_SS0_M2F_OE_0;
  SPI_1_SS0_M2F_OE                 <= SPI_1_SS0_M2F_OE_0_net_0;
- GPIO_20_OUT_0_net_0              <= GPIO_20_OUT_0;
- GPIO_20_OUT                      <= GPIO_20_OUT_0_net_0;
  GPIO_1_M2F_0_net_0               <= GPIO_1_M2F_0;
  GPIO_1_M2F                       <= GPIO_1_M2F_0_net_0;
- GPIO_1_M2F_OE_0_net_0            <= GPIO_1_M2F_OE_0;
- GPIO_1_M2F_OE                    <= GPIO_1_M2F_OE_0_net_0;
  GPIO_5_M2F_0_net_0               <= GPIO_5_M2F_0;
  GPIO_5_M2F                       <= GPIO_5_M2F_0_net_0;
  GPIO_6_M2F_0_net_0               <= GPIO_6_M2F_0;
@@ -1305,6 +1297,8 @@ begin
  GPIO_30_M2F                      <= GPIO_30_M2F_net_1;
  GPIO_31_M2F_net_1                <= GPIO_31_M2F_net_0;
  GPIO_31_M2F                      <= GPIO_31_M2F_net_1;
+ GPIO_20_M2F_net_1                <= GPIO_20_M2F_net_0;
+ GPIO_20_M2F                      <= GPIO_20_M2F_net_1;
  MAC_MII_TXD_2_net_0(0)           <= MAC_MII_TXD_2(0);
  MAC_MII_TXD(0)                   <= MAC_MII_TXD_2_net_0(0);
  MAC_MII_TXD_1_net_0(1)           <= MAC_MII_TXD_1(1);
@@ -1477,14 +1471,6 @@ GPIO_GPIO_18_BI_PAD : BIBUF
         Y   => GPIO_GPIO_18_BI_PAD_Y,
         -- Inouts
         PAD => GPIO_18_BI 
-        );
--- GPIO_GPIO_20_OUT_PAD
-GPIO_GPIO_20_OUT_PAD : OUTBUF
-    port map( 
-        -- Inputs
-        D   => MSS_ADLIB_INST_SPI0_SS5_MGPIO20A_OUT,
-        -- Outputs
-        PAD => GPIO_20_OUT_0 
         );
 -- GPIO_GPIO_25_BI_PAD
 GPIO_GPIO_25_BI_PAD : BIBUF
@@ -2152,7 +2138,7 @@ MSS_ADLIB_INST : MSS_060
     generic map( 
         ACT_UBITS         => ( x"FFFFFFFFFFFFFF" ),
         DDR_CLK_FREQ      => ( 142.0 ),
-        INIT              => ( "00" & x"00000000000003000000000000000361000800000000000000000000090A42000000000C0300000000900000000020001203610000000001004000000000000000000000000000000000000F000000000000000000000000000000007FFFFFFFB000001007C37C804248006090801041A7FFFFE4000000000008408080000F0F41C000000025A00010842108421000001FE34001FF8000000400000000020CD1007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF" ),
+        INIT              => ( "00" & x"00000000000003000000000000000361000800000000000000000000090A42000000000C0300000000000000000020001203610000000001004000000000000000000000000000000000000F000000000000000000000000000000007FFFFFFFB000001007C37C804248006090801041A7FFFFE4000000000008408080000F0F41C000000025A00010842108421000001FE34001FF8000000400000000020CD1007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF" ),
         MEMORYFILE        => ( "ENVM_init.mem" ),
         RTC_MAIN_XTL_FREQ => ( 0.0 ),
         RTC_MAIN_XTL_MODE => ( "" )
@@ -2203,7 +2189,7 @@ MSS_ADLIB_INST : MSS_060
         I2C1_SCL_F2H_SCP                        => VCC_net, -- tied to '1' from definition
         I2C1_SDA_F2H_SCP                        => VCC_net, -- tied to '1' from definition
         MDIF                                    => MAC_MII_MDI,
-        MGPIO0A_F2H_GPIN                        => VCC_net, -- tied to '1' from definition
+        MGPIO0A_F2H_GPIN                        => GPIO_0_F2M,
         MGPIO10A_F2H_GPIN                       => GPIO_10_F2M,
         MGPIO11A_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
         MGPIO11B_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
@@ -2215,7 +2201,7 @@ MSS_ADLIB_INST : MSS_060
         MGPIO17B_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
         MGPIO18B_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
         MGPIO19B_F2H_GPIN                       => GPIO_19_F2M,
-        MGPIO1A_F2H_GPIN                        => GPIO_1_F2M,
+        MGPIO1A_F2H_GPIN                        => VCC_net, -- tied to '1' from definition
         MGPIO20B_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
         MGPIO21B_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
         MGPIO22B_F2H_GPIN                       => VCC_net, -- tied to '1' from definition
@@ -2459,7 +2445,7 @@ MSS_ADLIB_INST : MSS_060
         I2C0_SCL_MGPIO31B_H2F_B                 => GPIO_31_M2F_net_0,
         I2C0_SDA_MGPIO30B_H2F_A                 => OPEN,
         I2C0_SDA_MGPIO30B_H2F_B                 => GPIO_30_M2F_net_0,
-        I2C1_SCL_MGPIO1A_H2F_A                  => GPIO_1_M2F_OE_0,
+        I2C1_SCL_MGPIO1A_H2F_A                  => OPEN,
         I2C1_SCL_MGPIO1A_H2F_B                  => GPIO_1_M2F_0,
         I2C1_SDA_MGPIO0A_H2F_A                  => OPEN,
         I2C1_SDA_MGPIO0A_H2F_B                  => OPEN,
@@ -2471,7 +2457,7 @@ MSS_ADLIB_INST : MSS_060
         MMUART0_DCD_MGPIO22B_H2F_A              => OPEN,
         MMUART0_DCD_MGPIO22B_H2F_B              => OPEN,
         MMUART0_DSR_MGPIO20B_H2F_A              => OPEN,
-        MMUART0_DSR_MGPIO20B_H2F_B              => OPEN,
+        MMUART0_DSR_MGPIO20B_H2F_B              => GPIO_20_M2F_net_0,
         MMUART0_DTR_MGPIO18B_H2F_A              => OPEN,
         MMUART0_DTR_MGPIO18B_H2F_B              => OPEN,
         MMUART0_RI_MGPIO21B_H2F_A               => OPEN,
@@ -2646,7 +2632,7 @@ MSS_ADLIB_INST : MSS_060
         SPI0_SS2_USBA_DATA6_MGPIO9A_OUT         => OPEN,
         SPI0_SS3_USBA_DATA7_MGPIO10A_OUT        => OPEN,
         SPI0_SS4_MGPIO19A_OUT                   => OPEN,
-        SPI0_SS5_MGPIO20A_OUT                   => MSS_ADLIB_INST_SPI0_SS5_MGPIO20A_OUT,
+        SPI0_SS5_MGPIO20A_OUT                   => OPEN,
         SPI0_SS6_MGPIO21A_OUT                   => OPEN,
         SPI0_SS7_MGPIO22A_OUT                   => OPEN,
         SPI1_SCK_OUT                            => OPEN,

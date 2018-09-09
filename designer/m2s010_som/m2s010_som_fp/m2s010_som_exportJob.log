@@ -1,13 +1,13 @@
 Software Version: 11.8.2.4
 Opened 'C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\m2s010_som_fp\m2s010_som.pro'
 The 'open_project' command succeeded.
-PDB file 'C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\41cc445d-71b3-4fbf-b1b3-3fbf71b33fbf.pdb' has been loaded successfully.
-DESIGN : m2s010_som;  CHECKSUM : F557;  PDB_VERSION : 1.9
+PDB file 'C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\1bdccd83-459b-4a13-859b-ca13459bca13.pdb' has been loaded successfully.
+DESIGN : m2s010_som;  CHECKSUM : 4B29;  PDB_VERSION : 1.9
 The 'load_programming_data' command succeeded.
-Successfully exported STAPL file: 'C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\export\m2s010_som_m2s060-v0xA-SEP-uBoot_M2S060T.stp'; file programs Fabric and eNVM.
-Fabric component digest: 65020be63247d8bb0235c0997a1ff9e28f256e134c87b5885ede6ad1e4bc5deb
+Successfully exported STAPL file: 'C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\export\m2s010_somB-SEP-uBoot_M2S060T.stp'; file programs Fabric and eNVM.
+Fabric component digest: 1bd052825c7ee789c9685f7ab562e3c8e066df35a78425823552298650dc4677
 eNVM component digest: b9ad7f681192defec35082eeb55fddae99a91815d39ac11bcb281a7de80568e1
-Finished: Thu Sep 06 17:03:42 2018 (Elapsed time 00:00:29)
+Finished: Sun Sep 09 11:06:49 2018 (Elapsed time 00:00:29)
 
 The 'export_single_stapl' command succeeded.
 The 'set_programming_file' command succeeded.

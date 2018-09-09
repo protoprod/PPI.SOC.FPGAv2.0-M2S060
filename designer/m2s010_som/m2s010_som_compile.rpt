@@ -1,6 +1,6 @@
 Compile Report
 Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP2 (Version 11.8.2.4)
-Date: Wed Sep 05 16:38:46 2018
+Date: Sun Sep 09 09:54:05 2018
 
 Device Selection
 +--------------------------------+----------------+
@@ -41,11 +41,11 @@ Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 3467 | 56520 | 6.13       |
+| 4LUT                      | 3468 | 56520 | 6.14       |
 | DFF                       | 3451 | 56520 | 6.11       |
 | I/O Register              | 0    | 591   | 0.00       |
-| User I/O                  | 112  | 197   | 56.85      |
-| -- Single-ended I/O       | 110  | 197   | 55.84      |
+| User I/O                  | 113  | 197   | 57.36      |
+| -- Single-ended I/O       | 111  | 197   | 56.35      |
 | -- Differential I/O Pairs | 1    | 98    | 1.02       |
 | RAM64x18                  | 1    | 72    | 1.39       |
 | RAM1K18                   | 41   | 69    | 59.42      |
@@ -65,11 +65,11 @@ Detailed Logic Resource Usage
 +--------------------------+------+------+
 | Type                     | 4LUT | DFF  |
 +--------------------------+------+------+
-| Fabric Logic             | 1955 | 1939 |
+| Fabric Logic             | 1956 | 1939 |
 | RAM64x18 Interface Logic | 36   | 36   |
 | RAM1K18 Interface Logic  | 1476 | 1476 |
 | MACC Interface Logic     | 0    | 0    |
-| Total Used               | 3467 | 3451 |
+| Total Used               | 3468 | 3451 |
 +--------------------------+------+------+
 
 MSS Resource Usage
@@ -115,9 +115,9 @@ I/O Function
 +-------------------------------+--------------+-------------+-----------------+
 | Type                          | w/o register | w/ register | w/ DDR register |
 +-------------------------------+--------------+-------------+-----------------+
-| Input I/O                     | 15           | 0           | 0               |
-| Output I/O                    | 62           | 0           | 0               |
-| Bidirectional I/O             | 33           | 0           | 0               |
+| Input I/O                     | 16           | 0           | 0               |
+| Output I/O                    | 63           | 0           | 0               |
+| Bidirectional I/O             | 32           | 0           | 0               |
 | Differential Input I/O Pairs  | 0            | 0           | 0               |
 | Differential Output I/O Pairs | 1            | 0           | 0               |
 +-------------------------------+--------------+-------------+-----------------+
@@ -126,7 +126,7 @@ I/O Technology
 +-----------------+--------+------+-------+--------+---------------+
 | I/O Standard    | Vddi   | Vref | Input | Output | Bidirectional |
 +-----------------+--------+------+-------+--------+---------------+
-| LVCMOS33        |  3.30v |  N/A |  14   |  35    |  13           |
+| LVCMOS33        |  3.30v |  N/A |  15   |  36    |  12           |
 | LVCMOS18        |  1.80v |  N/A |  1    |  27    |  20           |
 | LPDDRI (Output) |  1.80v |  N/A |  0    |  2     |  0            |
 +-----------------+--------+------+-------+--------+---------------+
@@ -135,9 +135,9 @@ I/O Placement
 +----------+-------+------------+
 | Type     | Count | Percentage |
 +----------+-------+------------+
-| Locked   |  96   | 85.71%     |
+| Locked   |  96   | 84.96%     |
 | Placed   |  0    | 0.00%      |
-| UnPlaced |  16   | 14.29%     |
+| UnPlaced |  17   | 15.04%     |
 +----------+-------+------------+
 
 Nets assigned to chip global resources

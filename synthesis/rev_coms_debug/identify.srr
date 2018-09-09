@@ -4,6 +4,14 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 
 @N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
 @N:"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Top entity is set to m2s010_som.
+Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd
+Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd
+Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd
+Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd
+Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd
+Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd
+Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd
+Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd
 Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\IdleLineDetector.vhd
 Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\BitDetector.vhd
 Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_doubleSync.vhd
@@ -20,15 +28,12 @@ Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CRC16x4
 Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd
 Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Debounce.vhd
 Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\TX_Collision_Detector2.vhd
-Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd
-Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd
-Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd
-Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd
-Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd
-Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd
-Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd
-Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd
 Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd
+Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd
+Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd
+Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd
+Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\m2s010_som_sb.vhd
+Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd
 Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_async.vhd
 Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_sync.vhd
 Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_sync_scntr.vhd
@@ -44,15 +49,9 @@ Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\TriDebo
 Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Interrupts.vhd
 Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd
 Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd
-Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd
-Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd
-Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd
-Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\m2s010_som_sb.vhd
-Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd
 Parsing C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd
 VHDL syntax check successful!
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd changed - recompiling
+Options changed - recompiling
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Synthesizing work.m2s010_som.rtl.
 @N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":434:10:434:14|Synthesizing smartfusion2.bibuf.syn_black_box.
 Post processing for smartfusion2.bibuf.syn_black_box
@@ -138,29 +137,29 @@ Post processing for work.m2s010_som_sb.rtl
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
 Post processing for coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch
 Post processing for coreapb3_lib.coreapb3.coreapb3_arch
-@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":60:7:60:19|Synthesizing work.commsfpga_top.behavioral.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":313:10:313:24|Removing redundant assignment.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":168:9:168:14|Signal rx_s2p is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":174:9:174:18|Signal mii_tx_clk is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":176:9:176:21|Signal control_reg_6 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":203:9:203:13|Signal f_crs is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":209:9:209:15|Signal i_f_txd is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":210:9:210:16|Signal i_f_txen is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":211:9:211:15|Signal t_f_txd is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":212:9:212:16|Signal t_f_txen is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":216:9:216:17|Signal mii_tx_en is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":217:9:217:16|Signal mii_tx_d is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":218:9:218:17|Signal mii_error is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":222:9:222:18|Signal mii_rx_clk is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":223:9:223:17|Signal mii_rx_en is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":224:9:224:16|Signal mii_rx_d is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":246:9:246:23|Signal collision_det_s is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":248:9:248:22|Signal manchester_inc is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":249:9:249:17|Signal thos_afen is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":250:9:250:21|Signal tho_compare_s is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":267:9:267:16|Signal maninvec is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":270:9:270:23|Signal start_packet_sm is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":271:9:271:19|Signal force_error is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":62:7:62:19|Synthesizing work.commsfpga_top.behavioral.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":315:10:315:24|Removing redundant assignment.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":170:9:170:14|Signal rx_s2p is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":176:9:176:18|Signal mii_tx_clk is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":178:9:178:21|Signal control_reg_6 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":205:9:205:13|Signal f_crs is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":211:9:211:15|Signal i_f_txd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":212:9:212:16|Signal i_f_txen is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":213:9:213:15|Signal t_f_txd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":214:9:214:16|Signal t_f_txen is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":218:9:218:17|Signal mii_tx_en is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":219:9:219:16|Signal mii_tx_d is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":220:9:220:17|Signal mii_error is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":224:9:224:18|Signal mii_rx_clk is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":225:9:225:17|Signal mii_rx_en is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":226:9:226:16|Signal mii_rx_d is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":248:9:248:23|Signal collision_det_s is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":250:9:250:22|Signal manchester_inc is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":251:9:251:17|Signal thos_afen is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":252:9:252:21|Signal tho_compare_s is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":269:9:269:16|Signal maninvec is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":272:9:272:23|Signal start_packet_sm is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":273:9:273:19|Signal force_error is undriven. Either assign the signal a value or remove the signal declaration.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":22:7:22:26|Synthesizing work.mdio_slave_interface.translated.
 @W: CG296 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":166:1:166:7|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
 @W: CG290 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":168:7:168:17|Referenced variable pmad_rst_in is not in sensitivity list.
@@ -511,22 +510,22 @@ Post processing for work.mii_datagen.behavioral
 Post processing for work.debounce.behavioral
 Post processing for work.tridebounce.behavioral
 Post processing for work.commsfpga_top.behavioral
-@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":270:9:270:23|Signal start_packet_SM is floating; a simulation mismatch is possible.
-@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":249:9:249:17|Signal THOs_AFEn is floating; a simulation mismatch is possible.
-@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":246:9:246:23|Signal Collision_det_s is floating; a simulation mismatch is possible.
-@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":143:3:143:9|Signal LED_RED is floating; a simulation mismatch is possible.
-@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":142:3:142:10|Signal LED_BLUE is floating; a simulation mismatch is possible.
-@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":141:3:141:11|Signal LED_GREEN is floating; a simulation mismatch is possible.
-@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":65:6:65:25|Signal SIMonly_force_jabber is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":272:9:272:23|Signal start_packet_SM is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":251:9:251:17|Signal THOs_AFEn is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":248:9:248:23|Signal Collision_det_s is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":145:3:145:9|Signal LED_RED is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":144:3:144:10|Signal LED_BLUE is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":143:3:143:11|Signal LED_GREEN is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":67:6:67:25|Signal SIMonly_force_jabber is floating; a simulation mismatch is possible.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd":8:7:8:37|Synthesizing work.m2s010_som_commsfpga_ccc_0_fccc.def_arch.
 Post processing for work.m2s010_som_commsfpga_ccc_0_fccc.def_arch
 Post processing for work.m2s010_som.rtl
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Sep 05 16:38:08 2018
+# Sun Sep 09 09:53:27 2018
 
 ###########################################################]

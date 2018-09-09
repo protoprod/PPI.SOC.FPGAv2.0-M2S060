@@ -4,3 +4,5 @@
 [0829/141324:ERROR:cache_util.cc(134)] Unable to move cache folder C:\ProgramData\Altium\Altium Designer {5A3CD3D5-5C30-47AB-BCFF-2038135C8DCF}\BrowserCache\GPUCache to C:\ProgramData\Altium\Altium Designer {5A3CD3D5-5C30-47AB-BCFF-2038135C8DCF}\BrowserCache\old_GPUCache_000
 [0829/141324:ERROR:cache_creator.cc(129)] Unable to create cache
 [0829/141324:ERROR:shader_disk_cache.cc(589)] Shader Cache Creation failed: -2
+[0908/101124:ERROR:tcp_socket_win.cc(335)] bind() returned an error: An attempt was made to access a socket in a way forbidden by its access permissions. (0x271D)
+[0908/101124:ERROR:devtools_http_handler.cc(229)] Cannot start http server for devtools. Stop devtools.

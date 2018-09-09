@@ -1,5 +1,5 @@
 ********************************************************************
-I/O Bank Report - Date: Wed Sep 05 16:43:28 2018
+I/O Bank Report - Date: Sun Sep 09 09:57:13 2018
 Product: Designer
 Release: Libero SoC v11.8 SP2
 Version: 11.8.2.4
@@ -14,9 +14,9 @@ I/O Function:
 
     Type                                  | w/o register  | w/ register  | w/ DDR register
     --------------------------------------|---------------|--------------|----------------
-    Input I/O                             | 15            | 0            | 0
-    Output I/O                            | 62            | 0            | 0
-    Bidirectional I/O                     | 33            | 0            | 0
+    Input I/O                             | 16            | 0            | 0
+    Output I/O                            | 63            | 0            | 0
+    Bidirectional I/O                     | 32            | 0            | 0
     Differential Input I/O Pairs          | 0             | 0            | 0
     Differential Output I/O Pairs         | 1             | 0            | 0
 
@@ -26,7 +26,7 @@ I/O Technology:
     --------------------------------|-------|-------|-------|--------|--------------
     I/O Standard(s)                 | Vddi  | Vref  | Input | Output | Bidirectional
     --------------------------------|-------|-------|-------|--------|--------------
-    LVCMOS33                        | 3.30v | N/A   | 14    | 35     | 13           
+    LVCMOS33                        | 3.30v | N/A   | 15    | 36     | 12           
     LVCMOS18                        | 1.80v | N/A   | 1     | 27     | 20           
     LPDDRI (Output)                 | 1.80v | N/A   | 0     | 2      | 0            
 
@@ -39,13 +39,13 @@ I/O Bank Resource Usage:
     Bank0 | N/A   | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | MSIO    
     Bank1 | 1.80v | N/A   | 48   | 64    | 1     | 32     | N/A  | N/A   | N/A      | DDRIO   
     Bank2 | 3.30v | N/A   | 10   | 10    | 0     | 5      | N/A  | N/A   | N/A      | MSIO    
-    Bank3 | 3.30v | N/A   | 6    | 12    | 0     | 6      | N/A  | N/A   | N/A      | MSIO    
-    Bank4 | 3.30v | N/A   | 21   | 32    | 0     | 16     | N/A  | N/A   | N/A      | MSIO    
+    Bank3 | 3.30v | N/A   | 9    | 12    | 0     | 6      | N/A  | N/A   | N/A      | MSIO    
+    Bank4 | 3.30v | N/A   | 20   | 32    | 0     | 16     | N/A  | N/A   | N/A      | MSIO    
     Bank5 | N/A   | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | JTAG    
-    Bank6 | 3.30v | N/A   | 7    | 24    | 0     | 12     | N/A  | N/A   | N/A      | MSIO    
+    Bank6 | 3.30v | N/A   | 8    | 24    | 0     | 12     | N/A  | N/A   | N/A      | MSIO    
     Bank7 | N/A   | N/A   | 0    | 4     | 0     | 2      | N/A  | N/A   | N/A      | MSIOD   
     Bank8 | N/A   | N/A   | 0    | 18    | 0     | 9      | N/A  | N/A   | N/A      | MSIOD   
-    Bank9 | 3.30v | N/A   | 18   | 36    | 0     | 18     | N/A  | N/A   | N/A      | MSIO    
+    Bank9 | 3.30v | N/A   | 16   | 36    | 0     | 18     | N/A  | N/A   | N/A      | MSIO    
 
 
 I/O Voltage Usage:
@@ -55,5 +55,5 @@ I/O Voltage Usage:
      Vddi  | Vref  | Used | Total 
     -------|-------|------|-------
      1.80v | N/A   | 50   | 64    
-     3.30v | N/A   | 62   | 114   
+     3.30v | N/A   | 63   | 114   
 

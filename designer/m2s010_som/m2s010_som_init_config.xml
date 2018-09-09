@@ -3,7 +3,7 @@
 <doc>
 <title>Configuration Report for MSS, SERDES(s), Fabric DDR and Fabric CCC(s)</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP2 (Version 11.8.2.4)</text>
-<text>Date: Wed Sep 05 16:43:36 2018
+<text>Date: Sun Sep 09 09:57:21 2018
 </text>
 <section><name>m2s010_som_sb_0/CCC_0/CCC_INST/INST_CCC_IP</name></section>
 <table>
@@ -4241,7 +4241,7 @@
  <cell>IOMUXCELL_23_CONFIG</cell>
  <cell>MSS_IOMUXSEL4LOWER</cell>
  <cell>INIT[1104:1104]</cell>
- <cell>1&apos;h1</cell>
+ <cell>1&apos;h0</cell>
  <cell>INIT[113]</cell>
  <cell>1</cell>
 </row>
@@ -4265,7 +4265,7 @@
  <cell>IOMUXCELL_23_CONFIG</cell>
  <cell>MSS_IOMUXSEL5LOWER</cell>
  <cell>INIT[1107:1107]</cell>
- <cell>1&apos;h1</cell>
+ <cell>1&apos;h0</cell>
  <cell>INIT[113]</cell>
  <cell>1</cell>
 </row>

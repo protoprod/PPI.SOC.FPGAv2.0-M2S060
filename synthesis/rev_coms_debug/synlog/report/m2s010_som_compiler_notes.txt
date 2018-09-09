@@ -28,8 +28,8 @@
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch.
 @N: CD604 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":665:16:665:29|OTHERS clause is not synthesized.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
-@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":60:7:60:19|Synthesizing work.commsfpga_top.behavioral.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":313:10:313:24|Removing redundant assignment.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":62:7:62:19|Synthesizing work.commsfpga_top.behavioral.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":315:10:315:24|Removing redundant assignment.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":22:7:22:26|Synthesizing work.mdio_slave_interface.translated.
 @N: CD231 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":99:29:99:30|Using onehot encoding for type mdio_slave_state_type. For example, enumeration sm_st_0 is mapped to "100000000".
 @N: CD604 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":442:10:442:24|OTHERS clause is not synthesized.
@@ -159,9 +159,9 @@
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":26:3:26:18|Input PMAD_link_status is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":27:3:27:19|Input PMAD_fault_status is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":28:3:28:17|Input PMAD_jabber_det is unused.
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":105:6:105:16|Input DormantREQn is unused.
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":106:6:106:15|Input EngageREQn is unused.
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":144:3:144:10|Input THOs_AFE is unused.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":107:6:107:16|Input DormantREQn is unused.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":108:6:108:15|Input EngageREQn is unused.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":146:3:146:10|Input THOs_AFE is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":75:0:75:4|Input IADDR is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":76:0:76:6|Input PRESETN is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":77:0:77:3|Input PCLK is unused.
@@ -250,6 +250,5 @@
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":186:4:186:24|Input SOFT_SDIF3_CORE_RESET is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":190:4:190:26|Input SOFT_SDIF0_0_CORE_RESET is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":191:4:191:26|Input SOFT_SDIF0_1_CORE_RESET is unused.
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd":35:8:35:17|Input GPIO_4_F2M is unused.
 @N|Running in 64-bit mode
 

@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP2 (Version 11.8.2.4)</text>
-<text>Date: Wed Sep 05 16:38:46 2018
+<text>Date: Sun Sep 09 09:54:05 2018
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -122,9 +122,9 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>3467</cell>
+ <cell>3468</cell>
  <cell>56520</cell>
- <cell>6.13</cell>
+ <cell>6.14</cell>
 </row>
 <row>
  <cell>DFF</cell>
@@ -140,15 +140,15 @@
 </row>
 <row>
  <cell>User I/O</cell>
- <cell>112</cell>
+ <cell>113</cell>
  <cell>197</cell>
- <cell>56.85</cell>
+ <cell>57.36</cell>
 </row>
 <row>
  <cell>-- Single-ended I/O</cell>
- <cell>110</cell>
+ <cell>111</cell>
  <cell>197</cell>
- <cell>55.84</cell>
+ <cell>56.35</cell>
 </row>
 <row>
  <cell>-- Differential I/O Pairs</cell>
@@ -238,7 +238,7 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>1955</cell>
+ <cell>1956</cell>
  <cell>1939</cell>
 </row>
 <row>
@@ -258,7 +258,7 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>3467</cell>
+ <cell>3468</cell>
  <cell>3451</cell>
 </row>
 </table>
@@ -408,19 +408,19 @@
 </header>
 <row>
  <cell>Input I/O</cell>
- <cell>15</cell>
+ <cell>16</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
 <row>
  <cell>Output I/O</cell>
- <cell>62</cell>
+ <cell>63</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
 <row>
  <cell>Bidirectional I/O</cell>
- <cell>33</cell>
+ <cell>32</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
@@ -451,9 +451,9 @@
  <cell>LVCMOS33</cell>
  <cell> 3.30v</cell>
  <cell> N/A</cell>
- <cell> 14</cell>
- <cell> 35</cell>
- <cell> 13</cell>
+ <cell> 15</cell>
+ <cell> 36</cell>
+ <cell> 12</cell>
 </row>
 <row>
  <cell>LVCMOS18</cell>
@@ -482,7 +482,7 @@
 <row>
  <cell>Locked</cell>
  <cell> 96</cell>
- <cell>85.71%</cell>
+ <cell>84.96%</cell>
 </row>
 <row>
  <cell>Placed</cell>
@@ -491,8 +491,8 @@
 </row>
 <row>
  <cell>UnPlaced</cell>
- <cell> 16</cell>
- <cell>14.29%</cell>
+ <cell> 17</cell>
+ <cell>15.04%</cell>
 </row>
 </table>
 <section><name>Nets assigned to chip global resources</name></section>

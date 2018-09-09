@@ -12,7 +12,7 @@ close_project
 exit }
 export_single_stapl \
     -name {M2S060T} \
-    -file {C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\export\m2s010_som_m2s060-v0xA-SEP-uBoot_M2S060T.stp} \
+    -file {C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\export\m2s010_somB-SEP-uBoot_M2S060T.stp} \
     -secured
 set_programming_file -name {M2S060T} -no_file
 save_project

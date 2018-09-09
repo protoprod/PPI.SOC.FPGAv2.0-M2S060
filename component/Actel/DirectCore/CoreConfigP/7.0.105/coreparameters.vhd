@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by Microsemi SmartDesign Wed Sep 05 15:42:49 2018
+-- Created by Microsemi SmartDesign Sat Sep 08 15:23:58 2018
 -- Parameters for CoreConfigP
 ----------------------------------------------------------------------
 

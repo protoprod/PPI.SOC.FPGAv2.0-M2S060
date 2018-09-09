@@ -14,7 +14,6 @@ Warning: CMPG4-007: Top level port D_RXDV is not connected to any IO pad
 Warning: CMPG4-007: Top level port D_RXER is not connected to any IO pad
 Warning: CMPG4-007: Top level port DormantREQn is not connected to any IO pad
 Warning: CMPG4-007: Top level port EngageREQn is not connected to any IO pad
-Warning: CMPG4-007: Top level port GPIO_4_F2M is not connected to any IO pad
 
 ===============================================================================.
 

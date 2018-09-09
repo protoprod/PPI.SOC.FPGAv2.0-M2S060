@@ -1,6 +1,6 @@
 Configuration Report for MSS, SERDES(s), Fabric DDR and Fabric CCC(s)
 Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP2 (Version 11.8.2.4)
-Date: Wed Sep 05 16:43:36 2018
+Date: Sun Sep 09 09:57:21 2018
 
 m2s010_som_sb_0/CCC_0/CCC_INST/INST_CCC_IP
 +-------------------+--------------------+---------------+-------+
@@ -576,10 +576,10 @@ m2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_060_IP
 | IOMUXCELL_23_CONFIG     | MSS_IOMUXSEL3               | INIT[1101:1101] | 1'h0         | INIT[113] | 1             |
 | IOMUXCELL_23_CONFIG     | MSS_IOMUXSEL4UPPER          | INIT[1102:1102] | 1'h0         | INIT[113] | 1             |
 | IOMUXCELL_23_CONFIG     | MSS_IOMUXSEL4MID            | INIT[1103:1103] | 1'h0         | INIT[113] | 1             |
-| IOMUXCELL_23_CONFIG     | MSS_IOMUXSEL4LOWER          | INIT[1104:1104] | 1'h1         | INIT[113] | 1             |
+| IOMUXCELL_23_CONFIG     | MSS_IOMUXSEL4LOWER          | INIT[1104:1104] | 1'h0         | INIT[113] | 1             |
 | IOMUXCELL_23_CONFIG     | MSS_IOMUXSEL5UPPER          | INIT[1105:1105] | 1'h0         | INIT[113] | 1             |
 | IOMUXCELL_23_CONFIG     | MSS_IOMUXSEL5MID            | INIT[1106:1106] | 1'h0         | INIT[113] | 1             |
-| IOMUXCELL_23_CONFIG     | MSS_IOMUXSEL5LOWER          | INIT[1107:1107] | 1'h1         | INIT[113] | 1             |
+| IOMUXCELL_23_CONFIG     | MSS_IOMUXSEL5LOWER          | INIT[1107:1107] | 1'h0         | INIT[113] | 1             |
 | IOMUXCELL_24_CONFIG     | MSS_IOMUXSEL0               | INIT[1108:1108] | 1'h0         | INIT[114] | 1             |
 | IOMUXCELL_24_CONFIG     | MSS_IOMUXSEL1               | INIT[1109:1109] | 1'h0         | INIT[114] | 1             |
 | IOMUXCELL_24_CONFIG     | MSS_IOMUXSEL2               | INIT[1110:1110] | 1'h0         | INIT[114] | 1             |

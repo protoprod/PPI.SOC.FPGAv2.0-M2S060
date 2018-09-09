@@ -3,7 +3,7 @@
 
 # Version: v11.8 SP2 11.8.2.4
 # Family: SmartFusion2 , Die: M2S060T , Package: 325 FCSBGA
-# Date generated: Wed Sep 05 13:41:31 2018 
+# Date generated: Sun Sep 09 09:51:48 2018 
 
 
 # 
@@ -31,18 +31,21 @@ reserve -pinname U21
 set_io {DEBOUNCE_IN[0]}  \
     -pinname R8          \
     -fixed yes           \
+    -RES_PULL Up         \
     -DIRECTION INPUT
 
 
 set_io {DEBOUNCE_IN[1]}  \
     -pinname U10         \
     -fixed yes           \
+    -RES_PULL Up         \
     -DIRECTION INPUT
 
 
 set_io {DEBOUNCE_IN[2]}  \
     -pinname W11         \
     -fixed yes           \
+    -RES_PULL Up         \
     -DIRECTION INPUT
 
 
@@ -106,10 +109,17 @@ set_io D_TXEN          \
     -DIRECTION OUTPUT
 
 
-set_io GPIO_1         \
-    -pinname J1       \
+set_io GPIO_0_F2M     \
+    -pinname J2       \
     -fixed yes        \
-    -DIRECTION INOUT
+    -RES_PULL Up      \
+    -DIRECTION INPUT
+
+
+set_io GPIO_1_M2F      \
+    -pinname J1        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
 
 
 set_io GPIO_21_M2F     \
@@ -137,7 +147,7 @@ set_io GPIO_6_M2F      \
 
 
 set_io GPIO_7_M2F      \
-    -pinname G5        \
+    -pinname H4        \
     -fixed yes         \
     -DIRECTION OUTPUT
 
