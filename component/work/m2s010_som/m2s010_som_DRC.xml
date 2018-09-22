@@ -3,17 +3,10 @@
 <drcreport>
   <header>m2s010_som</header>
   <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Floating Driver</message>
-    <detail>Floating output pin m2s010_som:GPIO_4_F2M</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som/pins/m2s010_som:GPIO_4_F2M</crossprobe>
-  </drc>
-  <drc>
     <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\error.png</status>
     <StatusMessage>Error</StatusMessage>
     <message>Undriven Pin</message>
-    <detail>Unconnected input pin m2s010_som_sb_0:GPIO_0_F2M</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som/pins/m2s010_som_sb_0:GPIO_0_F2M</crossprobe>
+    <detail>Unconnected top level output port m2s010_som:GPIO_11_M2F_SPI_FLASH_RSTn</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/m2s010_som/pins/m2s010_som:GPIO_11_M2F_SPI_FLASH_RSTn</crossprobe>
   </drc>
 </drcreport>

@@ -22,10 +22,10 @@ CommsFPGA_top_0/MDIO_SLAVE_INST/PMAD_rst_reg_RNIH1H9/Primitives,0,0,0,0,0,0,0,0,
 CommsFPGA_top_0/MDIO_SLAVE_INST/Primitives,291,302,0,0,0,0,0,0,0,0,0,0,0,0,0
 CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/INTERRUPT_INST/COLLISION_DETECT_INT_SYNC/Primitives,1,7,0,0,0,0,0,0,0,0,0,0,0,0,0
 CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/INTERRUPT_INST/JABBER_DETECT_INT_SYNC/Primitives,1,7,0,0,0,0,0,0,0,0,0,0,0,0,0
-CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/INTERRUPT_INST/Primitives,10,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/INTERRUPT_INST/Primitives,11,5,0,0,0,0,0,0,0,0,0,0,0,0,0
 CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/INTERRUPT_INST/RX_PACKET_END_ALL_NEW_SYNC/Primitives,1,7,0,0,0,0,0,0,0,0,0,0,0,0,0
 CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/INTERRUPT_INST/SFD_TIMEOUT_INT_SYNC/Primitives,1,7,0,0,0,0,0,0,0,0,0,0,0,0,0
-CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/Primitives,56,50,0,0,0,0,0,0,0,0,0,0,0,0,0
+CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/Primitives,53,50,0,0,0,0,0,0,0,0,0,0,0,0,0
 CommsFPGA_top_0/Phy_Mux_Inst/Primitives,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 CommsFPGA_top_0/Primitives,50,40,0,0,0,0,0,0,0,2,0,0,0,0,0
 CommsFPGA_top_0/TRIPLE_DEBOUNCE_INST/DEBOUNCE_0_INST/Primitives,31,18,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -137,8 +137,8 @@ ident_coreinst/comm_block_INST/b7_Rcmi_ql/Primitives,4,16,0,0,0,0,0,0,0,0,0,0,0,
 ident_coreinst/comm_block_INST/b9_ORb_xNywD/Primitives,4,32,0,0,0,0,0,0,0,0,0,0,0,0,0
 ident_coreinst/comm_block_INST/jtagi/Primitives,7,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 m2s010_som_sb_0/CCC_0/Primitives,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-m2s010_som_sb_0/CORECONFIGP_0/Primitives,66,74,0,0,0,0,0,0,0,0,0,0,0,0,0
+m2s010_som_sb_0/CORECONFIGP_0/Primitives,65,74,0,0,0,0,0,0,0,0,0,0,0,0,0
 m2s010_som_sb_0/CORERESETP_0/Primitives,31,50,0,0,0,0,0,0,0,0,0,0,0,0,0
 m2s010_som_sb_0/FABOSC_0/Primitives,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
 m2s010_som_sb_0/Primitives,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
-m2s010_som_sb_0/m2s010_som_sb_MSS_0/Primitives,6,0,0,0,61,1,0,0,0,2,0,1,0,0,0
+m2s010_som_sb_0/m2s010_som_sb_MSS_0/Primitives,9,0,0,0,64,1,0,0,0,2,0,1,0,0,0

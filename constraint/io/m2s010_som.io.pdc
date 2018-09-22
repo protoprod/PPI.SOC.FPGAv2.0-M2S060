@@ -3,7 +3,7 @@
 
 # Version: v11.8 SP2 11.8.2.4
 # Family: SmartFusion2 , Die: M2S060T , Package: 325 FCSBGA
-# Date generated: Sun Sep 09 09:51:48 2018 
+# Date generated: Sat Sep 22 10:44:07 2018 
 
 
 # 
@@ -111,6 +111,13 @@ set_io D_TXEN          \
 
 set_io GPIO_0_F2M     \
     -pinname J2       \
+    -fixed yes        \
+    -RES_PULL Up      \
+    -DIRECTION INPUT
+
+
+set_io GPIO_11_F2M    \
+    -pinname V1       \
     -fixed yes        \
     -RES_PULL Up      \
     -DIRECTION INPUT
@@ -234,6 +241,31 @@ set_io nRESET_OUT      \
 # 
 # Dedicated Peripheral I/O Settings
 # 
+
+set_io GPIO_10_IN     \
+    -RES_PULL Up      \
+    -DIRECTION INPUT
+
+
+set_io GPIO_17_OUT     \
+    -RES_PULL Up       \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_18_OUT     \
+    -RES_PULL Up       \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_19_IN     \
+    -RES_PULL Up      \
+    -DIRECTION INPUT
+
+
+set_io GPIO_9_IN      \
+    -RES_PULL Up      \
+    -DIRECTION INPUT
+
 
 
 # 

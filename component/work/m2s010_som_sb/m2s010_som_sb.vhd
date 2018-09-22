@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Sat Sep 08 15:24:00 2018
+-- Created by SmartDesign Sat Sep 22 10:34:44 2018
 -- Version: v11.8 SP2 11.8.2.4
 ----------------------------------------------------------------------
 
@@ -18,92 +18,93 @@ entity m2s010_som_sb is
     -- Port list
     port(
         -- Inputs
-        DEVRST_N                   : in    std_logic;
-        FIC_0_APB_M_PRDATA         : in    std_logic_vector(31 downto 0);
-        FIC_0_APB_M_PREADY         : in    std_logic;
-        FIC_0_APB_M_PSLVERR        : in    std_logic;
-        GPIO_0_F2M                 : in    std_logic;
-        GPIO_10_F2M                : in    std_logic;
-        GPIO_12_F2M                : in    std_logic;
-        GPIO_19_F2M                : in    std_logic;
-        GPIO_27_F2M                : in    std_logic;
-        GPIO_2_F2M_0               : in    std_logic;
-        GPIO_3_F2M                 : in    std_logic;
-        GPIO_4_F2M                 : in    std_logic;
-        MAC_MII_COL                : in    std_logic;
-        MAC_MII_CRS                : in    std_logic;
-        MAC_MII_MDI                : in    std_logic;
-        MAC_MII_RXD                : in    std_logic_vector(3 downto 0);
-        MAC_MII_RX_CLK             : in    std_logic;
-        MAC_MII_RX_DV              : in    std_logic;
-        MAC_MII_RX_ER              : in    std_logic;
-        MAC_MII_TX_CLK             : in    std_logic;
-        MDDR_DQS_TMATCH_0_IN       : in    std_logic;
-        MMUART_0_RXD_F2M           : in    std_logic;
-        MMUART_1_RXD               : in    std_logic;
-        MSS_INT_F2M                : in    std_logic;
-        SPI_0_DI                   : in    std_logic;
-        SPI_1_DI_F2M               : in    std_logic;
-        XTL                        : in    std_logic;
+        DEVRST_N              : in    std_logic;
+        FIC_0_APB_M_PRDATA    : in    std_logic_vector(31 downto 0);
+        FIC_0_APB_M_PREADY    : in    std_logic;
+        FIC_0_APB_M_PSLVERR   : in    std_logic;
+        GPIO_0_F2M            : in    std_logic;
+        GPIO_10_IN            : in    std_logic;
+        GPIO_11_F2M           : in    std_logic;
+        GPIO_12_F2M           : in    std_logic;
+        GPIO_19_IN            : in    std_logic;
+        GPIO_27_F2M           : in    std_logic;
+        GPIO_2_F2M_0          : in    std_logic;
+        GPIO_3_F2M            : in    std_logic;
+        GPIO_4_F2M            : in    std_logic;
+        GPIO_9_IN             : in    std_logic;
+        MAC_MII_COL           : in    std_logic;
+        MAC_MII_CRS           : in    std_logic;
+        MAC_MII_MDI           : in    std_logic;
+        MAC_MII_RXD           : in    std_logic_vector(3 downto 0);
+        MAC_MII_RX_CLK        : in    std_logic;
+        MAC_MII_RX_DV         : in    std_logic;
+        MAC_MII_RX_ER         : in    std_logic;
+        MAC_MII_TX_CLK        : in    std_logic;
+        MDDR_DQS_TMATCH_0_IN  : in    std_logic;
+        MMUART_0_RXD_F2M      : in    std_logic;
+        MMUART_1_RXD          : in    std_logic;
+        MSS_INT_F2M           : in    std_logic;
+        SPI_0_DI              : in    std_logic;
+        SPI_1_DI_F2M          : in    std_logic;
+        XTL                   : in    std_logic;
         -- Outputs
-        CCC_71MHz                  : out   std_logic;
-        FIC_0_APB_M_PADDR          : out   std_logic_vector(31 downto 0);
-        FIC_0_APB_M_PENABLE        : out   std_logic;
-        FIC_0_APB_M_PSEL           : out   std_logic;
-        FIC_0_APB_M_PWDATA         : out   std_logic_vector(31 downto 0);
-        FIC_0_APB_M_PWRITE         : out   std_logic;
-        GPIO_11_M2F_SPI_FLASH_RSTn : out   std_logic;
-        GPIO_1_M2F                 : out   std_logic;
-        GPIO_20_M2F                : out   std_logic;
-        GPIO_21_M2F                : out   std_logic;
-        GPIO_24_M2F                : out   std_logic;
-        GPIO_28_M2F                : out   std_logic;
-        GPIO_29_GREEN              : out   std_logic;
-        GPIO_30_RED                : out   std_logic;
-        GPIO_31_BLUE               : out   std_logic;
-        GPIO_5_M2F                 : out   std_logic;
-        GPIO_6_M2F                 : out   std_logic;
-        GPIO_7_M2F                 : out   std_logic;
-        GPIO_8_LED_CNTL            : out   std_logic;
-        MAC_MII_MDC                : out   std_logic;
-        MAC_MII_MDO                : out   std_logic;
-        MAC_MII_MDO_EN             : out   std_logic;
-        MAC_MII_TXD                : out   std_logic_vector(3 downto 0);
-        MAC_MII_TX_EN              : out   std_logic;
-        MDDR_ADDR                  : out   std_logic_vector(15 downto 0);
-        MDDR_BA                    : out   std_logic_vector(2 downto 0);
-        MDDR_CAS_N                 : out   std_logic;
-        MDDR_CKE                   : out   std_logic;
-        MDDR_CLK                   : out   std_logic;
-        MDDR_CLK_N                 : out   std_logic;
-        MDDR_CS_N                  : out   std_logic;
-        MDDR_DQS_TMATCH_0_OUT      : out   std_logic;
-        MDDR_ODT                   : out   std_logic;
-        MDDR_RAS_N                 : out   std_logic;
-        MDDR_RESET_N               : out   std_logic;
-        MDDR_WE_N                  : out   std_logic;
-        MMUART_0_TXD_M2F           : out   std_logic;
-        MMUART_1_TXD               : out   std_logic;
-        POWER_ON_RESET_N           : out   std_logic;
-        RTC_MATCH                  : out   std_logic;
-        SPI_0_DO                   : out   std_logic;
-        SPI_0_SS1                  : out   std_logic;
-        SPI_1_DO_M2F               : out   std_logic;
-        XTLOSC_CCC                 : out   std_logic;
+        CCC_71MHz             : out   std_logic;
+        FIC_0_APB_M_PADDR     : out   std_logic_vector(31 downto 0);
+        FIC_0_APB_M_PENABLE   : out   std_logic;
+        FIC_0_APB_M_PSEL      : out   std_logic;
+        FIC_0_APB_M_PWDATA    : out   std_logic_vector(31 downto 0);
+        FIC_0_APB_M_PWRITE    : out   std_logic;
+        GPIO_17_OUT           : out   std_logic;
+        GPIO_18_OUT           : out   std_logic;
+        GPIO_1_M2F            : out   std_logic;
+        GPIO_20_M2F           : out   std_logic;
+        GPIO_21_M2F           : out   std_logic;
+        GPIO_24_M2F           : out   std_logic;
+        GPIO_28_M2F           : out   std_logic;
+        GPIO_29_GREEN         : out   std_logic;
+        GPIO_30_RED           : out   std_logic;
+        GPIO_31_BLUE          : out   std_logic;
+        GPIO_5_M2F            : out   std_logic;
+        GPIO_6_M2F            : out   std_logic;
+        GPIO_7_M2F            : out   std_logic;
+        GPIO_8_LED_CNTL       : out   std_logic;
+        MAC_MII_MDC           : out   std_logic;
+        MAC_MII_MDO           : out   std_logic;
+        MAC_MII_MDO_EN        : out   std_logic;
+        MAC_MII_TXD           : out   std_logic_vector(3 downto 0);
+        MAC_MII_TX_EN         : out   std_logic;
+        MDDR_ADDR             : out   std_logic_vector(15 downto 0);
+        MDDR_BA               : out   std_logic_vector(2 downto 0);
+        MDDR_CAS_N            : out   std_logic;
+        MDDR_CKE              : out   std_logic;
+        MDDR_CLK              : out   std_logic;
+        MDDR_CLK_N            : out   std_logic;
+        MDDR_CS_N             : out   std_logic;
+        MDDR_DQS_TMATCH_0_OUT : out   std_logic;
+        MDDR_ODT              : out   std_logic;
+        MDDR_RAS_N            : out   std_logic;
+        MDDR_RESET_N          : out   std_logic;
+        MDDR_WE_N             : out   std_logic;
+        MMUART_0_TXD_M2F      : out   std_logic;
+        MMUART_1_TXD          : out   std_logic;
+        POWER_ON_RESET_N      : out   std_logic;
+        RTC_MATCH             : out   std_logic;
+        SPI_0_DO              : out   std_logic;
+        SPI_0_SS1             : out   std_logic;
+        SPI_1_DO_M2F          : out   std_logic;
+        XTLOSC_CCC            : out   std_logic;
         -- Inouts
-        GPIO_17_BI                 : inout std_logic;
-        GPIO_18_BI                 : inout std_logic;
-        GPIO_25_BI                 : inout std_logic;
-        GPIO_26_BI                 : inout std_logic;
-        I2C_1_SCL                  : inout std_logic;
-        I2C_1_SDA                  : inout std_logic;
-        MDDR_DM_RDQS               : inout std_logic_vector(1 downto 0);
-        MDDR_DQ                    : inout std_logic_vector(15 downto 0);
-        MDDR_DQS                   : inout std_logic_vector(1 downto 0);
-        SPI_0_CLK                  : inout std_logic;
-        SPI_0_SS0                  : inout std_logic;
-        SPI_1_CLK                  : inout std_logic;
-        SPI_1_SS0                  : inout std_logic
+        GPIO_25_BI            : inout std_logic;
+        GPIO_26_BI            : inout std_logic;
+        I2C_1_SCL             : inout std_logic;
+        I2C_1_SDA             : inout std_logic;
+        MDDR_DM_RDQS          : inout std_logic_vector(1 downto 0);
+        MDDR_DQ               : inout std_logic_vector(15 downto 0);
+        MDDR_DQS              : inout std_logic_vector(1 downto 0);
+        SPI_0_CLK             : inout std_logic;
+        SPI_0_SS0             : inout std_logic;
+        SPI_1_CLK             : inout std_logic;
+        SPI_1_SS0             : inout std_logic
         );
 end m2s010_som_sb;
 ----------------------------------------------------------------------
@@ -378,13 +379,15 @@ component m2s010_som_sb_MSS
         FIC_2_APB_M_PREADY     : in    std_logic;
         FIC_2_APB_M_PSLVERR    : in    std_logic;
         GPIO_0_F2M             : in    std_logic;
-        GPIO_10_F2M            : in    std_logic;
+        GPIO_10_IN             : in    std_logic;
+        GPIO_11_F2M            : in    std_logic;
         GPIO_12_F2M            : in    std_logic;
-        GPIO_19_F2M            : in    std_logic;
+        GPIO_19_IN             : in    std_logic;
         GPIO_27_F2M            : in    std_logic;
         GPIO_2_F2M             : in    std_logic;
         GPIO_3_F2M             : in    std_logic;
         GPIO_4_F2M             : in    std_logic;
+        GPIO_9_IN              : in    std_logic;
         M3_RESET_N             : in    std_logic;
         MAC_MII_COL            : in    std_logic;
         MAC_MII_CRS            : in    std_logic;
@@ -425,7 +428,8 @@ component m2s010_som_sb_MSS
         FIC_2_APB_M_PSEL       : out   std_logic;
         FIC_2_APB_M_PWDATA     : out   std_logic_vector(31 downto 0);
         FIC_2_APB_M_PWRITE     : out   std_logic;
-        GPIO_11_M2F            : out   std_logic;
+        GPIO_17_OUT            : out   std_logic;
+        GPIO_18_OUT            : out   std_logic;
         GPIO_1_M2F             : out   std_logic;
         GPIO_20_M2F            : out   std_logic;
         GPIO_21_M2F            : out   std_logic;
@@ -470,8 +474,6 @@ component m2s010_som_sb_MSS
         SPI_1_SS0_M2F          : out   std_logic;
         SPI_1_SS0_M2F_OE       : out   std_logic;
         -- Inouts
-        GPIO_17_BI             : inout std_logic;
-        GPIO_18_BI             : inout std_logic;
         GPIO_25_BI             : inout std_logic;
         GPIO_26_BI             : inout std_logic;
         I2C_1_SCL              : inout std_logic;
@@ -512,17 +514,18 @@ signal CORERESETP_0_M3_RESET_N                          : std_logic;
 signal CORERESETP_0_RESET_N_F2M                         : std_logic;
 signal FAB_CCC_LOCK                                     : std_logic;
 signal FABOSC_0_RCOSC_25_50MHZ_O2F                      : std_logic;
-signal FIC_0_APB_MASTER_36_PADDR                        : std_logic_vector(31 downto 0);
-signal FIC_0_APB_MASTER_36_PENABLE                      : std_logic;
-signal FIC_0_APB_MASTER_36_PSELx                        : std_logic;
-signal FIC_0_APB_MASTER_36_PWDATA                       : std_logic_vector(31 downto 0);
-signal FIC_0_APB_MASTER_36_PWRITE                       : std_logic;
+signal FIC_0_APB_MASTER_37_PADDR                        : std_logic_vector(31 downto 0);
+signal FIC_0_APB_MASTER_37_PENABLE                      : std_logic;
+signal FIC_0_APB_MASTER_37_PSELx                        : std_logic;
+signal FIC_0_APB_MASTER_37_PWDATA                       : std_logic_vector(31 downto 0);
+signal FIC_0_APB_MASTER_37_PWRITE                       : std_logic;
 signal GPIO_1_M2F_0                                     : std_logic;
 signal GPIO_5_M2F_0                                     : std_logic;
 signal GPIO_6_M2F_net_0                                 : std_logic;
 signal GPIO_7_M2F_net_0                                 : std_logic;
 signal GPIO_8_LED_CNTL_net_0                            : std_logic;
-signal GPIO_11_M2F_SPI_FLASH_RSTn_net_0                 : std_logic;
+signal GPIO_17_OUT_net_0                                : std_logic;
+signal GPIO_18_OUT_net_0                                : std_logic;
 signal GPIO_20_M2F_net_0                                : std_logic;
 signal GPIO_21_M2F_0                                    : std_logic;
 signal GPIO_24_M2F_0                                    : std_logic;
@@ -566,7 +569,7 @@ signal MMUART_1_TXD_net_0                               : std_logic;
 signal POWER_ON_RESET_N_net_0                           : std_logic;
 signal RTC_MATCH_net_0                                  : std_logic;
 signal SPI_0_DO_net_0                                   : std_logic;
-signal SPI_0_SS1_1                                      : std_logic;
+signal SPI_0_SS1_0                                      : std_logic;
 signal SPI_1_DO_M2F_net_0                               : std_logic;
 signal XTLOSC_CCC_OUT_2_XTLOSC_CCC                      : std_logic;
 signal SPI_0_DO_net_1                                   : std_logic;
@@ -588,9 +591,8 @@ signal CCC_71MHz_net_1                                  : std_logic;
 signal XTLOSC_CCC_OUT_2_XTLOSC_CCC_net_0                : std_logic;
 signal MAC_MII_MDO_net_1                                : std_logic;
 signal MAC_MII_MDO_EN_net_1                             : std_logic;
-signal GPIO_11_M2F_SPI_FLASH_RSTn_net_1                 : std_logic;
 signal MMUART_0_TXD_M2F_0_net_0                         : std_logic;
-signal SPI_0_SS1_1_net_0                                : std_logic;
+signal SPI_0_SS1_0_net_0                                : std_logic;
 signal SPI_1_DO_M2F_net_1                               : std_logic;
 signal GPIO_5_M2F_0_net_0                               : std_logic;
 signal GPIO_21_M2F_0_net_0                              : std_logic;
@@ -608,11 +610,13 @@ signal GPIO_1_M2F_0_net_0                               : std_logic;
 signal MDDR_ADDR_net_1                                  : std_logic_vector(15 downto 0);
 signal MDDR_BA_net_1                                    : std_logic_vector(2 downto 0);
 signal MAC_MII_TXD_net_1                                : std_logic_vector(3 downto 0);
-signal FIC_0_APB_MASTER_36_PADDR_net_0                  : std_logic_vector(31 downto 0);
-signal FIC_0_APB_MASTER_36_PSELx_net_0                  : std_logic;
-signal FIC_0_APB_MASTER_36_PENABLE_net_0                : std_logic;
-signal FIC_0_APB_MASTER_36_PWRITE_net_0                 : std_logic;
-signal FIC_0_APB_MASTER_36_PWDATA_net_0                 : std_logic_vector(31 downto 0);
+signal GPIO_17_OUT_net_1                                : std_logic;
+signal GPIO_18_OUT_net_1                                : std_logic;
+signal FIC_0_APB_MASTER_37_PADDR_net_0                  : std_logic_vector(31 downto 0);
+signal FIC_0_APB_MASTER_37_PSELx_net_0                  : std_logic;
+signal FIC_0_APB_MASTER_37_PENABLE_net_0                : std_logic;
+signal FIC_0_APB_MASTER_37_PWRITE_net_0                 : std_logic;
+signal FIC_0_APB_MASTER_37_PWDATA_net_0                 : std_logic_vector(31 downto 0);
 signal MSS_INT_F2M_net_0                                : std_logic_vector(15 downto 0);
 ----------------------------------------------------------------------
 -- TiedOff Signals
@@ -710,12 +714,10 @@ begin
  MAC_MII_MDO                       <= MAC_MII_MDO_net_1;
  MAC_MII_MDO_EN_net_1              <= MAC_MII_MDO_EN_net_0;
  MAC_MII_MDO_EN                    <= MAC_MII_MDO_EN_net_1;
- GPIO_11_M2F_SPI_FLASH_RSTn_net_1  <= GPIO_11_M2F_SPI_FLASH_RSTn_net_0;
- GPIO_11_M2F_SPI_FLASH_RSTn        <= GPIO_11_M2F_SPI_FLASH_RSTn_net_1;
  MMUART_0_TXD_M2F_0_net_0          <= MMUART_0_TXD_M2F_0;
  MMUART_0_TXD_M2F                  <= MMUART_0_TXD_M2F_0_net_0;
- SPI_0_SS1_1_net_0                 <= SPI_0_SS1_1;
- SPI_0_SS1                         <= SPI_0_SS1_1_net_0;
+ SPI_0_SS1_0_net_0                 <= SPI_0_SS1_0;
+ SPI_0_SS1                         <= SPI_0_SS1_0_net_0;
  SPI_1_DO_M2F_net_1                <= SPI_1_DO_M2F_net_0;
  SPI_1_DO_M2F                      <= SPI_1_DO_M2F_net_1;
  GPIO_5_M2F_0_net_0                <= GPIO_5_M2F_0;
@@ -750,16 +752,20 @@ begin
  MDDR_BA(2 downto 0)               <= MDDR_BA_net_1;
  MAC_MII_TXD_net_1                 <= MAC_MII_TXD_net_0;
  MAC_MII_TXD(3 downto 0)           <= MAC_MII_TXD_net_1;
- FIC_0_APB_MASTER_36_PADDR_net_0   <= FIC_0_APB_MASTER_36_PADDR;
- FIC_0_APB_M_PADDR(31 downto 0)    <= FIC_0_APB_MASTER_36_PADDR_net_0;
- FIC_0_APB_MASTER_36_PSELx_net_0   <= FIC_0_APB_MASTER_36_PSELx;
- FIC_0_APB_M_PSEL                  <= FIC_0_APB_MASTER_36_PSELx_net_0;
- FIC_0_APB_MASTER_36_PENABLE_net_0 <= FIC_0_APB_MASTER_36_PENABLE;
- FIC_0_APB_M_PENABLE               <= FIC_0_APB_MASTER_36_PENABLE_net_0;
- FIC_0_APB_MASTER_36_PWRITE_net_0  <= FIC_0_APB_MASTER_36_PWRITE;
- FIC_0_APB_M_PWRITE                <= FIC_0_APB_MASTER_36_PWRITE_net_0;
- FIC_0_APB_MASTER_36_PWDATA_net_0  <= FIC_0_APB_MASTER_36_PWDATA;
- FIC_0_APB_M_PWDATA(31 downto 0)   <= FIC_0_APB_MASTER_36_PWDATA_net_0;
+ GPIO_17_OUT_net_1                 <= GPIO_17_OUT_net_0;
+ GPIO_17_OUT                       <= GPIO_17_OUT_net_1;
+ GPIO_18_OUT_net_1                 <= GPIO_18_OUT_net_0;
+ GPIO_18_OUT                       <= GPIO_18_OUT_net_1;
+ FIC_0_APB_MASTER_37_PADDR_net_0   <= FIC_0_APB_MASTER_37_PADDR;
+ FIC_0_APB_M_PADDR(31 downto 0)    <= FIC_0_APB_MASTER_37_PADDR_net_0;
+ FIC_0_APB_MASTER_37_PSELx_net_0   <= FIC_0_APB_MASTER_37_PSELx;
+ FIC_0_APB_M_PSEL                  <= FIC_0_APB_MASTER_37_PSELx_net_0;
+ FIC_0_APB_MASTER_37_PENABLE_net_0 <= FIC_0_APB_MASTER_37_PENABLE;
+ FIC_0_APB_M_PENABLE               <= FIC_0_APB_MASTER_37_PENABLE_net_0;
+ FIC_0_APB_MASTER_37_PWRITE_net_0  <= FIC_0_APB_MASTER_37_PWRITE;
+ FIC_0_APB_M_PWRITE                <= FIC_0_APB_MASTER_37_PWRITE_net_0;
+ FIC_0_APB_MASTER_37_PWDATA_net_0  <= FIC_0_APB_MASTER_37_PWDATA;
+ FIC_0_APB_M_PWDATA(31 downto 0)   <= FIC_0_APB_MASTER_37_PWDATA_net_0;
 ----------------------------------------------------------------------
 -- Concatenation assignments
 ----------------------------------------------------------------------
@@ -1066,20 +1072,22 @@ m2s010_som_sb_MSS_0 : m2s010_som_sb_MSS
         SPI_1_DI_F2M           => SPI_1_DI_F2M,
         SPI_1_CLK_F2M          => BIBUF_1_Y,
         SPI_1_SS0_F2M          => BIBUF_0_Y,
-        GPIO_10_F2M            => GPIO_10_F2M,
-        GPIO_19_F2M            => GPIO_19_F2M,
         GPIO_27_F2M            => GPIO_27_F2M,
         GPIO_2_F2M             => GPIO_2_F2M_0,
         GPIO_3_F2M             => GPIO_3_F2M,
         GPIO_12_F2M            => GPIO_12_F2M,
         GPIO_4_F2M             => GPIO_4_F2M,
+        GPIO_0_F2M             => GPIO_0_F2M,
+        GPIO_9_IN              => GPIO_9_IN,
+        GPIO_10_IN             => GPIO_10_IN,
+        GPIO_11_F2M            => GPIO_11_F2M,
+        GPIO_19_IN             => GPIO_19_IN,
         MAC_MII_RXD            => MAC_MII_RXD,
         FIC_2_APB_M_PRDATA     => m2s010_som_sb_MSS_TMP_0_FIC_2_APB_MASTER_PRDATA,
         MDDR_APB_S_PWDATA      => CORECONFIGP_0_MDDR_APBmslave_PWDATA_0,
         MDDR_APB_S_PADDR       => CORECONFIGP_0_MDDR_APBmslave_PADDR_0,
         FIC_0_APB_M_PRDATA     => FIC_0_APB_M_PRDATA,
         MSS_INT_F2M            => MSS_INT_F2M_net_0,
-        GPIO_0_F2M             => GPIO_0_F2M,
         -- Outputs
         SPI_0_DO               => SPI_0_DO_net_0,
         MMUART_1_TXD           => MMUART_1_TXD_net_0,
@@ -1106,13 +1114,12 @@ m2s010_som_sb_MSS_0 : m2s010_som_sb_MSS
         FIC_2_APB_M_PSEL       => m2s010_som_sb_MSS_TMP_0_FIC_2_APB_MASTER_PSELx,
         MDDR_APB_S_PREADY      => CORECONFIGP_0_MDDR_APBmslave_PREADY,
         MDDR_APB_S_PSLVERR     => CORECONFIGP_0_MDDR_APBmslave_PSLVERR,
-        FIC_0_APB_M_PSEL       => FIC_0_APB_MASTER_36_PSELx,
-        FIC_0_APB_M_PWRITE     => FIC_0_APB_MASTER_36_PWRITE,
-        FIC_0_APB_M_PENABLE    => FIC_0_APB_MASTER_36_PENABLE,
+        FIC_0_APB_M_PSEL       => FIC_0_APB_MASTER_37_PSELx,
+        FIC_0_APB_M_PWRITE     => FIC_0_APB_MASTER_37_PWRITE,
+        FIC_0_APB_M_PENABLE    => FIC_0_APB_MASTER_37_PENABLE,
         GPIO_8_M2F             => GPIO_8_LED_CNTL_net_0,
-        GPIO_11_M2F            => GPIO_11_M2F_SPI_FLASH_RSTn_net_0,
         MMUART_0_TXD_M2F       => MMUART_0_TXD_M2F_0,
-        SPI_0_SS1              => SPI_0_SS1_1,
+        SPI_0_SS1              => SPI_0_SS1_0,
         SPI_1_DO_M2F           => SPI_1_DO_M2F_net_0,
         SPI_1_CLK_M2F          => m2s010_som_sb_MSS_0_SPI_1_CLK_M2F_0,
         SPI_1_SS0_M2F          => m2s010_som_sb_MSS_0_SPI_1_SS0_M2F_0,
@@ -1129,21 +1136,21 @@ m2s010_som_sb_MSS_0 : m2s010_som_sb_MSS
         GPIO_30_M2F            => GPIO_30_RED_net_0,
         GPIO_31_M2F            => GPIO_31_M2F,
         GPIO_20_M2F            => GPIO_20_M2F_net_0,
+        GPIO_17_OUT            => GPIO_17_OUT_net_0,
+        GPIO_18_OUT            => GPIO_18_OUT_net_0,
         MAC_MII_TXD            => MAC_MII_TXD_net_0,
         MDDR_ADDR              => MDDR_ADDR_net_0,
         MDDR_BA                => MDDR_BA_net_0,
         FIC_2_APB_M_PADDR      => m2s010_som_sb_MSS_TMP_0_FIC_2_APB_MASTER_PADDR,
         FIC_2_APB_M_PWDATA     => m2s010_som_sb_MSS_TMP_0_FIC_2_APB_MASTER_PWDATA,
         MDDR_APB_S_PRDATA      => CORECONFIGP_0_MDDR_APBmslave_PRDATA,
-        FIC_0_APB_M_PADDR      => FIC_0_APB_MASTER_36_PADDR,
-        FIC_0_APB_M_PWDATA     => FIC_0_APB_MASTER_36_PWDATA,
+        FIC_0_APB_M_PADDR      => FIC_0_APB_MASTER_37_PADDR,
+        FIC_0_APB_M_PWDATA     => FIC_0_APB_MASTER_37_PWDATA,
         -- Inouts
         I2C_1_SDA              => I2C_1_SDA,
         I2C_1_SCL              => I2C_1_SCL,
         SPI_0_CLK              => SPI_0_CLK,
         SPI_0_SS0              => SPI_0_SS0,
-        GPIO_17_BI             => GPIO_17_BI,
-        GPIO_18_BI             => GPIO_18_BI,
         GPIO_25_BI             => GPIO_25_BI,
         GPIO_26_BI             => GPIO_26_BI,
         MDDR_DM_RDQS           => MDDR_DM_RDQS,

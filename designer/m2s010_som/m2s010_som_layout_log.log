@@ -9,44 +9,44 @@ TDPR scenario            : Primary
 
 
 Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 95 fixed I/O macros, 17 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 99 fixed I/O macros, 16 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 1 seconds
 
 Placer V4.0 - 11.8.2 
-Design: m2s010_som                      Started: Sun Sep 09 09:54:29 2018
+Design: m2s010_som                      Started: Sat Sep 22 10:45:21 2018
 
 Initializing High-Effort Timing-Driven Placement ...
 While analyzing gated clock network, ambiguities have been found on gates CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/REG_READ_PROC.un18_read_reg_en_i_o2_RNI2COS:Y, CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/read_reg_en_RNI77EH2:Y.
 The timing models of these gates have been simplified for Static Timing Analysis.
 Placing design...
 End of placement.
-Pre-Placement Runtime        : 4 seconds
-Placement Runtime            : 45 seconds
+Pre-Placement Runtime        : 3 seconds
+Placement Runtime            : 32 seconds
 
 Placer completed successfully.
 
 Design: m2s010_som                      
-Finished: Sun Sep 09 09:55:48 2018
-Total CPU Time:     00:01:17            Total Elapsed Time: 00:01:19
-Total Memory Usage: 518.3 Mbytes
+Finished: Sat Sep 22 10:46:25 2018
+Total CPU Time:     00:01:02            Total Elapsed Time: 00:01:04
+Total Memory Usage: 509.0 Mbytes
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\m2s010_somStarted: Sun Sep 09 09:55:55 2018
+Design: C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\m2s010_somStarted: Sat Sep 22 10:46:32 2018
 
 While analyzing gated clock network, ambiguities have been found on gates CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/REG_READ_PROC.un18_read_reg_en_i_o2_RNI2COS:Y, CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/read_reg_en_RNI77EH2:Y.
 The timing models of these gates have been simplified for Static Timing Analysis.
-Final stats: search run time 3.581557
+Final stats: search run time 3.184283
 
 Timing-driven Router completed successfully.
 
 Design: C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\m2s010_som
-Finished: Sun Sep 09 09:56:47 2018
-Total CPU Time:     00:00:50            Total Elapsed Time: 00:00:52
-Total Memory Usage: 2047.6 Mbytes
+Finished: Sat Sep 22 10:47:22 2018
+Total CPU Time:     00:00:47            Total Elapsed Time: 00:00:50
+Total Memory Usage: 2038.7 Mbytes
                         o - o - o - o - o - o
 
 While analyzing gated clock network, ambiguities have been found on gates CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/REG_READ_PROC.un18_read_reg_en_i_o2_RNI2COS:Y, CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/read_reg_en_RNI77EH2:Y.
@@ -61,6 +61,6 @@ Resource Usage
 | 4LUT          | 3468 | 56520 | 6.14       |
 | DFF           | 3451 | 56520 | 6.11       |
 | I/O Register  | 0    | 591   | 0.00       |
-| Logic Element | 3975 | 56520 | 7.03       |
+| Logic Element | 3992 | 56520 | 7.06       |
 +---------------+------+-------+------------+
 

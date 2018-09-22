@@ -12,9 +12,9 @@ SYSRESET        1 use
 UJTAG           1 use
 XTLOSC          1 use
 CFG1           30 uses
-CFG2           215 uses
-CFG3           407 uses
-CFG4           799 uses
+CFG2           216 uses
+CFG3           394 uses
+CFG4           811 uses
 
 Carry cells:
 ARI1            397 uses - used for arithmetic functions
@@ -27,11 +27,11 @@ SLE            1939 uses
 
 DSP Blocks:    0 of 72 (0%)
 
-I/O ports: 131
-I/O primitives: 112
-BIBUF          32 uses
-INBUF          16 uses
-OUTBUF         60 uses
+I/O ports: 134
+I/O primitives: 115
+BIBUF          30 uses
+INBUF          20 uses
+OUTBUF         61 uses
 OUTBUF_DIFF    1 use
 TRIBUFF        3 uses
 

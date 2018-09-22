@@ -1,23 +1,10 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-2
 #--  Project file C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\m2s010_som_syn.prj
-#--  Written on Sun Sep 09 09:53:43 2018
+#--  Written on Sat Sep 22 10:39:13 2018
 
 
 #project files
-add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som/CommsFPGA_CCC_0/m2s010_som_CommsFPGA_CCC_0_FCCC.vhd"
-add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd"
-add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd"
-add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd"
-add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb/CCC_0/m2s010_som_sb_CCC_0_FCCC.vhd"
-add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd"
-add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb/FABOSC_0/m2s010_som_sb_FABOSC_0_OSC.vhd"
-add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb_MSS/m2s010_som_sb_MSS_syn.vhd"
-add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb_MSS/m2s010_som_sb_MSS.vhd"
-add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb/m2s010_som_sb.vhd"
-add_file -vhdl -lib COREAPB3_LIB "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_muxptob3.vhd"
-add_file -vhdl -lib COREAPB3_LIB "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd"
-add_file -vhdl -lib COREAPB3_LIB "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3.vhd"
 add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/hdl/IdleLineDetector.vhd"
 add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/hdl/BitDetector.vhd"
 add_file -vhdl -lib COREFIFO_LIB "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/CLOCK_DOMAIN_BUFFER/CLOCK_DOMAIN_BUFFER_0/rtl/vhdl/core/corefifo_doubleSync.vhd"
@@ -49,6 +36,19 @@ add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-
 add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/hdl/Interrupts.vhd"
 add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/hdl/uP_if.vhd"
 add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/hdl/CommsFPGA_top.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som/CommsFPGA_CCC_0/m2s010_som_CommsFPGA_CCC_0_FCCC.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vhdl/core/coreconfigp.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vhdl/core/coreresetp.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb/CCC_0/m2s010_som_sb_CCC_0_FCCC.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb/FABOSC_0/m2s010_som_sb_FABOSC_0_OSC.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb_MSS/m2s010_som_sb_MSS_syn.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb_MSS/m2s010_som_sb_MSS.vhd"
+add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som_sb/m2s010_som_sb.vhd"
+add_file -vhdl -lib COREAPB3_LIB "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_muxptob3.vhd"
+add_file -vhdl -lib COREAPB3_LIB "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd"
+add_file -vhdl -lib COREAPB3_LIB "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3.vhd"
 add_file -vhdl -lib COREAPB3_LIB "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/components.vhd"
 add_file -vhdl -lib work "C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/component/work/m2s010_som/m2s010_som.vhd"
 add_file -ident_constraint "rev_coms_debug/identify.idc"

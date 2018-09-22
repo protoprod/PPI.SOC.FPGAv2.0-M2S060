@@ -1,8 +1,8 @@
 Software Version: 11.8.2.4
 Opened 'C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\m2s010_som_fp\m2s010_som.pro'
 The 'open_project' command succeeded.
-PDB file 'C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\6006ab51-6887-419e-a887-019e6887019e.pdb' has been loaded successfully.
-DESIGN : m2s010_som;  CHECKSUM : 4B29;  PDB_VERSION : 1.9
+PDB file 'C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\9c9dffbf-f8fe-4fda-b8fe-cfdaf8fecfda.pdb' has been loaded successfully.
+DESIGN : m2s010_som;  CHECKSUM : 3386;  PDB_VERSION : 1.9
 The 'load_programming_data' command succeeded.
 The 'set_programming_file' command succeeded.
 Project saved.

@@ -1,6 +1,6 @@
 set_component m2s010_som_CommsFPGA_CCC_0_FCCC
 # Microsemi Corp.
-# Date: 2018-Sep-08 15:24:50
+# Date: 2018-Sep-22 10:38:33
 #
 
 create_clock -period 50 [ get_pins { CCC_INST/XTLOSC } ]

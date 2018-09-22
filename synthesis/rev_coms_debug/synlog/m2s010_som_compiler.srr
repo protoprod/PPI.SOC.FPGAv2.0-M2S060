@@ -9,9 +9,104 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @N::Reading compiler constraint file C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.cdc
 @N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
 @N:"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Top entity is set to m2s010_som.
-Options changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.cdc changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.cdc changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\misc.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_grayToBinConv.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\COREFIFO\2.6.108\rtl\vhdl\core\fifo_pkg.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_USRAM_top.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\RX_SM.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Edge_Detect.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Jabber_SM.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Nib2Ser_SM.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CRC16x4_Generator.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Phy_Mux.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Debounce.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\TX_Collision_Detector2.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vhdl\core\coreconfigp.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_async.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_sync.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\corefifo_sync_scntr.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_ram_wrapper.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER_0\rtl\vhdl\core\COREFIFO.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\CLOCK_DOMAIN_BUFFER\CLOCK_DOMAIN_BUFFER.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\ManchesDecoder_Adapter.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\ManchesDecoder2.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\ManchesEncoder2.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\MII_DataCheck.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\MII_DataGen.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\TriDebounce.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Interrupts.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\m2s010_som_sb.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
 VHDL syntax check successful!
-Options changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.cdc changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.cdc changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\m2s010_som_sb.vhd changed - recompiling
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
 @N: CD231 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd":20:7:20:16|Synthesizing work.m2s010_som.rtl.
 @N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":434:10:434:14|Synthesizing smartfusion2.bibuf.syn_black_box.
@@ -20,12 +115,12 @@ Post processing for smartfusion2.bibuf.syn_black_box
 @N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":786:10:786:17|Synthesizing smartfusion2.sysreset.syn_black_box.
 Post processing for smartfusion2.sysreset.syn_black_box
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd":17:7:17:23|Synthesizing work.m2s010_som_sb_mss.rtl.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":403:10:403:14|Synthesizing smartfusion2.inbuf.syn_black_box.
+Post processing for smartfusion2.inbuf.syn_black_box
 @N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":413:10:413:15|Synthesizing smartfusion2.outbuf.syn_black_box.
 Post processing for smartfusion2.outbuf.syn_black_box
 @N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":503:10:503:20|Synthesizing smartfusion2.outbuf_diff.syn_black_box.
 Post processing for smartfusion2.outbuf_diff.syn_black_box
-@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":403:10:403:14|Synthesizing smartfusion2.inbuf.syn_black_box.
-Post processing for smartfusion2.inbuf.syn_black_box
 @N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.vhd":423:10:423:16|Synthesizing smartfusion2.tribuff.syn_black_box.
 Post processing for smartfusion2.tribuff.syn_black_box
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_060.def_arch.
@@ -101,26 +196,26 @@ Post processing for work.m2s010_som_sb.rtl
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
 Post processing for coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch
 Post processing for coreapb3_lib.coreapb3.coreapb3_arch
-@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":62:7:62:19|Synthesizing work.commsfpga_top.behavioral.
-@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":315:10:315:24|Removing redundant assignment.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":170:9:170:14|Signal rx_s2p is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":176:9:176:18|Signal mii_tx_clk is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":178:9:178:21|Signal control_reg_6 is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":205:9:205:13|Signal f_crs is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":211:9:211:15|Signal i_f_txd is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":212:9:212:16|Signal i_f_txen is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":213:9:213:15|Signal t_f_txd is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":214:9:214:16|Signal t_f_txen is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":218:9:218:17|Signal mii_tx_en is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":219:9:219:16|Signal mii_tx_d is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":220:9:220:17|Signal mii_error is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":224:9:224:18|Signal mii_rx_clk is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":225:9:225:17|Signal mii_rx_en is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":226:9:226:16|Signal mii_rx_d is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":250:9:250:22|Signal manchester_inc is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":251:9:251:17|Signal thos_afen is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":269:9:269:16|Signal maninvec is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":273:9:273:19|Signal force_error is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":63:7:63:19|Synthesizing work.commsfpga_top.behavioral.
+@N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":316:10:316:24|Removing redundant assignment.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":171:9:171:14|Signal rx_s2p is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":177:9:177:18|Signal mii_tx_clk is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":179:9:179:21|Signal control_reg_6 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":206:9:206:13|Signal f_crs is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":212:9:212:15|Signal i_f_txd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":213:9:213:16|Signal i_f_txen is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":214:9:214:15|Signal t_f_txd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":215:9:215:16|Signal t_f_txen is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":219:9:219:17|Signal mii_tx_en is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":220:9:220:16|Signal mii_tx_d is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":221:9:221:17|Signal mii_error is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":225:9:225:18|Signal mii_rx_clk is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":226:9:226:17|Signal mii_rx_en is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":227:9:227:16|Signal mii_rx_d is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":251:9:251:22|Signal manchester_inc is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":252:9:252:17|Signal thos_afen is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":270:9:270:16|Signal maninvec is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":274:9:274:19|Signal force_error is undriven. Either assign the signal a value or remove the signal declaration.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":22:7:22:26|Synthesizing work.mdio_slave_interface.translated.
 @N: CD231 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":99:29:99:30|Using onehot encoding for type mdio_slave_state_type. For example, enumeration sm_st_0 is mapped to "100000000".
 @W: CG296 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":166:1:166:7|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
@@ -521,13 +616,13 @@ Post processing for work.mii_datagen.behavioral
 Post processing for work.debounce.behavioral
 Post processing for work.tridebounce.behavioral
 Post processing for work.commsfpga_top.behavioral
-@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":251:9:251:17|Signal THOs_AFEn is floating; a simulation mismatch is possible.
-@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":67:6:67:25|Signal SIMonly_force_jabber is floating; a simulation mismatch is possible.
-@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":421:4:421:5|Pruning unused register AFE_Compare_reg_3. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":421:4:421:5|Pruning unused register THOs_AFE_reg_4(2 downto 0). Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":421:4:421:5|Pruning unused register THO_compare_reg_3(23 downto 0). Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":330:4:330:5|Pruning unused register random_data_bit_2. Make sure that there are no unused intermediate registers.
-@W: CL265 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":368:4:368:5|Removing unused bit 2 of ClkDivider(2 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":252:9:252:17|Signal THOs_AFEn is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":68:6:68:25|Signal SIMonly_force_jabber is floating; a simulation mismatch is possible.
+@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":422:4:422:5|Pruning unused register AFE_Compare_reg_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":422:4:422:5|Pruning unused register THOs_AFE_reg_4(2 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":422:4:422:5|Pruning unused register THO_compare_reg_3(23 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":331:4:331:5|Pruning unused register random_data_bit_2. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":369:4:369:5|Removing unused bit 2 of ClkDivider(2 downto 0). Either assign all bits or reduce the width of the signal.
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd":8:7:8:37|Synthesizing work.m2s010_som_commsfpga_ccc_0_fccc.def_arch.
 Post processing for work.m2s010_som_commsfpga_ccc_0_fccc.def_arch
 Post processing for work.m2s010_som.rtl
@@ -638,24 +733,24 @@ State machine has 9 reachable states with original encodings of:
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":26:3:26:18|Input PMAD_link_status is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":27:3:27:19|Input PMAD_fault_status is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\mdio_slave_interface.vhd":28:3:28:17|Input PMAD_jabber_det is unused.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":477:4:477:5|Optimizing register bit gen_data_delay(10) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":477:4:477:5|Optimizing register bit gen_data_delay(11) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":477:4:477:5|Optimizing register bit gen_data_delay(12) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":477:4:477:5|Optimizing register bit gen_data_delay(13) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":477:4:477:5|Optimizing register bit gen_data_delay(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":477:4:477:5|Optimizing register bit gen_data_delay(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":477:4:477:5|Optimizing register bit gen_data_delay(16) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":477:4:477:5|Optimizing register bit gen_data_delay(17) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":477:4:477:5|Optimizing register bit gen_data_delay(18) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":477:4:477:5|Optimizing register bit gen_data_delay(19) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":477:4:477:5|Optimizing register bit gen_data_delay(20) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":477:4:477:5|Optimizing register bit gen_data_delay(21) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":477:4:477:5|Optimizing register bit gen_data_delay(22) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":477:4:477:5|Optimizing register bit gen_data_delay(23) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL279 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":477:4:477:5|Pruning register bits 23 to 10 of gen_data_delay(23 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":107:6:107:16|Input DormantREQn is unused.
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":108:6:108:15|Input EngageREQn is unused.
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":146:3:146:10|Input THOs_AFE is unused.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":478:4:478:5|Optimizing register bit gen_data_delay(10) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":478:4:478:5|Optimizing register bit gen_data_delay(11) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":478:4:478:5|Optimizing register bit gen_data_delay(12) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":478:4:478:5|Optimizing register bit gen_data_delay(13) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":478:4:478:5|Optimizing register bit gen_data_delay(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":478:4:478:5|Optimizing register bit gen_data_delay(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":478:4:478:5|Optimizing register bit gen_data_delay(16) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":478:4:478:5|Optimizing register bit gen_data_delay(17) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":478:4:478:5|Optimizing register bit gen_data_delay(18) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":478:4:478:5|Optimizing register bit gen_data_delay(19) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":478:4:478:5|Optimizing register bit gen_data_delay(20) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":478:4:478:5|Optimizing register bit gen_data_delay(21) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":478:4:478:5|Optimizing register bit gen_data_delay(22) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":478:4:478:5|Optimizing register bit gen_data_delay(23) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":478:4:478:5|Pruning register bits 23 to 10 of gen_data_delay(23 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":108:6:108:16|Input DormantREQn is unused.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":109:6:109:15|Input EngageREQn is unused.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd":147:3:147:10|Input THOs_AFE is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":75:0:75:4|Input IADDR is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":76:0:76:6|Input PRESETN is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":77:0:77:3|Input PCLK is unused.
@@ -790,14 +885,14 @@ State machine has 7 reachable states with original encodings of:
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":186:4:186:24|Input SOFT_SDIF3_CORE_RESET is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":190:4:190:26|Input SOFT_SDIF0_0_CORE_RESET is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":191:4:191:26|Input SOFT_SDIF0_1_CORE_RESET is unused.
-@W: CL158 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd":94:8:94:18|Inout GPIO_1_BIDI is unused
+@W: CL158 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd":97:8:97:18|Inout GPIO_1_BIDI is unused
 
 At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 114MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Sep 09 09:53:30 2018
+# Sat Sep 22 10:38:59 2018
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
@@ -808,16 +903,16 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Sep 09 09:53:31 2018
+# Sat Sep 22 10:38:59 2018
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
 
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Sep 09 09:53:31 2018
+# Sat Sep 22 10:38:59 2018
 
 ###########################################################]

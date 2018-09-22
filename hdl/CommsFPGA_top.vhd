@@ -48,6 +48,7 @@
 --  0xA		RTC 32KHz input clock Implementation; worked GPIOs for SEP	9/5/18
 --  0xB		RTC 32KHz input clock Implementation; worked DBAL and WML GPIOs for SEP	9/8/18
 --  0xC		RTC 32KHz input clock Implementation; Added Pullups to Controller Buttons for SEP	9/9/18
+--  0xD		RTC 32KHz; Added Node Res Bits GPIOs, PTT GPIOs 17 & 18 for SEP II	9/22/18
 ----------------------------------------------------------------------------------
 
 library IEEE;

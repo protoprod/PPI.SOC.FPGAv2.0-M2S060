@@ -2,13 +2,13 @@
 
 # Version: v11.8 SP2 11.8.2.4
 
-# Design Name:  
+# Design Name: m2s010_som 
 
 # Input Netlist Format: EDIF 
 
 # Family: SmartFusion2 , Die: M2S060T , Package: 325 FCSBGA , Speed grade: STD 
 
-# Date generated: Sun Sep 09 09:54:05 2018 
+# Date generated: Sat Sep 22 10:44:07 2018 
 
 
 #
@@ -57,8 +57,11 @@ set_io D_TXD\[2\] -DIRECTION OUTPUT -pinname G20 -fixed yes
 set_io D_TXD\[3\] -DIRECTION OUTPUT -pinname G21 -fixed yes
 set_io D_TXEN -DIRECTION OUTPUT -pinname F20 -fixed yes
 set_io GPIO_0_F2M -DIRECTION INPUT -RES_PULL Up -pinname J2 -fixed yes
-set_io GPIO_17_BI -DIRECTION INOUT -pinname P2 -fixed yes
-set_io GPIO_18_BI -DIRECTION INOUT -pinname R2 -fixed yes
+set_io GPIO_10_IN -DIRECTION INPUT -RES_PULL Up -pinname M4 -fixed yes
+set_io GPIO_11_F2M -DIRECTION INPUT -RES_PULL Up -pinname V1 -fixed yes
+set_io GPIO_17_OUT -DIRECTION OUTPUT -RES_PULL Up -pinname P2 -fixed yes
+set_io GPIO_18_OUT -DIRECTION OUTPUT -RES_PULL Up -pinname R2 -fixed yes
+set_io GPIO_19_IN -DIRECTION INPUT -RES_PULL Up -pinname T2 -fixed yes
 set_io GPIO_1_M2F -DIRECTION OUTPUT -pinname J1 -fixed yes
 set_io GPIO_21_M2F -DIRECTION OUTPUT -pinname K7 -fixed yes
 set_io GPIO_24_M2F -DIRECTION OUTPUT -pinname K4 -fixed yes
@@ -67,6 +70,7 @@ set_io GPIO_26_BI -DIRECTION INOUT -pinname N2 -fixed yes
 set_io GPIO_5_M2F -DIRECTION OUTPUT -pinname H2 -fixed yes
 set_io GPIO_6_M2F -DIRECTION OUTPUT -pinname H5 -fixed yes
 set_io GPIO_7_M2F -DIRECTION OUTPUT -pinname H4 -fixed yes
+set_io GPIO_9_IN -DIRECTION INPUT -RES_PULL Up -pinname N1 -fixed yes
 set_io I2C_1_SCL -DIRECTION INOUT -pinname R5 -fixed yes
 set_io I2C_1_SDA -DIRECTION INOUT -pinname R4 -fixed yes
 set_io LED_BLUE_F3 -DIRECTION OUTPUT -pinname F3 -fixed yes

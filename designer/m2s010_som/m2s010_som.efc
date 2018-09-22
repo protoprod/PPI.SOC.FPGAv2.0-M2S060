@@ -18,7 +18,7 @@
         </version>
     </header>
     <nvm>
-        <region name="uBoot" address="0x000000" retrieveAddressFromFile="false" size="89908" format="HEX" type="Data Storage" wordSize="8" numberWords="89908" memFile="C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0/Emcraft_Firmware/u-boot-11-2-17.hex" memType="INTELHEX" memFileTimeStamp="1525974462" clientType="public" program="true">
+        <region name="uBoot" address="0x000000" retrieveAddressFromFile="false" size="89908" format="HEX" type="Data Storage" wordSize="8" numberWords="89908" memFile="C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/Emcraft_Firmware/u-boot-11-2-17.hex" memType="INTELHEX" memFileTimeStamp="1518115195" clientType="public" program="true">
             0000012075030000a1020000a1020000a1020000a1020000a1020000a102
             0000a1020000a1020000a1020000a1020000a1020000a1020000a1020000
             a1020000a1020000a1020000a1020000a1020000a1020000a1020000a102

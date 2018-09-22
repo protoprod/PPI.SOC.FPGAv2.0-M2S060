@@ -8,8 +8,11 @@ define_clock [get_nets {ident_coreinst.comm_block_INST.dr2_tck}] -period {1000.0
 # line 3 in c:/users/gcallsen/documents/githubbf/ppi.soc.fpgav2.0-m2s060/synthesis/rev_coms_debug/instr_sources/syn_dics.sdc
 
 define_attribute {v:*haps_ddr3_controller*} {syn_hier} {fixed}
-define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_17_BI_PAD} {syn_noprune} 1
-define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_18_BI_PAD} {syn_noprune} 1
+define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_9_IN_PAD} {syn_noprune} 1
+define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_10_IN_PAD} {syn_noprune} 1
+define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_17_OUT_PAD} {syn_noprune} 1
+define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_18_OUT_PAD} {syn_noprune} 1
+define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_19_IN_PAD} {syn_noprune} 1
 define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_25_BI_PAD} {syn_noprune} 1
 define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.GPIO_GPIO_26_BI_PAD} {syn_noprune} 1
 define_attribute {i:m2s010_som_sb_0.m2s010_som_sb_MSS_0.I2C_1_SCL_PAD} {syn_noprune} 1

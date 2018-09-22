@@ -3,7 +3,7 @@
 <doc>
 <title>Configuration Report for MSS, SERDES(s), Fabric DDR and Fabric CCC(s)</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP2 (Version 11.8.2.4)</text>
-<text>Date: Sun Sep 09 09:57:21 2018
+<text>Date: Sat Sep 22 10:47:55 2018
 </text>
 <section><name>m2s010_som_sb_0/CCC_0/CCC_INST/INST_CCC_IP</name></section>
 <table>
@@ -1569,7 +1569,7 @@
  <cell>GPIN_SRC_SEL</cell>
  <cell>MSS_GPINSOURCE</cell>
  <cell>INIT[455:424]</cell>
- <cell>32&apos;h08080000</cell>
+ <cell>32&apos;h08000000</cell>
  <cell>INIT[49]</cell>
  <cell>1</cell>
 </row>
@@ -3961,7 +3961,7 @@
  <cell>IOMUXCELL_20_CONFIG</cell>
  <cell>MSS_IOMUXSEL1</cell>
  <cell>INIT[1069:1069]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[110]</cell>
  <cell>1</cell>
 </row>
@@ -3993,7 +3993,7 @@
  <cell>IOMUXCELL_20_CONFIG</cell>
  <cell>MSS_IOMUXSEL4MID</cell>
  <cell>INIT[1073:1073]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[110]</cell>
  <cell>1</cell>
 </row>
@@ -4001,7 +4001,7 @@
  <cell>IOMUXCELL_20_CONFIG</cell>
  <cell>MSS_IOMUXSEL4LOWER</cell>
  <cell>INIT[1074:1074]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[110]</cell>
  <cell>1</cell>
 </row>
@@ -4017,7 +4017,7 @@
  <cell>IOMUXCELL_20_CONFIG</cell>
  <cell>MSS_IOMUXSEL5MID</cell>
  <cell>INIT[1076:1076]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[110]</cell>
  <cell>1</cell>
 </row>
@@ -4025,7 +4025,7 @@
  <cell>IOMUXCELL_20_CONFIG</cell>
  <cell>MSS_IOMUXSEL5LOWER</cell>
  <cell>INIT[1077:1077]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[110]</cell>
  <cell>1</cell>
 </row>
@@ -4041,7 +4041,7 @@
  <cell>IOMUXCELL_21_CONFIG</cell>
  <cell>MSS_IOMUXSEL1</cell>
  <cell>INIT[1079:1079]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[111]</cell>
  <cell>1</cell>
 </row>
@@ -4073,7 +4073,7 @@
  <cell>IOMUXCELL_21_CONFIG</cell>
  <cell>MSS_IOMUXSEL4MID</cell>
  <cell>INIT[1083:1083]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[111]</cell>
  <cell>1</cell>
 </row>
@@ -4081,7 +4081,7 @@
  <cell>IOMUXCELL_21_CONFIG</cell>
  <cell>MSS_IOMUXSEL4LOWER</cell>
  <cell>INIT[1084:1084]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[111]</cell>
  <cell>1</cell>
 </row>
@@ -4097,7 +4097,7 @@
  <cell>IOMUXCELL_21_CONFIG</cell>
  <cell>MSS_IOMUXSEL5MID</cell>
  <cell>INIT[1086:1086]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[111]</cell>
  <cell>1</cell>
 </row>
@@ -4105,7 +4105,7 @@
  <cell>IOMUXCELL_21_CONFIG</cell>
  <cell>MSS_IOMUXSEL5LOWER</cell>
  <cell>INIT[1087:1087]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[111]</cell>
  <cell>1</cell>
 </row>
@@ -4121,7 +4121,7 @@
  <cell>IOMUXCELL_22_CONFIG</cell>
  <cell>MSS_IOMUXSEL1</cell>
  <cell>INIT[1089:1089]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[112]</cell>
  <cell>1</cell>
 </row>
@@ -4153,7 +4153,7 @@
  <cell>IOMUXCELL_22_CONFIG</cell>
  <cell>MSS_IOMUXSEL4MID</cell>
  <cell>INIT[1093:1093]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[112]</cell>
  <cell>1</cell>
 </row>
@@ -4161,7 +4161,7 @@
  <cell>IOMUXCELL_22_CONFIG</cell>
  <cell>MSS_IOMUXSEL4LOWER</cell>
  <cell>INIT[1094:1094]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[112]</cell>
  <cell>1</cell>
 </row>
@@ -4177,7 +4177,7 @@
  <cell>IOMUXCELL_22_CONFIG</cell>
  <cell>MSS_IOMUXSEL5MID</cell>
  <cell>INIT[1096:1096]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[112]</cell>
  <cell>1</cell>
 </row>
@@ -4185,7 +4185,7 @@
  <cell>IOMUXCELL_22_CONFIG</cell>
  <cell>MSS_IOMUXSEL5LOWER</cell>
  <cell>INIT[1097:1097]</cell>
- <cell>1&apos;h0</cell>
+ <cell>1&apos;h1</cell>
  <cell>INIT[112]</cell>
  <cell>1</cell>
 </row>
@@ -4921,7 +4921,7 @@
  <cell>IOMUXCELL_32_CONFIG</cell>
  <cell>MSS_IOMUXSEL1</cell>
  <cell>INIT[1189:1189]</cell>
- <cell>1&apos;h1</cell>
+ <cell>1&apos;h0</cell>
  <cell>INIT[122]</cell>
  <cell>1</cell>
 </row>
@@ -5001,7 +5001,7 @@
  <cell>IOMUXCELL_33_CONFIG</cell>
  <cell>MSS_IOMUXSEL1</cell>
  <cell>INIT[1199:1199]</cell>
- <cell>1&apos;h1</cell>
+ <cell>1&apos;h0</cell>
  <cell>INIT[123]</cell>
  <cell>1</cell>
 </row>

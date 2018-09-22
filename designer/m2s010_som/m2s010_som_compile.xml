@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP2 (Version 11.8.2.4)</text>
-<text>Date: Sun Sep 09 09:54:05 2018
+<text>Date: Sat Sep 22 10:39:33 2018
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -140,15 +140,15 @@
 </row>
 <row>
  <cell>User I/O</cell>
- <cell>113</cell>
+ <cell>116</cell>
  <cell>197</cell>
- <cell>57.36</cell>
+ <cell>58.88</cell>
 </row>
 <row>
  <cell>-- Single-ended I/O</cell>
- <cell>111</cell>
+ <cell>114</cell>
  <cell>197</cell>
- <cell>56.35</cell>
+ <cell>57.87</cell>
 </row>
 <row>
  <cell>-- Differential I/O Pairs</cell>
@@ -408,19 +408,19 @@
 </header>
 <row>
  <cell>Input I/O</cell>
- <cell>16</cell>
+ <cell>20</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
 <row>
  <cell>Output I/O</cell>
- <cell>63</cell>
+ <cell>64</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
 <row>
  <cell>Bidirectional I/O</cell>
- <cell>32</cell>
+ <cell>30</cell>
  <cell>0</cell>
  <cell>0</cell>
 </row>
@@ -451,9 +451,9 @@
  <cell>LVCMOS33</cell>
  <cell> 3.30v</cell>
  <cell> N/A</cell>
- <cell> 15</cell>
- <cell> 36</cell>
- <cell> 12</cell>
+ <cell> 19</cell>
+ <cell> 37</cell>
+ <cell> 10</cell>
 </row>
 <row>
  <cell>LVCMOS18</cell>
@@ -481,8 +481,8 @@
 </header>
 <row>
  <cell>Locked</cell>
- <cell> 96</cell>
- <cell>84.96%</cell>
+ <cell> 99</cell>
+ <cell>85.34%</cell>
 </row>
 <row>
  <cell>Placed</cell>
@@ -492,7 +492,7 @@
 <row>
  <cell>UnPlaced</cell>
  <cell> 17</cell>
- <cell>15.04%</cell>
+ <cell>14.66%</cell>
 </row>
 </table>
 <section><name>Nets assigned to chip global resources</name></section>
