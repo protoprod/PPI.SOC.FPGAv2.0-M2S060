@@ -78,15 +78,6 @@ File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - r
 VHDL syntax check successful!
 File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.cdc changed - recompiling
 File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.cdc changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\CommsFPGA_CCC_0\m2s010_som_CommsFPGA_CCC_0_FCCC.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\CCC_0\m2s010_som_sb_CCC_0_FCCC.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS_syn.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\CommsFPGA_top.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\FABOSC_0\m2s010_som_sb_FABOSC_0_OSC.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb_MSS\m2s010_som_sb_MSS.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som_sb\m2s010_som_sb.vhd changed - recompiling
-File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd changed - recompiling
 File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
 File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
 File C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd\hyperents.vhd changed - recompiling
@@ -499,10 +490,11 @@ Post processing for work.jabber_sm.behavioral
 @N: CD231 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Nib2Ser_SM.vhd":86:23:86:24|Using onehot encoding for type tx_state_type. For example, enumeration idle is mapped to "100000".
 @N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Nib2Ser_SM.vhd":121:3:121:12|Removing redundant assignment.
 @W: CD638 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Nib2Ser_SM.vhd":83:9:83:29|Signal reset_all_pkt_cntrs_c is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD231 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Nib2Ser_SM.vhd":86:23:86:24|Using onehot encoding for type tx_state_type. For example, enumeration idle is mapped to "100000".
 Post processing for work.nib2ser_sm.behavioral
 @W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Nib2Ser_SM.vhd":131:4:131:5|Pruning unused register cnt_tx_pkt_7(15 downto 0). Make sure that there are no unused intermediate registers.
 @W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Nib2Ser_SM.vhd":131:4:131:5|Pruning unused register nibble_cntr_11(11 downto 0). Make sure that there are no unused intermediate registers.
-@W: CL117 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Nib2Ser_SM.vhd":114:4:114:5|Latch generated from process for signal rs_pkt_reg; possible missing assignment in an if or case statement.
+@W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Nib2Ser_SM.vhd":100:4:100:5|Pruning unused register reset_all_pkt_cntrs_d_4(2 downto 0). Make sure that there are no unused intermediate registers.
 Post processing for work.manchesencoder2.behavioral
 @W: CL168 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\ManchesEncoder2.vhd":114:37:114:52|Removing instance COLLISION_DETECT_INT_SYNC because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 @W: CL271 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\ManchesEncoder2.vhd":232:6:232:7|Pruning unused bits 7 to 2 of Jabber_detect_2MII_clr_d_2(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
@@ -667,6 +659,7 @@ State machine has 6 reachable states with original encodings of:
    010000
    100000
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Nib2Ser_SM.vhd":53:4:53:12|Input idle_line is unused.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Nib2Ser_SM.vhd":61:1:61:19|Input reset_all_pkt_cntrs is unused.
 @N: CL201 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Jabber_SM.vhd":91:4:91:5|Trying to extract state machine for register JABBER_STATE.
 Extracted state machine for register JABBER_STATE
 State machine has 3 reachable states with original encodings of:
@@ -885,34 +878,35 @@ State machine has 7 reachable states with original encodings of:
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":186:4:186:24|Input SOFT_SDIF3_CORE_RESET is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":190:4:190:26|Input SOFT_SDIF0_0_CORE_RESET is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vhdl\core\coreresetp.vhd":191:4:191:26|Input SOFT_SDIF0_1_CORE_RESET is unused.
-@W: CL158 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd":97:8:97:18|Inout GPIO_1_BIDI is unused
+@W: CL158 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\component\work\m2s010_som\m2s010_som.vhd":98:8:98:18|Inout GPIO_1_BIDI is unused
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 109MB peak: 114MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 110MB peak: 114MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Sep 22 10:38:59 2018
+# Sun Jan 20 10:42:44 2019
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
 @N|Running in 64-bit mode
+File C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\synwork\layer0.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 75MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Sep 22 10:38:59 2018
+# Sun Jan 20 10:42:44 2019
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Sep 22 10:38:59 2018
+# Sun Jan 20 10:42:44 2019
 
 ###########################################################]

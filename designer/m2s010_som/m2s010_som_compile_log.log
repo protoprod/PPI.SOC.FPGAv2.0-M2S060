@@ -26,24 +26,24 @@ Info: Global design data:
 Info: List of globals that cannot be demoted: 
     CLK    ASYN   DATA   Instance Name 
     ---    ----   ----   ------------- 
-    522    0      0      'CommsFPGA_CCC_0/GL0_INST' 
+    542    0      0      'CommsFPGA_CCC_0/GL0_INST' 
     101    0      0      'm2s010_som_sb_0/CCC_0/GL0_INST' 
     30     0      0      'CommsFPGA_CCC_0/GL1_INST' 
 
 Info: List of globals considered for demotion: 
     CLK    ASYN   DATA   Instance Name 
     ---    ----   ----   ------------- 
-    680    0      0      'ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim' 
+    724    0      0      'ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim' 
     302    0      1      'm2s010_som_sb_0/m2s010_som_sb_MSS_0/MAC_MII_MDC_inferred_clock_RNIHLTC' 
-    180    0      2      'CommsFPGA_top_0/BIT_CLK_inferred_clock_RNIT9E2' 
+    177    0      2      'CommsFPGA_top_0/BIT_CLK_inferred_clock_RNIT9E2' 
     75     0      0      'm2s010_som_sb_0/m2s010_som_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIPG5' 
     73     0      2      'CommsFPGA_top_0/ClkDivider_inferred_clock_RNIFOL7[1]' 
     20     0      0      'm2s010_som_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT' 
     8      0      0      'ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNI2P6B' 
-    3      200    212    'CommsFPGA_top_0/RESET_RNIFEG6' 
+    3      200    210    'CommsFPGA_top_0/RESET_RNIFEG6' 
     1      62     13     'CommsFPGA_top_0/long_reset_RNIUA27' 
     0      301    0      'CommsFPGA_top_0/MDIO_SLAVE_INST/PMAD_rst_reg_RNIH1H9' 
-    0      128    1      'ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb_RNI0GM6' 
+    0      136    1      'ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb_RNI0GM6' 
     0      77     0      'm2s010_som_sb_0/m2s010_som_sb_MSS_0/MSS_ADLIB_INST_RNI1CJ7' 
     0      38     1      'm2s010_som_sb_0/SYSRESET_POR_RNIK2D3' 
     0      33     2      'ident_coreinst/IICE_INST/b5_nUTGT/b11_nUTGT_khWqH/genblk1.b3_nfs_RNIU185[1]' 
@@ -54,7 +54,7 @@ Info: Demotion information:
       Disconnected 1 data pins from global 'm2s010_som_sb_0/m2s010_som_sb_MSS_0/MAC_MII_MDC_inferred_clock_RNIHLTC'. 
       Disconnected 2 data pins from global 'CommsFPGA_top_0/BIT_CLK_inferred_clock_RNIT9E2'. 
       Disconnected 2 data pins from global 'CommsFPGA_top_0/ClkDivider_inferred_clock_RNIFOL7[1]'. 
-      Disconnected 212 data pins from global 'CommsFPGA_top_0/RESET_RNIFEG6'. 
+      Disconnected 210 data pins from global 'CommsFPGA_top_0/RESET_RNIFEG6'. 
       Disconnected 13 data pins from global 'CommsFPGA_top_0/long_reset_RNIUA27'. 
       Disconnected 1 data pins from global 'ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb_RNI0GM6'. 
       Disconnected 1 data pins from global 'm2s010_som_sb_0/SYSRESET_POR_RNIK2D3'. 
@@ -76,4 +76,3 @@ Info: CMPG4-303: Deleted 11 global instances.
 ===============================================================================.
 
 INFO: Reading User PDC file C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/constraint/io/m2s010_som.io.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/constraint/fp/m2s010_som.fp.pdc. 0 error(s) and 0 warning(s)

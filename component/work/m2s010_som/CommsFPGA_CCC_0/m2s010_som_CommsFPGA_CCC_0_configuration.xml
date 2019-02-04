@@ -8,7 +8,7 @@
 </header>
 <row>
  <cell>Date:</cell>
- <cell>Sat Sep 22 10:38:32 2018</cell>
+ <cell>Sun Jan 20 10:51:57 2019</cell>
 </row>
 <separator/>
 <row>
@@ -49,30 +49,20 @@
  <cell>GL0</cell>
  <cell>primary clock</cell>
  <cell>PLL (0)</cell>
- <cell>800 MHz</cell>
+ <cell>980 MHz</cell>
  <cell>163 MHz</cell>
- <cell>160 MHz</cell>
- <cell>5 (GPD0)</cell>
+ <cell>163.333 MHz</cell>
+ <cell>6 (GPD0)</cell>
 </row>
 <separator/>
 <row>
  <cell>GL1</cell>
  <cell>primary clock</cell>
  <cell>PLL (0)</cell>
- <cell>800 MHz</cell>
+ <cell>980 MHz</cell>
  <cell>20 MHz</cell>
  <cell>20 MHz</cell>
- <cell>40 (GPD1)</cell>
-</row>
-<separator/>
-<row>
- <cell>GL2</cell>
- <cell>primary clock</cell>
- <cell>PLL (0)</cell>
- <cell>800 MHz</cell>
- <cell>50 MHz</cell>
- <cell>50 MHz</cell>
- <cell>16 (GPD2)</cell>
+ <cell>49 (GPD1)</cell>
 </row>
 <separator/>
 </table>
@@ -92,11 +82,11 @@
 </row>
 <row>
  <cell>Output frequency</cell>
- <cell>800 MHz</cell>
+ <cell>980 MHz</cell>
 </row>
 <row>
  <cell>VCO frequency</cell>
- <cell>800 MHz</cell>
+ <cell>980 MHz</cell>
 </row>
 <separator/>
 <row>
@@ -118,7 +108,7 @@
 </row>
 <row>
  <cell>CCC feedback divider</cell>
- <cell>40</cell>
+ <cell>49</cell>
 </row>
 <row>
  <cell>External feedback divider</cell>
@@ -193,7 +183,7 @@
 <row>
  <cell>FCCC_FBDIV_CR0</cell>
  <cell>0x04</cell>
- <cell>0x27</cell>
+ <cell>0x30</cell>
  <cell>FBDIV configuration register 0</cell>
 </row>
 <row>
@@ -229,7 +219,7 @@
 <row>
  <cell>FCCC_NGMUX2_CR0</cell>
  <cell>0x0a</cell>
- <cell>0x0a</cell>
+ <cell>0x18</cell>
  <cell>NGMUX2 configuration register 0</cell>
 </row>
 <row>
@@ -265,7 +255,7 @@
 <row>
  <cell>FCCC_GPMUX2_CR</cell>
  <cell>0x10</cell>
- <cell>0x47</cell>
+ <cell>0x58</cell>
  <cell>GPMUX2 configuration register</cell>
 </row>
 <row>
@@ -277,19 +267,19 @@
 <row>
  <cell>FCCC_GPD0_CR</cell>
  <cell>0x12</cell>
- <cell>0x05</cell>
+ <cell>0x06</cell>
  <cell>GPD0 configuration register</cell>
 </row>
 <row>
  <cell>FCCC_GPD1_CR</cell>
  <cell>0x13</cell>
- <cell>0x28</cell>
+ <cell>0x31</cell>
  <cell>GPD1 configuration register</cell>
 </row>
 <row>
  <cell>FCCC_GPD2_CR</cell>
  <cell>0x14</cell>
- <cell>0x10</cell>
+ <cell>0x01</cell>
  <cell>GPD2 configuration register</cell>
 </row>
 <row>
@@ -385,7 +375,7 @@
 <row>
  <cell>FCCC_GPD2_SYNC_CR</cell>
  <cell>0x24</cell>
- <cell>0x03</cell>
+ <cell>0x02</cell>
  <cell>GPD2 operating mode configuration register</cell>
 </row>
 <row>

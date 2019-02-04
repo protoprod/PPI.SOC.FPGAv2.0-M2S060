@@ -1,5 +1,5 @@
 // available hyper connections - for debug and ip models
-// timestamp: 1537627145
+// timestamp: 1547998970
 
 
 `ifndef SYN_HYPER_CONNECT
@@ -106,6 +106,26 @@ syn_hyper_connect manchester_out_connect_0(manchester_out_0);
 defparam manchester_out_connect_0.tag = "CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.manchester_out";
 
 
+wire [3:0] mii_tx_d_0;
+syn_hyper_connect mii_tx_d_connect_0(mii_tx_d_0);
+defparam mii_tx_d_connect_0.w = 4;
+defparam mii_tx_d_connect_0.tag = "CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.mii_tx_d";
+
+
+wire mii_tx_en_0;
+syn_hyper_connect mii_tx_en_connect_0(mii_tx_en_0);
+defparam mii_tx_en_connect_0.tag = "CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.mii_tx_en";
+
+
+wire tx_state_idle_0;
+syn_hyper_connect tx_state_idle_connect_0(tx_state_idle_0);
+defparam tx_state_idle_connect_0.tag = "CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.tx_state_idle";
+
+wire tx_state_idle_1;
+syn_hyper_connect tx_state_idle_connect_1(tx_state_idle_1);
+defparam tx_state_idle_connect_1.tag = "CommsFPGA_top_0.MANCHESTER_DECODER2_INST.RECEIVE_STATE_MACHINE_INST.tx_state_idle";
+
+
 wire i_tx_enable_0;
 syn_hyper_connect i_tx_enable_connect_0(i_tx_enable_0);
 defparam i_tx_enable_connect_0.tag = "CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.i_tx_enable";
@@ -117,20 +137,15 @@ defparam p2s_data_connect_0.w = 4;
 defparam p2s_data_connect_0.tag = "CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.p2s_data";
 
 
+wire [5:0] tx_state_0;
+syn_hyper_connect tx_state_connect_0(tx_state_0);
+defparam tx_state_connect_0.w = 6;
+defparam tx_state_connect_0.tag = "CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.NIBBLE_TO_SERIAL_SM_INST.tx_state";
+
+
 wire bit_clk_0;
 syn_hyper_connect bit_clk_connect_0(bit_clk_0);
 defparam bit_clk_connect_0.tag = "CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.NIBBLE_TO_SERIAL_SM_INST.bit_clk";
-
-
-wire [2:0] reset_all_pkt_cntrs_d_0;
-syn_hyper_connect reset_all_pkt_cntrs_d_connect_0(reset_all_pkt_cntrs_d_0);
-defparam reset_all_pkt_cntrs_d_connect_0.w = 3;
-defparam reset_all_pkt_cntrs_d_connect_0.tag = "CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.NIBBLE_TO_SERIAL_SM_INST.reset_all_pkt_cntrs_d";
-
-
-wire rs_pkt_reg_0;
-syn_hyper_connect rs_pkt_reg_connect_0(rs_pkt_reg_0);
-defparam rs_pkt_reg_connect_0.tag = "CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.NIBBLE_TO_SERIAL_SM_INST.rs_pkt_reg";
 
 
 wire sfd_timeout_0;
@@ -151,10 +166,9 @@ wire irx_center_sample_0;
 syn_hyper_connect irx_center_sample_connect_0(irx_center_sample_0);
 defparam irx_center_sample_connect_0.tag = "CommsFPGA_top_0.MANCHESTER_DECODER2_INST.irx_center_sample";
 
-
-wire reset_all_pkt_cntrs_0;
-syn_hyper_connect reset_all_pkt_cntrs_connect_0(reset_all_pkt_cntrs_0);
-defparam reset_all_pkt_cntrs_connect_0.tag = "CommsFPGA_top_0.MANCHESTER_DECODER2_INST.reset_all_pkt_cntrs";
+wire irx_center_sample_1;
+syn_hyper_connect irx_center_sample_connect_1(irx_center_sample_1);
+defparam irx_center_sample_connect_1.tag = "CommsFPGA_top_0.MANCHESTER_DECODER2_INST.MANCHESTER_DECODER_ADAPTER_INST.irx_center_sample";
 
 
 wire sampler_clk1x_en_0;
@@ -176,11 +190,6 @@ defparam rx_state_connect_0.tag = "CommsFPGA_top_0.MANCHESTER_DECODER2_INST.RECE
 wire rx_byte_valid_0;
 syn_hyper_connect rx_byte_valid_connect_0(rx_byte_valid_0);
 defparam rx_byte_valid_connect_0.tag = "CommsFPGA_top_0.MANCHESTER_DECODER2_INST.RECEIVE_STATE_MACHINE_INST.rx_byte_valid";
-
-
-wire tx_state_idle_0;
-syn_hyper_connect tx_state_idle_connect_0(tx_state_idle_0);
-defparam tx_state_idle_connect_0.tag = "CommsFPGA_top_0.MANCHESTER_DECODER2_INST.RECEIVE_STATE_MACHINE_INST.tx_state_idle";
 
 
 wire clk1x_enable_0;

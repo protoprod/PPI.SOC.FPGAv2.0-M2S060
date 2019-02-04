@@ -1,10 +1,10 @@
 Selecting top level module syn_identify_core
-@N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":4559:7:4559:22|Synthesizing module clock2_en_reg_en in library work.
+@N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":4611:7:4611:22|Synthesizing module clock2_en_reg_en in library work.
 
 	WIDTH=32'b00000000000000000000000000000101
    Generated name = clock2_en_reg_en_5s
 
-@N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":4923:7:4923:17|Synthesizing module b8_nR_ymqrG in library work.
+@N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":4975:7:4975:17|Synthesizing module b8_nR_ymqrG in library work.
 
 	b7_nUTZIuY=32'b00000000000000000000000000001101
 	b8_Nr4_94ip=32'b00000000000000000000000000000101
@@ -15,7 +15,7 @@ Selecting top level module syn_identify_core
 	b8_Wy0n_V8l=32'b00000000000000000000111111111110
    Generated name = b8_nR_ymqrG_13s_5s_0_0s_0s_1_4094
 
-@N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":4637:7:4637:16|Synthesizing module b7_OCByLXC in library work.
+@N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":4689:7:4689:16|Synthesizing module b7_OCByLXC in library work.
 
 	b7_nUTZIuY=32'b00000000000000000000000000001101
 	b13_Ocm0f_TkA86EZ=4'b0000
@@ -46,16 +46,16 @@ Selecting top level module syn_identify_core
 
 @N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":3911:7:3911:18|Synthesizing module b9_O2yyf_fG2 in library work.
 
-@N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":3918:7:3918:25|Synthesizing module b15_CRGcTCua_eH4_Zs in library work.
+@N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":3918:7:3918:25|Synthesizing module b15_CRGcTCua_eH4_Zv in library work.
 
-@N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":4009:7:4009:23|Synthesizing module b13_PSyil9s1fkJ_L in library work.
+@N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":4013:7:4013:23|Synthesizing module b13_PSyil9s1fkJ_L in library work.
 
 @N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":3866:7:3866:14|Synthesizing module b5_nvmFL in library work.
 
-	b5_2Rs0m=32'b00000000000000000000000011110011
-   Generated name = b5_nvmFL_243s
+	b5_2Rs0m=32'b00000000000000000000000100001011
+   Generated name = b5_nvmFL_267s
 
-@N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":4515:7:4515:17|Synthesizing module b8_PfFzrNYI in library work.
+@N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":4567:7:4567:17|Synthesizing module b8_PfFzrNYI in library work.
 
 @N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":3742:7:3742:12|Synthesizing module b3_uKr in library work.
 
@@ -78,11 +78,11 @@ Selecting top level module syn_identify_core
 
 @N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2610:7:2610:23|Synthesizing module b13_vFW_xNywD_EdR in library work.
 
-	b10_oFTt_arxt4=32'b00000000000000000000000001010111
+	b10_oFTt_arxt4=32'b00000000000000000000000001011111
 	b13_iLsGfWL_Gqyva=32'b00000000000000000000000000001101
 	b5_ooG0m=32'b00000000000000000010000000000000
 	b8_vFWZ3nCa=32'b00000000000000000000000000000000
-   Generated name = b13_vFW_xNywD_EdR_87s_13s_8192s_0s
+   Generated name = b13_vFW_xNywD_EdR_95s_13s_8192s_0s
 
 @W: CG133 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2623:27:2623:38|Object b9_SoW_TWsrw_0_ is declared but not assigned. Either assign a value or remove the declaration.
 @W: CG133 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2623:27:2623:38|Object b9_SoW_TWsrw_1_ is declared but not assigned. Either assign a value or remove the declaration.
@@ -16470,10 +16470,10 @@ Selecting top level module syn_identify_core
 @W: CG133 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2624:27:2624:37|Object b8_SoW_rDf1_8190_ is declared but not assigned. Either assign a value or remove the declaration.
 @W: CG133 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2624:27:2624:37|Object b8_SoW_rDf1_8191_ is declared but not assigned. Either assign a value or remove the declaration.
 @W:"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2624:27:2624:37|Some of the address location in the memory "b8_SoW_rDf1" are not assigned.
-@N: CL134 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2649:3:2649:8|Found RAM b3_SoW, depth=8192, width=87
+@N: CL134 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2649:3:2649:8|Found RAM b3_SoW, depth=8192, width=95
 @N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2662:7:2662:21|Synthesizing module b11_SoWyP0zEFKY in library work.
 
-	b9_Vjx_R4Xlx=32'b00000000000000000000000001010111
+	b9_Vjx_R4Xlx=32'b00000000000000000000000001011111
 	b7_crO_j2S=32'b00000000000000000000000000000000
 	b9_crO_R4Xlx=32'b00000000000000000000000000000110
 	b15_c70EHoH_rJ_KWLZ=32'b00000000000000000000000000000000
@@ -16498,13 +16498,13 @@ Selecting top level module syn_identify_core
 @W: CG360 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2710:8:2710:19|Removing wire b9_db5G_vMEj, as there is no assignment to it.
 @W: CG133 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2712:7:2712:21|Object b11_db5G_vMEj_y is declared but not assigned. Either assign a value or remove the declaration.
 @W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2759:4:2759:9|Pruning unused register genblk3[1].b13_oRB_MqCD2_EdR_1_. Make sure that there are no unused intermediate registers.
-@W: CL271 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2751:12:2751:17|Pruning unused bits 86 to 81 of genblk2.b5_oRB_C[86:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2751:12:2751:17|Pruning unused bits 94 to 89 of genblk2.b5_oRB_C[94:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2101:7:2101:21|Synthesizing module b11_OFWNT9s_8tZ in library work.
 
 	b9_Vjx_eo2lx=32'b00000000000000000010000000000000
 	b9_Vjx_R4Xlx=32'b00000000000000000000000000000000
 	b14_Vjx_c8XT_z6GeE=32'b00000000000000000000000000001101
-	b15_Vjx_p21ii_NC2XC=32'b00000000000000000000000001010001
+	b15_Vjx_p21ii_NC2XC=32'b00000000000000000000000001011001
 	b9_WjRr_jVdU=32'b01001001010010010100001101000101
 	b8_Nz1_94ip=32'b00000000000000000000000000000001
 	b7_crO_j2S=32'b00000000000000000000000000000000
@@ -16526,15 +16526,15 @@ Selecting top level module syn_identify_core
 	b17_Wy0n_3VdJTq_21OJY=32'b00000000000000000001111111111111
 	b18_6i_6aB87B_fAXHVtZh=32'b11111111111111111111111111111111
 	b16_Vr2VqA64AQlf_vHB=32'b00000000000000000000000000000000
-	b13_crO_94q_hSaSV=32'b00000000000000000000000001010111
+	b13_crO_94q_hSaSV=32'b00000000000000000000000001011111
 	b11_9ik_ihB_A7m=32'b00000000000000000000000000000000
 	b20_9ik_e697_J4K7vZs02CK=32'b00000000000000000000000000000000
 	b7_ah_9e8H=6'b111000
 	b14_Vl8gboH_z88SbG=6'b111001
    Generated name = b11_OFWNT9s_8tZ_Z3
 
-@W: CS263 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2594:16:2594:34|Port-width mismatch for port b3_oRB. The port definition is 87 bits, but the actual port connection bit width is 81. Adjust either the definition or the instantiation of this port.
-@W: CS263 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2596:18:2596:25|Port-width mismatch for port b5_ofmZd. The port definition is 87 bits, but the actual port connection bit width is 81. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2594:16:2594:34|Port-width mismatch for port b3_oRB. The port definition is 95 bits, but the actual port connection bit width is 89. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2596:18:2596:25|Port-width mismatch for port b5_ofmZd. The port definition is 95 bits, but the actual port connection bit width is 89. Adjust either the definition or the instantiation of this port.
 @W: CL169 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2446:2:2446:7|Pruning unused register b14_2_St6KCa_jHv_9[12:0]. Make sure that there are no unused intermediate registers.
 @A: CL282 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2446:2:2446:7|Feedback mux created for signal b12_PSyi_KyDbLbb[12:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
 @N: CL189 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2435:2:2435:7|Register bit b7_SZJ1fDs is always 0.
@@ -16544,12 +16544,12 @@ Selecting top level module syn_identify_core
 	tag=200'b01001001011001000110010101101110011101000110100101100110011110010101111101001001010010010100001101000101010111110111010001110010011010010110011101100111011001010111001001011111011001010111100001110100
    Generated name = syn_hyper_source_1s_Identify_IICE_trigger_ext
 
-@N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":5114:7:5114:10|Synthesizing module IICE in library work.
+@N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":5166:7:5166:10|Synthesizing module IICE in library work.
 
-@W: CG781 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":5403:1:5403:6|Input b7_OFWNT9L on instance b3_SoW is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG360 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":5220:7:5220:20|Removing wire b10_PbTt39_Y2x, as there is no assignment to it.
-@W: CG360 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":5305:7:5305:27|Removing wire b17_nSFZ2_ME83hHx_kKU, as there is no assignment to it.
-@W: CG360 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":5306:7:5306:21|Removing wire b11_nUTZ3qM_tkL, as there is no assignment to it.
+@W: CG781 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":5461:1:5461:6|Input b7_OFWNT9L on instance b3_SoW is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG360 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":5276:7:5276:20|Removing wire b10_PbTt39_Y2x, as there is no assignment to it.
+@W: CG360 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":5363:7:5363:27|Removing wire b17_nSFZ2_ME83hHx_kKU, as there is no assignment to it.
+@W: CG360 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":5364:7:5364:21|Removing wire b11_nUTZ3qM_tkL, as there is no assignment to it.
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\hypermods.v":31:7:31:32|Synthesizing module syn_hyper_connect_internal in library __hyper__lib__.
 
 	w=32'b00000000000000000000000000000001
@@ -16574,11 +16574,6 @@ Selecting top level module syn_identify_core
 
 	w=32'b00000000000000000000000000000110
    Generated name = syn_hyper_connect_internal_6s
-
-@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\hypermods.v":31:7:31:32|Synthesizing module syn_hyper_connect_internal in library __hyper__lib__.
-
-	w=32'b00000000000000000000000000000011
-   Generated name = syn_hyper_connect_internal_3s
 
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v":687:7:687:11|Synthesizing module UJTAG in library work.
 
@@ -16616,21 +16611,21 @@ Selecting top level module syn_identify_core
 @N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":43:7:43:18|Synthesizing module b9_ORbIwXaEF in library work.
 
 	b15_Vjxmck6TU_NC2XC=32'b00000000000000000000000000100000
-	b15_Vjxmck6TU_kEZUZ=32'b10010100010001011100111101111011
+	b15_Vjxmck6TU_kEZUZ=32'b10010100001010001110011010010000
 	b9_VNkO_AHpU=32'b00000000000000000000000000000000
-   Generated name = b9_ORbIwXaEF_32s_2487603067_0s
+   Generated name = b9_ORbIwXaEF_32s_2485708432_0s
 
 @N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":393:7:393:16|Synthesizing module comm_block in library work.
 
-@N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":5431:7:5431:23|Synthesizing module syn_identify_core in library work.
+@N: CG364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":5489:7:5489:23|Synthesizing module syn_identify_core in library work.
 
-@W: CL156 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":5220:7:5220:20|*Input b10_PbTt39_Y2x to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
-@W: CL247 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2164:34:2164:50|Input port bit 0 of b13_OFWNT9L_bx2TS[81:0] is unused
+@W: CL156 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":5276:7:5276:20|*Input b10_PbTt39_Y2x to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL247 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2164:34:2164:50|Input port bit 0 of b13_OFWNT9L_bx2TS[89:0] is unused
 
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2151:8:2151:13|Input b3_PLy is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2153:8:2153:22|Input b11_nczQ_lzxWLb is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2163:44:2163:53|Input b7_OFWNT9L is unused.
-@W: CL246 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2679:33:2679:38|Input port bits 86 to 81 of b3_oRB[86:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2679:33:2679:38|Input port bits 94 to 89 of b3_oRB[94:0] are unused. Assign logic for all port bits or change the input port size.
 @A: CL153 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2697:27:2697:36|*Unassigned bits of b7_PRWcJ_l[5:0] are referenced and tied to 0 -- simulation mismatch possible.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2677:14:2677:23|Input b7_voSc3_u is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2678:14:2678:45|Input b6_nZ5I_F is unused.
@@ -16638,7 +16633,7 @@ Selecting top level module syn_identify_core
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2681:14:2681:29|Input b12_3AmQIEra2_bd is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2682:14:2682:24|Input b8_ofmZd_YG is unused.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2684:14:2684:23|Input b7_PSyil9s is unused.
-@N: CL201 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":4755:2:4755:7|Trying to extract state machine for register b13_nAzGfFM_sLsv3.
+@N: CL201 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":4807:2:4807:7|Trying to extract state machine for register b13_nAzGfFM_sLsv3.
 Extracted state machine for register b13_nAzGfFM_sLsv3
 State machine has 6 reachable states with original encodings of:
    0000
@@ -16647,5 +16642,5 @@ State machine has 6 reachable states with original encodings of:
    0011
    0100
    1101
-@W: CL249 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":4755:2:4755:7|Initial value is not supported on state machine b13_nAzGfFM_sLsv3
-@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":4956:8:4956:17|Input b7_nFG0rDY is unused.
+@W: CL249 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":4807:2:4807:7|Initial value is not supported on state machine b13_nAzGfFM_sLsv3
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":5008:8:5008:17|Input b7_nFG0rDY is unused.

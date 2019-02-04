@@ -1,0 +1,317 @@
+# Mon Feb 04 09:45:52 2019
+
+Synopsys Generic Technology Pre-mapping, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+Reading constraint file: C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\dbal_debug\instr_sources\syn_dics.sdc
+@L: C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\dbal_debug\m2s010_som_scck.rpt 
+Printing clock  summary report in "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\dbal_debug\m2s010_som_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 118MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 118MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 118MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 118MB)
+
+@W: BN132 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.release_ext_reset because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.SDIF_READY_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance m2s010_som_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance m2s010_som_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MF625 |Insert Identify debug core
+*** Launch instrumentor shell: "C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\identify_instrumentor_shell.exe" -srs_gen_hw "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\dbal_debug\instr_sources\syn_dics.v" -prj "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\m2s010_som_syn.prj" -idb "C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\dbal_debug\identify.db" -curimpl dbal_debug -write_sdc -log C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\dbal_debug\identify.log -tsl TnjRNsmi -idc C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\rev_coms_debug\identify.idc
+Reading constraint file: C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\dbal_debug\instr_sources\syn_dics.sdc
+
+Making connections to hyper_source modules
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5927:28:5927:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_mac_mii_txd_IICE_46, tag m2s010_som_sb_0.mac_mii_txd
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5920:28:5920:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_mac_mii_tx_en_IICE_45, tag m2s010_som_sb_0.mac_mii_tx_en
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5913:28:5913:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_mac_mii_tx_clk_IICE_44, tag m2s010_som_sb_0.mac_mii_tx_clk
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5906:28:5906:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_mac_mii_rxd_IICE_40, tag m2s010_som_sb_0.mac_mii_rxd
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5899:28:5899:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_mac_mii_rx_er_IICE_39, tag m2s010_som_sb_0.mac_mii_rx_er
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5892:28:5892:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_mac_mii_rx_dv_IICE_38, tag m2s010_som_sb_0.mac_mii_rx_dv
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5885:28:5885:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_mac_mii_rx_clk_IICE_37, tag m2s010_som_sb_0.mac_mii_rx_clk
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5878:28:5878:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_mac_mii_mdc_IICE_36, tag m2s010_som_sb_0.mac_mii_mdc
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5871:28:5871:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_mac_mii_crs_IICE_35, tag m2s010_som_sb_0.mac_mii_crs
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5864:28:5864:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_mac_mii_col_IICE_34, tag m2s010_som_sb_0.mac_mii_col
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5857:28:5857:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_manchester_in_IICE_57, tag CommsFPGA_top_0.manchester_in
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5850:28:5850:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_manch_out_p_IICE_53, tag CommsFPGA_top_0.manch_out_p
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5843:28:5843:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_manch_out_n_IICE_51, tag CommsFPGA_top_0.manch_out_n
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5836:28:5836:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_state_idle_IICE_88, tag CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.tx_state_idle
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5829:28:5829:57|Connected syn_hyper_connect ident_coreinst.ident_hyperc_mii_tx_en_IICE_63, tag CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.mii_tx_en
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5822:28:5822:56|Connected syn_hyper_connect ident_coreinst.ident_hyperc_mii_tx_d_IICE_59, tag CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.mii_tx_d
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5815:28:5815:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_manchester_out_IICE_58, tag CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.manchester_out
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5808:28:5808:56|Connected syn_hyper_connect ident_coreinst.ident_hyperc_p2s_data_IICE_65, tag CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.p2s_data
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5801:28:5801:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_jabber_tx_disable_IICE_33, tag CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.jabber_tx_disable
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5794:28:5794:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_i_tx_enable_IICE_26, tag CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.i_tx_enable
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5787:28:5787:54|Connected syn_hyper_connect ident_coreinst.ident_hyperc_bit_clk_IICE_0, tag CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.NIBBLE_TO_SERIAL_SM_INST.bit_clk
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5780:28:5780:56|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_state_IICE_81, tag CommsFPGA_top_0.MANCHESTER_ENCODER_2_INST.NIBBLE_TO_SERIAL_SM_INST.tx_state
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5773:28:5773:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_start_bit_mask_IICE_80, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.start_bit_mask
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5766:28:5766:64|Connected syn_hyper_connect ident_coreinst.ident_hyperc_sampler_clk1x_en_IICE_77, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.sampler_clk1x_en
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5759:28:5759:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_irx_center_sample_IICE_32, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.irx_center_sample
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5752:28:5752:57|Connected syn_hyper_connect ident_coreinst.ident_hyperc_idle_line_IICE_27, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.idle_line
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5745:28:5745:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_tx_state_idle_IICE_87, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.RECEIVE_STATE_MACHINE_INST.tx_state_idle
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5738:28:5738:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_sfd_timeout_IICE_79, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.RECEIVE_STATE_MACHINE_INST.sfd_timeout
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5731:28:5731:61|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_byte_valid_IICE_69, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.RECEIVE_STATE_MACHINE_INST.rx_byte_valid
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5724:28:5724:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_clk1x_enable_IICE_2, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.RECEIVE_STATE_MACHINE_INST.clk1x_enable
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5717:28:5717:56|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_state_IICE_71, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.RECEIVE_STATE_MACHINE_INST.rx_state
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5710:28:5710:63|Connected syn_hyper_connect ident_coreinst.ident_hyperc_missed_sfd_flag_IICE_64, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.RECEIVE_STATE_MACHINE_INST.missed_sfd_flag
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5703:28:5703:64|Connected syn_hyper_connect ident_coreinst.ident_hyperc_i_start_bit_mask_IICE_25, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.RECEIVE_STATE_MACHINE_INST.i_start_bit_mask
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5696:28:5696:67|Connected syn_hyper_connect ident_coreinst.ident_hyperc_i_rx_packet_end_all_IICE_24, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.RECEIVE_STATE_MACHINE_INST.i_rx_packet_end_all
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5689:28:5689:54|Connected syn_hyper_connect ident_coreinst.ident_hyperc_cnt_sfd_IICE_8, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.RECEIVE_STATE_MACHINE_INST.cnt_sfd
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5682:28:5682:66|Connected syn_hyper_connect ident_coreinst.ident_hyperc_manches_transition_IICE_56, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.MANCHESTER_DECODER_ADAPTER_INST.manches_transition
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5675:28:5675:64|Connected syn_hyper_connect ident_coreinst.ident_hyperc_manches_shiftreg_IICE_54, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.MANCHESTER_DECODER_ADAPTER_INST.manches_shiftreg
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5668:28:5668:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_irx_center_sample_IICE_31, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.MANCHESTER_DECODER_ADAPTER_INST.irx_center_sample
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5661:28:5661:57|Connected syn_hyper_connect ident_coreinst.ident_hyperc_inrz_data_IICE_30, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.MANCHESTER_DECODER_ADAPTER_INST.inrz_data
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5654:28:5654:63|Connected syn_hyper_connect ident_coreinst.ident_hyperc_imanches_in_dly_IICE_28, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.MANCHESTER_DECODER_ADAPTER_INST.imanches_in_dly
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5647:28:5647:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_clock_adjust_IICE_7, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.MANCHESTER_DECODER_ADAPTER_INST.clock_adjust
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5640:28:5640:53|Connected syn_hyper_connect ident_coreinst.ident_hyperc_clkdiv_IICE_3, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.MANCHESTER_DECODER_ADAPTER_INST.clkdiv
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5633:28:5633:65|Connected syn_hyper_connect ident_coreinst.ident_hyperc_rx_packet_end_all_IICE_70, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.MANCHESTER_DECODER_ADAPTER_INST.rx_packet_end_all
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5626:28:5626:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_clk1x_enable_IICE_1, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.MANCHESTER_DECODER_ADAPTER_INST.clk1x_enable
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5619:28:5619:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_sfd_timeout_IICE_78, tag CommsFPGA_top_0.MANCHESTER_DECODER2_INST.sfd_timeout
+Multiple choices found for hypersource manch_out_p; they are 
+0	 ident_hs_MANCH_OUT_P
+1	 CommsFPGA_top_0.ident_hs_MANCH_OUT_P
+Choosing : ident_hs_MANCH_OUT_P 
+
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5612:28:5612:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_manch_out_p_IICE_52, tag manch_out_p
+Multiple choices found for hypersource manch_out_n; they are 
+0	 ident_hs_MANCH_OUT_N
+1	 CommsFPGA_top_0.ident_hs_MANCH_OUT_N
+Choosing : ident_hs_MANCH_OUT_N 
+
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5605:28:5605:59|Connected syn_hyper_connect ident_coreinst.ident_hyperc_manch_out_n_IICE_50, tag manch_out_n
+@N: BN397 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5598:28:5598:46|Connected syn_hyper_connect ident_coreinst.ident_hyperc_clk16x, tag CommsFPGA_top_0.clk16x
+@W: MO129 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\mii_datagen.vhd":112:6:112:7|Sequential instance CommsFPGA_top_0.TEST_DATA_GENERATER_INST.i_MII_TX_EN is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.sm1_areset_n_clk_base is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF0_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF1_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF2_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF3_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF0_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF1_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF2_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.SDIF3_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1331:8:1331:9|Sequential instance m2s010_som_sb_0.CORERESETP_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\edge_detect.vhd":78:4:78:5|Sequential instance CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.INTERRUPT_INST.MII_RX_DATA_FAIL_INT_SYNC.sig_edge_detect is reduced to a combinational gate by constant propagation.
+@N: BN115 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\commsfpga_top.vhd":497:40:497:55|Removing instance TEST_DATA_GENERATER_INST (in view: work.CommsFPGA_top(behavioral)) of type view:work.MII_DataGen(behavioral) because it does not drive other instances.
+@N: BN115 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\commsfpga_top.vhd":518:38:518:55|Removing instance TEST_DATA_CHECKER_INST (in view: work.CommsFPGA_top(behavioral)) of type view:work.MII_DataCheck(behavioral) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance FDDR_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF0_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF1_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF2_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF3_PENABLE_0 (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Removing sequential instance EXT_RESET_OUT_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance DDR_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance FDDR_CORE_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\mii_datagen.vhd":112:6:112:7|Removing sequential instance i_MII_TX_D[3:0] (in view: work.MII_DataGen(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5109:6:5109:11|Removing sequential instance genblk4\.b9_ibScJX_E2 (in view: VhdlGenLib.b8_nR_ymqrG_13s_5s_0_0s_0s_1_4094_x(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":4817:2:4817:7|Removing sequential instance b13_xYTFKCkrt_FH9 (in view: VhdlGenLib.b7_OCByLXC_Z1_x(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\work\clock_domain_buffer\clock_domain_buffer_0\rtl\vhdl\core\corefifo_async.vhd":945:6:945:7|Removing sequential instance afull_r (in view: corefifo_lib.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5133:2:5133:7|Removing sequential instance b11_ibScJX_E2_P (in view: VhdlGenLib.b8_nR_ymqrG_13s_5s_0_0s_0s_1_4094_x(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1376:8:1376:9|Removing sequential instance sm2_state[0:1] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance sdif0_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance sdif1_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance sdif2_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance sdif3_state[0:3] (in view: work.CoreResetP(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\work\clock_domain_buffer\clock_domain_buffer_0\rtl\vhdl\core\corefifo_async.vhd":876:6:876:7|Removing sequential instance underflow_r (in view: corefifo_lib.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\work\clock_domain_buffer\clock_domain_buffer_0\rtl\vhdl\core\corefifo_async.vhd":945:6:945:7|Removing sequential instance overflow_r (in view: corefifo_lib.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_async(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\commsfpga_top.vhd":397:4:397:5|Removing sequential instance Collision_det[23:0] (in view: work.CommsFPGA_top(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Removing sequential instance sm2_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_clk_base (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":792:8:792:9|Removing sequential instance sm2_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\commsfpga_top.vhd":384:4:384:5|Removing sequential instance Tx_Data_d2[7:0] (in view: work.CommsFPGA_top(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: MT480 :"c:/users/gcallsen/documents/githubbf/ppi.soc.fpgav2.0-m2s060/synthesis/dbal_debug/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 
+syn_allowed_resources : blockrams=69  set on top level netlist m2s010_som
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 149MB peak: 151MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                                                 Requested     Requested     Clock        Clock                    Clock
+Clock                                                                 Frequency     Period        Type         Group                    Load 
+---------------------------------------------------------------------------------------------------------------------------------------------
+CommsFPGA_top|BIT_CLK_inferred_clock                                  100.0 MHz     10.000        inferred     Inferred_clkgroup_3      267  
+CommsFPGA_top|ClkDivider_inferred_clock[1]                            100.0 MHz     10.000        inferred     Inferred_clkgroup_2      277  
+System                                                                100.0 MHz     10.000        system       system_clkgroup          15   
+ident_coreinst.comm_block_INST.dr2_tck                                1.0 MHz       1000.000      declared     identify_jtag_group1     8    
+jtag_interface_x|b9_nv_oQwfYF                                         100.0 MHz     10.000        inferred     Inferred_clkgroup_10     19   
+jtag_interface_x|b10_8Kz_rKlrtX                                       100.0 MHz     10.000        inferred     Inferred_clkgroup_9      8    
+jtag_interface_x|identify_clk_int_inferred_clock                      100.0 MHz     10.000        inferred     Inferred_clkgroup_8      775  
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock                100.0 MHz     10.000        inferred     Inferred_clkgroup_0      683  
+m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock                100.0 MHz     10.000        inferred     Inferred_clkgroup_1      40   
+m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock                       100.0 MHz     10.000        inferred     Inferred_clkgroup_5      113  
+m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_7      31   
+m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                     100.0 MHz     10.000        inferred     Inferred_clkgroup_6      109  
+m2s010_som_sb_MSS|MAC_MII_MDC_inferred_clock                          100.0 MHz     10.000        inferred     Inferred_clkgroup_4      391  
+m2s010_som_sb|BIBUF_1_Y_inferred_clock                                100.0 MHz     10.000        inferred     Inferred_clkgroup_11     1    
+=============================================================================================================================================
+
+@W: MT532 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\edge_detect.vhd":78:4:78:5|Found signal identified as System clock which controls 15 sequential elements including CommsFPGA_top_0.PROCESSOR_INTERFACE_INST.INTERRUPT_INST.COLLISION_DETECT_INT_SYNC.sig_edge_detect.  Using this clock, which has no specified timing constraint, can adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\idlelinedetector.vhd":78:4:78:5|Found inferred clock m2s010_som_CommsFPGA_CCC_0_FCCC|GL0_net_inferred_clock which controls 683 sequential elements including CommsFPGA_top_0.IDLE_LINE_DETECTOR.idle_line_cntr[15:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\tx_collision_detector2.vhd":94:4:94:5|Found inferred clock m2s010_som_CommsFPGA_CCC_0_FCCC|GL1_net_inferred_clock which controls 40 sequential elements including CommsFPGA_top_0.COLLISION_DETECTOR_INST.TX_collision_detect. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\work\m2s010_som_sb_mss\m2s010_som_sb_mss.vhd":2164:0:2164:13|Found inferred clock CommsFPGA_top|ClkDivider_inferred_clock[1] which controls 277 sequential elements including m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\debounce.vhd":49:4:49:5|Found inferred clock CommsFPGA_top|BIT_CLK_inferred_clock which controls 267 sequential elements including CommsFPGA_top_0.TRIPLE_DEBOUNCE_INST.DEBOUNCE_0_INST.debounce_cntr_0[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\mdio_slave_interface.vhd":296:6:296:7|Found inferred clock m2s010_som_sb_MSS|MAC_MII_MDC_inferred_clock which controls 391 sequential elements including CommsFPGA_top_0.MDIO_SLAVE_INST.md_transfer_cnt_reset. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Found inferred clock m2s010_som_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 113 sequential elements including m2s010_som_sb_0.CORERESETP_0.sm0_state[0:6]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":517:8:517:9|Found inferred clock m2s010_som_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock which controls 109 sequential elements including m2s010_som_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY_0. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreresetp\7.0.104\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Found inferred clock m2s010_som_sb_FABOSC_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock which controls 31 sequential elements including m2s010_som_sb_0.CORERESETP_0.count_ddr[13:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":4672:3:4672:8|Found inferred clock jtag_interface_x|identify_clk_int_inferred_clock which controls 775 sequential elements including ident_coreinst.IICE_INST.b5_nUTGT.iclksync.dout[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":344:6:344:11|Found inferred clock jtag_interface_x|b10_8Kz_rKlrtX which controls 8 sequential elements including ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\dbal_debug\instr_sources\syn_dics.v":5080:6:5080:11|Found inferred clock jtag_interface_x|b9_nv_oQwfYF which controls 19 sequential elements including ident_coreinst.IICE_INST.b5_nUTGT.b11_nUTGT_khWqH.genblk3\.b8_vABZ3qsY. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\work\m2s010_som_sb_mss\m2s010_som_sb_mss.vhd":2164:0:2164:13|Found inferred clock m2s010_som_sb|BIBUF_1_Y_inferred_clock which controls 1 sequential elements including m2s010_som_sb_0.m2s010_som_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: MT480 :"c:/users/gcallsen/documents/githubbf/ppi.soc.fpgav2.0-m2s060/synthesis/dbal_debug/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 
+@N: BN225 |Writing default property annotation file C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\synthesis\dbal_debug\m2s010_som.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 151MB)
+
+Encoding state machine state[0:2] (in view: work.CoreConfigP(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine sm0_state[0:6] (in view: work.CoreResetP(rtl))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine Idle_Debug_SM[0:4] (in view: work.IdleLineDetector_1(behavioral))
+original code -> new code
+   0000 -> 00001
+   0001 -> 00010
+   0010 -> 00100
+   0011 -> 01000
+   0100 -> 10000
+Encoding state machine slave_state[0:8] (in view: work.mdio_slave_interface(translated))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+Encoding state machine JABBER_STATE[0:2] (in view: work.Jabber_SM(behavioral))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine TX_STATE[0:5] (in view: work.Nib2Ser_SM(behavioral))
+original code -> new code
+   000001 -> 000000
+   000010 -> 000011
+   000100 -> 000101
+   001000 -> 001001
+   010000 -> 010001
+   100000 -> 100001
+Encoding state machine RX_STATE[0:5] (in view: work.RX_SM(behavioral))
+original code -> new code
+   000001 -> 000000
+   000010 -> 000011
+   000100 -> 000101
+   001000 -> 001001
+   010000 -> 010001
+   100000 -> 100001
+Encoding state machine Idle_Debug_SM[0:4] (in view: work.IdleLineDetector_0(behavioral))
+original code -> new code
+   0000 -> 00001
+   0001 -> 00010
+   0010 -> 00100
+   0011 -> 01000
+   0100 -> 10000
+Encoding state machine FIFO_Read_SM[0:4] (in view: work.ManchesDecoder2(v1))
+original code -> new code
+   0000 -> 00000
+   0001 -> 00011
+   0010 -> 00101
+   0011 -> 01001
+   0100 -> 10001
+Encoding state machine b13_nAzGfFM_sLsv3[5:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x(verilog))
+original code -> new code
+   0000 -> 000001
+   0001 -> 000010
+   0010 -> 000100
+   0011 -> 001000
+   0100 -> 010000
+   1101 -> 100000
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\commsfpga_top.vhd":384:4:384:5|Removing sequential instance Tx_Data_d1[4] (in view: work.CommsFPGA_top(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\commsfpga_top.vhd":384:4:384:5|Removing sequential instance Tx_Data_d1[5] (in view: work.CommsFPGA_top(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\commsfpga_top.vhd":384:4:384:5|Removing sequential instance Tx_Data_d1[6] (in view: work.CommsFPGA_top(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\commsfpga_top.vhd":384:4:384:5|Removing sequential instance Tx_Data_d1[7] (in view: work.CommsFPGA_top(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\commsfpga_top.vhd":384:4:384:5|Removing sequential instance Tx_Data_d1[0] (in view: work.CommsFPGA_top(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\commsfpga_top.vhd":384:4:384:5|Removing sequential instance Tx_Data_d1[1] (in view: work.CommsFPGA_top(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\commsfpga_top.vhd":384:4:384:5|Removing sequential instance Tx_Data_d1[2] (in view: work.CommsFPGA_top(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\commsfpga_top.vhd":384:4:384:5|Removing sequential instance Tx_Data_d1[3] (in view: work.CommsFPGA_top(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\work\clock_domain_buffer\clock_domain_buffer_0\rtl\vhdl\core\corefifo_doublesync.vhd":84:6:84:7|Removing sequential instance sync_out_xhdl1[0] (in view: corefifo_lib.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_doubleSync_0_7(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\work\clock_domain_buffer\clock_domain_buffer_0\rtl\vhdl\core\corefifo_doublesync.vhd":84:6:84:7|Removing sequential instance sync_int[0] (in view: corefifo_lib.CLOCK_DOMAIN_BUFFER_CLOCK_DOMAIN_BUFFER_0_corefifo_doubleSync_0_7(translated)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\edge_detect.vhd":90:4:90:5|Removing sequential instance sig_clr_sync[1] (in view: work.Edge_Detect_1(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\edge_detect.vhd":90:4:90:5|Removing sequential instance sig_clr_sync[0] (in view: work.Edge_Detect_1(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance paddr[11] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[16] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[17] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[18] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[19] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[20] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[21] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[22] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[23] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[24] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[25] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[26] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[27] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[28] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[29] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[30] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[31] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 151MB peak: 153MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 64MB peak: 153MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:02s cputime
+# Mon Feb 04 09:45:56 2019
+
+###########################################################]

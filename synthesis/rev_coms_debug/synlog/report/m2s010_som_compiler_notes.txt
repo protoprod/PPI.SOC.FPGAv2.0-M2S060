@@ -72,6 +72,7 @@
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Nib2Ser_SM.vhd":49:7:49:16|Synthesizing work.nib2ser_sm.behavioral.
 @N: CD231 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Nib2Ser_SM.vhd":86:23:86:24|Using onehot encoding for type tx_state_type. For example, enumeration idle is mapped to "100000".
 @N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Nib2Ser_SM.vhd":121:3:121:12|Removing redundant assignment.
+@N: CD231 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Nib2Ser_SM.vhd":86:23:86:24|Using onehot encoding for type tx_state_type. For example, enumeration idle is mapped to "100000".
 @N: CD630 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":48:7:48:11|Synthesizing work.up_if.behavioral.
 @N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":184:8:184:19|Removing redundant assignment.
 @N: CD364 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":214:10:214:29|Removing redundant assignment.
@@ -139,6 +140,7 @@
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\uP_if.vhd":50:4:50:6|Input rst is unused.
 @N: CL201 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Nib2Ser_SM.vhd":131:4:131:5|Trying to extract state machine for register TX_STATE.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Nib2Ser_SM.vhd":53:4:53:12|Input idle_line is unused.
+@N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Nib2Ser_SM.vhd":61:1:61:19|Input reset_all_pkt_cntrs is unused.
 @N: CL201 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\Jabber_SM.vhd":91:4:91:5|Trying to extract state machine for register JABBER_STATE.
 @N: CL201 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\IdleLineDetector.vhd":118:6:118:7|Trying to extract state machine for register Idle_Debug_SM.
 @N: CL159 :"C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\hdl\IdleLineDetector.vhd":49:4:49:12|Input TX_Enable is unused.

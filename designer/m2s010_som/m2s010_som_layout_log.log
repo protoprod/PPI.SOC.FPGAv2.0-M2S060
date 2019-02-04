@@ -9,13 +9,13 @@ TDPR scenario            : Primary
 
 
 Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 99 fixed I/O macros, 16 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified 99 fixed I/O macros, 17 unfixed I/O macros
 
 I/O Bank and Globals Assigner completed successfully.
-Total time spent in I/O Bank and Globals Assigner: 1 seconds
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V4.0 - 11.8.2 
-Design: m2s010_som                      Started: Sat Sep 22 10:45:21 2018
+Design: m2s010_som                      Started: Mon Feb 04 09:46:54 2019
 
 Initializing High-Effort Timing-Driven Placement ...
 While analyzing gated clock network, ambiguities have been found on gates CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/REG_READ_PROC.un18_read_reg_en_i_o2_RNI2COS:Y, CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/read_reg_en_RNI77EH2:Y.
@@ -23,44 +23,86 @@ The timing models of these gates have been simplified for Static Timing Analysis
 Placing design...
 End of placement.
 Pre-Placement Runtime        : 3 seconds
-Placement Runtime            : 32 seconds
+Placement Runtime            : 35 seconds
 
 Placer completed successfully.
 
 Design: m2s010_som                      
-Finished: Sat Sep 22 10:46:25 2018
-Total CPU Time:     00:01:02            Total Elapsed Time: 00:01:04
-Total Memory Usage: 509.0 Mbytes
+Finished: Mon Feb 04 09:48:03 2019
+Total CPU Time:     00:01:06            Total Elapsed Time: 00:01:09
+Total Memory Usage: 529.2 Mbytes
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\m2s010_somStarted: Sat Sep 22 10:46:32 2018
+Design: C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\m2s010_somStarted: Mon Feb 04 09:48:10 2019
 
 While analyzing gated clock network, ambiguities have been found on gates CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/REG_READ_PROC.un18_read_reg_en_i_o2_RNI2COS:Y, CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/read_reg_en_RNI77EH2:Y.
 The timing models of these gates have been simplified for Static Timing Analysis.
-Final stats: search run time 3.184283
+Final stats: search run time 3.520888
 
 Timing-driven Router completed successfully.
 
 Design: C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\m2s010_som
-Finished: Sat Sep 22 10:47:22 2018
-Total CPU Time:     00:00:47            Total Elapsed Time: 00:00:50
-Total Memory Usage: 2038.7 Mbytes
+Finished: Mon Feb 04 09:49:02 2019
+Total CPU Time:     00:00:49            Total Elapsed Time: 00:00:52
+Total Memory Usage: 2042.5 Mbytes
                         o - o - o - o - o - o
 
 While analyzing gated clock network, ambiguities have been found on gates CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/REG_READ_PROC.un18_read_reg_en_i_o2_RNI2COS:Y, CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/read_reg_en_RNI77EH2:Y.
 The timing models of these gates have been simplified for Static Timing Analysis.
 Info: Iteration 1:
+  Total violating paths eligible for improvement: 1
+  Worst minimum delay slack: -0.218 ns
+
+Router 
+Design: C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\m2s010_somStarted: Mon Feb 04 09:49:30 2019
+
+Loading routing information for ECO mode...
+After loading previous routing information: Shorts = 0. Open nets = 3.
+Final stats: search run time 0.021582
+
+Router completed successfully.
+
+Design: C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\m2s010_som
+Finished: Mon Feb 04 09:49:49 2019
+Total CPU Time:     00:00:18            Total Elapsed Time: 00:00:19
+Total Memory Usage: 1852.4 Mbytes
+                        o - o - o - o - o - o
+
+While analyzing gated clock network, ambiguities have been found on gates CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/REG_READ_PROC.un18_read_reg_en_i_o2_RNI2COS:Y, CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/read_reg_en_RNI77EH2:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.
+Info: Iteration 2:
+  Total violating paths eligible for improvement: 6
+  Worst minimum delay slack: -0.249 ns
+
+Router 
+Design: C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\m2s010_somStarted: Mon Feb 04 09:50:17 2019
+
+Loading routing information for ECO mode...
+After loading previous routing information: Shorts = 0. Open nets = 3.
+Final stats: search run time 0.051539
+
+Router completed successfully.
+
+Design: C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\m2s010_som
+Finished: Mon Feb 04 09:50:37 2019
+Total CPU Time:     00:00:18            Total Elapsed Time: 00:00:20
+Total Memory Usage: 1852.4 Mbytes
+                        o - o - o - o - o - o
+
+While analyzing gated clock network, ambiguities have been found on gates CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/REG_READ_PROC.un18_read_reg_en_i_o2_RNI2COS:Y, CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/read_reg_en_RNI77EH2:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.
+Info: Iteration 3:
   Total violating paths eligible for improvement: 0
   Worst minimum delay slack: 
 Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 3468 | 56520 | 6.14       |
-| DFF           | 3451 | 56520 | 6.11       |
+| 4LUT          | 3661 | 56520 | 6.48       |
+| DFF           | 3647 | 56520 | 6.45       |
 | I/O Register  | 0    | 591   | 0.00       |
-| Logic Element | 3992 | 56520 | 7.06       |
+| Logic Element | 4170 | 56520 | 7.38       |
 +---------------+------+-------+------------+
 

@@ -3,7 +3,7 @@
 @N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\edge_detect.vhd":90:4:90:5|Removing sequential instance MII_RX_DATA_FAIL_INT_SYNC.sig_clr_sync[1:0] (in view: work.Interrupts(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\commsfpga_top.vhd":478:4:478:5|Removing sequential instance gen_data_delay[9:0] (in view: work.CommsFPGA_top(behavioral)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\commsfpga_top.vhd":384:4:384:5|Removing sequential instance Tx_Data_d1[7:0] (in view: work.CommsFPGA_top(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":5423:2:5423:7|Removing sequential instance b13_PSyil9s_99H_L (in view: VhdlGenLib.IICE_x(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":5481:2:5481:7|Removing sequential instance b13_PSyil9s_99H_L (in view: VhdlGenLib.IICE_x(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
 @N: MT480 :"c:/users/gcallsen/documents/githubbf/ppi.soc.fpgav2.0-m2s060/synthesis/rev_coms_debug/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 
 @N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[16] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance pwdata[17] (in view: work.CoreConfigP(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
@@ -44,8 +44,8 @@
 @N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\rx_sm.vhd":139:4:139:5|Found counter in view:work.RX_SM(behavioral) instance start_bit_cntr[15:0] 
 @N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\idlelinedetector.vhd":78:4:78:5|Found counter in view:work.IdleLineDetector_0(behavioral) instance idle_line_cntr[15:0] 
 @N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\idlelinedetector.vhd":118:6:118:7|Found counter in view:work.IdleLineDetector_0(behavioral) instance prbs_gen_hold[11:0] 
-@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":4735:2:4735:7|Found counter in view:VhdlGenLib.b7_OCByLXC_Z1_x(verilog) instance b7_nYhI39s[12:0] 
-@N: FX403 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2649:3:2649:8|Property "block_ram" or "no_rw_check" found for RAM b3_SoW.b3_SoW[80:0] with specified coding style. Inferring block RAM.
+@N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":4787:2:4787:7|Found counter in view:VhdlGenLib.b7_OCByLXC_Z1_x(verilog) instance b7_nYhI39s[12:0] 
+@N: FX403 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2649:3:2649:8|Property "block_ram" or "no_rw_check" found for RAM b3_SoW.b3_SoW[88:0] with specified coding style. Inferring block RAM.
 @N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2497:10:2497:15|Found counter in view:VhdlGenLib.b11_OFWNT9s_8tZ_Z3_x(verilog) instance genblk9\.b9_v_mzCDYXs[12:0] 
 @N: MO231 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\synthesis\rev_coms_debug\instr_sources\syn_dics.v":2446:2:2446:7|Found counter in view:VhdlGenLib.b11_OFWNT9s_8tZ_Z3_x(verilog) instance b12_2_St6KCa_jHv[12:0] 
 @N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\hdl\idlelinedetector.vhd":118:6:118:7|Removing sequential instance CommsFPGA_top_0.MANCHESTER_DECODER2_INST.MANCHESTER_DECODER_ADAPTER_INST.RX_IDLE_LINE_DETECTOR.Idle_Debug_SM[0] (in view: work.m2s010_som(rtl)) because it does not drive other instances.
@@ -73,19 +73,19 @@
 @N: MF322 |Retiming summary: 0 registers retimed to 0 
 @N: BN362 :"c:\users\gcallsen\documents\githubbf\ppi.soc.fpgav2.0-m2s060\component\actel\directcore\coreconfigp\7.0.105\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance m2s010_som_sb_0.CORECONFIGP_0.paddr[14] (in view: work.m2s010_som(rtl)) because it does not drive other instances.
 @N: FP130 |Promoting Net N_114 on CLKINT  I_5 
-@N: FP130 |Promoting Net CommsFPGA_top_0.MDIO_SLAVE_INST.PMAD_rst_reg on CLKINT  I_439 
-@N: FP130 |Promoting Net m2s010_som_sb_0_MAC_MII_MDC on CLKINT  I_440 
-@N: FP130 |Promoting Net CommsFPGA_top_0.RESET on CLKINT  I_441 
-@N: FP130 |Promoting Net BIT_CLK on CLKINT  I_442 
-@N: FP130 |Promoting Net ident_coreinst.IICE_INST.b5_voSc3 on CLKINT  I_443 
-@N: FP130 |Promoting Net m2s010_som_sb_0.CORECONFIGP_0_APB_S_PRESET_N on CLKINT  I_444 
-@N: FP130 |Promoting Net m2s010_som_sb_0.CORECONFIGP_0_APB_S_PCLK on CLKINT  I_445 
-@N: FP130 |Promoting Net CommsFPGA_top_0_MAC_MII_RX_CLK on CLKINT  I_446 
-@N: FP130 |Promoting Net CommsFPGA_top_0.long_reset on CLKINT  I_447 
-@N: FP130 |Promoting Net m2s010_som_sb_0_POWER_ON_RESET_N on CLKINT  I_448 
-@N: FP130 |Promoting Net ident_coreinst.IICE_INST.b5_nUTGT.b6_nfs_IF[1] on CLKINT  I_449 
-@N: FP130 |Promoting Net m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_450 
-@N: FP130 |Promoting Net m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc on CLKINT  I_451 
+@N: FP130 |Promoting Net CommsFPGA_top_0.MDIO_SLAVE_INST.PMAD_rst_reg on CLKINT  I_461 
+@N: FP130 |Promoting Net m2s010_som_sb_0_MAC_MII_MDC on CLKINT  I_462 
+@N: FP130 |Promoting Net CommsFPGA_top_0.RESET on CLKINT  I_463 
+@N: FP130 |Promoting Net BIT_CLK on CLKINT  I_464 
+@N: FP130 |Promoting Net ident_coreinst.IICE_INST.b5_voSc3 on CLKINT  I_465 
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORECONFIGP_0_APB_S_PRESET_N on CLKINT  I_466 
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORECONFIGP_0_APB_S_PCLK on CLKINT  I_467 
+@N: FP130 |Promoting Net CommsFPGA_top_0_MAC_MII_RX_CLK on CLKINT  I_468 
+@N: FP130 |Promoting Net CommsFPGA_top_0.long_reset on CLKINT  I_469 
+@N: FP130 |Promoting Net m2s010_som_sb_0_POWER_ON_RESET_N on CLKINT  I_470 
+@N: FP130 |Promoting Net ident_coreinst.IICE_INST.b5_nUTGT.b6_nfs_IF[1] on CLKINT  I_471 
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_472 
+@N: FP130 |Promoting Net m2s010_som_sb_0.CORERESETP_0.sm0_areset_n_rcosc on CLKINT  I_473 
 @N: FP130 |Promoting Net hcr_update on CLKINT  I_21 
 @N: MT480 :"c:/users/gcallsen/documents/githubbf/ppi.soc.fpgav2.0-m2s060/synthesis/rev_coms_debug/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 
 @N: MT480 :"c:/users/gcallsen/documents/githubbf/ppi.soc.fpgav2.0-m2s060/synthesis/rev_coms_debug/instr_sources/syn_dics.sdc":2:0:2:0|Assigning clock "ident_coreinst.comm_block_INST.dr2_tck" to command: define_clock n:ident_coreinst.comm_block_INST.dr2_tck -period 1000.0 -clockgroup identify_jtag_group1 

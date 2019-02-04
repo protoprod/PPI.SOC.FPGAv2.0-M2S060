@@ -3,7 +3,7 @@
 <doc>
 <title>Configuration Report for MSS, SERDES(s), Fabric DDR and Fabric CCC(s)</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP2 (Version 11.8.2.4)</text>
-<text>Date: Sat Sep 22 10:47:55 2018
+<text>Date: Mon Feb 04 09:51:13 2019
 </text>
 <section><name>m2s010_som_sb_0/CCC_0/CCC_INST/INST_CCC_IP</name></section>
 <table>
@@ -422,7 +422,7 @@
  <cell>FCCC_FBDIV_CR0</cell>
  <cell>FBDIV[7:0]</cell>
  <cell>INIT[15:8]</cell>
- <cell>8&apos;h27</cell>
+ <cell>8&apos;h30</cell>
 </row>
 <row>
  <cell>FCCC_FBDIV_CR1</cell>
@@ -434,19 +434,19 @@
  <cell>FCCC_GPD0_CR</cell>
  <cell>GPDIV[7:0]</cell>
  <cell>INIT[29:22]</cell>
- <cell>8&apos;h5</cell>
+ <cell>8&apos;h6</cell>
 </row>
 <row>
  <cell>FCCC_GPD1_CR</cell>
  <cell>GPDIV[7:0]</cell>
  <cell>INIT[37:30]</cell>
- <cell>8&apos;h28</cell>
+ <cell>8&apos;h31</cell>
 </row>
 <row>
  <cell>FCCC_GPD2_CR</cell>
  <cell>GPDIV[7:0]</cell>
  <cell>INIT[45:38]</cell>
- <cell>8&apos;h10</cell>
+ <cell>8&apos;h1</cell>
 </row>
 <row>
  <cell>FCCC_GPD3_CR</cell>
@@ -482,7 +482,7 @@
  <cell>FCCC_GPMUX2_CR</cell>
  <cell>SEL_GPMUX2[4:0]</cell>
  <cell>INIT[76:72]</cell>
- <cell>5&apos;h7</cell>
+ <cell>5&apos;h18</cell>
 </row>
 <row>
  <cell>FCCC_GPMUX3_CR</cell>
@@ -518,7 +518,7 @@
  <cell>FCCC_NGMUX2_CR0</cell>
  <cell>SELGL[24:20]</cell>
  <cell>INIT[106:102]</cell>
- <cell>5&apos;ha</cell>
+ <cell>5&apos;h18</cell>
 </row>
 <row>
  <cell>FCCC_NGMUX2_CR1</cell>
@@ -554,7 +554,7 @@
  <cell>FCCC_GPD2_SYNC_CR</cell>
  <cell>RESET_GENEN[2]</cell>
  <cell>INIT[124:124]</cell>
- <cell>1&apos;h1</cell>
+ <cell>1&apos;h0</cell>
 </row>
 <row>
  <cell>FCCC_GPD3_SYNC_CR</cell>

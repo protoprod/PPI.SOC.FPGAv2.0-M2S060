@@ -1,32 +1,32 @@
 Software Version: 11.8.2.4
 Driver : 3.0.0 build 1
-programmer '93272' : FlashPro4
+programmer '90318' : FlashPro4
 Opened 'C:\Users\gcallsen\Documents\GitHubBF\PPI.SOC.FPGAv2.0-M2S060\designer\m2s010_som\m2s010_som_fp\m2s010_som.pro'
 The 'open_project' command succeeded.
 IPD file 'C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/designer/m2s010_som/m2s010_som.ipd' has been loaded successfully.
-DESIGN : m2s010_som;  CHECKSUM : 3386;  PDB_VERSION : 1.9
+DESIGN : m2s010_som;  CHECKSUM : 7F81;  PDB_VERSION : 1.9
 The 'set_programming_file' command succeeded.
 Warning: Programming is already enabled for device 'M2S060T'.
 The 'enable_device' command succeeded.
 The 'set_programming_action' command succeeded.
-programmer '93272' : Scan Chain...
-Warning: programmer '93272' : Vpump has been selected on programmer AND an externally provided Vpump has also been detected. Using externally provided Vpump voltage source.
-programmer '93272' : Check Chain...
-programmer '93272' : Scan and Check Chain PASSED.
-programmer '93272' : device 'M2S060T' : Executing action PROGRAM
-programmer '93272' : device 'M2S060T' : Family: SmartFusion2
-programmer '93272' : device 'M2S060T' : Product:      M2S150
-programmer '93272' : device 'M2S060T' : EXPORT ISC_ENABLE_RESULT[32] = 00776244
-programmer '93272' : device 'M2S060T' : EXPORT CRCERR[1] = 0
-programmer '93272' : device 'M2S060T' : EXPORT EDCERR[1] = 0
-programmer '93272' : device 'M2S060T' : Programming FPGA Array and eNVM...
-programmer '93272' : device 'M2S060T' : ===================================================================================
-programmer '93272' : device 'M2S060T' : EXPORT DSN[128] = 67441f5e7a9658b9773ae210e084eb61
-programmer '93272' : device 'M2S060T' : ===================================================================================
-programmer '93272' : device 'M2S060T' : Finished: Sat Sep 22 10:51:27 2018 (Elapsed time 00:01:18)
-programmer '93272' : device 'M2S060T' : Executing action PROGRAM PASSED.
-programmer '93272' : Chain programming PASSED.
-Chain Programming Finished: Sat Sep 22 10:51:27 2018 (Elapsed time 00:01:18)
+programmer '90318' : Scan Chain...
+Warning: programmer '90318' : Vpump has been selected on programmer AND an externally provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '90318' : Check Chain...
+programmer '90318' : Scan and Check Chain PASSED.
+programmer '90318' : device 'M2S060T' : Executing action PROGRAM
+programmer '90318' : device 'M2S060T' : Family: SmartFusion2
+programmer '90318' : device 'M2S060T' : Product:      M2S150
+programmer '90318' : device 'M2S060T' : EXPORT ISC_ENABLE_RESULT[32] = 007b6348
+programmer '90318' : device 'M2S060T' : EXPORT CRCERR[1] = 0
+programmer '90318' : device 'M2S060T' : EXPORT EDCERR[1] = 0
+programmer '90318' : device 'M2S060T' : Programming FPGA Array and eNVM...
+programmer '90318' : device 'M2S060T' : ===================================================================================
+programmer '90318' : device 'M2S060T' : EXPORT DSN[128] = 40a9181e5d9ad4dd7c003db168f24ba3
+programmer '90318' : device 'M2S060T' : ===================================================================================
+programmer '90318' : device 'M2S060T' : Finished: Mon Feb 04 09:55:08 2019 (Elapsed time 00:01:42)
+programmer '90318' : device 'M2S060T' : Executing action PROGRAM PASSED.
+programmer '90318' : Chain programming PASSED.
+Chain Programming Finished: Mon Feb 04 09:55:08 2019 (Elapsed time 00:01:42)
 
                         o - o - o - o - o - o
 

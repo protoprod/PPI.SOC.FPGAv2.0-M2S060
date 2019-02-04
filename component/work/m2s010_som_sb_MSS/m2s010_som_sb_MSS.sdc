@@ -1,6 +1,6 @@
 set_component m2s010_som_sb_MSS
 # Microsemi Corp.
-# Date: 2018-Sep-22 10:29:42
+# Date: 2019-Feb-04 09:45:23
 #
 
 create_clock -period 28.169 [ get_pins { MSS_ADLIB_INST/CLK_CONFIG_APB } ]

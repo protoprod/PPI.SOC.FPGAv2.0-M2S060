@@ -16,24 +16,24 @@ The file contains the area information from mapper to be displayed as part of th
 <data>519</data>
 </parameter>
 <parameter tooltip="Total Sequential Cells used" name="Sequential Cells">
-<data>1939</data>
+<data>1991</data>
 </parameter>
 <parameter tcl_name="dsp_used" tooltip="Total DSP Blocks (MACC) used" name="DSP Blocks (MACC)">
 <data>0</data>
 </parameter>
 <parameter tooltip="Total I/O Cells used" name="I/O Cells">
-<data>115</data>
+<data>116</data>
 </parameter>
 <parameter tooltip="Total Global Clock Buffers used" name="Global Clock Buffers">
 <data>19</data>
 </parameter>
 <parameter tcl_name="v_ram" tooltip="Total RAM1K18 used" name="RAM1K18">
-<data>41</data>
+<data>45</data>
 </parameter>
 <parameter tcl_name="v_ram" tooltip="Total RAM64x18 used" name="RAM64x18">
 <data>1</data>
 </parameter>
 <parameter tcl_name="total_luts" tooltip="Total LUTs used" name="LUTs">
-<data>1970</data>
+<data>2016</data>
 </parameter>
 </report_table>

@@ -10,8 +10,7 @@ entity m2s010_som_CommsFPGA_CCC_0_FCCC is
     port( XTLOSC : in    std_logic;
           LOCK   : out   std_logic;
           GL0    : out   std_logic;
-          GL1    : out   std_logic;
-          GL2    : out   std_logic
+          GL1    : out   std_logic
         );
 
 end m2s010_som_CommsFPGA_CCC_0_FCCC;
@@ -90,8 +89,7 @@ architecture DEF_ARCH of m2s010_som_CommsFPGA_CCC_0_FCCC is
         );
   end component;
 
-    signal gnd_net, vcc_net, GL0_net, GL1_net, GL2_net
-         : std_logic;
+    signal gnd_net, vcc_net, GL0_net, GL1_net : std_logic;
     signal nc8, nc7, nc6, nc2, nc5, nc4, nc3, nc1 : std_logic;
 
 begin 
@@ -106,16 +104,13 @@ begin
     gnd_inst : GND
       port map(Y => gnd_net);
     
-    GL2_INST : CLKINT
-      port map(A => GL2_net, Y => GL2);
-    
     GL0_INST : CLKINT
       port map(A => GL0_net, Y => GL0);
     
     CCC_INST : CCC
 
-              generic map(INIT => "00" & x"000007FB8000044164001F18C2B09C230739DE40440A01402700",
-         VCOFREQUENCY => 800.000)
+              generic map(INIT => "00" & x"000007FB8000044164000F18C6309C231839DE40404C41803000",
+         VCOFREQUENCY => 980.000)
 
       port map(Y0 => OPEN, Y1 => OPEN, Y2 => OPEN, Y3 => OPEN, 
         PRDATA(7) => nc8, PRDATA(6) => nc7, PRDATA(5) => nc6, 
@@ -141,7 +136,7 @@ begin
         PWDATA(1) => vcc_net, PWDATA(0) => vcc_net, CLK0_PAD => 
         gnd_net, CLK1_PAD => gnd_net, CLK2_PAD => gnd_net, 
         CLK3_PAD => gnd_net, GL0 => GL0_net, GL1 => GL1_net, GL2
-         => GL2_net, GL3 => OPEN, RCOSC_25_50MHZ => gnd_net, 
+         => OPEN, GL3 => OPEN, RCOSC_25_50MHZ => gnd_net, 
         RCOSC_1MHZ => gnd_net, XTLOSC => XTLOSC);
     
 

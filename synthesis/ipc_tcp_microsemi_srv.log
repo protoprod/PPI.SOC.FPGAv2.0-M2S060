@@ -1848,3 +1848,10 @@ Reconnect: 0
 Use ipv6:  0
 
 1533321253 -14:34:13 -1 -ipcServer.RunServer, loop stopped normal.
+1548000397 -11:06:37 -17563916 -ipcServer::ipcServer params
+Port:      58015
+Logfile:   C:/Users/gcallsen/Documents/GitHubBF/PPI.SOC.FPGAv2.0-M2S060/synthesis/ipc_tcp_microsemi_srv.log
+Reconnect: 0
+Use ipv6:  0
+
+1548079925 -09:12:05 -1 -ipcServer.RunServer, loop stopped normal.
